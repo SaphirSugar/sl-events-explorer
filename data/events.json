@@ -1,7 +1,89 @@
 {
-  "status": "unavailable",
-  "updated_at": "2026-11-03T15:35:08.079138+00:00",
-  "source": "https://secondlife.com/events/",
-  "events": [],
-  "message": "No events with verified dates were extractable. The page structure may require an adapter."
+  "status": "ok",
+  "updated_at": "2026-11-03T15:40:38.785555+00:00",
+  "source": "https://secondlife.com/events/index.php?lang=en-US",
+  "events": [
+    {
+      "title": "Brendan Shoreland 12:00 pm @ Trickster's Sounds",
+      "starts_at": "2026-11-03T12:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9472674",
+      "teleport_url": null
+    },
+    {
+      "title": "Lokki Merryman 1:00 pm @ Trickster's Sounds",
+      "starts_at": "2026-11-03T13:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9472686",
+      "teleport_url": null
+    },
+    {
+      "title": "Weekly Bible Study/Discipleship",
+      "starts_at": "2026-11-03T14:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9495490",
+      "teleport_url": null
+    },
+    {
+      "title": "5PM SLT - JOAQUIN GUSTAV LIVE @ THE CELLAR JAZZ CLUB",
+      "starts_at": "2026-11-03T17:00:00-08:00",
+      "venue": "THE CELLAR JAZZ CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9485645",
+      "teleport_url": null
+    },
+    {
+      "title": "6PM SLT - DJ BC SUSSER’S BREAK FROM ALL THAT JAZZ @ THE CELLAR",
+      "starts_at": "2026-11-03T18:00:00-08:00",
+      "venue": "THE CELLAR JAZZ CLUB",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9485657",
+      "teleport_url": null
+    },
+    {
+      "title": "Andreus Gustafson LIVE at ***Starport Omega***",
+      "starts_at": "2026-11-03T19:00:00-08:00",
+      "venue": "Starport Omega",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9486638",
+      "teleport_url": null
+    },
+    {
+      "title": "---Morning Devotion---",
+      "starts_at": "2026-11-04T04:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497815",
+      "teleport_url": null
+    },
+    {
+      "title": "---Morning Prayer---",
+      "starts_at": "2026-11-04T07:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497821",
+      "teleport_url": null
+    },
+    {
+      "title": "English Class. Voice. Pronunciation Practice",
+      "starts_at": "2026-11-04T07:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Other / Unclassified",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498193",
+      "teleport_url": null
+    }
+  ],
+  "message": ""
 }
