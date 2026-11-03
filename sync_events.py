@@ -5,6 +5,8 @@ The JSON schema stays compatible with the Eventide SL frontend.
 """
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -93,6 +95,111 @@ def extract(html, now=None):
     return sorted(collected.values(), key=lambda event: (event['starts_at'], event['title'].casefold()))
 
 
+OFFICIAL_CATEGORIES = {
+    'arts and culture': 'Arts & Culture', 'arts & culture': 'Arts & Culture',
+    'charity/support groups': 'Charity & Support Groups',
+    'commercial': 'Commercial', 'discussion': 'Discussion', 'education': 'Education',
+    'games/contests': 'Games & Contests', 'live dj': 'Live DJ',
+    'live music': 'Live Music', 'miscellaneous': 'Miscellaneous',
+    'nightlife/entertainment': 'Nightlife & Entertainment',
+    'performances': 'Performances', 'spirituality': 'Spirituality', 'sports': 'Sports',
+}
+
+
+def detail_field(soup, field):
+    """Find a labeled field in either a table or a definition-style detail block."""
+    label = field.lower().rstrip(':')
+    for cell in soup.select('td, th, dt, strong, b, label'):
+        if cell.get_text(' ', strip=True).lower().rstrip(':') != label:
+            continue
+        if cell.name in ('td', 'th'):
+            sibling = cell.find_next_sibling(['td', 'th'])
+        elif cell.name == 'dt':
+            sibling = cell.find_next_sibling('dd')
+        else:
+            sibling = cell.find_next_sibling()
+            if sibling is None and cell.parent:
+                sibling = cell.parent.find_next_sibling()
+        if sibling:
+            return sibling.get_text(' ', strip=True), sibling
+    return '', None
+
+
+def detail_image(soup, base_url):
+    """Select the single event-detail photo, excluding logos, avatars and icons."""
+    candidates = []
+    for img in soup.select('img'):
+        src = img.get('src') or img.get('data-src') or img.get('data-original')
+        if not src:
+            continue
+        url = urljoin(base_url, src)
+        if urlparse(url).scheme not in ('https', 'http'):
+            continue
+        hint = ' '.join([src, img.get('class', '') if isinstance(img.get('class'), str) else ' '.join(img.get('class', [])), img.get('alt', '')]).lower()
+        if any(x in hint for x in ('logo', 'avatar', 'icon', 'spinner', 'badge', 'tracking', 'pixel')):
+            continue
+        width = int(img.get('width', 0)) if str(img.get('width', '')).isdigit() else 0
+        height = int(img.get('height', 0)) if str(img.get('height', '')).isdigit() else 0
+        if width and width < 100 or height and height < 100:
+            continue
+        parent = img.find_parent(['main', 'article', 'section', 'div'])
+        parent_hint = ' '.join(parent.get('class', [])) if parent else ''
+        score = (4 if re.search(r'event|detail|content|picture|photo', parent_hint, re.I) else 0)
+        score += (3 if re.search(r'event|picture|photo|image', hint, re.I) else 0)
+        score += (2 if width >= 180 or height >= 180 else 0)
+        candidates.append((score, url))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    return candidates[0][1] if candidates[0][0] >= 2 or len(candidates) == 1 else None
+
+
+def enrich_event(event):
+    url = event['url']
+    if url == SOURCE or urlparse(url).netloc not in ('secondlife.com', 'www.secondlife.com'):
+        return event
+    try:
+        response = requests.get(url, timeout=12, headers={'User-Agent': 'Mozilla/5.0 (compatible; EventideSL/1.0)'})
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        category, _ = detail_field(soup, 'Category')
+        if category:
+            event['category'] = OFFICIAL_CATEGORIES.get(category.casefold(), category)
+            event['official_category'] = True
+        host, _ = detail_field(soup, 'Host')
+        if host:
+            event['host'] = host
+        duration, _ = detail_field(soup, 'Duration')
+        if duration:
+            event['duration'] = duration
+        location, node = detail_field(soup, 'Location')
+        if location:
+            event['venue'] = location
+        if node:
+            link = node.find('a', href=True)
+            if link:
+                teleport = urljoin(url, link['href'])
+                if urlparse(teleport).scheme in ('https', 'http', 'secondlife'):
+                    event['teleport_url'] = teleport
+        event['image_url'] = detail_image(soup, url)
+        # The official event description normally follows the detail fields and image.
+        content = soup.select_one('.event-description, #event-description, .description, #description')
+        if content:
+            description = content.get_text(' ', strip=True)
+            if description and len(description) < 10000:
+                event['description'] = description
+    except (requests.RequestException, ValueError) as exc:
+        print(f"detail skipped for {url}: {type(exc).__name__}")
+    return event
+
+
+def enrich_events(events):
+    # Parallel requests keep the scheduled sync reasonably fast. Failures do not hide events.
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = [pool.submit(enrich_event, event) for event in events]
+        return [future.result() for future in futures]
+
+
 def future_verified_events(previous):
     now = datetime.now(timezone.utc)
     result = []
@@ -123,6 +230,8 @@ def main():
                 except Exception:
                     pass
                 events = extract(page.content())
+                if events:
+                    events = enrich_events(events)
             finally:
                 browser.close()
         if events:
