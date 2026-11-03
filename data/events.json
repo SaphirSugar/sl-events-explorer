@@ -1,17 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-03T21:02:21.118430+00:00",
+  "updated_at": "2026-11-03T23:00:08.432672+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "Weekly Bible Study/Discipleship",
-      "starts_at": "2026-11-03T14:00:00-08:00",
-      "venue": "God's House of Prayer Church - Main campus",
-      "category": "Spiritual & Community",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9495490",
-      "teleport_url": null
-    },
     {
       "title": "5PM SLT - JOAQUIN GUSTAV LIVE @ THE CELLAR JAZZ CLUB",
       "starts_at": "2026-11-03T17:00:00-08:00",
@@ -37,7 +28,8 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9486638",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "Gypsy Dhrua at Villa Lobos 8 pm",
@@ -46,7 +38,8 @@
       "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500311",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "Dee Halostar at Villa Lobos 9 pm",
@@ -55,7 +48,8 @@
       "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500313",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "---Morning Devotion---",
@@ -64,7 +58,8 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497815",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "---Morning Prayer---",
@@ -73,7 +68,8 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497821",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "English Class. Voice. Pronunciation Practice",
@@ -82,7 +78,8 @@
       "category": "Education & Talks",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498193",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "Fall Collection CatS @ KittyCatS!",
@@ -91,7 +88,8 @@
       "category": "Shopping & Fashion",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498637",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "Gothic International Music",
@@ -100,7 +98,8 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500083",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "Marqs DeSade Live at Helle's Angels  1pm",
@@ -109,7 +108,28 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500163",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "Mike00 Carnell Live at Helle's Angels 2pm",
+      "starts_at": "2026-11-04T14:00:00-08:00",
+      "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500164",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "Clairede Dirval live at Helle's Angels 3pm",
+      "starts_at": "2026-11-04T15:00:00-08:00",
+      "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500165",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     }
   ],
   "message": ""
