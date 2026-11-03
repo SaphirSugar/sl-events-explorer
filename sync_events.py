@@ -103,14 +103,20 @@ OFFICIAL_CATEGORIES = {
     'live music': 'Live Music', 'miscellaneous': 'Miscellaneous',
     'nightlife/entertainment': 'Nightlife & Entertainment',
     'performances': 'Performances', 'spirituality': 'Spirituality', 'sports': 'Sports',
+    'musique en direct': 'Live Music', 'musique live': 'Live Music',
+    'arts et culture': 'Arts & Culture', 'associations caritatives et groupes de soutien': 'Charity & Support Groups',
+    'jeux/concours': 'Games & Contests', 'jeux et concours': 'Games & Contests',
+    'divers': 'Miscellaneous', 'vie nocturne/divertissement': 'Nightlife & Entertainment',
+    'spectacles': 'Performances', 'éducation': 'Education',
 }
 
 
 def detail_field(soup, field):
-    """Find a labeled field in either a table or a definition-style detail block."""
-    label = field.lower().rstrip(':')
+    """Read detail labels in table cells, definition lists and inline text."""
+    label = field.casefold()
     for cell in soup.select('td, th, dt, strong, b, label'):
-        if cell.get_text(' ', strip=True).lower().rstrip(':') != label:
+        raw = cell.get_text(' ', strip=True)
+        if raw.casefold().rstrip(':').strip() != label:
             continue
         if cell.name in ('td', 'th'):
             sibling = cell.find_next_sibling(['td', 'th'])
@@ -122,6 +128,19 @@ def detail_field(soup, field):
                 sibling = cell.parent.find_next_sibling()
         if sibling:
             return sibling.get_text(' ', strip=True), sibling
+        if cell.parent:
+            text = cell.parent.get_text(' ', strip=True)
+            match = re.match(r'^' + re.escape(field) + r'\s*:\s*(.+)$', text, re.I)
+            if match:
+                return match.group(1).strip(), cell.parent
+    # Some Second Life layouts use "Category: Live Music" in a single element.
+    for node in soup.select('p, li, dd, div'):
+        if node.find(['p', 'li', 'dd', 'div', 'table']):
+            continue
+        text = node.get_text(' ', strip=True)
+        match = re.match(r'^' + re.escape(field) + r'\s*:\s*(.{1,150})$', text, re.I)
+        if match:
+            return match.group(1).strip(), node
     return '', None
 
 
@@ -164,7 +183,7 @@ def enrich_event(event):
         soup = BeautifulSoup(response.text, 'html.parser')
         category, _ = detail_field(soup, 'Category')
         if category:
-            event['category'] = OFFICIAL_CATEGORIES.get(category.casefold(), category)
+            event['category'] = OFFICIAL_CATEGORIES.get(category.strip().casefold(), category.strip())
             event['official_category'] = True
         host, _ = detail_field(soup, 'Host')
         if host:
