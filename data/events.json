@@ -1,22 +1,13 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-03T20:08:03.675232+00:00",
+  "updated_at": "2026-11-03T21:02:21.118430+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "Lokki Merryman 1:00 pm @ Trickster's Sounds",
-      "starts_at": "2026-11-03T13:00:00-08:00",
-      "venue": "Trickster's Sounds",
-      "category": "Other / Unclassified",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9472686",
-      "teleport_url": null
-    },
     {
       "title": "Weekly Bible Study/Discipleship",
       "starts_at": "2026-11-03T14:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
-      "category": "Other / Unclassified",
+      "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495490",
       "teleport_url": null
@@ -43,7 +34,7 @@
       "title": "Andreus Gustafson LIVE at ***Starport Omega***",
       "starts_at": "2026-11-03T19:00:00-08:00",
       "venue": "Starport Omega",
-      "category": "Other / Unclassified",
+      "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9486638",
       "teleport_url": null
@@ -52,7 +43,7 @@
       "title": "Gypsy Dhrua at Villa Lobos 8 pm",
       "starts_at": "2026-11-03T20:00:00-08:00",
       "venue": "Villa Lobos",
-      "category": "Other / Unclassified",
+      "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500311",
       "teleport_url": null
@@ -61,7 +52,7 @@
       "title": "Dee Halostar at Villa Lobos 9 pm",
       "starts_at": "2026-11-03T21:00:00-08:00",
       "venue": "Villa Lobos",
-      "category": "Other / Unclassified",
+      "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500313",
       "teleport_url": null
@@ -70,7 +61,7 @@
       "title": "---Morning Devotion---",
       "starts_at": "2026-11-04T04:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
-      "category": "Other / Unclassified",
+      "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497815",
       "teleport_url": null
@@ -79,7 +70,7 @@
       "title": "---Morning Prayer---",
       "starts_at": "2026-11-04T07:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
-      "category": "Other / Unclassified",
+      "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497821",
       "teleport_url": null
@@ -88,7 +79,7 @@
       "title": "English Class. Voice. Pronunciation Practice",
       "starts_at": "2026-11-04T07:00:00-08:00",
       "venue": "Drive-Through ESL (English Language School)",
-      "category": "Other / Unclassified",
+      "category": "Education & Talks",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498193",
       "teleport_url": null
@@ -97,7 +88,7 @@
       "title": "Fall Collection CatS @ KittyCatS!",
       "starts_at": "2026-11-04T12:00:00-08:00",
       "venue": "KittyCatS! - Shop",
-      "category": "Other / Unclassified",
+      "category": "Shopping & Fashion",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498637",
       "teleport_url": null
@@ -106,9 +97,18 @@
       "title": "Gothic International Music",
       "starts_at": "2026-11-04T12:00:00-08:00",
       "venue": "Bacchus Island",
-      "category": "Other / Unclassified",
+      "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500083",
+      "teleport_url": null
+    },
+    {
+      "title": "Marqs DeSade Live at Helle's Angels  1pm",
+      "starts_at": "2026-11-04T13:00:00-08:00",
+      "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500163",
       "teleport_url": null
     }
   ],
