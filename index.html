@@ -32,6 +32,19 @@ const $=id=>document.getElementById(id);
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=u=>{try{const x=new URL(u);return ['https:','http:','secondlife:'].includes(x.protocol)?x.href:null}catch{return null}};
+const classifyEvent=e=>{
+ const title=String(e.title||''),text=[title,e.venue,e.description].join(' ');
+ const dj=/\b(dj|disc jockey|deejay|dj set)\b/i;
+ const live=/\b(live music|musician|singer|singing|pianist|piano|concert|guitar|jazz|blues|rock|band|karaoke|acoustic|live performer|live performance|classical|gig|music|live at|live show)\b/i;
+ if(dj.test(text))return 'Live DJ';
+ if(live.test(text))return 'Live Music';
+ if(/\b(prayer|devotion|worship|church|meditation|spiritual)\b/i.test(text))return 'Spiritual & Community';
+ if(/\b(shop|shopping|collection|fashion|sale|market|boutique)\b/i.test(text))return 'Shopping & Fashion';
+ if(/\b(art|gallery|exhibition|photography|museum)\b/i.test(text))return 'Arts & Culture';
+ if(/\b(class|workshop|lecture|discussion|seminar)\b/i.test(text))return 'Education & Talks';
+ const previous=String(e.category||'').trim();
+ return previous&&!/^(other\s*\/\s*unclassified|unclassified|other events?)$/i.test(previous)?previous:'Other Events';
+};
 const validDate=e=>{const d=new Date(e.starts_at);return !Number.isNaN(d.getTime())?d:null};
 function render(){
  const now=new Date(),start=new Date(now.getFullYear(),now.getMonth(),now.getDate()),tomorrow=new Date(start);tomorrow.setDate(tomorrow.getDate()+1);
@@ -45,7 +58,7 @@ for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('clic
 for(const id of ['search','category','date','sort'])$(id).addEventListener(id==='search'?'input':'change',render);
 $('year').textContent=new Date().getFullYear();
 fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events feed unavailable');return r.json()}).then(data=>{
- events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)&&validDate(e)>new Date(Date.now()-3600000));
+ events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)&&validDate(e)>new Date(Date.now()-3600000)).map(e=>({...e,category:classifyEvent(e)}));
  const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();for(const c of categories){const option=document.createElement('option');option.value=c;option.textContent=c;$('category').append(option)}
  const updated=data.updated_at&& !Number.isNaN(new Date(data.updated_at).getTime())?new Date(data.updated_at).toLocaleString(): 'unknown';
  $('notice').textContent=data.status==='ok'?`Source: Second Life events calendar · Last checked: ${updated} · All times are shown locally.`:`Latest sync unavailable. ${data.message||'Showing only previously verified events when available.'} · Last attempt: ${updated}`;
