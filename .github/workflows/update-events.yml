@@ -15,7 +15,7 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: |
-          python -m pip install beautifulsoup4 playwright
+          python -m pip install beautifulsoup4 playwright requests
           python -m playwright install --with-deps chromium
       - name: Collect events
         run: python sync_events.py
