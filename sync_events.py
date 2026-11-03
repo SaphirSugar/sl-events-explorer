@@ -5,8 +5,6 @@ The JSON schema stays compatible with the Eventide SL frontend.
 """
 import json
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -146,17 +144,6 @@ def detail_field(soup, field):
 
 def detail_image(soup, base_url):
     """Select the single event-detail photo, excluding logos, avatars and icons."""
-    # Prefer the image published with the event detail rather than site decoration.
-    for selector, attribute in [
-        ('meta[property="og:image"]', 'content'),
-        ('meta[name="twitter:image"]', 'content'),
-        ('link[rel="image_src"]', 'href'),
-    ]:
-        tag = soup.select_one(selector)
-        if tag and tag.get(attribute):
-            candidate = urljoin(base_url, tag[attribute])
-            if urlparse(candidate).scheme in ('http', 'https'):
-                return candidate
     candidates = []
     for img in soup.select('img'):
         src = img.get('data-src') or img.get('data-original') or img.get('src')
@@ -180,58 +167,88 @@ def detail_image(soup, base_url):
         score += (3 if re.search(r'event|picture|photo|image', hint, re.I) else 0)
         score += (2 if width >= 180 or height >= 180 else 0)
         candidates.append((score, url))
+    # A venue/event image may be supplied as a CSS background.
+    for node in soup.select('[style*="background-image"]'):
+        style = node.get('style', '')
+        match = re.search(r'background-image\s*:\s*url\([\"\']?([^\)\"\']+)', style, re.I)
+        if match:
+            candidate = urljoin(base_url, match.group(1))
+            if urlparse(candidate).scheme in ('https', 'http'):
+                candidates.append((3, candidate))
     if not candidates:
+        # Social previews are a fallback only: they can be generic Second Life logos.
+        for selector, attribute in [
+            ('meta[property="og:image"]', 'content'),
+            ('meta[name="twitter:image"]', 'content'),
+            ('link[rel="image_src"]', 'href'),
+        ]:
+            tag = soup.select_one(selector)
+            if tag and tag.get(attribute):
+                candidate = urljoin(base_url, tag[attribute])
+                if urlparse(candidate).scheme in ('http', 'https'):
+                    return candidate
         return None
     candidates.sort(key=lambda item: item[0], reverse=True)
     return candidates[0][1] if candidates[0][0] >= 2 or len(candidates) == 1 else None
 
 
-def enrich_event(event):
+def enrich_event(event, html):
+    """Enrich from the same browser session that loaded the public calendar."""
+    soup = BeautifulSoup(html, 'html.parser')
     url = event['url']
-    if url == SOURCE or urlparse(url).netloc not in ('secondlife.com', 'www.secondlife.com'):
-        return event
-    try:
-        response = requests.get(url, timeout=12, headers={'User-Agent': 'Mozilla/5.0 (compatible; EventideSL/1.0)'})
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        category, _ = detail_field(soup, 'Category')
-        if category:
-            event['category'] = OFFICIAL_CATEGORIES.get(category.strip().casefold(), category.strip())
-            event['official_category'] = True
-        host, _ = detail_field(soup, 'Host')
-        if host:
-            event['host'] = host
-        duration, _ = detail_field(soup, 'Duration')
-        if duration:
-            event['duration'] = duration
-        location, node = detail_field(soup, 'Location')
-        if location:
-            event['venue'] = location
-        if node:
-            link = node.find('a', href=True)
-            if link:
-                teleport = urljoin(url, link['href'])
-                if urlparse(teleport).scheme in ('https', 'http', 'secondlife'):
-                    event['teleport_url'] = teleport
-        found_image = detail_image(soup, url)
-        if found_image:
-            event['image_url'] = found_image
-        # The official event description normally follows the detail fields and image.
-        content = soup.select_one('.event-description, #event-description, .description, #description')
-        if content:
-            description = content.get_text(' ', strip=True)
-            if description and len(description) < 10000:
-                event['description'] = description
-    except (requests.RequestException, ValueError) as exc:
-        print(f"detail skipped for {url}: {type(exc).__name__}")
+    category, _ = detail_field(soup, 'Category')
+    if category:
+        category = re.sub(r'\s+', ' ', category).strip()
+        event['category'] = OFFICIAL_CATEGORIES.get(category.casefold(), category)
+        event['official_category'] = True
+    host, _ = detail_field(soup, 'Host')
+    if host:
+        event['host'] = host
+    duration, _ = detail_field(soup, 'Duration')
+    if duration:
+        event['duration'] = duration
+    location, node = detail_field(soup, 'Location')
+    if location:
+        event['venue'] = location
+    if node:
+        link = node.find('a', href=True)
+        if link:
+            teleport = urljoin(url, link['href'])
+            if urlparse(teleport).scheme in ('https', 'http', 'secondlife'):
+                event['teleport_url'] = teleport
+    found_image = detail_image(soup, url)
+    if found_image:
+        event['image_url'] = found_image
+    content = soup.select_one('.event-description, #event-description, .description, #description')
+    if content:
+        description = content.get_text(' ', strip=True)
+        if description and len(description) < 10000:
+            event['description'] = description
     return event
 
 
-def enrich_events(events):
-    # Parallel requests keep the scheduled sync reasonably fast. Failures do not hide events.
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        futures = [pool.submit(enrich_event, event) for event in events]
-        return [future.result() for future in futures]
+def enrich_events(browser, events):
+    """Use Chromium for details too: HTTP requests may receive a different page."""
+    page = browser.new_page(locale='en-US', timezone_id='America/Los_Angeles')
+    images = 0
+    official = 0
+    for index, event in enumerate(events, 1):
+        url = event['url']
+        if url == SOURCE or urlparse(url).netloc not in ('secondlife.com', 'www.secondlife.com'):
+            continue
+        try:
+            page.goto(url, wait_until='domcontentloaded', timeout=20000)
+            page.wait_for_timeout(450)
+            enrich_event(event, page.content())
+            if event.get('image_url'):
+                images += 1
+            if event.get('official_category'):
+                official += 1
+        except Exception as exc:
+            print(f"detail {index}/{len(events)} failed: {url} ({type(exc).__name__})")
+    page.close()
+    print(f"detail enrichment: {official}/{len(events)} official categories, {images}/{len(events)} images")
+    return events
 
 
 def future_verified_events(previous):
@@ -265,7 +282,7 @@ def main():
                     pass
                 events = extract(page.content())
                 if events:
-                    events = enrich_events(events)
+                    events = enrich_events(browser, events)
             finally:
                 browser.close()
         if events:
