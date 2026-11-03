@@ -146,9 +146,22 @@ def detail_field(soup, field):
 
 def detail_image(soup, base_url):
     """Select the single event-detail photo, excluding logos, avatars and icons."""
+    # Prefer the image published with the event detail rather than site decoration.
+    for selector, attribute in [
+        ('meta[property="og:image"]', 'content'),
+        ('meta[name="twitter:image"]', 'content'),
+        ('link[rel="image_src"]', 'href'),
+    ]:
+        tag = soup.select_one(selector)
+        if tag and tag.get(attribute):
+            candidate = urljoin(base_url, tag[attribute])
+            if urlparse(candidate).scheme in ('http', 'https'):
+                return candidate
     candidates = []
     for img in soup.select('img'):
-        src = img.get('src') or img.get('data-src') or img.get('data-original')
+        src = img.get('data-src') or img.get('data-original') or img.get('src')
+        if not src and img.get('srcset'):
+            src = img['srcset'].split(',')[-1].strip().split(' ')[0]
         if not src:
             continue
         url = urljoin(base_url, src)
@@ -200,7 +213,9 @@ def enrich_event(event):
                 teleport = urljoin(url, link['href'])
                 if urlparse(teleport).scheme in ('https', 'http', 'secondlife'):
                     event['teleport_url'] = teleport
-        event['image_url'] = detail_image(soup, url)
+        found_image = detail_image(soup, url)
+        if found_image:
+            event['image_url'] = found_image
         # The official event description normally follows the detail fields and image.
         content = soup.select_one('.event-description, #event-description, .description, #description')
         if content:
