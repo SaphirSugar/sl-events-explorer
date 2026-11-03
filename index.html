@@ -35,7 +35,8 @@ const safeUrl=u=>{try{const x=new URL(u);return ['https:','http:','secondlife:']
 const safeImageUrl=u=>{try{const x=new URL(u);return ['https:','http:'].includes(x.protocol)?x.href:null}catch{return null}};
 const classifyEvent=e=>{
  const title=String(e.title||''),text=[title,e.venue,e.description].join(' ');
- if(e.official_category&&e.category)return String(e.category);
+ const official={'musique en direct':'Live Music','musique live':'Live Music','live music':'Live Music','live dj':'Live DJ'};
+ if(e.official_category&&e.category)return official[String(e.category).trim().toLowerCase()]||String(e.category);
  const dj=/\b(dj|disc jockey|deejay|dj set)\b/i;
  const live=/\b(live music|musician|singer|singing|pianist|piano|concert|guitar|jazz|blues|rock|band|karaoke|acoustic|live performer|live performance|classical|gig|music|live at|live show)\b/i;
  if(dj.test(text))return 'Live DJ';
@@ -53,7 +54,7 @@ function render(){
  const now=new Date(),start=new Date(now.getFullYear(),now.getMonth(),now.getDate()),tomorrow=new Date(start);tomorrow.setDate(tomorrow.getDate()+1);
  const after=new Date(tomorrow);after.setDate(after.getDate()+1);const week=new Date(start);week.setDate(week.getDate()+7);
  const q=$('search').value.trim().toLowerCase(),cat=$('category').value,d=$('date').value;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||music.test(txt))&&(d==='all'||d==='today'&&t>=start&&t<tomorrow||d==='tomorrow'&&t>=tomorrow&&t<after||d==='week'&&t>=start&&t<week)}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))&&(d==='all'||d==='today'&&t>=start&&t<tomorrow||d==='tomorrow'&&t>=tomorrow&&t<after||d==='week'&&t>=start&&t<week)}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
  $('count').textContent=`${filtered.length} event${filtered.length===1?'':'s'} found`;
  $('events').innerHTML=filtered.map(e=>{const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Image from the Second Life event details" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><p class="meta">${escapeHTML(new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(date))}</p><p class="meta">${escapeHTML(e.venue||'Venue not specified')}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`}).join('')||'<p class="empty">No matching upcoming events. Try another search or category.</p>';
 }
