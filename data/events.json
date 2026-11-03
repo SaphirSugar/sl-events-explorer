@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-03T23:00:08.432672+00:00",
+  "updated_at": "2026-11-03T23:53:37.168088+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -19,7 +19,8 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485657",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "Andreus Gustafson LIVE at ***Starport Omega***",
