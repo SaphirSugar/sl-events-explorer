@@ -143,53 +143,88 @@ def detail_field(soup, field):
 
 
 def detail_image(soup, base_url):
-    """Select the single event-detail photo, excluding logos, avatars and icons."""
+    """Find a plausible event/venue picture, never a cookie banner or UI icon.
+
+    Prefer an image in the event content. If the page has no identifiable
+    picture, return None rather than publishing an unrelated site asset.
+    """
+    blocked_hosts = ('cookielaw.org', 'onetrust.com', 'cookiebot.com',
+                     'googletagmanager.com', 'google-analytics.com')
+    blocked_words = ('cookie', 'onetrust', 'ot_close', 'logo', 'avatar',
+                     'icon', 'spinner', 'badge', 'tracking', 'pixel',
+                     'button', 'favicon', 'social', 'facebook', 'twitter',
+                     'youtube', 'instagram', 'banner-consent')
+
+    def valid_url(raw):
+        if not raw or raw.startswith(('data:', 'blob:')):
+            return None
+        url = urljoin(base_url, raw.strip())
+        parsed = urlparse(url)
+        if parsed.scheme not in ('http', 'https'):
+            return None
+        host = (parsed.hostname or '').lower()
+        if any(host == name or host.endswith('.' + name) for name in blocked_hosts):
+            return None
+        if any(word in (parsed.path + '?' + parsed.query).lower() for word in blocked_words):
+            return None
+        if parsed.path.lower().endswith('.svg'):
+            return None
+        return url
+
     candidates = []
     for img in soup.select('img'):
-        src = img.get('data-src') or img.get('data-original') or img.get('src')
-        if not src and img.get('srcset'):
-            src = img['srcset'].split(',')[-1].strip().split(' ')[0]
-        if not src:
+        raw = img.get('data-src') or img.get('data-original') or img.get('src')
+        if not raw and img.get('srcset'):
+            raw = img['srcset'].split(',')[-1].strip().split(' ')[0]
+        url = valid_url(raw)
+        if not url:
             continue
-        url = urljoin(base_url, src)
-        if urlparse(url).scheme not in ('https', 'http'):
-            continue
-        hint = ' '.join([src, img.get('class', '') if isinstance(img.get('class'), str) else ' '.join(img.get('class', [])), img.get('alt', '')]).lower()
-        if any(x in hint for x in ('logo', 'avatar', 'icon', 'spinner', 'badge', 'tracking', 'pixel')):
+        hint = ' '.join([str(raw), ' '.join(img.get('class', [])),
+                         img.get('alt', ''), img.get('id', '')]).lower()
+        if any(word in hint for word in blocked_words):
             continue
         width = int(img.get('width', 0)) if str(img.get('width', '')).isdigit() else 0
         height = int(img.get('height', 0)) if str(img.get('height', '')).isdigit() else 0
-        if width and width < 100 or height and height < 100:
+        if (width and width < 120) or (height and height < 100):
             continue
-        parent = img.find_parent(['main', 'article', 'section', 'div'])
-        parent_hint = ' '.join(parent.get('class', [])) if parent else ''
-        score = (4 if re.search(r'event|detail|content|picture|photo', parent_hint, re.I) else 0)
-        score += (3 if re.search(r'event|picture|photo|image', hint, re.I) else 0)
-        score += (2 if width >= 180 or height >= 180 else 0)
-        candidates.append((score, url))
-    # A venue/event image may be supplied as a CSS background.
+        # A picture should be associated with event details, not site chrome.
+        context = ' '.join(' '.join(ancestor.get('class', [])) + ' ' + ancestor.get('id', '')
+                           for ancestor in list(img.parents)[:5] if getattr(ancestor, 'attrs', None))
+        context = context.lower()
+        if any(word in context for word in ('cookie', 'onetrust', 'footer', 'header', 'navbar', 'navigation')):
+            continue
+        score = 0
+        if re.search(r'event|detail|location|venue|picture|photo|image', context):
+            score += 5
+        if re.search(r'event|location|venue|picture|photo', hint):
+            score += 4
+        if width >= 180 and height >= 120:
+            score += 3
+        if img.find_parent(['main', 'article']):
+            score += 2
+        if score >= 3:
+            candidates.append((score, url))
+
     for node in soup.select('[style*="background-image"]'):
         style = node.get('style', '')
-        match = re.search(r'background-image\s*:\s*url\([\"\']?([^\)\"\']+)', style, re.I)
-        if match:
-            candidate = urljoin(base_url, match.group(1))
-            if urlparse(candidate).scheme in ('https', 'http'):
-                candidates.append((3, candidate))
+        match = re.search(r'background-image\s*:\s*url\(\s*["\']?([^\)"\']+)', style, re.I)
+        if not match:
+            continue
+        url = valid_url(match.group(1))
+        if not url:
+            continue
+        context = (' '.join(node.get('class', [])) + ' ' + node.get('id', '')).lower()
+        if any(word in context for word in blocked_words):
+            continue
+        if re.search(r'event|location|venue|detail|photo|image', context):
+            candidates.append((6, url))
+
+    # Social previews are deliberately excluded: they may point to generic
+    # Second Life or cookie-consent images instead of the event picture.
     if not candidates:
-        # Social previews are a fallback only: they can be generic Second Life logos.
-        for selector, attribute in [
-            ('meta[property="og:image"]', 'content'),
-            ('meta[name="twitter:image"]', 'content'),
-            ('link[rel="image_src"]', 'href'),
-        ]:
-            tag = soup.select_one(selector)
-            if tag and tag.get(attribute):
-                candidate = urljoin(base_url, tag[attribute])
-                if urlparse(candidate).scheme in ('http', 'https'):
-                    return candidate
         return None
     candidates.sort(key=lambda item: item[0], reverse=True)
-    return candidates[0][1] if candidates[0][0] >= 2 or len(candidates) == 1 else None
+    return candidates[0][1]
 
 
 def enrich_event(event, html):
