@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-04T08:28:03.221005+00:00",
+  "updated_at": "2026-11-04T10:23:30.618236+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -13,14 +13,22 @@
       "teleport_url": null
     },
     {
+      "title": "English Class. Voice. Song Lyrics",
+      "starts_at": "2026-11-04T05:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education & Talks",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500588",
+      "teleport_url": null
+    },
+    {
       "title": "---Morning Prayer---",
       "starts_at": "2026-11-04T07:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497821",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "English Class. Voice. Pronunciation Practice",
@@ -29,8 +37,7 @@
       "category": "Education & Talks",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498193",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Fall Collection CatS @ KittyCatS!",
@@ -39,8 +46,7 @@
       "category": "Shopping & Fashion",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498637",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Gothic International Music",
@@ -49,8 +55,7 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500083",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Marqs DeSade Live at Helle's Angels  1pm",
@@ -59,8 +64,7 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500163",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Mike00 Carnell Live at Helle's Angels 2pm",
@@ -69,8 +73,7 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500164",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Clairede Dirval live at Helle's Angels 3pm",
@@ -79,8 +82,7 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500165",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Bible Study Series Continues: \"What is God Like?\"",
@@ -89,8 +91,7 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495509",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "---Praise & Worship Service---",
@@ -99,8 +100,7 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497826",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "---Wednesday Night Service---",
@@ -109,8 +109,7 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498413",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "6PM SLT - USO NIGHT @ THE CELLAR JAZZ CLUB",
@@ -119,8 +118,7 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9487062",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Elephant Lounge is the place to get over your Wednesday doldrums",
@@ -129,8 +127,7 @@
       "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9465123",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     }
   ],
   "message": ""
