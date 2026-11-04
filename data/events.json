@@ -1,17 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-04T04:13:10.694403+00:00",
+  "updated_at": "2026-11-04T05:17:15.800023+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "Dee Halostar at Villa Lobos 9 pm",
-      "starts_at": "2026-11-03T21:00:00-08:00",
-      "venue": "Villa Lobos",
-      "category": "Other Events",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9500313",
-      "teleport_url": null
-    },
     {
       "title": "---Morning Devotion---",
       "starts_at": "2026-11-04T04:00:00-08:00",
@@ -19,8 +10,7 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497815",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "---Morning Prayer---",
@@ -29,8 +19,7 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497821",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "English Class. Voice. Pronunciation Practice",
@@ -99,8 +88,7 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495509",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "---Praise & Worship Service---",
