@@ -125,10 +125,13 @@ if offset < 3:
             event = {'title': title, 'starts_at': date.isoformat(), 'venue': venue,
                      'category': category_for(title, venue), 'description': '',
                      'url': url, 'teleport_url': None}
-            key = (title.casefold(), date.isoformat(), venue.casefold())
+                      key = (title.casefold(), date.isoformat(), venue.casefold())
             collected[key] = event
-    return sorted(collected.values(), key=lambda e: (e['starts_at'], e['title'].casefold()))
 
+    return sorted(
+        collected.values(),
+        key=lambda e: (e['starts_at'], e['title'].casefold())
+    )
 
 OFFICIAL_CATEGORIES = {
     'arts and culture': 'Arts & Culture', 'arts & culture': 'Arts & Culture',
