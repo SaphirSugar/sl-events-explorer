@@ -349,6 +349,44 @@ def collect_calendar_pages(page, max_rounds=60):
     return sorted(found.values(), key=lambda e: (e['starts_at'], e['title'].casefold()))
 
 
+def collect_dates(days=90):
+    """Fetch the public daily calendar, not just the first visible day.
+
+    This endpoint was identified in the browser's Network tab. Coverage still
+    depends on what Second Life returns for each date.
+    """
+    start = datetime.now(SLT).date()
+    dates = [start + timedelta(days=n) for n in range(days)]
+    def fetch_day(day):
+        url = 'https://secondlife.com/events/upcoming.php'
+        try:
+            response = requests.get(url, params={
+                'lang': 'en-US', 'per_page': 200, 'date': day.isoformat()
+            }, timeout=25, headers={'User-Agent': 'Mozilla/5.0 (EventideSL calendar)'})
+            response.raise_for_status()
+            # The source omits the year in event rows. Anchor to the queried day.
+            reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
+            items = extract(response.text, now=reference)
+            # A query for a single day must not accidentally import adjacent dates.
+            items = [e for e in items if e['starts_at'][:10] == day.isoformat()]
+            return day.isoformat(), items, None
+        except Exception as exc:
+            return day.isoformat(), [], str(exc)[:140]
+    unique = {}
+    errors = []
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        for day, items, error in pool.map(fetch_day, dates):
+            if error:
+                errors.append(day + ': ' + error)
+            for event in items:
+                key = (event['url'], event['starts_at'], event['title'].casefold())
+                unique[key] = event
+    print(f'daily_calendar: dates={len(dates)} events={len(unique)} errors={len(errors)}')
+    if errors:
+        print('daily_calendar_errors:', '; '.join(errors[:3]))
+    return list(unique.values())
+
+
 def main():
     payload = {
         'status': 'unavailable', 'updated_at': datetime.now(timezone.utc).isoformat(),
@@ -366,7 +404,16 @@ def main():
                 except Exception:
                     pass
                 events = collect_calendar_pages(page)
-                if events:
+                daily = collect_dates(days=90)
+                merged = {}
+                for event in events + daily:
+                    key = (event['url'], event['starts_at'], event['title'].casefold())
+                    merged[key] = event
+                events = sorted(merged.values(), key=lambda e: (e['starts_at'], e['title']))
+                print(f'calendar_total: {len(events)} events across 90 queried dates')
+                # Detail and venue requests can be very expensive for large feeds.
+                # Prioritize complete event coverage over optional image enrichment.
+                if events and len(events) <= 100:
                     events = attach_venue_photos(enrich_events(events))
             finally:
                 browser.close()
