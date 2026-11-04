@@ -1,17 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-04T10:23:30.618236+00:00",
+  "updated_at": "2026-11-04T12:04:45.201463+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "---Morning Devotion---",
-      "starts_at": "2026-11-04T04:00:00-08:00",
-      "venue": "God's House of Prayer Church - Main campus",
-      "category": "Spiritual & Community",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9497815",
-      "teleport_url": null
-    },
     {
       "title": "English Class. Voice. Song Lyrics",
       "starts_at": "2026-11-04T05:00:00-08:00",
@@ -127,6 +118,15 @@
       "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9465123",
+      "teleport_url": null
+    },
+    {
+      "title": "Thursday Morning Devotion",
+      "starts_at": "2026-11-05T04:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Spiritual & Community",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498417",
       "teleport_url": null
     }
   ],
