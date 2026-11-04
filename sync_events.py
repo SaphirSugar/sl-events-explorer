@@ -5,6 +5,8 @@ The JSON schema stays compatible with the Eventide SL frontend.
 """
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -101,20 +103,14 @@ OFFICIAL_CATEGORIES = {
     'live music': 'Live Music', 'miscellaneous': 'Miscellaneous',
     'nightlife/entertainment': 'Nightlife & Entertainment',
     'performances': 'Performances', 'spirituality': 'Spirituality', 'sports': 'Sports',
-    'musique en direct': 'Live Music', 'musique live': 'Live Music',
-    'arts et culture': 'Arts & Culture', 'associations caritatives et groupes de soutien': 'Charity & Support Groups',
-    'jeux/concours': 'Games & Contests', 'jeux et concours': 'Games & Contests',
-    'divers': 'Miscellaneous', 'vie nocturne/divertissement': 'Nightlife & Entertainment',
-    'spectacles': 'Performances', 'éducation': 'Education',
 }
 
 
 def detail_field(soup, field):
-    """Read detail labels in table cells, definition lists and inline text."""
-    label = field.casefold()
+    """Find a labeled field in either a table or a definition-style detail block."""
+    label = field.lower().rstrip(':')
     for cell in soup.select('td, th, dt, strong, b, label'):
-        raw = cell.get_text(' ', strip=True)
-        if raw.casefold().rstrip(':').strip() != label:
+        if cell.get_text(' ', strip=True).lower().rstrip(':') != label:
             continue
         if cell.name in ('td', 'th'):
             sibling = cell.find_next_sibling(['td', 'th'])
@@ -126,163 +122,172 @@ def detail_field(soup, field):
                 sibling = cell.parent.find_next_sibling()
         if sibling:
             return sibling.get_text(' ', strip=True), sibling
-        if cell.parent:
-            text = cell.parent.get_text(' ', strip=True)
-            match = re.match(r'^' + re.escape(field) + r'\s*:\s*(.+)$', text, re.I)
-            if match:
-                return match.group(1).strip(), cell.parent
-    # Some Second Life layouts use "Category: Live Music" in a single element.
-    for node in soup.select('p, li, dd, div'):
-        if node.find(['p', 'li', 'dd', 'div', 'table']):
-            continue
-        text = node.get_text(' ', strip=True)
-        match = re.match(r'^' + re.escape(field) + r'\s*:\s*(.{1,150})$', text, re.I)
-        if match:
-            return match.group(1).strip(), node
     return '', None
 
 
 def detail_image(soup, base_url):
-    """Find a plausible event/venue picture, never a cookie banner or UI icon.
-
-    Prefer an image in the event content. If the page has no identifiable
-    picture, return None rather than publishing an unrelated site asset.
-    """
-    blocked_hosts = ('cookielaw.org', 'onetrust.com', 'cookiebot.com',
-                     'googletagmanager.com', 'google-analytics.com')
-    blocked_words = ('cookie', 'onetrust', 'ot_close', 'logo', 'avatar',
-                     'icon', 'spinner', 'badge', 'tracking', 'pixel',
-                     'button', 'favicon', 'social', 'facebook', 'twitter',
-                     'youtube', 'instagram', 'banner-consent')
-
-    def valid_url(raw):
-        if not raw or raw.startswith(('data:', 'blob:')):
-            return None
-        url = urljoin(base_url, raw.strip())
-        parsed = urlparse(url)
-        if parsed.scheme not in ('http', 'https'):
-            return None
-        host = (parsed.hostname or '').lower()
-        if any(host == name or host.endswith('.' + name) for name in blocked_hosts):
-            return None
-        if any(word in (parsed.path + '?' + parsed.query).lower() for word in blocked_words):
-            return None
-        if parsed.path.lower().endswith('.svg'):
-            return None
-        return url
-
+    """Select the single event-detail photo, excluding logos, avatars and icons."""
     candidates = []
     for img in soup.select('img'):
-        raw = img.get('data-src') or img.get('data-original') or img.get('src')
-        if not raw and img.get('srcset'):
-            raw = img['srcset'].split(',')[-1].strip().split(' ')[0]
-        url = valid_url(raw)
-        if not url:
+        src = img.get('src') or img.get('data-src') or img.get('data-original')
+        if not src:
             continue
-        hint = ' '.join([str(raw), ' '.join(img.get('class', [])),
-                         img.get('alt', ''), img.get('id', '')]).lower()
-        if any(word in hint for word in blocked_words):
+        url = urljoin(base_url, src)
+        if urlparse(url).scheme not in ('https', 'http'):
+            continue
+        hint = ' '.join([src, img.get('class', '') if isinstance(img.get('class'), str) else ' '.join(img.get('class', [])), img.get('alt', '')]).lower()
+        if any(x in hint for x in ('logo', 'avatar', 'icon', 'spinner', 'badge', 'tracking', 'pixel')):
             continue
         width = int(img.get('width', 0)) if str(img.get('width', '')).isdigit() else 0
         height = int(img.get('height', 0)) if str(img.get('height', '')).isdigit() else 0
-        if (width and width < 120) or (height and height < 100):
+        if width and width < 100 or height and height < 100:
             continue
-        # A picture should be associated with event details, not site chrome.
-        context = ' '.join(' '.join(ancestor.get('class', [])) + ' ' + ancestor.get('id', '')
-                           for ancestor in list(img.parents)[:5] if getattr(ancestor, 'attrs', None))
-        context = context.lower()
-        if any(word in context for word in ('cookie', 'onetrust', 'footer', 'header', 'navbar', 'navigation')):
-            continue
-        score = 0
-        if re.search(r'event|detail|location|venue|picture|photo|image', context):
-            score += 5
-        if re.search(r'event|location|venue|picture|photo', hint):
-            score += 4
-        if width >= 180 and height >= 120:
-            score += 3
-        if img.find_parent(['main', 'article']):
-            score += 2
-        if score >= 3:
-            candidates.append((score, url))
-
-    for node in soup.select('[style*="background-image"]'):
-        style = node.get('style', '')
-        match = re.search(r'background-image\s*:\s*url\(\s*["\']?([^\)"\']+)', style, re.I)
-        if not match:
-            continue
-        url = valid_url(match.group(1))
-        if not url:
-            continue
-        context = (' '.join(node.get('class', [])) + ' ' + node.get('id', '')).lower()
-        if any(word in context for word in blocked_words):
-            continue
-        if re.search(r'event|location|venue|detail|photo|image', context):
-            candidates.append((6, url))
-
-    # Social previews are deliberately excluded: they may point to generic
-    # Second Life or cookie-consent images instead of the event picture.
+        parent = img.find_parent(['main', 'article', 'section', 'div'])
+        parent_hint = ' '.join(parent.get('class', [])) if parent else ''
+        score = (4 if re.search(r'event|detail|content|picture|photo', parent_hint, re.I) else 0)
+        score += (3 if re.search(r'event|picture|photo|image', hint, re.I) else 0)
+        score += (2 if width >= 180 or height >= 180 else 0)
+        candidates.append((score, url))
     if not candidates:
         return None
     candidates.sort(key=lambda item: item[0], reverse=True)
-    return candidates[0][1]
+    return candidates[0][1] if candidates[0][0] >= 2 or len(candidates) == 1 else None
 
 
-def enrich_event(event, html):
-    """Enrich from the same browser session that loaded the public calendar."""
-    soup = BeautifulSoup(html, 'html.parser')
+def enrich_event(event):
     url = event['url']
-    category, _ = detail_field(soup, 'Category')
-    if category:
-        category = re.sub(r'\s+', ' ', category).strip()
-        event['category'] = OFFICIAL_CATEGORIES.get(category.casefold(), category)
-        event['official_category'] = True
-    host, _ = detail_field(soup, 'Host')
-    if host:
-        event['host'] = host
-    duration, _ = detail_field(soup, 'Duration')
-    if duration:
-        event['duration'] = duration
-    location, node = detail_field(soup, 'Location')
-    if location:
-        event['venue'] = location
-    if node:
-        link = node.find('a', href=True)
-        if link:
-            teleport = urljoin(url, link['href'])
-            if urlparse(teleport).scheme in ('https', 'http', 'secondlife'):
-                event['teleport_url'] = teleport
-    found_image = detail_image(soup, url)
-    if found_image:
-        event['image_url'] = found_image
-    content = soup.select_one('.event-description, #event-description, .description, #description')
-    if content:
-        description = content.get_text(' ', strip=True)
-        if description and len(description) < 10000:
-            event['description'] = description
+    if url == SOURCE or urlparse(url).netloc not in ('secondlife.com', 'www.secondlife.com'):
+        return event
+    try:
+        response = requests.get(url, timeout=12, headers={'User-Agent': 'Mozilla/5.0 (compatible; EventideSL/1.0)'})
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        category, _ = detail_field(soup, 'Category')
+        if category:
+            event['category'] = OFFICIAL_CATEGORIES.get(category.casefold(), category)
+            event['official_category'] = True
+        host, _ = detail_field(soup, 'Host')
+        if host:
+            event['host'] = host
+        duration, _ = detail_field(soup, 'Duration')
+        if duration:
+            event['duration'] = duration
+        location, node = detail_field(soup, 'Location')
+        if location:
+            event['venue'] = location
+        if node:
+            link = node.find('a', href=True)
+            if link:
+                teleport = urljoin(url, link['href'])
+                if urlparse(teleport).scheme in ('https', 'http', 'secondlife'):
+                    event['teleport_url'] = teleport
+        # Venue images are verified separately against the public parcel name.
+        # The official event description normally follows the detail fields and image.
+        content = soup.select_one('.event-description, #event-description, .description, #description')
+        if content:
+            description = content.get_text(' ', strip=True)
+            if description and len(description) < 10000:
+                event['description'] = description
+    except (requests.RequestException, ValueError) as exc:
+        print(f"detail skipped for {url}: {type(exc).__name__}")
     return event
 
 
-def enrich_events(browser, events):
-    """Use Chromium for details too: HTTP requests may receive a different page."""
-    page = browser.new_page(locale='en-US', timezone_id='America/Los_Angeles')
-    images = 0
-    official = 0
-    for index, event in enumerate(events, 1):
-        url = event['url']
-        if url == SOURCE or urlparse(url).netloc not in ('secondlife.com', 'www.secondlife.com'):
-            continue
-        try:
-            page.goto(url, wait_until='domcontentloaded', timeout=20000)
-            page.wait_for_timeout(450)
-            enrich_event(event, page.content())
-            if event.get('image_url'):
-                images += 1
-            if event.get('official_category'):
-                official += 1
-        except Exception as exc:
-            print(f"detail {index}/{len(events)} failed: {url} ({type(exc).__name__})")
-    page.close()
-    print(f"detail enrichment: {official}/{len(events)} official categories, {images}/{len(events)} images")
+def enrich_events(events):
+    # Parallel requests keep the scheduled sync reasonably fast. Failures do not hide events.
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = [pool.submit(enrich_event, event) for event in events]
+        return [future.result() for future in futures]
+
+
+
+# Public parcel photos. These endpoints are unofficial and may change.
+# A venue name alone is not enough: accept only an exact parcel-name match.
+UUID_PATTERN = re.compile(r"[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}", re.I)
+PARCEL_LINK = re.compile(r"(?:https?://)?world\.secondlife\.com/place/([0-9a-f-]{36})", re.I)
+IMAGE_HOST = 'https://picture-service.secondlife.com'
+BAD_IMAGE_HOSTS = ('cookielaw.org', 'onetrust.com', 'cookiebot.com')
+
+
+def normalize_place(value):
+    return re.sub(r'[^\w]+', ' ', (value or '').casefold(), flags=re.UNICODE).strip()
+
+
+def photo_from_parcel(parcel_id, expected_venue, session):
+    if not UUID_PATTERN.fullmatch(parcel_id):
+        return None
+    try:
+        response = session.get(f'https://world.secondlife.com/place/{parcel_id}', timeout=12)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        meta = lambda key: soup.find('meta', attrs={'name': key})
+        parcel_name = meta('parcel')
+        # Some pages leave 'parcel' empty. Never guess a match in that case.
+        actual = parcel_name.get('content', '').strip() if parcel_name else ''
+        if not actual or normalize_place(actual) != normalize_place(expected_venue):
+            return None
+        image = meta('imageid')
+        uuid = image.get('content', '').strip() if image else ''
+        if not UUID_PATTERN.fullmatch(uuid) or uuid == '00000000-0000-0000-0000-000000000000':
+            return None
+        return f'{IMAGE_HOST}/{uuid}/256x192.jpg'
+    except requests.RequestException:
+        return None
+
+
+def venue_photo(venue, session):
+    """Search public Second Life places, verify parcel name, then read imageid.
+
+    Search API is unofficial and may not return any public results. No false images.
+    """
+    if not venue or len(venue.strip()) < 4:
+        return None
+    try:
+        response = session.get('https://search.secondlife.com/', params={
+            'query_term': venue, 'search_type': 'standard',
+            'collection_chosen': 'places', 'maturity': 'g',
+        }, timeout=15)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        # Only parcel UUIDs in actual search-result links, never arbitrary image UUIDs.
+        ids = []
+        for a in soup.select('a[href]'):
+            match = PARCEL_LINK.search(a.get('href', ''))
+            if match and match.group(1) not in ids:
+                ids.append(match.group(1))
+        for parcel_id in ids[:8]:
+            photo = photo_from_parcel(parcel_id, venue, session)
+            if photo:
+                return photo
+    except requests.RequestException:
+        pass
+    return None
+
+
+def attach_venue_photos(events):
+    """One lookup per distinct venue; reuse the photo across its events."""
+    venues = sorted({e.get('venue', '').strip() for e in events if e.get('venue', '').strip()})
+    def lookup(venue):
+        with requests.Session() as session:
+            session.headers.update({'User-Agent': 'Mozilla/5.0 (EventideSL public venue image lookup)'})
+            return venue, venue_photo(venue, session)
+    photos = {}
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for venue, photo in pool.map(lookup, venues):
+            if photo:
+                photos[venue] = photo
+    for event in events:
+        # Don't overwrite a valid photo already associated with this venue.
+        photo = photos.get(event.get('venue', '').strip())
+        if photo:
+            event['image_url'] = photo
+            event['image_source'] = 'public_parcel_photo'
+        else:
+            # Avoid persisting a cookie banner or unverified image.
+            old = event.get('image_url', '')
+            if not old or any(host in old.lower() for host in BAD_IMAGE_HOSTS):
+                event.pop('image_url', None)
+    print(f'venue_photo_lookup: venues={len(venues)} verified_images={len(photos)} events_with_images={sum(bool(e.get("image_url")) for e in events)}')
     return events
 
 
@@ -317,7 +322,7 @@ def main():
                     pass
                 events = extract(page.content())
                 if events:
-                    events = enrich_events(browser, events)
+                    events = attach_venue_photos(enrich_events(events))
             finally:
                 browser.close()
         if events:
