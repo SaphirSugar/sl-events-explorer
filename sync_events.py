@@ -115,7 +115,7 @@ def extract(html, now=None, requested_day=None):
             event = {'title': title, 'starts_at': date.isoformat(), 'venue': venue,
                      'category': category_for(title, venue), 'description': '',
                      'url': url, 'teleport_url': None}
-                      key = (title.casefold(), date.isoformat(), venue.casefold())
+            key = (title.casefold(), date.isoformat(), venue.casefold())
             collected[key] = event
 
     return sorted(
@@ -528,6 +528,17 @@ def collect_authenticated_dates(page, days=90):
             successful_responses += 1
             html = response.text()
             soup = BeautifulSoup(html, 'html.parser')
+            if offset < 3:
+                print(
+                    'authenticated_structure:',
+                    f'day_offset={offset}',
+                    f'title_present={bool(soup.title)}',
+                    f'event_ids={len(soup.select("[data-event-id]"))}',
+                    f'all_tables={len(soup.select("table"))}',
+                    f'forms={len(soup.select("form"))}',
+                    f'links={len(soup.select("a[href]"))}',
+                    f'login_form={bool(soup.select("input[type=password]"))}',
+                )
             tables = soup.select('table#event-table, table.event-table')
             tables_seen += len(tables)
             if not tables:
