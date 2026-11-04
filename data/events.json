@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-04T06:19:58.180588+00:00",
+  "updated_at": "2026-11-04T08:28:03.221005+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -19,7 +19,8 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497821",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "English Class. Voice. Pronunciation Practice",
