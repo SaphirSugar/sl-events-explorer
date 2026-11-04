@@ -4,6 +4,7 @@ Run using the existing GitHub Actions Playwright environment.
 The JSON schema stays compatible with the Eventide SL frontend.
 """
 import json
+import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
@@ -24,6 +25,10 @@ SPIRITUAL = re.compile(r'\b(prayer|devotion|worship|church|meditation|spiritual)
 SHOPPING = re.compile(r'\b(shop|shopping|collection|fashion|sale|market|boutique)\b', re.I)
 ARTS = re.compile(r'\b(art|gallery|exhibition|photography|museum)\b', re.I)
 EDUCATION = re.compile(r'\b(class|workshop|lecture|discussion|seminar)\b', re.I)
+
+LOGIN_URL = ('https://id.secondlife.com/openid/login?'
+             'return_to=https%3A%2F%2Fsecondlife.com%2Fauth%2Foid_return.php'
+             '%3Fredirect%3D%252Fmy&language=en-US')
 
 DATE = re.compile(r'(?P<month>\d{1,2})/(?P<day>\d{1,2})\s+(?P<hour>\d{1,2}):(?P<minute>\d{2})\s*(?P<ampm>AM|PM)', re.I)
 
@@ -404,6 +409,123 @@ def collect_dates(days=90):
     return list(unique.values())
 
 
+
+def login_secondlife(page):
+    """Attempt normal login. No CAPTCHA/2FA bypass and no secrets in logs."""
+    username = os.environ.get('SL_USERNAME', '').strip()
+    password = os.environ.get('SL_PASSWORD', '')
+    if not username or not password:
+        print('sl_login: credentials_not_configured')
+        return False
+    try:
+        page.goto(LOGIN_URL, wait_until='domcontentloaded', timeout=45000)
+        if urlparse(page.url).hostname not in ('id.secondlife.com', 'secondlife.com', 'www.secondlife.com'):
+            print('sl_login: unexpected_host')
+            return False
+        def visible(selectors):
+            for selector in selectors:
+                item = page.locator(selector).first
+                if item.count() and item.is_visible():
+                    return item
+            return None
+        username_field = visible(['input[name="first_name"]', 'input[name="username"]',
+                                  'input[name="login"]', 'input[autocomplete="username"]',
+                                  'input[type="text"]'])
+        password_field = visible(['input[name="password"]', 'input[type="password"]'])
+        if username_field is None or password_field is None:
+            print('sl_login: fields_not_found')
+            return False
+        username_field.fill(username)
+        password_field.fill(password)
+        submit = visible(['button[type="submit"]', 'input[type="submit"]',
+                          'button:has-text("Log In")', 'button:has-text("Sign In")'])
+        if submit is None:
+            print('sl_login: submit_not_found')
+            return False
+        submit.click(timeout=15000)
+        try:
+            page.wait_for_url(re.compile(r'https://(?:www\.)?secondlife\.com/(?:my|auth)/.*'), timeout=20000)
+        except Exception:
+            pass
+        page.goto('https://secondlife.com/my/', wait_until='domcontentloaded', timeout=45000)
+        host = urlparse(page.url).hostname
+        body = page.locator('body').inner_text(timeout=10000)[:3000].lower()
+        probable = (host in ('secondlife.com', 'www.secondlife.com')
+                    and not re.search(r'/(?:openid/login|login)(?:[/?]|$)', page.url)
+                    and 'sign in to second life' not in body
+                    and 'log in to second life' not in body)
+        print('sl_login:', 'possible_authenticated' if probable else 'not_confirmed')
+        return probable
+    except Exception as exc:
+        print('sl_login: failed', type(exc).__name__)
+        return False
+
+
+def explicit_maturity(row):
+    """Only trust an explicit maturity label on the event row itself."""
+    labels = []
+    for node in [row] + row.select('[title], [aria-label], [data-maturity], [data-rating]'):
+        for attr in ('data-maturity', 'data-rating', 'title', 'aria-label'):
+            value = node.get(attr)
+            if value:
+                labels.append(str(value))
+    labels.extend(x.get_text(' ', strip=True) for x in row.select('.maturity, .rating, .event-maturity'))
+    raw = ' '.join(labels)
+    if re.search(r'\b(adult|mature-adult|18\+)\b', raw, re.I):
+        return 'Adult'
+    if re.search(r'\b(moderate|mature)\b', raw, re.I):
+        return 'Moderate'
+    if re.search(r'\b(general|pg)\b', raw, re.I):
+        return 'General'
+    return None
+
+
+def collect_authenticated_dates(page, days=90):
+    """Use browser-shared cookies. Never export unclassified/adult-only rows."""
+    start = datetime.now(SLT).date()
+    collected = {}
+    total_seen = 0
+    skipped_unclassified = 0
+    skipped_adult = 0
+    failures = 0
+    for offset in range(days):
+        day = start + timedelta(days=offset)
+        try:
+            response = page.request.get('https://secondlife.com/events/upcoming.php',
+                params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()}, timeout=30000)
+            if not response.ok:
+                failures += 1
+                continue
+            html = response.text()
+            soup = BeautifulSoup(html, 'html.parser')
+            tables = soup.select('table#event-table, table.event-table')
+            for table in tables:
+                for row in table.select('tr'):
+                    if not row.find('td'):
+                        continue
+                    rating = explicit_maturity(row)
+                    if rating == 'Adult':
+                        skipped_adult += 1
+                        continue
+                    if rating is None:
+                        skipped_unclassified += 1
+                        continue
+                    # Parse the isolated row with the original table header.
+                    header = table.select_one('thead') or table.find('tr')
+                    fragment = '<table class="event-table">' + (str(header) if header else '') + str(row) + '</table>'
+                    reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
+                    for event in extract(fragment, now=reference, requested_day=day):
+                        total_seen += 1
+                        event['maturity'] = rating
+                        key = (event['url'], event['starts_at'], event['title'].casefold())
+                        collected[key] = event
+        except Exception:
+            failures += 1
+    print(f'authenticated_calendar: publishable={len(collected)} parsed={total_seen} '
+          f'skipped_adult={skipped_adult} skipped_unclassified={skipped_unclassified} failures={failures}')
+    return list(collected.values())
+
+
 def main():
     payload = {
         'status': 'unavailable', 'updated_at': datetime.now(timezone.utc).isoformat(),
@@ -422,8 +544,11 @@ def main():
                     pass
                 events = collect_calendar_pages(page)
                 daily = collect_dates(days=90)
+                authenticated = []
+                if login_secondlife(page):
+                    authenticated = collect_authenticated_dates(page, days=90)
                 merged = {}
-                for event in events + daily:
+                for event in events + daily + authenticated:
                     key = (event['url'], event['starts_at'], event['title'].casefold())
                     merged[key] = event
                 events = sorted(merged.values(), key=lambda e: (e['starts_at'], e['title']))
@@ -471,3 +596,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
