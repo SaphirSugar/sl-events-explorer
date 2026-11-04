@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-04T05:17:15.800023+00:00",
+  "updated_at": "2026-11-04T06:19:58.180588+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -88,7 +88,8 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495509",
-      "teleport_url": null
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     },
     {
       "title": "---Praise & Worship Service---",
