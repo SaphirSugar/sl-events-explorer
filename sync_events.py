@@ -310,6 +310,45 @@ def future_verified_events(previous):
     return result
 
 
+def collect_calendar_pages(page, max_rounds=60):
+    """Collect rows from dynamically loaded calendar pages; stop when no new rows appear."""
+    found = {}
+    seen_states = set()
+    for round_number in range(max_rounds):
+        for event in extract(page.content()):
+            key = (event['title'].casefold(), event['starts_at'], event['venue'].casefold())
+            found[key] = event
+        before = len(found)
+        # Some calendar implementations append results as the user scrolls.
+        page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+        page.wait_for_timeout(1300)
+        for event in extract(page.content()):
+            key = (event['title'].casefold(), event['starts_at'], event['venue'].casefold())
+            found[key] = event
+        if len(found) > before:
+            continue
+        # Others use a next-page or load-more button.
+        moved = False
+        for selector in ('button:has-text("Load more")', 'button:has-text("Show more")',
+                         'a:has-text("Next")', 'button:has-text("Next")',
+                         '[aria-label="Next page"]', '[rel="next"]'):
+            loc = page.locator(selector)
+            try:
+                if loc.count() and loc.first.is_visible() and loc.first.is_enabled():
+                    loc.first.click(timeout=3000)
+                    page.wait_for_timeout(1500)
+                    moved = True
+                    break
+            except Exception:
+                pass
+        state = (len(found), page.url)
+        if not moved or state in seen_states:
+            break
+        seen_states.add(state)
+    print(f'calendar_collection: pages_or_scroll_rounds={round_number + 1} events={len(found)}')
+    return sorted(found.values(), key=lambda e: (e['starts_at'], e['title'].casefold()))
+
+
 def main():
     payload = {
         'status': 'unavailable', 'updated_at': datetime.now(timezone.utc).isoformat(),
@@ -326,7 +365,7 @@ def main():
                     page.wait_for_timeout(2500)
                 except Exception:
                     pass
-                events = extract(page.content())
+                events = collect_calendar_pages(page)
                 if events:
                     events = attach_venue_photos(enrich_events(events))
             finally:
