@@ -481,28 +481,58 @@ def explicit_maturity(row):
 
 
 def collect_authenticated_dates(page, days=90):
-    """Use browser-shared cookies. Never export unclassified/adult-only rows."""
+    """Inspect authenticated responses without publishing unclassified rows.
+
+    Diagnostics contain only counts and HTTP metadata, never HTML, cookies,
+    credentials, event titles or private URLs.
+    """
     start = datetime.now(SLT).date()
     collected = {}
     total_seen = 0
     skipped_unclassified = 0
     skipped_adult = 0
     failures = 0
+    successful_responses = 0
+    tables_seen = 0
+    rows_seen = 0
+    no_table_responses = 0
+    consecutive_failures = 0
+
     for offset in range(days):
         day = start + timedelta(days=offset)
         try:
-            response = page.request.get('https://secondlife.com/events/upcoming.php',
-                params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()}, timeout=30000)
+            # page.request shares the browser context's cookie jar.
+            response = page.request.get(
+                'https://secondlife.com/events/upcoming.php',
+                params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()},
+                timeout=30000,
+            )
+            status = response.status
             if not response.ok:
                 failures += 1
+                consecutive_failures += 1
+                if failures <= 3:
+                    print(f'authenticated_diagnostic: day_offset={offset} http_status={status}')
+                if consecutive_failures >= 3:
+                    print('authenticated_diagnostic: stopped_after_three_consecutive_http_failures')
+                    break
                 continue
+
+            consecutive_failures = 0
+            successful_responses += 1
             html = response.text()
             soup = BeautifulSoup(html, 'html.parser')
             tables = soup.select('table#event-table, table.event-table')
+            tables_seen += len(tables)
+            if not tables:
+                no_table_responses += 1
+            day_rows = 0
             for table in tables:
                 for row in table.select('tr'):
                     if not row.find('td'):
                         continue
+                    day_rows += 1
+                    rows_seen += 1
                     rating = explicit_maturity(row)
                     if rating == 'Adult':
                         skipped_adult += 1
@@ -510,7 +540,6 @@ def collect_authenticated_dates(page, days=90):
                     if rating is None:
                         skipped_unclassified += 1
                         continue
-                    # Parse the isolated row with the original table header.
                     header = table.select_one('thead') or table.find('tr')
                     fragment = '<table class="event-table">' + (str(header) if header else '') + str(row) + '</table>'
                     reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
@@ -519,10 +548,28 @@ def collect_authenticated_dates(page, days=90):
                         event['maturity'] = rating
                         key = (event['url'], event['starts_at'], event['title'].casefold())
                         collected[key] = event
-        except Exception:
+
+            if offset < 3 or (day_rows and not total_seen and offset < 7):
+                content_type = response.headers.get('content-type', '').split(';')[0][:45]
+                print(f'authenticated_diagnostic: day_offset={offset} http_status={status} '
+                      f'content_type={content_type} bytes={len(html)} '
+                      f'tables={len(tables)} rows={day_rows}')
+        except Exception as exc:
             failures += 1
+            consecutive_failures += 1
+            if failures <= 3:
+                print(f'authenticated_diagnostic: day_offset={offset} exception={type(exc).__name__}')
+            if consecutive_failures >= 3:
+                print('authenticated_diagnostic: stopped_after_three_consecutive_exceptions')
+                break
+
+    print(f'authenticated_diagnostic: responses_ok={successful_responses} '
+          f'tables={tables_seen} rows={rows_seen} no_table_responses={no_table_responses}')
     print(f'authenticated_calendar: publishable={len(collected)} parsed={total_seen} '
           f'skipped_adult={skipped_adult} skipped_unclassified={skipped_unclassified} failures={failures}')
+    if not collected:
+        print('authenticated_diagnostic: no_authenticated_events_published; '
+              'check HTTP status, table count and explicit maturity labels')
     return list(collected.values())
 
 
@@ -596,4 +643,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
