@@ -18,7 +18,10 @@ jobs:
           python -m pip install beautifulsoup4 playwright requests
           python -m playwright install --with-deps chromium
       - name: Collect events
-        run: python sync_events.py
+  env:
+    SL_USERNAME: ${{ secrets.SL_USERNAME }}
+    SL_PASSWORD: ${{ secrets.SL_PASSWORD }}
+  run: python sync_events.py
       - name: Commit feed
         run: |
           git config user.name 'github-actions[bot]'
