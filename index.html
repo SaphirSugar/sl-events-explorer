@@ -12,12 +12,22 @@ main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:cent
 #events{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.event{background:linear-gradient(145deg,#19243a,#111a2b);border:1px solid var(--border);border-radius:18px;padding:22px;display:flex;flex-direction:column;min-height:248px;transition:border-color .2s,transform .2s}.event:hover{border-color:#796eb8;transform:translateY(-2px)}.tag{display:inline-flex;align-self:flex-start;color:#d2caff;background:#322d57;border:1px solid #514782;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.event-image{display:block;width:calc(100% + 44px);height:205px;object-fit:cover;margin:-22px -22px 18px;border-radius:17px 17px 0 0;background:#202a3d}.event h3{font-size:19px;line-height:1.35;margin:16px 0 14px;overflow-wrap:anywhere}.meta{color:#bac6dc;font-size:13px;margin:0 0 10px;line-height:1.5}.description{color:#aebbd3;font-size:13px;line-height:1.5}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:auto;padding-top:18px}.actions a{text-decoration:none;font-size:13px;font-weight:800}.empty{grid-column:1/-1;background:#141e31;border:1px dashed #46536f;padding:35px;border-radius:16px;color:#c8d1e4;text-align:center}footer{border-top:1px solid #273149;padding:28px 0 40px;color:#9caac2;font-size:13px;line-height:1.7}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 @media(max-width:900px){#events{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.wrap{width:min(100% - 28px,1120px)}.hero{padding:42px 0}.filters{grid-template-columns:1fr}#events{grid-template-columns:1fr}.top{padding:16px 0}.hero p{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.event{transition:none}}
+
+/* Eventide SL calendar */
+.calendar-shell{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(250px,.75fr);gap:22px;margin:0 0 28px}
+.calendar-panel,.calendar-aside{border:1px solid #3d3a49;border-radius:22px;background:linear-gradient(145deg,#1b202d,#101722);box-shadow:0 18px 55px #00000025;padding:24px}
+.calendar-panel{--gold:#d7b77d}.calendar-kicker{font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:#d7b77d;font-weight:800}.calendar-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 0 20px}.calendar-heading h2{font-size:25px;letter-spacing:-.03em;margin:0;font-weight:700}.calendar-nav{display:flex;gap:8px}.calendar-nav button{width:37px;height:37px;border-radius:11px;border:1px solid #454655;background:#252b38;color:#f7f0e5;font-size:24px;line-height:1}.calendar-nav button:hover{border-color:#d7b77d}.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}.calendar-weekday{text-align:center;color:#9ba3b1;font-size:12px;font-weight:700;padding:7px 0 11px}.calendar-cell{aspect-ratio:1/1;min-width:0;border-radius:11px;border:1px solid transparent;background:#222a37;color:#e9edf5;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:3px;font-size:14px;position:relative}.calendar-cell:not(:disabled):hover{border-color:#d7b77d;background:#333745}.calendar-cell:disabled{opacity:0;background:transparent;cursor:default}.calendar-cell.today{border-color:#69614d}.calendar-cell.selected{background:#d7b77d;color:#171b22;font-weight:800}.calendar-dot{width:5px;height:5px;border-radius:50%;background:#d7b77d}.calendar-cell.selected .calendar-dot{background:#171b22}.calendar-legend{display:flex;align-items:center;gap:8px;color:#aeb5c3;font-size:12px;margin-top:17px}.calendar-aside{display:flex;flex-direction:column;justify-content:space-between;gap:18px}.calendar-aside h3{font-size:clamp(23px,3vw,32px);line-height:1.2;margin:0;color:#f7f0e5}.calendar-aside p{color:#b8c1cf;line-height:1.6;margin:0}.calendar-selected{font-size:13px;color:#d7b77d;font-weight:700}.calendar-reset{border:1px solid #d7b77d;border-radius:12px;background:transparent;color:#e9c991;padding:12px 16px;font-weight:750;text-align:center}.calendar-reset:hover{background:#302c2a}.calendar-tip{font-size:12px!important;color:#9ea8b8!important}
+@media(max-width:740px){.calendar-shell{grid-template-columns:1fr}.calendar-panel,.calendar-aside{padding:18px}.calendar-aside{gap:12px}.calendar-cell{font-size:13px}}
 </style>
 </head>
 <body>
 <div class="wrap top"><div class="brand">EVENTIDE SL</div><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official calendar ↗</a></div>
 <header class="hero"><div class="wrap"><div class="eyebrow">Your guide to what is happening in Second Life</div><h1>Find your next <span>experience.</span></h1><p>Explore collected events across all available dates, live performances and DJ sets across Second Life. Discover the scene and follow the event link to join in.</p><div class="note">Independent community events directory</div></div></header>
 <main class="wrap">
+<section class="calendar-shell" aria-label="Browse events by date">
+<div class="calendar-panel"><div class="calendar-kicker">Explore by date</div><div class="calendar-heading"><h2 id="calendar-month">November 2026</h2><div class="calendar-nav"><button type="button" id="calendar-prev" aria-label="Previous month">‹</button><button type="button" id="calendar-next" aria-label="Next month">›</button></div></div><div id="calendar-grid" class="calendar-grid" role="group" aria-label="Choose an event date"></div><div class="calendar-legend"><span class="calendar-dot" aria-hidden="true"></span> Dates with collected events</div></div>
+<div class="calendar-aside"><div><div class="calendar-kicker">Your event guide</div><h3 style="margin-top:12px">Every day brings something new.</h3></div><p>Choose a day to explore its events or browse everything across all available dates.</p><div id="calendar-selection" class="calendar-selected" aria-live="polite">Browsing all dates</div><button type="button" id="calendar-clear" class="calendar-reset">View all events</button><p class="calendar-tip">Searching for a keyword automatically searches all collected dates.</p></div>
+</section>
 <div class="toolbar"><nav class="tabs" aria-label="Event views"><button class="active" data-view="all" aria-pressed="true">All Events</button><button data-view="music" aria-pressed="false">Live Music & DJs</button></nav><div class="stats" id="count" aria-live="polite"></div></div>
 <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><select id="category" aria-label="Category"><option value="all">All categories</option></select><select id="sort" aria-label="Sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
 <p id="notice" class="notice" role="status">Loading verified events…</p>
@@ -28,7 +38,8 @@ main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:cent
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official Second Life calendar</a></div></footer>
 <script>
 'use strict';
-let events=[],view='all',filteredEvents=[],visibleCount=0;
+let events=[],view='all',filteredEvents=[],visibleCount=0,selectedDate=null;
+const calendarCursor=new Date();calendarCursor.setDate(1);
 const PAGE_SIZE=24;
 const $=id=>document.getElementById(id);
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
@@ -51,10 +62,32 @@ const classifyEvent=e=>{
  if(e.official_category&&previous)return previous;
  return previous&&!/^(other\s*\/\s*unclassified|unclassified|other events?)$/i.test(previous)?previous:'Other Events';
 };
+const dateKey=d=>[d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');
+function drawCalendar(){
+ const year=calendarCursor.getFullYear(),month=calendarCursor.getMonth();
+ $('calendar-month').textContent=new Intl.DateTimeFormat('en',{month:'long',year:'numeric'}).format(calendarCursor);
+ const grid=$('calendar-grid');grid.replaceChildren();
+ for(const label of ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']){const el=document.createElement('div');el.className='calendar-weekday';el.textContent=label;grid.append(el)}
+ const offset=(new Date(year,month,1).getDay()+6)%7;
+ for(let i=0;i<offset;i++){const empty=document.createElement('div');empty.setAttribute('aria-hidden','true');grid.append(empty)}
+ const dates=new Set(events.map(e=>validDate(e)).filter(Boolean).map(dateKey));
+ const today=dateKey(new Date());
+ for(let day=1;day<=new Date(year,month+1,0).getDate();day++){
+  const key=dateKey(new Date(year,month,day));const btn=document.createElement('button');btn.type='button';btn.className='calendar-cell';btn.setAttribute('aria-label',new Intl.DateTimeFormat('en',{dateStyle:'full'}).format(new Date(year,month,day))+(dates.has(key)?', events available':''));btn.setAttribute('aria-pressed',String(selectedDate===key));
+  if(key===today)btn.classList.add('today');if(key===selectedDate)btn.classList.add('selected');
+  const number=document.createElement('span');number.textContent=day;btn.append(number);
+  if(dates.has(key)){const dot=document.createElement('span');dot.className='calendar-dot';dot.setAttribute('aria-hidden','true');btn.append(dot)}
+  btn.addEventListener('click',()=>{selectedDate=selectedDate===key?null:key;drawCalendar();render();$('events').scrollIntoView({behavior:'smooth',block:'start'})});grid.append(btn)
+ }
+ $('calendar-selection').textContent=selectedDate?'Selected: '+new Intl.DateTimeFormat('en',{dateStyle:'long'}).format(new Date(selectedDate+'T12:00:00')):'Browsing all dates';
+}
+$('calendar-prev').addEventListener('click',()=>{calendarCursor.setMonth(calendarCursor.getMonth()-1);drawCalendar()});
+$('calendar-next').addEventListener('click',()=>{calendarCursor.setMonth(calendarCursor.getMonth()+1);drawCalendar()});
+$('calendar-clear').addEventListener('click',()=>{selectedDate=null;drawCalendar();render()});
 const validDate=e=>{const d=new Date(e.starts_at);return !Number.isNaN(d.getTime())?d:null};
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=$('category').value;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
  filteredEvents=filtered;
  if(reset)visibleCount=0;
  showNextPage();
@@ -74,7 +107,8 @@ const observer=new IntersectionObserver(entries=>{if(entries.some(x=>x.isInterse
 observer.observe($('load-sentinel'));
 for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('click',()=>{view=b.dataset.view;document.querySelectorAll('[data-view]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});render()});
 $('search').addEventListener('input',()=>{
- // A keyword search always spans every category and event view.
+ // A keyword search always spans every category, date and event view.
+ if($('search').value.trim()){selectedDate=null;drawCalendar()}
  $('category').value='all';
  view='all';
  document.querySelectorAll('[data-view]').forEach(x=>{const active=x.dataset.view==='all';x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active))});
@@ -87,7 +121,7 @@ fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)
  const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();for(const c of categories){const option=document.createElement('option');option.value=c;option.textContent=c;$('category').append(option)}
  const updated=data.updated_at&& !Number.isNaN(new Date(data.updated_at).getTime())?new Date(data.updated_at).toLocaleString(): 'unknown';
  $('notice').textContent=data.status==='ok'?`Source: Second Life events calendar · Last checked: ${updated} · All times are shown locally.`:`Latest sync unavailable. ${data.message||'Showing only previously verified events when available.'} · Last attempt: ${updated}`;
- render();
+ drawCalendar();render();
 }).catch(()=>{$('notice').textContent='The website is online, but the event feed could not be loaded.';$('count').textContent='0 events';$('events').innerHTML='<p class="empty">Please try again later.</p>'});
 </script>
 </body></html>
