@@ -65,34 +65,51 @@ def parse_date(text, now):
     return None
 
 
-def extract(html, now=None):
+def extract(html, now=None, requested_day=None):
+    """Read event tables from the public calendar or its upcoming.php fragment."""
     now = now or datetime.now(SLT)
     soup = BeautifulSoup(html, 'html.parser')
     collected = {}
-    for table in soup.select('table'):
-        rows = table.select('tr')
-        if not any(all(word in row.get_text(' ', strip=True).lower() for word in ('when', 'what', 'where')) for row in rows[:3]):
-            continue
-        for row in rows:
+    tables = soup.select('table#event-table, table.event-table')
+    if not tables:
+        tables = [t for t in soup.select('table') if any(
+            all(w in row.get_text(' ', strip=True).lower() for w in ('when', 'what', 'where'))
+            for row in t.select('tr')[:4]
+        )]
+    for table in tables:
+        headings = [th.get_text(' ', strip=True).lower() for th in table.select('thead th')]
+        if not headings:
+            header = table.find('tr')
+            headings = [c.get_text(' ', strip=True).lower() for c in header.find_all(['th', 'td'], recursive=False)] if header else []
+        def column(words, fallback):
+            return next((i for i, name in enumerate(headings) if any(w in name for w in words)), fallback)
+        when_i, title_i, venue_i = column(('when', 'time', 'date'), 0), column(('what', 'event', 'title'), 1), column(('where', 'location', 'venue'), 2)
+        for row in table.select('tr'):
             cells = row.find_all('td', recursive=False)
-            if len(cells) < 3:
+            if len(cells) <= max(when_i, title_i, venue_i):
                 continue
-            when, title, venue = (cell.get_text(' ', strip=True) for cell in cells[:3])
+            when, title, venue = (cells[i].get_text(' ', strip=True) for i in (when_i, title_i, venue_i))
             date = parse_date(when, now)
+            if not date and requested_day:
+                # Daily responses sometimes show just the time, not MM/DD.
+                tm = re.search(r'\b(1[0-2]|0?[1-9]):([0-5]\d)\s*(AM|PM)\b', when, re.I)
+                if tm:
+                    hour = int(tm.group(1)) % 12 + (12 if tm.group(3).upper() == 'PM' else 0)
+                    date = datetime(requested_day.year, requested_day.month, requested_day.day, hour, int(tm.group(2)), tzinfo=SLT)
             if not date or not title:
                 continue
-            link = cells[1].find('a', href=True)
+            if requested_day and date.date() != requested_day:
+                continue
+            link = cells[title_i].find('a', href=True)
             url = urljoin(SOURCE, link['href']) if link else SOURCE
             if urlparse(url).scheme not in ('http', 'https'):
                 url = SOURCE
-            event = {
-                'title': title, 'starts_at': date.isoformat(), 'venue': venue,
-                'category': category_for(title, venue), 'description': '',
-                'url': url, 'teleport_url': None,
-            }
+            event = {'title': title, 'starts_at': date.isoformat(), 'venue': venue,
+                     'category': category_for(title, venue), 'description': '',
+                     'url': url, 'teleport_url': None}
             key = (title.casefold(), date.isoformat(), venue.casefold())
             collected[key] = event
-    return sorted(collected.values(), key=lambda event: (event['starts_at'], event['title'].casefold()))
+    return sorted(collected.values(), key=lambda e: (e['starts_at'], e['title'].casefold()))
 
 
 OFFICIAL_CATEGORIES = {
@@ -350,11 +367,7 @@ def collect_calendar_pages(page, max_rounds=60):
 
 
 def collect_dates(days=90):
-    """Fetch the public daily calendar, not just the first visible day.
-
-    This endpoint was identified in the browser's Network tab. Coverage still
-    depends on what Second Life returns for each date.
-    """
+    """Query each date and report exactly why a date returned no parsed events."""
     start = datetime.now(SLT).date()
     dates = [start + timedelta(days=n) for n in range(days)]
     def fetch_day(day):
@@ -362,28 +375,32 @@ def collect_dates(days=90):
         try:
             response = requests.get(url, params={
                 'lang': 'en-US', 'per_page': 200, 'date': day.isoformat()
-            }, timeout=25, headers={'User-Agent': 'Mozilla/5.0 (EventideSL calendar)'})
+            }, timeout=25, headers={'User-Agent': 'Mozilla/5.0', 'Referer': SOURCE})
             response.raise_for_status()
-            # The source omits the year in event rows. Anchor to the queried day.
             reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
-            items = extract(response.text, now=reference)
-            # A query for a single day must not accidentally import adjacent dates.
-            items = [e for e in items if e['starts_at'][:10] == day.isoformat()]
+            items = extract(response.text, now=reference, requested_day=day)
+            if not items:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                tables = soup.select('table')
+                first_row = next((r.get_text(' ', strip=True)[:180] for t in tables for r in t.select('tr') if r.find('td')), '')
+                reason = f'no rows parsed; tables={len(tables)} first_row={first_row!r} bytes={len(response.content)} final_url={response.url}'
+                return day.isoformat(), [], reason
             return day.isoformat(), items, None
         except Exception as exc:
-            return day.isoformat(), [], str(exc)[:140]
-    unique = {}
-    errors = []
-    with ThreadPoolExecutor(max_workers=5) as pool:
+            return day.isoformat(), [], f'{type(exc).__name__}: {str(exc)[:180]}'
+    unique, errors, populated = {}, [], 0
+    with ThreadPoolExecutor(max_workers=4) as pool:
         for day, items, error in pool.map(fetch_day, dates):
             if error:
                 errors.append(day + ': ' + error)
+            if items:
+                populated += 1
             for event in items:
                 key = (event['url'], event['starts_at'], event['title'].casefold())
                 unique[key] = event
-    print(f'daily_calendar: dates={len(dates)} events={len(unique)} errors={len(errors)}')
-    if errors:
-        print('daily_calendar_errors:', '; '.join(errors[:3]))
+    print(f'daily_calendar: dates={len(dates)} days_with_events={populated} events={len(unique)} empty_or_errors={len(errors)}')
+    for error in errors[:8]:
+        print('daily_calendar_diagnostic:', error)
     return list(unique.values())
 
 
@@ -424,6 +441,20 @@ def main():
     except Exception as exc:
         payload['message'] = f'Calendar retrieval failed: {type(exc).__name__}: {str(exc)[:220]}'
 
+    # Never discard known future events just because a daily request failed.
+    if OUT.exists():
+        try:
+            previous = json.loads(OUT.read_text(encoding='utf-8'))
+            old = future_verified_events(previous)
+            merged = {(e.get('url'), e.get('starts_at'), e.get('title', '').casefold()): e for e in old}
+            for e in payload['events']:
+                key = (e.get('url'), e.get('starts_at'), e.get('title', '').casefold())
+                merged[key] = {**merged.get(key, {}), **e}
+            payload['events'] = sorted(merged.values(), key=lambda e: (e['starts_at'], e['title']))
+            if payload['events'] and payload['status'] != 'ok':
+                payload['message'] += ' Previously collected future events retained.'
+        except (OSError, ValueError, TypeError):
+            pass
     OUT.parent.mkdir(parents=True, exist_ok=True)
     if payload['status'] != 'ok' and OUT.exists():
         try:
