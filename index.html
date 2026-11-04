@@ -8,7 +8,7 @@
 :root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--bg:#090f1c;--panel:#141d30;--border:#2b3852;--muted:#aebbd3;--text:#f4f6ff;--accent:#a69aff}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#242047 0%,transparent 36%),var(--bg);color:var(--text)}a{color:#c0b9ff}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #d7cfff;outline-offset:3px}
 .wrap{width:min(1120px,calc(100% - 40px));margin:auto}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 0}.brand{font-weight:800;letter-spacing:.04em;font-size:19px}.top a{font-size:14px;text-decoration:none}.hero{padding:64px 0 58px;border-top:1px solid #ffffff12;border-bottom:1px solid #ffffff18}.eyebrow{color:#bcb3ff;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:800}.hero h1{font-size:clamp(44px,7vw,82px);line-height:1.05;letter-spacing:-.045em;margin:16px 0;max-width:820px}.hero h1 span{color:#b6a8ff}.hero p{max-width:600px;line-height:1.65;color:#c4cde0;font-size:17px}.hero .note{font-size:13px;color:#aab7d0;margin-top:22px}
-main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:22px}.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button{border:1px solid var(--border);background:#192339;color:var(--text);padding:11px 16px;border-radius:999px;font-weight:700}.tabs button.active{background:#7668de;border-color:#9a8df8}.stats{color:var(--muted);font-size:14px}.filters{display:grid;grid-template-columns:minmax(200px,2fr) repeat(3,minmax(130px,1fr));gap:10px;margin:0 0 22px}input,select{width:100%;min-width:0;background:#172138;color:#fff;border:1px solid #394765;border-radius:12px;padding:13px}input::placeholder{color:#a4b0c8}.notice{padding:13px 16px;border:1px solid #374563;background:#151f33;border-radius:12px;color:#c4d0e5;font-size:13px;line-height:1.5;margin:0 0 22px}.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:15px}.section-head h2{font-size:23px;letter-spacing:-.02em}.section-head p{color:var(--muted);font-size:13px}
+main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:22px}.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button{border:1px solid var(--border);background:#192339;color:var(--text);padding:11px 16px;border-radius:999px;font-weight:700}.tabs button.active{background:#7668de;border-color:#9a8df8}.stats{color:var(--muted);font-size:14px}.filters{display:grid;grid-template-columns:minmax(200px,2fr) repeat(2,minmax(130px,1fr));gap:10px;margin:0 0 22px}input,select{width:100%;min-width:0;background:#172138;color:#fff;border:1px solid #394765;border-radius:12px;padding:13px}input::placeholder{color:#a4b0c8}.notice{padding:13px 16px;border:1px solid #374563;background:#151f33;border-radius:12px;color:#c4d0e5;font-size:13px;line-height:1.5;margin:0 0 22px}.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:15px}.section-head h2{font-size:23px;letter-spacing:-.02em}.section-head p{color:var(--muted);font-size:13px}
 #events{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.event{background:linear-gradient(145deg,#19243a,#111a2b);border:1px solid var(--border);border-radius:18px;padding:22px;display:flex;flex-direction:column;min-height:248px;transition:border-color .2s,transform .2s}.event:hover{border-color:#796eb8;transform:translateY(-2px)}.tag{display:inline-flex;align-self:flex-start;color:#d2caff;background:#322d57;border:1px solid #514782;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.event-image{display:block;width:calc(100% + 44px);height:205px;object-fit:cover;margin:-22px -22px 18px;border-radius:17px 17px 0 0;background:#202a3d}.event h3{font-size:19px;line-height:1.35;margin:16px 0 14px;overflow-wrap:anywhere}.meta{color:#bac6dc;font-size:13px;margin:0 0 10px;line-height:1.5}.description{color:#aebbd3;font-size:13px;line-height:1.5}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:auto;padding-top:18px}.actions a{text-decoration:none;font-size:13px;font-weight:800}.empty{grid-column:1/-1;background:#141e31;border:1px dashed #46536f;padding:35px;border-radius:16px;color:#c8d1e4;text-align:center}footer{border-top:1px solid #273149;padding:28px 0 40px;color:#9caac2;font-size:13px;line-height:1.7}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 @media(max-width:900px){#events{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.wrap{width:min(100% - 28px,1120px)}.hero{padding:42px 0}.filters{grid-template-columns:1fr}#events{grid-template-columns:1fr}.top{padding:16px 0}.hero p{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.event{transition:none}}
@@ -16,18 +16,20 @@ main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:cent
 </head>
 <body>
 <div class="wrap top"><div class="brand">EVENTIDE SL</div><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official calendar ↗</a></div>
-<header class="hero"><div class="wrap"><div class="eyebrow">Your guide to what is happening in Second Life</div><h1>Find your next <span>experience.</span></h1><p>Explore upcoming events, live performances and DJ sets across Second Life. Discover the scene and follow the event link to join in.</p><div class="note">Independent community events directory</div></div></header>
+<header class="hero"><div class="wrap"><div class="eyebrow">Your guide to what is happening in Second Life</div><h1>Find your next <span>experience.</span></h1><p>Explore collected events across all available dates, live performances and DJ sets across Second Life. Discover the scene and follow the event link to join in.</p><div class="note">Independent community events directory</div></div></header>
 <main class="wrap">
 <div class="toolbar"><nav class="tabs" aria-label="Event views"><button class="active" data-view="all" aria-pressed="true">All Events</button><button data-view="music" aria-pressed="false">Live Music & DJs</button></nav><div class="stats" id="count" aria-live="polite"></div></div>
-<div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><select id="category" aria-label="Category"><option value="all">All categories</option></select><select id="date" aria-label="Date"><option value="all">Any date</option><option value="today">Today</option><option value="tomorrow">Tomorrow</option><option value="week">Next 7 days</option></select><select id="sort" aria-label="Sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
+<div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><select id="category" aria-label="Category"><option value="all">All categories</option></select><select id="sort" aria-label="Sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
 <p id="notice" class="notice" role="status">Loading verified events…</p>
-<div class="section-head"><h2>Upcoming events</h2><p>Times shown in your local timezone</p></div>
+<div class="section-head"><h2>All collected events</h2><p>Times shown in your local timezone</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
+<div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
 </main>
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official Second Life calendar</a></div></footer>
 <script>
 'use strict';
-let events=[],view='all';
+let events=[],view='all',filteredEvents=[],visibleCount=0;
+const PAGE_SIZE=24;
 const $=id=>document.getElementById(id);
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -50,19 +52,38 @@ const classifyEvent=e=>{
  return previous&&!/^(other\s*\/\s*unclassified|unclassified|other events?)$/i.test(previous)?previous:'Other Events';
 };
 const validDate=e=>{const d=new Date(e.starts_at);return !Number.isNaN(d.getTime())?d:null};
-function render(){
- const now=new Date(),start=new Date(now.getFullYear(),now.getMonth(),now.getDate()),tomorrow=new Date(start);tomorrow.setDate(tomorrow.getDate()+1);
- const after=new Date(tomorrow);after.setDate(after.getDate()+1);const week=new Date(start);week.setDate(week.getDate()+7);
- const q=$('search').value.trim().toLowerCase(),cat=$('category').value,d=$('date').value;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))&&(d==='all'||d==='today'&&t>=start&&t<tomorrow||d==='tomorrow'&&t>=tomorrow&&t<after||d==='week'&&t>=start&&t<week)}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
- $('count').textContent=`${filtered.length} event${filtered.length===1?'':'s'} found`;
- $('events').innerHTML=filtered.map(e=>{const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><p class="meta">${escapeHTML(new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(date))}</p><p class="meta">${escapeHTML(e.venue||'Venue not specified')}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`}).join('')||'<p class="empty">No matching upcoming events. Try another search or category.</p>';
+function render(reset=true){
+ const q=$('search').value.trim().toLowerCase(),cat=$('category').value;
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
+ filteredEvents=filtered;
+ if(reset)visibleCount=0;
+ showNextPage();
 }
+function showNextPage(){
+ const filtered=filteredEvents;
+ const slice=filtered.slice(visibleCount,visibleCount+PAGE_SIZE);
+ const html=slice.map(e=>{const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><p class="meta">${escapeHTML(new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(date))}</p><p class="meta">${escapeHTML(e.venue||'Venue not specified')}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`}).join('');
+ if(visibleCount===0)$('events').innerHTML='';
+ if(html)$('events').insertAdjacentHTML('beforeend',html);
+ visibleCount+=slice.length;
+ if(!filtered.length)$('events').innerHTML='<p class="empty">No matching events in the collected feed. The search covers all collected dates, not events missing from the feed.</p>';
+ $('count').textContent=`${filtered.length} matching events in the collected feed`;
+ $('load-status').textContent=visibleCount<filtered.length?`Showing ${visibleCount} of ${filtered.length} · Scroll to load more`:`Showing ${visibleCount} of ${filtered.length} collected events`;
+}
+const observer=new IntersectionObserver(entries=>{if(entries.some(x=>x.isIntersecting)&&visibleCount<filteredEvents.length)showNextPage()},{rootMargin:'600px'});
+observer.observe($('load-sentinel'));
 for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('click',()=>{view=b.dataset.view;document.querySelectorAll('[data-view]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});render()});
-for(const id of ['search','category','date','sort'])$(id).addEventListener(id==='search'?'input':'change',render);
+$('search').addEventListener('input',()=>{
+ // A keyword search always spans every category and event view.
+ $('category').value='all';
+ view='all';
+ document.querySelectorAll('[data-view]').forEach(x=>{const active=x.dataset.view==='all';x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active))});
+ render();
+});
+for(const id of ['category','sort'])$(id).addEventListener('change',render);
 $('year').textContent=new Date().getFullYear();
 fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events feed unavailable');return r.json()}).then(data=>{
- events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)&&validDate(e)>new Date(Date.now()-3600000)).map(e=>({...e,category:classifyEvent(e)}));
+ events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)).map(e=>({...e,category:classifyEvent(e)}));
  const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();for(const c of categories){const option=document.createElement('option');option.value=c;option.textContent=c;$('category').append(option)}
  const updated=data.updated_at&& !Number.isNaN(new Date(data.updated_at).getTime())?new Date(data.updated_at).toLocaleString(): 'unknown';
  $('notice').textContent=data.status==='ok'?`Source: Second Life events calendar · Last checked: ${updated} · All times are shown locally.`:`Latest sync unavailable. ${data.message||'Showing only previously verified events when available.'} · Last attempt: ${updated}`;
