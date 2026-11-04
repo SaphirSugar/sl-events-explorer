@@ -75,17 +75,7 @@ def extract(html, now=None, requested_day=None):
     now = now or datetime.now(SLT)
     soup = BeautifulSoup(html, 'html.parser')
  
-if offset < 3:
-    print(
-        "authenticated_structure:",
-        f"day_offset={offset}",
-        f"title={soup.title.get_text(' ', strip=True)[:80] if soup.title else 'none'}",
-        f"event_ids={len(soup.select('[data-event-id]'))}",
-        f"tables={len(soup.select('table'))}",
-        f"forms={len(soup.select('form'))}",
-        f"links={len(soup.select('a[href]'))}",
-        f"login_form={bool(soup.select('input[type=password]'))}",
-    )
+
 
     collected = {}
     tables = soup.select('table#event-table, table.event-table')
