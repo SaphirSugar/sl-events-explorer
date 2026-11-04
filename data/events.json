@@ -1,17 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-03T23:53:37.168088+00:00",
+  "updated_at": "2026-11-04T01:26:11.021990+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "5PM SLT - JOAQUIN GUSTAV LIVE @ THE CELLAR JAZZ CLUB",
-      "starts_at": "2026-11-03T17:00:00-08:00",
-      "venue": "THE CELLAR JAZZ CLUB",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9485645",
-      "teleport_url": null
-    },
     {
       "title": "6PM SLT - DJ BC SUSSER’S BREAK FROM ALL THAT JAZZ @ THE CELLAR",
       "starts_at": "2026-11-03T18:00:00-08:00",
@@ -19,8 +10,7 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485657",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Andreus Gustafson LIVE at ***Starport Omega***",
@@ -129,6 +119,26 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500165",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "Bible Study Series Continues: \"What is God Like?\"",
+      "starts_at": "2026-11-04T16:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Spiritual & Community",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9495509",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "---Praise & Worship Service---",
+      "starts_at": "2026-11-04T17:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Spiritual & Community",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497826",
       "teleport_url": null,
       "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     }
