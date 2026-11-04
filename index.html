@@ -25,7 +25,7 @@ main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:cent
 <header class="hero"><div class="wrap"><div class="eyebrow">Your guide to what is happening in Second Life</div><h1>Find your next <span>experience.</span></h1><p>Explore collected events across all available dates, live performances and DJ sets across Second Life. Discover the scene and follow the event link to join in.</p><div class="note">Independent community events directory</div></div></header>
 <main class="wrap">
 <section class="calendar-shell" aria-label="Browse events by date">
-<div class="calendar-panel"><div class="calendar-kicker">Explore by date</div><div class="calendar-heading"><h2 id="calendar-month">November 2026</h2><div class="calendar-nav"><button type="button" id="calendar-prev" aria-label="Previous month">‹</button><button type="button" id="calendar-next" aria-label="Next month">›</button></div></div><div id="calendar-grid" class="calendar-grid" role="group" aria-label="Choose an event date"></div><div class="calendar-legend"><span class="calendar-dot" aria-hidden="true"></span> Dates with collected events</div></div>
+<div class="calendar-panel"><div class="calendar-kicker">Explore by date</div><div class="calendar-heading"><h2 id="calendar-month">November 2026</h2><div class="calendar-nav"><button type="button" id="calendar-prev" aria-label="Previous month">‹</button><button type="button" id="calendar-next" aria-label="Next month">›</button></div></div><div id="calendar-grid" class="calendar-grid" role="group" aria-label="Choose an event date"></div><div class="calendar-legend"><span class="calendar-dot" aria-hidden="true"></span> Dates with collected events (next 90 days)</div></div>
 <div class="calendar-aside"><div><div class="calendar-kicker">Your event guide</div><h3 style="margin-top:12px">Every day brings something new.</h3></div><p>Choose a day to explore its events or browse everything across all available dates.</p><div id="calendar-selection" class="calendar-selected" aria-live="polite">Browsing all dates</div><button type="button" id="calendar-clear" class="calendar-reset">View all events</button><p class="calendar-tip">Searching for a keyword automatically searches all collected dates.</p></div>
 </section>
 <div class="toolbar"><nav class="tabs" aria-label="Event views"><button class="active" data-view="all" aria-pressed="true">All Events</button><button data-view="music" aria-pressed="false">Live Music & DJs</button></nav><div class="stats" id="count" aria-live="polite"></div></div>
@@ -62,7 +62,7 @@ const classifyEvent=e=>{
  if(e.official_category&&previous)return previous;
  return previous&&!/^(other\s*\/\s*unclassified|unclassified|other events?)$/i.test(previous)?previous:'Other Events';
 };
-const dateKey=d=>[d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');
+const dateKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
 function drawCalendar(){
  const year=calendarCursor.getFullYear(),month=calendarCursor.getMonth();
  $('calendar-month').textContent=new Intl.DateTimeFormat('en',{month:'long',year:'numeric'}).format(calendarCursor);
@@ -73,7 +73,7 @@ function drawCalendar(){
  const dates=new Set(events.map(e=>validDate(e)).filter(Boolean).map(dateKey));
  const today=dateKey(new Date());
  for(let day=1;day<=new Date(year,month+1,0).getDate();day++){
-  const key=dateKey(new Date(year,month,day));const btn=document.createElement('button');btn.type='button';btn.className='calendar-cell';btn.setAttribute('aria-label',new Intl.DateTimeFormat('en',{dateStyle:'full'}).format(new Date(year,month,day))+(dates.has(key)?', events available':''));btn.setAttribute('aria-pressed',String(selectedDate===key));
+  const key=[year,String(month+1).padStart(2,'0'),String(day).padStart(2,'0')].join('-');const btn=document.createElement('button');btn.type='button';btn.className='calendar-cell';btn.setAttribute('aria-label',new Intl.DateTimeFormat('en',{dateStyle:'full'}).format(new Date(year,month,day))+(dates.has(key)?', events available':''));btn.setAttribute('aria-pressed',String(selectedDate===key));
   if(key===today)btn.classList.add('today');if(key===selectedDate)btn.classList.add('selected');
   const number=document.createElement('span');number.textContent=day;btn.append(number);
   if(dates.has(key)){const dot=document.createElement('span');dot.className='calendar-dot';dot.setAttribute('aria-hidden','true');btn.append(dot)}
