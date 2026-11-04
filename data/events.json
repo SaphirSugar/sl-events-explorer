@@ -1,27 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-04T01:26:11.021990+00:00",
+  "updated_at": "2026-11-04T03:06:59.249770+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "6PM SLT - DJ BC SUSSER’S BREAK FROM ALL THAT JAZZ @ THE CELLAR",
-      "starts_at": "2026-11-03T18:00:00-08:00",
-      "venue": "THE CELLAR JAZZ CLUB",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9485657",
-      "teleport_url": null
-    },
-    {
-      "title": "Andreus Gustafson LIVE at ***Starport Omega***",
-      "starts_at": "2026-11-03T19:00:00-08:00",
-      "venue": "Starport Omega",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9486638",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
-    },
     {
       "title": "Gypsy Dhrua at Villa Lobos 8 pm",
       "starts_at": "2026-11-03T20:00:00-08:00",
@@ -29,8 +10,7 @@
       "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500311",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "Dee Halostar at Villa Lobos 9 pm",
@@ -39,8 +19,7 @@
       "category": "Other Events",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500313",
-      "teleport_url": null,
-      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+      "teleport_url": null
     },
     {
       "title": "---Morning Devotion---",
@@ -139,6 +118,36 @@
       "category": "Spiritual & Community",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497826",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "---Wednesday Night Service---",
+      "starts_at": "2026-11-04T18:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Spiritual & Community",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498413",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "6PM SLT - USO NIGHT @ THE CELLAR JAZZ CLUB",
+      "starts_at": "2026-11-04T18:00:00-08:00",
+      "venue": "THE CELLAR JAZZ CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9487062",
+      "teleport_url": null,
+      "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+    },
+    {
+      "title": "Elephant Lounge is the place to get over your Wednesday doldrums",
+      "starts_at": "2026-11-04T18:00:00-08:00",
+      "venue": "",
+      "category": "Other Events",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9465123",
       "teleport_url": null,
       "image_url": "https://cdn.cookielaw.org/logos/static/ot_close.svg"
     }
