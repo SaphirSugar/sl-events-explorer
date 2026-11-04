@@ -222,9 +222,15 @@ def photo_from_parcel(parcel_id, expected_venue, session):
         soup = BeautifulSoup(response.text, 'html.parser')
         meta = lambda key: soup.find('meta', attrs={'name': key})
         parcel_name = meta('parcel')
-        # Some pages leave 'parcel' empty. Never guess a match in that case.
-        actual = parcel_name.get('content', '').strip() if parcel_name else ''
-        if not actual or normalize_place(actual) != normalize_place(expected_venue):
+        # World API often leaves meta[name=parcel] empty. The visible page
+        # heading/title is the parcel name in that case. Verify exact match.
+        candidates = [parcel_name.get('content', '').strip() if parcel_name else '']
+        heading = soup.find('h1')
+        if heading:
+            candidates.append(heading.get_text(' ', strip=True))
+        if soup.title:
+            candidates.append(soup.title.get_text(' ', strip=True))
+        if normalize_place(expected_venue) not in {normalize_place(x) for x in candidates if x}:
             return None
         image = meta('imageid')
         uuid = image.get('content', '').strip() if image else ''
