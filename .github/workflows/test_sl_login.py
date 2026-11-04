@@ -10,7 +10,6 @@ permissions:
 jobs:
   test-login:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
 
     steps:
       - name: Checkout repository
@@ -30,6 +29,4 @@ jobs:
         env:
           SL_USERNAME: ${{ secrets.SL_USERNAME }}
           SL_PASSWORD: ${{ secrets.SL_PASSWORD }}
-          SL_TEST_DATE: '2026-11-20'
         run: python test_sl_login.py
-
