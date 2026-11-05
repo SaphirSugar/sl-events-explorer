@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
@@ -583,141 +583,161 @@ def explicit_maturity(row):
     return None
 
 
-def collect_authenticated_dates(page, days=90):
-    """Collect event-listing metadata and link to the official detail page.
+def official_next_page(soup, current_url, day):
+    """Follow only an explicit same-day pagination link from the official listing.
 
-    The event table does not provide a reliable maturity rating. Do not label
-    unclassified entries General, Moderate or Adult. Second Life handles
-    authentication and access restrictions when the official link is opened.
+    Do not guess undocumented page parameters or traverse to other dates.
     """
+    candidates = soup.select('a[rel="next"][href], a.next[href], .pagination a[href], .pager a[href]')
+    for link in candidates:
+        label = link.get_text(' ', strip=True).lower()
+        rel = link.get('rel', [])
+        classes = link.get('class', [])
+        if not (('next' in rel) or ('next' in classes) or
+                label in ('next', 'next page', '>', '›', '»')):
+            continue
+        target = urljoin(current_url, link['href'])
+        parsed = urlparse(target)
+        if parsed.scheme != 'https' or parsed.hostname not in ('secondlife.com', 'www.secondlife.com'):
+            continue
+        if parsed.path != '/events/upcoming.php':
+            continue
+        params = parse_qs(parsed.query)
+        if params.get('date', [day.isoformat()])[0] != day.isoformat():
+            continue
+        if 'date' not in params:
+            params['date'] = [day.isoformat()]
+            target = urlunparse(parsed._replace(query=urlencode(params, doseq=True)))
+        if target != current_url:
+            return target
+    return None
+
+
+def collect_authenticated_dates(page, days=90):
+    """Read all explicitly linked listing pages for each day, without guessing dates."""
     start = datetime.now(SLT).date()
     collected = {}
-    successful_responses = 0
-    rows_seen = 0
-    parsed = 0
-    failures = 0
-    missing_dates = 0
-    unknown_maturity = 0
+    responses_ok = rows_seen = parsed_count = failures = missing_dates = 0
+    pagination_pages = 0
     consecutive_failures = 0
     browser_mode = False
+    MAX_PAGES_PER_DAY = 12
 
     for offset in range(days):
         day = start + timedelta(days=offset)
-        try:
-            response = None
-            if not browser_mode:
-                response = page.request.get(
-                    'https://secondlife.com/events/upcoming.php',
-                    params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()},
-                    timeout=30000,
-                )
-            if browser_mode or (response.status == 403 and offset == 0):
-                # A 403 is an access decision. Do not retry aggressively or
-                # attempt to evade it. Try one normal browser navigation using
-                # the same authenticated browser session, then stop if denied.
-                try:
-                    browser_response = page.goto(
-                        'https://secondlife.com/events/upcoming.php'
-                        f'?lang=en-US&per_page=200&date={day.isoformat()}',
-                        wait_until='domcontentloaded', timeout=30000)
+        first_url = ('https://secondlife.com/events/upcoming.php?'
+                     + urlencode({'lang': 'en-US', 'per_page': 200, 'date': day.isoformat()}))
+        current_url = first_url
+        seen_urls = set()
+        seen_signatures = set()
+        day_rows = day_parsed = day_pages = 0
+        day_failed = False
+
+        while current_url and day_pages < MAX_PAGES_PER_DAY and current_url not in seen_urls:
+            seen_urls.add(current_url)
+            try:
+                response = None
+                if not browser_mode:
+                    response = page.request.get(current_url, timeout=30000)
+                if browser_mode or (response is not None and response.status == 403 and offset == 0 and day_pages == 0):
+                    # One normal navigation is permitted. Stop on denial; no bypass.
+                    browser_response = page.goto(current_url, wait_until='domcontentloaded', timeout=30000)
                     if browser_response and browser_response.status == 200:
                         if not browser_mode:
                             print('authenticated_diagnostic: browser_navigation_available')
                         browser_mode = True
-                        # Browser navigation is used for the first day only;
-                        # subsequent requests may still be denied.
-                        class BrowserResponse:
-                            status = 200
-                            ok = True
-                            def __init__(self, body):
-                                self.body = body
-                            def text(self):
-                                return self.body
-                        response = BrowserResponse(page.content())
+                        status = 200
+                        body = page.content()
                     else:
                         print('authenticated_diagnostic: access_denied_browser_too')
-                except Exception as exc:
-                    print('authenticated_diagnostic: browser_navigation_failed', type(exc).__name__)
-            if response is None or not response.ok:
-                failures += 1
-                consecutive_failures += 1
-                if failures <= 3:
-                    print(f'authenticated_diagnostic: day_offset={offset} http_status={response.status if response else "unavailable"}')
-                if consecutive_failures >= 3:
-                    print('authenticated_diagnostic: stopped_after_three_consecutive_http_failures')
+                        status = browser_response.status if browser_response else 0
+                        body = None
+                else:
+                    status = response.status if response else 0
+                    body = response.text() if response and response.ok else None
+
+                if body is None:
+                    failures += 1
+                    day_failed = True
+                    if failures <= 3:
+                        print(f'authenticated_diagnostic: day_offset={offset} http_status={status}')
                     break
-                continue
 
-            consecutive_failures = 0
-            successful_responses += 1
-            soup = BeautifulSoup(response.text(), 'html.parser')
-            tables = soup.select('table#event_table, table#event-table, table.event-table')
-            reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
-            day_parsed = 0
-            day_rows = 0
+                soup = BeautifulSoup(body, 'html.parser')
+                tables = soup.select('table#event_table, table#event-table, table.event-table')
+                rows = [row for table in tables for row in table.select('tr')
+                        if len(row.find_all('td', recursive=False)) >= 3]
+                # Prevent looping over the same 20 results through different URLs.
+                signature = tuple((row.get('data-event-id') or
+                                   (row.select_one('[data-event-id]') or {}).get('data-event-id') or
+                                   row.get_text(' ', strip=True)) for row in rows)
+                if signature and signature in seen_signatures:
+                    print(f'authenticated_diagnostic: repeated_page day_offset={offset} page={day_pages + 1}')
+                    break
+                seen_signatures.add(signature)
+                responses_ok += 1
+                day_pages += 1
+                if day_pages > 1:
+                    pagination_pages += 1
+                reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
 
-            for table in tables:
-                header = table.select_one('thead') or table.find('tr')
-                for row in table.select('tr'):
-                    cells = row.find_all('td', recursive=False)
-                    if len(cells) < 3:
-                        continue
-                    rows_seen += 1
-                    day_rows += 1
-
-                    # Reuse the established table parser for title, date and venue.
-                    fragment = ('<table class="event-table">'
-                                + (str(header) if header else '')
-                                + str(row) + '</table>')
-                    for event in extract(fragment, now=reference, requested_day=day):
-                        # Use the canonical official page when an event ID exists.
-                        event_id = row.get('data-event-id')
-                        if not event_id:
-                            node = row.select_one('[data-event-id]')
-                            event_id = node.get('data-event-id') if node else None
-                        if event_id and re.fullmatch(r'\d+', str(event_id)):
-                            event['url'] = ('https://secondlife.com/my/community/events/'
-                                            f'event.php?id={event_id}')
-                        elif event['url'] == SOURCE:
-                            # Do not publish a card without a usable event detail link.
+                for table in tables:
+                    header = table.select_one('thead') or table.find('tr')
+                    for row in table.select('tr'):
+                        if len(row.find_all('td', recursive=False)) < 3:
                             continue
-
-                        rating = explicit_maturity(row)
-                        if rating:
-                            event['maturity'] = rating
-                        else:
-                            event['maturity'] = 'Unspecified'
-                            unknown_maturity += 1
-
-                        # Do not copy protected event detail text or images.
-                        event['description'] = ''
-                        event.pop('image_url', None)
-                        event['teleport_url'] = None
-                        key = (event['url'], event['starts_at'], event['title'].casefold())
-                        collected[key] = event
-                        parsed += 1
-                        day_parsed += 1
-
-            if day_rows and not day_parsed:
-                missing_dates += 1
-            if offset < 3 or (day_rows and not day_parsed and offset < 7):
-                print('authenticated_diagnostic:',
-                      f'day_offset={offset}', f'http_status={response.status}',
-                      f'tables={len(tables)}', f'rows={day_rows}',
-                      f'parsed_for_day={day_parsed}')
-        except Exception as exc:
-            failures += 1
-            consecutive_failures += 1
-            if failures <= 3:
-                print(f'authenticated_diagnostic: day_offset={offset} exception={type(exc).__name__}')
-            if consecutive_failures >= 3:
-                print('authenticated_diagnostic: stopped_after_three_consecutive_exceptions')
+                        rows_seen += 1
+                        day_rows += 1
+                        fragment = ('<table class="event-table">'
+                                    + (str(header) if header else '')
+                                    + str(row) + '</table>')
+                        for event in extract(fragment, now=reference, requested_day=day):
+                            event_id = row.get('data-event-id')
+                            if not event_id:
+                                node = row.select_one('[data-event-id]')
+                                event_id = node.get('data-event-id') if node else None
+                            if event_id and re.fullmatch(r'\d+', str(event_id)):
+                                event['url'] = ('https://secondlife.com/my/community/events/'
+                                                f'event.php?id={event_id}')
+                            elif event['url'] == SOURCE:
+                                continue
+                            event['description'] = ''
+                            event.pop('image_url', None)
+                            event['teleport_url'] = None
+                            key = (event['url'], event['starts_at'], event['title'].casefold())
+                            collected[key] = event
+                            parsed_count += 1
+                            day_parsed += 1
+                current_url = official_next_page(soup, current_url, day)
+            except Exception as exc:
+                failures += 1
+                day_failed = True
+                if failures <= 3:
+                    print(f'authenticated_diagnostic: day_offset={offset} exception={type(exc).__name__}')
                 break
 
-    print('authenticated_diagnostic:',
-          f'responses_ok={successful_responses}', f'rows={rows_seen}',
-          f'parsed={parsed}', f'no_matching_dates={missing_dates}',
-          f'unknown_maturity={unknown_maturity}', f'failures={failures}')
+        if day_failed:
+            consecutive_failures += 1
+            if consecutive_failures >= 3:
+                print('authenticated_diagnostic: stopped_after_three_consecutive_failures')
+                break
+        else:
+            consecutive_failures = 0
+        if day_rows and not day_parsed:
+            missing_dates += 1
+        if offset < 3:
+            print('authenticated_diagnostic:', f'day_offset={offset}',
+                  f'pages={day_pages}', f'rows={day_rows}', f'parsed_for_day={day_parsed}')
+
+    target_id = '9471590'
+    found_target = any(re.search(r'(?:[?&])id=' + target_id + r'(?:&|$)', e.get('url', ''))
+                       for e in collected.values())
+    print('target_event_diagnostic:', f'id={target_id}',
+          f'found_in_authenticated_calendar={found_target}',
+          f'extra_pagination_pages={pagination_pages}')
+    print('authenticated_diagnostic:', f'responses_ok={responses_ok}',
+          f'rows={rows_seen}', f'parsed={parsed_count}',
+          f'no_matching_dates={missing_dates}', f'failures={failures}')
     print(f'authenticated_calendar: unique_events={len(collected)}')
     return list(collected.values())
 
@@ -806,6 +826,8 @@ def main():
                 payload['message'] += ' Showing previously verified upcoming events.'
         except (OSError, ValueError, TypeError):
             pass
+    target_present = any(re.search(r'(?:[?&])id=9471590(?:&|$)', e.get('url', '')) for e in payload['events'])
+    print('target_event_final:', f'id=9471590 present={target_present}')
     print('retained_events:', f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"status={payload['status']} events={len(payload['events'])} message={payload['message']}")
