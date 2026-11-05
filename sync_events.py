@@ -442,6 +442,77 @@ def official_event_photo(event, session):
     return None
 
 
+
+def browser_event_photo_diagnostic(page, event_id='9496504'):
+    """Diagnose one known event in the actual authenticated browser session."""
+    url = f'https://secondlife.com/my/community/events/event.php?id={event_id}'
+    try:
+        response = page.goto(url, wait_until='domcontentloaded', timeout=30000)
+        page.wait_for_timeout(1200)
+        final = urlparse(page.url)
+        images = page.locator('img')
+        matching = page.locator('img.event_image')
+        hosts = sorted({urlparse(urljoin(page.url, img.get_attribute('src') or '')).hostname
+                        for img in images.all()[:80] if img.get_attribute('src')})
+        hosts = [host for host in hosts if host]
+        login_redirect = (final.hostname == 'id.secondlife.com' or
+                          'login' in final.path.lower())
+        print('event_image_diagnostic:',
+              f'event_id={event_id}',
+              f'http={response.status if response else "none"}',
+              f'final_host={final.hostname}',
+              f'final_path={final.path}',
+              f'login_redirect={login_redirect}',
+              f'event_image_count={matching.count()}',
+              f'total_images={images.count()}',
+              f'image_hosts={",".join(hosts[:8])}')
+        if matching.count():
+            src = matching.first.get_attribute('src') or matching.first.get_attribute('data-src')
+            candidate = urljoin(page.url, src) if src else ''
+            print('event_image_diagnostic:',
+                  f'picture_service_match={safe_venue_image(candidate)}')
+        return not login_redirect
+    except Exception as exc:
+        print('event_image_diagnostic:', f'error={type(exc).__name__}')
+        return False
+
+
+def attach_browser_event_photos(page, events, max_lookups=35):
+    """Use the browser's real authenticated session for event photos."""
+    candidates = [event for event in events
+                  if not safe_venue_image(event.get('image_url'))
+                  and urlparse(str(event.get('url') or '')).hostname in
+                  ('secondlife.com', 'www.secondlife.com')
+                  and '/event.php' in str(event.get('url'))][:max_lookups]
+    found = checked = login_redirects = 0
+    for event in candidates:
+        try:
+            response = page.goto(event['url'], wait_until='domcontentloaded', timeout=20000)
+            parsed = urlparse(page.url)
+            if parsed.hostname not in ('secondlife.com', 'www.secondlife.com') or 'login' in parsed.path.lower():
+                login_redirects += 1
+                break
+            if response is None or response.status != 200:
+                continue
+            checked += 1
+            page.wait_for_timeout(250)
+            nodes = page.locator('img.event_image')
+            if not nodes.count():
+                continue
+            src = nodes.first.get_attribute('src') or nodes.first.get_attribute('data-src')
+            image = urljoin(page.url, src) if src else ''
+            if safe_venue_image(image):
+                event['image_url'] = image
+                event['image_source'] = 'official_event_photo'
+                found += 1
+        except Exception:
+            continue
+    print('browser_event_photo_lookup:',
+          f'attempted={len(candidates)}', f'pages_opened={checked}',
+          f'new_images={found}', f'login_redirects={login_redirects}')
+    return events
+
+
 def attach_official_event_photos(events, previous=None, max_lookups=60, auth_cookies=None):
     """Discover event-specific official images gradually across scheduled runs."""
     previous = previous or []
@@ -475,9 +546,9 @@ def attach_official_event_photos(events, previous=None, max_lookups=60, auth_coo
     found = 0
     with ThreadPoolExecutor(max_workers=4) as pool:
         for event, photo in zip(candidates, pool.map(lookup, candidates)):
-            event['event_photo_checked_at'] = checked_at
-            event['event_photo_method'] = 'authenticated_event_image_v2'
             if photo:
+                event['event_photo_checked_at'] = checked_at
+                event['event_photo_method'] = 'authenticated_event_image_v2'
                 event['image_url'] = photo
                 event['image_source'] = 'official_event_photo'
                 found += 1
@@ -958,6 +1029,7 @@ def main():
                 if login_secondlife(page):
                     offset_events = collect_authenticated_offset_pages(page, days=90)
                     authenticated = collect_authenticated_dates(page, days=90)
+                    browser_event_photo_diagnostic(page)
                 merged = {}
                 for event in events + daily + authenticated + offset_events:
                     key = (event['url'], event['starts_at'], event['title'].casefold())
@@ -976,6 +1048,8 @@ def main():
                     except (OSError, ValueError, TypeError):
                         pass
                 events = retrieve_official_categories(events, page, previous_for_categories)
+                if auth_cookies is not None and os.environ.get('SL_USERNAME'):
+                    events = attach_browser_event_photos(page, events)
                 if os.environ.get('SL_USERNAME') and os.environ.get('SL_PASSWORD'):
                     auth_cookies = page.context.cookies(['https://secondlife.com', 'https://id.secondlife.com'])
                 print(f'calendar_total: {len(events)} events across 90 queried dates')
@@ -1043,7 +1117,7 @@ def main():
             payload['events'] = attach_venue_photos(payload['events'], old_events)
         except Exception as exc:
             print(f'venue_photo_lookup: skipped due to {type(exc).__name__}: {str(exc)[:120]}')
-    print('retained_events:', f'final_count={len(payload["events"])}' , f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
+    print('retained_events:', f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"status={payload['status']} events={len(payload['events'])} message={payload['message']}")
 
