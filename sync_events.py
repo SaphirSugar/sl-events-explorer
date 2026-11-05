@@ -478,38 +478,50 @@ def browser_event_photo_diagnostic(page, event_id='9496504'):
 
 
 def attach_browser_event_photos(page, events, max_lookups=35):
-    """Use the browser's real authenticated session for event photos."""
+    """Inspect real authenticated event pages and record precise failure reasons."""
     candidates = [event for event in events
                   if not safe_venue_image(event.get('image_url'))
                   and urlparse(str(event.get('url') or '')).hostname in
                   ('secondlife.com', 'www.secondlife.com')
                   and '/event.php' in str(event.get('url'))][:max_lookups]
-    found = checked = login_redirects = 0
+    found = opened = redirects = missing_image = errors = 0
+    statuses = {}
     for event in candidates:
         try:
             response = page.goto(event['url'], wait_until='domcontentloaded', timeout=20000)
+            status = response.status if response else 0
+            statuses[status] = statuses.get(status, 0) + 1
             parsed = urlparse(page.url)
             if parsed.hostname not in ('secondlife.com', 'www.secondlife.com') or 'login' in parsed.path.lower():
-                login_redirects += 1
-                break
-            if response is None or response.status != 200:
+                redirects += 1
                 continue
-            checked += 1
-            page.wait_for_timeout(250)
+            if status != 200:
+                if sum(statuses.values()) <= 5:
+                    print('browser_event_photo_detail:',
+                          f'event_id={parse_qs(urlparse(event["url"]).query).get("id", [""])[0]}',
+                          f'http={status}', f'final_path={parsed.path}')
+                continue
+            opened += 1
             nodes = page.locator('img.event_image')
             if not nodes.count():
+                missing_image += 1
                 continue
             src = nodes.first.get_attribute('src') or nodes.first.get_attribute('data-src')
-            image = urljoin(page.url, src) if src else ''
-            if safe_venue_image(image):
-                event['image_url'] = image
+            photo = urljoin(page.url, src) if src else ''
+            if safe_venue_image(photo):
+                event['image_url'] = photo
                 event['image_source'] = 'official_event_photo'
                 found += 1
-        except Exception:
-            continue
-    print('browser_event_photo_lookup:',
-          f'attempted={len(candidates)}', f'pages_opened={checked}',
-          f'new_images={found}', f'login_redirects={login_redirects}')
+            else:
+                missing_image += 1
+        except Exception as exc:
+            errors += 1
+            if errors <= 3:
+                print('browser_event_photo_detail:', f'exception={type(exc).__name__}')
+    print('browser_event_photo_lookup:', f'attempted={len(candidates)}',
+          f'pages_opened={opened}', f'new_images={found}',
+          f'login_redirects={redirects}', f'no_usable_image={missing_image}',
+          f'exceptions={errors}', f'http_statuses={statuses}')
     return events
 
 
@@ -1104,7 +1116,7 @@ def main():
     if payload['events']:
         try:
             old_events = json.loads(OUT.read_text(encoding='utf-8')).get('events', []) if OUT.exists() else []
-            payload['events'] = attach_official_event_photos(payload['events'], old_events, auth_cookies=auth_cookies)
+            payload['events'] = attach_official_event_photos(payload['events'], old_events, max_lookups=0, auth_cookies=auth_cookies)
         except Exception as exc:
             print(f'official_event_photo_lookup: skipped due to {type(exc).__name__}: {str(exc)[:120]}')
     # Add verified public parcel photos progressively, including retained events.
