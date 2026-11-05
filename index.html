@@ -146,7 +146,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     </div>
   </div>
 </section>
-<div class="section-head"><h2>All collected events</h2><p>Times shown in your local timezone</p></div>
+<div class="section-head"><h2>All collected events</h2><p>All times shown in Second Life Time (SLT / Pacific Time)</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
 </main>
@@ -154,7 +154,10 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 <script>
 'use strict';
 let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
-const calendarCursor=new Date();calendarCursor.setDate(1);
+const slTodayParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'numeric'}).formatToParts(new Date());
+const slYear=Number(slTodayParts.find(p=>p.type==='year').value);
+const slMonth=Number(slTodayParts.find(p=>p.type==='month').value);
+const calendarCursor=new Date(slYear,slMonth-1,1);
 const PAGE_SIZE=24;
 const $=id=>document.getElementById(id);
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
@@ -256,7 +259,7 @@ setInterval(()=>{
 setInterval(renderFeatured,60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>new Date(a.starts_at)-new Date(b.starts_at));
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
  // Always include every event featured in NEXT LIVE EVENT in the event list,
  // even when a date, category, or search filter is active.
  const featured=getFeaturedGroup().items;
