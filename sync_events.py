@@ -146,10 +146,12 @@ OFFICIAL_CATEGORY_IDS = {
 OFFICIAL_CATEGORIES = {
     'arts and culture': 'Arts & Culture', 'arts & culture': 'Arts & Culture',
     'charity/support groups': 'Charity & Support Groups',
+    'charity & support groups': 'Charity & Support Groups',
     'commercial': 'Commercial', 'discussion': 'Discussion', 'education': 'Education',
-    'games/contests': 'Games & Contests', 'live dj': 'Live DJ',
+    'games/contests': 'Games & Contests', 'games & contests': 'Games & Contests', 'live dj': 'Live DJ',
     'live music': 'Live Music', 'miscellaneous': 'Miscellaneous',
     'nightlife/entertainment': 'Nightlife & Entertainment',
+    'nightlife & entertainment': 'Nightlife & Entertainment',
     'performances': 'Performances', 'spirituality': 'Spirituality', 'sports': 'Sports',
     'pageants': 'Pageants',
 }
@@ -839,7 +841,7 @@ def official_next_page(soup, current_url, day):
     return None
 
 
-def collect_authenticated_offset_pages(page, days=90, max_pages=150):
+def collect_authenticated_offset_pages(page, days=90, max_pages=1200):
     """Traverse the official upcoming.php offset links as observed in the browser.
 
     The paginator uses .qp_prev for the next chronological batch despite its
@@ -850,6 +852,7 @@ def collect_authenticated_offset_pages(page, days=90, max_pages=150):
     current_url = 'https://secondlife.com/events/upcoming.php?lang=en-US&per_page=15'
     seen_urls, seen_signatures, collected = set(), set(), {}
     pages = 0
+    consecutive_out_of_range = 0
     while current_url and current_url not in seen_urls and pages < max_pages:
         seen_urls.add(current_url)
         try:
@@ -864,11 +867,26 @@ def collect_authenticated_offset_pages(page, days=90, max_pages=150):
                 break
             seen_signatures.add(signature)
             pages += 1
-            for event in extract(str(soup), now=start):
+            page_events = extract(str(soup), now=start)
+            in_range = 0
+            beyond_range = 0
+            for event in page_events:
                 when = datetime.fromisoformat(event['starts_at'])
                 if start - timedelta(hours=2) <= when < end:
                     key = (event['url'], event['starts_at'], event['title'].casefold())
                     collected[key] = event
+                    in_range += 1
+                elif when >= end:
+                    beyond_range += 1
+            # The official pagination runs chronologically. Stop only after
+            # consecutive full pages lie beyond the requested horizon.
+            if page_events and beyond_range == len(page_events):
+                consecutive_out_of_range += 1
+                if consecutive_out_of_range >= 2:
+                    print('offset_calendar: reached_90_day_horizon')
+                    break
+            else:
+                consecutive_out_of_range = 0
             # The captured HTML calls the forward chronological link qp_prev.
             link = soup.select_one('#WidgetUpcomingEventsPagination a.qp_prev[href]')
             if link is None:
@@ -884,7 +902,7 @@ def collect_authenticated_offset_pages(page, days=90, max_pages=150):
         except Exception as exc:
             print('offset_calendar: stopped_exception=' + type(exc).__name__)
             break
-    print(f'offset_calendar: pages={pages} events={len(collected)}')
+    print(f'offset_calendar: pages={pages} events={len(collected)} max_pages={max_pages} stopped_at_limit={pages >= max_pages}')
     return list(collected.values())
 
 
@@ -1038,10 +1056,16 @@ def main():
                 daily = collect_dates(days=90)
                 authenticated = []
                 offset_events = []
-                if login_secondlife(page):
-                    offset_events = collect_authenticated_offset_pages(page, days=90)
+                logged_in = login_secondlife(page)
+                # The upcoming calendar can sometimes be read anonymously.
+                # Always attempt its official pagination even if login fails.
+                offset_events = collect_authenticated_offset_pages(page, days=90)
+                if logged_in:
                     authenticated = collect_authenticated_dates(page, days=90)
-                    browser_event_photo_diagnostic(page)
+                print('collection_sources:', f'initial={len(events)}',
+                      f'daily={len(daily)}', f'offset={len(offset_events)}',
+                      f'authenticated_dates={len(authenticated)}',
+                      f'login_confirmed={logged_in}')
                 merged = {}
                 for event in events + daily + authenticated + offset_events:
                     key = (event['url'], event['starts_at'], event['title'].casefold())
@@ -1130,6 +1154,16 @@ def main():
         except Exception as exc:
             print(f'venue_photo_lookup: skipped due to {type(exc).__name__}: {str(exc)[:120]}')
     print('retained_events:', f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
+    # Do not overwrite a previously populated feed with an empty result.
+    # Keep the last good file if the source is temporarily inaccessible.
+    if not payload['events'] and OUT.exists():
+        try:
+            previous_data = json.loads(OUT.read_text(encoding='utf-8'))
+            if previous_data.get('events'):
+                print('feed_guard: extraction returned zero; preserving previous populated feed')
+                return
+        except (OSError, ValueError, TypeError):
+            pass
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"status={payload['status']} events={len(payload['events'])} message={payload['message']}")
 
