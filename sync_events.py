@@ -408,6 +408,80 @@ def venue_photo(venue, session):
     return None
 
 
+def official_event_photo(event, session):
+    """Read an image explicitly attached to an official Second Life event page."""
+    url = str(event.get('url') or '')
+    parsed = urlparse(url)
+    if parsed.scheme != 'https' or parsed.hostname not in ('secondlife.com', 'www.secondlife.com') or not parsed.path.endswith('/event.php'):
+        return None
+    try:
+        response = session.get(url, timeout=14, allow_redirects=True)
+        if response.status_code != 200 or urlparse(response.url).hostname not in ('secondlife.com', 'www.secondlife.com'):
+            return None
+        soup = BeautifulSoup(response.text, 'html.parser')
+        # Prefer event-specific structured images, not a generic page logo.
+        selectors = ['.event-image img', '.event-photo img', '.event-picture img',
+                     '#event-image img', '#event-photo img',
+                     'img.event-image', 'img.event-photo', 'img.event-picture']
+        urls = []
+        for selector in selectors:
+            for node in soup.select(selector):
+                candidate = node.get('src') or node.get('data-src')
+                if candidate:
+                    urls.append(urljoin(response.url, candidate))
+        for node in soup.select('meta[property="og:image"], meta[name="twitter:image"]'):
+            candidate = node.get('content')
+            if candidate:
+                urls.append(urljoin(response.url, candidate))
+        for candidate in urls:
+            img = urlparse(candidate)
+            if img.scheme == 'https' and img.hostname == 'picture-service.secondlife.com' and img.path.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+                return candidate
+    except (requests.RequestException, ValueError):
+        pass
+    return None
+
+
+def attach_official_event_photos(events, previous=None, max_lookups=60):
+    """Discover event-specific official images gradually across scheduled runs."""
+    previous = previous or []
+    cache = {}
+    for old in previous:
+        key = str(old.get('url') or '')
+        if not key:
+            continue
+        cache[key] = (old.get('image_url') if old.get('image_source') == 'official_event_photo' else None,
+                      old.get('event_photo_checked_at'))
+    for event in events:
+        key = str(event.get('url') or '')
+        image, checked = cache.get(key, (None, None))
+        if image and safe_venue_image(image):
+            event['image_url'] = image
+            event['image_source'] = 'official_event_photo'
+        if checked:
+            event['event_photo_checked_at'] = checked
+    candidates = [e for e in events if e.get('url') and not e.get('event_photo_checked_at')
+                  and e.get('image_source') != 'official_event_photo'][:max_lookups]
+    checked_at = datetime.now(timezone.utc).isoformat()
+
+    def lookup(event):
+        with requests.Session() as session:
+            session.headers.update({'User-Agent': 'Mozilla/5.0', 'Referer': SOURCE})
+            return official_event_photo(event, session)
+
+    found = 0
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for event, photo in zip(candidates, pool.map(lookup, candidates)):
+            event['event_photo_checked_at'] = checked_at
+            if photo:
+                event['image_url'] = photo
+                event['image_source'] = 'official_event_photo'
+                found += 1
+    print('official_event_photo_lookup:', f'checked={len(candidates)}', f'new_images={found}',
+          f'events_with_official_image={sum(e.get("image_source") == "official_event_photo" for e in events)}')
+    return events
+
+
 def attach_venue_photos(events, previous=None, max_lookups=40):
     """Gradually verify venue photos without slowing down a large calendar sync.
 
@@ -461,7 +535,7 @@ def attach_venue_photos(events, previous=None, max_lookups=40):
     for event in events:
         record = old_by_venue.get(normalize_place(event.get('venue', '')), {})
         photo = record.get('image_url')
-        if photo:
+        if photo and event.get('image_source') != 'official_event_photo':
             event['image_url'] = photo
             event['image_source'] = 'public_parcel_photo'
             matched += 1
@@ -945,6 +1019,13 @@ def main():
                 payload['message'] += ' Showing previously verified upcoming events.'
         except (OSError, ValueError, TypeError):
             pass
+    # Read event-specific photos from official event pages first.
+    if payload['events']:
+        try:
+            old_events = json.loads(OUT.read_text(encoding='utf-8')).get('events', []) if OUT.exists() else []
+            payload['events'] = attach_official_event_photos(payload['events'], old_events)
+        except Exception as exc:
+            print(f'official_event_photo_lookup: skipped due to {type(exc).__name__}: {str(exc)[:120]}')
     # Add verified public parcel photos progressively, including retained events.
     # Failed photo searches must never prevent event data from being published.
     if payload['events']:
