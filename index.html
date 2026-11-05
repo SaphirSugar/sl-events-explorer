@@ -4,6 +4,9 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#0a1020"><meta name="description" content="Discover upcoming Second Life events, live music, DJs and more on Eventide SL.">
 <title>Eventide SL | Second Life Events</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--bg:#090f1c;--panel:#141d30;--border:#2b3852;--muted:#aebbd3;--text:#f4f6ff;--accent:#a69aff}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#242047 0%,transparent 36%),var(--bg);color:var(--text)}a{color:#c0b9ff}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #d7cfff;outline-offset:3px}
@@ -31,6 +34,30 @@ main{padding-top:30px;padding-bottom:70px}.toolbar{display:flex;align-items:cent
 .calendar-panel,.calendar-aside{border:1px solid #3d3a49;border-radius:22px;background:linear-gradient(145deg,#1b202d,#101722);box-shadow:0 18px 55px #00000025;padding:24px}
 .calendar-panel{--gold:#d7b77d}.calendar-kicker{font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:#d7b77d;font-weight:800}.calendar-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 0 20px}.calendar-heading h2{font-size:25px;letter-spacing:-.03em;margin:0;font-weight:700}.calendar-nav{display:flex;gap:8px}.calendar-nav button{width:37px;height:37px;border-radius:11px;border:1px solid #454655;background:#252b38;color:#f7f0e5;font-size:24px;line-height:1}.calendar-nav button:hover{border-color:#d7b77d}.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}.calendar-weekday{text-align:center;color:#9ba3b1;font-size:12px;font-weight:700;padding:7px 0 11px}.calendar-cell{aspect-ratio:1/1;min-width:0;border-radius:11px;border:1px solid transparent;background:#222a37;color:#e9edf5;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:3px;font-size:14px;position:relative}.calendar-cell:not(:disabled):hover{border-color:#d7b77d;background:#333745}.calendar-cell:disabled{opacity:0;background:transparent;cursor:default}.calendar-cell.today{border-color:#69614d}.calendar-cell.selected{background:#d7b77d;color:#171b22;font-weight:800}.calendar-dot{width:5px;height:5px;border-radius:50%;background:#d7b77d}.calendar-cell.selected .calendar-dot{background:#171b22}.calendar-legend{display:flex;align-items:center;gap:8px;color:#aeb5c3;font-size:12px;margin-top:17px}.calendar-aside{display:flex;flex-direction:column;justify-content:flex-start;gap:18px}.calendar-aside h3{font-size:clamp(23px,3vw,32px);line-height:1.2;margin:0;color:#f7f0e5}.calendar-aside p{color:#b8c1cf;line-height:1.6;margin:0}.calendar-selected{font-size:13px;color:#d7b77d;font-weight:700}.calendar-reset{border:1px solid #d7b77d;border-radius:12px;background:transparent;color:#e9c991;padding:12px 16px;font-weight:750;text-align:center}.calendar-reset:hover{background:#302c2a}.calendar-tip{font-size:12px!important;color:#9ea8b8!important}
 @media(max-width:740px){.calendar-shell{grid-template-columns:1fr}.calendar-panel,.calendar-aside{padding:18px}.calendar-aside{gap:12px}.calendar-cell{font-size:13px}}
+
+/* Eventide visual refresh: cards, dates, time and venues */
+:root{font-family:"DM Sans",ui-sans-serif,system-ui,sans-serif;--bg:#0c0a18;--panel:#191528;--border:#403451;--muted:#c2b7d1;--text:#faf7ff;--accent:#c8a5ff}
+body{background:radial-gradient(ellipse 68% 45% at 83% -6%,#40245d 0%,transparent 72%),radial-gradient(ellipse 50% 35% at 4% 48%,#24183d 0%,transparent 76%),#0c0a18;background-attachment:fixed}
+h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-ui,sans-serif}
+.calendar-panel,.calendar-aside{background:linear-gradient(150deg,#20182e,#141324);border-color:#51405f}
+.event{background:linear-gradient(155deg,#241b34 0%,#191528 70%,#161322 100%);border:1px solid #4b3b5d;border-radius:20px;padding:20px;min-height:290px;box-shadow:0 10px 30px #00000024}
+.event:hover{border-color:#ac83e0;box-shadow:0 16px 34px #00000042}
+.event-image{width:calc(100% + 40px);margin:-20px -20px 18px;border-radius:19px 19px 0 0}
+.event h3{font-size:21px;line-height:1.28;margin:14px 0 16px;font-weight:650;letter-spacing:-.015em}
+.tag{background:#38254f;color:#e7d3ff;border-color:#644981;font-size:10px}
+.event-datetime{display:flex;align-items:center;gap:12px;padding:12px;background:#100e1e;border:1px solid #514063;border-radius:14px;margin:0 0 13px}
+.event-datebox{width:66px;min-width:66px;min-height:74px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:11px;background:linear-gradient(155deg,#604184,#3c285d);border:1px solid #8c65ad}
+.event-date-month{font-size:11px;font-weight:800;letter-spacing:.13em;color:#f0d9ff;text-transform:uppercase}
+.event-date-day{font-family:"Outfit",sans-serif;font-size:31px;font-weight:800;line-height:1.05;color:#fff}
+.event-date-details{min-width:0;display:flex;flex-direction:column;gap:5px}
+.event-weekday{font-size:12px;font-weight:650;color:#d3c5e1}
+.event-time{font-family:"Outfit",sans-serif;font-size:23px;line-height:1.1;font-weight:750;color:#f3cf87;letter-spacing:.005em}
+.event-timezone{font-family:"DM Sans",sans-serif;font-size:11px;font-weight:600;color:#c4b1d4;margin-left:5px}
+.event-venue{display:flex;align-items:flex-start;gap:9px;color:#d7cce3;font-size:13px;line-height:1.55;margin:0 0 11px;overflow-wrap:anywhere}
+.event-venue svg{flex:none;margin-top:2px;color:#c4a4e9}
+.actions a{color:#dcc0ff}
+@media(max-width:560px){.event-time{font-size:21px}.event{min-height:0}}
+
 </style>
 </head>
 <body>
@@ -117,7 +144,17 @@ function render(reset=true){
 function showNextPage(){
  const filtered=filteredEvents;
  const slice=filtered.slice(visibleCount,visibleCount+PAGE_SIZE);
- const html=slice.map(e=>{const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><p class="meta">${escapeHTML(new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(date))}</p><p class="meta">${escapeHTML(e.venue||'Venue not specified')}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`}).join('');
+  const html=slice.map(e=>{
+    const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);
+    const locale=undefined;
+    const month=new Intl.DateTimeFormat(locale,{month:'short'}).format(date);
+    const day=new Intl.DateTimeFormat(locale,{day:'2-digit'}).format(date);
+    const weekday=new Intl.DateTimeFormat(locale,{weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(date);
+    const time=new Intl.DateTimeFormat(locale,{hour:'numeric',minute:'2-digit'}).format(date);
+    const zone=new Intl.DateTimeFormat(locale,{timeZoneName:'short'}).formatToParts(date).find(x=>x.type==='timeZoneName')?.value||'';
+    const pin='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+    return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}<span>${escapeHTML(e.venue||'Venue not specified')}</span></p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
+  }).join('');
  if(visibleCount===0)$('events').innerHTML='';
  if(html)$('events').insertAdjacentHTML('beforeend',html);
  visibleCount+=slice.length;
