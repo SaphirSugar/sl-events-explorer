@@ -87,6 +87,8 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .featured-event h3{font-family:"Outfit",sans-serif;font-size:clamp(23px,2.8vw,32px);line-height:1.2;margin:14px 0 18px;overflow-wrap:anywhere}
 .featured-date{font-size:17px;font-weight:750;color:#f3cf87;margin:0 0 10px}
 .featured-venue{font-size:14px;color:#d8cce6;margin:0 0 18px;overflow-wrap:anywhere}
+.featured-venue a{color:#eac0ff;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.featured-venue a:hover{color:#fff}
 .featured-placeholder{color:#c9bbd9}
 .featured-link{display:inline-block;margin:4px 12px 0 0;padding:10px 15px;border:1px solid #9d6ad3;border-radius:11px;color:#fff;text-decoration:none;font-weight:750;font-size:13px;background:#50316b}
 .featured-link:hover{background:#6d408d}
@@ -217,8 +219,8 @@ function renderFeatured(){
  if(!next){target.innerHTML='<p class="featured-placeholder">No upcoming event available.</p>';return}
  const date=validDate(next);
  const formatted=new Intl.DateTimeFormat(undefined,{weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(date);
- const url=safeUrl(next.url),tp=safeUrl(next.teleport_url);
- target.innerHTML=`<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}`;
+ const url=safeUrl(next.url),tp=safeUrl(next.teleport_url),locationLink=tp||url;
+ target.innerHTML=`<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}`;
 }
 setInterval(renderFeatured,60000);
 function render(reset=true){
