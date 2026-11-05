@@ -66,6 +66,15 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .restored-hero p{font-size:clamp(16px,1.8vw,19px);max-width:720px;color:#d5c9e3}
 .restored-hero .note{font-size:13px;color:#b8a6cb}
 @media(max-width:560px){.restored-hero{padding:30px 0 28px;margin-bottom:20px}.restored-hero h1{font-size:clamp(42px,11vw,60px)}}
+
+/* All collected categories appear as clickable filters in the search area. */
+.calendar-aside .filters{grid-template-columns:minmax(0,1fr) minmax(130px,.48fr)}
+.calendar-aside .filters #search{grid-column:1/-1}
+.category-buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
+.category-buttons button{font:600 12px/1.3 inherit;font-family:inherit;font-size:12px;font-weight:700;border:1px solid #51456c;background:#211b35;color:#e2d9f1;border-radius:999px;padding:9px 12px;transition:background .18s,border-color .18s}
+.category-buttons button:hover{background:#38294e;border-color:#a996dc}
+.category-buttons button.active{background:#d7b77d;border-color:#e5c991;color:#191521}
+@media(max-width:390px){.calendar-aside .filters{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -84,7 +93,8 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     </div>
     <div>
       <p class="search-heading">Search Events</p>
-      <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><select id="category" aria-label="Category"><option value="all">All categories</option></select><select id="sort" aria-label="Sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
+      <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><select id="sort" aria-label="Sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
+      <div id="category-buttons" class="category-buttons" role="group" aria-label="Filter events by category"><button type="button" class="active" data-category="all" aria-pressed="true">All categories</button></div>
     </div>
     <div id="calendar-selection" class="calendar-selected" aria-live="polite">Browsing all dates</div>
     <button type="button" id="calendar-clear" class="calendar-reset">View all events</button>
@@ -99,7 +109,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official Second Life calendar</a></div></footer>
 <script>
 'use strict';
-let events=[],view='all',filteredEvents=[],visibleCount=0,selectedDate=null;
+let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
 const calendarCursor=new Date();calendarCursor.setDate(1);
 const PAGE_SIZE=24;
 const $=id=>document.getElementById(id);
@@ -147,7 +157,7 @@ $('calendar-next').addEventListener('click',()=>{calendarCursor.setMonth(calenda
 $('calendar-clear').addEventListener('click',()=>{selectedDate=null;drawCalendar();render()});
 const validDate=e=>{const d=new Date(e.starts_at);return !Number.isNaN(d.getTime())?d:null};
 function render(reset=true){
- const q=$('search').value.trim().toLowerCase(),cat=$('category').value;
+ const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
  const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
  filteredEvents=filtered;
  if(reset)visibleCount=0;
@@ -176,18 +186,33 @@ function showNextPage(){
 }
 const observer=new IntersectionObserver(entries=>{if(entries.some(x=>x.isIntersecting)&&visibleCount<filteredEvents.length)showNextPage()},{rootMargin:'600px'});
 observer.observe($('load-sentinel'));
+let searchScrollTimer;
 $('search').addEventListener('input',()=>{
  // A keyword search always spans every category, date and event view.
- if($('search').value.trim()){selectedDate=null;drawCalendar()}
- $('category').value='all';
+ const hasQuery=Boolean($('search').value.trim());
+ if(hasQuery){selectedDate=null;drawCalendar()}
+ selectedCategory='all';updateCategoryButtons();
  view='all';
  render();
+ clearTimeout(searchScrollTimer);
+ if(hasQuery){
+  searchScrollTimer=setTimeout(()=>{
+   if(!$('search').value.trim())return;
+   const resultsHeading=document.querySelector('.section-head');
+   (resultsHeading||$('events')).scrollIntoView({
+    behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',
+    block:'start'
+   });
+  },650);
+ }
 });
-for(const id of ['category','sort'])$(id).addEventListener('change',render);
+$('sort').addEventListener('change',render);
+function updateCategoryButtons(){document.querySelectorAll('#category-buttons button').forEach(b=>{const active=b.dataset.category===selectedCategory;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))})}
+$('category-buttons').addEventListener('click',e=>{const button=e.target.closest('button[data-category]');if(!button)return;selectedCategory=button.dataset.category;updateCategoryButtons();render();document.querySelector('.section-head').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})});
 $('year').textContent=new Date().getFullYear();
 fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events feed unavailable');return r.json()}).then(data=>{
  events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)).map(e=>({...e,category:classifyEvent(e)}));
- const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();for(const c of categories){const option=document.createElement('option');option.value=c;option.textContent=c;$('category').append(option)}
+ const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();const group=$('category-buttons');for(const c of categories){const button=document.createElement('button');button.type='button';button.dataset.category=c;button.textContent=c;button.setAttribute('aria-pressed','false');group.append(button)}updateCategoryButtons()
  drawCalendar();render();
 }).catch(()=>{$('events').innerHTML='<p class="empty">Please try again later.</p>';$('load-status').textContent='The event feed could not be loaded.'});
 </script>
