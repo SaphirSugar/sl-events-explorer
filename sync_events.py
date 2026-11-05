@@ -599,20 +599,50 @@ def collect_authenticated_dates(page, days=90):
     missing_dates = 0
     unknown_maturity = 0
     consecutive_failures = 0
+    browser_mode = False
 
     for offset in range(days):
         day = start + timedelta(days=offset)
         try:
-            response = page.request.get(
-                'https://secondlife.com/events/upcoming.php',
-                params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()},
-                timeout=30000,
-            )
-            if not response.ok:
+            response = None
+            if not browser_mode:
+                response = page.request.get(
+                    'https://secondlife.com/events/upcoming.php',
+                    params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()},
+                    timeout=30000,
+                )
+            if browser_mode or (response.status == 403 and offset == 0):
+                # A 403 is an access decision. Do not retry aggressively or
+                # attempt to evade it. Try one normal browser navigation using
+                # the same authenticated browser session, then stop if denied.
+                try:
+                    browser_response = page.goto(
+                        'https://secondlife.com/events/upcoming.php'
+                        f'?lang=en-US&per_page=200&date={day.isoformat()}',
+                        wait_until='domcontentloaded', timeout=30000)
+                    if browser_response and browser_response.status == 200:
+                        if not browser_mode:
+                            print('authenticated_diagnostic: browser_navigation_available')
+                        browser_mode = True
+                        # Browser navigation is used for the first day only;
+                        # subsequent requests may still be denied.
+                        class BrowserResponse:
+                            status = 200
+                            ok = True
+                            def __init__(self, body):
+                                self.body = body
+                            def text(self):
+                                return self.body
+                        response = BrowserResponse(page.content())
+                    else:
+                        print('authenticated_diagnostic: access_denied_browser_too')
+                except Exception as exc:
+                    print('authenticated_diagnostic: browser_navigation_failed', type(exc).__name__)
+            if response is None or not response.ok:
                 failures += 1
                 consecutive_failures += 1
                 if failures <= 3:
-                    print(f'authenticated_diagnostic: day_offset={offset} http_status={response.status}')
+                    print(f'authenticated_diagnostic: day_offset={offset} http_status={response.status if response else "unavailable"}')
                 if consecutive_failures >= 3:
                     print('authenticated_diagnostic: stopped_after_three_consecutive_http_failures')
                     break
@@ -752,7 +782,15 @@ def main():
             merged = {(e.get('url'), e.get('starts_at'), e.get('title', '').casefold()): e for e in old}
             for e in payload['events']:
                 key = (e.get('url'), e.get('starts_at'), e.get('title', '').casefold())
-                merged[key] = {**merged.get(key, {}), **e}
+                old_event = merged.get(key, {})
+                # A failed detail lookup must not erase a previously verified
+                # official category or downgrade it to Miscellaneous.
+                if old_event.get('official_category') is True and not e.get('official_category'):
+                    previous_category = normalize_official_category(old_event.get('category'))
+                    if previous_category:
+                        e['category'] = previous_category
+                        e['official_category'] = True
+                merged[key] = {**old_event, **e}
             payload['events'] = sorted(merged.values(), key=lambda e: (e['starts_at'], e['title']))
             if payload['events'] and payload['status'] != 'ok':
                 payload['message'] += ' Previously collected future events retained.'
@@ -768,6 +806,7 @@ def main():
                 payload['message'] += ' Showing previously verified upcoming events.'
         except (OSError, ValueError, TypeError):
             pass
+    print('retained_events:', f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"status={payload['status']} events={len(payload['events'])} message={payload['message']}")
 
