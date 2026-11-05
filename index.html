@@ -257,7 +257,16 @@ setInterval(renderFeatured,60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
  const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>new Date(a.starts_at)-new Date(b.starts_at));
- filteredEvents=filtered;
+ // Always include every event featured in NEXT LIVE EVENT in the event list,
+ // even when a date, category, or search filter is active.
+ const featured=getFeaturedGroup().items;
+ const combined=[...filtered];
+ const seen=new Set(filtered);
+ for(const event of featured){
+  if(!seen.has(event)){combined.push(event);seen.add(event);}
+ }
+ combined.sort((a,b)=>validDate(a)-validDate(b));
+ filteredEvents=combined;
  if(reset)visibleCount=0;
  showNextPage();
 }
