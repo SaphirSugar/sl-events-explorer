@@ -34,21 +34,28 @@ DATE = re.compile(r'(?P<month>\d{1,2})/(?P<day>\d{1,2})\s+(?P<hour>\d{1,2}):(?P<
 
 
 def category_for(title, venue='', description=''):
-    text = ' '.join((title or '', venue or '', description or ''))
-    # Use explicit clues, never invent a category for ambiguous events.
-    if DJ.search(text):
-        return 'Live DJ'
-    if MUSIC.search(text) or re.search(r'\bLIVE\s+at\b', title, re.I):
-        return 'Live Music'
-    if SPIRITUAL.search(text):
-        return 'Spiritual & Community'
-    if SHOPPING.search(text):
-        return 'Shopping & Fashion'
-    if ARTS.search(text):
-        return 'Arts & Culture'
-    if EDUCATION.search(text):
-        return 'Education & Talks'
-    return 'Other Events'
+    """Unknown categories are not inferred from title, venue, or description."""
+    return 'Miscellaneous'
+
+
+def normalize_official_category(value):
+    """Return only recognized official event categories in English."""
+    value = re.sub(r'\s+', ' ', str(value or '')).strip().rstrip(':')
+    return OFFICIAL_CATEGORIES.get(value.casefold())
+
+
+def category_from_row(row):
+    """Read explicit category metadata, never keyword-match an event title."""
+    for node in [row] + row.select('[data-category], [data-event-category]'):
+        for attribute in ('data-category', 'data-event-category'):
+            result = normalize_official_category(node.get(attribute))
+            if result:
+                return result
+    for node in row.select('.event-category, .category, [itemprop="eventType"]'):
+        result = normalize_official_category(node.get_text(' ', strip=True))
+        if result:
+            return result
+    return None
 
 
 def parse_date(text, now):
@@ -113,8 +120,9 @@ def extract(html, now=None, requested_day=None):
             if urlparse(url).scheme not in ('http', 'https'):
                 url = SOURCE
             event = {'title': title, 'starts_at': date.isoformat(), 'venue': venue,
-                     'category': category_for(title, venue), 'description': '',
+                     'category': category_from_row(row) or 'Miscellaneous', 'description': '',
                      'url': url, 'teleport_url': None}
+            event['official_category'] = bool(category_from_row(row))
             key = (title.casefold(), date.isoformat(), venue.casefold())
             collected[key] = event
 
@@ -191,8 +199,9 @@ def enrich_event(event):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         category, _ = detail_field(soup, 'Category')
-        if category:
-            event['category'] = OFFICIAL_CATEGORIES.get(category.casefold(), category)
+        verified = normalize_official_category(category)
+        if verified:
+            event['category'] = verified
             event['official_category'] = True
         host, _ = detail_field(soup, 'Host')
         if host:
@@ -220,6 +229,94 @@ def enrich_event(event):
         print(f"detail skipped for {url}: {type(exc).__name__}")
     return event
 
+
+
+def retrieve_official_categories(events, page, previous=None):
+    """Verify category from official event detail pages using the signed-in session.
+
+    Only the category label is read. Do not copy descriptions or photographs.
+    Failed lookups remain Miscellaneous and are not guessed from titles.
+    """
+    previous = previous or {}
+    cached = {}
+    for old in previous.get('events', []):
+        if old.get('official_category') is True:
+            category = normalize_official_category(old.get('category'))
+            if category:
+                cached[old.get('url')] = category
+
+    unresolved = {}
+    verified_rows = 0
+    cached_rows = 0
+    for event in events:
+        existing = normalize_official_category(event.get('category'))
+        if event.get('official_category') is True and existing:
+            verified_rows += 1
+            continue
+        category = cached.get(event.get('url'))
+        if category:
+            event['category'] = category
+            event['official_category'] = True
+            cached_rows += 1
+            continue
+        event['category'] = 'Miscellaneous'
+        event['official_category'] = False
+        url = event.get('url', '')
+        parsed = urlparse(url)
+        if (parsed.scheme == 'https'
+                and parsed.hostname in ('secondlife.com', 'www.secondlife.com')
+                and parsed.path.endswith('/event.php')
+                and re.search(r'(?:^|&)id=\d+(?:&|$)', parsed.query)):
+            unresolved.setdefault(url, []).append(event)
+
+    # Requests sessions cannot safely share a Playwright request context across
+    # threads. Export the session cookies in memory only; never print or save them.
+    cookie_data = page.context.cookies(['https://secondlife.com'])
+
+    def fetch(item):
+        url, matches = item
+        try:
+            with requests.Session() as session:
+                session.headers.update({'User-Agent': 'Mozilla/5.0',
+                                        'Referer': SOURCE})
+                for cookie in cookie_data:
+                    session.cookies.set(cookie['name'], cookie['value'],
+                                        domain=cookie.get('domain', 'secondlife.com'),
+                                        path=cookie.get('path', '/'))
+                response = session.get(url, timeout=12, allow_redirects=True)
+                if response.status_code != 200:
+                    return url, None
+                if urlparse(response.url).hostname not in ('secondlife.com', 'www.secondlife.com'):
+                    return url, None
+                soup = BeautifulSoup(response.text, 'html.parser')
+                value, _ = detail_field(soup, 'Category')
+                category = normalize_official_category(value)
+                if not category:
+                    for node in soup.select('[data-event-category], [data-category]'):
+                        category = normalize_official_category(
+                            node.get('data-event-category') or node.get('data-category'))
+                        if category:
+                            break
+                return url, category
+        except (requests.RequestException, ValueError):
+            return url, None
+
+    found = 0
+    if unresolved:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for url, category in pool.map(fetch, unresolved.items()):
+                if category:
+                    for event in unresolved[url]:
+                        event['category'] = category
+                        event['official_category'] = True
+                        found += 1
+    print('official_categories:',
+          f'verified_in_list={verified_rows}',
+          f'cached={cached_rows}',
+          f'verified_from_details={found}',
+          f'unknown={sum(not e.get("official_category") for e in events)}',
+          f'detail_pages_checked={len(unresolved)}')
+    return events
 
 def enrich_events(events):
     # Parallel requests keep the scheduled sync reasonably fast. Failures do not hide events.
@@ -621,6 +718,14 @@ def main():
                     key = (event['url'], event['starts_at'], event['title'].casefold())
                     merged[key] = event
                 events = sorted(merged.values(), key=lambda e: (e['starts_at'], e['title']))
+                # Official event categories only. Never guess from the event title.
+                previous_for_categories = {}
+                if OUT.exists():
+                    try:
+                        previous_for_categories = json.loads(OUT.read_text(encoding='utf-8'))
+                    except (OSError, ValueError, TypeError):
+                        pass
+                events = retrieve_official_categories(events, page, previous_for_categories)
                 print(f'calendar_total: {len(events)} events across 90 queried dates')
                 # Detail and venue requests can be very expensive for large feeds.
                 # Prioritize complete event coverage over optional image enrichment.
@@ -640,6 +745,10 @@ def main():
         try:
             previous = json.loads(OUT.read_text(encoding='utf-8'))
             old = future_verified_events(previous)
+            for old_event in old:
+                if old_event.get('official_category') is not True:
+                    old_event['category'] = 'Miscellaneous'
+                    old_event['official_category'] = False
             merged = {(e.get('url'), e.get('starts_at'), e.get('title', '').casefold()): e for e in old}
             for e in payload['events']:
                 key = (e.get('url'), e.get('starts_at'), e.get('title', '').casefold())
@@ -665,4 +774,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
