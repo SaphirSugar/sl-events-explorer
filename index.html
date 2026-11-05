@@ -237,7 +237,7 @@ function renderFeatured(){
  featuredIndex=featuredIndex%group.items.length;
  const next=group.items[featuredIndex];
  const date=validDate(next);
- const formatted=new Intl.DateTimeFormat(undefined,{weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(date);
+ const formatted=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',hour12:true}).format(date)+' SLT';
  const url=safeUrl(next.url),tp=safeUrl(next.teleport_url),locationLink=tp||url;
  const controls=group.items.length>1?`<div class="featured-carousel-controls" aria-label="Events starting at the same time"><button type="button" id="featured-prev" aria-label="Previous event">Previous</button><span class="featured-carousel-count">${featuredIndex+1} / ${group.items.length}</span><button type="button" id="featured-next" aria-label="Next event">Next</button></div>`:'';
  target.innerHTML=`<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}${controls}`;
@@ -276,12 +276,13 @@ function showNextPage(){
   const html=slice.map(e=>{
     const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);
     const venueLink=tp||url;
-    const locale=undefined;
-    const month=new Intl.DateTimeFormat(locale,{month:'short'}).format(date);
-    const day=new Intl.DateTimeFormat(locale,{day:'2-digit'}).format(date);
-    const weekday=new Intl.DateTimeFormat(locale,{weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(date);
-    const time=new Intl.DateTimeFormat(locale,{hour:'numeric',minute:'2-digit'}).format(date);
-    const zone=new Intl.DateTimeFormat(locale,{timeZoneName:'short'}).formatToParts(date).find(x=>x.type==='timeZoneName')?.value||'';
+    const locale='en-US';
+    const slTimeZone='America/Los_Angeles';
+    const month=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,month:'short'}).format(date);
+    const day=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,day:'2-digit'}).format(date);
+    const weekday=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(date);
+    const time=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,hour:'numeric',minute:'2-digit',hour12:true}).format(date);
+    const zone='SLT';
     const pin='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
     return `<article class="event"><img class="event-image" src="${getCategoryImage(e.category)}" alt="${escapeHTML(e.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
   }).join('');
