@@ -98,6 +98,10 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 @media(prefers-reduced-motion:reduce){.featured-event{animation:none}}
 .featured-category-image{display:block;width:100%;height:clamp(145px,19vw,230px);object-fit:cover;object-position:center;border-radius:14px;margin:0 0 18px;border:1px solid rgba(200,107,255,.35)}
 .event-image{display:block;width:calc(100% + 44px);height:190px;object-fit:cover;margin:-22px -22px 18px;border-radius:17px 17px 0 0;background:#202a3d}
+.featured-carousel-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px;padding-top:12px;border-top:1px solid rgba(200,107,255,.3)}
+.featured-carousel-controls button{cursor:pointer;background:#50316b;color:#fff;border:1px solid #a66bd8;border-radius:9px;padding:9px 14px;font-weight:700}
+.featured-carousel-controls button:hover,.featured-carousel-controls button:focus-visible{background:#75429b}
+.featured-carousel-count{font-size:13px;color:#eac0ff;font-weight:700}
 </style>
 </head>
 <body>
@@ -212,16 +216,39 @@ function getCategoryImage(category){
  const key=categoryImages[String(category||'').trim()]||'miscellaneous';
  return './images/categories/'+key+'.png';
 }
+let featuredIndex=0;
+let featuredGroupKey='';
+function getFeaturedGroup(){
+ const now=Date.now();
+ const upcoming=events.filter(e=>{const d=validDate(e);return d&&d.getTime()>=now}).sort((a,b)=>validDate(a)-validDate(b));
+ if(!upcoming.length)return {key:'',items:[]};
+ const firstTime=validDate(upcoming[0]).getTime();
+ return {key:String(firstTime),items:upcoming.filter(e=>validDate(e).getTime()===firstTime)};
+}
 function renderFeatured(){
  const target=$('featured-content');
- const now=Date.now();
- const next=events.filter(e=>{const d=validDate(e);return d&&d.getTime()>=now}).sort((a,b)=>new Date(a.starts_at)-new Date(b.starts_at))[0];
- if(!next){target.innerHTML='<p class="featured-placeholder">No upcoming event available.</p>';return}
+ const group=getFeaturedGroup();
+ if(group.key!==featuredGroupKey){featuredGroupKey=group.key;featuredIndex=0;}
+ if(!group.items.length){target.innerHTML='<p class="featured-placeholder">No upcoming event available.</p>';return;}
+ featuredIndex=featuredIndex%group.items.length;
+ const next=group.items[featuredIndex];
  const date=validDate(next);
  const formatted=new Intl.DateTimeFormat(undefined,{weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(date);
  const url=safeUrl(next.url),tp=safeUrl(next.teleport_url),locationLink=tp||url;
- target.innerHTML=`<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}`;
+ const controls=group.items.length>1?`<div class="featured-carousel-controls" aria-label="Events starting at the same time"><button type="button" id="featured-prev" aria-label="Previous event">Previous</button><span class="featured-carousel-count">${featuredIndex+1} / ${group.items.length}</span><button type="button" id="featured-next" aria-label="Next event">Next</button></div>`:'';
+ target.innerHTML=`<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}${controls}`;
+ if(group.items.length>1){
+  $('featured-prev').addEventListener('click',()=>{featuredIndex=(featuredIndex-1+group.items.length)%group.items.length;renderFeatured()});
+  $('featured-next').addEventListener('click',()=>{featuredIndex=(featuredIndex+1)%group.items.length;renderFeatured()});
+ }
 }
+// Rotate every five seconds when several events share the earliest upcoming start time.
+setInterval(()=>{
+ const group=getFeaturedGroup();
+ if(group.key!==featuredGroupKey){renderFeatured();return;}
+ if(group.items.length>1){featuredIndex=(featuredIndex+1)%group.items.length;renderFeatured();}
+},5000);
+// Keep the featured event current even when the next start time changes.
 setInterval(renderFeatured,60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
