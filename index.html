@@ -75,6 +75,25 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .category-buttons button:hover{background:#38294e;border-color:#a996dc}
 .category-buttons button.active{background:#d7b77d;border-color:#e5c991;color:#191521}
 @media(max-width:390px){.calendar-aside .filters{grid-template-columns:1fr}}
+
+/* Two-column layout: advertisement and calendar left, featured event and filters right. */
+.calendar-shell{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:start}
+.left-column,.right-column{display:flex;flex-direction:column;gap:22px;min-width:0}
+.calendar-aside .filters{display:block;margin:10px 0 0}
+.calendar-aside .filters #search{width:100%}
+.featured-event{position:relative;isolation:isolate;overflow:hidden;padding:25px;border-radius:22px;border:1px solid #c86bff;background:linear-gradient(145deg,#291537 0%,#191329 60%,#171020 100%);box-shadow:0 0 8px rgba(200,107,255,.5),0 0 22px rgba(200,107,255,.25),inset 0 0 12px rgba(200,107,255,.08);animation:neonPulse 3s ease-in-out infinite}
+.featured-event::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(circle at 100% 0%,rgba(255,92,210,.13),transparent 55%);z-index:-1}
+.featured-kicker{color:#f5b6ff;font-size:12px;font-weight:800;letter-spacing:.2em;margin-bottom:16px}
+.featured-event h3{font-family:"Outfit",sans-serif;font-size:clamp(23px,2.8vw,32px);line-height:1.2;margin:14px 0 18px;overflow-wrap:anywhere}
+.featured-date{font-size:17px;font-weight:750;color:#f3cf87;margin:0 0 10px}
+.featured-venue{font-size:14px;color:#d8cce6;margin:0 0 18px;overflow-wrap:anywhere}
+.featured-placeholder{color:#c9bbd9}
+.featured-link{display:inline-block;margin:4px 12px 0 0;padding:10px 15px;border:1px solid #9d6ad3;border-radius:11px;color:#fff;text-decoration:none;font-weight:750;font-size:13px;background:#50316b}
+.featured-link:hover{background:#6d408d}
+.featured-teleport{background:transparent}
+@keyframes neonPulse{0%,100%{box-shadow:0 0 8px rgba(200,107,255,.5),0 0 22px rgba(200,107,255,.25),inset 0 0 12px rgba(200,107,255,.08)}50%{box-shadow:0 0 16px rgba(255,90,210,.8),0 0 38px rgba(200,107,255,.45),inset 0 0 12px rgba(200,107,255,.08)}}
+@media(max-width:740px){.calendar-shell{grid-template-columns:1fr}.left-column,.right-column{gap:16px}}
+@media(prefers-reduced-motion:reduce){.featured-event{animation:none}}
 </style>
 </head>
 <body>
@@ -87,20 +106,33 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
   <p class="note">Browse upcoming events from the official Second Life calendar.</p>
 </section>
 <section class="calendar-shell" aria-label="Discover and browse Second Life events">
-  <div class="calendar-aside">
+  <div class="left-column">
     <div class="advertisement" aria-label="Advertisement placement">
       <img src="./images/eventide-ad.png" alt="Your ad here. Reach the Second Life community." loading="eager" decoding="async">
     </div>
-    <div>
-      <p class="search-heading">Search Events</p>
-      <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><select id="sort" aria-label="Sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
-      <div id="category-buttons" class="category-buttons" role="group" aria-label="Filter events by category"><button type="button" class="active" data-category="all" aria-pressed="true">All categories</button></div>
+    <div class="calendar-panel">
+      <div class="calendar-kicker">Explore by date</div>
+      <div class="calendar-heading"><h2 id="calendar-month">November 2026</h2><div class="calendar-nav"><button type="button" id="calendar-prev" aria-label="Previous month">‹</button><button type="button" id="calendar-next" aria-label="Next month">›</button></div></div>
+      <div id="calendar-grid" class="calendar-grid" role="group" aria-label="Choose an event date"></div>
+      <div class="calendar-legend"><span class="calendar-dot" aria-hidden="true"></span> Dates with collected events (next 90 days)</div>
     </div>
-    <div id="calendar-selection" class="calendar-selected" aria-live="polite">Browsing all dates</div>
-    <button type="button" id="calendar-clear" class="calendar-reset">View all events</button>
-    <p class="calendar-tip">Searching for a keyword automatically searches all collected dates.</p>
   </div>
-  <div class="calendar-panel"><div class="calendar-kicker">Explore by date</div><div class="calendar-heading"><h2 id="calendar-month">November 2026</h2><div class="calendar-nav"><button type="button" id="calendar-prev" aria-label="Previous month">‹</button><button type="button" id="calendar-next" aria-label="Next month">›</button></div></div><div id="calendar-grid" class="calendar-grid" role="group" aria-label="Choose an event date"></div><div class="calendar-legend"><span class="calendar-dot" aria-hidden="true"></span> Dates with collected events (next 90 days)</div></div>
+  <div class="right-column">
+    <section id="featured-event" class="featured-event" aria-label="Featured next event" aria-live="polite">
+      <div class="featured-kicker">À LA UNE</div>
+      <div id="featured-content"><p class="featured-placeholder">Finding the next upcoming event...</p></div>
+    </section>
+    <div class="calendar-aside">
+      <div>
+        <p class="search-heading">Search Events</p>
+        <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"></div>
+        <div id="category-buttons" class="category-buttons" role="group" aria-label="Filter events by category"><button type="button" class="active" data-category="all" aria-pressed="true">All categories</button></div>
+      </div>
+      <div id="calendar-selection" class="calendar-selected" aria-live="polite">Browsing all dates</div>
+      <button type="button" id="calendar-clear" class="calendar-reset">View all events</button>
+      <p class="calendar-tip">Searching for a keyword automatically searches all collected dates.</p>
+    </div>
+  </div>
 </section>
 <div class="section-head"><h2>All collected events</h2><p>Times shown in your local timezone</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
@@ -156,9 +188,20 @@ $('calendar-prev').addEventListener('click',()=>{calendarCursor.setMonth(calenda
 $('calendar-next').addEventListener('click',()=>{calendarCursor.setMonth(calendarCursor.getMonth()+1);drawCalendar()});
 $('calendar-clear').addEventListener('click',()=>{selectedDate=null;drawCalendar();render()});
 const validDate=e=>{const d=new Date(e.starts_at);return !Number.isNaN(d.getTime())?d:null};
+function renderFeatured(){
+ const target=$('featured-content');
+ const now=Date.now();
+ const next=events.filter(e=>{const d=validDate(e);return d&&d.getTime()>=now}).sort((a,b)=>new Date(a.starts_at)-new Date(b.starts_at))[0];
+ if(!next){target.innerHTML='<p class="featured-placeholder">No upcoming event available.</p>';return}
+ const date=validDate(next);
+ const formatted=new Intl.DateTimeFormat(undefined,{weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(date);
+ const url=safeUrl(next.url),tp=safeUrl(next.teleport_url);
+ target.innerHTML=`<span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}`;
+}
+setInterval(renderFeatured,60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>($('sort').value==='asc'?1:-1)*(new Date(a.starts_at)-new Date(b.starts_at)));
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>new Date(a.starts_at)-new Date(b.starts_at));
  filteredEvents=filtered;
  if(reset)visibleCount=0;
  showNextPage();
@@ -176,7 +219,7 @@ function showNextPage(){
     const time=new Intl.DateTimeFormat(locale,{hour:'numeric',minute:'2-digit'}).format(date);
     const zone=new Intl.DateTimeFormat(locale,{timeZoneName:'short'}).formatToParts(date).find(x=>x.type==='timeZoneName')?.value||'';
     const pin='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
-    return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
+    return `<article class="event"><span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
   }).join('');
  if(visibleCount===0)$('events').innerHTML='';
  if(html)$('events').insertAdjacentHTML('beforeend',html);
@@ -206,14 +249,14 @@ $('search').addEventListener('input',()=>{
   },650);
  }
 });
-$('sort').addEventListener('change',render);
+
 function updateCategoryButtons(){document.querySelectorAll('#category-buttons button').forEach(b=>{const active=b.dataset.category===selectedCategory;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))})}
 $('category-buttons').addEventListener('click',e=>{const button=e.target.closest('button[data-category]');if(!button)return;selectedCategory=button.dataset.category;updateCategoryButtons();render();document.querySelector('.section-head').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})});
 $('year').textContent=new Date().getFullYear();
 fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events feed unavailable');return r.json()}).then(data=>{
  events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)).map(e=>({...e,category:classifyEvent(e)}));
  const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();const group=$('category-buttons');for(const c of categories){const button=document.createElement('button');button.type='button';button.dataset.category=c;button.textContent=c;button.setAttribute('aria-pressed','false');group.append(button)}updateCategoryButtons()
- drawCalendar();render();
+ drawCalendar();renderFeatured();render();
 }).catch(()=>{$('events').innerHTML='<p class="empty">Please try again later.</p>';$('load-status').textContent='The event feed could not be loaded.'});
 </script>
 </body></html>
