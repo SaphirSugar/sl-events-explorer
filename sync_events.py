@@ -46,6 +46,9 @@ def normalize_official_category(value):
 
 def category_from_row(row):
     """Read explicit category metadata, never keyword-match an event title."""
+    category_id = row.get('data-category-id')
+    if category_id in OFFICIAL_CATEGORY_IDS:
+        return OFFICIAL_CATEGORY_IDS[category_id]
     for node in [row] + row.select('[data-category], [data-event-category]'):
         for attribute in ('data-category', 'data-event-category'):
             result = normalize_official_category(node.get(attribute))
@@ -131,6 +134,15 @@ def extract(html, now=None, requested_day=None):
         key=lambda e: (e['starts_at'], e['title'].casefold())
     )
 
+# Numeric IDs are supplied by the official calendar's category selector.
+OFFICIAL_CATEGORY_IDS = {
+    '27': 'Arts & Culture', '28': 'Charity & Support Groups',
+    '22': 'Commercial', '18': 'Discussion', '26': 'Education',
+    '24': 'Games & Contests', '30': 'Live DJ', '20': 'Live Music',
+    '29': 'Miscellaneous', '23': 'Nightlife & Entertainment',
+    '25': 'Pageants', '31': 'Spirituality', '19': 'Sports',
+}
+
 OFFICIAL_CATEGORIES = {
     'arts and culture': 'Arts & Culture', 'arts & culture': 'Arts & Culture',
     'charity/support groups': 'Charity & Support Groups',
@@ -139,6 +151,7 @@ OFFICIAL_CATEGORIES = {
     'live music': 'Live Music', 'miscellaneous': 'Miscellaneous',
     'nightlife/entertainment': 'Nightlife & Entertainment',
     'performances': 'Performances', 'spirituality': 'Spirituality', 'sports': 'Sports',
+    'pageants': 'Pageants',
 }
 
 
@@ -588,12 +601,12 @@ def official_next_page(soup, current_url, day):
 
     Do not guess undocumented page parameters or traverse to other dates.
     """
-    candidates = soup.select('a[rel="next"][href], a.next[href], .pagination a[href], .pager a[href]')
+    candidates = soup.select('a[rel="next"][href], a.next[href], a.qp_prev[href], .pagination a[href], .pager a[href]')
     for link in candidates:
         label = link.get_text(' ', strip=True).lower()
         rel = link.get('rel', [])
         classes = link.get('class', [])
-        if not (('next' in rel) or ('next' in classes) or
+        if not (('next' in rel) or ('next' in classes) or ('qp_prev' in classes) or
                 label in ('next', 'next page', '>', '›', '»')):
             continue
         target = urljoin(current_url, link['href'])
@@ -613,12 +626,62 @@ def official_next_page(soup, current_url, day):
     return None
 
 
+def collect_authenticated_offset_pages(page, days=90, max_pages=150):
+    """Traverse the official upcoming.php offset links as observed in the browser.
+
+    The paginator uses .qp_prev for the next chronological batch despite its
+    misleading class name. Stop at the official end or on repeated content.
+    """
+    start = datetime.now(SLT)
+    end = start + timedelta(days=days)
+    current_url = 'https://secondlife.com/events/upcoming.php?lang=en-US&per_page=15'
+    seen_urls, seen_signatures, collected = set(), set(), {}
+    pages = 0
+    while current_url and current_url not in seen_urls and pages < max_pages:
+        seen_urls.add(current_url)
+        try:
+            response = page.request.get(current_url, timeout=30000)
+            if not response.ok:
+                print(f'offset_calendar: stopped_http={response.status} pages={pages}')
+                break
+            soup = BeautifulSoup(response.text(), 'html.parser')
+            rows = soup.select('table#event_table tr[data-event-id]')
+            signature = tuple(row.get('data-event-id') for row in rows)
+            if not signature or signature in seen_signatures:
+                break
+            seen_signatures.add(signature)
+            pages += 1
+            for event in extract(str(soup), now=start):
+                when = datetime.fromisoformat(event['starts_at'])
+                if start - timedelta(hours=2) <= when < end:
+                    key = (event['url'], event['starts_at'], event['title'].casefold())
+                    collected[key] = event
+            # The captured HTML calls the forward chronological link qp_prev.
+            link = soup.select_one('#WidgetUpcomingEventsPagination a.qp_prev[href]')
+            if link is None:
+                break
+            target = urljoin(current_url, link['href'])
+            parsed = urlparse(target)
+            if parsed.scheme != 'https' or parsed.hostname not in ('secondlife.com', 'www.secondlife.com') or parsed.path != '/events/upcoming.php':
+                break
+            params = parse_qs(parsed.query)
+            if not params.get('offset', [''])[0].isdigit():
+                break
+            current_url = target
+        except Exception as exc:
+            print('offset_calendar: stopped_exception=' + type(exc).__name__)
+            break
+    print(f'offset_calendar: pages={pages} events={len(collected)}')
+    return list(collected.values())
+
+
 def collect_authenticated_dates(page, days=90):
     """Read all explicitly linked listing pages for each day, without guessing dates."""
     start = datetime.now(SLT).date()
     collected = {}
     responses_ok = rows_seen = parsed_count = failures = missing_dates = 0
     pagination_pages = 0
+    capped_days = 0
     consecutive_failures = 0
     browser_mode = False
     MAX_PAGES_PER_DAY = 12
@@ -723,23 +786,22 @@ def collect_authenticated_dates(page, days=90):
                 break
         else:
             consecutive_failures = 0
+        if day_rows == 20 and day_pages == 1:
+            capped_days += 1
         if day_rows and not day_parsed:
             missing_dates += 1
         if offset < 3:
             print('authenticated_diagnostic:', f'day_offset={offset}',
                   f'pages={day_pages}', f'rows={day_rows}', f'parsed_for_day={day_parsed}')
 
-    target_id = '9471590'
-    found_target = any(re.search(r'(?:[?&])id=' + target_id + r'(?:&|$)', e.get('url', ''))
-                       for e in collected.values())
-    print('target_event_diagnostic:', f'id={target_id}',
-          f'found_in_authenticated_calendar={found_target}',
-          f'extra_pagination_pages={pagination_pages}')
+    print('pagination_diagnostic:', f'extra_pagination_pages={pagination_pages}', f'possible_capped_days={capped_days}',
+          'note=20-row days may be incomplete without a discoverable next page')
     print('authenticated_diagnostic:', f'responses_ok={responses_ok}',
           f'rows={rows_seen}', f'parsed={parsed_count}',
           f'no_matching_dates={missing_dates}', f'failures={failures}')
     print(f'authenticated_calendar: unique_events={len(collected)}')
     return list(collected.values())
+
 
 
 def main():
@@ -761,13 +823,20 @@ def main():
                 events = collect_calendar_pages(page)
                 daily = collect_dates(days=90)
                 authenticated = []
+                offset_events = []
                 if login_secondlife(page):
+                    offset_events = collect_authenticated_offset_pages(page, days=90)
                     authenticated = collect_authenticated_dates(page, days=90)
                 merged = {}
-                for event in events + daily + authenticated:
+                for event in events + daily + authenticated + offset_events:
                     key = (event['url'], event['starts_at'], event['title'].casefold())
+                    prior = merged.get(key)
+                    if prior and prior.get('official_category') and not event.get('official_category'):
+                        event['category'] = prior['category']
+                        event['official_category'] = True
                     merged[key] = event
-                events = sorted(merged.values(), key=lambda e: (e['starts_at'], e['title']))
+                events = list(merged.values())
+                events = sorted(events, key=lambda e: (e['starts_at'], e['title']))
                 # Official event categories only. Never guess from the event title.
                 previous_for_categories = {}
                 if OUT.exists():
@@ -826,8 +895,6 @@ def main():
                 payload['message'] += ' Showing previously verified upcoming events.'
         except (OSError, ValueError, TypeError):
             pass
-    target_present = any(re.search(r'(?:[?&])id=9471590(?:&|$)', e.get('url', '')) for e in payload['events'])
-    print('target_event_final:', f'id=9471590 present={target_present}')
     print('retained_events:', f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"status={payload['status']} events={len(payload['events'])} message={payload['message']}")
