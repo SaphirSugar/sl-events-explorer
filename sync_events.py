@@ -408,31 +408,83 @@ def venue_photo(venue, session):
     return None
 
 
-def attach_venue_photos(events):
-    """One lookup per distinct venue; reuse the photo across its events."""
-    venues = sorted({e.get('venue', '').strip() for e in events if e.get('venue', '').strip()})
-    def lookup(venue):
+def attach_venue_photos(events, previous=None, max_lookups=40):
+    """Gradually verify venue photos without slowing down a large calendar sync.
+
+    Reuse previous successful matches and previous unsuccessful attempts. Each run
+    checks at most max_lookups distinct new venues. The check marker lives in
+    events.json, so no extra file or workflow changes are necessary.
+    """
+    from collections import Counter
+
+    previous = previous or []
+    old_by_venue = {}
+    for event in previous:
+        venue = normalize_place(event.get('venue', ''))
+        if not venue:
+            continue
+        old = old_by_venue.setdefault(venue, {})
+        if event.get('image_source') == 'public_parcel_photo' and safe_venue_image(event.get('image_url')):
+            old['image_url'] = event['image_url']
+        if event.get('venue_photo_checked_at'):
+            old['venue_photo_checked_at'] = event['venue_photo_checked_at']
+
+    counts = Counter(normalize_place(e.get('venue', '')) for e in events)
+    names = {}
+    for event in events:
+        name = str(event.get('venue', '')).strip()
+        key = normalize_place(name)
+        if key and len(name) >= 4:
+            names.setdefault(key, name)
+
+    # Popular venues first. Failed searches are remembered so future runs can
+    # move on to other venues rather than searching the same names forever.
+    candidates = [key for key in names if not old_by_venue.get(key, {}).get('venue_photo_checked_at')
+                  and not old_by_venue.get(key, {}).get('image_url')]
+    candidates.sort(key=lambda key: (-counts[key], key))
+    candidates = candidates[:max_lookups]
+    checked_at = datetime.now(timezone.utc).isoformat()
+
+    def lookup(key):
         with requests.Session() as session:
             session.headers.update({'User-Agent': 'Mozilla/5.0 (EventideSL public venue image lookup)'})
-            return venue, venue_photo(venue, session)
-    photos = {}
+            return key, venue_photo(names[key], session)
+
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for venue, photo in pool.map(lookup, venues):
+        for key, photo in pool.map(lookup, candidates):
+            record = old_by_venue.setdefault(key, {})
+            record['venue_photo_checked_at'] = checked_at
             if photo:
-                photos[venue] = photo
+                record['image_url'] = photo
+
+    matched = 0
     for event in events:
-        # Don't overwrite a valid photo already associated with this venue.
-        photo = photos.get(event.get('venue', '').strip())
+        record = old_by_venue.get(normalize_place(event.get('venue', '')), {})
+        photo = record.get('image_url')
         if photo:
             event['image_url'] = photo
             event['image_source'] = 'public_parcel_photo'
-        else:
-            # Avoid persisting a cookie banner or unverified image.
-            old = event.get('image_url', '')
-            if not old or any(host in old.lower() for host in BAD_IMAGE_HOSTS):
+            matched += 1
+        elif event.get('image_source') != 'public_parcel_photo':
+            # Preserve a separately sourced image, if it is safe.
+            if not safe_venue_image(event.get('image_url')):
                 event.pop('image_url', None)
-    print(f'venue_photo_lookup: venues={len(venues)} verified_images={len(photos)} events_with_images={sum(bool(e.get("image_url")) for e in events)}')
+        if record.get('venue_photo_checked_at'):
+            event['venue_photo_checked_at'] = record['venue_photo_checked_at']
+
+    print('venue_photo_lookup:', f'new_venues_checked={len(candidates)}',
+          f'verified_venue_photos={sum(bool(r.get("image_url")) for r in old_by_venue.values())}',
+          f'events_with_verified_venue_photo={matched}')
     return events
+
+
+def safe_venue_image(url):
+    try:
+        parsed = urlparse(str(url or ''))
+        return (parsed.scheme == 'https' and parsed.hostname == 'picture-service.secondlife.com'
+                and not any(host in str(url).lower() for host in BAD_IMAGE_HOSTS))
+    except ValueError:
+        return False
 
 
 def future_verified_events(previous):
@@ -846,10 +898,8 @@ def main():
                         pass
                 events = retrieve_official_categories(events, page, previous_for_categories)
                 print(f'calendar_total: {len(events)} events across 90 queried dates')
-                # Detail and venue requests can be very expensive for large feeds.
-                # Prioritize complete event coverage over optional image enrichment.
-                if events and len(events) <= 100:
-                    events = attach_venue_photos(enrich_events(events))
+                # Venue photos are enriched after the retention merge below.
+                # Never block the main event collection on thousands of lookups.
             finally:
                 browser.close()
         if events:
@@ -895,7 +945,17 @@ def main():
                 payload['message'] += ' Showing previously verified upcoming events.'
         except (OSError, ValueError, TypeError):
             pass
-    print('retained_events:', f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
+    # Add verified public parcel photos progressively, including retained events.
+    # Failed photo searches must never prevent event data from being published.
+    if payload['events']:
+        try:
+            old_events = []
+            if OUT.exists():
+                old_events = json.loads(OUT.read_text(encoding='utf-8')).get('events', [])
+            payload['events'] = attach_venue_photos(payload['events'], old_events)
+        except Exception as exc:
+            print(f'venue_photo_lookup: skipped due to {type(exc).__name__}: {str(exc)[:120]}')
+    print('retained_events:', f'final_count={len(payload["events"])}' , f'final_count={len(payload["events"])}', f'official_categories={sum(e.get("official_category") is True for e in payload["events"])}')
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"status={payload['status']} events={len(payload['events'])} message={payload['message']}")
 
