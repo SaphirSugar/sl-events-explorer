@@ -102,16 +102,20 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .featured-carousel-controls button{cursor:pointer;background:#50316b;color:#fff;border:1px solid #a66bd8;border-radius:9px;padding:9px 14px;font-weight:700}
 .featured-carousel-controls button:hover,.featured-carousel-controls button:focus-visible{background:#75429b}
 .featured-carousel-count{font-size:13px;color:#eac0ff;font-weight:700}
+
+/* Full-width top image banner */
+.hero-banner{margin:0 0 30px;width:100%;overflow:hidden;border-radius:16px;border:1px solid rgba(209,145,255,.3)}
+.hero-banner img{display:block;width:100%;height:auto;object-fit:contain}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:560px){.hero-banner{margin-bottom:20px;border-radius:10px}}
 </style>
 </head>
 <body>
 <div class="wrap top"><div class="brand">EVENTIDE SL</div><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official calendar ↗</a></div>
 <main class="wrap">
-<section class="hero restored-hero" aria-labelledby="site-title">
-  <div class="eyebrow">THE SECOND LIFE EVENT DIRECTORY</div>
-  <h1 id="site-title">Discover <span>Second Life</span> Events</h1>
-  <p>Explore live music, DJs, concerts and unforgettable experiences across Second Life. Find your next event in one place.</p>
-  <p class="note">Browse upcoming events from the official Second Life calendar.</p>
+<section class="hero-banner" aria-label="Eventide SL, Discover Second Life Events">
+  <h1 class="visually-hidden" id="site-title">Discover Second Life Events</h1>
+  <img src="./images/eventide-top-banner.png" alt="Eventide SL. Second Life Events. Discover Second Life Events. Live Music, DJs, Arts and Culture, Games, Education and more." fetchpriority="high" decoding="async">
 </section>
 <section class="calendar-shell" aria-label="Discover and browse Second Life events">
   <div class="left-column">
