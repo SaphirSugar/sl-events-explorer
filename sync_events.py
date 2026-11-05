@@ -78,7 +78,7 @@ def extract(html, now=None, requested_day=None):
 
 
     collected = {}
-    tables = soup.select('table#event-table, table.event-table')
+    tables = soup.select('table#event_table, table#event-table, table.event-table')
     if not tables:
         tables = [t for t in soup.select('table') if any(
             all(w in row.get_text(' ', strip=True).lower() for w in ('when', 'what', 'where'))
@@ -487,38 +487,35 @@ def explicit_maturity(row):
 
 
 def collect_authenticated_dates(page, days=90):
-    """Inspect authenticated responses without publishing unclassified rows.
+    """Collect event-listing metadata and link to the official detail page.
 
-    Diagnostics contain only counts and HTTP metadata, never HTML, cookies,
-    credentials, event titles or private URLs.
+    The event table does not provide a reliable maturity rating. Do not label
+    unclassified entries General, Moderate or Adult. Second Life handles
+    authentication and access restrictions when the official link is opened.
     """
     start = datetime.now(SLT).date()
     collected = {}
-    total_seen = 0
-    skipped_unclassified = 0
-    skipped_adult = 0
-    failures = 0
     successful_responses = 0
-    tables_seen = 0
     rows_seen = 0
-    no_table_responses = 0
+    parsed = 0
+    failures = 0
+    missing_dates = 0
+    unknown_maturity = 0
     consecutive_failures = 0
 
     for offset in range(days):
         day = start + timedelta(days=offset)
         try:
-            # page.request shares the browser context's cookie jar.
             response = page.request.get(
                 'https://secondlife.com/events/upcoming.php',
                 params={'lang': 'en-US', 'per_page': '200', 'date': day.isoformat()},
                 timeout=30000,
             )
-            status = response.status
             if not response.ok:
                 failures += 1
                 consecutive_failures += 1
                 if failures <= 3:
-                    print(f'authenticated_diagnostic: day_offset={offset} http_status={status}')
+                    print(f'authenticated_diagnostic: day_offset={offset} http_status={response.status}')
                 if consecutive_failures >= 3:
                     print('authenticated_diagnostic: stopped_after_three_consecutive_http_failures')
                     break
@@ -526,69 +523,61 @@ def collect_authenticated_dates(page, days=90):
 
             consecutive_failures = 0
             successful_responses += 1
-            html = response.text()
-            soup = BeautifulSoup(html, 'html.parser')
-            if offset < 3:
-                print(
-                    'authenticated_structure:',
-                    f'day_offset={offset}',
-                    f'title_present={bool(soup.title)}',
-                    f'event_ids={len(soup.select("[data-event-id]"))}',
-                    f'all_tables={len(soup.select("table"))}',
-                    f'forms={len(soup.select("form"))}',
-                    f'links={len(soup.select("a[href]"))}',
-                    f'login_form={bool(soup.select("input[type=password]"))}',
-                )
-            if offset < 3:
-                for index, table in enumerate(soup.select('table')[:2]):
-                    first_event = table.select_one('[data-event-id]')
-                    first_row = table.select_one('tr:has(td)')
-                    print(
-                        'authenticated_table_shape:',
-                        f'day_offset={offset}',
-                        f'table_index={index}',
-                        f'table_id={table.get("id", "")!r}',
-                        f'table_classes={table.get("class", [])!r}',
-                        f'rows={len(table.select("tr"))}',
-                        f'data_rows={len(table.select("tr:has(td)"))}',
-                        f'first_row_cells={len(first_row.find_all("td", recursive=False)) if first_row else 0}',
-                        f'event_node_tag={first_event.name if first_event else "none"}',
-                        f'event_node_classes={first_event.get("class", []) if first_event else []!r}',
-                        f'maturity_markers={len(table.select("[data-maturity], [data-rating], .maturity, .rating, .event-maturity"))}',
-                        f'first_row_child_tags={[node.name for node in first_row.find_all(recursive=False)] if first_row else []!r}',
-                    )
+            soup = BeautifulSoup(response.text(), 'html.parser')
             tables = soup.select('table#event_table, table#event-table, table.event-table')
-            tables_seen += len(tables)
-            if not tables:
-                no_table_responses += 1
+            reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
+            day_parsed = 0
             day_rows = 0
+
             for table in tables:
+                header = table.select_one('thead') or table.find('tr')
                 for row in table.select('tr'):
-                    if not row.find('td'):
+                    cells = row.find_all('td', recursive=False)
+                    if len(cells) < 3:
                         continue
-                    day_rows += 1
                     rows_seen += 1
-                    rating = explicit_maturity(row)
-                    if rating == 'Adult':
-                        skipped_adult += 1
-                        continue
-                    if rating is None:
-                        skipped_unclassified += 1
-                        continue
-                    header = table.select_one('thead') or table.find('tr')
-                    fragment = '<table class="event-table">' + (str(header) if header else '') + str(row) + '</table>'
-                    reference = datetime(day.year, day.month, day.day, tzinfo=SLT)
+                    day_rows += 1
+
+                    # Reuse the established table parser for title, date and venue.
+                    fragment = ('<table class="event-table">'
+                                + (str(header) if header else '')
+                                + str(row) + '</table>')
                     for event in extract(fragment, now=reference, requested_day=day):
-                        total_seen += 1
-                        event['maturity'] = rating
+                        # Use the canonical official page when an event ID exists.
+                        event_id = row.get('data-event-id')
+                        if not event_id:
+                            node = row.select_one('[data-event-id]')
+                            event_id = node.get('data-event-id') if node else None
+                        if event_id and re.fullmatch(r'\d+', str(event_id)):
+                            event['url'] = ('https://secondlife.com/my/community/events/'
+                                            f'event.php?id={event_id}')
+                        elif event['url'] == SOURCE:
+                            # Do not publish a card without a usable event detail link.
+                            continue
+
+                        rating = explicit_maturity(row)
+                        if rating:
+                            event['maturity'] = rating
+                        else:
+                            event['maturity'] = 'Unspecified'
+                            unknown_maturity += 1
+
+                        # Do not copy protected event detail text or images.
+                        event['description'] = ''
+                        event.pop('image_url', None)
+                        event['teleport_url'] = None
                         key = (event['url'], event['starts_at'], event['title'].casefold())
                         collected[key] = event
+                        parsed += 1
+                        day_parsed += 1
 
-            if offset < 3 or (day_rows and not total_seen and offset < 7):
-                content_type = response.headers.get('content-type', '').split(';')[0][:45]
-                print(f'authenticated_diagnostic: day_offset={offset} http_status={status} '
-                      f'content_type={content_type} bytes={len(html)} '
-                      f'tables={len(tables)} rows={day_rows}')
+            if day_rows and not day_parsed:
+                missing_dates += 1
+            if offset < 3 or (day_rows and not day_parsed and offset < 7):
+                print('authenticated_diagnostic:',
+                      f'day_offset={offset}', f'http_status={response.status}',
+                      f'tables={len(tables)}', f'rows={day_rows}',
+                      f'parsed_for_day={day_parsed}')
         except Exception as exc:
             failures += 1
             consecutive_failures += 1
@@ -598,14 +587,11 @@ def collect_authenticated_dates(page, days=90):
                 print('authenticated_diagnostic: stopped_after_three_consecutive_exceptions')
                 break
 
-    print('authenticated_policy: unclassified_authenticated_rows_are_not_published')
-    print(f'authenticated_diagnostic: responses_ok={successful_responses} '
-          f'tables={tables_seen} rows={rows_seen} no_table_responses={no_table_responses}')
-    print(f'authenticated_calendar: publishable={len(collected)} parsed={total_seen} '
-          f'skipped_adult={skipped_adult} skipped_unclassified={skipped_unclassified} failures={failures}')
-    if not collected:
-        print('authenticated_diagnostic: no_authenticated_events_published; '
-              'check HTTP status, table count and explicit maturity labels')
+    print('authenticated_diagnostic:',
+          f'responses_ok={successful_responses}', f'rows={rows_seen}',
+          f'parsed={parsed}', f'no_matching_dates={missing_dates}',
+          f'unknown_maturity={unknown_maturity}', f'failures={failures}')
+    print(f'authenticated_calendar: unique_events={len(collected)}')
     return list(collected.values())
 
 
@@ -679,3 +665,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
