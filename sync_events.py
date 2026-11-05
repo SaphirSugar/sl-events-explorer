@@ -422,11 +422,11 @@ def official_event_photo(event, session):
         # Prefer event-specific structured images, not a generic page logo.
         selectors = ['.event-image img', '.event-photo img', '.event-picture img',
                      '#event-image img', '#event-photo img',
-                     'img.event-image', 'img.event-photo', 'img.event-picture']
+                     'img.event-image', 'img.event-photo', 'img.event-picture', 'img.event_image']
         urls = []
         for selector in selectors:
             for node in soup.select(selector):
-                candidate = node.get('src') or node.get('data-src')
+                candidate = node.get('src') or node.get('data-src') or node.get('data-original')
                 if candidate:
                     urls.append(urljoin(response.url, candidate))
         for node in soup.select('meta[property="og:image"], meta[name="twitter:image"]'):
@@ -435,14 +435,14 @@ def official_event_photo(event, session):
                 urls.append(urljoin(response.url, candidate))
         for candidate in urls:
             img = urlparse(candidate)
-            if img.scheme == 'https' and img.hostname == 'picture-service.secondlife.com' and img.path.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+            if img.scheme == 'https' and img.hostname == 'picture-service.secondlife.com':
                 return candidate
     except (requests.RequestException, ValueError):
         pass
     return None
 
 
-def attach_official_event_photos(events, previous=None, max_lookups=60):
+def attach_official_event_photos(events, previous=None, max_lookups=60, auth_cookies=None):
     """Discover event-specific official images gradually across scheduled runs."""
     previous = previous or []
     cache = {}
@@ -451,7 +451,7 @@ def attach_official_event_photos(events, previous=None, max_lookups=60):
         if not key:
             continue
         cache[key] = (old.get('image_url') if old.get('image_source') == 'official_event_photo' else None,
-                      old.get('event_photo_checked_at'))
+                      old.get('event_photo_checked_at') if old.get('event_photo_method') == 'authenticated_event_image_v2' else None)
     for event in events:
         key = str(event.get('url') or '')
         image, checked = cache.get(key, (None, None))
@@ -460,6 +460,7 @@ def attach_official_event_photos(events, previous=None, max_lookups=60):
             event['image_source'] = 'official_event_photo'
         if checked:
             event['event_photo_checked_at'] = checked
+            event['event_photo_method'] = 'authenticated_event_image_v2'
     candidates = [e for e in events if e.get('url') and not e.get('event_photo_checked_at')
                   and e.get('image_source') != 'official_event_photo'][:max_lookups]
     checked_at = datetime.now(timezone.utc).isoformat()
@@ -467,12 +468,15 @@ def attach_official_event_photos(events, previous=None, max_lookups=60):
     def lookup(event):
         with requests.Session() as session:
             session.headers.update({'User-Agent': 'Mozilla/5.0', 'Referer': SOURCE})
+            for cookie in (auth_cookies or []):
+                session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'], path=cookie.get('path', '/'))
             return official_event_photo(event, session)
 
     found = 0
     with ThreadPoolExecutor(max_workers=4) as pool:
         for event, photo in zip(candidates, pool.map(lookup, candidates)):
             event['event_photo_checked_at'] = checked_at
+            event['event_photo_method'] = 'authenticated_event_image_v2'
             if photo:
                 event['image_url'] = photo
                 event['image_source'] = 'official_event_photo'
@@ -935,6 +939,7 @@ def main():
         'status': 'unavailable', 'updated_at': datetime.now(timezone.utc).isoformat(),
         'source': SOURCE, 'events': [], 'message': '',
     }
+    auth_cookies = []
     try:
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(headless=True, args=['--no-sandbox'])
@@ -971,6 +976,8 @@ def main():
                     except (OSError, ValueError, TypeError):
                         pass
                 events = retrieve_official_categories(events, page, previous_for_categories)
+                if os.environ.get('SL_USERNAME') and os.environ.get('SL_PASSWORD'):
+                    auth_cookies = page.context.cookies(['https://secondlife.com', 'https://id.secondlife.com'])
                 print(f'calendar_total: {len(events)} events across 90 queried dates')
                 # Venue photos are enriched after the retention merge below.
                 # Never block the main event collection on thousands of lookups.
@@ -1023,7 +1030,7 @@ def main():
     if payload['events']:
         try:
             old_events = json.loads(OUT.read_text(encoding='utf-8')).get('events', []) if OUT.exists() else []
-            payload['events'] = attach_official_event_photos(payload['events'], old_events)
+            payload['events'] = attach_official_event_photos(payload['events'], old_events, auth_cookies=auth_cookies)
         except Exception as exc:
             print(f'official_event_photo_lookup: skipped due to {type(exc).__name__}: {str(exc)[:120]}')
     # Add verified public parcel photos progressively, including retained events.
