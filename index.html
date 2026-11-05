@@ -207,7 +207,7 @@ const categoryImages = Object.freeze({
 });
 function getCategoryImage(category){
  const key=categoryImages[String(category||'').trim()]||'miscellaneous';
- return './images/categories/'+key+'.webp';
+ return './images/categories/'+key+'.png';
 }
 function renderFeatured(){
  const target=$('featured-content');
