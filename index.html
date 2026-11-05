@@ -55,6 +55,8 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .event-timezone{font-family:"DM Sans",sans-serif;font-size:11px;font-weight:600;color:#c4b1d4;margin-left:5px}
 .event-venue{display:flex;align-items:flex-start;gap:9px;color:#d7cce3;font-size:13px;line-height:1.55;margin:0 0 11px;overflow-wrap:anywhere}
 .event-venue svg{flex:none;margin-top:2px;color:#c4a4e9}
+.event-venue a{color:#e8d3ff;text-decoration:underline;text-decoration-color:#9d79ca;text-underline-offset:3px;font-weight:700}
+.event-venue a:hover{color:#fff;text-decoration-color:#f3cf87}
 .actions a{color:#dcc0ff}
 @media(max-width:560px){.event-time{font-size:21px}.event{min-height:0}}
 
@@ -90,8 +92,6 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
   </div>
   <div class="calendar-panel"><div class="calendar-kicker">Explore by date</div><div class="calendar-heading"><h2 id="calendar-month">November 2026</h2><div class="calendar-nav"><button type="button" id="calendar-prev" aria-label="Previous month">‹</button><button type="button" id="calendar-next" aria-label="Next month">›</button></div></div><div id="calendar-grid" class="calendar-grid" role="group" aria-label="Choose an event date"></div><div class="calendar-legend"><span class="calendar-dot" aria-hidden="true"></span> Dates with collected events (next 90 days)</div></div>
 </section>
-<div class="toolbar"><nav class="tabs" aria-label="Event views"><button class="active" data-view="all" aria-pressed="true">All Events</button><button data-view="music" aria-pressed="false">Live Music & DJs</button></nav><div class="stats" id="count" aria-live="polite"></div></div>
-<p id="notice" class="notice" role="status">Loading verified events…</p>
 <div class="section-head"><h2>All collected events</h2><p>Times shown in your local timezone</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
@@ -158,6 +158,7 @@ function showNextPage(){
  const slice=filtered.slice(visibleCount,visibleCount+PAGE_SIZE);
   const html=slice.map(e=>{
     const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);
+    const venueLink=tp||url;
     const locale=undefined;
     const month=new Intl.DateTimeFormat(locale,{month:'short'}).format(date);
     const day=new Intl.DateTimeFormat(locale,{day:'2-digit'}).format(date);
@@ -165,24 +166,21 @@ function showNextPage(){
     const time=new Intl.DateTimeFormat(locale,{hour:'numeric',minute:'2-digit'}).format(date);
     const zone=new Intl.DateTimeFormat(locale,{timeZoneName:'short'}).formatToParts(date).find(x=>x.type==='timeZoneName')?.value||'';
     const pin='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
-    return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}<span>${escapeHTML(e.venue||'Venue not specified')}</span></p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
+    return `<article class="event">${e.image_url&&safeImageUrl(e.image_url)?`<img class="event-image" src="${escapeHTML(safeImageUrl(e.image_url))}" alt="Photo of the Second Life venue" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}<span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
   }).join('');
  if(visibleCount===0)$('events').innerHTML='';
  if(html)$('events').insertAdjacentHTML('beforeend',html);
  visibleCount+=slice.length;
  if(!filtered.length)$('events').innerHTML='<p class="empty">No matching events in the collected feed. The search covers all collected dates, not events missing from the feed.</p>';
- $('count').textContent=`${filtered.length} matching events in the collected feed`;
  $('load-status').textContent=visibleCount<filtered.length?`Showing ${visibleCount} of ${filtered.length} · Scroll to load more`:`Showing ${visibleCount} of ${filtered.length} collected events`;
 }
 const observer=new IntersectionObserver(entries=>{if(entries.some(x=>x.isIntersecting)&&visibleCount<filteredEvents.length)showNextPage()},{rootMargin:'600px'});
 observer.observe($('load-sentinel'));
-for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('click',()=>{view=b.dataset.view;document.querySelectorAll('[data-view]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});render()});
 $('search').addEventListener('input',()=>{
  // A keyword search always spans every category, date and event view.
  if($('search').value.trim()){selectedDate=null;drawCalendar()}
  $('category').value='all';
  view='all';
- document.querySelectorAll('[data-view]').forEach(x=>{const active=x.dataset.view==='all';x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active))});
  render();
 });
 for(const id of ['category','sort'])$(id).addEventListener('change',render);
@@ -190,9 +188,7 @@ $('year').textContent=new Date().getFullYear();
 fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events feed unavailable');return r.json()}).then(data=>{
  events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)).map(e=>({...e,category:classifyEvent(e)}));
  const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();for(const c of categories){const option=document.createElement('option');option.value=c;option.textContent=c;$('category').append(option)}
- const updated=data.updated_at&& !Number.isNaN(new Date(data.updated_at).getTime())?new Date(data.updated_at).toLocaleString(): 'unknown';
- $('notice').textContent=data.status==='ok'?`Source: Second Life events calendar · Last checked: ${updated} · All times are shown locally.`:`Latest sync unavailable. ${data.message||'Showing only previously verified events when available.'} · Last attempt: ${updated}`;
  drawCalendar();render();
-}).catch(()=>{$('notice').textContent='The website is online, but the event feed could not be loaded.';$('count').textContent='0 events';$('events').innerHTML='<p class="empty">Please try again later.</p>'});
+}).catch(()=>{$('events').innerHTML='<p class="empty">Please try again later.</p>';$('load-status').textContent='The event feed could not be loaded.'});
 </script>
 </body></html>
