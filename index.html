@@ -256,26 +256,30 @@ setInterval(()=>{
  if(group.items.length>1){featuredIndex=(featuredIndex+1)%group.items.length;renderFeatured();}
 },5000);
 // Keep the featured event current even when the next start time changes.
-setInterval(renderFeatured,60000);
+setInterval(()=>{
+ const previousGroup=featuredGroupKey;
+ renderFeatured();
+ // Keep the main list in sync when the next-event group changes.
+ if(previousGroup!==featuredGroupKey)render();
+},60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
  const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
- // Always include every event featured in NEXT LIVE EVENT in the event list,
- // even when a date, category, or search filter is active.
+ // Pin every event shown in NEXT LIVE EVENT at the beginning of the main list.
+ // This ensures featured events are visible immediately, even with pagination
+ // or active search/category/date filters, without duplicating their cards.
  const featured=getFeaturedGroup().items;
- const combined=[...filtered];
- const seen=new Set(filtered);
- for(const event of featured){
-  if(!seen.has(event)){combined.push(event);seen.add(event);}
- }
- combined.sort((a,b)=>validDate(a)-validDate(b));
- filteredEvents=combined;
+ const featuredSet=new Set(featured);
+ filteredEvents=[...featured,...filtered.filter(e=>!featuredSet.has(e))];
  if(reset)visibleCount=0;
  showNextPage();
 }
 function showNextPage(){
  const filtered=filteredEvents;
- const slice=filtered.slice(visibleCount,visibleCount+PAGE_SIZE);
+ // On the first page show all simultaneous featured events, even if there are more than 24.
+ const firstPageSize=Math.max(PAGE_SIZE,getFeaturedGroup().items.length);
+ const pageSize=visibleCount===0?firstPageSize:PAGE_SIZE;
+ const slice=filtered.slice(visibleCount,visibleCount+pageSize);
   const html=slice.map(e=>{
     const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);
     const venueLink=tp||url;
