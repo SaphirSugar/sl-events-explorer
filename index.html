@@ -111,6 +111,12 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 
 /* Manually curated clubs and Second Life locations */
 .clubs-section{margin:32px 0 42px;scroll-margin-top:24px}.clubs-heading{display:flex;justify-content:space-between;align-items:end;gap:14px;margin-bottom:18px;flex-wrap:wrap}.clubs-heading h2{font-size:clamp(24px,3vw,30px);margin:0 0 6px}.clubs-heading p{color:var(--muted);margin:0;font-size:14px;line-height:1.6}.clubs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.club-card{background:linear-gradient(145deg,#19243a,#111a2b);border:1px solid var(--border);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;min-width:0}.club-image{width:100%;height:190px;object-fit:cover;display:block;background:linear-gradient(135deg,#342457,#151e34)}.club-no-image{height:190px;display:grid;place-items:center;background:radial-gradient(circle at 80% 20%,#6b357d,#24223d 55%,#141b2c);color:#dfcaff;font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.club-body{padding:20px;display:flex;flex-direction:column;flex:1}.club-type{color:#c6b6ff;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.club-body h3{font-size:21px;margin:9px 0;overflow-wrap:anywhere}.club-location,.club-description{font-size:13px;color:#b7c4db;line-height:1.6;margin:0 0 10px;overflow-wrap:anywhere}.club-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:auto;padding-top:10px}.club-actions a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:10px;padding:10px 14px;background:#7668de;color:white;font-size:13px;font-weight:800}.club-actions a.club-secondary{background:transparent;border:1px solid #5a5780;color:#d4ccff}.clubs-empty{border:1px dashed #60547d;border-radius:16px;padding:24px;color:#c7c0d9;background:#181b30;font-size:14px;line-height:1.6}@media(max-width:900px){.clubs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.clubs-grid{grid-template-columns:1fr}}
+/* Floating shortcut back to the event search field */
+#back-to-search{position:fixed;right:22px;bottom:24px;z-index:1000;display:flex;align-items:center;gap:8px;padding:12px 16px;border:1px solid rgba(209,145,255,.5);border-radius:999px;background:#7668de;color:#fff;font:inherit;font-size:14px;font-weight:800;box-shadow:0 8px 25px rgba(0,0,0,.4);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .2s,transform .2s,visibility .2s}
+#back-to-search.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+#back-to-search:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:560px){#back-to-search{right:12px;bottom:14px;padding:11px 13px;font-size:13px}}
+@media(prefers-reduced-motion:reduce){#back-to-search{transition:none}}
 </style>
 </head>
 <body>
@@ -157,6 +163,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
 </main>
+<button type="button" id="back-to-search" aria-label="Back to event search">↑ Search events</button>
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official Second Life calendar</a></div></footer>
 <script>
 'use strict';
@@ -365,6 +372,18 @@ $('search').addEventListener('input',()=>{
 
 function updateCategoryButtons(){document.querySelectorAll('#category-buttons button').forEach(b=>{const active=b.dataset.category===selectedCategory;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))})}
 $('category-buttons').addEventListener('click',e=>{const button=e.target.closest('button[data-category]');if(!button)return;selectedCategory=button.dataset.category;updateCategoryButtons();render();document.querySelector('.section-head').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})});
+// Show the shortcut only when the search field is above the viewport.
+const backToSearch=$('back-to-search');
+function updateBackToSearch(){
+ const searchBox=$('search').getBoundingClientRect();
+ backToSearch.classList.toggle('is-visible',searchBox.bottom < 0);
+}
+backToSearch.addEventListener('click',()=>{
+ $('search').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'});
+});
+window.addEventListener('scroll',updateBackToSearch,{passive:true});
+window.addEventListener('resize',updateBackToSearch);
+updateBackToSearch();
 $('year').textContent=new Date().getFullYear();
 fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events feed unavailable');return r.json()}).then(data=>{
  events=(Array.isArray(data.events)?data.events:[]).filter(e=>e&&e.title&&validDate(e)).map(e=>({...e,category:classifyEvent(e)}));
