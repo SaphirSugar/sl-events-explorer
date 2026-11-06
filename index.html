@@ -144,6 +144,8 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 @media(max-width:900px){.clubs-with-sidebar{grid-template-columns:minmax(0,1fr) 220px}.clubs-with-sidebar .clubs-grid{grid-template-columns:1fr}}
 @media(max-width:740px){.clubs-with-sidebar{grid-template-columns:1fr}.clubs-with-sidebar .clubs-grid{grid-template-columns:1fr}.clubs-ad-side{min-height:140px}}
 
+/* Align the top edge of the club photo with the sidebar advertisement. */
+.clubs-heading-above{margin:0 0 14px}
 /* Compact club advertising layout: eliminate unused columns and banner height. */
 .clubs-ad-top{height:clamp(145px,20vw,235px);min-height:0;margin:12px 0 14px;align-items:stretch}
 .clubs-ad-top img{width:100%;height:100%;object-fit:cover;object-position:center top}
@@ -198,9 +200,9 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
   <img src="./images/ads/clubs-top.png" alt="Advertisement above Clubs and Locations" loading="lazy" onerror="this.hidden=true">
   <span class="clubs-ad-placeholder">Advertisement space<br>Upload images/ads/clubs-top.png</span>
 </div>
+<div class="clubs-heading clubs-heading-above"><div><h2 id="clubs-title">Clubs &amp; Locations</h2><p>Discover handpicked places in Second Life and teleport directly to them.</p></div></div>
 <div class="clubs-with-sidebar">
-  <section id="clubs-locations" class="clubs-section" aria-label="Clubs and locations in Second Life">
-    <div class="clubs-heading"><div><h2>Clubs &amp; Locations</h2><p>Discover handpicked places in Second Life and teleport directly to them.</p></div></div>
+  <section id="clubs-locations" class="clubs-section" aria-labelledby="clubs-title">
     <div id="clubs-grid" class="clubs-grid"></div>
   </section>
   <!-- CLUB AD 2: Upload your sidebar ad to images/ads/clubs-side.png -->
