@@ -157,6 +157,30 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .clubs-ad-side{min-height:0;align-self:start}
 .clubs-ad-side img{width:100%;height:auto;display:block}
 @media(max-width:740px){.clubs-with-sidebar{grid-template-columns:1fr}.clubs-ad-side{max-width:380px;width:100%;justify-self:center}.clubs-with-sidebar .club-gallery-main{height:270px}.clubs-with-sidebar .club-gallery-controls{top:117px}}
+/* Display full category images */
+.category-card img,
+.category-image,
+.category-thumb {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Display full club gallery photos */
+.club-gallery img,
+.club-photo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Display full advertisements */
+.clubs-top-ad img,
+.clubs-side-ad img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 </style>
 </head>
 <body>
