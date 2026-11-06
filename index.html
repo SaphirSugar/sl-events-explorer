@@ -253,7 +253,6 @@ document.getElementById('clubs-grid').addEventListener('click',event=>{
  gallery.querySelector('.club-gallery-count').textContent=`${next+1} / ${images.length}`;
  gallery.querySelectorAll('.club-gallery-thumb').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===next)));
 });
-renderClubs();
 
 let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
 const slTodayParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'numeric'}).formatToParts(new Date());
@@ -266,6 +265,7 @@ const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|b
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=u=>{try{const x=new URL(u);return ['https:','http:','secondlife:'].includes(x.protocol)?x.href:null}catch{return null}};
 const safeImageUrl=u=>{try{const x=new URL(u);return ['https:','http:'].includes(x.protocol)?x.href:null}catch{return null}};
+renderClubs();
 const classifyEvent=e=>{
  const title=String(e.title||''),text=[title,e.venue,e.description].join(' ');
  const official={'musique en direct':'Live Music','musique live':'Live Music','live music':'Live Music','live dj':'Live DJ'};
