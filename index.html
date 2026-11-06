@@ -117,6 +117,18 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 #back-to-search:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media(max-width:560px){#back-to-search{right:12px;bottom:14px;padding:11px 13px;font-size:13px}}
 @media(prefers-reduced-motion:reduce){#back-to-search{transition:none}}
+
+/* Club photo gallery */
+.club-gallery{position:relative;background:#111827}
+.club-gallery-main{display:block;width:100%;height:255px;object-fit:cover}
+.club-gallery-thumbs{display:flex;gap:6px;overflow-x:auto;padding:9px;background:#101626;scrollbar-width:thin}
+.club-gallery-thumb{flex:0 0 64px;height:49px;border:2px solid transparent;border-radius:6px;padding:0;background:none;cursor:pointer;overflow:hidden}
+.club-gallery-thumb[aria-pressed="true"]{border-color:#b89bff}
+.club-gallery-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.club-gallery-count{position:absolute;right:12px;top:12px;background:#111827cc;color:white;padding:5px 9px;border-radius:8px;font-size:12px;font-weight:700}
+.club-gallery-controls{position:absolute;left:10px;right:10px;top:108px;display:flex;justify-content:space-between;pointer-events:none}
+.club-gallery-controls button{pointer-events:auto;background:#111827d9;color:white;border:1px solid #ffffff55;border-radius:50%;width:36px;height:36px;cursor:pointer;font-size:23px;line-height:1}
+.club-gallery-controls button:focus-visible,.club-gallery-thumb:focus-visible{outline:3px solid #d4c4ff;outline-offset:2px}
 </style>
 </head>
 <body>
@@ -184,24 +196,63 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 // ];
 // ================================================================
 const CLUBS = [
-  // Add your real clubs here. No invented listings are published.
+  {
+    name: 'BUTINE Club and SPA',
+    type: 'Club & SPA',
+    location: 'Tariah (187, 52, 4002)',
+    description: 'Since 2021. Where pleasure and relaxation meet.',
+    images: [
+      './images/clubs/butine-01.png',
+      './images/clubs/butine-02.png',
+      './images/clubs/butine-03.png',
+      './images/clubs/butine-04.png',
+      './images/clubs/butine-05.png',
+      './images/clubs/butine-06.png',
+      './images/clubs/butine-07.png',
+      './images/clubs/butine-08.png',
+      './images/clubs/butine-09.png'
+    ],
+    teleport: 'https://maps.secondlife.com/secondlife/Tariah/187/52/4002',
+    website: ''
+  }
 ];
+// Allow repository-relative image paths as well as HTTPS image URLs.
+function safeClubImage(value){
+  const input=String(value||'').trim();
+  if(/^\.{0,2}\/?images\/clubs\/[a-z0-9_-]+\.(?:png|jpg|jpeg|webp)$/i.test(input))return input;
+  try{const u=new URL(input);return u.protocol==='https:'?u.href:null}catch{return null}
+}
 function renderClubs(){
  const grid=document.getElementById('clubs-grid');
  if(!grid)return;
- if(!CLUBS.length){
-  grid.innerHTML='<div class="clubs-empty">Club listings are coming soon. Add your clubs to the CLUBS list inside index.html to publish them here.</div>';
-  return;
- }
- grid.innerHTML=CLUBS.filter(c=>c&&String(c.name||'').trim()).map(c=>{
-  const image=safeImageUrl(c.image);
-  const teleport=safeUrl(c.teleport);
-  const website=safeUrl(c.website);
-  const picture=image?`<img class="club-image" src="${escapeHTML(image)}" alt="${escapeHTML(c.name)}" loading="lazy" decoding="async">`:'<div class="club-no-image">Second Life Location</div>';
+ if(!CLUBS.length){grid.innerHTML='<div class="clubs-empty">No clubs listed yet.</div>';return}
+ grid.innerHTML=CLUBS.filter(c=>c&&String(c.name||'').trim()).map((c,clubIndex)=>{
+  const images=(Array.isArray(c.images)?c.images:[c.image]).map(safeClubImage).filter(Boolean);
+  const teleport=safeUrl(c.teleport),website=safeUrl(c.website);
+  let picture='<div class="club-no-image">Second Life Location</div>';
+  if(images.length){
+   const thumbs=images.map((src,i)=>`<button type="button" class="club-gallery-thumb" data-photo="${i}" aria-label="Show photo ${i+1} of ${images.length}" aria-pressed="${i===0}"><img src="${escapeHTML(src)}" alt="" loading="lazy"></button>`).join('');
+   picture=`<div class="club-gallery" data-gallery="${clubIndex}" data-images="${escapeHTML(JSON.stringify(images))}"><img class="club-gallery-main" src="${escapeHTML(images[0])}" alt="${escapeHTML(c.name)} photo 1" loading="lazy"><span class="club-gallery-count">1 / ${images.length}</span>${images.length>1?`<div class="club-gallery-controls"><button type="button" data-step="-1" aria-label="Previous photo">‹</button><button type="button" data-step="1" aria-label="Next photo">›</button></div><div class="club-gallery-thumbs">${thumbs}</div>`:''}</div>`;
+  }
   const actions=[teleport?`<a href="${escapeHTML(teleport)}" target="_blank" rel="noopener noreferrer">Teleport</a>`:'',website?`<a class="club-secondary" href="${escapeHTML(website)}" target="_blank" rel="noopener noreferrer">Website</a>`:''].join('');
   return `<article class="club-card">${picture}<div class="club-body"><span class="club-type">${escapeHTML(c.type||'Club & Location')}</span><h3>${escapeHTML(c.name)}</h3>${c.location?`<p class="club-location">${escapeHTML(c.location)}</p>`:''}${c.description?`<p class="club-description">${escapeHTML(c.description)}</p>`:''}<div class="club-actions">${actions}</div></div></article>`;
  }).join('');
 }
+document.getElementById('clubs-grid').addEventListener('click',event=>{
+ const button=event.target.closest('button[data-photo],button[data-step]');
+ if(!button)return;
+ const gallery=button.closest('.club-gallery');
+ if(!gallery)return;
+ const images=JSON.parse(gallery.dataset.images||'[]');
+ if(!images.length)return;
+ const current=Number(gallery.dataset.current||0);
+ const next=button.hasAttribute('data-photo')?Number(button.dataset.photo):(current+Number(button.dataset.step)+images.length)%images.length;
+ gallery.dataset.current=String(next);
+ const main=gallery.querySelector('.club-gallery-main');
+ main.src=images[next];main.alt=`BUTINE Club and SPA photo ${next+1}`;
+ gallery.querySelector('.club-gallery-count').textContent=`${next+1} / ${images.length}`;
+ gallery.querySelectorAll('.club-gallery-thumb').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===next)));
+});
 renderClubs();
 
 let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
