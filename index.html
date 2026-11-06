@@ -157,30 +157,22 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .clubs-ad-side{min-height:0;align-self:start}
 .clubs-ad-side img{width:100%;height:auto;display:block}
 @media(max-width:740px){.clubs-with-sidebar{grid-template-columns:1fr}.clubs-ad-side{max-width:380px;width:100%;justify-self:center}.clubs-with-sidebar .club-gallery-main{height:270px}.clubs-with-sidebar .club-gallery-controls{top:117px}}
-/* Display full category images */
-.category-card img,
-.category-image,
-.category-thumb {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
 
-/* Display full club gallery photos */
-.club-gallery img,
-.club-photo img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-/* Display full advertisements */
-.clubs-top-ad img,
-.clubs-side-ad img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
+/* Premium frame for the complete Clubs & Locations area */
+.clubs-showcase{position:relative;isolation:isolate;margin:26px 0 40px;padding:22px;border:2px solid #d5ad66;border-radius:24px;background:linear-gradient(145deg,rgba(54,27,75,.6),rgba(15,11,30,.98) 55%,rgba(34,19,50,.92));box-shadow:0 0 0 5px rgba(126,63,158,.15),0 18px 48px rgba(0,0,0,.4),inset 0 0 32px rgba(181,95,217,.1)}
+.clubs-showcase::before{content:"";position:absolute;inset:7px;border:1px solid rgba(218,135,246,.52);border-radius:17px;pointer-events:none}
+.clubs-showcase .clubs-ad-top{margin:0 0 22px;height:auto;min-height:0;overflow:hidden}
+.clubs-showcase .clubs-ad-top img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.clubs-showcase .clubs-heading-above{text-align:center;justify-content:center;margin:0 0 22px;padding:4px 10px 18px;border-bottom:1px solid rgba(215,183,125,.42)}
+.clubs-showcase .clubs-heading h2{font-family:"Outfit",sans-serif;font-size:clamp(28px,4vw,42px);font-weight:800;letter-spacing:.055em;text-transform:uppercase;color:#f2d29a;text-shadow:0 0 18px rgba(203,123,249,.4);margin-bottom:8px}
+.clubs-showcase .clubs-heading p{color:#d9c9e5}
+.clubs-showcase .clubs-with-sidebar{margin-bottom:0;align-items:start}
+.clubs-showcase .club-card,.clubs-showcase .clubs-ad-side{border:1px solid rgba(213,173,102,.75);box-shadow:0 5px 20px rgba(0,0,0,.24)}
+.clubs-showcase .club-gallery-main{object-fit:contain;background:#0f0c1a}
+.clubs-showcase .club-gallery-thumb img{object-fit:contain;background:#0f0c1a}
+/* Preserve full illustrations and advertising artwork without cutting edges. */
+.event-image,.featured-category-image{object-fit:contain;background:#171324}
+@media(max-width:740px){.clubs-showcase{padding:14px;border-radius:18px}.clubs-showcase::before{inset:5px;border-radius:12px}.clubs-showcase .clubs-ad-top{margin-bottom:16px}.clubs-showcase .clubs-heading-above{margin-bottom:16px}.clubs-showcase .clubs-with-sidebar{gap:16px}}
 </style>
 </head>
 <body>
@@ -219,6 +211,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     </div>
   </div>
 </section>
+<div class="clubs-showcase" aria-label="Clubs and Locations showcase">
 <!-- CLUB AD 1: Upload your banner to images/ads/clubs-top.png -->
 <div class="clubs-ad-slot clubs-ad-top" aria-label="Advertisement above clubs">
   <img src="./images/ads/clubs-top.png" alt="Advertisement above Clubs and Locations" loading="lazy" onerror="this.hidden=true">
@@ -234,6 +227,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     <img src="./images/ads/clubs-side.png" alt="Advertisement beside Clubs and Locations" loading="lazy" onerror="this.hidden=true">
     <span class="clubs-ad-placeholder">Advertisement space<br>Upload images/ads/clubs-side.png</span>
   </aside>
+</div>
 </div>
 <div class="section-head"><h2>All collected events</h2><p>All times shown in Second Life Time (SLT / Pacific Time)</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
