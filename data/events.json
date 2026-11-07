@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T20:44:51.731654+00:00",
+  "updated_at": "2026-11-07T21:43:22.419221+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -2491,17 +2491,6 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
-      "title": "First Light at Anchorbury Harbor · Today 1 to 3pm SLT",
-      "starts_at": "2026-11-07T13:00:00-08:00",
-      "venue": "Anchorbury Harbor",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9492585",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
       "title": "Harti-Party on ZADAday @ Watersoul - DJ Party for you!",
       "starts_at": "2026-11-07T13:00:00-08:00",
       "venue": ">>>  WaterSoul Brothel - Neko Furry Escort Directory - Yiff Sex",
@@ -2559,13 +2548,13 @@
     {
       "title": "Neon Dance Club Party No.3",
       "starts_at": "2026-11-07T13:00:00-08:00",
-      "venue": "Sex Adicted Two Room Sex Hangout Public -Neon Dance Club",
+      "venue": "Sex Adicted Two Room Sex Hangout Public and Neon Dance Club",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501921",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
+      "venue_photo_checked_at": "2026-11-07T21:45:58.269753+00:00"
     },
     {
       "title": "PEAK LOUNGE PRESENTS : AUTUMN SATURDAY  PARTY !!!",
@@ -2599,17 +2588,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
-      "title": "Reggae & Disco",
-      "starts_at": "2026-11-07T13:00:00-08:00",
-      "venue": "SunRayz Coast Berach Club",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9501380",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "Science Fiction Saturday",
@@ -3843,6 +3821,17 @@
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
+      "title": "Dj Justine @ Sappho's Purring Kitten 4 to 6PM",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502407",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "ERIC STEFFENSEN @ GUTHRIES  4 PM SL!",
       "starts_at": "2026-11-07T16:00:00-08:00",
       "venue": "GUTHRIES FOLK CLUB",
@@ -4204,6 +4193,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
+    },
+    {
+      "title": "CHIPPER CARVER @ GUTHRIES  5 PM SL!",
+      "starts_at": "2026-11-07T17:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501374",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DIP IT! @ SPLASH  THE ULTIMATE SATURDAY POOL PARTY",
@@ -7954,6 +7954,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "🕐👉 On Sundays at J&R CASTLE BALLROOM 1-3pm with 👑DJ Jon 🕺💃🥂",
+      "starts_at": "2026-11-08T13:00:00-08:00",
+      "venue": "TP area > J&R BALLROOM  & Rain's Bowling",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502409",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T21:45:58.269753+00:00"
+    },
+    {
       "title": "🖤🌹 THE COVE & PALACE PRESENTS 🌹🖤 SUNDAY MUNCH WITH MISS RENATA",
       "starts_at": "2026-11-08T13:00:00-08:00",
       "venue": "The Cove & Palace",
@@ -7963,6 +7974,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "🫧🎉 GET READY TO GET FOAMED AT SUNRAYZ COAST! 🎉🫧",
+      "starts_at": "2026-11-08T13:00:00-08:00",
+      "venue": "SunRayz Coast Berach Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501381",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "Halloween Party",
@@ -7985,6 +8007,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "\"Cosmic Sunset\" presented by Virtual Community Radio at 2 PM",
+      "starts_at": "2026-11-08T14:00:00-08:00",
+      "venue": "Sanctuary, EST. 2008",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502406",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "2:00pm Mavenn Live at Hard Rock Garage - HRG",
@@ -10799,6 +10832,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJEMBE SINGS LIVE @ RAINBOW PAINTERS",
+      "starts_at": "2026-11-09T13:00:00-08:00",
+      "venue": "RAINBOW PAINTERS ART GALLERY",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502410",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T21:45:58.269753+00:00"
     },
     {
       "title": "Fil Rowans,1PM @ Surfside Hideaway",
@@ -27938,6 +27982,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "11:00 DJ Zan rocking your Sunday at Hard Rock Garage - HRG",
+      "starts_at": "2026-11-15T11:00:00-08:00",
+      "venue": "HRG - Hard Rock Garage - Home of Hard Rock",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9432900",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "DJ  BB BALDERDASH at FOGBOUND BLUES",
       "starts_at": "2026-11-15T11:00:00-08:00",
       "venue": "FogBound Blues",
@@ -28246,6 +28301,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎧Vixen McGregor at Stars of Compassion Presented by the American Cancer Society",
+      "starts_at": "2026-11-15T12:00:00-08:00",
+      "venue": "American Cancer Society Event Island",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502405",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
+    },
+    {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
       "starts_at": "2026-11-15T12:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -28288,6 +28354,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "1:00pm Gabriel da Silva Live @ Hard Rock Garage - HRG",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "HRG - Hard Rock Garage - Home of Hard Rock",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9401611",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "::: Whirligig LIVE AT END OF TIME",
@@ -39069,6 +39146,28 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "GABRIELL DUBRATT LIVE AT KITTENZ",
+      "starts_at": "2026-11-21T14:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9499379",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "It's The Big Show @ The HFI's Betty's Place!!",
+      "starts_at": "2026-11-21T14:00:00-08:00",
+      "venue": "The HFI's Betty's Place",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502408",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
+    },
+    {
       "title": "Katiaportugal Genesis Live at Helle's Angels 2pm",
       "starts_at": "2026-11-21T14:00:00-08:00",
       "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
@@ -39272,6 +39371,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500528",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "SONGBIRD SORBET LIVE AT KITTENZ",
+      "starts_at": "2026-11-21T15:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501079",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -39563,6 +39673,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "ROSEDROP RUST LIVE AT KITTENZ",
+      "starts_at": "2026-11-21T17:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501080",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "SAT Take the Southern Route with💕Shugg💕@ The Savoy",
       "starts_at": "2026-11-21T17:00:00-08:00",
       "venue": "SAVOY BALLROOM - 596 Lenox Ave in Swing Town, Creations Park",
@@ -39704,6 +39825,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "ZACHARIAH LOON LIVE AT KITTENZ",
+      "starts_at": "2026-11-21T18:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9494663",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~ LIVE MUSIC ~ TOMMY",
@@ -54245,6 +54377,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Masha live at The Hidden Melody",
+      "starts_at": "2026-12-03T13:00:00-08:00",
+      "venue": "The Hidden Melody + TeKeLLYa's + Ombrelune",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502400",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "🌴LET THE GOOD TIMES ROLL WITH JAZZY🕺💃BRING A FRIEND🕺💃",
       "starts_at": "2026-12-03T13:30:00-08:00",
       "venue": "SINSET BEACH-LIVE MUSIC-DANCING-7 DAYS A WEEK-NOON TO 4 PM SLT",
@@ -56429,6 +56572,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "SONGBIRD SORBET LIVE AT KITTENZ",
+      "starts_at": "2026-12-05T15:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9488446",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "⋆˚꩜｡NABI TEAM WELCOMES YOU to UPGRADE your SL EXPERIENCE",
       "starts_at": "2026-12-05T15:00:00-08:00",
       "venue": ":: NABI :: N&D :: INEFFABLE ::",
@@ -58215,6 +58369,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Jack Slade live at The Hidden Melody",
+      "starts_at": "2026-12-07T13:00:00-08:00",
+      "venue": "The Hidden Melody + TeKeLLYa's + Ombrelune",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502402",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "RICKY HAYSTACK LIVE AT KITTENZ",
@@ -65288,6 +65453,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Masha live at The Hidden Melody",
+      "starts_at": "2026-12-17T13:00:00-08:00",
+      "venue": "The Hidden Melody + TeKeLLYa's + Ombrelune",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502401",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "GROOVE WITH THE TUNES- DJ ROBBIE HAS THE BEATS",
@@ -73979,6 +74155,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Jack Slade live at The Hidden Melody",
+      "starts_at": "2027-01-04T13:00:00-08:00",
+      "venue": "The Hidden Melody + TeKeLLYa's + Ombrelune",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502403",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2027-01-04T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -77885,6 +78072,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Jack Slade live at The Hidden Melody",
+      "starts_at": "2027-01-18T13:00:00-08:00",
+      "venue": "The Hidden Melody + TeKeLLYa's + Ombrelune",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502404",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "DJ Kelly Cross @ Belle's Coffee Shop",
