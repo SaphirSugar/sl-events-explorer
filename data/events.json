@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T08:56:55.561211+00:00",
+  "updated_at": "2026-11-07T09:52:25.117856+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -220,9 +220,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501787",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "💄 👠 CLASSINESS IS A DRUG @ [ROUGE] 👠 💄",
@@ -232,11 +232,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497449",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "BALLROOM DANCING AND THE BEST PLACE TO PROPOSE OR GET MARRIED - FRANK'S ELITE",
@@ -1701,6 +1700,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🎸 DJ Minty's Morning Mixtape 🎸 Is Flipping to Side B at 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-11-07T11:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502097",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🪭 Passion in Paradise @ O K I Y A 🪭",
       "starts_at": "2026-11-07T11:00:00-08:00",
       "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
@@ -1853,6 +1863,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "DJ Tattoo Pop and Rock @ The Midnight Cabaret",
+      "starts_at": "2026-11-07T12:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498694",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ Val party with smooth soul and sassy pop @ Schmooze",
@@ -2084,6 +2105,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "THE BLOCK - SATURDAY NOVEMBER 7 - 12 PM SLT",
+      "starts_at": "2026-11-07T12:00:00-08:00",
+      "venue": "#THE BLOCK# Life Sentence",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502105",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T09:54:38.896224+00:00"
     },
     {
       "title": "TRA$HER LUCKY 77 SALES EVENT",
@@ -3405,6 +3437,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Mallon upbeat disco house @ the Midnight Cabaret",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498698",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Merimaat Afro Rhythems Tribal house @ The Midnight Cabaret",
       "starts_at": "2026-11-07T16:00:00-08:00",
       "venue": "The Midnight Cabaret",
@@ -3689,6 +3732,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "📼 You Want To Go 🕹️ Back To The 80s! 🕶️ For DJ AJ's Saturday Night Rewind 📼",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502099",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Escort Perks Only @ The Exchange",
@@ -4681,6 +4735,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Saturday Night 🎸 Rockin' And Poppin' 🕹️ Back To The 80s! 🕶️ With DJ Ronin! 🎸",
+      "starts_at": "2026-11-07T19:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502103",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "TBA w/DJ Spyker at RoseWould Plantation Sex Club, Swingers and Nude Beach",
       "starts_at": "2026-11-07T19:00:00-08:00",
       "venue": "RoseWould Plantation Sex Club, Swinger & Nude Beach Reception",
@@ -5229,6 +5294,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "✨ Welcome To Hill Valley ✨ Second Life's 🕹️ Home Of The 80s 🕶️",
+      "starts_at": "2026-11-07T22:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502104",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "❤️ *** THE WHISKEY GO ROUND pass the mic  10:00 pm live music",
@@ -23940,6 +24016,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🎸 DJ Minty's Morning Mixtape 🎸 Is Flipping to Side B at 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502098",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "ANNETTE SERANADE LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-14T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -24827,6 +24914,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "📼 You Want To Go 🕹️ Back To The 80s! 🕶️ For DJ AJ's Saturday Night Rewind 📼",
+      "starts_at": "2026-11-14T16:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502100",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "💫 MAKE YOURSELF AT HOME IN A WORLD OF POSSIBILITIES💫",
@@ -37310,6 +37408,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "📼 You Want To Go 🕹️ Back To The 80s! 🕶️ For DJ AJ's Saturday Night Rewind 📼",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502101",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Abraxis and Host Kittie Huntress @ Cabo Swingers' Resort",
       "starts_at": "2026-11-21T17:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -46775,6 +46884,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "📼 You Want To Go 🕹️ Back To The 80s! 🕶️ For DJ AJ's Saturday Night Rewind 📼",
+      "starts_at": "2026-11-28T16:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502102",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Gabby Spinning the Blues @ Harpo's 5-7 PM SLT",
