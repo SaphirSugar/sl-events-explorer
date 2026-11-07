@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T14:48:16.944958+00:00",
+  "updated_at": "2026-11-07T15:44:50.441143+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -807,8 +807,7 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476717",
       "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "official_category": true
     },
     {
       "title": "About Town: Breakfast Club",
@@ -1458,6 +1457,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🪩✨Your 80s and 90s Destination is recruiting DJs and Hosts!✨🪩",
+      "starts_at": "2026-11-07T10:00:00-08:00",
+      "venue": "Back 2 Back - Your 80s and 90s Destination @ Rewind Plaza",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502196",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "🪭 The Velvet Dynasty @ O K I Y A 🪭",
@@ -2439,6 +2449,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "DJ BARON @ SUNRAYZ BEACH CLUB ~ REGGAE & DISCO MIX",
+      "starts_at": "2026-11-07T13:00:00-08:00",
+      "venue": "SunRayz Coast Berach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502183",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "DJ Blu@fogbound 1p-3p slt",
       "starts_at": "2026-11-07T13:00:00-08:00",
       "venue": "FogBound Blues",
@@ -2756,6 +2777,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Boldo's Saturday Night Uniform Themed Dance from 2-4 PM SLT",
+      "starts_at": "2026-11-07T14:00:00-08:00",
+      "venue": "Paradise Falls",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502182",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
     },
     {
       "title": "DJ Bramble - SamS, Zed, Womble Mix at the Midnight Cabaret",
@@ -3186,6 +3218,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "âœ¨ FOREVER YOUNG in ELECTRO DREAMS! ðŸŽ§ DJ Ras Mills ðŸŒŸ Host Sarita Bohemia",
+      "starts_at": "2026-11-07T14:30:00-08:00",
+      "venue": "PartyUP Crossing Culture",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502180",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+    },
+    {
       "title": "✨ FOREVER YOUNG in ELECTRO DREAMS! 🎧 DJ Ras Mills 🌟 Host Sarita",
       "starts_at": "2026-11-07T14:30:00-08:00",
       "venue": "PartyUP Crossing Culture",
@@ -3494,6 +3537,17 @@
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
     },
     {
+      "title": "::.LuCiD.:: OPENING",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "::.LuCiD.::",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500145",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T01:25:16.478819+00:00"
+    },
+    {
       "title": "Bikers & Babes Bash @ Club Carnage",
       "starts_at": "2026-11-07T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -3767,6 +3821,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502184",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
     },
     {
       "title": "The party rocks here, and we have a contest every Saturday",
@@ -7592,6 +7657,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Kick Back and Feel the Blues w/DJ Gib & Missy @Toby's",
+      "starts_at": "2026-11-08T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502181",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Name that Tune and Trivia at Sharon's Diner with Ruth",
@@ -24293,6 +24369,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🪩✨Your 80s and 90s Destination is recruiting DJs and Hosts!✨🪩",
+      "starts_at": "2026-11-14T10:00:00-08:00",
+      "venue": "Back 2 Back - Your 80s and 90s Destination @ Rewind Plaza",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502197",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Saturday at Canvas Collective – Vote for Art",
       "starts_at": "2026-11-14T10:30:00-08:00",
       "venue": "Canvas Collective",
@@ -25301,6 +25388,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-11-14T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502185",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
     },
     {
       "title": "The party rocks here, and we have a contest every Saturday",
@@ -37839,6 +37937,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502186",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "The party rocks here, and we have a contest every Saturday",
       "starts_at": "2026-11-21T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -47383,6 +47492,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-11-28T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502187",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "⭐GRAN FINALE PRESENTS: DJ VELVET⭐",
       "starts_at": "2026-11-28T16:00:00-08:00",
       "venue": "Gran Finale",
@@ -54617,6 +54737,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-12-05T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502188",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "⭐GRAN FINALE PRESENTS: DJ VELVET⭐",
       "starts_at": "2026-12-05T16:00:00-08:00",
       "venue": "Gran Finale",
@@ -60178,6 +60309,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-12-12T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502189",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "⭐GRAN FINALE PRESENTS: DJ VELVET⭐",
       "starts_at": "2026-12-12T16:00:00-08:00",
       "venue": "Gran Finale",
@@ -64749,6 +64891,17 @@
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-12-19T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502190",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "⭐GRAN FINALE PRESENTS: DJ VELVET⭐",
       "starts_at": "2026-12-19T16:00:00-08:00",
       "venue": "Gran Finale",
@@ -68385,6 +68538,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2026-12-26T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502191",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "STORE ANIMATION new d ANIMATION",
       "starts_at": "2026-12-26T17:00:00-08:00",
       "venue": ".::***** DANCE * ANIMATIONs * STORE * HUD Animation *****::.",
@@ -71152,6 +71316,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2027-01-02T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502192",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "DJ Alan's Saturday Night Dance Party @ The Canadian Club Lodge!",
       "starts_at": "2027-01-02T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -73411,6 +73586,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2027-01-09T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502193",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "\"The Journey\" Erotic Art Exhibition",
       "starts_at": "2027-01-09T18:00:00-08:00",
       "venue": "FORBIDDEN FRUIT GALLERY",
@@ -75287,6 +75473,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2027-01-16T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502194",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
+    },
+    {
       "title": "Carnage Rock of Ages Event @ Club Carnage",
       "starts_at": "2027-01-16T18:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -76622,6 +76819,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUKSO OKEY *Live Looping and Organic*",
+      "starts_at": "2027-01-23T16:00:00-08:00",
+      "venue": "Tukso Okey LIVE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502195",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T15:47:26.921861+00:00"
     },
     {
       "title": "Carnage Rock of Ages Event @ Club Carnage",
