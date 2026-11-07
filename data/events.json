@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T08:06:39.714602+00:00",
+  "updated_at": "2026-11-07T08:56:55.561211+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -168,9 +168,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501469",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00",
       "image_url": "https://picture-service.secondlife.com/fab2e375-b0d8-579b-6cdb-2077fa3eb432/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
     },
     {
       "title": "Fun-free Trivia with Toni Stradling",
@@ -180,11 +180,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9487411",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/ed487acf-042f-3cfb-5758-f8f61b0f6203/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "PEAK LOUNGE PRESENTS : SATURDAY FOREST   PARTY !!!",
@@ -195,9 +194,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501958",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00",
       "image_url": "https://picture-service.secondlife.com/334fe947-e1e0-f164-f624-ec287cf3a0f1/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
     },
     {
       "title": "👠 𝐀𝐑𝐄 𝐘𝐎𝐔 𝐀 𝐂𝐋𝐀𝐒𝐒𝐘 𝐋𝐀𝐃𝐘 ? 👠",
@@ -207,11 +206,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497447",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🪭 One Night in Tokyo @ O K I Y A 🪭",
@@ -320,6 +318,19 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
       "image_source": "official_event_photo"
+    },
+    {
+      "title": "3am. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-11-07T03:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9450893",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/d4010c65-bcab-99a7-1070-27d7d1d726e2/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "::: 3:00AM ANARAE SHIN LIVE @ THE RAFT",
@@ -3614,6 +3625,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "WOLFIE MOONSHADOW  Performs LIVE @ Pompeii - 4pm - Live Singer, Live Music!",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "Pompeii",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502092",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T08:59:23.376984+00:00"
+    },
+    {
       "title": "✨TRUTH IN ART Gallery invites you to visit the CONNECTIONS exhibition",
       "starts_at": "2026-11-07T16:00:00-08:00",
       "venue": "Ananda & The Truth In Art Gallery",
@@ -3777,6 +3799,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "J X O Performs LIVE 5pm  @ Pompeii - Live Music! Live Singer!",
+      "starts_at": "2026-11-07T17:00:00-08:00",
+      "venue": "Pompeii",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502093",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T08:59:23.376984+00:00"
     },
     {
       "title": "LIVE DJ's ALWAYS THE BEST @eClipse Club & Resort",
@@ -4252,6 +4285,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "strum diesel  Performs LIVE 6pm  @ Pompeii - Live Music! Live Singer!",
+      "starts_at": "2026-11-07T18:00:00-08:00",
+      "venue": "Pompeii",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502094",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T08:59:23.376984+00:00"
+    },
+    {
       "title": "~ 6-8 PM DJ SHY AND HOST FRANNIE ~ POP GO THE TUNES ~",
       "starts_at": "2026-11-07T18:00:00-08:00",
       "venue": "WILDROSE MUSIC CLUB",
@@ -4615,6 +4659,17 @@
       "venue_photo_checked_at": "2026-11-07T03:57:54.253969+00:00"
     },
     {
+      "title": "RED HEAVEN Performs LIVE 7PM at Pompeii  - Live Music! Live Singer!",
+      "starts_at": "2026-11-07T19:00:00-08:00",
+      "venue": "Pompeii",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502095",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T08:59:23.376984+00:00"
+    },
+    {
       "title": "SATIN GALLI & ERIN FROG LIVE AT FRANK'S ELITE",
       "starts_at": "2026-11-07T19:00:00-08:00",
       "venue": "Franks Elite Jazz Club - Elegant Romance",
@@ -4855,6 +4910,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "MAX KLEENE Performs LIVE 8PM at Pompeii - Live Music! Live Singer !",
+      "starts_at": "2026-11-07T20:00:00-08:00",
+      "venue": "Pompeii",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502096",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T08:59:23.376984+00:00"
     },
     {
       "title": "SLOW JAMS FOR A SATURDAY NIGHT  @TheMMAC",
@@ -5156,13 +5222,13 @@
     {
       "title": "Upstairs@O's at Olivia's Playhouse",
       "starts_at": "2026-11-07T22:00:00-08:00",
-      "venue": "Danim Gardens",
+      "venue": "Olivia's on Bourbon Street",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502080",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T07:05:26.212359+00:00"
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "❤️ *** THE WHISKEY GO ROUND pass the mic  10:00 pm live music",
