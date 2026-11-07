@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T09:52:25.117856+00:00",
+  "updated_at": "2026-11-07T10:49:17.428963+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -245,11 +245,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=7995156",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00",
       "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "DJ DAZZ @ WATERMELON SUGAR CLUB",
@@ -259,11 +258,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498840",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
@@ -273,11 +271,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489316",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~..2am...*DOWNUNDER*.. Acoustic Cove... ~",
@@ -288,9 +285,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502075",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00",
       "image_url": "https://picture-service.secondlife.com/4f1558a3-185d-624e-4176-9c9b0902fe1c/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "🪭 The Forbidden Empress @ O K I Y A 🪭",
@@ -301,9 +298,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501788",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🟢⭐🟢▶~*SPIRIT OF THE OUTBACK*~ 3am -8am ::: RETURNS SATURDAY 7TH NOV AFTER 1 MONTH AWAY",
@@ -314,9 +311,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8167412",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "3am. JPeabody live @ Alley Catz Club",
@@ -1007,6 +1004,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Saturday 7th November line up @ Serimner",
+      "starts_at": "2026-11-07T08:00:00-08:00",
+      "venue": ".:Serimner:. - New location",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502108",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "Thanksgiving Full Perm Mesh by Llola Lane",
       "starts_at": "2026-11-07T08:00:00-08:00",
       "venue": "*FULL PERM MESH by Llola Lane* https://tinyurl.com/5w4thdrn",
@@ -1335,6 +1343,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-11-07T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502110",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
     },
     {
       "title": "Soundsation Saturday vibes",
@@ -7977,6 +7996,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Nightfall Castle Presents DJ Goddess come get your Party On!",
+      "starts_at": "2026-11-08T17:00:00-08:00",
+      "venue": "Nightfall Castle",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502109",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "STORE ANIMATION new dance SHOP HUD DANCE ANIMATION gift",
       "starts_at": "2026-11-08T17:00:00-08:00",
       "venue": ".::***** DANCE * ANIMATIONs * STORE * HUD Animation *****::.",
@@ -9416,6 +9446,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "⭐🎵⭐ 11 AM: DJ NADINKATRIN @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-11-09T11:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502106",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🌴 Go 🕹️ Back To The 80s! 🕶️ and Relive The Memories with DJ XiaiX! 🌵",
       "starts_at": "2026-11-09T11:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -10272,6 +10313,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 2 PM: DJ CRYPTTO BASZ @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-11-09T14:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502107",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🐊 WET WILLIES IS PACKED WITH FREE LINDEN!",
@@ -23851,6 +23903,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-11-14T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502111",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "❤️ Mental Health Support Group ❤️",
       "starts_at": "2026-11-14T10:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -36559,6 +36622,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-11-21T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502112",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "❤️ Mental Health Support Group ❤️",
       "starts_at": "2026-11-21T10:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -46209,6 +46283,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-11-28T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502113",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "❤️ Mental Health Support Group ❤️",
       "starts_at": "2026-11-28T10:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -53519,6 +53604,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-12-05T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502114",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "Dirty Sin Hookah Lounge",
       "starts_at": "2026-12-05T11:00:00-08:00",
       "venue": "Dirty Sin Hookah Lounge (Distillery Entertainment)",
@@ -59186,6 +59282,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-12-12T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502115",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "Dirty Sin Hookah Lounge",
       "starts_at": "2026-12-12T11:00:00-08:00",
       "venue": "Dirty Sin Hookah Lounge (Distillery Entertainment)",
@@ -63747,6 +63854,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-12-19T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502116",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "Dirty Sin Hookah Lounge",
       "starts_at": "2026-12-19T11:00:00-08:00",
       "venue": "Dirty Sin Hookah Lounge (Distillery Entertainment)",
@@ -67491,6 +67609,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-12-26T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502117",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "12noon:  Magnus streams Acoustic at Amalfi!",
       "starts_at": "2026-12-26T12:00:00-08:00",
       "venue": "Piazza Amalfi",
@@ -70190,6 +70319,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2027-01-02T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502118",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "12noon:  Magnus streams Acoustic at Amalfi!",
       "starts_at": "2027-01-02T12:00:00-08:00",
       "venue": "Piazza Amalfi",
@@ -72481,6 +72621,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2027-01-09T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502119",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "12noon:  Magnus streams Acoustic at Amalfi!",
       "starts_at": "2027-01-09T12:00:00-08:00",
       "venue": "Piazza Amalfi",
@@ -74336,6 +74487,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2027-01-16T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502120",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "12noon:  Magnus streams Acoustic at Amalfi!",
       "starts_at": "2027-01-16T12:00:00-08:00",
       "venue": "Piazza Amalfi",
@@ -75686,6 +75848,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2027-01-23T10:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502121",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
     },
     {
       "title": "12noon:  Magnus streams Acoustic at Amalfi!",
