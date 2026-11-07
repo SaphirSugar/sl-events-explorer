@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T12:55:54.641907+00:00",
+  "updated_at": "2026-11-07T13:55:32.717217+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -567,17 +567,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
-      "title": "::: 5:00AM SAMM QENDRA LIVE @ THE RAFT",
-      "starts_at": "2026-11-07T05:00:00-08:00",
-      "venue": "the RAFT Live Music & More",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8896891",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "English Class. Voice. Comprehension/Reading",
@@ -4539,6 +4528,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-11-07T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502134",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🎶 Justin Elias Anatra — Live at JieJie’s Ballroom 🎶",
       "starts_at": "2026-11-07T18:00:00-08:00",
       "venue": "Christmas in Maine",
@@ -5293,6 +5293,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464732",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-11-07T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502146",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -6240,6 +6251,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🔥 DJ ANYA LIVE AT FUGAZI NIGHTCLUB! 🔥",
+      "starts_at": "2026-11-08T09:30:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502161",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T09:16:20.250060+00:00"
     },
     {
       "title": "!!!DJ DAPP MC NYAH!!!",
@@ -7209,6 +7231,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "Lisbitt - Live @ Spectre - 1 pm",
+      "starts_at": "2026-11-08T13:00:00-08:00",
+      "venue": ".:Spectre:.  Club / Beach / Connect / Relax",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502158",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T13:58:16.344892+00:00"
+    },
+    {
       "title": "RETRO BDSM \"Naughty Knots\" DJ Vanni @ The Twisted Orchid Fetish & BDSM Club",
       "starts_at": "2026-11-08T13:00:00-08:00",
       "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
@@ -7396,6 +7429,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "Iseabal Boyle Live at Spectre! - 2 pm",
+      "starts_at": "2026-11-08T14:00:00-08:00",
+      "venue": ".:Spectre:.  Club / Beach / Connect / Relax",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502159",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T13:58:16.344892+00:00"
+    },
+    {
       "title": "Join the Service at House of Prayer This Afternoon",
       "starts_at": "2026-11-08T14:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
@@ -7559,6 +7603,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T01:25:16.478819+00:00"
+    },
+    {
+      "title": "~ IVY FADEL LIVE AT LUTZ CITY OF TEMPLEMORE ~",
+      "starts_at": "2026-11-08T14:00:00-08:00",
+      "venue": "Lutz City of Templemore  [https://flic.kr/g/GetRW Flickr]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9499797",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "~ LISA BRUNE & IVY FADEL LIVE AT LUTZ CITY OF TEMPLEMORE ~",
@@ -10056,6 +10111,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "LEO BRIND LIVE SHOW AT OPPOSITE TO PARADISE  CLUB",
+      "starts_at": "2026-11-09T13:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502132",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
       "title": "Nigel Freeman @ The Tin Shed Monday November 9th @ 1pm slt",
       "starts_at": "2026-11-09T13:00:00-08:00",
       "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
@@ -10285,6 +10351,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "GAZ DEMURE LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-09T14:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502133",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "Hannah Plays Jazz, What else! @ The Midnight Cabaret",
@@ -10868,6 +10945,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Christine Sunshine Live at Spectre!! - Sunday at 5 pm",
+      "starts_at": "2026-11-09T17:00:00-08:00",
+      "venue": ".:Spectre:.  Club / Beach / Connect / Relax",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502160",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T13:58:16.344892+00:00"
     },
     {
       "title": "DJ BLUELOU at FOGBOUND MONDAYS AT 5pm",
@@ -25457,6 +25545,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-11-14T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502135",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-11-14T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -25836,6 +25935,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464733",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-11-14T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502147",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -37905,6 +38015,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-11-21T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502136",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-11-21T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -38273,6 +38394,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464734",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-11-21T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502148",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -47361,6 +47493,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-11-28T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502137",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-11-28T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -47696,6 +47839,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464735",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-11-28T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502149",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -54518,6 +54672,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-12-05T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502138",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-12-05T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -54809,6 +54974,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464736",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-12-05T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502150",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -59980,6 +60156,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-12-12T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502139",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-12-12T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -60249,6 +60436,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464737",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-12-12T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502151",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -64518,6 +64716,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-12-19T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502140",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-12-19T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -64754,6 +64963,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9464738",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-12-19T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502152",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -68033,6 +68253,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2026-12-26T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502141",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2026-12-26T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -68137,6 +68368,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498739",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2026-12-26T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502153",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -70778,6 +71020,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2027-01-02T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502142",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Revvie at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
       "starts_at": "2027-01-02T18:00:00-08:00",
       "venue": "Heart of Gold",
@@ -70882,6 +71135,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498740",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2027-01-02T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502154",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -72984,6 +73248,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2027-01-09T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502143",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Surround yourself in Love, Beauty, and Music - Many secluded places throughout",
       "starts_at": "2027-01-09T18:30:00-08:00",
       "venue": "Hypnotic Romance: Couples dancing in a Romantic Garden setting",
@@ -73056,6 +73331,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498741",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2027-01-09T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502155",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -74839,6 +75125,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2027-01-16T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502144",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "TwoStep SpiritWeaver & Beth Odets LiVE! ! Yvies Heaven Beachclub!",
       "starts_at": "2027-01-16T19:00:00-08:00",
       "venue": "Yvie's Heaven BeachClub, Est 2005",
@@ -74900,6 +75197,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498742",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2027-01-16T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502156",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -76143,6 +76451,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
+      "starts_at": "2027-01-23T18:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502145",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Delo Ocean LIVE - Saturday Dance at Phat Cats",
       "starts_at": "2027-01-23T20:00:00-08:00",
       "venue": "Phat Cats",
@@ -76153,6 +76472,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "🎵Monay Live at Pitch Perfect! 9PM🎵",
+      "starts_at": "2027-01-23T21:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502157",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~~SILVERLIGHT GYPSYHEART Live @ The Music Hive at 11pm~~",
