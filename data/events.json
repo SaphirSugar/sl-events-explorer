@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-07T10:49:17.428963+00:00",
+  "updated_at": "2026-11-07T11:45:59.580881+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -336,25 +336,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9300310",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00",
       "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "JPeabody live @ Alley Catz Club",
-      "starts_at": "2026-11-07T03:00:00-08:00",
-      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9450893",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00",
-      "image_url": "https://picture-service.secondlife.com/d4010c65-bcab-99a7-1070-27d7d1d726e2/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "Monay Amour LIVE !",
@@ -365,9 +350,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501665",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/9b94e482-abef-b677-05e7-8926d075390b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🌈 Bleedables! Kittycats, Fairies, Cougars & more. See them, love them, adopt yours NOW! 💟",
@@ -378,9 +363,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00",
       "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
     },
     {
       "title": "🍷 𝗛𝗜𝗥𝗜𝗡𝗚 𝗖𝗟𝗔𝗦𝗦𝗬 𝗟𝗔𝗗𝗜𝗘𝗦 🍷",
@@ -390,11 +375,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497450",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🟢⭐🟢▶ 3am EDDIE SANTILLO  ROCKIN' LIVE @ ~*SPIRIT OF THE OUTBACK*~",
@@ -404,11 +388,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=8738391",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🪭 Nocturnal Desires @ O K I Y A 🪭",
@@ -419,9 +402,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501789",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🔴▶▶ EDDIE SANTILLO ::: 3.30 AM LIVE @ Half way ~*SPIRIT OF THE OUTBACK*~",
@@ -432,9 +415,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9078090",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "::: 4:00AM ALEY KAT LIVE @ THE RAFT",
@@ -661,6 +644,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Prestige Lounge The Party Go On",
+      "starts_at": "2026-11-07T05:30:00-08:00",
+      "venue": "*** Prestige Lounge ***",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502124",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T05:55:40.005856+00:00"
     },
     {
       "title": "🔴▶▶ SILVERLIGHT GYPSYHEART::: 5am Half Way @ ~*SPIRIT OF THE OUTBACK*~ Land Down Under",
@@ -1607,6 +1601,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "KiBo Club & Art | Ibiza Sunset Grooves DJ Souv",
+      "starts_at": "2026-11-07T11:00:00-08:00",
+      "venue": "KiBo Club & Art",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502123",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T11:48:13.362911+00:00"
     },
     {
       "title": "LATEX SATURDAY \"Bondage Beats\" DJ Stevie @ The Twisted Orchid Fetish & BDSM Club",
@@ -3434,6 +3439,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DISCO PARTY! WITH DJ MISTYBLUE AND PARAGON!",
+      "starts_at": "2026-11-07T16:00:00-08:00",
+      "venue": "THE HOUSE OF V  Mature Club-Live Djs -Mall-20 yrs on the grid",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502122",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T11:48:13.362911+00:00"
+    },
+    {
       "title": "DJ Justine @ SPK Fall kick off",
       "starts_at": "2026-11-07T16:00:00-08:00",
       "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
@@ -4257,6 +4273,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "Rocky toocool sings elvis songs live @ Queens royal venue",
+      "starts_at": "2026-11-07T18:00:00-08:00",
+      "venue": "House of Kalidonya.",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502125",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T11:48:13.362911+00:00"
     },
     {
       "title": "SATURDAY EVENING, 6 PM-MIDNIGHT SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
@@ -7158,6 +7185,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "RUSSELL EPONYM @ Silversword",
+      "starts_at": "2026-11-08T13:00:00-08:00",
+      "venue": "Silversword",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502126",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T11:48:13.362911+00:00"
     },
     {
       "title": "TAY live singer @ THE NIGHT OWL",
