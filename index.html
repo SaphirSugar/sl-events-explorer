@@ -173,10 +173,18 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 /* Preserve full illustrations and advertising artwork without cutting edges. */
 .event-image,.featured-category-image{object-fit:contain;background:#171324}
 @media(max-width:740px){.clubs-showcase{padding:14px;border-radius:18px}.clubs-showcase::before{inset:5px;border-radius:12px}.clubs-showcase .clubs-ad-top{margin-bottom:16px}.clubs-showcase .clubs-heading-above{margin-bottom:16px}.clubs-showcase .clubs-with-sidebar{gap:16px}}
+
+/* Shared Eventide SL navigation */
+.site-nav{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.site-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:9px 15px;border:1px solid #72518c;border-radius:999px;color:#f3e7ff;text-decoration:none;font-size:13px;font-weight:700;transition:background .2s,border-color .2s}
+.site-nav a:hover{background:#3a244d;border-color:#e1bb79}
+.site-nav a[aria-current="page"]{background:linear-gradient(120deg,#513166,#332143);border-color:#e1bb79;color:#f6dca5}
+.site-nav a:focus-visible{outline:3px solid #e1bb79;outline-offset:3px}
+@media(max-width:680px){.top{flex-wrap:wrap}.site-nav{width:100%;gap:7px}.site-nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}}
 </style>
 </head>
 <body>
-<div class="wrap top"><div class="brand">EVENTIDE SL</div><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official calendar ↗</a></div>
+<header class="wrap top"><a class="brand" href="./index.html" style="color:#f3d69b;text-decoration:none">EVENTIDE SL</a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html" aria-current="page">Events &amp; Calendar</a><a href="./clubs.html">Clubs &amp; Locations</a></nav></header>
 <main class="wrap">
 <section class="hero-banner" aria-label="Eventide SL, Discover Second Life Events">
   <h1 class="visually-hidden" id="site-title">Discover Second Life Events</h1>
@@ -234,7 +242,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
 </main>
 <button type="button" id="back-to-search" aria-label="Go to top">↑ Go to top</button>
-<footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span><a href="https://secondlife.com/events/" target="_blank" rel="noopener noreferrer">Official Second Life calendar</a></div></footer>
+<footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span></div></footer>
 <script>
 'use strict';
 
