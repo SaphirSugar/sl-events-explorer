@@ -109,8 +109,6 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:560px){.hero-banner{margin-bottom:20px;border-radius:10px}}
 
-/* Manually curated clubs and Second Life locations */
-.clubs-section{margin:32px 0 42px;scroll-margin-top:24px}.clubs-heading{display:flex;justify-content:space-between;align-items:end;gap:14px;margin-bottom:18px;flex-wrap:wrap}.clubs-heading h2{font-size:clamp(24px,3vw,30px);margin:0 0 6px}.clubs-heading p{color:var(--muted);margin:0;font-size:14px;line-height:1.6}.clubs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.club-card{background:linear-gradient(145deg,#19243a,#111a2b);border:1px solid var(--border);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;min-width:0}.club-image{width:100%;height:190px;object-fit:cover;display:block;background:linear-gradient(135deg,#342457,#151e34)}.club-no-image{height:190px;display:grid;place-items:center;background:radial-gradient(circle at 80% 20%,#6b357d,#24223d 55%,#141b2c);color:#dfcaff;font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.club-body{padding:20px;display:flex;flex-direction:column;flex:1}.club-type{color:#c6b6ff;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.club-body h3{font-size:21px;margin:9px 0;overflow-wrap:anywhere}.club-location,.club-description{font-size:13px;color:#b7c4db;line-height:1.6;margin:0 0 10px;overflow-wrap:anywhere}.club-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:auto;padding-top:10px}.club-actions a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:10px;padding:10px 14px;background:#7668de;color:white;font-size:13px;font-weight:800}.club-actions a.club-secondary{background:transparent;border:1px solid #5a5780;color:#d4ccff}.clubs-empty{border:1px dashed #60547d;border-radius:16px;padding:24px;color:#c7c0d9;background:#181b30;font-size:14px;line-height:1.6}@media(max-width:900px){.clubs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.clubs-grid{grid-template-columns:1fr}}
 /* Floating shortcut back to the event search field */
 #back-to-search{position:fixed;right:22px;bottom:24px;z-index:1000;display:flex;align-items:center;gap:8px;padding:12px 16px;border:1px solid rgba(209,145,255,.5);border-radius:999px;background:#7668de;color:#fff;font:inherit;font-size:14px;font-weight:800;box-shadow:0 8px 25px rgba(0,0,0,.4);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .2s,transform .2s,visibility .2s}
 #back-to-search.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
@@ -118,62 +116,8 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 @media(max-width:560px){#back-to-search{right:12px;bottom:14px;padding:11px 13px;font-size:13px}}
 @media(prefers-reduced-motion:reduce){#back-to-search{transition:none}}
 
-/* Club photo gallery */
-.club-gallery{position:relative;background:#111827}
-.club-gallery-main{display:block;width:100%;height:255px;object-fit:cover}
-.club-gallery-thumbs{display:flex;gap:6px;overflow-x:auto;padding:9px;background:#101626;scrollbar-width:thin}
-.club-gallery-thumb{flex:0 0 64px;height:49px;border:2px solid transparent;border-radius:6px;padding:0;background:none;cursor:pointer;overflow:hidden}
-.club-gallery-thumb[aria-pressed="true"]{border-color:#b89bff}
-.club-gallery-thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.club-gallery-count{position:absolute;right:12px;top:12px;background:#111827cc;color:white;padding:5px 9px;border-radius:8px;font-size:12px;font-weight:700}
-.club-gallery-controls{position:absolute;left:10px;right:10px;top:108px;display:flex;justify-content:space-between;pointer-events:none}
-.club-gallery-controls button{pointer-events:auto;background:#111827d9;color:white;border:1px solid #ffffff55;border-radius:50%;width:36px;height:36px;cursor:pointer;font-size:23px;line-height:1}
-.club-gallery-controls button:focus-visible,.club-gallery-thumb:focus-visible{outline:3px solid #d4c4ff;outline-offset:2px}
-
-/* Two manually managed ad placements around Clubs & Locations. */
-.clubs-ad-top{margin:24px 0 18px}
-.clubs-with-sidebar{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,300px);gap:20px;align-items:start;margin-bottom:42px}
-.clubs-with-sidebar .clubs-section{margin:0;min-width:0}
-.clubs-ad-slot{position:relative;overflow:hidden;border:1px solid #514782;border-radius:16px;background:linear-gradient(135deg,#28213e,#151c30);min-height:140px;display:flex;align-items:center;justify-content:center}
-.clubs-ad-slot img{display:block;width:100%;height:auto;object-fit:contain}
-.clubs-ad-side{min-height:300px}
-.clubs-ad-side img{width:100%;height:auto;object-fit:contain}
-.clubs-ad-placeholder{padding:30px 18px;color:#b9afcf;font-size:14px;text-align:center;line-height:1.6}
-.clubs-ad-slot:has(img:not([hidden])) .clubs-ad-placeholder{display:none}
-.clubs-with-sidebar .clubs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-@media(max-width:900px){.clubs-with-sidebar{grid-template-columns:minmax(0,1fr) 220px}.clubs-with-sidebar .clubs-grid{grid-template-columns:1fr}}
-@media(max-width:740px){.clubs-with-sidebar{grid-template-columns:1fr}.clubs-with-sidebar .clubs-grid{grid-template-columns:1fr}.clubs-ad-side{min-height:140px}}
-
-/* Align the top edge of the club photo with the sidebar advertisement. */
-.clubs-heading-above{margin:0 0 14px}
-/* Compact club advertising layout: eliminate unused columns and banner height. */
-.clubs-ad-top{height:clamp(145px,20vw,235px);min-height:0;margin:12px 0 14px;align-items:stretch}
-.clubs-ad-top img{width:100%;height:100%;object-fit:cover;object-position:center top}
-.clubs-with-sidebar{grid-template-columns:minmax(0,1fr) minmax(210px,260px);gap:14px;margin-bottom:24px}
-.clubs-with-sidebar .clubs-grid{grid-template-columns:minmax(0,1fr);gap:12px}
-.clubs-with-sidebar .club-card{width:100%}
-.clubs-with-sidebar .club-gallery-main{height:clamp(260px,35vw,420px)}
-.clubs-with-sidebar .club-gallery-controls{top:calc(clamp(260px,35vw,420px) / 2 - 18px)}
-.clubs-ad-side{min-height:0;align-self:start}
-.clubs-ad-side img{width:100%;height:auto;display:block}
-@media(max-width:740px){.clubs-with-sidebar{grid-template-columns:1fr}.clubs-ad-side{max-width:380px;width:100%;justify-self:center}.clubs-with-sidebar .club-gallery-main{height:270px}.clubs-with-sidebar .club-gallery-controls{top:117px}}
-
-/* Premium frame for the complete Clubs & Locations area */
-.clubs-showcase{position:relative;isolation:isolate;margin:26px 0 40px;padding:22px;border:2px solid #d5ad66;border-radius:24px;background:linear-gradient(145deg,rgba(54,27,75,.6),rgba(15,11,30,.98) 55%,rgba(34,19,50,.92));box-shadow:0 0 0 5px rgba(126,63,158,.15),0 18px 48px rgba(0,0,0,.4),inset 0 0 32px rgba(181,95,217,.1)}
-.clubs-showcase::before{content:"";position:absolute;inset:7px;border:1px solid rgba(218,135,246,.52);border-radius:17px;pointer-events:none}
-.clubs-showcase .clubs-ad-top{margin:0 0 22px;height:auto;min-height:0;overflow:hidden}
-.clubs-showcase .clubs-ad-top img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
-.clubs-showcase .clubs-heading-above{text-align:center;justify-content:center;margin:0 0 22px;padding:4px 10px 18px;border-bottom:1px solid rgba(215,183,125,.42)}
-.clubs-showcase .clubs-heading h2{font-family:"Outfit",sans-serif;font-size:clamp(28px,4vw,42px);font-weight:800;letter-spacing:.055em;text-transform:uppercase;color:#f2d29a;text-shadow:0 0 18px rgba(203,123,249,.4);margin-bottom:8px}
-.clubs-showcase .clubs-heading p{color:#d9c9e5}
-.clubs-showcase .clubs-with-sidebar{margin-bottom:0;align-items:start}
-.clubs-showcase .club-card,.clubs-showcase .clubs-ad-side{border:1px solid rgba(213,173,102,.75);box-shadow:0 5px 20px rgba(0,0,0,.24)}
-.clubs-showcase .club-gallery-main{object-fit:contain;background:#0f0c1a}
-.clubs-showcase .club-gallery-thumb img{object-fit:contain;background:#0f0c1a}
-/* Preserve full illustrations and advertising artwork without cutting edges. */
+/* Preserve full event illustrations without cropping. */
 .event-image,.featured-category-image{object-fit:contain;background:#171324}
-@media(max-width:740px){.clubs-showcase{padding:14px;border-radius:18px}.clubs-showcase::before{inset:5px;border-radius:12px}.clubs-showcase .clubs-ad-top{margin-bottom:16px}.clubs-showcase .clubs-heading-above{margin-bottom:16px}.clubs-showcase .clubs-with-sidebar{gap:16px}}
-
 /* Shared Eventide SL navigation */
 .site-nav{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
 .site-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:9px 15px;border:1px solid #72518c;border-radius:999px;color:#f3e7ff;text-decoration:none;font-size:13px;font-weight:700;transition:background .2s,border-color .2s}
@@ -181,6 +125,18 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .site-nav a[aria-current="page"]{background:linear-gradient(120deg,#513166,#332143);border-color:#e1bb79;color:#f6dca5}
 .site-nav a:focus-visible{outline:3px solid #e1bb79;outline-offset:3px}
 @media(max-width:680px){.top{flex-wrap:wrap}.site-nav{width:100%;gap:7px}.site-nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}}
+
+/* Facebook updates in the former clubs-top advertisement position */
+.facebook-updates{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,500px);gap:24px;align-items:center;margin:24px 0 36px;padding:25px;border:1px solid #8c65ad;border-radius:22px;background:linear-gradient(145deg,#241b34,#151324);box-shadow:0 10px 30px #00000025}
+.facebook-updates h2{font-size:clamp(25px,3vw,35px);margin:10px 0 14px;color:#f3d69b}
+.facebook-updates p{color:#d5c9e3;font-size:15px;line-height:1.7;margin:0 0 16px}
+.facebook-updates .facebook-kicker{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#d5b4ff}
+.facebook-updates .facebook-link{display:inline-block;padding:12px 18px;background:#604184;color:#fff;border:1px solid #b28bd9;border-radius:11px;text-decoration:none;font-weight:800}
+.facebook-updates .facebook-link:hover{background:#78549d}
+.facebook-frame{width:100%;max-width:500px;min-width:0;min-height:560px;overflow:hidden;border-radius:12px;background:#181527}
+.facebook-frame iframe{display:block;width:100%;height:560px;border:0}
+.facebook-note{font-size:12px!important;color:#ab9fbe!important;margin-top:14px!important}
+@media(max-width:820px){.facebook-updates{grid-template-columns:1fr}.facebook-frame{margin:auto}.facebook-updates{padding:18px}}
 </style>
 </head>
 <body>
@@ -219,24 +175,19 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     </div>
   </div>
 </section>
-<div class="clubs-showcase" aria-label="Clubs and Locations showcase">
-<!-- CLUB AD 1: Upload your banner to images/ads/clubs-top.png -->
-<div class="clubs-ad-slot clubs-ad-top" aria-label="Advertisement above clubs">
-  <img src="./images/ads/clubs-top.png" alt="Advertisement above Clubs and Locations" loading="lazy" onerror="this.hidden=true">
-  <span class="clubs-ad-placeholder">Advertisement space<br>Upload images/ads/clubs-top.png</span>
-</div>
-<div class="clubs-heading clubs-heading-above"><div><h2 id="clubs-title">Clubs &amp; Locations</h2><p>Discover handpicked places in Second Life and teleport directly to them.</p></div></div>
-<div class="clubs-with-sidebar">
-  <section id="clubs-locations" class="clubs-section" aria-labelledby="clubs-title">
-    <div id="clubs-grid" class="clubs-grid"></div>
-  </section>
-  <!-- CLUB AD 2: Upload your sidebar ad to images/ads/clubs-side.png -->
-  <aside class="clubs-ad-slot clubs-ad-side" aria-label="Advertisement beside clubs">
-    <img src="./images/ads/clubs-side.png" alt="Advertisement beside Clubs and Locations" loading="lazy" onerror="this.hidden=true">
-    <span class="clubs-ad-placeholder">Advertisement space<br>Upload images/ads/clubs-side.png</span>
-  </aside>
-</div>
-</div>
+<section class="facebook-updates" aria-labelledby="facebook-updates-title">
+  <div class="facebook-intro">
+    <div class="facebook-kicker">Stay connected with Eventide SL</div>
+    <h2 id="facebook-updates-title">Follow us on Facebook</h2>
+    <p>Don't miss the latest Second Life events! Follow our Facebook page for event announcements, live music updates, featured performances and community news.</p>
+    <p>See what's happening next and stay up to date with the latest events.</p>
+    <a class="facebook-link" href="https://www.facebook.com/profile.php?id=100077592080128" target="_blank" rel="noopener noreferrer">Follow Eventide SL on Facebook</a>
+    <p class="facebook-note">If Facebook does not display the live posts here, use the button above to view our latest updates directly.</p>
+  </div>
+  <div class="facebook-frame">
+    <iframe title="Latest posts from Eventide SL on Facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100077592080128&amp;tabs=timeline&amp;width=500&amp;height=560&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false" width="500" height="560" loading="lazy" allow="encrypted-media; clipboard-write; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+</section>
 <div class="section-head"><h2>All collected events</h2><p>All times shown in Second Life Time (SLT / Pacific Time)</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
@@ -245,80 +196,6 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span></div></footer>
 <script>
 'use strict';
-
-// ================================================================
-// EDIT YOUR CLUBS HERE. Add one object per club inside CLUBS.
-// Upload club pictures to images/clubs/ in your GitHub repository.
-// Image paths are relative to index.html. Teleport links can use
-// https://maps.secondlife.com/secondlife/Region/128/128/25
-// or secondlife://Region/128/128/25.
-// Example (remove the /* and */ around the sample to activate it):
-// const CLUBS = [
-//   {name:'My Club', type:'Nightclub', location:'My Region',
-//    description:'Live DJs and music every week.',
-//    image:'./images/clubs/my-club.png',
-//    teleport:'https://maps.secondlife.com/secondlife/My%20Region/128/128/25',
-//    website:''},
-// ];
-// ================================================================
-const CLUBS = [
-  {
-    name: 'BUTINE Club and SPA',
-    type: 'Club & SPA',
-    location: 'Tariah (187, 52, 4002)',
-    description: 'Since 2021. Where pleasure and relaxation meet.',
-    images: [
-      './images/clubs/butine-01.png',
-      './images/clubs/butine-02.png',
-      './images/clubs/butine-03.png',
-      './images/clubs/butine-04.png',
-      './images/clubs/butine-05.png',
-      './images/clubs/butine-06.png',
-      './images/clubs/butine-07.png',
-      './images/clubs/butine-08.png',
-      './images/clubs/butine-09.png'
-    ],
-    teleport: 'https://maps.secondlife.com/secondlife/Tariah/187/52/4002',
-    website: ''
-  }
-];
-// Allow repository-relative image paths as well as HTTPS image URLs.
-function safeClubImage(value){
-  const input=String(value||'').trim();
-  if(/^\.{0,2}\/?images\/clubs\/[a-z0-9_-]+\.(?:png|jpg|jpeg|webp)$/i.test(input))return input;
-  try{const u=new URL(input);return u.protocol==='https:'?u.href:null}catch{return null}
-}
-function renderClubs(){
- const grid=document.getElementById('clubs-grid');
- if(!grid)return;
- if(!CLUBS.length){grid.innerHTML='<div class="clubs-empty">No clubs listed yet.</div>';return}
- grid.innerHTML=CLUBS.filter(c=>c&&String(c.name||'').trim()).map((c,clubIndex)=>{
-  const images=(Array.isArray(c.images)?c.images:[c.image]).map(safeClubImage).filter(Boolean);
-  const teleport=safeUrl(c.teleport),website=safeUrl(c.website);
-  let picture='<div class="club-no-image">Second Life Location</div>';
-  if(images.length){
-   const thumbs=images.map((src,i)=>`<button type="button" class="club-gallery-thumb" data-photo="${i}" aria-label="Show photo ${i+1} of ${images.length}" aria-pressed="${i===0}"><img src="${escapeHTML(src)}" alt="" loading="lazy"></button>`).join('');
-   picture=`<div class="club-gallery" data-gallery="${clubIndex}" data-images="${escapeHTML(JSON.stringify(images))}"><img class="club-gallery-main" src="${escapeHTML(images[0])}" alt="${escapeHTML(c.name)} photo 1" loading="lazy"><span class="club-gallery-count">1 / ${images.length}</span>${images.length>1?`<div class="club-gallery-controls"><button type="button" data-step="-1" aria-label="Previous photo">‹</button><button type="button" data-step="1" aria-label="Next photo">›</button></div><div class="club-gallery-thumbs">${thumbs}</div>`:''}</div>`;
-  }
-  const actions=[teleport?`<a href="${escapeHTML(teleport)}" target="_blank" rel="noopener noreferrer">Teleport</a>`:'',website?`<a class="club-secondary" href="${escapeHTML(website)}" target="_blank" rel="noopener noreferrer">Website</a>`:''].join('');
-  return `<article class="club-card">${picture}<div class="club-body"><span class="club-type">${escapeHTML(c.type||'Club & Location')}</span><h3>${escapeHTML(c.name)}</h3>${c.location?`<p class="club-location">${escapeHTML(c.location)}</p>`:''}${c.description?`<p class="club-description">${escapeHTML(c.description)}</p>`:''}<div class="club-actions">${actions}</div></div></article>`;
- }).join('');
-}
-document.getElementById('clubs-grid').addEventListener('click',event=>{
- const button=event.target.closest('button[data-photo],button[data-step]');
- if(!button)return;
- const gallery=button.closest('.club-gallery');
- if(!gallery)return;
- const images=JSON.parse(gallery.dataset.images||'[]');
- if(!images.length)return;
- const current=Number(gallery.dataset.current||0);
- const next=button.hasAttribute('data-photo')?Number(button.dataset.photo):(current+Number(button.dataset.step)+images.length)%images.length;
- gallery.dataset.current=String(next);
- const main=gallery.querySelector('.club-gallery-main');
- main.src=images[next];main.alt=`BUTINE Club and SPA photo ${next+1}`;
- gallery.querySelector('.club-gallery-count').textContent=`${next+1} / ${images.length}`;
- gallery.querySelectorAll('.club-gallery-thumb').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===next)));
-});
 
 let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
 const slTodayParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'numeric'}).formatToParts(new Date());
@@ -331,7 +208,6 @@ const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|b
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=u=>{try{const x=new URL(u);return ['https:','http:','secondlife:'].includes(x.protocol)?x.href:null}catch{return null}};
 const safeImageUrl=u=>{try{const x=new URL(u);return ['https:','http:'].includes(x.protocol)?x.href:null}catch{return null}};
-renderClubs();
 const classifyEvent=e=>{
  const title=String(e.title||''),text=[title,e.venue,e.description].join(' ');
  const official={'musique en direct':'Live Music','musique live':'Live Music','live music':'Live Music','live dj':'Live DJ'};
