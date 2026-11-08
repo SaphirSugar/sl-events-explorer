@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-08T16:45:22.038186+00:00",
+  "updated_at": "2026-11-08T17:42:26.225969+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -426,6 +426,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8035585",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -437,6 +439,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8689711",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -448,6 +452,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9499271",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -3871,6 +3877,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "🎵 \"FATHER vs DAUGHTER\" 🎵",
+      "starts_at": "2026-11-08T17:30:00-08:00",
+      "venue": "Big Apple Entertainment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502856",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T17:44:52.702933+00:00"
+    },
+    {
       "title": "\"SUGAR, SUGAR!\" for SOCK HOP AT THE WILLOWS! DJ TINAMARIE BECK 6-8PM",
       "starts_at": "2026-11-08T18:00:00-08:00",
       "venue": "The Willows",
@@ -5519,6 +5536,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ LUCKY AND HOST ANITA AT WET SPOT BEACH CLUB!",
+      "starts_at": "2026-11-09T08:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502843",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
       "title": "DJ Whiskey & Host Nikki @ Boonies!",
       "starts_at": "2026-11-09T08:00:00-08:00",
       "venue": "Boonies On The Lakefront",
@@ -5693,6 +5721,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ENI AND HOST MOCHA AT WET SPOT BEACH CLUB!",
+      "starts_at": "2026-11-09T10:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502845",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
       "title": "DJ OTTER & WILD AT MUDDY'S CAFE",
@@ -6177,6 +6216,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ TAZZIE AND HOST ARI AT WET SPOT BEACH CLUB!",
+      "starts_at": "2026-11-09T12:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502847",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
       "title": "Evan Williams live at The Dawn Star",
@@ -6762,6 +6812,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ SANNY AND HOST SCARLET AT WET SPOT BEACH CLUB!",
+      "starts_at": "2026-11-09T14:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502848",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
       "title": "DJ STORM @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-09T14:00:00-08:00",
       "venue": "Watermelon Sugar Country Club",
@@ -7211,6 +7272,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ MELO AT WET SPOT BEACH CLUB !",
+      "starts_at": "2026-11-09T16:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502849",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
       "title": "DJ Trap Seductive and sexy..Hawt Tunes At The Midnight Cabaret",
@@ -10277,6 +10349,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "EVA FAE SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-11-10T16:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502865",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "HELENA NAVARITA LIVE 4 PM @ DILLIAN'S AMUSEMENT PARK VENUE",
@@ -19791,6 +19874,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌹🎶 KATIA LIVE !! @ Tatiana Garden Clubs Beautiful open setting 🎶🌹",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "Tatiana Garden Club",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502842",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
+    },
+    {
       "title": "🎤🌟 Djembe Live @ Shepherd’s Club 🌟🎤",
       "starts_at": "2026-11-13T14:00:00-08:00",
       "venue": "Shepherds Club",
@@ -25231,6 +25325,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🩷 JESS RABBIT LIVE! 🩷 @ Tatiana Garden Clubs Beautiful open setting 💐",
+      "starts_at": "2026-11-15T12:00:00-08:00",
+      "venue": "Tatiana Garden Club",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502844",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
+    },
+    {
       "title": "♬SAPHY IS LIVE🎸BRING A DATE🕺💃WHERE EVERYONE KNOWS YOUR NAME",
       "starts_at": "2026-11-15T12:30:00-08:00",
       "venue": "SINSET BEACH-LIVE MUSIC-DANCING-7 DAYS A WEEK-NOON TO 4 PM SLT",
@@ -25350,6 +25455,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
+    },
+    {
+      "title": "🎶🌹Tay LIVE ! @ Tatiana Garden Clubs Beautiful open setting🌹🎶",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "Tatiana Garden Club",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502846",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
     },
     {
       "title": "Halloween Party",
@@ -32569,6 +32685,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "MONAY AMOUR SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-11-19T10:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502854",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "ROGUE GALAXY & THE TINY REBEL BAND LIVE! AT HARD ROCK!",
@@ -41351,6 +41478,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "EVA FAE SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-11-24T16:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502866",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "JOIN DJ MADMAN JOHN FOR SOME AMAZING TUNES",
       "starts_at": "2026-11-24T16:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -43262,6 +43400,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "SINGER CORALIE AT THE SHEWORTHY TODAY",
+      "starts_at": "2026-11-25T19:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502853",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "❤️FOXXIES WED DJ FOXXEE❤️7PM ROMANTIC BALLROOM DANCING HARMONY WAREHOUSE FRANKS FRANK'S",
@@ -52255,6 +52404,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONAY AMOUR SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-03T10:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502855",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Thursday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
       "starts_at": "2026-12-03T11:00:00-08:00",
       "venue": "Virtual Hotel Chelsea NYC - Coffee House",
@@ -56613,6 +56773,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "ORNY FORCELLA SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-07T13:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502859",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "RICKY HAYSTACK LIVE AT KITTENZ",
       "starts_at": "2026-12-07T13:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -56630,6 +56801,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9496035",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "JEFFAH SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-07T14:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502861",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
@@ -56987,6 +57169,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Erika Ordinary is live @ The Black Diamond",
+      "starts_at": "2026-12-07T20:00:00-08:00",
+      "venue": "Reed Valley",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9490136",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "❤️FOXXIES MON DJ FOXXEE🌹8:30PM ROMANTIC DANCING BALLROOM HARMONY CLOUDS FRANKS FRANK'S CALAS",
       "starts_at": "2026-12-07T20:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDEN2",
@@ -57291,6 +57484,28 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+    },
+    {
+      "title": "GAZ DEMURE SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-08T15:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502863",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "EVA FAE SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-08T16:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502867",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "School Days Event @ Club Carnage",
@@ -63738,6 +63953,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONAY AMOUR SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-17T10:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502857",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Random Thursday with DJ DeSantis",
       "starts_at": "2026-12-17T12:00:00-08:00",
       "venue": "LONDON CITY - Madame Lala's Revue Bar",
@@ -66555,6 +66781,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "ORNY FORCELLA SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-21T13:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502860",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "RICKY HAYSTACK LIVE AT KITTENZ",
       "starts_at": "2026-12-21T13:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -66575,6 +66812,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9496037",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "JEFFAH SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-21T14:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502862",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -67058,6 +67306,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "GAZ DEMURE SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-22T15:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502864",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DL DP IS BRINGING HIS TUNES TO BUBBA'S JUKEBOX!!!",
       "starts_at": "2026-12-22T16:00:00-08:00",
       "venue": "BUBBA'S JUKEBOX    @ Wandering Waters",
@@ -67068,6 +67327,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "EVA FAE SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-22T16:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502868",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Stoners’ Session @ Club Carnage",
@@ -70923,6 +71193,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "MONAY AMOUR SINGS TODAY AT THE SHEWORTHY",
+      "starts_at": "2026-12-31T10:00:00-08:00",
+      "venue": "The Sheworthy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502858",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Random Thursday with DJ DeSantis",
