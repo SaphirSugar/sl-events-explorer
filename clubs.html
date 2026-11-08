@@ -34,8 +34,9 @@
    =============================================================== */
 const LOCATIONS=[
  {name:'BUTINE Club and SPA',type:'Club & SPA',location:'Tariah (187, 52, 4002)',description:'Since 2021. Where pleasure and relaxation meet.',images:['./images/clubs/butine-01.png','./images/clubs/butine-02.png','./images/clubs/butine-03.png','./images/clubs/butine-04.png','./images/clubs/butine-05.png','./images/clubs/butine-06.png','./images/clubs/butine-07.png','./images/clubs/butine-08.png','./images/clubs/butine-09.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/187/52/4002'},
- {name:'Saphir Royal Concert Hall',type:'Concert Hall',location:'Second Life',description:'A dedicated venue for concerts and live performances.',images:[],teleport:''},
- {name:'Nerina City',type:'City & Event Location',location:'Second Life',description:'Discover Nerina City and its event spaces.',images:[],teleport:''}
+ {name:'Saphir Royal Concert Hall',type:'Concert Hall',location:'Tariah (204, 80, 2002)',description:'A dedicated venue for concerts and live performances.',images:['./images/clubs/saphir-royal-01.png','./images/clubs/saphir-royal-02.png','./images/clubs/saphir-royal-03.png','./images/clubs/saphir-royal-04.png','./images/clubs/saphir-royal-05.png','./images/clubs/saphir-royal-06.png','./images/clubs/saphir-royal-07.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/204/80/2002'},
+ {name:'BUTINE Escape Room',type:'Escape Room',location:'Exomorogun (116, 86, 1002)',description:'Discover the BUTINE Escape Room in Second Life.',images:['./images/clubs/butine-escape-01.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/116/86/1002'},
+ {name:'Nerina City',type:'City & Event Location',location:'Exomorogun (172, 29, 22)',description:'Explore Nerina City, its café, restaurant, cinema and charming streets.',images:['./images/clubs/nerina-01.png','./images/clubs/nerina-02.png','./images/clubs/nerina-03.png','./images/clubs/nerina-04.png','./images/clubs/nerina-05.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/172/29/22'}
 ];
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safePhoto=s=>{const v=String(s||'').trim();return /^\.\/images\/clubs\/[a-z0-9_-]+\.(png|jpg|jpeg|webp)$/i.test(v)?v:null};
