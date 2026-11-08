@@ -126,10 +126,15 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .site-nav a:focus-visible{outline:3px solid #e1bb79;outline-offset:3px}
 @media(max-width:680px){.top{flex-wrap:wrap}.site-nav{width:100%;gap:7px}.site-nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}}
 
+
+/* Eventide SL official logo in the shared header */
+.top .brand{display:inline-flex;align-items:center;flex:0 0 auto;max-width:45%;line-height:0;text-decoration:none}
+.top .brand img{display:block;width:clamp(155px,19vw,235px);max-width:100%;height:auto;object-fit:contain}
+@media(max-width:680px){.top .brand{max-width:100%}.top .brand img{width:185px}}
 </style>
 </head>
 <body>
-<header class="wrap top"><a class="brand" href="./index.html" style="color:#f3d69b;text-decoration:none">EVENTIDE SL</a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html" aria-current="page">Events &amp; Calendar</a><a href="./clubs.html">Clubs &amp; Locations</a></nav></header>
+<header class="wrap top"><a class="brand" href="./index.html" style="color:#f3d69b;text-decoration:none"><img src="./images/eventide-logo.png" alt="Eventide SL" width="235" height="83" decoding="async"></a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html" aria-current="page">Events &amp; Calendar</a><a href="./clubs.html">Clubs &amp; Locations</a></nav></header>
 <main class="wrap">
 <section class="hero-banner" aria-label="Eventide SL, Discover Second Life Events">
   <h1 class="visually-hidden" id="site-title">Discover Second Life Events</h1>
