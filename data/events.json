@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-08T09:53:01.248389+00:00",
+  "updated_at": "2026-11-08T10:49:35.514743+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -295,11 +295,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489811",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ AMY @ WATERMELON SUGAR CLUB",
@@ -309,11 +308,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499270",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~~JOHNNY BELLOWS Live @ The Music Hive at 2am~~",
@@ -323,11 +321,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495376",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🎵 🎸DJ Jim and SweetKiss Tribute to  \" John Farnham\"",
@@ -338,9 +335,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502370",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T19:49:50.779260+00:00",
       "image_url": "https://picture-service.secondlife.com/6d043855-6bac-e32d-4f40-eeb611a90ac8/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-07T19:49:50.779260+00:00"
     },
     {
       "title": "🏮 Whispers of Kabuki 🏮",
@@ -351,9 +348,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502638",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Remembrance Sunday in London City",
@@ -364,9 +361,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502342",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T19:49:50.779260+00:00",
       "image_url": "https://picture-service.secondlife.com/0b6b10b2-1401-e071-2c30-31544f4cf81b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-07T19:49:50.779260+00:00"
     },
     {
       "title": "🟢⭐🟢▶~*SPIRIT OF THE OUTBACK*~ ::: 3 - 7am RETURNS AFTER 1 MONTH BREAK",
@@ -377,9 +374,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9031418",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "::: 3AM MAPOO SINGING BLUES@ THE WOOLSHED BLUES",
@@ -856,6 +853,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "A CELTIC HALLOWEEN HUNT AT ROWLYRIA Oct 25 - Nov10",
+      "starts_at": "2026-11-08T08:00:00-08:00",
+      "venue": "Isle of Rowlyria   https://www.flickr.com/groups/14844685@N20/",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502715",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T10:52:05.434408+00:00"
     },
     {
       "title": "CRANK IT UP WITH DJ EXTRA",
@@ -2573,6 +2581,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ WALLKIRIA at ~INTIMATE TOUCH~ SEXY AFTER PARTY! 2:00 PM to 4:00 PM SLT",
+      "starts_at": "2026-11-08T14:00:00-08:00",
+      "venue": "INTIMATE TOUCH GENTLEMEN'S CLUB",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502683",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T09:55:24.384084+00:00"
+    },
+    {
       "title": "Danielle Bianchi live at The Dawn Star",
       "starts_at": "2026-11-08T14:00:00-08:00",
       "venue": "The Dawn Star",
@@ -2648,6 +2667,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Katia Portugal Live for Marcel and Karrie's Anniversary party",
+      "starts_at": "2026-11-08T14:00:00-08:00",
+      "venue": "Detroit Rock City",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502707",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T09:55:24.384084+00:00"
     },
     {
       "title": "Kick Back and Feel the Blues w/DJ Gib & Missy @Toby's",
@@ -3068,6 +3098,17 @@
       "venue_photo_checked_at": "2026-11-08T03:59:53.651808+00:00"
     },
     {
+      "title": "RONA SINGER LIVE AT BOGART'S KARAOKE BAR & CAFE",
+      "starts_at": "2026-11-08T15:00:00-08:00",
+      "venue": "Bogart's Bar & Cafe Karaoke Lounge",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8262668",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T09:55:24.384084+00:00"
+    },
+    {
       "title": "Rock Your Way 🕹️ Back To The 80s 🕶️ with Iron Butterfly's Tubular Tunes! 🤘",
       "starts_at": "2026-11-08T15:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -3154,6 +3195,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "Aubryn.Melody LIVE at the Cathedral!!!",
+      "starts_at": "2026-11-08T16:00:00-08:00",
+      "venue": "The Cathedral",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502716",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Blue Angel Poets' Dive Legendary Open Mic 4pm",
@@ -4124,6 +4176,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ REMO at ~INTIMATE TOUCH~ TRIBUTE to \"THE KING OF POP from 7:00 - 9:00 PM SLT",
+      "starts_at": "2026-11-08T19:00:00-08:00",
+      "venue": "INTIMATE TOUCH GENTLEMEN'S CLUB",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502711",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T09:55:24.384084+00:00"
+    },
+    {
       "title": "HOGAN BAILY LIVE @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT ON SUNDAY, 7-8 PM SLT",
       "starts_at": "2026-11-08T19:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -4918,6 +4981,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Monay Amour LIVE @ The Bricks",
+      "starts_at": "2026-11-09T02:00:00-08:00",
+      "venue": "Phat Cats",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502714",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Bright Oh 3AM @ The Warehouse",
@@ -8606,6 +8680,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "DJ Cheyanne's Blues @Fogbound 9am - 11am",
+      "starts_at": "2026-11-10T09:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502712",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "PAUL (KINDHARTDMAN) ENTERTAINS YOU AT CAFE MUSIQUE!",
@@ -15621,6 +15706,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Thirsty Thursday \"BDSM Toy Story\" DJ Ra @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-12T13:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501232",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "~~♫ VETO RUBAS ♫~~ @ LE FABRIK live music 1pm slt",
       "starts_at": "2026-11-12T13:00:00-08:00",
       "venue": "** ZONE 408 - Le Fabrik **",
@@ -17826,6 +17922,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ Cheyanne's Blues @Fogbound 5am - 7am",
+      "starts_at": "2026-11-13T05:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502713",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Friday Mornings at !~ Club Caramel ~!",
@@ -21936,12 +22043,13 @@
     {
       "title": "DJ JACK HAMMER @ SURRENDER DA BOOTY",
       "starts_at": "2026-11-14T14:00:00-08:00",
-      "venue": "",
+      "venue": "Reign's Spot",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9492529",
       "teleport_url": null,
-      "official_category": true
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T09:55:24.384084+00:00"
     },
     {
       "title": "DJ Madison live at The Dawn Star",
