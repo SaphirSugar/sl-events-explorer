@@ -16,10 +16,11 @@
 .site-nav a[aria-current="page"]{background:linear-gradient(120deg,#513166,#332143);border-color:#e1bb79;color:#f6dca5}
 .site-nav a:focus-visible{outline:3px solid #e1bb79;outline-offset:3px}
 @media(max-width:680px){.top{flex-wrap:wrap}.site-nav{width:100%;gap:7px}.site-nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}}
+.brand{display:inline-flex;align-items:center;line-height:0;flex-shrink:0}.brand img{display:block;width:clamp(160px,22vw,250px);height:auto;object-fit:contain}@media(max-width:560px){.brand img{width:190px}}
 </style>
 </head>
 <body>
-<header class="wrap top"><a class="brand" href="./index.html">EVENTIDE SL</a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html" aria-current="page">Clubs &amp; Locations</a></nav></header>
+<header class="wrap top"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="250" height="83"></a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html" aria-current="page">Clubs &amp; Locations</a></nav></header>
 <main class="wrap"><section class="intro"><div class="eyebrow">Second Life Events Explorer</div><h1>Clubs &amp; Locations</h1><p>Explore places where Second Life comes alive. Browse each venue's photos and teleport directly to your next destination.</p></section>
 <section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Discover our featured locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div class="grid" id="venue-grid"></div><div class="note">More clubs, concert halls and event destinations will be added over time.</div></section></main>
 <footer><div class="wrap">© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</div></footer>
