@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-08T17:42:26.225969+00:00",
+  "updated_at": "2026-11-08T18:50:41.590575+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1016,17 +1016,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
-      "title": "❤️ See them, love them, adopt yours NOW! Elephants, Horses, Kittycats, Fairies, Cougars & more!",
-      "starts_at": "2026-11-08T09:00:00-08:00",
-      "venue": "** TK VENTURES **",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T16:48:02.091975+00:00"
     },
     {
       "title": "🔥 COME SEE THE ART OF KABUKI @ OKIYA 🔥",
@@ -2214,6 +2203,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "💜 See them, love them, adopt yours NOW! Elephants, Horses, Kittycats, Fairies, Cougars & more!",
+      "starts_at": "2026-11-08T12:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T16:48:02.091975+00:00"
     },
     {
       "title": "🔮 ASTRA 🔮 LET US ENTERTAIN YOU ✦ LIVE VOICE SEX ✦",
@@ -3745,6 +3745,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Samuel Roberts 5pm at the Nitida Campfire",
+      "starts_at": "2026-11-08T17:00:00-08:00",
+      "venue": "Nitida Campfire",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9085474",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+    },
+    {
       "title": "Silk After Midnight @ O K I Y A",
       "starts_at": "2026-11-08T17:00:00-08:00",
       "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
@@ -4128,6 +4139,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Shannon Oherlihy LIVE at the Nitida Campfire",
+      "starts_at": "2026-11-08T18:00:00-08:00",
+      "venue": "Nitida Campfire",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7938906",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "dDance Club Sapphire L-Contest DJ Sophie Olive Time night",
@@ -5743,6 +5765,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Hannaha and Vogel starts the week with great tunes @ Little Mistake!",
+      "starts_at": "2026-11-09T10:00:00-08:00",
+      "venue": "Little Mistake",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502887",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "Lisbitt live at The Dawn Star",
@@ -7591,6 +7624,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Kourosh Eusebio in the Castle on Nitida Ridge",
+      "starts_at": "2026-11-09T17:00:00-08:00",
+      "venue": "Nitida Ridge",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8779829",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "LOSTSINGER LIVE 5 PM @ DILLIAN'S AMUSEMENT PARK VENUE",
@@ -11651,6 +11695,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "VETERANS DAY / REMEMBRANCE DAY AT ROCKIN' ROBIN'S VETERANS MEMORIAL PARK",
+      "starts_at": "2026-11-11T00:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502885",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "WEDNESDAY MORNING AT EYE CANDY MUSIC CLUB WITH DJ BELLA 12AM-2AM",
       "starts_at": "2026-11-11T00:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -12778,6 +12833,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "REMEMBRANCE DAY / VETERANS DAY @ ROCKIN' ROBIN'S VETERANS MEMORIAL PARK",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502886",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Rental Homes Available",
@@ -19601,13 +19667,13 @@
     {
       "title": "V E S P E R I S : AFK Escorts & Voice Hangout",
       "starts_at": "2026-11-13T13:00:00-08:00",
-      "venue": "",
+      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476706",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "WHAT A MUSICAL JOURNEY!",
@@ -21685,14 +21751,14 @@
     {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-14T07:00:00-08:00",
-      "venue": "",
+      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476718",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "About Town: Breakfast Club",
@@ -33280,6 +33346,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "Maximillion Kleene LIVE at 4 on Nitida Ridge",
+      "starts_at": "2026-11-19T16:00:00-08:00",
+      "venue": "Nitida Ridge",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9447878",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "Mini Golf With Timmer",
       "starts_at": "2026-11-19T16:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -33498,6 +33575,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Jase Branner LIVE at 5 on Nitida Ridge",
+      "starts_at": "2026-11-19T17:00:00-08:00",
+      "venue": "Nitida Ridge",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9447885",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "MrMikie String at The Red River Saloon",
@@ -34932,13 +35020,13 @@
     {
       "title": "V E S P E R I S : AFK Escorts & Voice Hangout",
       "starts_at": "2026-11-20T13:00:00-08:00",
-      "venue": "",
+      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476707",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "⭐🎵⭐ 1 PM: Lily Zane live @ The Golden Hour Club ⭐🎵⭐",
@@ -36097,14 +36185,14 @@
     {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-21T07:00:00-08:00",
-      "venue": "",
+      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476719",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "About Town: Breakfast Club",
@@ -40465,6 +40553,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Funkyfreddy LIVE at 6 on Nitida Ridge",
+      "starts_at": "2026-11-23T18:00:00-08:00",
+      "venue": "Nitida Ridge",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9169814",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "Grace Loudon - LIVE @ Free Spirit Farms",
@@ -45533,13 +45632,13 @@
     {
       "title": "V E S P E R I S : AFK Escorts & Voice Hangout",
       "starts_at": "2026-11-27T13:00:00-08:00",
-      "venue": "",
+      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476708",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "☀️🎵 🎶 GAZ at Music on the Blake! 🎶 🎵☀️",
@@ -46443,14 +46542,14 @@
     {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-28T07:00:00-08:00",
-      "venue": "",
+      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476720",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
     },
     {
       "title": "About Town: Breakfast Club",
@@ -47613,6 +47712,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491653",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🏴‍☠️ LIVE SINGER SARAMARIE PHILLY 6PM–7PM SLT AT THE HOME OF THE WICK3D OUTLAWS! 🔥",
+      "starts_at": "2026-11-28T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9412095",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -50538,6 +50648,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "JOIN US FOR TACO TUESDAY WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-01T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502873",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🎷✨ SOME T JUP LIVE AT NAT'S JAZZ - 4 PM SLT",
       "starts_at": "2026-12-01T16:00:00-08:00",
       "venue": "Nat's Jazz Club",
@@ -51614,6 +51735,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "COME JOIN DJ MISHEY FOR SOME AMAZING TUNES",
+      "starts_at": "2026-12-02T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502878",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ AJ @ Neon City 90s! The ONLY exclusively 90's club in Second Life!",
       "starts_at": "2026-12-02T16:00:00-08:00",
       "venue": "Neon City 90s - THE only exclusively 90s Nightclub!",
@@ -52446,6 +52578,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "THURSDAY PARTY GOING ON WITH DJ THOR",
+      "starts_at": "2026-12-03T12:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502883",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "TIME FOR THURSDAY'S MEGA GIG STILL LOUD AND PROUD AND PLAYING YOUR REQUESTS TOO.",
@@ -56861,6 +57004,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "ITS MONDAY MADNESS WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-07T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502869",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "LIVE AT KITTENZ",
       "starts_at": "2026-12-07T16:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -57506,6 +57660,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "ITS TACO TUESDAY WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-08T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502874",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "School Days Event @ Club Carnage",
@@ -58562,6 +58727,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "ITS PARTY TIME WITH DJ MISHEY",
+      "starts_at": "2026-12-09T19:30:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502879",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🌹FOXXIES WED DJ FOXXEE🌹7:30PM ROMANTIC DANCING JAZZ HOTWIFE LOVE CLOUDS FRANKS FRANK'S",
       "starts_at": "2026-12-09T19:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDENS",
@@ -58920,6 +59096,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
+      "title": "COME PARTY WITH DJ THOR",
+      "starts_at": "2026-12-10T12:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502884",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ STORM H THIS AFTERNOON AT EYE CANDY MUSIC CLUB",
@@ -62225,6 +62412,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "COME JOIN THE MONDAY MAYHEM WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-14T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502870",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Carnage Trivia Rave Event @ Club Carnage",
       "starts_at": "2026-12-14T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -62679,6 +62877,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "COME JOIN THE FUN WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-15T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502875",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Skulls and Crossbones Event @ Club Carnage",
@@ -63349,6 +63558,17 @@
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495351",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "COME PARTY WITH DJ MISHEY",
+      "starts_at": "2026-12-16T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502880",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -66863,6 +67083,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "COME JOIN THE DJ MADMAN JOHN FOR MONDAY MADNESS",
+      "starts_at": "2026-12-21T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502871",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Carnage Trivia Rave Event @ Club Carnage",
       "starts_at": "2026-12-21T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -67315,6 +67546,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "COME JOIN THE PARTY WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-22T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502876",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DL DP IS BRINGING HIS TUNES TO BUBBA'S JUKEBOX!!!",
@@ -67832,6 +68074,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495352",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "COME JOIN THE PARTY WITH DJ MISHEY",
+      "starts_at": "2026-12-23T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502881",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -70288,6 +70541,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "COME JOIN THE MONDAY MAYHEM WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-28T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502872",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Carnage Trivia Rave Event @ Club Carnage",
       "starts_at": "2026-12-28T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -70619,6 +70883,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "ITS TACO TUESDAY WITH DJ MADMAN JOHN",
+      "starts_at": "2026-12-29T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502877",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🎷✨ SOME T JUP LIVE AT NAT'S JAZZ - 4 PM SLT",
       "starts_at": "2026-12-29T16:00:00-08:00",
       "venue": "Nat's Jazz Club",
@@ -70927,6 +71202,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "ITS PARTY TIME WITH DJ MISHEY",
+      "starts_at": "2026-12-30T14:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502882",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "SARITA TWISTED LIVE AT ROMANTICA PARK, ROMANTICA",
