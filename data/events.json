@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-08T18:50:41.590575+00:00",
+  "updated_at": "2026-11-08T19:49:56.336514+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1293,17 +1293,6 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
-      "title": "11:00 DJ Zan rocking your Sunday at Hard Rock Garage - HRG",
-      "starts_at": "2026-11-08T11:00:00-08:00",
-      "venue": "HRG - Hard Rock Garage - Home of Hard Rock",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9432900",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
-    },
-    {
       "title": "11AM - MR LEE LIVE SHOW @ KICKIN CLUB",
       "starts_at": "2026-11-08T11:00:00-08:00",
       "venue": "KICKIN CLUB",
@@ -1390,17 +1379,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "Devon Reggiane at the Funeral for the Republican Congress!",
-      "starts_at": "2026-11-08T11:00:00-08:00",
-      "venue": "AuntyFa Hall",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502064",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T05:00:09.443670+00:00"
     },
     {
       "title": "Djembe live at Marcel and Karries 1st Anniversary party",
@@ -2247,6 +2225,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "1:00pm Casaenia Baxton Live at Hard Rock Garage - HRG",
+      "starts_at": "2026-11-08T13:00:00-08:00",
+      "venue": "HRG - Hard Rock Garage - Home of Hard Rock",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479143",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "1PM - MICK MORPORK LIVE SHOW @ KICKIN CLUB",
@@ -3437,6 +3426,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Zack opens Homes For Our Troops Veteran's week benefit.",
+      "starts_at": "2026-11-08T16:00:00-08:00",
+      "venue": "U.S. Military Veterans  - By Vets for Vets since 2007",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502890",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "GARY JONSTONE LIVE @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT ON SUNDAY, 4-5 PM SLT",
       "starts_at": "2026-11-08T16:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -3712,6 +3712,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Hogan Baily performs Homes For Our Troops Veteran's week benefit",
+      "starts_at": "2026-11-08T17:00:00-08:00",
+      "venue": "U.S. Military Veterans  - By Vets for Vets since 2007",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502898",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "MAX KLEENE ON THE ROOFTOP AT THE GRAND STRAND",
       "starts_at": "2026-11-08T17:00:00-08:00",
       "venue": "THE GRAND STRAND MUSIC VENUES",
@@ -3954,6 +3965,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ MALONE @LOULOU VENUE: THE BEACH - AFRO-HOUSE AND DJ MALONE ON THE BEACH",
+      "starts_at": "2026-11-08T18:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502922",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+    },
+    {
       "title": "DJ Molokai At Cabo Swingers Resort!!",
       "starts_at": "2026-11-08T18:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -4073,6 +4095,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Mavenn performs at Homes For Troops Veteran's week benefit",
+      "starts_at": "2026-11-08T18:00:00-08:00",
+      "venue": "U.S. Military Veterans  - By Vets for Vets since 2007",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502906",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
     },
     {
       "title": "NOMA FALTA ON THE ROOFTOP AT THE GRAND STRAND!",
@@ -4425,6 +4458,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "MAXIMILLION KLEENE'S @ Terrace Club",
+      "starts_at": "2026-11-08T19:00:00-08:00",
+      "venue": "Terrace Club @ Water Edge Estates",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502888",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "OPEN ACCESS DAY - Teqi's Harem",
@@ -6022,13 +6066,13 @@
     {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
       "starts_at": "2026-11-09T11:00:00-08:00",
-      "venue": "SPICE ISLAND -  LITTLE SPICY MEXICO",
+      "venue": "SPICE ISLAND -  ASIA PERFORMANCE PARK & LITTLE MEXICO",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499755",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
     },
     {
       "title": "MONDAY CLASSICAL CONCERT IN THE PARK",
@@ -6779,6 +6823,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🖤 LEATHER & LACE ROCK NIGHT @ CLUB MUMTAZ 🖤",
+      "starts_at": "2026-11-09T13:00:00-08:00",
+      "venue": "~Mumtaz Taj Mahal~ & Voo's Palace Ballroom",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502907",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "**Do All Good People Go to Heaven?** An Adult Faith Formation Session at St. Ambrose",
       "starts_at": "2026-11-09T13:30:00-08:00",
       "venue": "St. Ambrose Catholic Church",
@@ -7153,6 +7208,17 @@
       "venue_photo_checked_at": "2026-11-08T02:59:46.737732+00:00"
     },
     {
+      "title": "Icecremn Merlin at United Rhythms!",
+      "starts_at": "2026-11-09T15:00:00-08:00",
+      "venue": "The Rest Stop",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502889",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "LUX BRINGS A MIX OF SWEET AND SULTRY TO CAFE MUSIQUE!",
       "starts_at": "2026-11-09T15:00:00-08:00",
       "venue": "Cafe Musique",
@@ -7415,6 +7481,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Ugly Bill at United Rhythms!",
+      "starts_at": "2026-11-09T16:00:00-08:00",
+      "venue": "The Rest Stop",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502891",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
     },
     {
       "title": "~Moonday night With Flann & Mandy~",
@@ -10626,6 +10703,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "5pm SATIN & ERIN @ VIVE AmA RIE",
+      "starts_at": "2026-11-10T17:00:00-08:00",
+      "venue": "VIVE Ama RIE, AfterGlow, Feels Like Home",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502923",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
       "title": "AUSTIN MOORES LIVE 5 PM @ DILLIAN'S AMUSEMENT PARK VENUE",
       "starts_at": "2026-11-10T17:00:00-08:00",
       "venue": "DILLIAN'S AMUSEMENT PARK VENUE",
@@ -13572,6 +13660,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "Anderson Parkes at United Rhythms!",
+      "starts_at": "2026-11-11T16:00:00-08:00",
+      "venue": "The Rest Stop",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502904",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "Bible Study Series Continues: \"What is God Like?\"",
       "starts_at": "2026-11-11T16:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
@@ -13988,6 +14087,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Veto Rubas at United Rhythms!",
+      "starts_at": "2026-11-11T17:00:00-08:00",
+      "venue": "The Rest Stop",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502908",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
     },
     {
       "title": "WED Fire & Soul by🎤Aubrey Lynn👄@ The Savoy",
@@ -20215,6 +20325,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Friar Fox at United Rhythms!",
+      "starts_at": "2026-11-13T16:00:00-08:00",
+      "venue": "The Rest Stop",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502914",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "Friday night Jams at The Den 4-10pm",
       "starts_at": "2026-11-13T16:00:00-08:00",
       "venue": "Noaptea Eterna ( Eternal night)",
@@ -20488,6 +20609,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "Selene Skyfall at United Rhythms!",
+      "starts_at": "2026-11-13T17:00:00-08:00",
+      "venue": "The Rest Stop",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502916",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
     },
     {
       "title": "Themed music with DJ Cerydwen",
@@ -23094,6 +23226,17 @@
       "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
+      "title": "4pm SHAYE @ VIVE AmA RIE",
+      "starts_at": "2026-11-14T16:00:00-08:00",
+      "venue": "VIVE Ama RIE, AfterGlow, Feels Like Home",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502924",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
       "title": "Bon Jovi Tribute Concert at Boonies!",
       "starts_at": "2026-11-14T16:00:00-08:00",
       "venue": "Boonies On The Lakefront",
@@ -23369,6 +23512,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "5pm MAX KLEENE @ VIVE AmA RIE",
+      "starts_at": "2026-11-14T17:00:00-08:00",
+      "venue": "VIVE Ama RIE, AfterGlow, Feels Like Home",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502925",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
       "title": "7pm slt - T1Radio's Pacific Coast Highway with Anni Braveheart!",
       "starts_at": "2026-11-14T17:00:00-08:00",
       "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
@@ -23554,6 +23708,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
+      "title": "6pm NOMA FALTA @ VIVE AmA RIE",
+      "starts_at": "2026-11-14T18:00:00-08:00",
+      "venue": "VIVE Ama RIE, AfterGlow, Feels Like Home",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502927",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
     },
     {
       "title": "Carnage Rock of Ages Event @ Club Carnage",
@@ -25600,6 +25765,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ CALAMITY @ WATERMELON SUGRA CLUB",
+      "starts_at": "2026-11-15T14:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502892",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Donna @ Cabo Swingers Resort",
       "starts_at": "2026-11-15T14:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -25796,6 +25972,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "DJ FYO @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-15T16:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502893",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Mac At Cabo Swigers Resort!!!",
@@ -26016,6 +26203,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "DJ  ROWAN @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-15T18:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502894",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ FILO TANI AT FRANKS ELITE",
@@ -26381,6 +26579,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "DJ BARBIE @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-15T20:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502895",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "End Your Weekend 🕹️ Back To The 80s! 🕶️ with DJ DeComposer's 🤘 Weekend After-Party 🤘",
       "starts_at": "2026-11-15T20:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -26502,6 +26711,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ LACEY @ WATERMELON SUGRA CLUB",
+      "starts_at": "2026-11-15T22:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502896",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DRESS the WAY you Think! GO for TRUE ELEGANCE!",
       "starts_at": "2026-11-15T22:00:00-08:00",
       "venue": "LUXE Paris Fashion House",
@@ -26566,6 +26786,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "DJ JADE @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T00:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502899",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Orah and Host Fred at Junkyard Blues!",
@@ -26686,6 +26917,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ FISHO @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T02:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502901",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Dj Robbie on the decks @Muddys with Host Slayer 2AM-4AM",
       "starts_at": "2026-11-16T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -26731,6 +26973,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "DJ XAN @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T04:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502903",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Morning Devotion at HOP",
@@ -26838,6 +27091,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ TIGGER @ WATERMELON SUAGR CLUB",
+      "starts_at": "2026-11-16T06:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502905",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Hard Times At Fractured Reality",
       "starts_at": "2026-11-16T06:00:00-08:00",
       "venue": "Fractured Reality - RLV/CARP/Lovense Playground",
@@ -26935,6 +27199,17 @@
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489378",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ ARSENE @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T08:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502910",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -27059,6 +27334,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "DJ ALAM @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T10:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502912",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Calvin Retro Brit Pop @ The Midnight Cabaret",
@@ -27325,6 +27611,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ MOUNTAIN @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T12:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502913",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Evan Williams live at The Dawn Star",
       "starts_at": "2026-11-16T12:00:00-08:00",
       "venue": "The Dawn Star",
@@ -27589,6 +27886,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ STORM H @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T14:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502915",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Sherm - TGIM Blues Party at the Junkyard 2 to 4 PM!",
       "starts_at": "2026-11-16T14:00:00-08:00",
       "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
@@ -27749,6 +28057,17 @@
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9403571",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ LUSCIOUSE @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T16:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502917",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -28016,6 +28335,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ TK @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T18:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502918",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "HOTLANTA BLUES CLUB PRESENTS DJ TALL MONDAYS 6-8 PM",
@@ -28332,6 +28662,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498526",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "8 PM DJ BARBIE @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-16T20:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502920",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -65634,6 +65975,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Aleykat sings at Sapphire at 2 PM",
+      "starts_at": "2026-12-19T14:00:00-08:00",
+      "venue": "Sapphire Beach Club - LM",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502926",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "DJ JACK HAMMER @ SURRENDER DA BOOTY",
