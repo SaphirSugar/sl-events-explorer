@@ -151,10 +151,12 @@ $('signout').onclick=async()=>{
   if(!db)return;
   const {error}=await db.auth.signOut();
   if(error){authMessage(error.message);return;}
-  editingId=null;existingPhotos=[];setAuthView(null);
+  ++venueListRequest;editingId=null;existingPhotos=[];setAuthView(null);
   $('my-clubs').replaceChildren();authMessage('Signed out. Sign in to add your location.');
 };
+let venueListRequest=0;
 async function listMine(){
+  const requestId=++venueListRequest;
   if(!db)return;
   const holder=$('my-clubs');holder.replaceChildren();
   try{
@@ -166,19 +168,22 @@ async function listMine(){
     awaitingEmailConfirmation=false;
     authMessage('Your email is verified. You can now add your location below.');
     const {data,error}=await db.from('clubs').select('id,name,category,location,description,teleport_url,photos').eq('owner_id',me.id).order('created_at',{ascending:false});
+    if(requestId!==venueListRequest)return;
     if(error)throw error;
-    const title=document.createElement('h3');title.textContent='My Published Venues';holder.append(title);if(!data.length){const empty=document.createElement('p');empty.className='hint';empty.textContent='You have not published any venues yet.';holder.append(empty);}
-    for(const item of data){
+    holder.replaceChildren();
+    const uniqueVenues=[...new Map((data||[]).map(item=>[item.id,item])).values()];
+    const title=document.createElement('h3');title.textContent='My Published Venues';holder.append(title);if(!uniqueVenues.length){const empty=document.createElement('p');empty.className='hint';empty.textContent='You have not published any venues yet.';holder.append(empty);}
+    for(const item of uniqueVenues){
       const b=document.createElement('button');b.type='button';b.className='secondary';b.textContent='Edit';b.style.margin='5px';
       b.onclick=()=>{editingId=item.id;existingPhotos=item.photos||[];$('club-name').value=item.name;$('club-description').value=item.description||'';$('club-teleport').value=item.teleport_url||'';render();$('editor').scrollIntoView({behavior:'smooth'});$('status').textContent='Editing '+item.name+'. Existing photos are retained unless you upload replacements.';$('publish').textContent='Save changes';};
       const row=document.createElement('div');row.className='venue-manage-row';const name=document.createElement('strong');name.textContent=item.name;const remove=document.createElement('button');remove.type='button';remove.className='venue-remove';remove.textContent='Remove';remove.setAttribute('aria-label','Remove '+item.name);remove.onclick=async()=>{if(!window.confirm('Permanently remove \"'+item.name+'\" from Clubs & Locations? This cannot be undone.'))return;remove.disabled=true;remove.textContent='Removing...';try{const current=await user();if(!current?.email_confirmed_at)throw Error('Sign in to remove a venue.');const {data:deleted,error:deleteError}=await db.from('clubs').delete().eq('id',item.id).eq('owner_id',current.id).select('id');if(deleteError)throw deleteError;if(!deleted?.length)throw Error('The venue was not deleted. Check ownership and database permissions.');if(editingId===item.id){$('clear').click();}await listMine();authMessage('Venue removed successfully.');}catch(e){authMessage('Removal failed: '+e.message);remove.disabled=false;remove.textContent='Remove';}};row.append(name,b,remove);holder.append(row);
     }
-  }catch(e){authMessage(e.message)}
+  }catch(e){if(requestId===venueListRequest)authMessage(e.message)}
 }
 $('publish').onclick=async()=>{if(!db)return;const button=$('publish');button.disabled=true;try{const me=await user();if(!me?.email_confirmed_at)throw Error('Verify your email and sign in before publishing.');const name=$('club-name').value.trim(),description=$('club-description').value.trim();if(!name||!description)throw Error('Enter a club name and description.');const input=$('club-teleport').value.trim(),tp=teleportUrl(input);if(input&&!tp)throw Error('Use a valid maps.secondlife.com teleport URL.');const files=[...$('club-photos').files];if(files.length>6||files.some(f=>!['image/png','image/jpeg','image/webp'].includes(f.type)||f.size>5*1024*1024))throw Error('Choose up to six PNG, JPEG or WebP images of at most 5 MB each.');let photos=editingId&&!files.length?existingPhotos:[];for(const file of files){const extension=({'image/png':'png','image/jpeg':'jpg','image/webp':'webp'})[file.type];const key=me.id+'/'+crypto.randomUUID()+'.'+extension;const {error}=await db.storage.from('club-photos').upload(key,file,{contentType:file.type,upsert:false});if(error)throw error;const {data}=db.storage.from('club-photos').getPublicUrl(key);photos.push(data.publicUrl)}const payload={owner_id:me.id,name,category:'Other',location:'',description,teleport_url:tp||null,photos};const query=editingId?db.from('clubs').update(payload).eq('id',editingId).eq('owner_id',me.id):db.from('clubs').insert(payload);const {error}=await query;if(error)throw error;const wasEditing=!!editingId;$('clear').click();$('status').textContent=wasEditing?'Changes saved successfully.':'Published! Your venue is now visible on Clubs & Locations.';await listMine();}catch(e){$('status').textContent='Publication failed: '+e.message}finally{button.disabled=false}};
 if(db){
   db.auth.onAuthStateChange((event,session)=>{
-    if(event==='SIGNED_OUT'){setAuthView(null);$('my-clubs').replaceChildren();}
+    if(event==='SIGNED_OUT'){++venueListRequest;setAuthView(null);$('my-clubs').replaceChildren();}
     if(event==='SIGNED_IN'&&session?.user){setTimeout(()=>listMine(),0);}
   });
   listMine();
