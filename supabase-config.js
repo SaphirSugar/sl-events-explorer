@@ -1,0 +1,4 @@
+// Fill in your Supabase project settings from Project Settings > API.
+// The anon/publishable key is public. NEVER put a service_role key here.
+window.EVENTIDE_SUPABASE_URL = 'YOUR_SUPABASE_URL';
+window.EVENTIDE_SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
