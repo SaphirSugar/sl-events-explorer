@@ -55,12 +55,13 @@ let returningVerifiedMember=false;
 try{returningVerifiedMember=sessionStorage.getItem('eventide_email_verified')==='1';}catch(e){}
 function updateRegistrationVisibility(){
   $('signup').hidden=returningVerifiedMember;
-  $('google-signin').hidden=returningVerifiedMember;
+  // Google is both a registration and sign-in method, so keep it visible when signed out.
+  $('google-signin').hidden=false;
   const googleDivider=document.querySelector('.google-divider');
-  if(googleDivider)googleDivider.hidden=returningVerifiedMember;
+  if(googleDivider)googleDivider.hidden=false;
   $('step-register').hidden=returningVerifiedMember;
   const hint=$('auth-fields').querySelector('.hint');
-  if(hint&&returningVerifiedMember)hint.textContent='Email verified. Sign in with your email and password.';
+  if(hint&&returningVerifiedMember)hint.textContent='Email verified. Sign in with your email and password or continue with Google.';
   if(returningVerifiedMember){
     $('step-verify').classList.remove('active');
     $('step-login').classList.add('active');
@@ -174,7 +175,7 @@ $('signout').onclick=async()=>{
   const {error}=await db.auth.signOut();
   if(error){authMessage(error.message);return;}
   ++venueListRequest;editingId=null;existingPhotos=[];setAuthView(null);
-  $('my-clubs').replaceChildren();authMessage('Signed out. Sign in to add your location.');
+  $('my-clubs').replaceChildren();updateRegistrationVisibility();authMessage('Signed out. Sign in with your email and password or continue with Google.');
 };
 let venueListRequest=0;
 async function listMine(){
