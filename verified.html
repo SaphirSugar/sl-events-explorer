@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Email confirmation | Eventide SL</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0d111c;color:#f6e4c2;font:16px system-ui,sans-serif}.card{max-width:560px;margin:20px;padding:34px;border:1px solid #9a805d;border-radius:16px;background:#192333}h1{margin-top:0}p{line-height:1.6}.ok{color:#94e9ac}.error{color:#ffb0a8}a{color:#f0d49b}</style></head><body><main class="card"><h1>Email confirmation</h1><p id="message" role="status">Checking your confirmation...</p><p><a href="./dashboard.html">Return to Eventide SL Dashboard</a></p></main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script src="./supabase-config.js"></script><script>
+(async function(){
+ const el=document.getElementById('message');
+ const show=(message,ok)=>{el.textContent=message;el.className=ok?'ok':'error';};
+ try{
+  if(!window.supabase||!window.EVENTIDE_SUPABASE_URL||!window.EVENTIDE_SUPABASE_ANON_KEY)throw Error('Supabase configuration is missing.');
+  const params=new URLSearchParams(location.hash.slice(1));
+  const query=new URLSearchParams(location.search);
+  const error=params.get('error_description')||query.get('error_description');
+  if(error)throw Error(error);
+  const db=window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY,{auth:{detectSessionInUrl:true,persistSession:true}});
+  if(query.has('token_hash')&&query.has('type')){
+   const {error:otpError}=await db.auth.verifyOtp({token_hash:query.get('token_hash'),type:query.get('type')});
+   if(otpError)throw otpError;
+  }else if(query.has('code')){
+   const {error:codeError}=await db.auth.exchangeCodeForSession(query.get('code'));
+   if(codeError&&!codeError.message?.includes('code verifier'))throw codeError;
+  }
+  const {data,error:sessionError}=await db.auth.getSession();
+  if(sessionError)throw sessionError;
+  if(!data.session)throw Error('No active confirmation session. Open the latest email confirmation link.');
+  const {data:userData,error:userError}=await db.auth.getUser();
+  if(userError)throw userError;
+  if(!userData.user?.email_confirmed_at)throw Error('Email is not confirmed yet.');
+  history.replaceState(null,'',location.pathname);
+  await db.auth.signOut();
+  show('Your email has been verified successfully. Return to Eventide SL Dashboard and sign in with your email and password to add your location.',true);
+ }catch(err){
+  if(location.hash||location.search)history.replaceState(null,'',location.pathname);
+  show('Confirmation could not be completed: '+(err.message||String(err))+'. If you already confirmed your email, try signing in from the Dashboard.',false);
+ }
+})();
+</script></body></html>
