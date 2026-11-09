@@ -16,12 +16,33 @@ button.secondary{color:#f1d6a6;border-color:#a28b69}
 .preview-card{border-color:#7a8a9b;background:#101a28;border-radius:10px}
 .teleport{background:#cba16a;color:#142132}
 .notice{background:#2a2930;border-color:#9a805d;color:#f4deb8}
-</style></head><body><header class="wrap"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="210"></a><nav aria-label="Site navigation"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html">Clubs &amp; Locations</a><a href="./dashboard.html" aria-current="page" class="dashboard-nav">Dashboard</a></nav></header><main class="wrap"><h1>Create your club article</h1><p class="lead">Introduce your Second Life venue to the community. Add your story, location, photos and teleport link. Your article preview updates as you type.</p><section class="panel" style="margin-bottom:22px"><h2>Your account</h2><p class="hint">Create an account or sign in to publish. Email verification may be required.</p><label for="email">Email</label><input id="email" type="email" autocomplete="email"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" minlength="8"><div id="turnstile-widget" style="margin-top:16px;margin-bottom:10px"></div><p class="hint">Complete the CAPTCHA before creating an account or signing in.</p><div class="actions"><button type="button" id="signup">Create account</button><button type="button" id="signin">Sign in</button><button type="button" class="secondary" id="signout">Sign out</button></div><p id="auth-status" class="status" role="status"></p><div id="my-clubs"></div></section><div class="layout"><section class="panel"><h2>Club information</h2><form id="editor"><label for="club-name">Club name</label><input id="club-name" maxlength="100" required placeholder="Your club name"><label for="club-type">Category</label><select id="club-type"><option>Nightclub</option><option>Live Music Venue</option><option>Concert Hall</option><option>Club & SPA</option><option>Community Location</option><option>Other</option></select><label for="club-location">Second Life location</label><input id="club-location" maxlength="160" placeholder="Region (128, 128, 25)"><label for="club-description">Your club article</label><textarea id="club-description" maxlength="5000" placeholder="Tell visitors about your club, events and atmosphere..."></textarea><label for="club-teleport">Teleport URL</label><input id="club-teleport" type="url" placeholder="https://maps.secondlife.com/secondlife/..."><label for="club-photos">Photos (up to 6)</label><input id="club-photos" type="file" accept="image/png,image/jpeg,image/webp" multiple><p class="hint">Maximum 6 images, 5 MB each. Images will be uploaded when you publish.</p><div class="actions"><button type="button" id="publish">Publish automatically</button><button type="button" id="export">Download article JSON</button><button type="button" class="secondary" id="clear">Clear form</button></div><p id="status" class="status" role="status"></p></form></section><section class="panel"><h2>Live preview</h2><article class="preview-card"><div id="photos" class="placeholder">Your club photos will appear here</div><div class="preview-body"><div id="type" class="type">Nightclub</div><h3 id="name">Your club name</h3><p id="location">Second Life location</p><p id="description">Your club description will appear here.</p><a id="teleport" class="teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to location</a></div></article><div class="notice">Published articles appear automatically on Clubs &amp; Locations. A Supabase project must be configured first. Never publish your service role key.</div></section></div></main><footer><div class="wrap">Eventide SL | Independent Second Life community project</div></footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script src="./supabase-config.js"></script><script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script><script>
+
+/* Authentication-first workflow: hide venue editor until a verified session exists. */
+#venue-workspace[hidden]{display:none!important}
+#account-panel{max-width:660px;margin:0 auto 28px}
+#account-panel.is-signed-in{max-width:none}
+.auth-steps{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0 20px}
+.auth-steps span{border:1px solid #697688;border-radius:999px;padding:8px 12px;font-size:12px;color:#d5dce7}
+.auth-steps span.active{background:#d6b783;color:#1a2430;border-color:#e8d09e;font-weight:800}
+#auth-status{line-height:1.65;white-space:pre-wrap}
+#signed-in-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#auth-fields[hidden],#signed-in-bar[hidden]{display:none!important}
+/* Account creation is a distinct primary action. */
+#signup{background:linear-gradient(120deg,#e8c58c,#c99b55);color:#201425;border:1px solid #f5dbab;box-shadow:0 6px 22px #d3a65c35;font-weight:850}
+#signup:hover{background:linear-gradient(120deg,#f7dbac,#e4b66e)}
+#signin{background:#39284d;color:#f4e8ff;border:1px solid #9c7bb8}
+#signout{background:transparent;color:#cfc0d8;border:1px solid #776186}
+#auth-status.auth-success{display:block;background:#123b2b;border:1px solid #3bc38b;border-left:5px solid #58d69c;color:#dcffed;padding:18px 20px;border-radius:12px;font-size:15px;font-weight:650;box-shadow:0 8px 24px #0002}
+#auth-status.auth-success::before{content:'Email confirmation required';display:block;font-size:17px;font-weight:850;color:#9ff2c8;margin-bottom:8px}
+#auth-status.auth-error{color:#ffbcbc}
+#signup:disabled,#signin:disabled{opacity:.65;cursor:wait}
+</style></head><body><header class="wrap"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="210"></a><nav aria-label="Site navigation"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html">Clubs &amp; Locations</a><a href="./dashboard.html" aria-current="page" class="dashboard-nav">Dashboard</a></nav></header><main class="wrap"><h1>Venue Studio</h1><p class="lead">Create your account, verify your email, then sign in to add your Second Life location. Only signed-in members can access the publishing form.</p><section class="panel" id="account-panel" style="margin-bottom:22px"><h2>Your account</h2><div class="auth-steps"><span id="step-register" class="active">1. Create account</span><span id="step-verify">2. Verify email</span><span id="step-login">3. Sign in</span></div><div id="auth-fields"><p class="hint">New here? Create an account and check your email for a confirmation link. Already verified? Sign in below.</p><label for="email">Email</label><input id="email" type="email" autocomplete="email"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" minlength="8"><div id="turnstile-widget" style="margin-top:16px;margin-bottom:10px"></div><p class="hint">Complete the CAPTCHA before creating an account or signing in.</p><div class="actions"><button type="button" id="signup">Create account</button><button type="button" id="signin">Sign in</button></div></div><div id="signed-in-bar" hidden><p id="signed-in-user" class="hint"></p><button type="button" class="secondary" id="signout">Sign out</button></div><p id="auth-status" class="status" role="status" aria-live="polite"></p><div id="my-clubs"></div></section><div id="venue-workspace" hidden><div class="layout"><section class="panel"><h2>Add Your Location</h2><form id="editor"><label for="club-name">Club name</label><input id="club-name" maxlength="100" required placeholder="Your club name"><label for="club-type">Category</label><select id="club-type"><option>Nightclub</option><option>Live Music Venue</option><option>Concert Hall</option><option>Club & SPA</option><option>Community Location</option><option>Other</option></select><label for="club-location">Second Life location</label><input id="club-location" maxlength="160" placeholder="Region (128, 128, 25)"><label for="club-description">Your club article</label><textarea id="club-description" maxlength="5000" placeholder="Tell visitors about your club, events and atmosphere..."></textarea><label for="club-teleport">Teleport URL</label><input id="club-teleport" type="url" placeholder="https://maps.secondlife.com/secondlife/..."><label for="club-photos">Photos (up to 6)</label><input id="club-photos" type="file" accept="image/png,image/jpeg,image/webp" multiple><p class="hint">Maximum 6 images, 5 MB each. Images will be uploaded when you publish.</p><div class="actions"><button type="button" id="publish">Publish automatically</button><button type="button" id="export">Download article JSON</button><button type="button" class="secondary" id="clear">Clear form</button></div><p id="status" class="status" role="status"></p></form></section><section class="panel"><h2>Live preview</h2><article class="preview-card"><div id="photos" class="placeholder">Your club photos will appear here</div><div class="preview-body"><div id="type" class="type">Nightclub</div><h3 id="name">Your club name</h3><p id="location">Second Life location</p><p id="description">Your club description will appear here.</p><a id="teleport" class="teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to location</a></div></article><div class="notice">Published articles appear automatically on Clubs &amp; Locations. A Supabase project must be configured first. Never publish your service role key.</div></section></div></div></main><footer><div class="wrap">Eventide SL | Independent Second Life community project</div></footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script src="./supabase-config.js"></script><script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script><script>
 'use strict';const $=id=>document.getElementById(id);let imageUrls=[],photoNames=[];function teleportUrl(v){try{const u=new URL(v);return u.protocol==='https:'&&u.hostname==='maps.secondlife.com'?u.href:null}catch{return null}}function render(){ $('name').textContent=$('club-name').value.trim()||'Your club name';$('type').textContent=$('club-type').value;$('location').textContent=$('club-location').value.trim()||'Second Life location';$('description').textContent=$('club-description').value.trim()||'Your club description will appear here.';const url=teleportUrl($('club-teleport').value.trim());$('teleport').hidden=!url;if(url)$('teleport').href=url;}['club-name','club-type','club-location','club-description','club-teleport'].forEach(id=>$(id).addEventListener('input',render));function resetPhotos(){imageUrls.forEach(URL.revokeObjectURL);imageUrls=[];photoNames=[];}$('club-photos').addEventListener('change',e=>{resetPhotos();const files=[...e.target.files];if(files.length>6||files.some(f=>!['image/png','image/jpeg','image/webp'].includes(f.type)||f.size>5*1024*1024)){$('status').textContent='Choose up to 6 PNG, JPEG or WebP images under 5 MB each.';e.target.value='';$('photos').className='placeholder';$('photos').textContent='Your club photos will appear here';return;}$('status').textContent='';photoNames=files.map(f=>f.name);imageUrls=files.map(f=>URL.createObjectURL(f));const container=$('photos');container.replaceChildren();container.className=imageUrls.length?'photo-grid':'placeholder';if(!imageUrls.length){container.textContent='Your club photos will appear here';return;}imageUrls.forEach((url,i)=>{const img=document.createElement('img');img.src=url;img.alt='Club photo '+(i+1);container.append(img);});});$('export').addEventListener('click',()=>{const name=$('club-name').value.trim();if(!name){$('status').textContent='Please enter your club name before exporting.';$('club-name').focus();return;}const article={name,category:$('club-type').value,location:$('club-location').value.trim(),description:$('club-description').value.trim(),teleport_url:teleportUrl($('club-teleport').value.trim())||'',photo_filenames:photoNames};const blob=new Blob([JSON.stringify(article,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='eventide-club-article.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);$('status').textContent='Article JSON downloaded. Remember to save your photos separately.';});$('clear').addEventListener('click',()=>{$('editor').reset();resetPhotos();$('photos').className='placeholder';$('photos').textContent='Your club photos will appear here';$('status').textContent='';render();});render();
 const configured=!!(window.EVENTIDE_SUPABASE_URL&&window.EVENTIDE_SUPABASE_ANON_KEY&&!window.EVENTIDE_SUPABASE_URL.startsWith('YOUR_'));
 const db=configured&&window.supabase?window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY):null;
 let editingId=null,existingPhotos=[];
-const authMessage=s=>$('auth-status').textContent=s;
+const authMessage=(s,kind='')=>{const el=$('auth-status');el.textContent=s;el.classList.toggle('auth-success',kind==='success');el.classList.toggle('auth-error',kind==='error');};
+let awaitingEmailConfirmation=false;
 if(!db){authMessage('Publishing is not configured. Fill in supabase-config.js and run setup.sql first.');$('publish').disabled=true;}
 async function user(){const {data,error}=await db.auth.getUser();if(error)throw error;return data.user;}
 const TURNSTILE_SITE_KEY='0x4AAAAAAF6EXn0oisg0GaYp';
@@ -37,23 +58,84 @@ function renderCaptcha(){
 }
 function resetCaptcha(){captchaToken='';if(captchaWidgetId!==null&&window.turnstile)window.turnstile.reset(captchaWidgetId);}
 if(window.turnstile)renderCaptcha();else window.addEventListener('load',renderCaptcha);
+function setAuthView(me){
+  const loggedIn=Boolean(me && me.email_confirmed_at);
+  $('venue-workspace').hidden=!loggedIn;
+  $('auth-fields').hidden=loggedIn;
+  $('signed-in-bar').hidden=!loggedIn;
+  $('account-panel').classList.toggle('is-signed-in',loggedIn);
+  $('signed-in-user').textContent=loggedIn?'Signed in as '+me.email:'';
+  $('step-register').classList.toggle('active',!loggedIn);
+  $('step-verify').classList.remove('active');
+  $('step-login').classList.toggle('active',loggedIn);
+  return loggedIn;
+}
 async function account(action){
   if(!db)return;
+  const email=$('email').value.trim(),password=$('password').value;
+  const signupButton=$('signup'),signinButton=$('signin');
+  signupButton.disabled=true;signinButton.disabled=true;
   try{
-    const email=$('email').value.trim(),password=$('password').value;
-    if(!email||password.length<8)throw Error('Enter an email and a password of at least 8 characters.');
+    if(!email||password.length<8)throw Error('Enter your email and a password of at least 8 characters.');
     if(!captchaToken)throw Error('Complete the CAPTCHA before continuing.');
     const token=captchaToken;
     const {data,error}=await (action==='signup'
-      ?db.auth.signUp({email,password,options:{captchaToken:token}})
+      ?db.auth.signUp({email,password,options:{captchaToken:token,emailRedirectTo:new URL('./verified.html',window.location.href).href}})
       :db.auth.signInWithPassword({email,password,options:{captchaToken:token}}));
     if(error)throw error;
-    authMessage(action==='signup'?'Account created. Check your email to confirm your address.':'Signed in.');
-    await listMine();
-  }catch(e){authMessage(e.message)}finally{resetCaptcha()}
+    if(action==='signup'){
+      awaitingEmailConfirmation=true;
+      // An unconfirmed account must never open the venue editor.
+      if(data.session)await db.auth.signOut();
+      setAuthView(null);
+      $('step-register').classList.remove('active');
+      $('step-verify').classList.add('active');
+      authMessage('Check your email and click the validation link to confirm your account. After verification, return to Eventide SL and sign in using your email and password. Then you can add your location.','success');
+    }else{
+      awaitingEmailConfirmation=false;
+      const me=data.user||await user();
+      if(!me?.email_confirmed_at){await db.auth.signOut();setAuthView(null);throw Error('Verify your email before signing in.');}
+      await listMine();
+      $('venue-workspace').scrollIntoView({behavior:'smooth',block:'start'});
+    }
+  }catch(e){authMessage(e.message,'error')}finally{signupButton.disabled=false;signinButton.disabled=false;resetCaptcha()}
 }
-$('signup').onclick=()=>account('signup');$('signin').onclick=()=>account('signin');$('signout').onclick=async()=>{if(!db)return;await db.auth.signOut();editingId=null;authMessage('Signed out.');await listMine()};
-async function listMine(){if(!db)return;const holder=$('my-clubs');holder.replaceChildren();try{const me=await user();if(!me){authMessage('Sign in to publish.');return;}authMessage('Signed in as '+me.email);const {data,error}=await db.from('clubs').select('id,name,category,location,description,teleport_url,photos').eq('owner_id',me.id).order('created_at',{ascending:false});if(error)throw error;const title=document.createElement('h3');title.textContent='My published clubs';holder.append(title);for(const item of data){const b=document.createElement('button');b.type='button';b.className='secondary';b.textContent='Edit: '+item.name;b.style.margin='5px';b.onclick=()=>{editingId=item.id;existingPhotos=item.photos||[];$('club-name').value=item.name;$('club-type').value=item.category;$('club-location').value=item.location||'';$('club-description').value=item.description||'';$('club-teleport').value=item.teleport_url||'';render();$('editor').scrollIntoView({behavior:'smooth'});$('status').textContent='Editing '+item.name+'. Existing photos are retained unless you upload replacements.';};holder.append(b)}}catch(e){authMessage(e.message)}}
-$('publish').onclick=async()=>{if(!db)return;const button=$('publish');button.disabled=true;try{const me=await user();if(!me)throw Error('Please sign in first.');const name=$('club-name').value.trim(),description=$('club-description').value.trim();if(!name||!description)throw Error('Enter a club name and description.');const input=$('club-teleport').value.trim(),tp=teleportUrl(input);if(input&&!tp)throw Error('Use a valid maps.secondlife.com teleport URL.');const files=[...$('club-photos').files];if(files.length>6||files.some(f=>!['image/png','image/jpeg','image/webp'].includes(f.type)||f.size>5*1024*1024))throw Error('Choose up to six PNG, JPEG or WebP images of at most 5 MB each.');let photos=editingId&&!files.length?existingPhotos:[];for(const file of files){const extension=({'image/png':'png','image/jpeg':'jpg','image/webp':'webp'})[file.type];const key=me.id+'/'+crypto.randomUUID()+'.'+extension;const {error}=await db.storage.from('club-photos').upload(key,file,{contentType:file.type,upsert:false});if(error)throw error;const {data}=db.storage.from('club-photos').getPublicUrl(key);photos.push(data.publicUrl)}const payload={owner_id:me.id,name,category:$('club-type').value,location:$('club-location').value.trim(),description,teleport_url:tp||null,photos};const query=editingId?db.from('clubs').update(payload).eq('id',editingId):db.from('clubs').insert(payload);const {error}=await query;if(error)throw error;$('status').textContent='Published! Your article is now visible on Clubs & Locations.';await listMine();}catch(e){$('status').textContent='Publication failed: '+e.message}finally{button.disabled=false}};
-if(db)listMine();
+$('signup').onclick=()=>account('signup');
+$('signin').onclick=()=>account('signin');
+$('signout').onclick=async()=>{
+  if(!db)return;
+  const {error}=await db.auth.signOut();
+  if(error){authMessage(error.message);return;}
+  editingId=null;existingPhotos=[];setAuthView(null);
+  $('my-clubs').replaceChildren();authMessage('Signed out. Sign in to add your location.');
+};
+async function listMine(){
+  if(!db)return;
+  const holder=$('my-clubs');holder.replaceChildren();
+  try{
+    const me=await user();
+    if(!setAuthView(me)){
+      if(!awaitingEmailConfirmation)authMessage(me?'Please verify your email before publishing.':'Create an account or sign in to continue.');
+      return;
+    }
+    awaitingEmailConfirmation=false;
+    authMessage('Your email is verified. You can now add your location below.');
+    const {data,error}=await db.from('clubs').select('id,name,category,location,description,teleport_url,photos').eq('owner_id',me.id).order('created_at',{ascending:false});
+    if(error)throw error;
+    const title=document.createElement('h3');title.textContent='My published clubs';holder.append(title);
+    for(const item of data){
+      const b=document.createElement('button');b.type='button';b.className='secondary';b.textContent='Edit: '+item.name;b.style.margin='5px';
+      b.onclick=()=>{editingId=item.id;existingPhotos=item.photos||[];$('club-name').value=item.name;$('club-type').value=item.category;$('club-location').value=item.location||'';$('club-description').value=item.description||'';$('club-teleport').value=item.teleport_url||'';render();$('editor').scrollIntoView({behavior:'smooth'});$('status').textContent='Editing '+item.name+'. Existing photos are retained unless you upload replacements.';};
+      holder.append(b);
+    }
+  }catch(e){authMessage(e.message)}
+}
+$('publish').onclick=async()=>{if(!db)return;const button=$('publish');button.disabled=true;try{const me=await user();if(!me?.email_confirmed_at)throw Error('Verify your email and sign in before publishing.');const name=$('club-name').value.trim(),description=$('club-description').value.trim();if(!name||!description)throw Error('Enter a club name and description.');const input=$('club-teleport').value.trim(),tp=teleportUrl(input);if(input&&!tp)throw Error('Use a valid maps.secondlife.com teleport URL.');const files=[...$('club-photos').files];if(files.length>6||files.some(f=>!['image/png','image/jpeg','image/webp'].includes(f.type)||f.size>5*1024*1024))throw Error('Choose up to six PNG, JPEG or WebP images of at most 5 MB each.');let photos=editingId&&!files.length?existingPhotos:[];for(const file of files){const extension=({'image/png':'png','image/jpeg':'jpg','image/webp':'webp'})[file.type];const key=me.id+'/'+crypto.randomUUID()+'.'+extension;const {error}=await db.storage.from('club-photos').upload(key,file,{contentType:file.type,upsert:false});if(error)throw error;const {data}=db.storage.from('club-photos').getPublicUrl(key);photos.push(data.publicUrl)}const payload={owner_id:me.id,name,category:$('club-type').value,location:$('club-location').value.trim(),description,teleport_url:tp||null,photos};const query=editingId?db.from('clubs').update(payload).eq('id',editingId):db.from('clubs').insert(payload);const {error}=await query;if(error)throw error;$('status').textContent='Published! Your article is now visible on Clubs & Locations.';await listMine();}catch(e){$('status').textContent='Publication failed: '+e.message}finally{button.disabled=false}};
+if(db){
+  db.auth.onAuthStateChange((event,session)=>{
+    if(event==='SIGNED_OUT'){setAuthView(null);$('my-clubs').replaceChildren();}
+    if(event==='SIGNED_IN'&&session?.user){setTimeout(()=>listMine(),0);}
+  });
+  listMine();
+}
 </script></body></html>
