@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-09T22:52:16.023196+00:00",
+  "updated_at": "2026-11-09T23:47:08.480230+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -2439,17 +2439,6 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
-      "title": "🌈 See them, love them, adopt yours NOW! Elephants, Horses, Kittycats, Fairies, & more! 💜",
-      "starts_at": "2026-11-09T14:00:00-08:00",
-      "venue": "** TK VENTURES **",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-09T19:02:28.844653+00:00"
-    },
-    {
       "title": "🐊 WET WILLIES IS PACKED WITH FREE LINDEN!",
       "starts_at": "2026-11-09T14:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -2478,17 +2467,6 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9468311",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "DJ Kelly @ Belle's Coffee Shop",
-      "starts_at": "2026-11-09T15:00:00-08:00",
-      "venue": "Belle's Coffee Shop",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9480956",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -3418,6 +3396,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "*MEXICAN MONDAYS* @ Top Shelf Rooftop Cantina in Jett City! 6-8pm slt",
+      "starts_at": "2026-11-09T18:00:00-08:00",
+      "venue": "*Jett City*",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503464",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
+    },
+    {
       "title": "6 PM GregEllisToronto LIVE @ The Merry Prankster",
       "starts_at": "2026-11-09T18:00:00-08:00",
       "venue": "The Merry Prankster!! Where Music Lives!",
@@ -3867,6 +3856,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "❤️ See them, love them, adopt yours NOW! Elephants, Horses, Kittycats, Fairies, & more! ❤️",
+      "starts_at": "2026-11-09T18:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T19:02:28.844653+00:00"
     },
     {
       "title": "❤️FOXXIES MON DJ FOXXEELADY❤️6PM DANCING BALLROOM LOVE HARMONY FRANKS FRANK'S HOTWIFE 511",
@@ -5616,6 +5616,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ JOHN  & Host IMOGEN 10AM SLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-10T10:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503474",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
+    },
+    {
       "title": "DJ LEYA AT WET SPOT BEACH CLUB!",
       "starts_at": "2026-11-10T10:00:00-08:00",
       "venue": "Wet Spot Beach Club",
@@ -6065,6 +6076,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ICEEEE AND HOST ARI  12PMSLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-10T12:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503476",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
     },
     {
       "title": "DJ Key's Global Grooves, Familiar Tunes!",
@@ -6638,6 +6660,17 @@
       "venue_photo_checked_at": "2026-11-09T22:55:02.351180+00:00"
     },
     {
+      "title": "DJ CHLOE AND HOST THRYNE 2PMSLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-10T14:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503479",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
+    },
+    {
       "title": "DJ Drael and Host Moka @ Cabo Swingers Resort",
       "starts_at": "2026-11-10T14:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -7197,6 +7230,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T02:59:46.737732+00:00"
+    },
+    {
+      "title": "KastleRock Presents - Toptional Tuesday with DJ Ravenborn 🤘",
+      "starts_at": "2026-11-10T16:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502570",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "MRMULTI WRITER AND FRIENDS LIVE  AT CAFE MUSIQUE",
@@ -9001,6 +9045,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Paul Papillon  @ Junkyard  Blues  8am to 10am",
+      "starts_at": "2026-11-11T08:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503489",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Whiskey & Host Loopers @ Boonies!",
       "starts_at": "2026-11-11T08:00:00-08:00",
       "venue": "Boonies On The Lakefront",
@@ -9274,6 +9329,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ LEO AND HOST KIMMI  10AMSLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-11T10:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503482",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
     },
     {
       "title": "DJ LUCI JUICYs WET n WILD HUMPDAY @ JUICI Lu's 10 AM",
@@ -9670,6 +9736,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ELLA AND HOST GLORIA 12PMSLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503484",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
     },
     {
       "title": "DJ Verdant Plays Acoustic Cuts @ Hotel Chelsea's Plaza Galleries",
@@ -10222,6 +10299,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "🎸 DJ LASER 420 Live Rock & Lingerie Party at Club Mumtaz! 🎸",
+      "starts_at": "2026-11-11T13:00:00-08:00",
+      "venue": "~Mumtaz Taj Mahal~ & Voo's Palace Ballroom",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503483",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T19:53:40.505109+00:00"
+    },
+    {
       "title": "🌴SINSET BEACH-LIVE MUSIC WITH THE STIXX🕺💃BRING A DATE🕺💃",
       "starts_at": "2026-11-11T13:30:00-08:00",
       "venue": "SINSET BEACH-LIVE MUSIC-DANCING-7 DAYS A WEEK-NOON TO 4 PM SLT",
@@ -10319,6 +10407,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ MERIMAAT AND HOST ALEANGEL 2PMSLT@ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503485",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
     },
     {
       "title": "DJ SOL HERE AT EYE CANDY MUSIC CLUB 2PM-4PM",
@@ -12893,6 +12992,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "🌅💕🎶 THURSDAY ROMANCE BEGINS AT LOVE & HARMONY JAZZ WITH DJ VEK 10 AM 🎶💕",
+      "starts_at": "2026-11-12T10:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503468",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🐊 HOT AND ROCKIN’ DJ SAMMI IS SLAYING THE CLASSICS AT WET WILLIES!!",
       "starts_at": "2026-11-12T10:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -13168,6 +13278,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Paul Papillon  @ Junkyard  Blues  Noon to 2pm",
+      "starts_at": "2026-11-12T12:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503490",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ STORM H THIS AFTERNOON AT EYE CANDY MUSIC CLUB",
       "starts_at": "2026-11-12T12:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -13350,6 +13471,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9481926",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "🎶💕 THURSDAY NOON AUTUMN JAZZ AT LOVE & HARMONY WITH DJ GRIZZ 💕🎶",
+      "starts_at": "2026-11-12T12:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503469",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
@@ -13938,6 +14070,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "🎶✨ THURSDAY AFTERNOON THIS AUTUMN AT LOVE & HARMONY JAZZ WITH DJ CHEMAK 2PM✨🎶",
+      "starts_at": "2026-11-12T14:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503470",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🎶🌼 Max Kleene !  @ Tatiana Garden Club's  Beautiful open setting 🌼🎶",
       "starts_at": "2026-11-12T14:00:00-08:00",
       "venue": "Tatiana Garden Club",
@@ -14395,6 +14538,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494650",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "🌅🎶DJ JOHNNY TAKES THE STAGE THIS AUTUMN THURSDAY, 4 PM SLT—LOVE & HARMONY JAZZ 🎶",
+      "starts_at": "2026-11-12T16:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503471",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
@@ -15851,6 +16005,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎙️✨ ELLIE SKYLARK *LIVE* AT LOVE & HARMONY Fridays • 2 AM TO 3 AM SLT✨🎙️",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503478",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🎵Putri Live at Pitch Perfect! 2AM🎵",
       "starts_at": "2026-11-13T02:00:00-08:00",
       "venue": "Pitch Perfect",
@@ -16161,6 +16326,28 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "JUNKYARD  8AM – 10AM  SLT DJ PAUL PAPILLON",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503491",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "☕🎶 FRIDAY MORNING AT LOVE & HARMONY JAZZ WITH DJ CRAYVENN 8AM🎶☕",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503480",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🍓 STRAWBERRY SMELL @ { ROUGE } 🍓",
       "starts_at": "2026-11-13T08:00:00-08:00",
       "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -16326,6 +16513,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DALIA 10AMSLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-13T10:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503486",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
+    },
+    {
       "title": "DJ DMITRI LIVE @ SOUTHERN SWING!",
       "starts_at": "2026-11-13T10:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -16445,6 +16643,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🎶☀️ LOVE & HARMONY JAZZ ROMANTIC WELCOMES DJ LADY LAURA This Friday ~ 10am Stream 🌹",
+      "starts_at": "2026-11-13T10:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503481",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🐊 IT'S FRIDAY THE 13TH!! DJ SAMMI IS TAKING OVER WET WILLIES!!",
@@ -16720,6 +16929,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ CHLOE AND HOST GLORIA 12PMSLT",
+      "starts_at": "2026-11-13T12:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503487",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
     },
     {
       "title": "DJ CROSSFIRE @ WATERMELON SUGAR CLUB",
@@ -17492,6 +17712,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "NOV DJ COYO AND HOST KIMI 2PMSLT @ DIAMONDS & DESIRES",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503488",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
+    },
+    {
       "title": "PROSECCO Friday - DJ LEXX (CH) live",
       "starts_at": "2026-11-13T14:00:00-08:00",
       "venue": "Lexx's Scoutlounge - Prosecco Friday GOOD MOODS PARTY",
@@ -17512,6 +17743,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "TGIFF: Bigger, Longer, & Uncut w/DJ Charley and Mel at Skinny Dip Inn ~SDI",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "~SDI~ Skinny Dip Inn Nude Beach Resort & Dance Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503463",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T22:55:02.351180+00:00"
     },
     {
       "title": "♥  ĐĴ PŮĐĐĻËŚ & ȚȞË ŚPÄĊË ŮŅÏĊÖŖŅ  ♥",
@@ -17831,6 +18073,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Freaky Friday w/ DJ Zidane & Kim at Skinny Dip Inn Nude Beach ~SDI~",
+      "starts_at": "2026-11-13T16:00:00-08:00",
+      "venue": "~SDI~ Skinny Dip Inn Nude Beach Resort & Dance Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503465",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T22:55:02.351180+00:00"
     },
     {
       "title": "Friar Fox at United Rhythms!",
@@ -29593,6 +29846,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "ROSEDROP RUST LIVE! @MUMBLING GOAT BASEMENT 9pm SLT",
+      "starts_at": "2026-11-17T21:00:00-08:00",
+      "venue": "The Mumbling Goat Basement",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503467",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DJ Y4N @ WATERMELON SUGAR CLUB",
