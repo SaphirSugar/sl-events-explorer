@@ -191,13 +191,13 @@ const slYear=Number(slTodayParts.find(p=>p.type==='year').value);
 const slMonth=Number(slTodayParts.find(p=>p.type==='month').value);
 const calendarCursor=new Date(slYear,slMonth-1,1);
 const PAGE_SIZE=24;
-// Two-hour SLT time slots, beginning at midnight Pacific Time.
+// One-hour SLT time slots, beginning at midnight Pacific Time.
 const timeFilter=document.getElementById('time-filter');
 const formatHour=h=>{const hour=h%12||12;return hour+(h<12?' AM':' PM')};
-for(let start=0;start<24;start+=2){
+for(let start=0;start<24;start+=1){
  const option=document.createElement('option');
  option.value=String(start);
- option.textContent=formatHour(start)+' - '+formatHour((start+2)%24);
+ option.textContent=formatHour(start)+' - '+formatHour((start+1)%24);
  timeFilter.append(option);
 }
 const slHourFormatter=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',hour:'numeric',hourCycle:'h23'});
@@ -308,7 +308,7 @@ setInterval(()=>{
 },60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory,slot=timeFilter.value;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(slot==='all'||Math.floor(eventSLHour(t)/2)*2===Number(slot))&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(slot==='all'||eventSLHour(t)===Number(slot))&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
  // Keep the main event list strictly chronological in SLT.
  // Featured events are already part of `events`, so they appear naturally
  // at their scheduled time without being pinned or duplicated.
