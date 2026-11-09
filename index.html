@@ -202,7 +202,17 @@ for(let start=0;start<24;start+=1){
 }
 const slHourFormatter=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',hour:'numeric',hourCycle:'h23'});
 const eventSLHour=date=>Number(slHourFormatter.format(date));
-timeFilter.addEventListener('change',()=>render());
+timeFilter.addEventListener('change',()=>{
+ render();
+ // Bring the updated event results into view immediately after choosing a time.
+ requestAnimationFrame(()=>{
+  const resultsHeading=document.querySelector('.section-head');
+  (resultsHeading||document.getElementById('events')).scrollIntoView({
+   behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',
+   block:'start'
+  });
+ });
+});
 const $=id=>document.getElementById(id);
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
