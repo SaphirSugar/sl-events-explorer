@@ -81,6 +81,8 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .left-column,.right-column{display:flex;flex-direction:column;gap:22px;min-width:0}
 .calendar-aside .filters{display:block;margin:10px 0 0}
 .calendar-aside .filters #search{width:100%}
+.calendar-aside .time-filter-label{display:block;margin:14px 0 7px;color:#e7d6f7;font-size:13px;font-weight:700}
+.calendar-aside #time-filter{width:100%;border-color:#8c65ad;background:#241b36;color:#f9eaff}
 .featured-event{position:relative;isolation:isolate;overflow:hidden;padding:25px;border-radius:22px;border:1px solid #c86bff;background:linear-gradient(90deg,rgba(14,9,28,.91),rgba(18,10,34,.72)),url("./images/featured-concert.webp") center/cover no-repeat;box-shadow:0 0 8px rgba(200,107,255,.5),0 0 22px rgba(200,107,255,.25),inset 0 0 12px rgba(200,107,255,.08);animation:neonPulse 3s ease-in-out infinite}
 .featured-event::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(circle at 100% 0%,rgba(255,92,210,.13),transparent 55%);z-index:-1}
 .featured-kicker{color:#f5b6ff;font-family:"Outfit",sans-serif;font-size:clamp(25px,3vw,36px);font-weight:800;letter-spacing:.08em;line-height:1.15;margin-bottom:20px;text-shadow:0 0 16px rgba(245,182,255,.35)}
@@ -165,7 +167,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     <div class="calendar-aside">
       <div>
         <p class="search-heading">Search Events</p>
-        <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"></div>
+        <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><label class="time-filter-label" for="time-filter">Event start time (SLT)</label><select id="time-filter" aria-label="Filter events by start time in Second Life Time"><option value="all">All times (SLT)</option></select></div>
         <div id="category-buttons" class="category-buttons" role="group" aria-label="Filter events by category"><button type="button" class="active" data-category="all" aria-pressed="true">All categories</button></div>
       </div>
       <div id="calendar-selection" class="calendar-selected" aria-live="polite">Browsing all dates</div>
@@ -189,6 +191,18 @@ const slYear=Number(slTodayParts.find(p=>p.type==='year').value);
 const slMonth=Number(slTodayParts.find(p=>p.type==='month').value);
 const calendarCursor=new Date(slYear,slMonth-1,1);
 const PAGE_SIZE=24;
+// Two-hour SLT time slots, beginning at midnight Pacific Time.
+const timeFilter=document.getElementById('time-filter');
+const formatHour=h=>{const hour=h%12||12;return hour+(h<12?' AM':' PM')};
+for(let start=0;start<24;start+=2){
+ const option=document.createElement('option');
+ option.value=String(start);
+ option.textContent=formatHour(start)+' - '+formatHour((start+2)%24);
+ timeFilter.append(option);
+}
+const slHourFormatter=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',hour:'numeric',hourCycle:'h23'});
+const eventSLHour=date=>Number(slHourFormatter.format(date));
+timeFilter.addEventListener('change',()=>render());
 const $=id=>document.getElementById(id);
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -293,8 +307,8 @@ setInterval(()=>{
  if(previousGroup!==featuredGroupKey)render();
 },60000);
 function render(reset=true){
- const q=$('search').value.trim().toLowerCase(),cat=selectedCategory;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
+ const q=$('search').value.trim().toLowerCase(),cat=selectedCategory,slot=timeFilter.value;
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(slot==='all'||Math.floor(eventSLHour(t)/2)*2===Number(slot))&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
  // Keep the main event list strictly chronological in SLT.
  // Featured events are already part of `events`, so they appear naturally
  // at their scheduled time without being pinned or duplicated.
