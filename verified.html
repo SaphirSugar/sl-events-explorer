@@ -25,6 +25,7 @@
   if(!userData.user?.email_confirmed_at)throw Error('Email is not confirmed yet.');
   history.replaceState(null,'',location.pathname);
   await db.auth.signOut();
+  try{sessionStorage.setItem('eventide_email_verified','1');}catch(e){}
   show('Your email has been verified successfully. Return to Eventide SL Dashboard and sign in with your email and password to add your location.',true);
  }catch(err){
   if(location.hash||location.search)history.replaceState(null,'',location.pathname);
