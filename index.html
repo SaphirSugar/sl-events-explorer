@@ -216,7 +216,7 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
     </div>
   </div>
 </section>
-<div class="tz-bar" aria-label="Event time zone"><button type="button" id="tz-open">World Time Zone Map</button><button type="button" id="tz-browser">Use my local time</button><button type="button" id="tz-slt">Use SLT</button><span class="tz-current" id="tz-current">Showing Second Life Time (SLT)</span></div><div class="section-head"><h2>All collected events</h2><p id="tz-results-note">All times shown in Second Life Time (SLT / Pacific Time)</p></div>
+<div class="section-head"><h2>All collected events</h2><p id="tz-results-note">All times shown in Second Life Time (SLT / Pacific Time)</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
 </main>
@@ -265,7 +265,6 @@ const zoneHourFormat=()=>new Intl.DateTimeFormat('en-US',{timeZone:displayZone,h
 const eventDisplayHour=date=>Number(zoneHourFormat().format(date));
 const zoneDateFormat=opts=>new Intl.DateTimeFormat('en-US',{timeZone:displayZone,...opts});
 function updateZoneLabels(){
- document.getElementById('tz-current').textContent='Showing: '+zoneLabel;
  document.getElementById('tz-results-note').textContent='All event dates and times shown in '+zoneLabel+'. Calendar dates remain SLT.';
  document.querySelector('.time-filter-label').textContent='Event start time ('+zoneLabel+')';
  timeFilter.options[0].textContent='All times ('+zoneLabel+')';
@@ -279,9 +278,7 @@ function applyZone(zone,label){
 }
 const deviceZone=()=>Intl.DateTimeFormat().resolvedOptions().timeZone||'America/Los_Angeles';
 const useDevice=()=>{const z=deviceZone();applyZone(z,'Your local time ('+z.replaceAll('_',' ')+')')};
-document.getElementById('tz-browser').addEventListener('click',useDevice);
 document.getElementById('tz-dialog-browser').addEventListener('click',useDevice);
-document.getElementById('tz-slt').addEventListener('click',()=>applyZone('America/Los_Angeles','Second Life Time (SLT)'));
 document.getElementById('tz-dialog-slt').addEventListener('click',()=>applyZone('America/Los_Angeles','Second Life Time (SLT)'));
 const tzDialog=document.getElementById('tz-dialog');
 for(const [name,zone,lon,lat] of tzCities){
@@ -298,7 +295,7 @@ for(const [name,zone,lon,lat] of tzCities){
 }
 document.getElementById('tz-apply').addEventListener('click',()=>{if(pendingZone)applyZone(pendingZone,pendingLabel)});
 document.getElementById('tz-close').addEventListener('click',()=>tzDialog.close());
-for(const id of ['tz-open','tz-open-search'])document.getElementById(id).addEventListener('click',()=>tzDialog.showModal());
+document.getElementById('tz-open-search').addEventListener('click',()=>tzDialog.showModal());
 updateZoneLabels();
 
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
