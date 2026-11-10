@@ -27,6 +27,27 @@
 .add-venue-float:hover{background:#ffe4b4;box-shadow:0 15px 40px #000b}
 .add-venue-float:focus-visible{outline:3px solid #fff;outline-offset:4px}
 @media(max-width:750px){.add-venue-float{bottom:18px;right:14px;padding:13px 17px;font-size:13px}}
+
+/* Keep the navigation visible during page scrolling. */
+html{scroll-padding-top:115px}
+body>header.wrap{position:sticky;top:0;z-index:2000;background:rgba(17,13,29,.97);box-shadow:0 8px 22px rgba(0,0,0,.25);border-radius:0 0 12px 12px}
+@supports (backdrop-filter:blur(12px)){body>header.wrap{background:rgba(17,13,29,.87);backdrop-filter:blur(12px)}}
+@media(max-width:680px){html{scroll-padding-top:165px}}
+
+/* Unified Eventide SL page width and header sizing */
+.wrap{width:calc(100% - 36px);max-width:1180px;margin-left:auto;margin-right:auto}
+body>header.wrap{width:calc(100% - 36px);max-width:1180px;min-height:105px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+body>header.wrap .brand{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0;max-width:none}
+body>header.wrap .brand img{display:block;width:250px;max-width:100%;height:auto;object-fit:contain}
+body>header.wrap nav{display:flex;align-items:center;justify-content:flex-end;gap:9px;flex-wrap:wrap}
+body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;justify-content:center;padding:9px 15px;border-radius:999px;font-size:13px;line-height:1.2;font-weight:700;text-decoration:none}
+@media(max-width:680px){
+ .wrap,body>header.wrap{width:calc(100% - 28px)}
+ body>header.wrap{min-height:0;flex-wrap:wrap;gap:10px;padding:12px 0}
+ body>header.wrap .brand img{width:190px}
+ body>header.wrap nav{width:100%;justify-content:flex-start;gap:7px}
+ body>header.wrap nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}
+}
 </style>
 </head>
 <body>
