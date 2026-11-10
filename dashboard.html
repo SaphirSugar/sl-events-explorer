@@ -83,7 +83,7 @@ function updateRegistrationVisibility(){
   if(googleDivider)googleDivider.hidden=false;
   $('step-register').hidden=returningVerifiedMember;
   const hint=$('auth-fields').querySelector('.hint');
-  if(hint&&returningVerifiedMember)hint.textContent='Email verified. Sign in with your email and password or continue with Google.';
+  if(hint)hint.textContent=returningVerifiedMember?'Email verified. Sign in with your email and password or continue with Google.':'New here? Create an account and verify your email, or continue with Google. Already registered? Sign in below.';
   if(returningVerifiedMember){
     $('step-verify').classList.remove('active');
     $('step-login').classList.add('active');
@@ -196,8 +196,10 @@ $('signout').onclick=async()=>{
   if(!db)return;
   const {error}=await db.auth.signOut();
   if(error){authMessage(error.message);return;}
-  ++venueListRequest;editingId=null;existingPhotos=[];setAuthView(null);
-  $('my-clubs').replaceChildren();updateRegistrationVisibility();authMessage('Signed out. Sign in with your email and password or continue with Google.');
+  ++venueListRequest;editingId=null;existingPhotos=[];returningVerifiedMember=false;
+  try{sessionStorage.removeItem('eventide_email_verified');}catch(e){}
+  setAuthView(null);$('my-clubs').replaceChildren();updateRegistrationVisibility();
+  authMessage('Signed out. Create an account or sign in to continue.');
 };
 let venueListRequest=0;
 async function listMine(){
@@ -231,7 +233,7 @@ async function listMine(){
 $('publish').onclick=async()=>{if(!db)return;const button=$('publish');button.disabled=true;try{const me=await user();if(!me?.email_confirmed_at)throw Error('Verify your email and sign in before publishing.');const name=$('club-name').value.trim(),description=$('club-description').value.trim();if(!name||!description)throw Error('Enter a club name and description.');const primary=$('club-category-1').value,secondary=$('club-category-2').value;if(!VENUE_STYLES.includes(primary))throw Error('Choose a primary venue style.');if(secondary&&(!VENUE_STYLES.includes(secondary)||secondary===primary))throw Error('Choose a different second venue style.');const input=$('club-teleport').value.trim(),tp=teleportUrl(input);if(input&&!tp)throw Error('Use a valid maps.secondlife.com teleport URL.');const files=[...$('club-photos').files];if(files.length>6||files.some(f=>!['image/png','image/jpeg','image/webp'].includes(f.type)||f.size>5*1024*1024))throw Error('Choose up to six PNG, JPEG or WebP images of at most 5 MB each.');let photos=editingId&&!files.length?existingPhotos:[];for(const file of files){const extension=({'image/png':'png','image/jpeg':'jpg','image/webp':'webp'})[file.type];const key=me.id+'/'+crypto.randomUUID()+'.'+extension;const {error}=await db.storage.from('club-photos').upload(key,file,{contentType:file.type,upsert:false});if(error)throw error;const {data}=db.storage.from('club-photos').getPublicUrl(key);photos.push(data.publicUrl)}const payload={owner_id:me.id,name,category:[primary,secondary].filter(Boolean).join(' | '),location:'',description,teleport_url:tp||null,photos};const query=editingId?db.from('clubs').update(payload).eq('id',editingId).eq('owner_id',me.id):db.from('clubs').insert(payload);const {error}=await query;if(error)throw error;const wasEditing=!!editingId;$('clear').click();$('status').textContent=wasEditing?'Changes saved successfully.':'Published! Your venue is now visible on Clubs & Locations.';await listMine();}catch(e){$('status').textContent='Publication failed: '+e.message}finally{button.disabled=false}};
 if(db){
   db.auth.onAuthStateChange((event,session)=>{
-    if(event==='SIGNED_OUT'){++venueListRequest;setAuthView(null);$('my-clubs').replaceChildren();}
+    if(event==='SIGNED_OUT'){++venueListRequest;returningVerifiedMember=false;try{sessionStorage.removeItem('eventide_email_verified');}catch(e){}setAuthView(null);updateRegistrationVisibility();$('my-clubs').replaceChildren();}
     if(event==='SIGNED_IN'&&session?.user){setTimeout(()=>listMine(),0);}
   });
   listMine();
