@@ -52,14 +52,15 @@ body>header.wrap{position:sticky;top:0;z-index:2000;background:rgba(17,13,29,.97
 
 /* Unified Eventide SL page width and header sizing */
 .wrap{width:calc(100% - 36px);max-width:1180px;margin-left:auto;margin-right:auto}
-body>header.wrap{width:calc(100% - 36px);max-width:1180px;min-height:105px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+body>header.wrap{width:100%;max-width:none;min-height:105px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px max(18px,calc((100% - 1180px)/2));background:#151020;border-bottom:1px solid #614274;box-shadow:0 6px 20px #0005}
 body>header.wrap .brand{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0;max-width:none}
 body>header.wrap .brand img{display:block;width:250px;max-width:100%;height:auto;object-fit:contain}
 body>header.wrap nav{display:flex;align-items:center;justify-content:flex-end;gap:9px;flex-wrap:wrap}
 body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;justify-content:center;padding:9px 15px;border-radius:999px;font-size:13px;line-height:1.2;font-weight:700;text-decoration:none}
 @media(max-width:680px){
- .wrap,body>header.wrap{width:calc(100% - 28px)}
- body>header.wrap{min-height:0;flex-wrap:wrap;gap:10px;padding:12px 0}
+ .wrap{width:calc(100% - 28px)}
+ body>header.wrap{width:100%;max-width:none}
+ body>header.wrap{min-height:0;flex-wrap:wrap;gap:10px;padding:12px 14px}
  body>header.wrap .brand img{width:190px}
  body>header.wrap nav{width:100%;justify-content:flex-start;gap:7px}
  body>header.wrap nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}
