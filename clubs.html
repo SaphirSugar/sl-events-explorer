@@ -54,12 +54,18 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 .venue-categories button{border:1px solid #8b659f;background:#271a38;color:#f2e5ff;border-radius:999px;padding:10px 15px;font-weight:700;font-size:13px}
 .venue-categories button:hover{border-color:#e7c381;background:#3b2850}
 .venue-categories button.active{background:#e7c381;border-color:#f1d6a1;color:#211527}
+/* Featured latest venues section heading */
+.latest-heading{display:flex;flex-direction:column;gap:6px;padding:4px 0 8px}
+.latest-heading-kicker{font-size:12px;font-weight:800;letter-spacing:.2em;color:#e8c58b;text-transform:uppercase}
+.latest-heading h2{font-family:"Outfit",sans-serif;font-size:clamp(34px,4.3vw,54px);line-height:1.12;letter-spacing:-.025em;margin:0;color:#f7e4ff;text-shadow:0 0 22px #bb71ed50}
+.tools .latest-heading-count{font-size:14px;color:#cdb7dc;margin-top:3px}
+@media(max-width:600px){.latest-heading h2{font-size:34px}}
 </style>
 </head>
 <body>
 <header class="wrap top"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="250" height="83"></a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html" aria-current="page">Clubs &amp; Locations</a><a class="dashboard-link" href="./dashboard.html">Dashboard</a></nav></header>
 <main class="wrap"><section class="intro"><div class="eyebrow">Second Life Events Explorer</div><h1>Clubs &amp; Locations</h1><p>Explore places where Second Life comes alive. Browse each venue's photos and teleport directly to your next destination.</p></section>
-<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Latest published locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div><div class="note">Only the four newest published venues appear in this section. All other locations are listed below.</div></section>
+<section class="frame" aria-label="Club and location directory"><div class="tools"><div class="latest-heading"><span class="latest-heading-kicker">DISCOVER WHAT'S NEW</span><h2>Latest Venues in Our Community</h2><p id="venue-count" class="latest-heading-count" aria-live="polite"></p></div><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div></section>
 <section class="frame" aria-label="Community venues" style="margin-top:-25px">
   <div class="tools"><p><strong style="color:#e7c381;font-size:19px">All Locations</strong></p></div>
   <p id="community-status" class="note" role="status" style="border-top:0;margin-top:0">Loading community venues...</p>
