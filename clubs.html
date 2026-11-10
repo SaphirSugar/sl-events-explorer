@@ -59,9 +59,9 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 <body>
 <header class="wrap top"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="250" height="83"></a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html" aria-current="page">Clubs &amp; Locations</a><a class="dashboard-link" href="./dashboard.html">Dashboard</a></nav></header>
 <main class="wrap"><section class="intro"><div class="eyebrow">Second Life Events Explorer</div><h1>Clubs &amp; Locations</h1><p>Explore places where Second Life comes alive. Browse each venue's photos and teleport directly to your next destination.</p></section>
-<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Latest published locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div><div class="note">The latest published venues appear first when available.</div></section>
+<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Latest published locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div><div class="note">Only the four newest published venues appear in this section. All other locations are listed below.</div></section>
 <section class="frame" aria-label="Community venues" style="margin-top:-25px">
-  <div class="tools"><p><strong style="color:#e7c381;font-size:19px">Community Venues</strong></p></div>
+  <div class="tools"><p><strong style="color:#e7c381;font-size:19px">All Locations</strong></p></div>
   <p id="community-status" class="note" role="status" style="border-top:0;margin-top:0">Loading community venues...</p>
   <div class="grid" id="community-grid"></div>
 </section>
@@ -143,12 +143,15 @@ communityGrid.addEventListener('click',handleGalleryClick);
 function render(){
  const query=search.value.trim().toLowerCase();
  const matches=allVenues.filter(c=>(activeVenueCategory==='All locations'||venueStyles(c.category).includes(activeVenueCategory))&&[c.name,c.category,c.location,c.description].join(' ').toLowerCase().includes(query));
- const latest=matches.slice(0,4),remaining=matches.slice(4);
+ const published=matches.filter(c=>!c.localFallback);
+ const latest=published.slice(0,4);
+ const latestIds=new Set(latest.map(c=>String(c.id)));
+ const remaining=matches.filter(c=>c.localFallback||!latestIds.has(String(c.id)));
  featuredGrid.replaceChildren();communityGrid.replaceChildren();
  latest.forEach(c=>drawVenue(featuredGrid,c));remaining.forEach(c=>drawVenue(communityGrid,c));
- featuredCount.textContent=latest.length+' latest location'+(latest.length===1?'':'s');
- communityStatus.textContent=remaining.length+' more published venue'+(remaining.length===1?'':'s');
- if(!latest.length){const empty=document.createElement('p');empty.className='empty';empty.textContent='No locations match your search.';featuredGrid.append(empty)}
+ featuredCount.textContent=latest.length+' latest published location'+(latest.length===1?'':'s');
+ communityStatus.textContent=remaining.length+' more location'+(remaining.length===1?'':'s');
+ if(!latest.length){const empty=document.createElement('p');empty.className='empty';empty.textContent='No recently published venues match your search.';featuredGrid.append(empty)}
 }
 venueCategories.addEventListener('click',e=>{
  const button=e.target.closest('button[data-category]');if(!button)return;
@@ -159,13 +162,19 @@ search.addEventListener('input',render);
 document.getElementById('year').textContent=new Date().getFullYear();
 allVenues=FALLBACK_LOCATIONS;render();
 (async function(){
- if(!window.supabase||!window.EVENTIDE_SUPABASE_URL||!window.EVENTIDE_SUPABASE_ANON_KEY){communityStatus.textContent='Published venues are temporarily unavailable. Showing the original locations.';return}
+ if(!window.supabase||!window.EVENTIDE_SUPABASE_URL||!window.EVENTIDE_SUPABASE_ANON_KEY){communityStatus.textContent='Published venues are temporarily unavailable. Original locations are listed below.';return}
  try{
   const client=window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY);
   const {data,error}=await client.from('clubs').select('id,name,category,location,description,teleport_url,photos,created_at').order('created_at',{ascending:false}).limit(100);
   if(error)throw error;
-  const published=[...new Map((data||[]).map(c=>[c.id,c])).values()];allVenues=published.length?published:FALLBACK_LOCATIONS;render();if(!published.length)communityStatus.textContent='No published venues available. Showing the original locations.';
- }catch(error){communityStatus.textContent='Published venues could not be loaded. Showing the original locations.';console.error('Venues:',error)}
+  const published=[...new Map((data||[]).map(c=>[c.id,c])).values()];
+  // Keep the original directory venues alongside new Supabase submissions.
+  // Avoid duplicate cards if an original location has also been published.
+  const publishedNames=new Set(published.map(c=>String(c.name||'').trim().toLocaleLowerCase()));
+  const originals=FALLBACK_LOCATIONS.filter(c=>!publishedNames.has(String(c.name||'').trim().toLocaleLowerCase()));
+  allVenues=[...published,...originals];
+  render();
+ }catch(error){communityStatus.textContent='Published venues could not be loaded. Original locations are listed below.';console.error('Venues:',error)}
 })();
 </script>
 </body></html>
