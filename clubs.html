@@ -122,7 +122,7 @@ document.getElementById('venue-search').addEventListener('input',render);documen
   if(error)throw error;
   const search=document.getElementById('venue-search');
   const communityMatches=()=>data.filter(c=>(activeVenueCategory==='All locations'||venueStyles(c.category).includes(activeVenueCategory))&&[c.name,c.category,c.location,c.description].join(' ').toLowerCase().includes(search.value.trim().toLowerCase()));
-  const refreshCommunity=()=>{target.replaceChildren();const matches=communityMatches();status.textContent=matches.length?matches.length+' community venue(s) matching your filters.':'No community venues match your filters.';for(const c of matches)drawCommunity(c);};
+  const refreshCommunity=()=>{target.replaceChildren();const matches=communityMatches();const filtering=activeVenueCategory!=='All locations'||search.value.trim()!=='';status.textContent=filtering?(matches.length?matches.length+' venue'+(matches.length===1?'':'s')+' found.':'No venues found. Try another category.'):(matches.length+' Community Venue'+(matches.length===1?'':'s')+'.');for(const c of matches)drawCommunity(c);};
   function drawCommunity(c){
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
    const card=document.createElement('article');card.className='card';
