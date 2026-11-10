@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-10T20:52:13.472857+00:00",
+  "updated_at": "2026-11-10T21:47:48.752131+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1493,28 +1493,6 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
-      "title": "Cyberia Karaoke",
-      "starts_at": "2026-11-10T12:00:00-08:00",
-      "venue": "Cyberia Karaoke",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T21:46:02.490987+00:00"
-    },
-    {
-      "title": "Cyberia Openstage",
-      "starts_at": "2026-11-10T12:00:00-08:00",
-      "venue": "Cyberia Openstage",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T21:46:02.490987+00:00"
-    },
-    {
       "title": "DJ ALAM @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-10T12:00:00-08:00",
       "venue": "Watermelon Sugar Country Club",
@@ -2924,6 +2902,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Eric Steffensen Live at {Inspiration}",
+      "starts_at": "2026-11-10T16:00:00-08:00",
+      "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503922",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "HELENA NAVARITA LIVE 4 PM @ DILLIAN'S AMUSEMENT PARK VENUE",
       "starts_at": "2026-11-10T16:00:00-08:00",
       "venue": "DILLIAN'S AMUSEMENT PARK VENUE",
@@ -3362,6 +3351,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Meme Moore Live at {Inspiration}",
+      "starts_at": "2026-11-10T17:00:00-08:00",
+      "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503925",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "OPEN MIC/KARAOKE @ ***UNPLUGGED***",
@@ -3824,6 +3824,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T15:58:16.628286+00:00"
+    },
+    {
+      "title": "Mike McAlpine Live at {Inspiration}",
+      "starts_at": "2026-11-10T18:00:00-08:00",
+      "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503928",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "Moonman Live @ Hotel Chelsea",
@@ -4550,6 +4561,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-11-10T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503931",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "DJ ZAHLIA AT FRANK'S ELITE",
@@ -6343,6 +6365,28 @@
       "venue_photo_checked_at": "2026-11-09T04:02:59.883028+00:00"
     },
     {
+      "title": "Cyberia Karaoke",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "Cyberia Karaoke",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T21:46:02.490987+00:00"
+    },
+    {
+      "title": "Cyberia Openstage",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "Cyberia Openstage",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T21:46:02.490987+00:00"
+    },
+    {
       "title": "DEXTER SWANSEN LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-11T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -6528,6 +6572,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "KastleRock Presents - DJ Spirit & Host Jester 🎧",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502572",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "LAURA live! at INSOMNIA",
@@ -6759,6 +6814,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "🥂 THE DELFINA CLUB – ELECTRO SWING PARTY 🥂",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503921",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "🦩 PATIENT SOCIAL HOUR - GAME DAY! 🦩",
@@ -7210,6 +7276,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "KastleRock Presents - DJ Scorp & Host Starry ✨",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502574",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
+    },
+    {
+      "title": "LouAnn Jolbey at the Falcon Pub! 2pm slt",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "1 Falcon Lane",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503944",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T21:50:32.307421+00:00"
     },
     {
       "title": "MARINA SHARPSHIRE LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -10895,6 +10983,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "KastleRock Presents - Sister Saku and Her Church of Rock! 🎸",
+      "starts_at": "2026-11-12T14:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502578",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
+    },
+    {
       "title": "Katia sings live at Sanctuary at 2 PM",
       "starts_at": "2026-11-12T14:00:00-08:00",
       "venue": "Sanctuary, EST. 2008",
@@ -11432,6 +11531,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T05:15:39.670790+00:00"
+    },
+    {
+      "title": "KastleRock Presents - Throwback Thursday with DJ Ravenborn 📻",
+      "starts_at": "2026-11-12T16:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502579",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "SAVAGE RHYTHM~DJ LUSCIOUS AND HOST MOXXIE ARE TOO MUCH TROUBLE TO CONTROL! 4-6P SLT",
@@ -13635,6 +13745,17 @@
       "venue_photo_checked_at": "2026-11-06T19:00:52.739623+00:00"
     },
     {
+      "title": "KastleRock Presents - Fuck It Friday with DJ Jen Dagger & Host Starry 🍻",
+      "starts_at": "2026-11-13T10:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502582",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
+    },
+    {
       "title": "Live Trivia with Sharon at Sharon’s Diner - Win Lindens!",
       "starts_at": "2026-11-13T10:00:00-08:00",
       "venue": "::: Sharon's Diner - Trivia! :::",
@@ -14161,6 +14282,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T15:03:38.823190+00:00"
+    },
+    {
+      "title": "KastleRock Presents - DJ Starry B ✨",
+      "starts_at": "2026-11-13T12:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502583",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "NEW FEMALE GROUP  @ Clothes Culture",
@@ -18668,6 +18800,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "KastleRock Presents - DJ Scorp 🦂",
+      "starts_at": "2026-11-14T16:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502584",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "MICK MORPORK LIVE AT FRANK'S ELITE",
@@ -26532,6 +26675,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "KastleRock Presents - Naughty Time with DJ Xanthe 😈",
+      "starts_at": "2026-11-17T14:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502569",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
+    },
+    {
       "title": "MONAY AMOR LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-17T14:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -26783,6 +26937,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "KastleRock Presents - Toptional Tuesday with DJ Ravenborn 🤘",
+      "starts_at": "2026-11-17T16:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502571",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "ROSES @ Club Carnage",
@@ -27652,6 +27817,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-11-17T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503932",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "DREW MCDUNNOUGH THE SINGING DJ AT THE PURRL",
@@ -28597,6 +28773,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "KastleRock Presents - DJ Spirit & Host Jester 🎧",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502573",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
     },
     {
       "title": "LAURA live! at INSOMNIA",
@@ -40138,6 +40325,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Eric Steffensen Live at {Inspiration}",
+      "starts_at": "2026-11-24T16:00:00-08:00",
+      "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503924",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "JOIN DJ MADMAN JOHN FOR SOME AMAZING TUNES",
       "starts_at": "2026-11-24T16:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -40235,6 +40433,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Meme Moore Live at {Inspiration}",
+      "starts_at": "2026-11-24T17:00:00-08:00",
+      "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503927",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "Tuesday Evenings at !~ Club Caramel ~!",
@@ -40400,6 +40609,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Mike McAlpine Live at {Inspiration}",
+      "starts_at": "2026-11-24T18:00:00-08:00",
+      "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503930",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "Naughty Bowling With Katie And Kyle",
@@ -40763,6 +40983,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-11-24T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503933",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Game Night With Garrix",
@@ -44310,6 +44541,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "FETISH FRIDAY: ABC (ANYTHING BUT CLOTHES!) DJ MOMMA & HOST SKYE",
+      "starts_at": "2026-11-27T13:00:00-08:00",
+      "venue": "Chateau LaFemme - Femdom",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503943",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "Icky LIVE @ The Shack",
@@ -50351,6 +50593,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-12-01T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503934",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Game Night With Garrix",
@@ -57785,6 +58038,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-12-08T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503935",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Game Night With Garrix",
       "starts_at": "2026-12-08T20:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -63523,6 +63787,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-12-15T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503936",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DISCO TUESDAY NIGHT w/ DJ JAdmiral @ ECLIPSE CLUB & RESORT",
       "starts_at": "2026-12-15T21:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -68546,6 +68821,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-12-22T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503937",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DISCO TUESDAY NIGHT w/ DJ JAdmiral @ ECLIPSE CLUB & RESORT",
       "starts_at": "2026-12-22T21:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -72018,6 +72304,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2026-12-29T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503938",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DISCO TUESDAY NIGHT w/ DJ JAdmiral @ ECLIPSE CLUB & RESORT",
       "starts_at": "2026-12-29T21:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -75078,6 +75375,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2027-01-05T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503939",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "STORE ANIMATION DANCEr GO nice",
       "starts_at": "2027-01-05T20:00:00-08:00",
       "venue": ".::***** DANCE * ANIMATIONs * STORE * HUD Animation *****::.",
@@ -77525,6 +77833,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2027-01-12T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503940",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DISCO TUESDAY NIGHT w/ DJ JAdmiral @ ECLIPSE CLUB & RESORT",
       "starts_at": "2027-01-12T21:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -79512,6 +79831,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2027-01-19T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503941",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DISCO TUESDAY NIGHT w/ DJ JAdmiral @ ECLIPSE CLUB & RESORT",
       "starts_at": "2027-01-19T21:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -80969,6 +81299,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ VEK AT LOVE&HARMONY JAZZ ROMANTIC",
+      "starts_at": "2027-01-26T20:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503942",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Gonja Land presents S-H-E-Y--Z",
