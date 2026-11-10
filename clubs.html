@@ -127,7 +127,15 @@ document.getElementById('venue-search').addEventListener('input',render);documen
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
    const card=document.createElement('article');card.className='card';
    const photos=(Array.isArray(c.photos)?c.photos:[]).filter(s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname===new URL(window.EVENTIDE_SUPABASE_URL).hostname&&u.pathname.includes('/storage/v1/object/public/club-photos/')}catch{return false}});
-   if(photos.length){const img=document.createElement('img');img.src=photos[0];img.alt=String(c.name||'Venue')+' photo';img.loading='lazy';img.style.cssText='display:block;width:100%;height:280px;object-fit:contain;background:#100d1a';card.append(img)}
+   const gallery=document.createElement('div');gallery.className='gallery';gallery.dataset.images=JSON.stringify(photos);gallery.dataset.name=String(c.name||'Venue');
+   const stage=document.createElement('div');stage.className='photo-stage';
+   if(photos.length){const img=document.createElement('img');img.className='main-photo';img.src=photos[0];img.alt=gallery.dataset.name+' photo 1';img.loading='lazy';stage.append(img);
+     if(photos.length>1){for(const [direction,step,label] of [['prev',-1,'Previous photo'],['next',1,'Next photo']]){const btn=document.createElement('button');btn.type='button';btn.className='photo-nav '+direction;btn.dataset.step=String(step);btn.setAttribute('aria-label',label);btn.textContent=step<0?'‹':'›';stage.append(btn);}}
+     const count=document.createElement('span');count.className='photo-count';count.textContent='1 / '+photos.length;stage.append(count);
+   }else{const placeholder=document.createElement('div');placeholder.className='placeholder';const title=document.createElement('strong');title.textContent=gallery.dataset.name;placeholder.append(title,document.createTextNode('Photos coming soon'));stage.append(placeholder);}
+   gallery.append(stage);
+   if(photos.length>1){const thumbs=document.createElement('div');thumbs.className='thumbs';photos.forEach((url,i)=>{const btn=document.createElement('button');btn.type='button';btn.className='thumb';btn.dataset.index=String(i);btn.setAttribute('aria-label','Show photo '+(i+1));btn.setAttribute('aria-pressed',String(i===0));const img=document.createElement('img');img.src=url;img.alt='';img.loading='lazy';btn.append(img);thumbs.append(btn);});gallery.append(thumbs);}
+   card.append(gallery);
    const body=document.createElement('div');body.className='body';
    const kind=document.createElement('div');kind.className='type';kind.textContent=c.category||'Venue';
    const name=document.createElement('h2');name.textContent=c.name||'Untitled venue';
@@ -137,6 +145,7 @@ document.getElementById('venue-search').addEventListener('input',render);documen
    const tp=safeTeleport(c.teleport_url);if(tp){const a=document.createElement('a');a.className='teleport';a.href=tp;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Teleport to location';body.append(a)}
    card.append(body);target.append(card);
   }
+  target.addEventListener('click',e=>{const button=e.target.closest('button[data-step],button[data-index]');if(!button||!target.contains(button))return;const gallery=button.closest('.gallery');if(!gallery)return;const photos=JSON.parse(gallery.dataset.images||'[]');if(!photos.length)return;const current=Number(gallery.dataset.current||0);const next=button.hasAttribute('data-index')?Number(button.dataset.index):(current+Number(button.dataset.step)+photos.length)%photos.length;gallery.dataset.current=String(next);const img=gallery.querySelector('.main-photo');img.src=photos[next];img.alt=gallery.dataset.name+' photo '+(next+1);gallery.querySelector('.photo-count').textContent=(next+1)+' / '+photos.length;gallery.querySelectorAll('.thumb').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===next)));});
   search.addEventListener('input',refreshCommunity);venueCategories.addEventListener('click',refreshCommunity);refreshCommunity();
  }catch(err){status.textContent='Could not load community venues. Check Supabase permissions and connection.';console.error('Community venues:',err)}
 })();
