@@ -140,6 +140,22 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
 .top .brand{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0}
 .top .brand img{display:block;width:250px;max-width:42vw;height:auto;object-fit:contain}
 @media(max-width:680px){.top .brand img{width:210px;max-width:65vw}}
+
+/* World time-zone selector */
+.tz-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 18px;padding:12px 15px;border:1px solid #6b5082;border-radius:14px;background:#21192f}
+.tz-bar button,.tz-actions button{border:1px solid #c7a5e8;background:#50316b;color:#fff;border-radius:10px;padding:10px 14px;font-weight:700}
+.tz-bar .tz-current{color:#f3cf87;font-weight:700;font-size:13px}
+.tz-dialog{width:min(850px,calc(100vw - 24px));max-height:90vh;overflow:auto;background:#171323;color:#f8efff;border:1px solid #a57ac9;border-radius:20px;padding:24px;box-shadow:0 22px 70px #000b}
+.tz-dialog::backdrop{background:#05030bc9}
+.tz-dialog h2{margin:0 0 8px}.tz-dialog p{color:#cfc1dd;line-height:1.5;font-size:14px}
+.tz-map{position:relative;width:100%;aspect-ratio:2/1;overflow:hidden;border-radius:14px;border:1px solid #755b8e;background:linear-gradient(140deg,#142a43,#192238)}
+.tz-map svg{display:block;width:100%;height:100%}.tz-map path{fill:#445d62;stroke:#74918a;stroke-width:.6}
+.tz-city{position:absolute;transform:translate(-50%,-50%);width:13px;height:13px;min-width:13px;padding:0;border:2px solid #fff;border-radius:50%;background:#e9b874;box-shadow:0 0 0 3px #130f2399;cursor:pointer}
+.tz-city:hover,.tz-city:focus-visible{background:#fff;outline:3px solid #e9b874;z-index:2}
+.tz-city.selected{background:#e471df;box-shadow:0 0 0 4px #e471df55}
+.tz-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.tz-actions button{flex:1 1 auto}
+.tz-selected{margin-top:12px;padding:12px;border:1px solid #59416d;border-radius:10px;color:#f3cf87;font-weight:700}
+@media(max-width:560px){.tz-dialog{padding:15px}.tz-city{width:12px;height:12px}.tz-bar{align-items:stretch}.tz-bar button{width:100%}}
 </style>
 </head>
 <body>
@@ -168,7 +184,7 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     </section>
     <div class="calendar-aside">
       <div>
-        <p class="search-heading">Search Events</p>
+        <p class="search-heading">Search Events</p><button type="button" id="tz-open-search" class="calendar-reset" style="margin-top:10px;width:100%">Change event time zone / World map</button>
         <div class="filters"><input id="search" type="search" placeholder="Search events, artists or venues" aria-label="Search events"><label class="time-filter-label" for="time-filter">Event start time (SLT)</label><select id="time-filter" aria-label="Filter events by start time in Second Life Time"><option value="all">All times (SLT)</option></select></div>
         <div id="category-buttons" class="category-buttons" role="group" aria-label="Filter events by category"><button type="button" class="active" data-category="all" aria-pressed="true">All categories</button></div>
       </div>
@@ -178,12 +194,13 @@ h1,h2,h3,.brand,.calendar-heading h2{font-family:"Outfit",ui-sans-serif,system-u
     </div>
   </div>
 </section>
-<div class="section-head"><h2>All collected events</h2><p>All times shown in Second Life Time (SLT / Pacific Time)</p></div>
+<div class="tz-bar" aria-label="Event time zone"><button type="button" id="tz-open">World Time Zone Map</button><button type="button" id="tz-browser">Use my local time</button><button type="button" id="tz-slt">Use SLT</button><span class="tz-current" id="tz-current">Showing Second Life Time (SLT)</span></div><div class="section-head"><h2>All collected events</h2><p id="tz-results-note">All times shown in Second Life Time (SLT / Pacific Time)</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
 </main>
 <button type="button" id="back-to-search" aria-label="Go to top">↑ Go to top</button>
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span></div></footer>
+<dialog id="tz-dialog" class="tz-dialog" aria-labelledby="tz-title"><h2 id="tz-title">Choose your time zone</h2><p>Select a city marker on the world map. Event dates and hours will change to that city's local time, including daylight saving adjustments. The calendar continues to use SLT dates.</p><div id="tz-map" class="tz-map"><svg viewBox="0 0 1000 500" role="img" aria-label="Stylized world map. Select one of the city markers."><path d="M35 100 L115 55 190 65 235 105 220 148 185 164 172 214 132 243 99 206 67 202 45 160Z M200 235 L247 222 285 255 295 312 273 361 255 420 224 463 202 401 191 328Z M415 95 L456 68 506 75 535 113 509 145 476 140 456 177 431 157Z M441 176 L500 165 543 209 550 285 512 367 478 399 447 339 427 255Z M515 83 L602 55 699 70 781 109 851 139 875 187 823 216 790 252 737 228 706 270 664 242 630 202 591 207 558 160Z M787 332 L847 323 896 355 918 399 878 434 823 421 798 379Z M331 46 L356 25 383 45 372 92 344 100Z M912 126 L934 112 946 148 928 166Z"/></svg></div><div class="tz-selected" id="tz-selected" aria-live="polite">Choose a city on the map</div><div class="tz-actions"><button type="button" id="tz-apply" disabled>Apply selected city</button><button type="button" id="tz-dialog-browser">Use my device time zone</button><button type="button" id="tz-dialog-slt">Second Life Time</button><button type="button" id="tz-close">Close</button></div></dialog>
 <script>
 'use strict';
 
@@ -193,7 +210,7 @@ const slYear=Number(slTodayParts.find(p=>p.type==='year').value);
 const slMonth=Number(slTodayParts.find(p=>p.type==='month').value);
 const calendarCursor=new Date(slYear,slMonth-1,1);
 const PAGE_SIZE=24;
-// One-hour SLT time slots, beginning at midnight Pacific Time.
+// One-hour slots, interpreted in the currently selected display time zone.
 const timeFilter=document.getElementById('time-filter');
 const formatHour=h=>{const hour=h%12||12;return hour+(h<12?' AM':' PM')};
 for(let start=0;start<24;start+=1){
@@ -216,6 +233,52 @@ timeFilter.addEventListener('change',()=>{
  });
 });
 const $=id=>document.getElementById(id);
+// Accurate city-based IANA time zones; markers are selectable, not arbitrary map-coordinate guesses.
+const tzCities=[
+ ['Los Angeles','America/Los_Angeles',-118.24,34.05],['New York','America/New_York',-74.01,40.71],['Chicago','America/Chicago',-87.63,41.88],['Denver','America/Denver',-104.99,39.74],['Vancouver','America/Vancouver',-123.12,49.28],['Toronto','America/Toronto',-79.38,43.65],['Mexico City','America/Mexico_City',-99.13,19.43],['São Paulo','America/Sao_Paulo',-46.63,-23.55],['Buenos Aires','America/Argentina/Buenos_Aires',-58.38,-34.6],['Lima','America/Lima',-77.04,-12.05],['London','Europe/London',-.13,51.51],['Paris','Europe/Paris',2.35,48.86],['Berlin','Europe/Berlin',13.4,52.52],['Madrid','Europe/Madrid',-3.7,40.42],['Rome','Europe/Rome',12.5,41.9],['Athens','Europe/Athens',23.73,37.98],['Istanbul','Europe/Istanbul',28.98,41.01],['Cairo','Africa/Cairo',31.24,30.04],['Lagos','Africa/Lagos',3.38,6.52],['Nairobi','Africa/Nairobi',36.82,-1.29],['Johannesburg','Africa/Johannesburg',28.05,-26.2],['Dubai','Asia/Dubai',55.27,25.2],['Mumbai','Asia/Kolkata',72.88,19.08],['Bangkok','Asia/Bangkok',100.5,13.76],['Singapore','Asia/Singapore',103.82,1.35],['Hong Kong','Asia/Hong_Kong',114.17,22.32],['Shanghai','Asia/Shanghai',121.47,31.23],['Tokyo','Asia/Tokyo',139.69,35.68],['Seoul','Asia/Seoul',126.98,37.57],['Sydney','Australia/Sydney',151.21,-33.87],['Melbourne','Australia/Melbourne',144.96,-37.81],['Perth','Australia/Perth',115.86,-31.95],['Auckland','Pacific/Auckland',174.76,-36.85],['Honolulu','Pacific/Honolulu',-157.86,21.31]
+];
+let displayZone='America/Los_Angeles',zoneLabel='Second Life Time (SLT)',pendingZone=null,pendingLabel='';
+try{const stored=JSON.parse(localStorage.getItem('eventide-display-zone')||'null');if(stored&&typeof stored.zone==='string'&&typeof stored.label==='string'){new Intl.DateTimeFormat('en-US',{timeZone:stored.zone});displayZone=stored.zone;zoneLabel=stored.label}}catch{}
+const zoneHourFormat=()=>new Intl.DateTimeFormat('en-US',{timeZone:displayZone,hour:'numeric',hourCycle:'h23'});
+const eventDisplayHour=date=>Number(zoneHourFormat().format(date));
+const zoneDateFormat=opts=>new Intl.DateTimeFormat('en-US',{timeZone:displayZone,...opts});
+function updateZoneLabels(){
+ document.getElementById('tz-current').textContent='Showing: '+zoneLabel;
+ document.getElementById('tz-results-note').textContent='All event dates and times shown in '+zoneLabel+'. Calendar dates remain SLT.';
+ document.querySelector('.time-filter-label').textContent='Event start time ('+zoneLabel+')';
+ timeFilter.options[0].textContent='All times ('+zoneLabel+')';
+}
+function applyZone(zone,label){
+ try{new Intl.DateTimeFormat('en-US',{timeZone:zone})}catch{return}
+ displayZone=zone;zoneLabel=label;timeFilter.value='all';
+ try{localStorage.setItem('eventide-display-zone',JSON.stringify({zone,label}))}catch{}
+ updateZoneLabels();renderFeatured();render();
+ document.getElementById('tz-dialog').close();
+}
+const deviceZone=()=>Intl.DateTimeFormat().resolvedOptions().timeZone||'America/Los_Angeles';
+const useDevice=()=>{const z=deviceZone();applyZone(z,'Your local time ('+z.replaceAll('_',' ')+')')};
+document.getElementById('tz-browser').addEventListener('click',useDevice);
+document.getElementById('tz-dialog-browser').addEventListener('click',useDevice);
+document.getElementById('tz-slt').addEventListener('click',()=>applyZone('America/Los_Angeles','Second Life Time (SLT)'));
+document.getElementById('tz-dialog-slt').addEventListener('click',()=>applyZone('America/Los_Angeles','Second Life Time (SLT)'));
+const tzDialog=document.getElementById('tz-dialog');
+for(const [name,zone,lon,lat] of tzCities){
+ const btn=document.createElement('button');btn.type='button';btn.className='tz-city';
+ btn.style.left=((lon+180)/360*100)+'%';btn.style.top=((90-lat)/180*100)+'%';
+ btn.title=name+' ('+zone+')';btn.setAttribute('aria-label','Select '+name);
+ btn.addEventListener('click',()=>{
+  document.querySelectorAll('.tz-city.selected').forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');pendingZone=zone;pendingLabel=name+' ('+zone.replaceAll('_',' ')+')';
+  const localNow=new Intl.DateTimeFormat('en-US',{timeZone:zone,dateStyle:'full',timeStyle:'short'}).format(new Date());
+  document.getElementById('tz-selected').textContent=name+': '+localNow;
+  document.getElementById('tz-apply').disabled=false;
+ });document.getElementById('tz-map').append(btn);
+}
+document.getElementById('tz-apply').addEventListener('click',()=>{if(pendingZone)applyZone(pendingZone,pendingLabel)});
+document.getElementById('tz-close').addEventListener('click',()=>tzDialog.close());
+for(const id of ['tz-open','tz-open-search'])document.getElementById(id).addEventListener('click',()=>tzDialog.showModal());
+updateZoneLabels();
+
 const music=/\b(music|live singer|singing|concert|pianist|piano|dj|disc jockey|band|jazz|blues|rock|classical|karaoke|gig|performer|musician)\b/i;
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=u=>{try{const x=new URL(u);return ['https:','http:','secondlife:'].includes(x.protocol)?x.href:null}catch{return null}};
@@ -296,7 +359,7 @@ function renderFeatured(){
  featuredIndex=featuredIndex%group.items.length;
  const next=group.items[featuredIndex];
  const date=validDate(next);
- const formatted=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',hour12:true}).format(date)+' SLT';
+ const formatted=zoneDateFormat({weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',hour12:true}).format(date)+' ('+zoneLabel+')';
  const url=safeUrl(next.url),tp=safeUrl(next.teleport_url),locationLink=tp||url;
  const controls=group.items.length>1?`<div class="featured-carousel-controls" aria-label="Events starting at the same time"><button type="button" id="featured-prev" aria-label="Previous event">Previous</button><span class="featured-carousel-count">${featuredIndex+1} / ${group.items.length}</span><button type="button" id="featured-next" aria-label="Next event">Next</button></div>`:'';
  target.innerHTML=`<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}${controls}`;
@@ -320,8 +383,8 @@ setInterval(()=>{
 },60000);
 function render(reset=true){
  const q=$('search').value.trim().toLowerCase(),cat=selectedCategory,slot=timeFilter.value;
- const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(slot==='all'||eventSLHour(t)===Number(slot))&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
- // Keep the main event list strictly chronological in SLT.
+ const filtered=events.filter(e=>{const t=validDate(e),txt=[e.title,e.venue,e.description,e.category].join(' ').toLowerCase();return t&&(slot==='all'||eventDisplayHour(t)===Number(slot))&&(!selectedDate||dateKey(t)===selectedDate)&&(!q||txt.includes(q))&&(cat==='all'||e.category===cat)&&(view!=='music'||(e.official_category?e.category==='Live Music':e.category==='Live Music'||music.test(txt)))}).sort((a,b)=>validDate(a)-validDate(b));
+ // Keep the main event list strictly chronological by actual event start instant.
  // Featured events are already part of `events`, so they appear naturally
  // at their scheduled time without being pinned or duplicated.
  filteredEvents=filtered;
@@ -337,12 +400,12 @@ function showNextPage(){
     const url=safeUrl(e.url),tp=safeUrl(e.teleport_url),date=validDate(e);
     const venueLink=tp||url;
     const locale='en-US';
-    const slTimeZone='America/Los_Angeles';
+    const slTimeZone=displayZone;
     const month=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,month:'short'}).format(date);
     const day=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,day:'2-digit'}).format(date);
     const weekday=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(date);
     const time=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,hour:'numeric',minute:'2-digit',hour12:true}).format(date);
-    const zone='SLT';
+    const zone=zoneLabel;
     const pin='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
     return `<article class="event"><img class="event-image" src="${getCategoryImage(e.category)}" alt="${escapeHTML(e.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
   }).join('');
