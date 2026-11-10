@@ -59,7 +59,7 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 <body>
 <header class="wrap top"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="250" height="83"></a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html" aria-current="page">Clubs &amp; Locations</a><a class="dashboard-link" href="./dashboard.html">Dashboard</a></nav></header>
 <main class="wrap"><section class="intro"><div class="eyebrow">Second Life Events Explorer</div><h1>Clubs &amp; Locations</h1><p>Explore places where Second Life comes alive. Browse each venue's photos and teleport directly to your next destination.</p></section>
-<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Latest published locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div><div class="note">The four most recently published venues appear above.</div></section>
+<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Latest published locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div><div class="note">The latest published venues appear first when available.</div></section>
 <section class="frame" aria-label="Community venues" style="margin-top:-25px">
   <div class="tools"><p><strong style="color:#e7c381;font-size:19px">Community Venues</strong></p></div>
   <p id="community-status" class="note" role="status" style="border-top:0;margin-top:0">Loading community venues...</p>
@@ -82,14 +82,21 @@ const communityGrid=document.getElementById('community-grid');
 const featuredCount=document.getElementById('venue-count');
 const communityStatus=document.getElementById('community-status');
 let activeVenueCategory='All locations',allVenues=[];
+const FALLBACK_LOCATIONS=[
+ {name:'BUTINE Club and SPA',type:'Nightclub | Spa & Wellness',location:'Tariah (187, 52, 4002)',description:'Since 2021. Where pleasure and relaxation meet.',images:['./images/clubs/butine-01.png','./images/clubs/butine-02.png','./images/clubs/butine-03.png','./images/clubs/butine-04.png','./images/clubs/butine-05.png','./images/clubs/butine-06.png','./images/clubs/butine-07.png','./images/clubs/butine-08.png','./images/clubs/butine-09.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/187/52/4002'},
+ {name:'Saphir Royal Concert Hall',type:'Live Music Venue',location:'Tariah (204, 80, 2002)',description:'A dedicated venue for concerts and live performances.',images:['./images/clubs/saphir-royal-01.png','./images/clubs/saphir-royal-02.png','./images/clubs/saphir-royal-03.png','./images/clubs/saphir-royal-04.png','./images/clubs/saphir-royal-05.png','./images/clubs/saphir-royal-06.png','./images/clubs/saphir-royal-07.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/204/80/2002'},
+ {name:'BUTINE Escape Room',type:'Game Venue',location:'Exomorogun (116, 86, 1002)',description:'Discover the BUTINE Escape Room in Second Life.',images:['./images/clubs/butine-escape-01.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/116/86/1002'},
+ {name:'Nerina City',type:'Roleplay',location:'Exomorogun (172, 29, 22)',description:'Explore Nerina City, its café, restaurant, cinema and charming streets.',images:['./images/clubs/nerina-01.png','./images/clubs/nerina-02.png','./images/clubs/nerina-03.png','./images/clubs/nerina-04.png','./images/clubs/nerina-05.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/172/29/22'}
+].map((c,i)=>({id:"fallback-"+i,name:c.name,category:c.type,location:c.location,description:c.description,teleport_url:c.teleport,photos:c.images,localFallback:true}));
+
 for(const category of ['All locations',...VENUE_STYLES]){
  const button=document.createElement('button');button.type='button';button.textContent=category;
  button.dataset.category=category;button.setAttribute('aria-pressed',String(category===activeVenueCategory));
  button.classList.toggle('active',category===activeVenueCategory);venueCategories.append(button);
 }
 function allowedPhotos(value){
- let origin;try{origin=new URL(window.EVENTIDE_SUPABASE_URL).origin}catch{return []}
- return (Array.isArray(value)?value:[]).filter(s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.origin===origin&&u.pathname.startsWith('/storage/v1/object/public/club-photos/')}catch{return false}});
+ let origin='';try{origin=new URL(window.EVENTIDE_SUPABASE_URL).origin}catch{}
+ return (Array.isArray(value)?value:[]).filter(s=>{if(/^\.\/images\/clubs\/[a-z0-9_-]+\.(png|jpg|jpeg|webp)$/i.test(s))return true;try{const u=new URL(s);return u.protocol==='https:'&&u.origin===origin&&u.pathname.startsWith('/storage/v1/object/public/club-photos/')}catch{return false}});
 }
 function drawVenue(target,c){
  const card=document.createElement('article');card.className='card';
@@ -150,14 +157,15 @@ venueCategories.addEventListener('click',e=>{
 });
 search.addEventListener('input',render);
 document.getElementById('year').textContent=new Date().getFullYear();
+allVenues=FALLBACK_LOCATIONS;render();
 (async function(){
- if(!window.supabase||!window.EVENTIDE_SUPABASE_URL||!window.EVENTIDE_SUPABASE_ANON_KEY){featuredCount.textContent='Locations unavailable';communityStatus.textContent='Supabase is not configured.';return}
+ if(!window.supabase||!window.EVENTIDE_SUPABASE_URL||!window.EVENTIDE_SUPABASE_ANON_KEY){communityStatus.textContent='Published venues are temporarily unavailable. Showing the original locations.';return}
  try{
   const client=window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY);
   const {data,error}=await client.from('clubs').select('id,name,category,location,description,teleport_url,photos,created_at').order('created_at',{ascending:false}).limit(100);
   if(error)throw error;
-  allVenues=[...new Map((data||[]).map(c=>[c.id,c])).values()];render();
- }catch(error){featuredCount.textContent='Locations unavailable';communityStatus.textContent='Could not load venues. Check Supabase permissions and connection.';console.error('Venues:',error)}
+  const published=[...new Map((data||[]).map(c=>[c.id,c])).values()];allVenues=published.length?published:FALLBACK_LOCATIONS;render();if(!published.length)communityStatus.textContent='No published venues available. Showing the original locations.';
+ }catch(error){communityStatus.textContent='Published venues could not be loaded. Showing the original locations.';console.error('Venues:',error)}
 })();
 </script>
 </body></html>
