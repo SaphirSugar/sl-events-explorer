@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-10T10:57:37.896416+00:00",
+  "updated_at": "2026-11-10T11:59:28.865384+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -311,9 +311,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503131",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00",
       "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
       "title": "🉐WET N' NASTY!@ OKIYA 🉐",
@@ -324,9 +324,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503263",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🍒 NEW TO THE ADULT INDUSTRY? 🍒",
@@ -336,11 +336,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499167",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "DJ Grizzly @ Nat's Jazz with Actual Jazz 5 pm - 7 pm",
@@ -350,11 +349,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9478189",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/880568dd-b800-6b02-6bc2-3d6e11165f63/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ REAPER @ WATERMELON SUGAR CLUB",
@@ -364,11 +362,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500856",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Dj Sweet @ The Bricks",
@@ -379,9 +376,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503553",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/9b94e482-abef-b677-05e7-8926d075390b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "STEP INTO OUR CANDY LAND CHRISTMAS MAGIC!",
@@ -391,11 +388,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499841",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00",
       "image_url": "https://picture-service.secondlife.com/6154ec5d-a0bd-5117-e9b5-524aa31101c2/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "STORE ANIMATION new cool new dance SHOP HUD DANCE nices",
@@ -405,11 +401,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490638",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/69fa4635-27f2-8cb3-bd22-37028e7187cc/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "TONGUE-OUT TUESDAY w/ SHEYZ @ Club Misfit - 4AM",
@@ -420,9 +415,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503133",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00",
       "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
       "title": "Tuesday Mornings at  !~ Club Caramel ~!",
@@ -432,11 +427,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9480978",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/af5c59f1-f2c7-daa8-e163-6a39893f4985/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Weekly Morning Devotion",
@@ -446,11 +440,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494741",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f31877-92d7-c7c5-25a4-df2dee5593bb/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🉐always being naughty XXX @ OKIYA 🉐",
@@ -461,9 +454,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503264",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "💦👅 Hey, you perverts! Come unleash your darkest desires! Here, anything goes! Hehee 🌈😈",
@@ -484,7 +477,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499168",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
@@ -830,6 +822,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Tuesday 10th November line up @ Serimner",
+      "starts_at": "2026-11-10T08:00:00-08:00",
+      "venue": ".:Serimner:. - New location",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503705",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "WAKE UP PARTY AT WET SPOT BEACH CLUB !",
@@ -1534,6 +1537,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "CANCELLED ANDEE TOPHAT LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2026-11-10T12:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9461368",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "CLUB KOLOHE DJ ANDY/HOST ANYA BEST IN COME AS YOU ARE",
@@ -2461,13 +2475,13 @@
     {
       "title": "Sappho's Purring Kitten Hiring DJ's",
       "starts_at": "2026-11-10T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499318",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Tuesday blues cure",
@@ -2734,6 +2748,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "4PM DJ TONY FOXX and JUICY - BOUND IN RHYTHM TUESDAY @ 24",
+      "starts_at": "2026-11-10T16:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503708",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
+    },
+    {
       "title": "CLUB ACCESSIBLE WHERE EVERYONE IS WLCOME!!",
       "starts_at": "2026-11-10T16:00:00-08:00",
       "venue": "Club Accessible",
@@ -2857,13 +2882,13 @@
     {
       "title": "DJ Stacie @ Sappho's Purring Kitten 4PM to 6PM",
       "starts_at": "2026-11-10T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499324",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ TALON @ WATERMELON SUGAR CLUB",
@@ -3117,6 +3142,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Fulfil those Urges",
+      "starts_at": "2026-11-10T16:30:00-08:00",
+      "venue": "THE EXCHANGE - Adult Directory - https://goo.gl/YY5twX",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503682",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T10:59:49.358251+00:00"
     },
     {
       "title": "***MIMI CARPENTER*** Live at 5PM @ Club PlanetAry",
@@ -3414,6 +3450,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "6PM DJ SHELL and BROOK  - BOUND IN RHYTHM TUESDAY @ 24",
+      "starts_at": "2026-11-10T18:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503709",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "6PM SLT - DJ BC SUSSER’S BREAK FROM ALL THAT JAZZ @ THE CELLAR",
@@ -4065,6 +4112,17 @@
       "venue_photo_checked_at": "2026-11-07T02:57:15.656335+00:00"
     },
     {
+      "title": "7:00pm JPeabody Live @ FlyGearZ Tyme Region",
+      "starts_at": "2026-11-10T19:00:00-08:00",
+      "venue": "Winter's Watlz - Tyme -  FlyGearZ Entertainment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498021",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T02:57:15.656335+00:00"
+    },
+    {
       "title": "CURATE your VIBE! 500 DESIGNER FITS! INFINITE STYLE!",
       "starts_at": "2026-11-10T19:00:00-08:00",
       "venue": "LUXE Paris Fashion House",
@@ -4316,6 +4374,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "8PM DJ DIME and SHELL  - BOUND IN RHYTHM TUESDAY @ 24",
+      "starts_at": "2026-11-10T20:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503722",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Classic Rock Event @ Club Carnage",
@@ -4701,6 +4770,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Visit the Exchange",
+      "starts_at": "2026-11-10T22:30:00-08:00",
+      "venue": "THE EXCHANGE - Adult Directory - https://goo.gl/YY5twX",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503683",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T10:59:49.358251+00:00"
     },
     {
       "title": "IDELLA QUANDRY AT CAFE MUSIQUE",
@@ -5438,6 +5518,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Wake & Bake w/ DJ Blue and Host Kalea",
+      "starts_at": "2026-11-11T08:00:00-08:00",
+      "venue": "Interstate 84 Regent Riders Biker Bar / UDMC Riverside",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503701",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
+    },
+    {
       "title": "🍂🎶 WEDNESDAY MORNING AUTUMN VIBES AT LOVE & HARMONY JAZZ WITH DJ LADY LAURA, 8AM 🎶🍂",
       "starts_at": "2026-11-11T08:00:00-08:00",
       "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
@@ -5625,6 +5716,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-11T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503710",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ DR NETTIE VEDA @ MUDDY'S",
       "starts_at": "2026-11-11T10:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -5667,6 +5769,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "DJ Mayla's Hump Day Mixer at The House of V! 10am-12pm SLT",
+      "starts_at": "2026-11-11T10:00:00-08:00",
+      "venue": "THE HOUSE OF V  Mature Club-Live Djs -Mall-20 yrs on the grid",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503706",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Migsy's Cruising 🕹️ Back To The 80s! 🕶️ for the 🐫 Hump Day Mix 🐫",
@@ -6747,6 +6860,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "CANCELLED MARINA SHARPSHIRE LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9461376",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Crystal Craze x5 - One Hour at Cash Cove!",
       "starts_at": "2026-11-11T14:00:00-08:00",
       "venue": "Cash Cove Skill Gaming - L$500K Mega AIO",
@@ -7310,13 +7434,13 @@
     {
       "title": "Dj Justine @ Sappho's Purring Kitten 4pm to 6pm",
       "starts_at": "2026-11-11T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499466",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Dj Tiffany in the house 4=6",
@@ -9242,6 +9366,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Wake & Bake w/ DJ Blue and Host Kalea",
+      "starts_at": "2026-11-12T08:00:00-08:00",
+      "venue": "Interstate 84 Regent Riders Biker Bar / UDMC Riverside",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503702",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
+    },
+    {
       "title": "🐊 WET WILLIES IS YOUR #1 CLASSIC ROCK DESTINATION!",
       "starts_at": "2026-11-12T08:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -10388,13 +10523,13 @@
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten 2pm to 4pm",
       "starts_at": "2026-11-12T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499474",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "GAZ Performs LIVE @ Nevermore - 2pm , Live Singer, Live Performance!",
@@ -10905,13 +11040,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten",
       "starts_at": "2026-11-12T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500389",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lady Marie & Hosty Nora are spinning tunes live at The Waters Edge",
@@ -12906,6 +13041,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Wake & Bake w/ DJ Blue and Host Kalea",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": "Interstate 84 Regent Riders Biker Bar / UDMC Riverside",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503703",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
+    },
+    {
       "title": "☕🎶 FRIDAY MORNING AT LOVE & HARMONY JAZZ WITH DJ CRAYVENN 8AM🎶☕",
       "starts_at": "2026-11-13T08:00:00-08:00",
       "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
@@ -13102,6 +13248,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Mayla's Friday Mixer at The House of V! 10am-12pm SLT",
+      "starts_at": "2026-11-13T10:00:00-08:00",
+      "venue": "THE HOUSE OF V  Mature Club-Live Djs -Mall-20 yrs on the grid",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503707",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Radio LaLa Classic Rock 80s Disco 70s@ The Midnight Cabaret",
@@ -14206,13 +14363,13 @@
     {
       "title": "DJ Rebecca @ Sappho's Purring Kitten",
       "starts_at": "2026-11-13T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500393",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ STORM H @ WATERMELON SUGAR CLUB",
@@ -14635,13 +14792,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten",
       "starts_at": "2026-11-13T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500399",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang is Blues'ng @ The Music Factory",
@@ -16412,6 +16569,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "Wake & Bake w/ DJ Blue and Host Kalea",
+      "starts_at": "2026-11-14T08:00:00-08:00",
+      "venue": "Interstate 84 Regent Riders Biker Bar / UDMC Riverside",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503704",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
+    },
+    {
       "title": "🎉 Mordecai's 📺 Saturday Morning Cartoon Party 📺 Takes You 🕹️ Back To The 80s! 🕶️",
       "starts_at": "2026-11-14T08:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -17592,13 +17760,13 @@
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten",
       "starts_at": "2026-11-14T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500403",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Its The BIG80s at the HFI's Betty's Place!!",
@@ -17998,13 +18166,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten SPK Fall kick off",
       "starts_at": "2026-11-14T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498850",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang has the Blues for you  @ The Music Factory",
@@ -18280,6 +18448,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "5pm slt - It's Saturday Night @ LEGENDS Classic Rock - Madelyn Majestic - T1Radio.com",
+      "starts_at": "2026-11-14T17:00:00-08:00",
+      "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503698",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "7pm slt - T1Radio's Pacific Coast Highway with Anni Braveheart!",
@@ -20812,13 +20991,13 @@
     {
       "title": "Sappho's Purring Kitten Fall begins",
       "starts_at": "2026-11-15T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498846",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "The ''AROUND THE WORLD'' COLLECTION! FASHION TAKES YOU on a JOURNEY!",
@@ -21054,13 +21233,13 @@
     {
       "title": "Sppho's Purring Kitten Hiring DJ's",
       "starts_at": "2026-11-15T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501299",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Sunday Dance Party! DJ Mishey & Zaya",
@@ -23408,13 +23587,13 @@
     {
       "title": "Sappho's Purring Kitten Fall Hiring",
       "starts_at": "2026-11-16T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498903",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "⭐🎵⭐ 2 PM: Max Kleene live @ The Golden Hour Club ⭐🎵⭐",
@@ -23595,13 +23774,13 @@
     {
       "title": "Hiring Sappho's Purring Kitten",
       "starts_at": "2026-11-16T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498907",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "IT PARTY TIME WITH DJ MADMAN JOHN",
@@ -24828,6 +25007,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "CAFE MUSIQUE WELCOMES LAURA TO THE STAGE !",
+      "starts_at": "2026-11-17T07:00:00-08:00",
+      "venue": "Peaceful Solitude",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8497175",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "DJ GINNIE knocking out Blues at Fogbound",
       "starts_at": "2026-11-17T07:00:00-08:00",
       "venue": "FogBound Blues",
@@ -25671,13 +25861,13 @@
     {
       "title": "Sappho's Purring Kitten Hiring DJ's",
       "starts_at": "2026-11-17T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499319",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Tuesday blues cure",
@@ -25869,13 +26059,13 @@
     {
       "title": "DJ Stacie @ Sappho's Purring Kitten 4PM to 6PM",
       "starts_at": "2026-11-17T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499325",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ TALON @ WATERMELON SUGAR CLUB",
@@ -27219,6 +27409,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-18T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503711",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ DR NETTIE VEDA @ MUDDY'S",
       "starts_at": "2026-11-18T10:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -28013,13 +28214,13 @@
     {
       "title": "DJ Kitten Dembo @ Sappho's Purring Kitten",
       "starts_at": "2026-11-18T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9479993",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang is Rockin' the Blues @ The Music Factory",
@@ -28057,13 +28258,13 @@
     {
       "title": "Dj Justine @ Sappho's Purring Kitten 4pm to 6pm",
       "starts_at": "2026-11-18T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499467",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Dj Tiffany in the house 4=6",
@@ -29716,13 +29917,13 @@
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten 2pm to 4pm",
       "starts_at": "2026-11-19T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499475",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "GROOVE WITH THE TUNES- DJ ROBBIE HAS THE BEATS",
@@ -29935,13 +30136,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten",
       "starts_at": "2026-11-19T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500390",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lady Marie & Hosty Nora are spinning tunes live at The Waters Edge",
@@ -31739,13 +31940,13 @@
     {
       "title": "DJ Rebecca @ Sappho's Purring Kitten",
       "starts_at": "2026-11-20T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500394",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Sagia Fridays!",
@@ -31959,13 +32160,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten",
       "starts_at": "2026-11-20T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500400",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang is Blues'ng @ The Music Factory",
@@ -33629,13 +33830,13 @@
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten",
       "starts_at": "2026-11-21T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500404",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "GABRIELL DUBRATT LIVE AT KITTENZ",
@@ -33936,13 +34137,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten SPK Fall kick off",
       "starts_at": "2026-11-21T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498851",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang has the Blues for you  @ The Music Factory",
@@ -34130,6 +34331,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+    },
+    {
+      "title": "5pm slt - It's Saturday Night @ LEGENDS Classic Rock - Madelyn Majestic - T1Radio.com",
+      "starts_at": "2026-11-21T17:00:00-08:00",
+      "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503699",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "7pm slt - T1Radio's Pacific Coast Highway with Anni Braveheart!",
@@ -34614,6 +34826,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T02:57:15.656335+00:00"
+    },
+    {
+      "title": "7pm slt - T1Radio's Pacific Coast Highway with Anni Braveheart!",
+      "starts_at": "2026-11-21T19:00:00-08:00",
+      "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502764",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "DJ BEX BRINGS the BLUES TO FOGBOUND",
@@ -35760,13 +35983,13 @@
     {
       "title": "Sappho's Purring Kitten Fall begins",
       "starts_at": "2026-11-22T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498847",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "The ''AROUND THE WORLD'' COLLECTION! FASHION TAKES YOU on a JOURNEY!",
@@ -35870,13 +36093,13 @@
     {
       "title": "Sppho's Purring Kitten Hiring DJ's",
       "starts_at": "2026-11-22T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501300",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Sunday Dance Party! DJ Mishey & Zaya",
@@ -37232,13 +37455,13 @@
     {
       "title": "Sappho's Purring Kitten Fall Hiring",
       "starts_at": "2026-11-23T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498904",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Kelly @ Belle's Coffee Shop",
@@ -37320,13 +37543,13 @@
     {
       "title": "Hiring Sappho's Purring Kitten",
       "starts_at": "2026-11-23T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498908",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "ITS MONDAY MADNESS WITH DJ MADMAN JOHN",
@@ -38485,13 +38708,13 @@
     {
       "title": "Sappho's Purring Kitten Hiring DJ's",
       "starts_at": "2026-11-24T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499320",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Tuesday blues cure",
@@ -38628,13 +38851,13 @@
     {
       "title": "DJ Stacie @ Sappho's Purring Kitten 4PM to 6PM",
       "starts_at": "2026-11-24T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499326",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DL DP IS BRINGING HIS TUNES TO BUBBA'S JUKEBOX!!!",
@@ -39635,6 +39858,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-25T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503712",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ DR NETTIE VEDA @ MUDDY'S",
       "starts_at": "2026-11-25T10:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -40167,13 +40401,13 @@
     {
       "title": "Dj Justine @ Sappho's Purring Kitten 4pm to 6pm",
       "starts_at": "2026-11-25T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499468",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Dj Tiffany in the house 4=6",
@@ -41485,13 +41719,13 @@
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten 2pm to 4pm",
       "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499476",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "GROOVE WITH THE TUNES- DJ ROBBIE HAS THE BEATS",
@@ -41638,13 +41872,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten",
       "starts_at": "2026-11-26T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500391",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lady Marie & Hosty Nora are spinning tunes live at The Waters Edge",
@@ -42868,13 +43102,13 @@
     {
       "title": "DJ Rebecca @ Sappho's Purring Kitten",
       "starts_at": "2026-11-27T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500395",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Sagia Fridays!",
@@ -43022,13 +43256,13 @@
     {
       "title": "DJ Justine @ Sappho's Purring Kitten",
       "starts_at": "2026-11-27T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500401",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang is Blues'ng @ The Music Factory",
@@ -44329,13 +44563,13 @@
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten",
       "starts_at": "2026-11-28T14:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500405",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "JJAY DISTINY   2-3 PM @ SPIRIT WOODS",
@@ -44676,6 +44910,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+    },
+    {
+      "title": "5pm slt - It's Saturday Night @ LEGENDS Classic Rock - Madelyn Majestic - T1Radio.com",
+      "starts_at": "2026-11-28T17:00:00-08:00",
+      "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503700",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "7pm slt - T1Radio's Pacific Coast Highway with Anni Braveheart!",
@@ -45116,6 +45361,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "7pm slt - T1Radio's Pacific Coast Highway with Anni Braveheart!",
+      "starts_at": "2026-11-28T19:00:00-08:00",
+      "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502765",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "DJ BEX BRINGS the BLUES TO FOGBOUND",
@@ -46196,13 +46452,13 @@
     {
       "title": "Sppho's Purring Kitten Hiring DJ's",
       "starts_at": "2026-11-29T16:00:00-08:00",
-      "venue": "Sappho's Purring Kitten Club / Venue Fall Harvest",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501301",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "Sunday Dance Party! DJ Mishey & Zaya",
@@ -49005,6 +49261,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T18:53:07.506230+00:00"
+    },
+    {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-02T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503713",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Orgy Wednesday at Main Spa",
@@ -56229,6 +56496,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-09T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503714",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Orgy Wednesday at Main Spa",
       "starts_at": "2026-12-09T11:00:00-08:00",
       "venue": "Spa Sensuelle",
@@ -61824,6 +62102,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-16T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503715",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Orgy Wednesday at Main Spa",
       "starts_at": "2026-12-16T11:00:00-08:00",
       "venue": "Spa Sensuelle",
@@ -62542,6 +62831,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489882",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-17T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503729",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -66723,6 +67023,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-23T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503716",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "A Space Between a Discussion on Metaphysics",
       "starts_at": "2026-12-23T11:30:00-08:00",
       "venue": "A Space Between Hangout and RP",
@@ -67157,6 +67468,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489883",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-24T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503730",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -70085,6 +70407,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-30T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503717",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "D-Jane's Shiny Sounds @ Hotel Chelsea Plaza Galleries",
       "starts_at": "2026-12-30T12:00:00-08:00",
       "venue": "Virtual Hotel Chelsea NYC - Plaza Galleries",
@@ -70394,6 +70727,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489884",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-31T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503731",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -73046,6 +73390,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-06T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503718",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DEXTER SWANSEN LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-06T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -73301,6 +73656,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495397",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-07T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503732",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -75415,6 +75781,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-13T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503719",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MAR BIDDLE LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-13T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -75636,6 +76013,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495398",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-14T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503733",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -77289,6 +77677,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-20T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503720",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DEXTER SWANSEN LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-20T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -77487,6 +77886,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9482445",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-21T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503734",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -78658,6 +79068,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ DAZZLE AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-27T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503721",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MAR BIDDLE LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-27T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -78787,6 +79208,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2027-01-28T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503735",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "WBH Beach Secret Spa - Swimming Snorkeling Marine Life",
@@ -79681,6 +80113,17 @@
       "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
     },
     {
+      "title": "FAJRA META LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-05T12:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503723",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-02-05T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -79690,6 +80133,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "STINNA LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-05T13:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503736",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~~ Helena Navarita~~ @  LOVE HEAVEN  1 pm slt",
