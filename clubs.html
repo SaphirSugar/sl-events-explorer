@@ -49,12 +49,17 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
  body>header.wrap nav{width:100%;justify-content:flex-start;gap:7px}
  body>header.wrap nav a{flex:1 1 auto;padding:9px 10px;font-size:12px}
 }
+/* Venue category filters */
+.venue-categories{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 22px}
+.venue-categories button{border:1px solid #8b659f;background:#271a38;color:#f2e5ff;border-radius:999px;padding:10px 15px;font-weight:700;font-size:13px}
+.venue-categories button:hover{border-color:#e7c381;background:#3b2850}
+.venue-categories button.active{background:#e7c381;border-color:#f1d6a1;color:#211527}
 </style>
 </head>
 <body>
 <header class="wrap top"><a class="brand" href="./index.html" aria-label="Eventide SL home"><img src="./images/eventide-logo.png" alt="Eventide SL" width="250" height="83"></a><nav class="site-nav" aria-label="Navigation principale"><a href="./index.html">Events &amp; Calendar</a><a href="./clubs.html" aria-current="page">Clubs &amp; Locations</a><a class="dashboard-link" href="./dashboard.html">Dashboard</a></nav></header>
 <main class="wrap"><section class="intro"><div class="eyebrow">Second Life Events Explorer</div><h1>Clubs &amp; Locations</h1><p>Explore places where Second Life comes alive. Browse each venue's photos and teleport directly to your next destination.</p></section>
-<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Discover our featured locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div class="grid" id="venue-grid"></div><div class="note">More clubs, concert halls and event destinations will be added over time.</div></section>
+<section class="frame" aria-label="Club and location directory"><div class="tools"><p id="venue-count">Discover our featured locations</p><input id="venue-search" type="search" placeholder="Search clubs and locations" aria-label="Search clubs and locations"></div><div id="venue-categories" class="venue-categories" role="group" aria-label="Filter locations by category"></div><div class="grid" id="venue-grid"></div><div class="note">More clubs, concert halls and event destinations will be added over time.</div></section>
 <section class="frame" aria-label="Community venues" style="margin-top:-25px">
   <div class="tools"><p><strong style="color:#e7c381;font-size:19px">Community Venues</strong></p></div>
   <p id="community-status" class="note" role="status" style="border-top:0;margin-top:0">Loading community venues...</p>
@@ -73,16 +78,32 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
    Empty images and teleport fields display safe placeholders.
    =============================================================== */
 const LOCATIONS=[
- {name:'BUTINE Club and SPA',type:'Club & SPA',location:'Tariah (187, 52, 4002)',description:'Since 2021. Where pleasure and relaxation meet.',images:['./images/clubs/butine-01.png','./images/clubs/butine-02.png','./images/clubs/butine-03.png','./images/clubs/butine-04.png','./images/clubs/butine-05.png','./images/clubs/butine-06.png','./images/clubs/butine-07.png','./images/clubs/butine-08.png','./images/clubs/butine-09.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/187/52/4002'},
- {name:'Saphir Royal Concert Hall',type:'Concert Hall',location:'Tariah (204, 80, 2002)',description:'A dedicated venue for concerts and live performances.',images:['./images/clubs/saphir-royal-01.png','./images/clubs/saphir-royal-02.png','./images/clubs/saphir-royal-03.png','./images/clubs/saphir-royal-04.png','./images/clubs/saphir-royal-05.png','./images/clubs/saphir-royal-06.png','./images/clubs/saphir-royal-07.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/204/80/2002'},
- {name:'BUTINE Escape Room',type:'Escape Room',location:'Exomorogun (116, 86, 1002)',description:'Discover the BUTINE Escape Room in Second Life.',images:['./images/clubs/butine-escape-01.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/116/86/1002'},
- {name:'Nerina City',type:'City & Event Location',location:'Exomorogun (172, 29, 22)',description:'Explore Nerina City, its café, restaurant, cinema and charming streets.',images:['./images/clubs/nerina-01.png','./images/clubs/nerina-02.png','./images/clubs/nerina-03.png','./images/clubs/nerina-04.png','./images/clubs/nerina-05.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/172/29/22'}
+ {name:'BUTINE Club and SPA',type:'Nightclub | Spa & Wellness',location:'Tariah (187, 52, 4002)',description:'Since 2021. Where pleasure and relaxation meet.',images:['./images/clubs/butine-01.png','./images/clubs/butine-02.png','./images/clubs/butine-03.png','./images/clubs/butine-04.png','./images/clubs/butine-05.png','./images/clubs/butine-06.png','./images/clubs/butine-07.png','./images/clubs/butine-08.png','./images/clubs/butine-09.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/187/52/4002'},
+ {name:'Saphir Royal Concert Hall',type:'Live Music Venue',location:'Tariah (204, 80, 2002)',description:'A dedicated venue for concerts and live performances.',images:['./images/clubs/saphir-royal-01.png','./images/clubs/saphir-royal-02.png','./images/clubs/saphir-royal-03.png','./images/clubs/saphir-royal-04.png','./images/clubs/saphir-royal-05.png','./images/clubs/saphir-royal-06.png','./images/clubs/saphir-royal-07.png'],teleport:'https://maps.secondlife.com/secondlife/Tariah/204/80/2002'},
+ {name:'BUTINE Escape Room',type:'Game Venue',location:'Exomorogun (116, 86, 1002)',description:'Discover the BUTINE Escape Room in Second Life.',images:['./images/clubs/butine-escape-01.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/116/86/1002'},
+ {name:'Nerina City',type:'Roleplay',location:'Exomorogun (172, 29, 22)',description:'Explore Nerina City, its café, restaurant, cinema and charming streets.',images:['./images/clubs/nerina-01.png','./images/clubs/nerina-02.png','./images/clubs/nerina-03.png','./images/clubs/nerina-04.png','./images/clubs/nerina-05.png'],teleport:'https://maps.secondlife.com/secondlife/Exomorogun/172/29/22'}
 ];
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safePhoto=s=>{const v=String(s||'').trim();return /^\.\/images\/clubs\/[a-z0-9_-]+\.(png|jpg|jpeg|webp)$/i.test(v)?v:null};
 const safeTeleport=s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname==='maps.secondlife.com'?u.href:null}catch{return null}};
 const grid=document.getElementById('venue-grid');
-function render(){const query=document.getElementById('venue-search').value.trim().toLowerCase();const matches=LOCATIONS.filter(c=>[c.name,c.type,c.location,c.description].join(' ').toLowerCase().includes(query));document.getElementById('venue-count').textContent=`${matches.length} location${matches.length===1?'':'s'} to explore`;grid.innerHTML=matches.map(c=>{const photos=(c.images||[]).map(safePhoto).filter(Boolean),tp=safeTeleport(c.teleport);const photo=photos.length?`<img class="main-photo" src="${escapeHTML(photos[0])}" alt="${escapeHTML(c.name)} photo 1" loading="lazy">`:`<div class="placeholder"><strong>${escapeHTML(c.name)}</strong>Photos coming soon</div>`;const gallery=`<div class="gallery" data-images="${escapeHTML(JSON.stringify(photos))}" data-name="${escapeHTML(c.name)}"><div class="photo-stage">${photo}${photos.length>1?`<button type="button" class="photo-nav prev" data-step="-1" aria-label="Previous photo">‹</button><button type="button" class="photo-nav next" data-step="1" aria-label="Next photo">›</button>`:''}${photos.length?`<span class="photo-count">1 / ${photos.length}</span>`:''}</div>${photos.length>1?`<div class="thumbs">${photos.map((p,i)=>`<button type="button" class="thumb" data-index="${i}" aria-label="Show photo ${i+1}" aria-pressed="${i===0}"><img src="${escapeHTML(p)}" alt="" loading="lazy"></button>`).join('')}</div>`:''}</div>`;return `<article class="card">${gallery}<div class="body"><div class="type">${escapeHTML(c.type)}</div><h2>${escapeHTML(c.name)}</h2><p class="location">${escapeHTML(c.location)}</p><p>${escapeHTML(c.description)}</p><div class="actions">${tp?`<a class="teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport to location</a>`:'<span class="unavailable">Teleport link coming soon</span>'}</div></div></article>`}).join('')||'<p class="empty">No locations match your search.</p>'}
+let activeVenueCategory='All locations';
+const VENUE_STYLES=['Nightclub','Lounge & Bar','Live Music Venue','Romantic Venue','Beach Club','Adult Venue','Roleplay','Spa & Wellness','Art & Culture','Entertainment','Theatre & Performing Arts','Game Venue'];
+const venueStyles=value=>String(value||'').split('|').map(v=>v.trim()).filter(Boolean);
+const venueCategoryNames=['All locations',...VENUE_STYLES];
+const venueCategories=document.getElementById('venue-categories');
+for(const category of venueCategoryNames){
+ const button=document.createElement('button');button.type='button';button.textContent=category;
+ button.dataset.category=category;button.setAttribute('aria-pressed',String(category===activeVenueCategory));
+ button.classList.toggle('active',category===activeVenueCategory);venueCategories.append(button);
+}
+venueCategories.addEventListener('click',e=>{
+ const button=e.target.closest('button[data-category]');if(!button)return;
+ activeVenueCategory=button.dataset.category;
+ venueCategories.querySelectorAll('button').forEach(b=>{const active=b.dataset.category===activeVenueCategory;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
+ render();
+});
+function render(){const query=document.getElementById('venue-search').value.trim().toLowerCase();const matches=LOCATIONS.filter(c=>(activeVenueCategory==='All locations'||venueStyles(c.type).includes(activeVenueCategory))&&[c.name,c.type,c.location,c.description].join(' ').toLowerCase().includes(query));document.getElementById('venue-count').textContent=`${matches.length} location${matches.length===1?'':'s'} to explore`;grid.innerHTML=matches.map(c=>{const photos=(c.images||[]).map(safePhoto).filter(Boolean),tp=safeTeleport(c.teleport);const photo=photos.length?`<img class="main-photo" src="${escapeHTML(photos[0])}" alt="${escapeHTML(c.name)} photo 1" loading="lazy">`:`<div class="placeholder"><strong>${escapeHTML(c.name)}</strong>Photos coming soon</div>`;const gallery=`<div class="gallery" data-images="${escapeHTML(JSON.stringify(photos))}" data-name="${escapeHTML(c.name)}"><div class="photo-stage">${photo}${photos.length>1?`<button type="button" class="photo-nav prev" data-step="-1" aria-label="Previous photo">‹</button><button type="button" class="photo-nav next" data-step="1" aria-label="Next photo">›</button>`:''}${photos.length?`<span class="photo-count">1 / ${photos.length}</span>`:''}</div>${photos.length>1?`<div class="thumbs">${photos.map((p,i)=>`<button type="button" class="thumb" data-index="${i}" aria-label="Show photo ${i+1}" aria-pressed="${i===0}"><img src="${escapeHTML(p)}" alt="" loading="lazy"></button>`).join('')}</div>`:''}</div>`;return `<article class="card">${gallery}<div class="body"><div class="type">${escapeHTML(c.type)}</div><h2>${escapeHTML(c.name)}</h2><p class="location">${escapeHTML(c.location)}</p><p>${escapeHTML(c.description)}</p><div class="actions">${tp?`<a class="teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport to location</a>`:'<span class="unavailable">Teleport link coming soon</span>'}</div></div></article>`}).join('')||'<p class="empty">No locations match your search.</p>'}
 grid.addEventListener('click',e=>{const button=e.target.closest('button[data-step],button[data-index]');if(!button)return;const gallery=button.closest('.gallery');if(!gallery)return;const photos=JSON.parse(gallery.dataset.images||'[]');if(!photos.length)return;const current=Number(gallery.dataset.current||0);const next=button.hasAttribute('data-index')?Number(button.dataset.index):(current+Number(button.dataset.step)+photos.length)%photos.length;gallery.dataset.current=String(next);const img=gallery.querySelector('.main-photo');img.src=photos[next];img.alt=gallery.dataset.name+' photo '+(next+1);gallery.querySelector('.photo-count').textContent=(next+1)+' / '+photos.length;gallery.querySelectorAll('.thumb').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===next)))});
 document.getElementById('venue-search').addEventListener('input',render);document.getElementById('year').textContent=new Date().getFullYear();render();
 </script>
@@ -99,9 +120,11 @@ document.getElementById('venue-search').addEventListener('input',render);documen
   const client=window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY);
   const {data,error}=await client.from('clubs').select('name,category,location,description,teleport_url,photos').order('created_at',{ascending:false}).limit(100);
   if(error)throw error;
-  status.textContent=data.length?data.length+' community venue(s) published.':'No community venues published yet.';
+  const search=document.getElementById('venue-search');
+  const communityMatches=()=>data.filter(c=>(activeVenueCategory==='All locations'||venueStyles(c.category).includes(activeVenueCategory))&&[c.name,c.category,c.location,c.description].join(' ').toLowerCase().includes(search.value.trim().toLowerCase()));
+  const refreshCommunity=()=>{target.replaceChildren();const matches=communityMatches();status.textContent=matches.length?matches.length+' community venue(s) matching your filters.':'No community venues match your filters.';for(const c of matches)drawCommunity(c);};
+  function drawCommunity(c){
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  for(const c of data){
    const card=document.createElement('article');card.className='card';
    const photos=(Array.isArray(c.photos)?c.photos:[]).filter(s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname===new URL(window.EVENTIDE_SUPABASE_URL).hostname&&u.pathname.includes('/storage/v1/object/public/club-photos/')}catch{return false}});
    if(photos.length){const img=document.createElement('img');img.src=photos[0];img.alt=String(c.name||'Venue')+' photo';img.loading='lazy';img.style.cssText='display:block;width:100%;height:280px;object-fit:contain;background:#100d1a';card.append(img)}
@@ -114,6 +137,7 @@ document.getElementById('venue-search').addEventListener('input',render);documen
    const tp=safeTeleport(c.teleport_url);if(tp){const a=document.createElement('a');a.className='teleport';a.href=tp;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Teleport to location';body.append(a)}
    card.append(body);target.append(card);
   }
+  search.addEventListener('input',refreshCommunity);venueCategories.addEventListener('click',refreshCommunity);refreshCommunity();
  }catch(err){status.textContent='Could not load community venues. Check Supabase permissions and connection.';console.error('Community venues:',err)}
 })();
 </script>
