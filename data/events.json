@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-10T11:59:28.865384+00:00",
+  "updated_at": "2026-11-10T13:08:33.457054+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -510,21 +510,8 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=7698745",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "Dj Fantasia spinning a Tuesday Shake up @Ku'lani",
-      "starts_at": "2026-11-10T05:00:00-08:00",
-      "venue": "Ku'Lani Beach Resort & All-Inclusive Hangout Community",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8355762",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "🉐CREAMY AND GRIPPY!! @ OKIYA🉐",
@@ -6684,6 +6671,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "JO BIG LIVE ON VIDEO @ PASSION CALIENTE",
+      "starts_at": "2026-11-11T13:00:00-08:00",
+      "venue": "Passion Caliente / BDSM Adult Club / Nude Beach / Pool",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503743",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T13:11:03.945070+00:00"
+    },
+    {
       "title": "KATIA live! at INSOMNIA",
       "starts_at": "2026-11-11T13:00:00-08:00",
       "venue": "The Street Squirrel Company",
@@ -8976,6 +8974,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503724",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ AMY HERE AT EYE CANDY MUSIC CLUB 4AM-6AM",
@@ -20747,6 +20756,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "JO BIG LIVE ON VIDEO @ THE SPECTRE",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": ".:Spectre:.  Club / Beach / Connect / Relax",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503748",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T13:11:03.945070+00:00"
+    },
+    {
       "title": "KOKO INCOGNITO & CHICKS @ MSKATTS 1:00 PM SLT",
       "starts_at": "2026-11-15T13:00:00-08:00",
       "venue": "Eastern Spell - MsKatt Saloon",
@@ -25354,6 +25374,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DarkHeat - Reading and Responding to Submissive Archetypes",
+      "starts_at": "2026-11-17T11:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503745",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "MrLee live at The Dawn Star",
       "starts_at": "2026-11-17T11:00:00-08:00",
       "venue": "The Dawn Star",
@@ -25517,6 +25548,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "DarkHeat - DJ Xas",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503746",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Follow DJ Trevor 🕹️ Back To The 80s! 🕶️ where we're Authentically 80s",
@@ -26242,6 +26284,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DarkHeat - DJ Jae",
+      "starts_at": "2026-11-17T17:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503747",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Friar Fox @ The Velvet Grope",
@@ -29269,6 +29322,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-19T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503725",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ AMY HERE AT EYE CANDY MUSIC CLUB 4AM-6AM",
       "starts_at": "2026-11-19T04:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -31826,6 +31890,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "JO BIG LIVE ON VIDEO @ CHANTY STYLE",
+      "starts_at": "2026-11-20T13:00:00-08:00",
+      "venue": "CHANTY STYLE ITALIA SIM",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503749",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T13:11:03.945070+00:00"
     },
     {
       "title": "Lisa Brune sings live at Sanctuary at  1  PM",
@@ -35803,6 +35878,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
+    },
+    {
+      "title": "🔥🎸 SINFUL SUNDAY STREET PARTY — JO BIG LIVE VIDEO & THE ROYALS! 👑🔥",
+      "starts_at": "2026-11-22T12:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503750",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
     },
     {
       "title": "♬SAPHY IS LIVE🎸BRING A DATE🕺💃WHERE EVERYONE KNOWS YOUR NAME",
@@ -41253,6 +41339,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489879",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-26T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503726",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -50272,6 +50369,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-03T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503727",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ AMY HERE AT EYE CANDY MUSIC CLUB 4AM-6AM",
       "starts_at": "2026-12-03T04:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -57358,6 +57466,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489881",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-12-10T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503728",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -80168,6 +80287,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "KRISTOFF CRAFTON LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-05T14:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503737",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Best in Black Event @ Club Carnage",
       "starts_at": "2027-02-05T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -80223,6 +80353,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "ANNETTE SERANADE LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-06T12:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503738",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "TRA$HER LUCKY 77 SALES EVENT",
       "starts_at": "2027-02-06T12:00:00-08:00",
       "venue": "TRA$HER - www.trashersl.com",
@@ -80232,6 +80373,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "BUBBLES LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-06T13:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503739",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~~ GAZ~~ @  LOVE HEAVEN  1pm slt",
@@ -80254,6 +80406,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "RONA SINGER LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-06T14:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503740",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~~ PUTRI SOLO ~~ @  LOVE HEAVEN live music 2 pm slt",
