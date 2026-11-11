@@ -328,7 +328,7 @@ const classifyEvent=e=>{
 };
 
 // Recognize named artists by event title. Extend this list for more artist badges.
-const artistBadges=[{pattern:/saphir[\s\W_]*piano[\s\W_]*pianist/i,image:'./images/saphir-piano-badge.png',name:'Saphir Piano Pianist'}];
+const artistBadges=[{pattern:/(?=.*\bsaphir\b)(?=.*\b(?:piano|pianist)\b)/i,image:'./images/saphir-piano-badge.png',name:'Saphir Piano Pianist'}];
 function artistBadge(event){
  const title=String(event.title||'');
  const match=artistBadges.find(artist=>artist.pattern.test(title));
