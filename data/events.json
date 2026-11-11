@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-11T17:59:56.471717+00:00",
+  "updated_at": "2026-11-11T19:02:50.732384+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1414,17 +1414,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
-    },
-    {
-      "title": "COME JAM WITH EVAN WILLIAMS (UTAH COWBOY) AT CAFE MUSIQUE",
-      "starts_at": "2026-11-11T11:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7936155",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ DAVID O'Shea @LOULOU CLUB SOME TRANCE TECH VIBES!",
@@ -2989,6 +2978,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Originals with Riff Gaffer  @ Nat's Jazz Club",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "Nat's Jazz Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504273",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "THE TIME MACHINE IS HEADING BACK TO 1988 WITH DJ EVAN LEIGH 2-4PM @ GENERATIONXYZ",
       "starts_at": "2026-11-11T14:00:00-08:00",
       "venue": "Generation XYZ 80s, 90s, 00s Music, Arcade, Bowling and More",
@@ -3704,6 +3704,17 @@
       "venue_photo_checked_at": "2026-11-10T23:45:56.087455+00:00"
     },
     {
+      "title": "VETERANS EVENT AT VOODOO BAYOU BLUES",
+      "starts_at": "2026-11-11T16:00:00-08:00",
+      "venue": "VOODOO BAYOU BLUES~ A FAMILY FRIENDLY BLUES JOINT AND MORE",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504275",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "Veterans'/Rememberance Day At Pirette's Music Cove (PMC)",
       "starts_at": "2026-11-11T16:00:00-08:00",
       "venue": "Beau Belle 02",
@@ -3867,6 +3878,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T23:45:18.428401+00:00"
+    },
+    {
+      "title": "Cerulean Radio: Chaos at the Gas Station",
+      "starts_at": "2026-11-11T17:00:00-08:00",
+      "venue": "Cerulean Woods - www.tinyurl.com/cerulean-discord",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504285",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
     },
     {
       "title": "DJ Derrick Emerald.... Wednesday Nite Live!! 5pm@ COPA LIVE!!",
@@ -4782,6 +4804,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "😇🔥 HEAVEN OR HELL — WHO IS WHO? 🔥😈",
+      "starts_at": "2026-11-11T18:00:00-08:00",
+      "venue": "The Club: Live DJs, Rock, Pop, & Metal, Est. 2010",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504299",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T19:05:22.407522+00:00"
+    },
+    {
       "title": "A Space Between Movie Night",
       "starts_at": "2026-11-11T18:30:00-08:00",
       "venue": "A Space Between Hangout and RP",
@@ -5528,6 +5561,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
+      "title": "Rock Symposium@Obscenium",
+      "starts_at": "2026-11-11T21:00:00-08:00",
+      "venue": "-[OBSCENIUM]- Erotic Club & Nude Beach Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504279",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
     },
     {
       "title": "Science Fiction Storytime",
@@ -11282,6 +11326,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "🍁 AUTUMN IS IN THE AIR! LOVE & HARMONY JAZZ ROMANTIC WELCOMES DJ ROSA FRIDAY AT 12 PM SLT! 🌹",
+      "starts_at": "2026-11-13T12:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504301",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🎧 THE VELVET HOUSE PRESENTS: DJ SUPERPIMP ULF 🎧",
       "starts_at": "2026-11-13T12:00:00-08:00",
       "venue": "The Velvet House",
@@ -11887,6 +11942,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌅🎶☀️ LOVE & HARMONY JAZZ ROMANTIC WELCOMES DJ ALEXANDERTG This Friday ~ 2pm 🌹",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504302",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🌹🎶 KATIA LIVE !! @ Tatiana Garden Clubs Beautiful open setting 🎶🌹",
       "starts_at": "2026-11-13T14:00:00-08:00",
       "venue": "Tatiana Garden Club",
@@ -12347,6 +12413,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
+      "title": "🎷💖 LOVE & HARMONY JAZZ PRESENTS DOUBLE THE LOVE, DOUBLE THE MUSIC! 🕛 4 PM 💕",
+      "starts_at": "2026-11-13T16:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504303",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🐊 IT'S FRIDAY THE 13TH!! WET WILLIES IS YOUR CLASSIC ROCK DESTINATION!",
@@ -14027,6 +14104,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
+    },
+    {
+      "title": "☕🎶 WAKE UP SATURDAY MORNING AT LOVE & HARMONY JAZZ WITH DJ CRAYVENN ~ 8AM SLT 🎶☕",
+      "starts_at": "2026-11-14T08:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504310",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🎉 Mordecai's 📺 Saturday Morning Cartoon Party 📺 Takes You 🕹️ Back To The 80s! 🕶️",
@@ -16064,6 +16152,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "BEAUTIFUL LOVE SONGS WITH DJ MANDI AND NATALIE 5-7 PM SLT",
+      "starts_at": "2026-11-14T17:00:00-08:00",
+      "venue": "Romance in the Clouds  @ Anaconda Estates Date Night Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8774039",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T19:05:22.407522+00:00"
+    },
+    {
       "title": "Chandrita live at The Dawn Star",
       "starts_at": "2026-11-14T17:00:00-08:00",
       "venue": "The Dawn Star",
@@ -17954,6 +18053,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Gabriell Dubrat @ The Bricks",
+      "starts_at": "2026-11-15T11:00:00-08:00",
+      "venue": "Phat Cats",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504308",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "GreyWolf plays Native style wooden flutes@Indigo Lake 11 AM - 12 PM",
       "starts_at": "2026-11-15T11:00:00-08:00",
       "venue": "Indigo Lake Amphitheater - Mount Campion National Forest",
@@ -19206,6 +19316,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "THE MOST CAPTIVATING LOVE SONGS WITH DJ MANDI AND NATALIE AT ROMANCE IN THE CLOUDS 5-7 PM SLT",
+      "starts_at": "2026-11-15T17:00:00-08:00",
+      "venue": "Romance in the Clouds  @ Anaconda Estates Date Night Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8788147",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T19:05:22.407522+00:00"
     },
     {
       "title": "Xaara Presents Outlaw Tribute Band performing White Snake",
@@ -21298,6 +21419,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🐊 SWEET DJ ROSA IS ROCKING THE CLASSICS AND MAKING WET WILLIES GO LOCO!!",
+      "starts_at": "2026-11-16T12:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504267",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "💃 BIG DADDY'S DJ ROCKS TUNES 70'S 80'S 90'S CLUB DANCE MUSIC ROCK 70S 80S 90S BIG DADDYS COUNTRY",
       "starts_at": "2026-11-16T12:00:00-08:00",
       "venue": "BIG DADDY'S MUSIC CLUB (PG) 16 YRS OF MUSIC & FUN IN SL",
@@ -21593,6 +21725,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🐊 FREE LINDEN WHERE CLASSIC ROCK COLLIDE AT WET WILLIES!",
+      "starts_at": "2026-11-16T14:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504270",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "👑 𝐇𝐈𝐑𝐈𝐍𝐆 𝐂𝐎𝐔𝐑𝐓𝐄𝐒𝐀𝐍𝐒 @ 𝐑𝐎𝐔𝐆𝐄 👑",
@@ -21898,6 +22041,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9487638",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🐊 DJ LADY0 SHE IS NO LADY!! IS SLAYING THE CLASSICS AT WET WILLIES!!",
+      "starts_at": "2026-11-16T16:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504280",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
@@ -22299,6 +22453,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🐊 CALLING ALL HEADBANGERS DJ JB IS CRANKING THE VOLUME TO MAX AT WET WILLIES!! 6PM",
+      "starts_at": "2026-11-16T18:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504289",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🦁 Zoo Adventures in Tulips Gacha",
       "starts_at": "2026-11-16T18:00:00-08:00",
       "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
@@ -22607,6 +22772,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🐊 THE SIZZLIN DJ LADY0 IS ON FIRE WITH THE CLASSICS AT WET WILLIES!!",
+      "starts_at": "2026-11-16T20:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504290",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "❤️FOXXIES MON DJ FOXXEE🌹8:30PM ROMANTIC DANCING BALLROOM HARMONY CLOUDS FRANKS FRANK'S CALAS",
       "starts_at": "2026-11-16T20:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDEN2",
@@ -22671,6 +22847,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🐊 ATTENTION ROCK FIENDS DJ EL LOCO JACK IS ROCKIN WET WILLIES!!",
+      "starts_at": "2026-11-16T22:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504291",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "👠 DISTINGUISHED LADIES INVITED 👠",
@@ -23179,6 +23366,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🐊 DJ MIKE IS UNLEASHING NONSTOP CLASSIC ROCK POWER AT WET WILLIES!!",
+      "starts_at": "2026-11-17T08:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504292",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🪩✨Back 2 Back: Your 80s and 90s Destination!✨🪩",
       "starts_at": "2026-11-17T08:00:00-08:00",
       "venue": "Back 2 Back - Your 80s and 90s Destination @ Rewind Plaza",
@@ -23375,6 +23573,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "🐊 KILLER DJ SAMMI IS TAKING THE CLASSICS AND CRANKING WET WILLIES TO MAX!!",
+      "starts_at": "2026-11-17T10:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504293",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Live Trivia with Vrai at Sharon’s Diner - Win Lindens!",
@@ -23749,6 +23958,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "🐊 DJ FOY IS TEARING WET WILLIES APART WITH CLASSIC ROCK THAT HITS EVERY SENSE!!",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504294",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "💃BIG DADDY'S ROCKING DJ TUNES 70'S 80'S 90'S CLUB DANCE ROCK MUSIC 70S 80S 90S BIG DADDYS COUNTRY",
@@ -24135,6 +24355,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🐊 CLASSIC ROCK WARRIORS!! DJ FOY IS IGNITING WET WILLIES WITH FLOOR-SHAKING ROCK!!",
+      "starts_at": "2026-11-17T14:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504295",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🐸 DJ Sin & Cheri, 2-4PM 🐸",
       "starts_at": "2026-11-17T14:00:00-08:00",
       "venue": "KeKuKi",
@@ -24452,6 +24683,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🐊 DJ NICOLE IS ROCKIN WET WILLIES WITH SEXY-HOT CLASSIC ROCK ENERGY!!",
+      "starts_at": "2026-11-17T16:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504296",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "🐸 DJ Puntito & Kitten, 4-6PM🐸",
@@ -24969,6 +25211,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🐊 SPICY DJ SYNAMUNSPICY TURNS WET WILLIES INTO A SEXY-HOT ROCK CHAOS ZONE!!",
+      "starts_at": "2026-11-17T18:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504297",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "💄 👠 CLASSINESS IS A DRUG @ [ROUGE] 👠 💄",
@@ -25909,6 +26162,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🐊 WET WILLIES CLASSIC ROCK CLUB IS YOUR #1 ROCK DESTINATION!",
+      "starts_at": "2026-11-18T08:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504304",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "CRYPTIC HARMONY WILL AMAZE YOU AT CAFE MUSIQUE",
       "starts_at": "2026-11-18T09:00:00-08:00",
       "venue": "Cafe Musique",
@@ -26107,6 +26371,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "COME JAM WITH EVAN WILLIAMS (UTAH COWBOY) AT CAFE MUSIQUE",
+      "starts_at": "2026-11-18T11:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7936155",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Madison live at The Dawn Star",
@@ -34767,6 +35042,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "DJ Alessandro live at The Dawn Star",
+      "starts_at": "2026-11-22T07:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504268",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "CRANK IT UP WITH DJ EXTRA",
       "starts_at": "2026-11-22T08:00:00-08:00",
       "venue": "WILDCAT COUNTRY",
@@ -34813,6 +35099,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ Munaye live at The Dawn Star",
+      "starts_at": "2026-11-22T09:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504269",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Lots of Full Perm Thanksgiving mesh by Llola Lane",
@@ -34949,6 +35246,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499286",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Madison live at The Dawn Star",
+      "starts_at": "2026-11-22T11:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504271",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -35240,6 +35548,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Danielle Bianchi live at The Dawn Star",
+      "starts_at": "2026-11-22T13:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504272",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "KOKO INCOGNITO & CHICKS @ MSKATTS 1:00 PM SLT",
@@ -36417,6 +36736,17 @@
       "venue_photo_checked_at": "2026-11-07T18:53:07.506230+00:00"
     },
     {
+      "title": "Jaik Mario live at The Dawn Star",
+      "starts_at": "2026-11-23T09:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504274",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MON Jazz/Blues Singer👄Arvi👄& the Fab4 @ The Savoy",
       "starts_at": "2026-11-23T09:00:00-08:00",
       "venue": "SAVOY BALLROOM - 596 Lenox Ave in Swing Town, Creations Park",
@@ -36467,6 +36797,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502994",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Lisbitt live at The Dawn Star",
+      "starts_at": "2026-11-23T10:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504276",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -36536,6 +36877,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "Mavenn live at The Dawn Star",
+      "starts_at": "2026-11-23T11:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504277",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Orgy Monday at Spa Sensuelle Beach",
@@ -36635,6 +36987,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Evan Williams live at The Dawn Star",
+      "starts_at": "2026-11-23T12:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504278",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "HOLA! HOLA! ANARAE IS HERE",
@@ -36775,6 +37138,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485096",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Steve Who live at The Dawn Star",
+      "starts_at": "2026-11-23T13:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504281",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -37818,6 +38192,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "Tuesday's Dawn Star Coffee Break",
+      "starts_at": "2026-11-24T09:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504282",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "** CIRCLE MENTAL HEALTH **",
       "starts_at": "2026-11-24T10:00:00-08:00",
       "venue": "Circle Mental Health - Meetings",
@@ -37853,6 +38238,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Iseabal Boyle live at The Dawn Star",
+      "starts_at": "2026-11-24T10:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504283",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Beginner Jumping Class at HSH - horses",
       "starts_at": "2026-11-24T11:00:00-08:00",
       "venue": "Home Sweet Home for Horse Lovers",
@@ -37875,6 +38271,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
+    },
+    {
+      "title": "MrLee live at The Dawn Star",
+      "starts_at": "2026-11-24T11:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504284",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "TUE🎤👄Lisbitt💕The Andalusian & Marie @ The Savoy",
@@ -37978,6 +38385,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "Sakya Diehl live at The Dawn Star",
+      "starts_at": "2026-11-24T12:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504286",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "TUE Latin Soul / Classic Elegance by🎤👄Iseabal Boyle💕& Marie @ The Savoy",
       "starts_at": "2026-11-24T12:00:00-08:00",
       "venue": "SAVOY BALLROOM - 596 Lenox Ave in Swing Town, Creations Park",
@@ -38006,6 +38424,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491369",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Gaz Demure live at The Dawn Star",
+      "starts_at": "2026-11-24T13:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504287",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -38094,6 +38523,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502032",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Jess Rabbit live at The Dawn Star",
+      "starts_at": "2026-11-24T14:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504288",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
