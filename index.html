@@ -186,6 +186,14 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 .artist-photo-badge{position:absolute;z-index:3;top:12px;right:12px;width:76px;height:76px;object-fit:cover;object-position:45% 46%;border-radius:50%;border:3px solid #e9c88e;background:#21152f;box-shadow:0 5px 18px #0009,0 0 0 3px #ad73d366;pointer-events:none}
 .featured-event .artist-photo-badge{top:14px;right:14px;width:82px;height:82px}
 @media(max-width:560px){.artist-photo-badge{width:62px;height:62px}.featured-event .artist-photo-badge{width:66px;height:66px}}
+
+/* Source-based Second Life maturity ratings. Keep badges clear of artist photos. */
+.event-maturity-badge{position:absolute;z-index:4;top:12px;left:12px;display:flex;align-items:center;justify-content:center;width:43px;height:43px;border:3px solid #fff;border-radius:12px;font:900 25px/1 "Outfit",sans-serif;color:#fff;text-shadow:0 1px 3px #0009;box-shadow:0 3px 12px #000a,0 0 0 2px #171020;background:#555;pointer-events:none}
+.event-maturity-badge.rating-a{background:#b91c1c}
+.event-maturity-badge.rating-m{background:#b45309}
+.event-maturity-badge.rating-g{background:#167a3b}
+.featured-event .event-maturity-badge{top:14px;left:14px}
+@media(max-width:560px){.event-maturity-badge{width:39px;height:39px;font-size:23px}}
 </style>
 </head>
 <body>
@@ -335,6 +343,27 @@ function artistBadge(event){
  return match?`<img class="artist-photo-badge" src="${match.image}" alt="${escapeHTML(match.name)}" loading="lazy" decoding="async">`:'';
 }
 
+
+// Only use explicit maturity metadata from the collected event feed.
+// Unrated events remain unbadged rather than being assigned an incorrect G rating.
+function eventMaturity(event){
+ const fields=['maturity','maturity_rating','maturityRating','rating','content_rating','contentRating','access','access_level','accessLevel','event_maturity','eventMaturity','sim_maturity','simMaturity'];
+ for(const key of fields){
+  const value=event[key];
+  if(value==null||typeof value==='object')continue;
+  const v=String(value).trim().toLowerCase();
+  if(/^(a|adult|adult only|adult-only|18\+|18 plus)$/.test(v))return 'A';
+  if(/^(m|moderate|mature|moderate maturity)$/.test(v))return 'M';
+  if(/^(g|general|general audience|general audiences|pg)$/.test(v))return 'G';
+ }
+ return null;
+}
+function maturityBadge(event){
+ const rating=eventMaturity(event);
+ const labels={A:'Adult',M:'Moderate',G:'General'};
+ return rating?`<span class="event-maturity-badge rating-${rating.toLowerCase()}" role="img" aria-label="${labels[rating]} maturity rating" title="${labels[rating]} maturity rating">${rating}</span>`:'';
+}
+
 const dateKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
 function drawCalendar(){
  const year=calendarCursor.getFullYear(),month=calendarCursor.getMonth();
@@ -398,7 +427,7 @@ function renderFeatured(){
  const formatted=zoneDateFormat({weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',hour12:true}).format(date)+' ('+zoneLabel+')';
  const url=safeUrl(next.url),tp=safeUrl(next.teleport_url),locationLink=tp||url;
  const controls=group.items.length>1?`<div class="featured-carousel-controls" aria-label="Events starting at the same time"><button type="button" id="featured-prev" aria-label="Previous event">Previous</button><span class="featured-carousel-count">${featuredIndex+1} / ${group.items.length}</span><button type="button" id="featured-next" aria-label="Next event">Next</button></div>`:'';
- target.innerHTML=`${artistBadge(next)}<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}${controls}`;
+ target.innerHTML=`${maturityBadge(next)}${artistBadge(next)}<img class="featured-category-image" src="${getCategoryImage(next.category)}" alt="${escapeHTML(next.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(next.category||'Miscellaneous')}</span><h3>${escapeHTML(next.title)}</h3><p class="featured-date">${escapeHTML(formatted)}</p><p class="featured-venue">${locationLink?`<a href="${escapeHTML(locationLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Teleport to this location in Second Life':'View location on event page'}">${escapeHTML(next.venue||'Venue not specified')} ↗</a>`:escapeHTML(next.venue||'Venue not specified')}</p>${url?`<a class="featured-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a class="featured-link featured-teleport" href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}${controls}`;
  if(group.items.length>1){
   $('featured-prev').addEventListener('click',()=>{featuredIndex=(featuredIndex-1+group.items.length)%group.items.length;renderFeatured()});
   $('featured-next').addEventListener('click',()=>{featuredIndex=(featuredIndex+1)%group.items.length;renderFeatured()});
@@ -443,7 +472,7 @@ function showNextPage(){
     const time=new Intl.DateTimeFormat(locale,{timeZone:slTimeZone,hour:'numeric',minute:'2-digit',hour12:true}).format(date);
     const zone=zoneLabel;
     const pin='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
-    return `<article class="event">${artistBadge(e)}<img class="event-image" src="${getCategoryImage(e.category)}" alt="${escapeHTML(e.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
+    return `<article class="event">${maturityBadge(e)}${artistBadge(e)}<img class="event-image" src="${getCategoryImage(e.category)}" alt="${escapeHTML(e.category||'Miscellaneous')} category illustration" loading="lazy"><span class="tag">${escapeHTML(e.category||'Other')}</span><h3>${escapeHTML(e.title)}</h3><div class="event-datetime" aria-label="${escapeHTML(weekday+' at '+time+' '+zone)}"><div class="event-datebox"><span class="event-date-month">${escapeHTML(month)}</span><span class="event-date-day">${escapeHTML(day)}</span></div><div class="event-date-details"><span class="event-weekday">${escapeHTML(weekday)}</span><span class="event-time">${escapeHTML(time)}<span class="event-timezone">${escapeHTML(zone)}</span></span></div></div><p class="event-venue">${pin}${venueLink?`<a href="${escapeHTML(venueLink)}" target="_blank" rel="noopener noreferrer" title="${tp?'Open location in Second Life':'View location on the official Second Life event page'}">${escapeHTML(e.venue||'Venue not specified')}</a>`:`<span>${escapeHTML(e.venue||'Venue not specified')}</span>`}</p>${e.description?`<p class="description">${escapeHTML(e.description).slice(0,320)}</p>`:''}<div class="actions">${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">Event details ↗</a>`:''}${tp?`<a href="${escapeHTML(tp)}" target="_blank" rel="noopener noreferrer">Teleport ↗</a>`:''}</div></article>`;
   }).join('');
  if(visibleCount===0)$('events').innerHTML='';
  if(html)$('events').insertAdjacentHTML('beforeend',html);

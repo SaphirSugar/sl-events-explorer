@@ -126,6 +126,9 @@ def extract(html, now=None, requested_day=None):
                      'category': category_from_row(row) or 'Miscellaneous', 'description': '',
                      'url': url, 'teleport_url': None}
             event['official_category'] = bool(category_from_row(row))
+            maturity = explicit_maturity(row)
+            if maturity:
+                event['maturity'] = maturity
             key = (title.casefold(), date.isoformat(), venue.casefold())
             collected[key] = event
 
@@ -218,6 +221,14 @@ def enrich_event(event):
         if verified:
             event['category'] = verified
             event['official_category'] = True
+        maturity_text, _ = detail_field(soup, 'Maturity')
+        if not maturity_text:
+            maturity_text, _ = detail_field(soup, 'Maturity Rating')
+        if not maturity_text:
+            maturity_text, _ = detail_field(soup, 'Rating')
+        maturity = normalize_maturity(maturity_text)
+        if maturity:
+            event['maturity'] = maturity
         host, _ = detail_field(soup, 'Host')
         if host:
             event['host'] = host
@@ -312,19 +323,29 @@ def retrieve_official_categories(events, page, previous=None):
                             node.get('data-event-category') or node.get('data-category'))
                         if category:
                             break
-                return url, category
+                maturity_text, _ = detail_field(soup, 'Maturity')
+                if not maturity_text:
+                    maturity_text, _ = detail_field(soup, 'Maturity Rating')
+                if not maturity_text:
+                    maturity_text, _ = detail_field(soup, 'Rating')
+                maturity = normalize_maturity(maturity_text)
+                return url, (category, maturity)
         except (requests.RequestException, ValueError):
             return url, None
 
     found = 0
     if unresolved:
         with ThreadPoolExecutor(max_workers=8) as pool:
-            for url, category in pool.map(fetch, unresolved.items()):
-                if category:
+            for url, result in pool.map(fetch, unresolved.items()):
+                if result:
+                    category, maturity = result
                     for event in unresolved[url]:
-                        event['category'] = category
-                        event['official_category'] = True
-                        found += 1
+                        if category:
+                            event['category'] = category
+                            event['official_category'] = True
+                            found += 1
+                        if maturity:
+                            event['maturity'] = maturity
     print('official_categories:',
           f'verified_in_list={verified_rows}',
           f'cached={cached_rows}',
@@ -792,6 +813,17 @@ def login_secondlife(page):
         return False
 
 
+def normalize_maturity(value):
+    value = re.sub(r'\s+', ' ', str(value or '')).strip().casefold()
+    if re.fullmatch(r'(adult|a|18\+|mature-adult)', value):
+        return 'Adult'
+    if re.fullmatch(r'(moderate|mature|m)', value):
+        return 'Moderate'
+    if re.fullmatch(r'(general|pg|g)', value):
+        return 'General'
+    return None
+
+
 def explicit_maturity(row):
     """Only trust an explicit maturity label on the event row itself."""
     labels = []
@@ -1073,6 +1105,8 @@ def main():
                     if prior and prior.get('official_category') and not event.get('official_category'):
                         event['category'] = prior['category']
                         event['official_category'] = True
+                    if prior and prior.get('maturity') and not event.get('maturity'):
+                        event['maturity'] = prior['maturity']
                     merged[key] = event
                 events = list(merged.values())
                 events = sorted(events, key=lambda e: (e['starts_at'], e['title']))
