@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-11T09:02:20.491283+00:00",
+  "updated_at": "2026-11-11T10:04:41.634413+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -272,9 +272,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8858817",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00",
       "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DJ Cecelia",
@@ -285,9 +285,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503663",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/9b94e482-abef-b677-05e7-8926d075390b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "DJ ENNIE HERE AT EYE CANDY MUSIC CLUB 2AM-4AM EARLY MORNING FUN",
@@ -297,11 +297,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488834",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ FISHMO @ WATERMELON SUGAR CLUB",
@@ -311,11 +310,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500874",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ ROBBIE & RANE BRIT INVASION @ MUDDY'S MUSIC CAFE - WED 2-4AM SLT - 70S to TODAY TUNES!",
@@ -325,22 +323,9 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500648",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "DJ ROBBIE , THE PERFECT PLAYLIST AND FUN",
-      "starts_at": "2026-11-11T02:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9488232",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -351,11 +336,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9372640",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🌸✨ Let Curiosity Lead the Way – 30% Off Lovense ✨🌸",
@@ -366,9 +350,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504100",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/8aaee0ea-f8ec-d372-4c9e-477e47da3e9b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "::: 3AM ANARAE LIVE @ THE WOOLSHED",
@@ -544,6 +528,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "English Class. Voice. Song Lyrics",
+      "starts_at": "2026-11-11T05:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504130",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "UNBEATABLE PRICES! Adopt Elephants, Horses, KittyKats, Fairies, Cougars. Visit us and take yours!",
@@ -1923,6 +1918,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "HAGWARTS - School for Bad Girls",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "Blade Runner, Gigerpunk",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504124",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
+    },
+    {
       "title": "Hump day is beach day @ Jake's Place on Poppy Street",
       "starts_at": "2026-11-11T12:00:00-08:00",
       "venue": "Jake's Place - on Poppy Street",
@@ -2130,6 +2136,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎧🔥 DJ FRANKLIN & SOCIALITE CISSA @ ETOSHA 🔥🎧",
+      "starts_at": "2026-11-11T12:00:00-08:00",
+      "venue": "Etosha, 11 years of Love!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504129",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
     },
     {
       "title": "🎶🍂 WEDNESDAY AUTUMN JAZZ AT LOVE & HARMONY WITH DJ THORGAL — 12 PM SLT 🍂🎶",
@@ -9996,6 +10013,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "English Class. Voice. International News/Business English.",
+      "starts_at": "2026-11-13T10:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504131",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "FRIDAY POOL PARTY 10 AM SLT ~ DJ VIBEZ",
       "starts_at": "2026-11-13T10:00:00-08:00",
       "venue": "Crystal's Gentlemen's Club",
@@ -13162,6 +13190,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "English Class. Voice. Comprehension/Text",
+      "starts_at": "2026-11-14T05:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504132",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "🎩 THE NOBLE HOTEL EXPERIENCE @ ROUGE🎩",
@@ -16680,6 +16719,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "English Class. Voice. Excursion",
+      "starts_at": "2026-11-15T04:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504133",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Vanellope, 4am @ Surfside Hideaway",
@@ -50525,6 +50575,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌟 48H CHARITY MARATHON – LET'S MAKE DREAMS COME TRUE! ❤️",
+      "starts_at": "2026-12-04T13:00:00-08:00",
+      "venue": "The Tropical Dance & Shopping Center - HTTPS://TROPICALDANCE.FR",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504125",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
+    },
+    {
       "title": ".wav Friday Residency - December 4th",
       "starts_at": "2026-12-04T14:00:00-08:00",
       "venue": ".wav",
@@ -51156,6 +51217,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌟 48H CHARITY MARATHON – LET'S MAKE DREAMS COME TRUE! ❤️",
+      "starts_at": "2026-12-05T01:00:00-08:00",
+      "venue": "The Tropical Dance & Shopping Center - HTTPS://TROPICALDANCE.FR",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504126",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
+    },
+    {
       "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
       "starts_at": "2026-12-05T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -51621,6 +51693,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🌟 48H CHARITY MARATHON – LET'S MAKE DREAMS COME TRUE! ❤️",
+      "starts_at": "2026-12-05T13:00:00-08:00",
+      "venue": "The Tropical Dance & Shopping Center - HTTPS://TROPICALDANCE.FR",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504127",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
     },
     {
       "title": "DJ Beatrix Live @ Harlow's Taphouse 2 to 4 pm SLT",
@@ -52745,6 +52828,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🌟 48H CHARITY MARATHON – LET'S MAKE DREAMS COME TRUE! ❤️",
+      "starts_at": "2026-12-06T01:00:00-08:00",
+      "venue": "The Tropical Dance & Shopping Center - HTTPS://TROPICALDANCE.FR",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504128",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
     },
     {
       "title": "~~JOHNNY BELLOWS Live @ The Music Hive at 2am~~",
