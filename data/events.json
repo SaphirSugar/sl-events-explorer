@@ -1,21 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-11T17:01:38.495862+00:00",
+  "updated_at": "2026-11-11T17:59:56.471717+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "CHRISTINE SUNSHINE LIVE AT CAFE MUSIQUE!",
-      "starts_at": "2026-11-11T00:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7749222",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
     {
       "title": "DJ LARS @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-11T00:00:00-08:00",
@@ -212,19 +199,6 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
-      "title": "ARVI IS READY TO ENCHANT YOU AT CAFE MUSIQUE!",
-      "starts_at": "2026-11-11T01:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8201314",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "Bud Acuto Live The Pavilion Wednesday, November 11th 1am slt",
       "starts_at": "2026-11-11T01:00:00-08:00",
       "venue": "The Pavilion at Yasgurs Farm",
@@ -325,19 +299,6 @@
       "teleport_url": null,
       "official_category": true,
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "RONA SINGER BRINGS A VOICE FOR EVERY SONG TO CAFE MUSIQUE",
-      "starts_at": "2026-11-11T02:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9372640",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
       "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -467,6 +428,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504055",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/b216a915-f4de-2a40-2d0b-420b6fa104d8/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
@@ -478,6 +441,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9500213",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -489,6 +454,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504102",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/8aaee0ea-f8ec-d372-4c9e-477e47da3e9b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -663,17 +630,6 @@
       "category": "Spirituality",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497822",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "BEE BLOSSOM DEVEREUX BRINGS MUSIC THAT FEELS LIKE HOME TO CAFE MUSIQUE",
-      "starts_at": "2026-11-11T07:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7680698",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -2725,6 +2681,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "CRUISE SWAIN @LOULOU CLUB COME OVER TO PARTY!!!",
+      "starts_at": "2026-11-11T13:30:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504262",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T12:02:31.640413+00:00"
+    },
+    {
       "title": "DJ VEECKY | Bewitch your mind!",
       "starts_at": "2026-11-11T13:30:00-08:00",
       "venue": "CLUB CUPIDUS - Danceclub & Hangout",
@@ -2868,6 +2835,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ Fuyuko with a Rock set at 2 pm SLT at The Silver Dragon Club, CDS",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "The Silver Dragon Club & Gallery",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9471833",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "DJ MERIMAAT AND HOST ALEANGEL 2PMSLT@ DIAMONDS & DESIRES",
       "starts_at": "2026-11-11T14:00:00-08:00",
       "venue": "Diamonds & Desires Club",
@@ -3009,6 +2987,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "THE TIME MACHINE IS HEADING BACK TO 1988 WITH DJ EVAN LEIGH 2-4PM @ GENERATIONXYZ",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "Generation XYZ 80s, 90s, 00s Music, Arcade, Bowling and More",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504256",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "THE WIDEST RANGE OF FASHION STYLES IN SECOND LIFE!",
@@ -3165,6 +3154,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "😉😊🫦DJ ROMIE \"WANNA DANCE & BLUSH A LITTLE\" 2-4PM SLT!😉😊🫦",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "CLUB CASABLANCA https://www.flickr.com/groups/cubancafe/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504264",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T18:02:27.452950+00:00"
+    },
+    {
       "title": "🦁 Cute little lions",
       "starts_at": "2026-11-11T14:00:00-08:00",
       "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
@@ -3199,6 +3199,17 @@
     },
     {
       "title": "DJ     : Classical set       @ 3 pm at The Silver Dragon Club, CDS",
+      "starts_at": "2026-11-11T15:00:00-08:00",
+      "venue": "The Silver Dragon Club & Gallery",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9471846",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ Ekaterina with a Classical music  set @ 3 pm at The Silver Dragon Club, CDS",
       "starts_at": "2026-11-11T15:00:00-08:00",
       "venue": "The Silver Dragon Club & Gallery",
       "category": "Live DJ",
@@ -4298,6 +4309,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "Grace Loudon performs at Voodoo Bayou Blues",
+      "starts_at": "2026-11-11T18:00:00-08:00",
+      "venue": "VOODOO BAYOU BLUES~ A FAMILY FRIENDLY BLUES JOINT AND MORE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504261",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "HANGAR PARTY - VETERANS/REMEMBRANCE DAY AT THE WILLOWS - DJ BEARY STEVENSON 6PM",
       "starts_at": "2026-11-11T18:00:00-08:00",
       "venue": "The Willows",
@@ -4969,6 +4991,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FRETS NIRVANA LIVE AT VOODOO BAYOU BLUES",
+      "starts_at": "2026-11-11T19:00:00-08:00",
+      "venue": "VOODOO BAYOU BLUES~ A FAMILY FRIENDLY BLUES JOINT AND MORE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504258",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "GAME NIGHT AT INDULGE BEACH!",
       "starts_at": "2026-11-11T19:00:00-08:00",
       "venue": "~~Indulge Beach~~",
@@ -5000,6 +5033,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T03:00:04.533635+00:00"
+    },
+    {
+      "title": "No Sub Circle tonight at 7pm on P3",
+      "starts_at": "2026-11-11T19:00:00-08:00",
+      "venue": "P3  Landing",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504260",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T18:02:27.452950+00:00"
     },
     {
       "title": "Rafaella Live @ Whiskey River",
@@ -12074,6 +12118,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ CHIA'S CANADIAN ROCK PARTY AT SIRENS BEACH  4 PM",
+      "starts_at": "2026-11-13T16:00:00-08:00",
+      "venue": "Sirens Beach",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504253",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T18:02:27.452950+00:00"
+    },
+    {
       "title": "DJ Coyo's Friday Blues Party at Olivia's Playhouse",
       "starts_at": "2026-11-13T16:00:00-08:00",
       "venue": "Olivia's on Bourbon Street",
@@ -15042,6 +15097,17 @@
       "venue_photo_checked_at": "2026-11-09T12:03:33.528315+00:00"
     },
     {
+      "title": "WILL N LEBLANC LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504254",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
       "title": "⭐🎵⭐ 1 PM: TAY live @ The Golden Hour Club ⭐🎵⭐",
       "starts_at": "2026-11-14T13:00:00-08:00",
       "venue": "[The Golden Hour Club] * Live Music & Dance *",
@@ -15348,6 +15414,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T01:16:36.818888+00:00"
+    },
+    {
+      "title": "THOR OSBOURNE LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504255",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "TOBY'S JUKE JOINT BLUES IN THE AFTERNOON WITH DJ GRIZZLY",
@@ -17497,6 +17574,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "8AM -- PENTHOUSE HAPPY DAYS: A LITTLE NOSTALGIA, A LOT OF NAUGHTY!",
+      "starts_at": "2026-11-15T08:00:00-08:00",
+      "venue": "The Penthouse",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504252",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T18:02:27.452950+00:00"
+    },
+    {
       "title": "CRANK IT UP WITH DJ EXTRA",
       "starts_at": "2026-11-15T08:00:00-08:00",
       "venue": "WILDCAT COUNTRY",
@@ -18438,6 +18526,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "VETO RUBAS LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504257",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
       "title": "Wonderland Beach presents... a Cozy Thanksgiving Event",
       "starts_at": "2026-11-15T13:00:00-08:00",
       "venue": "Cozy Thanksgiving, 7th-30th Nov. 2026",
@@ -18612,6 +18711,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T01:16:36.818888+00:00"
+    },
+    {
+      "title": "IVY FADEL LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-15T14:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504259",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "Join the Service at House of Prayer This Afternoon",
@@ -20528,6 +20638,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🐊 HELL YA!! TURN UP THE ROCK AT WET WILLIES CLASSIC ROCK CLUB!",
+      "starts_at": "2026-11-16T08:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504265",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🖤⛓️ who is a good boy? 🖤⛓️ VELVET MIRAGE",
       "starts_at": "2026-11-16T08:00:00-08:00",
       "venue": "<{VELVET MIRAGE}> Lovense - Cam - Escort - Hiring",
@@ -20746,6 +20867,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🐊 DJ SAMMI IS ROCKIN THE CLASSICS WITH MORNING ENERGY AT WET WILLIES!!",
+      "starts_at": "2026-11-16T10:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504266",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "💕 I Love You to the Moon and Back",
@@ -25378,6 +25510,19 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "CHRISTINE SUNSHINE LIVE AT CAFE MUSIQUE!",
+      "starts_at": "2026-11-18T00:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7749222",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "WEDNESDAY MORNING AT EYE CANDY MUSIC CLUB WITH DJ BELLA 12AM-2AM",
       "starts_at": "2026-11-18T00:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -25448,6 +25593,19 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "ARVI IS READY TO ENCHANT YOU AT CAFE MUSIQUE!",
+      "starts_at": "2026-11-18T01:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8201314",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🗝️ HOUSE OF WHISPERS @ [ROUGE] 🗝️",
       "starts_at": "2026-11-18T01:30:00-08:00",
       "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -25503,6 +25661,19 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "RONA SINGER BRINGS A VOICE FOR EVERY SONG TO CAFE MUSIQUE",
+      "starts_at": "2026-11-18T02:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9372640",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/141572f2-9464-8767-875a-847aac4c431a/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -25630,6 +25801,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497823",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "BEE BLOSSOM DEVEREUX BRINGS MUSIC THAT FEELS LIKE HOME TO CAFE MUSIQUE",
+      "starts_at": "2026-11-18T07:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7680698",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
