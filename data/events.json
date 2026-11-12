@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-12T15:00:57.017911+00:00",
+  "updated_at": "2026-11-12T16:08:11.035427+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -199,19 +199,6 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
-      "title": "💲 Gachas for just $5L on our land! Yes, I said $5L! Come check it out! 💲",
-      "starts_at": "2026-11-12T01:00:00-08:00",
-      "venue": "** TK VENTURES **",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
-    },
-    {
       "title": "WEAR YOUR IDENTITY! The LUXE Paris MANIFESTO!",
       "starts_at": "2026-11-12T01:30:00-08:00",
       "venue": "LUXE Paris Fashion House",
@@ -288,19 +275,6 @@
       "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
       "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "* 𝗣𝗘𝗥𝗩𝗘𝗥𝗧𝗦 𝗛𝗘𝗥𝗘 𝗬𝗢𝗨 𝗦𝗛𝗜𝗡𝗘!* JOIN US! 18+",
-      "starts_at": "2026-11-12T03:00:00-08:00",
-      "venue": "! PERVERTS !",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/fcbd32eb-e391-4471-e8e3-bcc2f1d7a076/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
     },
     {
       "title": "::: 3AM VANELLOPE LIVE @ THE WOOLSHED",
@@ -1018,6 +992,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Cryptic Harmony - Juici Lu's@ 10am",
+      "starts_at": "2026-11-12T10:00:00-08:00",
+      "venue": "JUICI Lu's music Club @ D'Legs",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504715",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "DJ ARIANNA @ WATERMELON SUGAR CLUB",
@@ -2175,6 +2160,19 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "𝗣𝗘𝗥𝗩𝗘𝗥𝗧𝗦 𝗛𝗘𝗥𝗘 𝗬𝗢𝗨 𝗦𝗛𝗜𝗡𝗘. JOIN US! 18+",
+      "starts_at": "2026-11-12T13:00:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/fcbd32eb-e391-4471-e8e3-bcc2f1d7a076/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "🌴🌅 SUN, SEA & GREAT MUSIC AT SUNRAYZ COAST! 🌅🌴",
       "starts_at": "2026-11-12T13:00:00-08:00",
       "venue": "SunRayz Coast Berach Club",
@@ -2703,6 +2701,19 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "💲 Gachas for just $5L on our land! Yes, I said $5L! Come check it out! 💲",
+      "starts_at": "2026-11-12T14:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "Daisy Atheria live at The Dawn Star",
       "starts_at": "2026-11-12T14:30:00-08:00",
       "venue": "The Dawn Star",
@@ -2954,6 +2965,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "Airedine LIVE @ Sip Society Game Launch",
+      "starts_at": "2026-11-12T16:00:00-08:00",
+      "venue": "Rosehaven Mall (south)",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504711",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "Alchemelic @ Hotel Chelsea's Strawberry Fields",
@@ -3704,6 +3726,17 @@
       "venue_photo_checked_at": "2026-11-06T01:25:16.478819+00:00"
     },
     {
+      "title": "Veo Voom Live @ Sip Society Launch Party",
+      "starts_at": "2026-11-12T17:00:00-08:00",
+      "venue": "Rosehaven Mall (south)",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504712",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "Wolfie Moonshadow live at Exotic Escape",
       "starts_at": "2026-11-12T17:00:00-08:00",
       "venue": "**EXOTIC ESCAPE ENCHANTED ECHOES**",
@@ -3834,6 +3867,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "AMFORTE Live @ Sip Society Launch Party",
+      "starts_at": "2026-11-12T18:00:00-08:00",
+      "venue": "Rosehaven Mall (south)",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504713",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "BINGO @ WILLOW PARK",
@@ -4868,6 +4912,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "IT'S F#@K!N WICKED WEDNESDAYS W/ DJ Supercute!",
+      "starts_at": "2026-11-12T19:30:00-08:00",
+      "venue": "Club Trax  b y the Amorous Sociiety",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504676",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "❤️FOXXIES THURS DJ FOXXEE🌹7:30PM ROMANTIC DANCING FRANKS FRANK'S MUSIC CALAS HARMONY 511",
@@ -17329,6 +17384,28 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "ARVI LIVE @ The The Campfire Retreat Monday November 16th at 11am slt",
+      "starts_at": "2026-11-16T11:00:00-08:00",
+      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9463848",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
+      "title": "Arvi ugly Bill Ronnie Mayes @ The Campfire Retreat Monday November 16 11am slt",
+      "starts_at": "2026-11-16T11:00:00-08:00",
+      "venue": "Yasgurs Farm, Home of Lakesides Woodstock Festival",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9458469",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "Chill Time with Sunny @WBH",
       "starts_at": "2026-11-16T11:00:00-08:00",
       "venue": "WBH Sunvibes Chill / World Music",
@@ -17681,6 +17758,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "UGLY BILL at the Campfire Retreat Monday November 16th Noon SLT",
+      "starts_at": "2026-11-16T12:00:00-08:00",
+      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9427501",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [indie, alternative, rock, punk, progressive, house, electro, techno]",
       "starts_at": "2026-11-16T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -17811,6 +17899,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "Ronnie mayes @ The Campfire Retreat Monday November 16th @ Noon slt",
+      "starts_at": "2026-11-16T13:00:00-08:00",
+      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9459958",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "SUBWOOFER SUBMISSION \"Erotic Escorts\" DJ Jennifer @ The Twisted Orchid Fetish & BDSM Club",
@@ -19969,6 +20068,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Pavilion Tuesday Stinna Inkaku Capalini Raven Zenoria November 17th 11am slt",
+      "starts_at": "2026-11-17T10:30:00-08:00",
+      "venue": "The Pavilion at Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9458476",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "ARVORIE LIVE AT FRANK'S ELITE",
       "starts_at": "2026-11-17T11:00:00-08:00",
       "venue": "Franks Elite Jazz Club - Elegant Romance",
@@ -20044,6 +20154,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Stinna!! Live at The Pavilion. Tuesday, November 17th, 11am slt SLT",
+      "starts_at": "2026-11-17T11:00:00-08:00",
+      "venue": "The Pavilion at Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9467334",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "TUE🎤👄Lisbitt💕The Andalusian & Marie @ The Savoy",
@@ -20231,6 +20352,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Inkaku Capalini Live at The Pavilion Tuesday, November 17th Noon slt",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "The Pavilion at Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9469789",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "RUSSELL EPONYM, Live at The Glen",
@@ -20483,6 +20615,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Raven Zenoria Live The Pavilion Tuesday, November 17th 1pm slt",
+      "starts_at": "2026-11-17T13:00:00-08:00",
+      "venue": "The Pavilion at Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9470796",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "STORE ANIMATION HUD DANCE ANIMATION hud k-pop",
@@ -22297,6 +22440,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Bud Acuto Live The Pavilion Wednesday, November 18th 1am slt",
+      "starts_at": "2026-11-18T01:00:00-08:00",
+      "venue": "The Pavilion at Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9427497",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "🗝️ HOUSE OF WHISPERS @ [ROUGE] 🗝️",
       "starts_at": "2026-11-18T01:30:00-08:00",
       "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -22507,6 +22661,28 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DEXTER SWANSON at the Tin Shed Wednesday November 18th 7am slt",
+      "starts_at": "2026-11-18T07:00:00-08:00",
+      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9469826",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
+      "title": "DEXTER SWANSON, UGLY BILL & Later Le CHNINKEL at the Tin Shed Wednesday November 18th",
+      "starts_at": "2026-11-18T07:00:00-08:00",
+      "venue": "Yasgurs Farm, Home of Lakesides Woodstock Festival",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9481976",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "🥂 THE FINEST CLUB IN TOWN @ [ROUGE] 🥂",
       "starts_at": "2026-11-18T07:00:00-08:00",
       "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -22588,6 +22764,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "UGLY BILL at the Tin Shed Wednesday November 18th 8am SLT",
+      "starts_at": "2026-11-18T08:00:00-08:00",
+      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9435117",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
       "title": "WEDNESDAY EARLY MORNING AT EYE CANDY MUSIC CLUB WITH DJ LUSHY",
       "starts_at": "2026-11-18T08:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -22644,6 +22831,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Le Chninkel at the Tin Shed Wednesday November 18th 1pm SLT",
+      "starts_at": "2026-11-18T09:00:00-08:00",
+      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9492185",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
       "title": "Wednesday's Dawn Star Coffee Break",
