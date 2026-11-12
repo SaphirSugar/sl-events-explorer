@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-12T06:09:53.705086+00:00",
+  "updated_at": "2026-11-12T07:26:39.296156+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1592,17 +1592,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "::: Russell Eponym live at End of Time",
-      "starts_at": "2026-11-11T12:00:00-08:00",
-      "venue": "Burnt Norton",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9197401",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
       "title": "AT JAKES - DJ CARL DOES IT ON THE BEACH!",
       "starts_at": "2026-11-11T12:00:00-08:00",
       "venue": "Jake's Place - on Poppy Street",
@@ -2692,6 +2681,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Teasing Trivia w/ Bella Strega @ Cabo Swingers Resort Bar",
+      "starts_at": "2026-11-11T14:00:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498996",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Wednesday isn't just for humping",
       "starts_at": "2026-11-11T14:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -2778,28 +2778,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "Faith Chapel Sunday Evening Worship",
-      "starts_at": "2026-11-11T22:30:00-08:00",
-      "venue": "Faith Chapel SL",
-      "category": "Spirituality",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9485033",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
-      "title": "Promote Yourself @ The Exchange",
-      "starts_at": "2026-11-11T22:30:00-08:00",
-      "venue": "THE EXCHANGE - Adult Directory - https://goo.gl/YY5twX",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9503687",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-10T10:59:49.358251+00:00"
     },
     {
       "title": "DJ LARS @ WATERMELON SUGAR CLUB",
@@ -3105,6 +3083,17 @@
     },
     {
       "title": "》Come have sex on our land! Men and women of all identities and desires are welcome!",
+      "starts_at": "2026-11-12T03:00:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T05:09:34.263937+00:00"
+    },
+    {
+      "title": "👉 𝗣𝗘𝗥𝗩𝗘𝗥𝗧𝗦 𝗛𝗘𝗥𝗘 𝗬𝗢𝗨 𝗦𝗛𝗜𝗡𝗘! JOIN US!",
       "starts_at": "2026-11-12T03:00:00-08:00",
       "venue": "! PERVERTS !",
       "category": "Nightlife & Entertainment",
@@ -7884,13 +7873,13 @@
     {
       "title": "Make Your Creations Merry & Bright!",
       "starts_at": "2026-11-12T22:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501197",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "✨ Welcome To Hill Valley ✨ Second Life's 🕹️ Home Of The 80s 🕶️",
@@ -7959,26 +7948,59 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Bored? Frustrated?",
+      "starts_at": "2026-11-12T22:30:00-08:00",
+      "venue": "THE EXCHANGE - Adult Directory - https://goo.gl/YY5twX",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503691",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T10:59:49.358251+00:00"
+    },
+    {
       "title": "Escort Oasis, escort oasis (204, 54, 33) - Adult",
       "starts_at": "2026-11-12T22:30:00-08:00",
       "venue": "Safe Hub",
-      "category": "Miscellaneous",
+      "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485021",
       "teleport_url": null,
-      "official_category": false,
+      "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "DJ Spot Playing Australian Blues",
       "starts_at": "2026-11-12T23:00:00-08:00",
       "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
-      "category": "Miscellaneous",
+      "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488815",
       "teleport_url": null,
-      "official_category": false,
+      "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "LUXE Paris: YOUR FASHION LABORATORY!",
+      "starts_at": "2026-11-12T23:00:00-08:00",
+      "venue": "LUXE Paris Fashion House",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504067",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🪭Golden Hour @ O K I Y A🪭",
+      "starts_at": "2026-11-12T23:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501680",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ JADE @ WATERMELON SUGAR CLUB",
@@ -13302,6 +13324,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "âœ¨ ASTRA âœ¨ THE NIGHT STARTS HERE âœ¦ CAM GIRLS LIVE âœ¦",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "ASTRA Lovense Lounge ~ [Cam, Escort, Voice, Text, Strip]",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503651",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "✨ ASTRA ✨ THE NIGHT STARTS HERE ✦ CAM GIRLS LIVE ✦",
@@ -25515,6 +25548,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "💋ASTRA💋YOUR NIGHT, YOUR FANTASY ✦ REAL GIRLS ONLINE ✦",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "ASTRA Lovense Lounge ~ [Cam, Escort, Voice, Text, Strip]",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504605",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "♬STIXX EXPERIENCE IS LIVE🎸BRING A DATE🕺💃WHERE EVERYONE KNOWS YOUR NAME",
       "starts_at": "2026-11-18T12:30:00-08:00",
       "venue": "SINSET BEACH-LIVE MUSIC-DANCING-7 DAYS A WEEK-NOON TO 4 PM SLT",
@@ -27190,14 +27234,14 @@
     {
       "title": "NEW! Full Perm Mesh Figures Are Here!",
       "starts_at": "2026-11-19T00:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501204",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "THE BOYS ARE BACK IN TOWN , DJ ROBBIE AND JP 2 AM TO 4 A.M.",
@@ -29595,13 +29639,13 @@
     {
       "title": "Make Your Creations Merry & Bright!",
       "starts_at": "2026-11-19T22:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501198",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "⌇👅⌇ NAUGHTY LESSONS @ [ROUGE] ⌇👅⌇",
@@ -31773,13 +31817,13 @@
     {
       "title": "Bring Christmas to Life!",
       "starts_at": "2026-11-20T23:30:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501202",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "SATURDAY WITH THE KARLINGS AT MUDDY'S MIDNIGHT to 2 AM",
@@ -40598,14 +40642,14 @@
     {
       "title": "NEW! Full Perm Mesh Figures Are Here!",
       "starts_at": "2026-11-26T00:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501205",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "Second Life Creator's Collective's Black Friday Sales Event",
@@ -42123,13 +42167,13 @@
     {
       "title": "Make Your Creations Merry & Bright!",
       "starts_at": "2026-11-26T22:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501199",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "Escort Oasis, escort oasis (204, 54, 33) - Adult",
@@ -42502,6 +42546,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "::: Russell Eponym live at End of Time",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Burnt Norton",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9197401",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Custom Photo / texture editing, Profile, wedding, family, pets. Almost anything possible",
@@ -43738,13 +43793,13 @@
     {
       "title": "Bring Christmas to Life!",
       "starts_at": "2026-11-27T23:30:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501203",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "SATURDAY WITH THE KARLINGS AT MUDDY'S MIDNIGHT to 2 AM",
@@ -50394,14 +50449,14 @@
     {
       "title": "NEW! Full Perm Mesh Figures Are Here!",
       "starts_at": "2026-12-03T00:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501206",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "THE BOYS ARE BACK IN TOWN , DJ ROBBIE AND JP 2 AM TO 4 A.M.",
@@ -57990,14 +58045,14 @@
     {
       "title": "NEW! Full Perm Mesh Figures Are Here!",
       "starts_at": "2026-12-10T00:00:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501207",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "THE BOYS ARE BACK IN TOWN , DJ ROBBIE AND JP 2 AM TO 4 A.M.",
