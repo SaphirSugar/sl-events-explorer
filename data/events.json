@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-12T19:59:55.599483+00:00",
+  "updated_at": "2026-11-12T20:56:46.937562+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1262,17 +1262,6 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
-      "title": "Thursday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
-      "starts_at": "2026-11-12T11:00:00-08:00",
-      "venue": "Virtual Hotel Chelsea NYC - Coffee House",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9128219",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
-    },
-    {
       "title": "We're 🎸 Rockin Thursdays 🕹️ Back To The 80s! 🕶️ With DJ Butterfly",
       "starts_at": "2026-11-12T11:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -1392,17 +1381,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "A Good Place to Talk Literature @ Hotel Chelsea (Jobriath Room)",
-      "starts_at": "2026-11-12T12:00:00-08:00",
-      "venue": "Virtual Hotel Chelsea NYC - El Quijote",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9460487",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "ASTRA 🌹 THORNY THURSDAYS: LET THE THORNS TEMPT YOU",
@@ -2672,6 +2650,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "2-10PM SLT - ULTRA VIBE SESSIONS @ LIV ULTRAVIOLET! LIVE DJS & CONTEST/PRIZES!",
+      "starts_at": "2026-11-12T15:00:00-08:00",
+      "venue": "LIV ULTRAVIOLET NIGHT CLUB & BEACH COMMUNITY - DJs thurs-sat",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504785",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T20:59:12.384305+00:00"
     },
     {
       "title": "AT JAKES - JPX WINKLER - LIVE!",
@@ -4093,6 +4082,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Happy Thursday @ Back In  Time",
+      "starts_at": "2026-11-12T18:00:00-08:00",
+      "venue": "back in time nught club-adult",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504786",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T20:59:12.384305+00:00"
+    },
+    {
       "title": "Harmony Hills PEAK Radio: DJ Roxy C | A Musical Rainbow",
       "starts_at": "2026-11-12T18:00:00-08:00",
       "venue": "Peak Radio - Harmony Hills Roleplay Community",
@@ -4366,6 +4366,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "dDance Club Sapphire L-Contest DJ Sophie - Night in Paris",
+      "starts_at": "2026-11-12T18:00:00-08:00",
+      "venue": "dDance Club SAPPHIRE",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504781",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T20:59:12.384305+00:00"
     },
     {
       "title": "~ 6-8 PM DJ CORR AND HOST FRANNIE ~ MIXED MESS ~",
@@ -4861,6 +4872,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "dDance Club Sapphire L-Contest DJ Sophie - Night in Paris - Halftime -",
+      "starts_at": "2026-11-12T19:00:00-08:00",
+      "venue": "dDance Club SAPPHIRE",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504782",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T20:59:12.384305+00:00"
     },
     {
       "title": "❤️FOXXIES THURS DJ FOXXEELADY🌹 7PM ROMANTIC DANCING BALLROOM FRANKS FRANK'S CLOUDS CALAS 511",
@@ -5444,6 +5466,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Friday party @ Little Mistake with NEA and OLD SUN",
+      "starts_at": "2026-11-12T22:30:00-08:00",
+      "venue": "Little Mistake",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504776",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T20:59:12.384305+00:00"
     },
     {
       "title": "DJ Spot Playing Australian Blues",
@@ -6041,6 +6074,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ MELO AND HOST LUCIO AT WET SPOT WAKING YOU UP!",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504779",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
       "title": "DJ SOY @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-13T08:00:00-08:00",
       "venue": "Watermelon Sugar Country Club",
@@ -6314,6 +6358,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+    },
+    {
+      "title": "DJ ENI AMD HOST KULUS AT WET SPOT!",
+      "starts_at": "2026-11-13T10:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504780",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
       "title": "DJ Mayla's Friday Mixer at The House of V! 10am-12pm SLT",
@@ -7075,6 +7130,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "WET SPOT WITH DJ ARNOLD  BRING FUN TO YOU!",
+      "starts_at": "2026-11-13T12:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504783",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [blues, rock, trance, techno, house, nudisco, trance, funk]",
       "starts_at": "2026-11-13T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -7537,6 +7603,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "BLUES DIDN'T DIEâ€¦ IT JUST GOT LOUDER at The Music Factory",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": ".::The Music Factory::.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504778",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "CLUB KOLOHE DJ MICA/HOST QUEENIE BEST IN PRETTY THANKSGIVING",
       "starts_at": "2026-11-13T14:00:00-08:00",
       "venue": "Club Kolohe est, 01/26/2016",
@@ -7711,6 +7788,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T23:49:55.184959+00:00"
+    },
+    {
+      "title": "PARTY ! PARTY TIME AT WET SPOT BRING FRIENDS AND MAKE NEW FRIENDS!",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504784",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
       "title": "PROSECCO Friday - DJ LEXX (CH) live",
@@ -26146,6 +26234,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Thursday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
+      "starts_at": "2026-11-19T11:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - Coffee House",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9128219",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "We're 🎸 Rockin Thursdays 🕹️ Back To The 80s! 🕶️ With DJ Butterfly",
       "starts_at": "2026-11-19T11:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -26188,6 +26287,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "A Good Place to Talk Literature @ Hotel Chelsea (Jobriath Room)",
+      "starts_at": "2026-11-19T12:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - El Quijote",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9460487",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Anderson Parkes live at The Dawn Star",
