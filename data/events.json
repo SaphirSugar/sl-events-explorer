@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-12T17:09:03.939637+00:00",
+  "updated_at": "2026-11-12T17:58:18.444568+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -441,6 +441,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503688",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/16d0f943-fb34-5bc2-b165-923500fe5413/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-10T10:59:49.358251+00:00"
     },
     {
@@ -452,6 +454,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8775094",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
@@ -565,17 +569,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "UGLY BILL LIVE AT CAFE MUSIQUE",
-      "starts_at": "2026-11-12T06:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7997360",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "WBH Beach Secret Spa - Swimming Snorkeling Marine Life",
       "starts_at": "2026-11-12T06:00:00-08:00",
       "venue": "WBH Beach Secret Spa - Swimming",
@@ -648,17 +641,6 @@
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501090",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "KURT CALAMITY PERFORMING LIVE AT CAFE MUSIQUE",
-      "starts_at": "2026-11-12T07:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7908390",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -747,17 +729,6 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495899",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "FARJAMETA AT CAFE MUSIQUE BRINGS SOULFUL SOUNDS FROM INDONESIA",
-      "starts_at": "2026-11-12T08:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8201330",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -884,17 +855,6 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
-      "title": "JALANCASTER BRINGS BRAZILLIAN ROOTS AND A GLOBAL SOUND TO CAFE MUSIQUE",
-      "starts_at": "2026-11-12T09:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7758400",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "Reopening of the \"Like a Rolling Stone\" bar, Bayou theme",
       "starts_at": "2026-11-12T09:00:00-08:00",
       "venue": "Like a Rolling Stone : Bar Lounge Spa - Theme BAYOU",
@@ -992,17 +952,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "Cryptic Harmony - Juici Lu's@ 10am",
-      "starts_at": "2026-11-12T10:00:00-08:00",
-      "venue": "JUICI Lu's music Club @ D'Legs",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504715",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "DJ ARIANNA @ WATERMELON SUGAR CLUB",
@@ -1995,6 +1944,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "AT JAKES - DJ DILLEE - THURSDAY!",
+      "starts_at": "2026-11-12T13:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504740",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
+    },
+    {
       "title": "Chipper Carver live in Dublin",
       "starts_at": "2026-11-12T13:00:00-08:00",
       "venue": "The Blarney Stone - Irish Pub",
@@ -2780,6 +2740,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "AT JAKES - JPX WINKLER - LIVE!",
+      "starts_at": "2026-11-12T15:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504742",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
+    },
+    {
       "title": "CAMPFIRE - OPEN MIC AT CAFE MUSIQUE !!",
       "starts_at": "2026-11-12T15:00:00-08:00",
       "venue": "Cafe Musique",
@@ -2976,6 +2947,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "4PM  \"TEMPT ME \" THURSDAY @ 24 w/ DJ TALYA and LILY @ 24",
+      "starts_at": "2026-11-12T16:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504746",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "4PM Airedine Poe (Grand Opening of the Sip Society)",
@@ -3889,6 +3871,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
+      "title": "6PM  \"TEMPT ME \" THURSDAY @ 24 w/ DJ ANGELUS & AURORA @ 24",
+      "starts_at": "2026-11-12T18:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504747",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "6PM AMFORTE (Grand Opening if the Sip Society @ The Grind)",
@@ -5024,6 +5017,17 @@
       "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
+      "title": "8PM \"TEMPT ME \" THURSDAY w/ BLUES AFTER DARK - DJ DIME & SHELL",
+      "starts_at": "2026-11-12T20:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504748",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
+    },
+    {
       "title": "8pm DJ ARWEN'S ROCK NIGHT @ MONARCH",
       "starts_at": "2026-11-12T20:00:00-08:00",
       "venue": "The Monarch Gentlemen's Club @ Rooftops",
@@ -6101,6 +6105,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "WAKE N BAKE",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": "Interstate 84 Regent Riders Biker Bar / UDMC Riverside",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504745",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
     },
     {
       "title": "Wake & Bake w/ DJ Blue and Host Kalea",
@@ -7447,13 +7462,13 @@
     {
       "title": "V E S P E R I S : AFK Escorts & Voice Hangout",
       "starts_at": "2026-11-13T13:00:00-08:00",
-      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
+      "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476706",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "WHAT A MUSICAL JOURNEY!",
@@ -9872,14 +9887,14 @@
     {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-14T07:00:00-08:00",
-      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
+      "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476718",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "About Town: Breakfast Club",
@@ -10543,6 +10558,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T01:22:03.604018+00:00"
+    },
+    {
+      "title": "Organic & Deep House: Marten & Songbird",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "VALECOURT Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504744",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "Roxanne live at The Dawn Star",
@@ -20519,6 +20545,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "TUESDAY AFTERNOON, NOON-6 PM SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504741",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [darkwave, new wave, alternative, soul, funk, electro, industrial]",
       "starts_at": "2026-11-17T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -21781,6 +21818,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY EVENING, 6 PM-MIDNIGHT SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-17T18:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504743",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "~ LIVE MUSIC ~ HARMONIA TREFOIL AND SS",
@@ -25724,6 +25772,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "KURT CALAMITY PERFORMING LIVE AT CAFE MUSIQUE",
+      "starts_at": "2026-11-19T07:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7908390",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Thursday Morning Prayer",
       "starts_at": "2026-11-19T07:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
@@ -25779,6 +25838,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FARJAMETA AT CAFE MUSIQUE BRINGS SOULFUL SOUNDS FROM INDONESIA",
+      "starts_at": "2026-11-19T08:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8201330",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "THU Where Music Meets the Flame w/🔥DJ Dragon🔥& Mystique @ The Savoy",
       "starts_at": "2026-11-19T08:00:00-08:00",
       "venue": "SAVOY BALLROOM - 596 Lenox Ave in Swing Town, Creations Park",
@@ -25810,6 +25880,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "JALANCASTER BRINGS BRAZILLIAN ROOTS AND A GLOBAL SOUND TO CAFE MUSIQUE",
+      "starts_at": "2026-11-19T09:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7758400",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Thursday's Dawn Star Coffee Break",
@@ -28915,13 +28996,13 @@
     {
       "title": "V E S P E R I S : AFK Escorts & Voice Hangout",
       "starts_at": "2026-11-20T13:00:00-08:00",
-      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
+      "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476707",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "⭐🎵⭐ 1 PM: Lily Zane live @ The Golden Hour Club ⭐🎵⭐",
@@ -30322,14 +30403,14 @@
     {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-21T07:00:00-08:00",
-      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
+      "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476719",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "About Town: Breakfast Club",
@@ -39293,6 +39374,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "UGLY BILL LIVE AT CAFE MUSIQUE",
+      "starts_at": "2026-11-26T06:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7997360",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "WBH Beach Secret Spa - Swimming Snorkeling Marine Life",
       "starts_at": "2026-11-26T06:00:00-08:00",
       "venue": "WBH Beach Secret Spa - Swimming",
@@ -41221,13 +41313,13 @@
     {
       "title": "V E S P E R I S : AFK Escorts & Voice Hangout",
       "starts_at": "2026-11-27T13:00:00-08:00",
-      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
+      "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476708",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "☀️🎵 🎶 GAZ at Music on the Blake! 🎶 🎵☀️",
@@ -42362,14 +42454,14 @@
     {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-28T07:00:00-08:00",
-      "venue": "16384  sqm - 7500 Prims - 4125 L$/wk - COMMERCIAL",
+      "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476720",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T18:53:08.943637+00:00"
+      "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
     {
       "title": "About Town: Breakfast Club",
