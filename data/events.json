@@ -1,8 +1,450 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-12T12:04:39.661044+00:00",
+  "updated_at": "2026-11-12T13:19:16.179818+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
+    {
+      "title": "DJ LARS @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501402",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ RANE & SHIVI @ MUDDY'S MUSIC CAFE - THURSDAY 12AM SLT - JOIN US!",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9475571",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "EXPERIENCE THE ENCHANTMENT & ELEGANCE AT FRANK'S ELITE",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Franks Elite Jazz Club - Elegant Romance",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7999728",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Escort Oasis Hentai walk through limelight and Shush Rentals",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Safe Hub",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9485014",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/03470e69-806d-2dde-9a65-a97b68a71598/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Make Yourself at Home",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Aurora Town - Private Homes for Rent",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9494231",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ab29e559-fcbd-e13c-ce84-d5a7a22670da/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Phat Cats Movie Time — Morocco",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Phat Cats",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503561",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ff7196da-949c-2e78-773f-4a4a2681ffc4/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "THE BOYS ARE BACK IN TOWN , DJ ROBBIE AND JP 2 AM TO 4 A.M.",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9488948",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "THURSDAY MORNING, MIDNIGHT-NOON SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501911",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/874c121f-99ab-4caf-505c-dad3d37b9786/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Warehouse 21 ★ [techno, house, alternative, rock, indie]",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "Warehouse 21",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498465",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/40c64ae4-5348-339e-7e6d-dc1f6cf1d2ee/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "~~JAIK MARIO Live @ The Music Hive at 12AM~~",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "The Music Hive",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9486667",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎧 BIG DADDY'S THU DJ TUNES 70'S 80'S 90'S CLUB DANCE ROCK MUSIC 70S 80S 90S BIG DADDYS COUNTRY",
+      "starts_at": "2026-11-12T00:00:00-08:00",
+      "venue": "BIG DADDY'S MUSIC CLUB (PG) 16 YRS OF MUSIC & FUN IN SL",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9486159",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/479843dd-33c7-4626-3521-d98b24d53292/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "PEAK LOUNGE PRESENTS : DEEP IN THE FOREST  PARTY !!!",
+      "starts_at": "2026-11-12T00:30:00-08:00",
+      "venue": "PEAK Lounge [Since 2014] - [Peace : Love : Music]",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504480",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/334fe947-e1e0-f164-f624-ec287cf3a0f1/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
+    },
+    {
+      "title": "💄 COMPANION EXPERIENCE @ [ROUGE] 💄",
+      "starts_at": "2026-11-12T00:30:00-08:00",
+      "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500232",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "~~VIKTOR KRAVEN Live @ The Music Hive at 1AM~~",
+      "starts_at": "2026-11-12T01:00:00-08:00",
+      "venue": "The Music Hive",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9486685",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⭐🎶1am POUL MACDAVE @ THE RAFT🎶⭐",
+      "starts_at": "2026-11-12T01:00:00-08:00",
+      "venue": "the RAFT Live Music & More",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9485292",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "💲 Gachas for just $5L on our land! Yes, I said $5L! Come check it out! 💲",
+      "starts_at": "2026-11-12T01:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
+      "title": "WEAR YOUR IDENTITY! The LUXE Paris MANIFESTO!",
+      "starts_at": "2026-11-12T01:30:00-08:00",
+      "venue": "LUXE Paris Fashion House",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9491613",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/98dcbcf0-6b31-2a61-7c66-122086c62f46/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "2:00AM HEDY LIVE @ THE RAFT",
+      "starts_at": "2026-11-12T02:00:00-08:00",
+      "venue": "the RAFT Live Music & More",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9259510",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "DJ AMY @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-12T02:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501403",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ ENNIE EARLY THURSDAY MORNING AT EYE CANDY MUSIC CLUB",
+      "starts_at": "2026-11-12T02:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9495078",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "the show of Stevanno and Cecelia",
+      "starts_at": "2026-11-12T02:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503562",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
+      "title": "~~JOHNNY BELLOWS Live @ The Music Hive at 2am~~",
+      "starts_at": "2026-11-12T02:00:00-08:00",
+      "venue": "The Music Hive",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9495389",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "* 𝗣𝗘𝗥𝗩𝗘𝗥𝗧𝗦 𝗛𝗘𝗥𝗘 𝗬𝗢𝗨 𝗦𝗛𝗜𝗡𝗘!* JOIN US! 18+",
+      "starts_at": "2026-11-12T03:00:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/fcbd32eb-e391-4471-e8e3-bcc2f1d7a076/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
+      "title": "::: 3AM VANELLOPE LIVE @ THE WOOLSHED",
+      "starts_at": "2026-11-12T03:00:00-08:00",
+      "venue": "*** The WoolShed Australia ***",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8648430",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "MONAY AMOR @ LORRIE'S CLUB AUSTRALIA",
+      "starts_at": "2026-11-12T03:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9492781",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "~~LADYFORTRESS Live @ The Music Hive at 3am~~",
+      "starts_at": "2026-11-12T03:00:00-08:00",
+      "venue": "The Music Hive",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9489877",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⌇🕺💃⌇  𝓢𝓔𝓧𝓨 𝓐𝓟𝓟𝓔𝓐𝓛 @ [𝓡𝓞𝓤𝓖𝓔] ⌇🕺💃⌇",
+      "starts_at": "2026-11-12T03:00:00-08:00",
+      "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500233",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "::: 4AM PARADORN ANSAR LIVE @ THE WOOLSHED",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "*** The WoolShed Australia ***",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9304134",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503724",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AMY HERE AT EYE CANDY MUSIC CLUB 4AM-6AM",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9495086",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ DANGER @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501404",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ OTTER AT 4AMSLT ON THURSDAYS AT MUDDY'S MUSIC CAFE",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9490791",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Y4N",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503563",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
+      "title": "Palace Pirandello - Work & Social",
+      "starts_at": "2026-11-12T04:00:00-08:00",
+      "venue": "Palace Pirandello - Fantasy BDSM Latex Club & Drone Hive (PBR)",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9473066",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6d0c446c-26b6-dedb-8ec7-36d732e94abc/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
     {
       "title": "Thursday Morning Devotion",
       "starts_at": "2026-11-12T04:00:00-08:00",
@@ -930,6 +1372,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "ðŸŽ·  KaiMar 2026  * Jazz  with Kai * ðŸŽ·",
+      "starts_at": "2026-11-12T11:00:00-08:00",
+      "venue": "KaiMar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504652",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "⭐🎵⭐ 11 AM: DJ SASHA @ The Golden Hour Club ⭐🎵⭐",
       "starts_at": "2026-11-12T11:00:00-08:00",
       "venue": "[The Golden Hour Club] * Live Music & Dance *",
@@ -1134,6 +1587,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497419",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Chalista Cinematic Journeys at The Midnight Cabaret",
+      "starts_at": "2026-11-12T12:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504645",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
@@ -1832,6 +2296,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Hannah Plays Jazz @ The Midnight Cabaret",
+      "starts_at": "2026-11-12T14:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504646",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ IAN and Host Kono AT WET SPOT BEACH CLuB COME JOIN IN THE FUN WITH GREAT TUNES!",
       "starts_at": "2026-11-12T14:00:00-08:00",
       "venue": "Wet Spot Beach Club",
@@ -2360,6 +2835,17 @@
       "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
+      "title": "🎶MIKE MCALPINE @ SOUND ASYLUM LIVE at 3 SLT🎶",
+      "starts_at": "2026-11-12T15:00:00-08:00",
+      "venue": "Sound Asylum Live",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504644",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "💜Grief Circle presented by Hope Haven, November 12 💜",
       "starts_at": "2026-11-12T15:00:00-08:00",
       "venue": "Hope Haven - Support Groups",
@@ -2809,6 +3295,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "🎵  Busty Belles' \"THIRSTY THURSDAY\" Party, 4-6pm SL! 🎵",
+      "starts_at": "2026-11-12T16:00:00-08:00",
+      "venue": "Busty Belles' Legendary Nightclub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504634",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
     },
     {
       "title": "🎶 BINGO AND BEATS WITH DJ MANDI! 🎶",
@@ -3878,6 +4375,17 @@
       "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
+      "title": "🎵  Busty Belles' THIRSTY THURSDAY Party!  6-8pm  🎵",
+      "starts_at": "2026-11-12T18:00:00-08:00",
+      "venue": "Busty Belles' Legendary Nightclub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504635",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "🎵🌹 ROCKIN' [Re]DISCOVER THURSDAYS 🌹🎵 featuring a weekly artist",
       "starts_at": "2026-11-12T18:00:00-08:00",
       "venue": "Parisian Romance by Wizardly Weddings ~FT~ design",
@@ -4030,6 +4538,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
+      "title": "ANJ GUSTAFSON LIVE AT AFTER DARK THURSDAY AT 7PM",
+      "starts_at": "2026-11-12T19:00:00-08:00",
+      "venue": "After Dark",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9473550",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "COME AS YOU ARE @ CLUB EROS!",
@@ -4481,6 +5000,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
+    },
+    {
+      "title": "MAX KLEENE LIVE AT AFTER DARK TUESDAY AT 8PM!",
+      "starts_at": "2026-11-12T20:00:00-08:00",
+      "venue": "After Dark",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9447583",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "SAVAGE RHYTHM~DJ JAISYN AND JUN.. EXPECT THE UNEXPECTED. LOVE EVERY MINUTE OF IT !  12-2P SLT",
@@ -9025,6 +9555,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Bright Oh 4AM @ The Garden",
+      "starts_at": "2026-11-14T04:00:00-08:00",
+      "venue": "The Waterfront",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504631",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "DJ OTTER AT 4AMSLT ON SATURDAYS AT MUDDY'S MUSIC CAFE",
       "starts_at": "2026-11-14T04:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -9584,6 +10125,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T05:15:39.670790+00:00"
+    },
+    {
+      "title": "Teal's Trance Sessions - Live at the Ministry of Trance 2",
+      "starts_at": "2026-11-14T10:00:00-08:00",
+      "venue": "Ministry of Trance 2",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504648",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "soundsation Techno Time",
@@ -15314,6 +15866,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "Bright Oh 7PM @ The Cafe",
+      "starts_at": "2026-11-15T19:00:00-08:00",
+      "venue": "The Waterfront",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504632",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "CHRISTINE LIVE in LPE @ 7 PM SLT",
       "starts_at": "2026-11-15T19:00:00-08:00",
       "venue": "LPE Pointe Park",
@@ -15975,6 +16538,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Bright Oh 3AM @ The Warehouse",
+      "starts_at": "2026-11-16T03:00:00-08:00",
+      "venue": "The Waterfront",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504633",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "Live Singers Lady & Adam",
       "starts_at": "2026-11-16T03:00:00-08:00",
       "venue": "The Bricks at Phat Cats",
@@ -16087,6 +16661,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Sweet",
+      "starts_at": "2026-11-16T05:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504647",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
       "title": "DOCKSIDE DIALOGUE AT CAFE MUSIQUE!",
@@ -23953,6 +24538,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ Supercute at Club Trax!",
+      "starts_at": "2026-11-18T19:30:00-08:00",
+      "venue": "Club Trax  b y the Amorous Sociiety",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500499",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "🌹FOXXIES WED DJ FOXXEE🌹7:30PM ROMANTIC DANCING JAZZ HOTWIFE LOVE CLOUDS FRANKS FRANK'S",
       "starts_at": "2026-11-18T19:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDENS",
@@ -24963,6 +25559,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DarkHeat - Managing Poly Dynamics and Power Distribution",
+      "starts_at": "2026-11-19T11:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504641",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Mapoo live at The Dawn Star",
       "starts_at": "2026-11-19T11:00:00-08:00",
       "venue": "The Dawn Star",
@@ -25282,6 +25889,17 @@
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
     },
     {
+      "title": "Thirsty Thursday! \"Working Ass Hero\" DJ Ra @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-19T13:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504637",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "⭐🎵⭐ 1 PM: DJEMBE LIVE ON VIDEO @ The Golden Hour Club  ⭐🎵⭐",
       "starts_at": "2026-11-19T13:00:00-08:00",
       "venue": "[The Golden Hour Club] * Live Music & Dance *",
@@ -25335,6 +25953,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DarkHeat - Writing Sprints",
+      "starts_at": "2026-11-19T14:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504642",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten 2pm to 4pm",
@@ -25644,6 +26273,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DarkHeat - Rumor's Game Night",
+      "starts_at": "2026-11-19T16:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504643",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Live with Captain CC Canuck",
       "starts_at": "2026-11-19T16:00:00-08:00",
       "venue": "{INSPIRATION} MUSIC UNDER THE STARS",
@@ -25925,6 +26565,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9487511",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Trampling Time \"Her Dirty Gym Socks\" DJ Loki @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-19T17:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504638",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
@@ -27292,6 +27943,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Freaky Fetish Friday \"Maids and Milkmen\" DJ Futara @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-20T11:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504639",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Sassy Nitely sings live at Sanctuary at",
@@ -29208,6 +29870,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504530",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
+      "title": "Teal's Trance Sessions - Live at the Ministry of Trance 2",
+      "starts_at": "2026-11-21T10:00:00-08:00",
+      "venue": "Ministry of Trance 2",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504649",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
@@ -33557,6 +34230,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "NACHTBLUT - live concert  - LEGEND V TRIBE",
+      "starts_at": "2026-11-23T13:00:00-08:00",
+      "venue": "LEGEND V  of Amira",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504640",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
       "title": "RICKY HAYSTACK LIVE AT KITTENZ",
       "starts_at": "2026-11-23T13:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -37493,6 +38177,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ Supercute at Club Trax!",
+      "starts_at": "2026-11-25T19:30:00-08:00",
+      "venue": "Club Trax  b y the Amorous Sociiety",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500500",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "🌹FOXXIES WED DJ FOXXEE🌹7:30PM ROMANTIC DANCING JAZZ HOTWIFE LOVE CLOUDS FRANKS FRANK'S",
       "starts_at": "2026-11-25T19:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDENS",
@@ -41084,6 +41779,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
+      "title": "Teal's Trance Sessions - Live at the Ministry of Trance 2",
+      "starts_at": "2026-11-28T10:00:00-08:00",
+      "venue": "Ministry of Trance 2",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504650",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "soundsation Techno Time",
@@ -47366,6 +48072,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ Supercute at Club Trax!",
+      "starts_at": "2026-12-02T19:30:00-08:00",
+      "venue": "Club Trax  b y the Amorous Sociiety",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500501",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "🌹FOXXIES WED DJ FOXXEE🌹7:30PM ROMANTIC DANCING JAZZ HOTWIFE LOVE CLOUDS FRANKS FRANK'S",
       "starts_at": "2026-12-02T19:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDENS",
@@ -50111,6 +50828,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
+      "title": "Teal's Trance Sessions - Live at the Ministry of Trance 2",
+      "starts_at": "2026-12-05T10:00:00-08:00",
+      "venue": "Ministry of Trance 2",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504651",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "Cheeky Monkey Hunt at DINKIEWEAR... New theme each month!",
