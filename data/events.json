@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-12T17:58:18.444568+00:00",
+  "updated_at": "2026-11-12T19:00:39.864786+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -745,17 +745,6 @@
       "venue_photo_checked_at": "2026-11-08T07:07:49.328745+00:00"
     },
     {
-      "title": "MORNING COFFEE SET PUB WITH LIVE DJ FORTUNE IN DUBLIN",
-      "starts_at": "2026-11-12T08:00:00-08:00",
-      "venue": "The Blarney Stone - Irish Pub",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8213215",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
       "title": "THU Where Music Meets the Flame w/🔥DJ Dragon🔥& Mystique @ The Savoy",
       "starts_at": "2026-11-12T08:00:00-08:00",
       "venue": "SAVOY BALLROOM - 596 Lenox Ave in Swing Town, Creations Park",
@@ -1293,17 +1282,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
-    },
-    {
-      "title": "VELVET ROSE PERFORMING LIVE AT CAFE MUSIQUE!",
-      "starts_at": "2026-11-12T11:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7507604",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "We're 🎸 Rockin Thursdays 🕹️ Back To The 80s! 🕶️ With DJ Butterfly",
@@ -2107,6 +2085,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "THURSDAY ELEGANCE - A MUSICAL EXPERIENCE AT OFFSIDE LOUNGE",
+      "starts_at": "2026-11-12T13:00:00-08:00",
+      "venue": "OFFSIDE Lounge",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504750",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T19:03:30.898444+00:00"
     },
     {
       "title": "Thirsty Thursday \"BDSM Toy Story\" DJ Ra @ The Twisted Orchid Fetish & BDSM Club",
@@ -3849,6 +3838,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "🎵 \"I NEEDS MY MOTOWN\" 🎵",
+      "starts_at": "2026-11-12T17:30:00-08:00",
+      "venue": "Big Apple Entertainment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504751",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T19:03:30.898444+00:00"
     },
     {
       "title": "\"No Need to Re-Toggle\" Open Mic!",
@@ -5684,6 +5684,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "+++ 2am.. DOWNUNDER..*Live*.. Acoustic Cove..***",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "..... Acoustic Cove.....",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504749",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "DJ XAN @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-13T02:00:00-08:00",
       "venue": "Watermelon Sugar Country Club",
@@ -6105,6 +6116,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Syd's Pet Party",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": "Ministry of Trance 2",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504705",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "WAKE N BAKE",
@@ -7436,6 +7458,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "SOME T JUP @ MSKATT 1 PM SLT",
+      "starts_at": "2026-11-13T13:00:00-08:00",
+      "venue": "Eastern Spell - MsKatt Saloon",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9499782",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "STINNA LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -9885,6 +9918,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "🍋Ｔｈｅ Ｈａｉｒｙ ｌｅｍｏｎ🍋 — Pure Magical Vibez",
+      "starts_at": "2026-11-14T06:30:00-08:00",
+      "venue": "~[The Hairy Lemon] ~",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504752",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T19:03:30.898444+00:00"
+    },
+    {
       "title": "AFK ESCORTS & VOICE HANGOUT",
       "starts_at": "2026-11-14T07:00:00-08:00",
       "venue": "16384  sqm - 7500 Prims - 3850 L$/wk - COMMERCIAL",
@@ -11504,6 +11548,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
+      "title": "Dj Luis Dias Yamata - Rock ...Saturdays   .: PsyLounge :.",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": ".: PsyGallery :.   /    .: PsyLounge :.",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504753",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Dj Rebecca @ Sappho's Purring Kitten",
@@ -23143,6 +23198,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "MORNING COFFEE SET PUB WITH LIVE DJ FORTUNE IN DUBLIN",
+      "starts_at": "2026-11-18T10:00:00-08:00",
+      "venue": "The Blarney Stone - Irish Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8213215",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WET TEE WEDNESDAY @ PAPILLON GENTLEMENS’ CLUB",
@@ -58967,6 +59033,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Dj Luis Dias Yamata - Rock ...Saturdays   .: PsyLounge :.",
+      "starts_at": "2026-12-12T14:00:00-08:00",
+      "venue": ".: PsyGallery :.   /    .: PsyLounge :.",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504754",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "LIVE AT KITTENZ",
       "starts_at": "2026-12-12T14:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -75274,6 +75351,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Dj Luis Dias Yamata - Rock ...Saturdays   .: PsyLounge :.",
+      "starts_at": "2027-01-09T14:00:00-08:00",
+      "venue": ".: PsyGallery :.   /    .: PsyLounge :.",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504755",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "LIVE AT KITTENZ",
