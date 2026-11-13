@@ -190,17 +190,22 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 /* Six fixed sponsor placements in the outer page gutters. Main content width stays unchanged. */
 .sponsor-page-layout{position:relative}
 .sponsor-page-main{min-width:0}
-.sponsor-rail{position:fixed;top:115px;width:clamp(115px,calc((100vw - 1220px)/2 - 20px),165px);max-height:calc(100vh - 125px);overflow-y:auto;overscroll-behavior:contain;display:flex;flex-direction:column;gap:8px;z-index:20;scrollbar-width:thin}
+ .sponsor-rail{position:fixed;top:var(--sponsor-top, 112px);width:clamp(120px,calc((100vw - 1220px)/2 - 18px),174px);max-height:calc(100vh - var(--sponsor-top, 112px) - 12px);overflow-y:auto;overscroll-behavior:contain;display:flex;flex-direction:column;gap:12px;z-index:20;scrollbar-width:thin;padding:2px 3px 12px}
 .sponsor-rail-left{right:calc(50% + 610px)}
 .sponsor-rail-right{left:calc(50% + 610px)}
-.sponsor-card{flex:0 0 auto;border:1px solid #a879cc;border-radius:10px;background:linear-gradient(160deg,#291a3e,#171124);padding:7px;box-shadow:0 8px 20px #0005}
-.sponsor-label{font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#e8c58c;margin:0 0 5px}
-.sponsor-card img{display:block;width:100%;height:60px;object-fit:cover;background:#110d1d;border-radius:8px}
-.sponsor-card h2{font-size:12px;margin:6px 0 3px;color:#f4d6a1;overflow-wrap:anywhere}
-.sponsor-card p{font-size:10px;line-height:1.3;color:#d7c8e5;margin:0;overflow-wrap:anywhere}
-.sponsor-teleport{display:block;text-align:center;margin-top:6px;padding:6px 4px;border-radius:8px;background:linear-gradient(110deg,#e9c68c,#ba8b53);color:#1c1424;text-decoration:none;font-weight:800;font-size:11px}
-.sponsor-teleport:hover{filter:brightness(1.12)}
-.sponsor-teleport[hidden]{display:none}
+.sponsor-card{flex:0 0 auto;overflow:hidden;border:1px solid rgba(209,168,239,.45);border-radius:13px;background:linear-gradient(155deg,#332044 0%,#1c152c 75%);padding:0;box-shadow:0 8px 25px #0006;transition:border-color .2s,transform .2s}
+.sponsor-card:hover{border-color:#f1c886;transform:translateY(-2px)}
+.sponsor-label{display:flex;align-items:center;gap:5px;font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#f3d8aa;margin:0;padding:9px 10px 7px}
+.sponsor-label:before{content:'';width:5px;height:5px;border-radius:50%;background:#e6bc77;box-shadow:0 0 8px #e6bc77}
+.sponsor-media{height:72px;margin:0 7px;background:linear-gradient(135deg,#6c3d7c,#302249 55%,#8b6388);border-radius:8px;overflow:hidden;display:grid;place-items:center}
+.sponsor-media:after{content:'EVENTIDE SL';font-size:10px;letter-spacing:.16em;color:#f4d9ed;opacity:.65;grid-area:1/1}
+.sponsor-media img{width:100%;height:100%;object-fit:cover;grid-area:1/1;z-index:1}
+.sponsor-card h2{font-size:13px;line-height:1.25;margin:9px 10px 4px;color:#ffe2ae;overflow-wrap:anywhere}
+.sponsor-card p{font-size:10px;line-height:1.45;color:#d9cce6;margin:0 10px 10px;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:28px}
+.sponsor-teleport{display:flex;align-items:center;justify-content:center;gap:6px;text-align:center;margin:0 9px 10px;padding:9px 4px;border-radius:8px;background:linear-gradient(115deg,#f6d79c,#c79558);color:#241728;text-decoration:none;font-weight:900;font-size:10px;letter-spacing:.025em;box-shadow:inset 0 1px #fff5,0 3px 9px #0003;transition:filter .2s,transform .2s}
+.sponsor-teleport:before{content:'↗';font-size:14px;line-height:1}
+.sponsor-teleport:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.sponsor-teleport.is-unset{opacity:.55;cursor:not-allowed;box-shadow:none}
 @media(max-width:1579px){.sponsor-rail{display:none}}
 </style>
 </head>
@@ -244,21 +249,32 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 <section id="events" aria-label="Upcoming Second Life events"></section>
 <div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div></div></div>
 </main>
-<aside class="sponsor-rail sponsor-rail-left" aria-label="left sponsored shops"><article class="sponsor-card" data-sponsor="1"><div class="sponsor-label">Sponsored Shop</div><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="2"><div class="sponsor-label">Sponsored Shop</div><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="3"><div class="sponsor-label">Sponsored Shop</div><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article></aside>
-<aside class="sponsor-rail sponsor-rail-right" aria-label="right sponsored shops"><article class="sponsor-card" data-sponsor="4"><div class="sponsor-label">Sponsored Shop</div><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="5"><div class="sponsor-label">Sponsored Shop</div><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="6"><div class="sponsor-label">Sponsored Shop</div><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article></aside>
+<aside class="sponsor-rail sponsor-rail-left" aria-label="left sponsored shops"><article class="sponsor-card" data-sponsor="1"><div class="sponsor-label">Sponsored Shop</div><div class="sponsor-media"><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"></div><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport is-unset" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="2"><div class="sponsor-label">Sponsored Shop</div><div class="sponsor-media"><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"></div><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport is-unset" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="3"><div class="sponsor-label">Sponsored Shop</div><div class="sponsor-media"><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"></div><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport is-unset" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article></aside>
+<aside class="sponsor-rail sponsor-rail-right" aria-label="right sponsored shops"><article class="sponsor-card" data-sponsor="4"><div class="sponsor-label">Sponsored Shop</div><div class="sponsor-media"><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"></div><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport is-unset" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="5"><div class="sponsor-label">Sponsored Shop</div><div class="sponsor-media"><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"></div><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport is-unset" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article><article class="sponsor-card" data-sponsor="6"><div class="sponsor-label">Sponsored Shop</div><div class="sponsor-media"><img alt="Sponsored shop image" loading="lazy" onerror="this.style.display='none'"></div><h2>Shop name</h2><p>Shop description</p><a class="sponsor-teleport is-unset" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">Teleport to Shop</a></article></aside>
 <button type="button" id="back-to-search" aria-label="Go to top">↑ Go to top</button>
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span></div></footer>
 <dialog id="tz-dialog" class="tz-dialog" aria-labelledby="tz-title"><h2 id="tz-title">Choose your time zone</h2><p>Select a city marker on the world map. Event dates and hours will change to that city's local time, including daylight saving adjustments. The calendar continues to use SLT dates.</p><div id="tz-map" class="tz-map"><svg viewBox="0 0 1000 500" role="img" aria-label="Stylized world map. Select one of the city markers."><path d="M35 100 L115 55 190 65 235 105 220 148 185 164 172 214 132 243 99 206 67 202 45 160Z M200 235 L247 222 285 255 295 312 273 361 255 420 224 463 202 401 191 328Z M415 95 L456 68 506 75 535 113 509 145 476 140 456 177 431 157Z M441 176 L500 165 543 209 550 285 512 367 478 399 447 339 427 255Z M515 83 L602 55 699 70 781 109 851 139 875 187 823 216 790 252 737 228 706 270 664 242 630 202 591 207 558 160Z M787 332 L847 323 896 355 918 399 878 434 823 421 798 379Z M331 46 L356 25 383 45 372 92 344 100Z M912 126 L934 112 946 148 928 166Z"/></svg></div><div class="tz-selected" id="tz-selected" aria-live="polite">Choose a city on the map</div><div class="tz-actions"><button type="button" id="tz-apply" disabled>Apply selected city</button><button type="button" id="tz-dialog-browser">Use my device time zone</button><button type="button" id="tz-dialog-slt">Second Life Time</button><button type="button" id="tz-close">Close</button></div></dialog>
 <script>
 'use strict';
+// Align both fixed sponsor columns with the top of the calendar / next-events content.
+// The main content retains its original width.
+function alignSponsorRails(){
+ const calendar=document.querySelector('.calendar-shell');
+ if(!calendar)return;
+ const documentTop=calendar.getBoundingClientRect().top+window.scrollY;
+ const top=Math.max(12,Math.min(documentTop,window.innerHeight-180));
+ document.documentElement.style.setProperty('--sponsor-top',top+'px');
+}
+window.addEventListener('resize',alignSponsorRails);
+alignSponsorRails();
 // EDIT EACH SPONSOR: image, shop name, description, and Second Life teleport.
 const SPONSORS=[
- {image:'./images/sponsor-1.webp',name:'Sponsor 1',description:'Your shop description here.',teleport:''},
- {image:'./images/sponsor-2.webp',name:'Sponsor 2',description:'Your shop description here.',teleport:''},
- {image:'./images/sponsor-3.webp',name:'Sponsor 3',description:'Your shop description here.',teleport:''},
- {image:'./images/sponsor-4.webp',name:'Sponsor 4',description:'Your shop description here.',teleport:''},
- {image:'./images/sponsor-5.webp',name:'Sponsor 5',description:'Your shop description here.',teleport:''},
- {image:'./images/sponsor-6.webp',name:'Sponsor 6',description:'Your shop description here.',teleport:''}
+ {image:'./images/sponsor-1.webp',name:'Shop name',description:'Your shop description here.',teleport:''},
+ {image:'./images/sponsor-2.webp',name:'Shop name',description:'Your shop description here.',teleport:''},
+ {image:'./images/sponsor-3.webp',name:'Shop name',description:'Your shop description here.',teleport:''},
+ {image:'./images/sponsor-4.webp',name:'Shop name',description:'Your shop description here.',teleport:''},
+ {image:'./images/sponsor-5.webp',name:'Shop name',description:'Your shop description here.',teleport:''},
+ {image:'./images/sponsor-6.webp',name:'Shop name',description:'Your shop description here.',teleport:''}
 ];
 document.querySelectorAll('.sponsor-card').forEach((card,index)=>{
  const sponsor=SPONSORS[index];
@@ -267,7 +283,8 @@ document.querySelectorAll('.sponsor-card').forEach((card,index)=>{
  card.querySelector('h2').textContent=sponsor.name;
  card.querySelector('p').textContent=sponsor.description;
  const link=card.querySelector('a');
- try{const u=new URL(sponsor.teleport);if(u.protocol==='https:'&&u.hostname==='maps.secondlife.com'){link.href=u.href;link.hidden=false}}catch(e){}
+ link.addEventListener('click',e=>{if(link.classList.contains('is-unset'))e.preventDefault()});
+ try{const u=new URL(sponsor.teleport);if(u.protocol==='https:'&&u.hostname==='maps.secondlife.com'){link.href=u.href;link.classList.remove('is-unset');link.removeAttribute('aria-disabled');link.removeAttribute('tabindex')}}catch(e){}
 });
 
 let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
