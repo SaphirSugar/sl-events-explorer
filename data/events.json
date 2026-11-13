@@ -1,8 +1,342 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-13T10:06:14.107703+00:00",
+  "updated_at": "2026-11-13T11:06:34.714205+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
+    {
+      "title": "DJ JADE @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501857",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "FRIDAY MORNING, MIDNIGHT-NOON SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502722",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/874c121f-99ab-4caf-505c-dad3d37b9786/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "HAPPINESS CAN HAPPEN FOR YOU AT FRANK'S ELITE",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "Franks Elite Jazz Club - Elegant Romance",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7997260",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "MUDDY'S MUSIC CAFE PRESENTS DJ TWSTD & JP. 12 TO 2 A.M.",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498069",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Pacific Princess Rocks the Bricks",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503565",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
+      "title": "Warehouse 21 ★ [progressive, house, techno, trance]",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "Warehouse 21",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498914",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/40c64ae4-5348-339e-7e6d-dc1f6cf1d2ee/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "𝗣𝗘𝗥𝗩𝗘𝗥𝗧𝗦 𝗛𝗘𝗥𝗘 𝗬𝗢𝗨 𝗦𝗛𝗜𝗡𝗘. J O I N   U S!",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/fcbd32eb-e391-4471-e8e3-bcc2f1d7a076/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
+    },
+    {
+      "title": "🎧 BIG DADDY'S FRI DJ TUNES 70'S 80'S 90'S CLUB DANCE ROCK MUSIC 70S 80S 90S BIG DADDYS COUNTRY",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "BIG DADDY'S MUSIC CLUB (PG) 16 YRS OF MUSIC & FUN IN SL",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9487158",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/479843dd-33c7-4626-3521-d98b24d53292/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "😈 FETISH FRIDAY 😈 [DEMONIA CLUB ELITE LOUNGE]",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "+DEMONIA CLUB+ ELITE LOUNGE - NOW HIRING!",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502486",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6799ca0b-e552-bfec-87da-73a7ce02a714/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
+    },
+    {
+      "title": "🦌 BTBD Little Dasher bear",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504809",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6154ec5d-a0bd-5117-e9b5-524aa31101c2/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🪭Lantern Heat @ O K I Y A🪭",
+      "starts_at": "2026-11-13T00:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504981",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "PEAK LOUNGE PRESENTS : THE HIDEOUT FRIDAY  PARTY !!!",
+      "starts_at": "2026-11-13T00:30:00-08:00",
+      "venue": "PEAK Lounge [Since 2014] - [Peace : Love : Music]",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504852",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/334fe947-e1e0-f164-f624-ec287cf3a0f1/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T22:56:27.995790+00:00"
+    },
+    {
+      "title": "💄 THE SILENT TEMPTATION @ [ ROUGE ] 💄",
+      "starts_at": "2026-11-13T00:30:00-08:00",
+      "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500794",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "DJ NIBZ at The Cage Club",
+      "starts_at": "2026-11-13T01:00:00-08:00",
+      "venue": "Cage Club BDSM and D/s - Play, toys, sandbox - HIRING -",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497367",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "FAB FRIDAY w/ ARVORIE - CLUB MISFIT  - 1AM",
+      "starts_at": "2026-11-13T01:00:00-08:00",
+      "venue": "Club Misfit/Riddick Riders",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501260",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
+    },
+    {
+      "title": "🎸🔥 ROCKABILLY RUMBLE @ CHEQUERS NIGHT CLUB! 🔥🎸",
+      "starts_at": "2026-11-13T01:00:00-08:00",
+      "venue": "Chequers Nightclub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504975",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
+    },
+    {
+      "title": "💲 Gachas for just $5L on our land! Yes, I said $5L! Come check it out! 💲",
+      "starts_at": "2026-11-13T01:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
+    },
+    {
+      "title": "🪭Under the Red Moon @ O K I Y A🪭",
+      "starts_at": "2026-11-13T01:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504982",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "+++ 2am.. DOWNUNDER..*Live*.. Acoustic Cove..***",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "..... Acoustic Cove.....",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504749",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "DJ XAN @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501858",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "THE BOYS ARE BACK IN TOWN. DJ ROBBIE AND JP 2 AM TO 4 A.M.",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9474530",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Shaking Boots Master",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503566",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
+      "title": "~~JOHNNY BELLOWS @ Endless Summer Club at 2AM~~",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "~~ESC~~Home Away From Home",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9494952",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "🎉✨ FRIDAY NIGHT (OR REALLY EARLY MORNING!) at EYE CANDY! 💋",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500458",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🎙️✨ ELLIE SKYLARK *LIVE* AT LOVE & HARMONY Fridays • 2 AM TO 3 AM SLT✨🎙️",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503478",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "🎵Putri Live at Pitch Perfect! 2AM🎵",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Pitch Perfect",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500119",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "💗 GENDER REVEAL DECORATIONS",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504807",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🪭Lucky in Lust @ O K I Y A🪭",
+      "starts_at": "2026-11-13T02:00:00-08:00",
+      "venue": "Miss Stella & Miss Cin Lair",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504983",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
+    },
     {
       "title": "DJ Talya @ The Music Factory 6 pm SLT!",
       "starts_at": "2026-11-13T02:30:00-08:00",
@@ -11,11 +345,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485599",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/54ed7a3b-cf8d-4a62-43be-95421e7d6023/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "English Class. Voice. Comprehension/Listening",
@@ -26,20 +359,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502678",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00",
       "image_url": "https://picture-service.secondlife.com/c1af9828-b4e2-d741-95cf-8bb240506dac/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "FAB FRIDAY w/ PUTRI Solo - CLUB MISFIT @ ACOUSTIC COVE 3AM",
-      "starts_at": "2026-11-13T03:00:00-08:00",
-      "venue": "..... Acoustic Cove.....",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9501265",
-      "teleport_url": null,
-      "official_category": true,
-      "maturity": "Unspecified",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
@@ -50,11 +371,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500131",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c9b93823-7468-3ccc-f3a2-6dc599c31b96/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🥂 THE FINEST CLUB IN TOWN @ [ROUGE] 🥂",
@@ -64,11 +384,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500795",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "🪭 House of Silk @ O K I Y A🪭",
@@ -79,9 +398,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504985",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "*** Prestige Lounge *** Good Music -Good Company ***",
@@ -1308,13 +1627,13 @@
     {
       "title": "Beautiful Wedding Service Free!",
       "starts_at": "2026-11-13T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503493",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "CLUB KOLOHE DJ PSYCHOBLAZE/HOST MICA BEST IN TINIES",
@@ -2263,6 +2582,17 @@
       "venue_photo_checked_at": "2026-11-09T04:02:59.883028+00:00"
     },
     {
+      "title": "DJ Dogo and Host Sara Slow and Sensual  at the Midnight Cabaret",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505032",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ HANNOCK & CANDY @DIRTY HONEY COUNTRY CLUB",
       "starts_at": "2026-11-13T14:00:00-08:00",
       "venue": "DIRTY  HONEY COUNTRY CLUB",
@@ -2703,6 +3033,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "ENJOY DJ JUANCA @LOULOU BIRDCAGE WITH HIS TUNES",
+      "starts_at": "2026-11-13T15:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505027",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T06:09:20.889614+00:00"
+    },
+    {
       "title": "FRIDAY NIGHT ROCKS AT THE ALL NEW NIGHTFALL CASTLE",
       "starts_at": "2026-11-13T15:00:00-08:00",
       "venue": "Nightfall Castle",
@@ -2767,6 +3108,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Reopening of the \"Like a Rolling Stone\" bar, Bayou theme",
+      "starts_at": "2026-11-13T15:00:00-08:00",
+      "venue": "Like a Rolling Stone : Bar Lounge Spa - Theme BAYOU",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505028",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "TIME MACHINE by DJ Pilou!!",
@@ -2910,6 +3262,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T18:02:27.452950+00:00"
+    },
+    {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-11-13T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505033",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ Coyo's Friday Blues Party at Olivia's Playhouse",
@@ -3273,6 +3636,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "DJ Raven Loki is taking over Loulou!",
+      "starts_at": "2026-11-13T16:30:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505042",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T06:09:20.889614+00:00"
     },
     {
       "title": "Freaky",
@@ -3737,6 +4111,17 @@
       "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
+      "title": "DJ FLIRT MIX LIVE",
+      "starts_at": "2026-11-13T18:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504566",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
       "title": "DJ Nalla @THE VOID",
       "starts_at": "2026-11-13T18:00:00-08:00",
       "venue": "The Void",
@@ -4153,6 +4538,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🔥 OZZY TRIBUTE CONCERT IS HAPPENING NOW AT TOTALLY 80s™! 🎸⚡#1 80s club!",
+      "starts_at": "2026-11-13T18:00:00-08:00",
+      "venue": "<3 Totally 80s is your HOME of the 80s wth a FRESH 90s twist!",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505008",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T09:07:29.121190+00:00"
     },
     {
       "title": "Couples Dancing in a Garden setting - Many places to kiss and cuddle ❤️",
@@ -5002,6 +5398,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Feeling Lucky?",
+      "starts_at": "2026-11-13T22:30:00-08:00",
+      "venue": "THE EXCHANGE - Adult Directory - https://goo.gl/YY5twX",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9503695",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T10:59:49.358251+00:00"
+    },
+    {
       "title": "STORE ANIMATION new dance SHOP HUD ANIMATIONs",
       "starts_at": "2026-11-13T22:30:00-08:00",
       "venue": ".::***** DANCE * ANIMATIONs * STORE * HUD Animation *****::.",
@@ -5024,15 +5431,37 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "LADYFORTRESS LIVE AT FRANK'S ELITE",
+      "starts_at": "2026-11-13T23:00:00-08:00",
+      "venue": "Franks Elite Jazz Club - Elegant Romance",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7996353",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "🎵🌙 FRIDAY LATE NIGHT AT LOVE & HARMONY JAZZ WITH DJ SHAR 11PM 🌙🎵",
+      "starts_at": "2026-11-13T23:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504309",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Bring Christmas to Life!",
       "starts_at": "2026-11-13T23:30:00-08:00",
-      "venue": "Texture boutique young  full permission Textures & Deco",
+      "venue": "Texture boutique young  full permission Textures & Deco mesh",
       "category": "Commercial",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9501201",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-12T07:29:46.108964+00:00"
     },
     {
       "title": "STORE ANIMATION new dance SHOP HUD DANCE ANIMATION s",
@@ -5911,6 +6340,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Reopening of the \"Like a Rolling Stone\" bar, Bayou theme",
+      "starts_at": "2026-11-14T09:00:00-08:00",
+      "venue": "Like a Rolling Stone : Bar Lounge Spa - Theme BAYOU",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505029",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Saturday's Dawn Star Coffee Break",
@@ -6835,6 +7275,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
+    },
+    {
+      "title": "ErÃ¶ffung Aurellune Seasons , Winterland , Opening of Aurellune Seasons, Winterland",
+      "starts_at": "2026-11-14T12:30:00-08:00",
+      "venue": "~Aurellune Seasons ~",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505031",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "FIFTH AVENUE GUYS & DOLLS IN NOVEMBER NOVELTIES !",
@@ -10222,6 +10673,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Reopening of the \"Like a Rolling Stone\" bar, Bayou theme",
+      "starts_at": "2026-11-15T10:00:00-08:00",
+      "venue": "Like a Rolling Stone : Bar Lounge Spa - Theme BAYOU",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505030",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
+    },
+    {
       "title": "Sunday Flicks w/ Freddie Valentine @ Cabo Swingers' Resort",
       "starts_at": "2026-11-15T10:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -10752,13 +11214,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-11-15T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502644",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "✨ Welcome 🕹️ BACK TO THE 80s! 🕶️ Second Life's Home Of The 80s 🎧 ✨",
@@ -13414,13 +13876,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-11-16T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502658",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "SHOP HUD DANCE ANIMATION SEXY PARTY",
@@ -14732,6 +15194,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Monks & Sinners - Satanica's Birthday at THE PIT",
+      "starts_at": "2026-11-16T16:00:00-08:00",
+      "venue": "\"THE PIT\" Perdition's Gate EDM Live Mix DJs Dark Clubbing",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505024",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
+    },
+    {
       "title": "PARTY TIME WITH DJ DEVIL AT FU!!!!",
       "starts_at": "2026-11-16T16:00:00-08:00",
       "venue": "Forbidden Underground",
@@ -15881,6 +16354,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "David and Princy Show",
+      "starts_at": "2026-11-17T02:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505025",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
       "title": "Dj Amfie on the decks @Muddys with Host Slayer 2AM-4AM",
       "starts_at": "2026-11-17T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -16648,13 +17132,13 @@
     {
       "title": "A beautiful wedding at no cost!",
       "starts_at": "2026-11-17T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503496",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Art Exhibit \"I Love a Rose\" by Prins   .: PsyGallery :.",
@@ -19941,13 +20425,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-11-18T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503498",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "✨ I Love❤️ The 80s ✨ Takes you 🕹️ Back To The 80s! 🕶️ With DJ Mordecai! ✨",
@@ -25339,13 +25823,13 @@
     {
       "title": "Beautiful Wedding Service Free!",
       "starts_at": "2026-11-20T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503494",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Custom Photo / texture editing, Profile, wedding, family, pets. Almost anything possible",
@@ -26017,6 +26501,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-11-20T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505035",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-11-20T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505036",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ Coyo's Friday Blues Party at Olivia's Playhouse",
@@ -30306,13 +30812,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-11-22T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502645",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎤 Sunday Noon Tunes: Open Mic & Karaoke! 🎶",
@@ -31613,13 +32119,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-11-23T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502659",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "** CIRCLE MENTAL HEALTH **",
@@ -35010,13 +35516,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-11-25T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503499",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "✨ I Love❤️ The 80s ✨ Takes you 🕹️ Back To The 80s! 🕶️ With DJ Mordecai! ✨",
@@ -38776,6 +39282,28 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505037",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505038",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Coyo's Friday Blues Party at Olivia's Playhouse",
       "starts_at": "2026-11-27T16:00:00-08:00",
       "venue": "Olivia's on Bourbon Street",
@@ -42216,13 +42744,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-11-29T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502646",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🍂☕🍂 Singing LIVE - Vic @ Kona Beach Cozy Concert 🍂☕🍂",
@@ -43275,13 +43803,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-11-30T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502660",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "** CIRCLE MENTAL HEALTH **",
@@ -45719,13 +46247,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-12-02T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503500",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "⭐🎵⭐ 12 PM: AMFORTE live @ The Golden Hour Club ⭐🎵⭐",
@@ -48562,6 +49090,28 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-12-04T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505039",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Charlotte plays at The Midnight Cabaret",
+      "starts_at": "2026-12-04T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505040",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Lang is Blues'ng @ The Music Factory",
       "starts_at": "2026-12-04T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -51133,13 +51683,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-12-06T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502647",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
@@ -51814,13 +52364,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-12-07T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502661",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🔥🎧 HEAR THEM. TEASE THEM. PLAY WITH THEM. 🎧🔥",
@@ -53699,13 +54249,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-12-09T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503501",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "~~♥ AVORIE ♥~~ @ Le Fabrik live music 12pm",
@@ -57915,13 +58465,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-12-13T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502648",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
@@ -58333,13 +58883,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-12-14T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502662",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🔥🎧 HEAR THEM. TEASE THEM. PLAY WITH THEM. 🎧🔥",
@@ -59822,13 +60372,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-12-16T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503502",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Dj Rodeur - Futurepop, Indus and Trance    .: PsyLounge :.",
@@ -63345,13 +63895,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-12-20T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502649",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
@@ -63762,13 +64312,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-12-21T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502663",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🔥🎧 HEAR THEM. TEASE THEM. PLAY WITH THEM. 🎧🔥",
@@ -65081,13 +65631,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-12-23T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503503",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "VELVET ROSE LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -67538,13 +68088,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2026-12-27T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502650",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
@@ -67871,13 +68421,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2026-12-28T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502664",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🔥🎧 HEAR THEM. TEASE THEM. PLAY WITH THEM. 🎧🔥",
@@ -68805,13 +69355,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2026-12-30T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503504",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "ZOREE JUPITER & THE CHICKS LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -70997,13 +71547,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2027-01-03T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502651",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
@@ -71306,13 +71856,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2027-01-04T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502665",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "DJ OTTER & WILD AT MUDDY'S CAFE",
@@ -72051,13 +72601,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2027-01-06T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503505",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "VELVET ROSE LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -73773,13 +74323,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2027-01-10T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502652",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "🎧💖 SUNDAY FUNDAY AT EYE CANDY! 💖🎧",
@@ -74017,13 +74567,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2027-01-11T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502666",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "10TH MUSIC FOR YOU @ PITCH",
@@ -74716,13 +75266,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2027-01-13T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503506",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Dj Rain -                - Wednesday     .: PsyLounge :.",
@@ -76142,13 +76692,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2027-01-17T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502653",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Sunday Sessions · Mapoo Little Live at Anchorbury Harbor",
@@ -76304,13 +76854,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2027-01-18T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502667",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "DJ ROSA LIVE @ SOUTHERN SWING!",
@@ -76844,13 +77394,13 @@
     {
       "title": "Wonderful Weddings Absolutely Free",
       "starts_at": "2027-01-20T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503507",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Dj Rodeur - Futurepop, Indus and Trance    .: PsyLounge :.",
@@ -77920,13 +78470,13 @@
     {
       "title": "Weddings Performed Absolutely Free",
       "starts_at": "2027-01-24T12:00:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502654",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "Sunday Sessions · Mapoo Little Live at Anchorbury Harbor",
@@ -78034,13 +78584,13 @@
     {
       "title": "Have a Beautiful Wedding Absolutely Free",
       "starts_at": "2027-01-25T08:30:00-08:00",
-      "venue": "Sanctuary Oasis, AZ A Western Town and Track",
+      "venue": "Sanctuary Oasis",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502668",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-06T06:07:01.526548+00:00"
+      "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
       "title": "DJ ROSA LIVE @ SOUTHERN SWING!",
