@@ -186,6 +186,18 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 .artist-photo-badge{position:absolute;z-index:3;top:12px;right:12px;width:76px;height:76px;object-fit:cover;object-position:45% 46%;border-radius:50%;border:3px solid #e9c88e;background:#21152f;box-shadow:0 5px 18px #0009,0 0 0 3px #ad73d366;pointer-events:none}
 .featured-event .artist-photo-badge{top:14px;right:14px;width:82px;height:82px}
 @media(max-width:560px){.artist-photo-badge{width:62px;height:62px}.featured-event .artist-photo-badge{width:66px;height:66px}}
+
+/* Sponsored shop sidebar */
+.sponsor-page-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:22px;align-items:start}
+.sponsor-page-main{min-width:0}
+.sponsor-sidebar{position:sticky;top:125px;border:1px solid #a879cc;border-radius:18px;background:linear-gradient(160deg,#291a3e,#171124);padding:14px;box-shadow:0 12px 30px #0005}
+.sponsor-label{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#e8c58c;margin:0 0 12px}
+.sponsor-sidebar img{display:block;width:100%;aspect-ratio:4/5;object-fit:contain;background:#110d1d;border-radius:11px}
+.sponsor-sidebar h2{font-size:23px;margin:15px 0 9px;color:#f4d6a1}
+.sponsor-sidebar p{font-size:13px;line-height:1.65;color:#d7c8e5;overflow-wrap:anywhere}
+.sponsor-teleport{display:block;text-align:center;margin-top:15px;padding:12px;border-radius:10px;background:linear-gradient(110deg,#e9c68c,#ba8b53);color:#1c1424;text-decoration:none;font-weight:800;font-size:13px}
+.sponsor-teleport:hover{filter:brightness(1.12)}
+@media(max-width:900px){.sponsor-page-layout{grid-template-columns:1fr}.sponsor-sidebar{position:static;max-width:480px;width:100%;margin:0 auto 24px}}
 </style>
 </head>
 <body>
@@ -195,7 +207,7 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
   <h1 class="visually-hidden" id="site-title">Discover Second Life Events</h1>
   <img src="./images/eventide-top-banner.png" alt="Eventide SL. Second Life Events. Discover Second Life Events. Live Music, DJs, Arts and Culture, Games, Education and more." fetchpriority="high" decoding="async">
 </section>
-<section class="calendar-shell" aria-label="Discover and browse Second Life events">
+<div class="sponsor-page-layout"><div class="sponsor-page-main"><section class="calendar-shell" aria-label="Discover and browse Second Life events">
   <div class="left-column">
     <div class="calendar-panel">
       <div class="calendar-kicker">Explore by date</div>
@@ -226,13 +238,30 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 </section>
 <div class="section-head"><h2>All collected events</h2><p id="tz-results-note">All times shown in Second Life Time (SLT / Pacific Time)</p></div>
 <section id="events" aria-label="Upcoming Second Life events"></section>
-<div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div>
+<div id="load-status" class="stats" style="text-align:center;padding:24px" aria-live="polite"></div><div id="load-sentinel" aria-hidden="true"></div></div><aside class="sponsor-sidebar" aria-label="Sponsored shop"><div class="sponsor-label">Sponsored Shop</div><img id="sponsor-shop-image" src="./images/sponsor-shop.webp" alt="Sponsor shop promotion" loading="lazy" onerror="this.style.display='none'"><h2 id="sponsor-shop-name">Your Shop Here</h2><p id="sponsor-shop-description">Promote your Second Life shop to the Eventide SL community. Discover new collections and visit the store inworld.</p><a id="sponsor-shop-teleport" class="sponsor-teleport" href="#" hidden target="_blank" rel="noopener noreferrer">Teleport to Shop</a></aside></div>
 </main>
 <button type="button" id="back-to-search" aria-label="Go to top">↑ Go to top</button>
 <footer><div class="wrap"><span>© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</span></div></footer>
 <dialog id="tz-dialog" class="tz-dialog" aria-labelledby="tz-title"><h2 id="tz-title">Choose your time zone</h2><p>Select a city marker on the world map. Event dates and hours will change to that city's local time, including daylight saving adjustments. The calendar continues to use SLT dates.</p><div id="tz-map" class="tz-map"><svg viewBox="0 0 1000 500" role="img" aria-label="Stylized world map. Select one of the city markers."><path d="M35 100 L115 55 190 65 235 105 220 148 185 164 172 214 132 243 99 206 67 202 45 160Z M200 235 L247 222 285 255 295 312 273 361 255 420 224 463 202 401 191 328Z M415 95 L456 68 506 75 535 113 509 145 476 140 456 177 431 157Z M441 176 L500 165 543 209 550 285 512 367 478 399 447 339 427 255Z M515 83 L602 55 699 70 781 109 851 139 875 187 823 216 790 252 737 228 706 270 664 242 630 202 591 207 558 160Z M787 332 L847 323 896 355 918 399 878 434 823 421 798 379Z M331 46 L356 25 383 45 372 92 344 100Z M912 126 L934 112 946 148 928 166Z"/></svg></div><div class="tz-selected" id="tz-selected" aria-live="polite">Choose a city on the map</div><div class="tz-actions"><button type="button" id="tz-apply" disabled>Apply selected city</button><button type="button" id="tz-dialog-browser">Use my device time zone</button><button type="button" id="tz-dialog-slt">Second Life Time</button><button type="button" id="tz-close">Close</button></div></dialog>
 <script>
 'use strict';
+// SPONSOR SETTINGS: Edit the image path, shop name, description and Second Life teleport.
+const SPONSOR_SHOP={
+ image:'./images/sponsor-shop.webp',
+ name:'Your Shop Here',
+ description:'Promote your Second Life shop to the Eventide SL community. Discover new collections and visit the store inworld.',
+ teleport:'' // Example: https://maps.secondlife.com/secondlife/Region/128/128/25
+};
+(function(){
+ const shop=SPONSOR_SHOP;
+ const img=document.getElementById('sponsor-shop-image');
+ if(shop.image)img.src=shop.image;else img.hidden=true;
+ document.getElementById('sponsor-shop-name').textContent=shop.name;
+ document.getElementById('sponsor-shop-description').textContent=shop.description;
+ const link=document.getElementById('sponsor-shop-teleport');
+ try{const u=new URL(shop.teleport);if(u.protocol==='https:'&&u.hostname==='maps.secondlife.com'){link.href=u.href;link.hidden=false}}catch(e){}
+})();
+
 
 let events=[],view='all',selectedCategory='all',filteredEvents=[],visibleCount=0,selectedDate=null;
 const slTodayParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'numeric'}).formatToParts(new Date());
