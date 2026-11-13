@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-13T17:56:27.619460+00:00",
+  "updated_at": "2026-11-13T18:59:18.996862+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -754,17 +754,6 @@
       "venue_photo_checked_at": "2026-11-12T22:56:27.995790+00:00"
     },
     {
-      "title": "DJ DAS BRINGS THE SPIRIT OF SCOTLAND TO CAFE MUSIQUE",
-      "starts_at": "2026-11-13T08:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8396865",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "DJ LadyStar with Host Void at the Void",
       "starts_at": "2026-11-13T08:00:00-08:00",
       "venue": "The Void",
@@ -1084,17 +1073,6 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
-      "title": "### Fuck IT Friday w/DJ Jen Dagger and HOST Starry at KastleRoc",
-      "starts_at": "2026-11-13T10:00:00-08:00",
-      "venue": "KastleRock Rock & Metal Club - ADULTS ONLY",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502582",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T05:00:43.723734+00:00"
-    },
-    {
       "title": ".::.Soundsation Friday .::. House .::.",
       "starts_at": "2026-11-13T10:00:00-08:00",
       "venue": "Soundsation House Music Club .:",
@@ -1269,17 +1247,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
-      "title": "Syd's Pet Party",
-      "starts_at": "2026-11-13T10:00:00-08:00",
-      "venue": "Ministry of Trance 2",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504705",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "Will n' LeBlanc live at The Dawn Star",
@@ -2503,6 +2470,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
+    },
+    {
+      "title": "Nigel Navarathna live at The Dawn Star",
+      "starts_at": "2026-11-13T13:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9499857",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "OPEN ACCESS WEEKEND at Teqi's Harem",
+      "starts_at": "2026-11-13T13:00:00-08:00",
+      "venue": "Teqi Falta presents: Teqi's Harem OPEN ACCESS WEEKEND",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505126",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T19:01:46.838057+00:00"
     },
     {
       "title": "PEAK LOUNGE PRESENTS : FRIDAY  PARTY !!!",
@@ -6045,6 +6034,39 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "::: 1:00AM ALEY KAT LIVE @ THE RAFT",
+      "starts_at": "2026-11-14T01:00:00-08:00",
+      "venue": "the RAFT Live Music & More",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8392984",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "OPEN ACCESS DAY - Teqi's Harem",
+      "starts_at": "2026-11-14T01:00:00-08:00",
+      "venue": "Teqi Falta presents: Teqi's Harem OPEN ACCESS WEEKEND",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505127",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T19:01:46.838057+00:00"
+    },
+    {
+      "title": "::: 2:00AM ANARAE SHIN LIVE @ THE RAFT",
+      "starts_at": "2026-11-14T02:00:00-08:00",
+      "venue": "the RAFT Live Music & More",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9300310",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "BALLROOM DANCING AND THE BEST PLACE TO PROPOSE OR GET MARRIED - FRANK'S ELITE",
       "starts_at": "2026-11-14T02:00:00-08:00",
       "venue": "Franks Elite Jazz Club - Elegant Romance",
@@ -6118,6 +6140,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9300310",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "::: 3:00AM SAMM QENDRA LIVE @ THE RAFT",
+      "starts_at": "2026-11-14T03:00:00-08:00",
+      "venue": "the RAFT Live Music & More",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8896891",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
@@ -6841,13 +6874,13 @@
     {
       "title": "DJ WARREN & HOST CURV LIVE @ SOUTHERN SWING!",
       "starts_at": "2026-11-14T10:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498491",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Dublin! Live at 10 am, Zach the Loon !",
@@ -7523,13 +7556,13 @@
     {
       "title": "SWEET AS! A KIWI NIGHT AT SOUTHERN SWING",
       "starts_at": "2026-11-14T12:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485204",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Saturday Event lineup at Club Numinastic from Noon to 4:30PM",
@@ -7950,6 +7983,17 @@
       "venue_photo_checked_at": "2026-11-09T05:15:39.670790+00:00"
     },
     {
+      "title": "OPEN ACCESS WEEKEND at Teqi's Harem",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": "Teqi Falta presents: Teqi's Harem OPEN ACCESS WEEKEND",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505128",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T19:01:46.838057+00:00"
+    },
+    {
       "title": "Party at The Shire Saturday! Middle Earth Comes to The Haven",
       "starts_at": "2026-11-14T13:00:00-08:00",
       "venue": "The Haven Creative",
@@ -8128,13 +8172,13 @@
     {
       "title": "DJ ABI & HOST SCARLETT LIVE @ SOUTHERN SWING!",
       "starts_at": "2026-11-14T14:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498493",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ ALEXANDER AT FRANK'S ELITE JAZZ CLUB",
@@ -10463,6 +10507,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "OPEN ACCESS DAY - Teqi's Harem",
+      "starts_at": "2026-11-15T01:00:00-08:00",
+      "venue": "Teqi Falta presents: Teqi's Harem OPEN ACCESS WEEKEND",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505129",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T19:01:46.838057+00:00"
+    },
+    {
       "title": "~~KOGA FIREHAWK Live @ SOUNDWAVE at 1am~~",
       "starts_at": "2026-11-15T01:00:00-08:00",
       "venue": "The Music Hive",
@@ -11949,6 +12004,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "OPEN ACCESS WEEKEND at Teqi's Harem",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "Teqi Falta presents: Teqi's Harem OPEN ACCESS WEEKEND",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505130",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T19:01:46.838057+00:00"
     },
     {
       "title": "Retro BDSM \"Drag Queen in The Dungeon\" DJ Vanni @ The Twisted Orchid Fetish & BDSM Club",
@@ -24734,6 +24800,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "DJ Brent Soren with the Top Pop of the 2000's",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "Daddy-O's Entertainment and Shops on Synergy Island",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505131",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T19:01:46.838057+00:00"
+    },
+    {
       "title": "DJ DALTON & CORVY SERVE UP TASTY THURSDAY BLUES @ TOBY'S JUKE JOINT 6 to 8 PM SLT",
       "starts_at": "2026-11-19T18:00:00-08:00",
       "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
@@ -25984,6 +26061,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9499337",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ DAS BRINGS THE SPIRIT OF SCOTLAND TO CAFE MUSIQUE",
+      "starts_at": "2026-11-20T08:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8396865",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -27768,6 +27856,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2026-11-20T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505117",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "❤️FOXXIES FRI DJ FOXXEE🌹7:30PM ROMANTIC DANCING FRANKS FRANK'S MUSIC CALAS HARMONY 511",
@@ -40648,6 +40747,17 @@
       "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2026-11-27T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505118",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "❤️FOXXIES FRI DJ FOXXEE🌹7:30PM ROMANTIC DANCING FRANKS FRANK'S MUSIC CALAS HARMONY 511",
       "starts_at": "2026-11-27T19:30:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDEN4",
@@ -41340,13 +41450,13 @@
     {
       "title": "KIWI COUNTRY BOGAN BASH AT SOUTHERN SWING",
       "starts_at": "2026-11-28T12:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485205",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Live Opera Singer MerryJest Starchild at Varro Theater",
@@ -50247,6 +50357,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2026-12-04T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505119",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Heidi Volare @ Satyr",
       "starts_at": "2026-12-04T20:00:00-08:00",
       "venue": "Satyr Club - Freaky & Friendly People",
@@ -50739,14 +50860,14 @@
     {
       "title": "NZ CRATE DAY AT SOUTHERN SWING",
       "starts_at": "2026-12-05T12:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485206",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "ROGUE GALAXY LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -57492,6 +57613,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2026-12-11T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505120",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Heidi Volare @ Satyr",
       "starts_at": "2026-12-11T20:00:00-08:00",
       "venue": "Satyr Club - Freaky & Friendly People",
@@ -63120,6 +63252,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2026-12-18T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505121",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Heidi Volare @ Satyr",
       "starts_at": "2026-12-18T20:00:00-08:00",
       "venue": "Satyr Club - Freaky & Friendly People",
@@ -63455,14 +63598,14 @@
     {
       "title": "NAUGHTY OR NICE CHRISTMAS BASH AT SOUTHERN SWING",
       "starts_at": "2026-12-19T12:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485207",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "ROGUE GALAXY LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -67846,6 +67989,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2026-12-25T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505122",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Heidi Volare @ Satyr",
       "starts_at": "2026-12-25T20:00:00-08:00",
       "venue": "Satyr Club - Freaky & Friendly People",
@@ -71362,6 +71516,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2027-01-01T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505123",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MAX, ED & WIZARD LIVE TRIPLE STREAM @ BUNDY'S",
       "starts_at": "2027-01-01T20:00:00-08:00",
       "venue": "Bundy's",
@@ -71547,14 +71712,14 @@
     {
       "title": "NEON NEW YEAR AT SOUTHERN SWING",
       "starts_at": "2027-01-02T12:00:00-08:00",
-      "venue": "~ANSHEX.COM -1/2 PARCEL FOR RENT/LEASE 14992 PRIMS 32752 SQM",
+      "venue": "Southern Swing Country Club",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9485208",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "ROGUE GALAXY LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -74316,6 +74481,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2027-01-08T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505124",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MAX, ED & WIZARD LIVE TRIPLE STREAM @ BUNDY'S",
       "starts_at": "2027-01-08T20:00:00-08:00",
       "venue": "Bundy's",
@@ -76780,6 +76956,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503047",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Molokai at Club Indecent at Cabo",
+      "starts_at": "2027-01-15T19:30:00-08:00",
+      "venue": "Cabo Resort & Cabo Swingers Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505125",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
