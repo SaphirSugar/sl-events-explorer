@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-13T12:00:40.573904+00:00",
+  "updated_at": "2026-11-13T13:14:44.544724+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -220,6 +220,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
@@ -231,6 +233,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504982",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -242,6 +246,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504749",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/4f1558a3-185d-624e-4176-9c9b0902fe1c/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
@@ -253,6 +259,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501858",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -264,6 +272,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9474530",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -275,6 +285,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503566",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
@@ -286,6 +298,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9494952",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/4f383844-3bf8-df88-9805-9a16ebedefca/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
@@ -297,6 +311,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9500458",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -308,6 +324,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503478",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/4fe00c63-da24-604d-49fb-19b2adb9e913/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -319,6 +337,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9500119",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c9b93823-7468-3ccc-f3a2-6dc599c31b96/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -330,6 +350,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504807",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6154ec5d-a0bd-5117-e9b5-524aa31101c2/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
@@ -541,7 +563,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9477285",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -553,7 +574,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500796",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
@@ -2200,6 +2220,17 @@
       "venue_photo_checked_at": "2026-11-13T12:02:51.616933+00:00"
     },
     {
+      "title": "** MILAN ZEPP @ PARIS 1900 **",
+      "starts_at": "2026-11-13T13:00:00-08:00",
+      "venue": "Paris 1900  ~ Moulin rouge ~ Champs Elysees",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505063",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T13:17:04.611876+00:00"
+    },
+    {
       "title": "::: Mike Carnell LIVE AT END OF TIME",
       "starts_at": "2026-11-13T13:00:00-08:00",
       "venue": "Burnt Norton",
@@ -2860,6 +2891,17 @@
       "venue_photo_checked_at": "2026-11-09T22:55:02.351180+00:00"
     },
     {
+      "title": "TODAY! 2pm! Rhodes Art Gallery 'Deco Men' Opening Party w/ DJ NEXUS!",
+      "starts_at": "2026-11-13T14:00:00-08:00",
+      "venue": "BROTHERLY LOVE",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505060",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T13:17:04.611876+00:00"
+    },
+    {
       "title": "~ Jess Rabbit Live Show @ The Dreamer's Cave with Visualization Effects ~",
       "starts_at": "2026-11-13T14:00:00-08:00",
       "venue": "The Dreamer's Cave [https://tinyurl.com/tdcli Club Links ]",
@@ -3265,6 +3307,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "4pm TONIGHT! DJ NEXUS WILD SIDE PARTY @ HOUSE OF LEGENDS!",
+      "starts_at": "2026-11-13T16:00:00-08:00",
+      "venue": "HOUSE OF LEGENDS",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505061",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T13:17:04.611876+00:00"
     },
     {
       "title": "ALL ABOUT THE MUSIC W/ DJ ALEXANDER AT FRANK'S ELITE",
@@ -3938,6 +3991,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Veo Voom @ Love Kats",
+      "starts_at": "2026-11-13T17:00:00-08:00",
+      "venue": "Love Kats II",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9408377",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "~Quartz LIVE at SEASIDE LOUNGE 5pm SLT",
       "starts_at": "2026-11-13T17:00:00-08:00",
       "venue": "SEASIDE LOUNGE Home of the BEST LIVE MUSICIANS in Second Life",
@@ -4310,6 +4374,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
+    },
+    {
+      "title": "Jak and Groot @ Love Kats",
+      "starts_at": "2026-11-13T18:00:00-08:00",
+      "venue": "Love Kats II",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9408378",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "LOSTSINGER LIVE AT TINKERS PLACE",
@@ -4937,6 +5012,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "MAX & FRIENDS LIVE TRIPLE STREAM @ BUNDY'S",
+      "starts_at": "2026-11-13T19:30:00-08:00",
+      "venue": "Bundy's",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9495799",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "❤️FOXXIES FRI DJ FOXXEE🌹7:30PM ROMANTIC DANCING FRANKS FRANK'S MUSIC CALAS HARMONY 511",
@@ -10493,6 +10579,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJLaSha Live singer @ Starfall Resort",
+      "starts_at": "2026-11-15T08:00:00-08:00",
+      "venue": "~StarFall~ Romantic Resort",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505062",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T13:17:04.611876+00:00"
     },
     {
       "title": "MUDDY'S MUSIC CAFE PRESENTS DJ BERAGON AND LIFE AT 8 AM",
@@ -25945,6 +26042,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DarkHeat - Consent",
+      "starts_at": "2026-11-20T12:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505048",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "GAZ DEMURE LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-20T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -26130,6 +26238,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DarkHeat - DJ Crimson",
+      "starts_at": "2026-11-20T13:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505049",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "FETISH FRIDAY: DISCO DEVOTION! DJ MOMMA & HOST SKYE",
@@ -26790,6 +26909,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DarkHeat - Managing Poly Dynamics and Power Distribution / Consent",
+      "starts_at": "2026-11-20T17:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505050",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "KokoIncognito  *LIVE* at The Octagon",
@@ -80828,6 +80958,39 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T05:01:35.455871+00:00"
+    },
+    {
+      "title": "MAR BIDDLE LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-10T12:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505051",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "ZOREE JUPITER & THE CHICKS LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-10T13:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505052",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "SARITA TWISTED LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2027-02-10T14:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505053",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Lang is Rockin' the Blues @ The Music Factory",
