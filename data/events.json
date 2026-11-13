@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-13T11:06:34.714205+00:00",
+  "updated_at": "2026-11-13T12:00:40.573904+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -181,6 +181,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497367",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/50d47052-181f-d57b-b611-6627dca1d6db/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
@@ -192,6 +194,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501260",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
@@ -203,6 +207,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504975",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/9a026373-7079-147a-7767-93d486501500/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
@@ -423,11 +429,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499332",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f31877-92d7-c7c5-25a4-df2dee5593bb/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ AMFIE AT MUDDY'S MUSIC CAFE FROM 4AMSLT TO 6AMSLT",
@@ -437,7 +442,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490785",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -482,7 +486,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9473078",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
@@ -1548,6 +1551,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌺☀️ SUNSHINE & GOOD VIBES! 🌴 DJ GABBY @ PHOENIX BEACH SHACK!",
+      "starts_at": "2026-11-13T11:30:00-08:00",
+      "venue": ".: THE PHOENIX:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505044",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T12:02:51.616933+00:00"
+    },
+    {
       "title": "🏆 THE PLACE WHERE FUN FINDS YOU 🏆",
       "starts_at": "2026-11-13T11:30:00-08:00",
       "venue": "~ Lunar Grove ~ The Olive Tree~ A Taken in Hand Sanctuary",
@@ -2175,6 +2189,17 @@
       "venue_photo_checked_at": "2026-11-13T09:07:29.121190+00:00"
     },
     {
+      "title": "THE BLOCK - ECLIPSE - FRIDAY NOVEMBER 13 - 12:30 PM SLT",
+      "starts_at": "2026-11-13T12:30:00-08:00",
+      "venue": "#THE BLOCK# Life Sentence",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505043",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T12:02:51.616933+00:00"
+    },
+    {
       "title": "::: Mike Carnell LIVE AT END OF TIME",
       "starts_at": "2026-11-13T13:00:00-08:00",
       "venue": "Burnt Norton",
@@ -2492,6 +2517,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🍹🎶 WHISTLE WHILE YOU WORK IT! 🔥 DJ WHISTLE @ PHOENIX!",
+      "starts_at": "2026-11-13T13:00:00-08:00",
+      "venue": ".: THE PHOENIX:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505045",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T12:02:51.616933+00:00"
     },
     {
       "title": "🎭 NAUGHTY SECRETS IN A PENTHOUSE @ [ROUGE] 🎭",
@@ -2976,6 +3012,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T22:56:27.995790+00:00"
+    },
+    {
+      "title": "🔥🌴 TURN UP THE HEAT! 🎧 DJ SOUNDSLAMMER — BEACH SHACK TAKEOVER!",
+      "starts_at": "2026-11-13T14:30:00-08:00",
+      "venue": ".: THE PHOENIX:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505046",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T12:02:51.616933+00:00"
     },
     {
       "title": "Cerulean Radio: Waiting out the Storm with Kennef",
@@ -16445,6 +16492,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Dj Sweet @ The Bricks",
+      "starts_at": "2026-11-17T04:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505047",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+    },
+    {
       "title": "Muddy's Music Cafe, Live DJ Otter with host Wills",
       "starts_at": "2026-11-17T04:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -17231,7 +17289,7 @@
     {
       "title": "DJ SERUS @ The Oh Club",
       "starts_at": "2026-11-17T12:00:00-08:00",
-      "venue": "The Oh Land",
+      "venue": "",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495896",
@@ -20249,7 +20307,7 @@
     {
       "title": "DJ xas @ The Oh Club",
       "starts_at": "2026-11-18T12:00:00-08:00",
-      "venue": "The Oh Land",
+      "venue": "",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495910",
