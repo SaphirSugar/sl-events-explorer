@@ -302,6 +302,17 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 .tz-map .tz-land path{fill:#557b70;stroke:#a2c2a4;stroke-width:.45;stroke-linejoin:round}
 .tz-map .tz-grid-lines line{stroke:#9bc4d5;stroke-width:.55;opacity:.22}
 .tz-map .tz-city{z-index:1}
+
+/* Shared Eventide SL logo dimensions across Events, Clubs and Dashboard. */
+@media (max-width:1100px) {
+  body > header.wrap {justify-content:center;text-align:center;flex-wrap:wrap}
+  body > header.wrap .brand {display:flex;flex:0 0 100%;width:100%;justify-content:center;margin:0 auto}
+  body > header.wrap .brand img {width:250px;max-width:75vw;height:auto;object-fit:contain;margin:0 auto}
+  body > header.wrap nav {justify-content:center}
+}
+@media (max-width:680px) {
+  body > header.wrap .brand img {width:210px;max-width:75vw;height:auto}
+}
 </style>
 </head>
 <body>

@@ -69,6 +69,17 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 .directory-filter-title{font-family:"Outfit",sans-serif;font-size:clamp(19px,2.5vw,26px);font-weight:750;color:#f7e4ff}
 .directory-filters .venue-categories{margin-bottom:0}
 @media(max-width:600px){.directory-filters{padding:18px}.directory-filters .tools input{width:100%}}
+
+/* Shared Eventide SL logo dimensions across Events, Clubs and Dashboard. */
+@media (max-width:1100px) {
+  body > header.wrap {justify-content:center;text-align:center;flex-wrap:wrap}
+  body > header.wrap .brand {display:flex;flex:0 0 100%;width:100%;justify-content:center;margin:0 auto}
+  body > header.wrap .brand img {width:250px;max-width:75vw;height:auto;object-fit:contain;margin:0 auto}
+  body > header.wrap nav {justify-content:center}
+}
+@media (max-width:680px) {
+  body > header.wrap .brand img {width:210px;max-width:75vw;height:auto}
+}
 </style>
 </head>
 <body>
