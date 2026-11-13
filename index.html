@@ -217,6 +217,12 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 .sponsor-available .sponsor-media{height:72px;background:linear-gradient(135deg,#47315e,#231b37);border:1px dashed rgba(245,207,151,.55)}
 .sponsor-available .sponsor-media:after{content:'YOUR SHOP HERE';font-size:13px;font-weight:800;letter-spacing:.1em;color:#f4d6a2;opacity:1}
 .sponsor-available p{display:block;-webkit-line-clamp:unset;color:#f4d6a2;font-size:13px;margin-bottom:14px}
+
+/* Sponsor logo display: always fit the entire image inside its frame. */
+.sponsor-card:not(.sponsor-available) .sponsor-media{position:relative;display:block;height:150px;min-width:0;overflow:hidden;}
+.sponsor-card:not(.sponsor-available) .sponsor-media img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;max-height:100%;padding:7px;box-sizing:border-box;object-fit:contain!important;object-position:center center!important;transform:none!important;}
+.sponsor-card:not(.sponsor-available) .sponsor-media:has(img[src])::after{display:none;}
+@media(min-width:1700px) and (max-height:850px){.sponsor-rail-right .sponsor-card:not(.sponsor-available) .sponsor-media{height:150px;}}
 </style>
 </head>
 <body>
