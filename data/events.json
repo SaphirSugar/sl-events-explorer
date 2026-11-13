@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-13T13:14:44.544724+00:00",
+  "updated_at": "2026-11-13T14:24:49.257089+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -363,6 +363,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504983",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/0f10c54f-4a26-7330-9b4b-91178d17f62c/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
@@ -596,7 +598,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490296",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -619,7 +620,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9493257",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -631,7 +631,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9479737",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
@@ -832,6 +831,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Friday 13th November line up @ Serimner",
+      "starts_at": "2026-11-13T08:00:00-08:00",
+      "venue": ".:Serimner:. - New location",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505066",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-13T14:27:06.027904+00:00"
     },
     {
       "title": "JUNKYARD  8AM – 10AM  SLT DJ PAUL PAPILLON",
