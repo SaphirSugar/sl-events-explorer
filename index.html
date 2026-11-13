@@ -188,16 +188,17 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 @media(max-width:560px){.artist-photo-badge{width:62px;height:62px}.featured-event .artist-photo-badge{width:66px;height:66px}}
 
 /* Sponsored shop sidebar */
-.sponsor-page-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:22px;align-items:start}
+.sponsor-page-layout{position:relative}
+/* Keep the original 1180px content width. The sponsor occupies the outer right gutter. */
 .sponsor-page-main{min-width:0}
-.sponsor-sidebar{position:sticky;top:125px;border:1px solid #a879cc;border-radius:18px;background:linear-gradient(160deg,#291a3e,#171124);padding:14px;box-shadow:0 12px 30px #0005}
+.sponsor-sidebar{position:absolute;top:0;left:calc(100% + 20px);width:260px;border:1px solid #a879cc;border-radius:18px;background:linear-gradient(160deg,#291a3e,#171124);padding:14px;box-shadow:0 12px 30px #0005}
 .sponsor-label{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#e8c58c;margin:0 0 12px}
 .sponsor-sidebar img{display:block;width:100%;aspect-ratio:4/5;object-fit:contain;background:#110d1d;border-radius:11px}
 .sponsor-sidebar h2{font-size:23px;margin:15px 0 9px;color:#f4d6a1}
 .sponsor-sidebar p{font-size:13px;line-height:1.65;color:#d7c8e5;overflow-wrap:anywhere}
 .sponsor-teleport{display:block;text-align:center;margin-top:15px;padding:12px;border-radius:10px;background:linear-gradient(110deg,#e9c68c,#ba8b53);color:#1c1424;text-decoration:none;font-weight:800;font-size:13px}
 .sponsor-teleport:hover{filter:brightness(1.12)}
-@media(max-width:900px){.sponsor-page-layout{grid-template-columns:1fr}.sponsor-sidebar{position:static;max-width:480px;width:100%;margin:0 auto 24px}}
+@media(max-width:1500px){.sponsor-sidebar{position:static;width:100%;max-width:480px;margin:28px auto 24px}}
 </style>
 </head>
 <body>
