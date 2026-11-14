@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T12:57:29.486925+00:00",
+  "updated_at": "2026-11-14T13:56:52.075236+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -311,6 +311,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8896891",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
@@ -498,17 +500,6 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
-      "title": "::: 5:00AM SAMM QENDRA LIVE @ THE RAFT",
-      "starts_at": "2026-11-14T05:00:00-08:00",
-      "venue": "the RAFT Live Music & More",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8896891",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
       "title": "English Class. Voice. Comprehension/Text",
       "starts_at": "2026-11-14T05:00:00-08:00",
       "venue": "Drive-Through ESL (English Language School)",
@@ -560,7 +551,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499541",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -572,7 +562,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489826",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -844,6 +833,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-13T06:09:20.889614+00:00"
+    },
+    {
+      "title": "SPICY CHRISTMAS AT INFINITY SPA",
+      "starts_at": "2026-11-14T07:30:00-08:00",
+      "venue": "Infinity Spa  - Modern Luxury & Adult Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505457",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
+    },
+    {
+      "title": "⚡⚡❤️ FULFILL YOUR DARKEST DESIRES !!! ❤️⚡⚡",
+      "starts_at": "2026-11-14T07:30:00-08:00",
+      "venue": "* THE SKY LOUNGE * Dark Fantasies",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505459",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "🔴▶▶ ROCKER GIBSON ::: 30 minutes remain @ ~*SPIRIT OF THE OUTBACK*~ Land Down under",
@@ -1585,6 +1596,17 @@
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
+      "title": "LOULOU party with DJ Alfaomega at the Yacht o/",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505463",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
+    },
+    {
       "title": "Latex Saturday \"Slut-tacular\" DJ Stevie @ Twisted Orchid Fetish & BDSM Club",
       "starts_at": "2026-11-14T11:00:00-08:00",
       "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
@@ -1660,6 +1682,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "The Dharma of Community: Buddhist Society, Ethics, and the Householder (Fundamental View, Talk 4)",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "Universal Buddha Centre -Building Buddhism in Second Life",
+      "category": "Spirituality",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505464",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "Unitarian Universalist Saturday Service",
@@ -1935,6 +1968,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe with DJ Legendary and Host Heather",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505458",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "PARTY WITH US AT WET SPOT BEACH CLUB!",
@@ -2243,6 +2287,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T05:09:34.263937+00:00"
+    },
+    {
+      "title": "** GABRIELL DUBRATT @ PARIS EIFFEL **",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": "~~ Paris Eiffel ~~ Paris 1900",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505462",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "1PM LOOKER-LUMET EXHIBIT - THE GRID GALLERY : ART SPACE - CENTER FOR THE ARTS",
@@ -6449,6 +6504,17 @@
       "venue_photo_checked_at": "2026-11-13T03:00:40.844135+00:00"
     },
     {
+      "title": "⚡⚡❤️ DARK FANTASIES ? LIVE THEM OUT ❤️⚡⚡",
+      "starts_at": "2026-11-15T07:00:00-08:00",
+      "venue": "* THE SKY LOUNGE * Dark Fantasies",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505461",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
+    },
+    {
       "title": "👄 THE ULTIMATE PLEASURE @ ROUGE 👄",
       "starts_at": "2026-11-15T07:00:00-08:00",
       "venue": "[ ROUGE HOTEL CLUB ] - Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -7256,6 +7322,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe with DJ Legendary and Host Heather",
+      "starts_at": "2026-11-15T12:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505460",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "PHEMIE IS LIVE at BAR NONE",
@@ -22362,6 +22439,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Magic Moments w/DJ Ael @WBH Lake Stage",
+      "starts_at": "2026-11-20T11:00:00-08:00",
+      "venue": "WBH Center For Wellbeing & The Abyss",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8084256",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "Sassy Nitely sings live at Sanctuary at",
       "starts_at": "2026-11-20T11:00:00-08:00",
       "venue": "Sanctuary, EST. 2008",
@@ -23427,6 +23515,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Personal Enhancement: Build a Better You w/Wizard of Life Darth @WBH",
+      "starts_at": "2026-11-20T17:00:00-08:00",
+      "venue": "WBH Universal Enhancement",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9486616",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "Themed music with DJ Cerydwen",
@@ -24500,6 +24599,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489827",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJAY & LOOPERS COUNTRY AND COFFEE PARTY - GOING BRITISH",
+      "starts_at": "2026-11-21T05:30:00-08:00",
+      "venue": "Boonies On The Lakefront",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9489827",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
