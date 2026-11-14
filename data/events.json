@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T10:50:03.924528+00:00",
+  "updated_at": "2026-11-14T11:46:40.631548+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -303,17 +303,6 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
-      "title": "::: 3:00AM ANARAE SHIN LIVE @ THE RAFT",
-      "starts_at": "2026-11-14T03:00:00-08:00",
-      "venue": "the RAFT Live Music & More",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9300310",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
       "title": "::: 3:00AM SAMM QENDRA LIVE @ THE RAFT",
       "starts_at": "2026-11-14T03:00:00-08:00",
       "venue": "the RAFT Live Music & More",
@@ -322,9 +311,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8896891",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00",
       "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "JPeabody live @ Alley Catz Club",
@@ -334,11 +323,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9450894",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00",
       "image_url": "https://picture-service.secondlife.com/d4010c65-bcab-99a7-1070-27d7d1d726e2/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Monay Live",
@@ -349,9 +337,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505014",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00",
       "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
       "title": "🍷 THE ART OF NOBLE COMFORT @ ROUGE 🍷",
@@ -362,9 +350,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501466",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "💲 Gachas for ONLY $5L on our land! Yes, $5L! Grab them before they're gone! 💲",
@@ -375,9 +363,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00",
       "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00"
     },
     {
       "title": "🟢⭐🟢▶ 3am EDDIE SANTILLO  ROCKIN' LIVE @ ~*SPIRIT OF THE OUTBACK*~",
@@ -388,9 +376,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8738391",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Happy Weekend with Dj Jennifer and the Dancers Prestige Lounge",
@@ -414,9 +402,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9078090",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "::: 4:00AM ALEY KAT LIVE @ THE RAFT",
@@ -2326,6 +2314,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "DJ BARON @ SUSNRAYZ BEACH CLUB 1 - 3 PM SLT ~ DISCO & ELECTRO SWING",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": "SunRayz Coast Berach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505431",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-09T19:02:28.844653+00:00"
     },
     {
       "title": "DJ Blu@fogbound 1p-3p slt",
@@ -25788,13 +25787,13 @@
     {
       "title": "Vampire Madness",
       "starts_at": "2026-11-21T16:30:00-08:00",
-      "venue": "Blackwater Vampire Club",
+      "venue": "Nightfall Vampire Game",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502175",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+      "venue_photo_checked_at": "2026-11-14T11:49:02.885743+00:00"
     },
     {
       "title": "(¨*•.🍷 𝓐 𝓝𝓞𝓑𝓛𝓔 𝓥𝓔𝓝𝓤𝓔 @ [𝓡𝓞𝓤𝓖𝓔] 🍷.•*¨)",
@@ -38710,13 +38709,13 @@
     {
       "title": "Vampire Madness",
       "starts_at": "2026-11-28T16:30:00-08:00",
-      "venue": "Blackwater Vampire Club",
+      "venue": "Nightfall Vampire Game",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502176",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+      "venue_photo_checked_at": "2026-11-14T11:49:02.885743+00:00"
     },
     {
       "title": "5pm slt - It's Saturday Night @ LEGENDS Classic Rock - Madelyn Majestic - T1Radio.com",
@@ -48354,13 +48353,13 @@
     {
       "title": "Vampire Madness",
       "starts_at": "2026-12-05T16:30:00-08:00",
-      "venue": "Blackwater Vampire Club",
+      "venue": "Nightfall Vampire Game",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502177",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+      "venue_photo_checked_at": "2026-11-14T11:49:02.885743+00:00"
     },
     {
       "title": "4 Hours, 4 DJs, Best Salsa Saturday - Cuban Street Party at PENDULUM",
@@ -55687,13 +55686,13 @@
     {
       "title": "Vampire Madness",
       "starts_at": "2026-12-12T16:30:00-08:00",
-      "venue": "Blackwater Vampire Club",
+      "venue": "Nightfall Vampire Game",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502178",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+      "venue_photo_checked_at": "2026-11-14T11:49:02.885743+00:00"
     },
     {
       "title": "DJ Abraxis and Host Kittie Huntress @ Cabo Swingers' Resort",
