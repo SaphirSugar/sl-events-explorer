@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T11:46:40.631548+00:00",
+  "updated_at": "2026-11-14T12:57:29.486925+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -311,8 +311,6 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8896891",
       "teleport_url": null,
       "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
-      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
@@ -407,17 +405,6 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
-      "title": "::: 4:00AM ALEY KAT LIVE @ THE RAFT",
-      "starts_at": "2026-11-14T04:00:00-08:00",
-      "venue": "the RAFT Live Music & More",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8392984",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
       "title": "Bright Oh 4AM @ The Garden",
       "starts_at": "2026-11-14T04:00:00-08:00",
       "venue": "The Waterfront",
@@ -426,9 +413,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504631",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00",
       "image_url": "https://picture-service.secondlife.com/5fecca31-d7a2-4565-3eab-ba0ef06bf31d/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
     },
     {
       "title": "DJ OTTER AT 4AMSLT ON SATURDAYS AT MUDDY'S MUSIC CAFE",
@@ -438,11 +425,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490780",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Perrin @ The Void",
@@ -452,9 +438,7 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500037",
       "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+      "official_category": true
     },
     {
       "title": "DJ Y4N @ WATERMELON SUGAR CLUB",
@@ -465,9 +449,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501874",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/51e19ab1-8cff-38a1-a0e9-e617a96a8242/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "SPICE IT UP WITH DJ COLTEN",
@@ -1898,6 +1882,17 @@
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
     },
     {
+      "title": "Katia Portugal @ Love Kats",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "Love Kats II",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9485935",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T12:59:47.035176+00:00"
+    },
+    {
       "title": "Live Opera Singer MerryJest Starchild at Varro Theater",
       "starts_at": "2026-11-14T12:00:00-08:00",
       "venue": "Crixus Carnival of Carnage: Adult Halloween Horror Experience",
@@ -2536,6 +2531,17 @@
       "venue_photo_checked_at": "2026-11-10T15:58:16.628286+00:00"
     },
     {
+      "title": "Sara Marie Philly @ Love Kats",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": "Love Kats II",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9412631",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T12:59:47.035176+00:00"
+    },
+    {
       "title": "Science Fiction Saturday",
       "starts_at": "2026-11-14T13:00:00-08:00",
       "venue": "The Cat's Tale Cafe",
@@ -2743,6 +2749,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
+      "title": "DJ Bramble - SamS, Zed, Womble Mix at the Midnight Cabaret",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505429",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ Hans' Vintage Tunes  @WBH",
@@ -3569,6 +3586,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Merimaat Afro Rhythems Tribal house @ The Midnight Cabaret",
+      "starts_at": "2026-11-14T16:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505430",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Pantha and the Beautiful DD are spinning tunes of the last 5 decades at The Waters Edge",
       "starts_at": "2026-11-14T16:00:00-08:00",
       "venue": "Lagoon Retreat and the Waters Edge",
@@ -3934,13 +3962,13 @@
     {
       "title": "Vampire Madness",
       "starts_at": "2026-11-14T16:30:00-08:00",
-      "venue": "Blackwater Vampire Club",
+      "venue": "Nightfall Vampire Game",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502174",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-07T14:50:51.554901+00:00"
+      "venue_photo_checked_at": "2026-11-14T11:49:02.885743+00:00"
     },
     {
       "title": "💫 MAKE YOURSELF AT HOME IN A WORLD OF POSSIBILITIES💫",
@@ -6299,6 +6327,17 @@
       "venue_photo_checked_at": "2026-11-12T01:22:03.604018+00:00"
     },
     {
+      "title": "Muddy's Music Cafe Presents DJ Amfie & Teresa for some Great Music and Crazy Fun!!!!",
+      "starts_at": "2026-11-15T06:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505448",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Nutrition Resource Center @ WBH",
       "starts_at": "2026-11-15T06:00:00-08:00",
       "venue": "WBH Welcome Center and Nutrition Resource Center",
@@ -8462,6 +8501,17 @@
       "venue_photo_checked_at": "2026-11-12T01:22:03.604018+00:00"
     },
     {
+      "title": "TEMPLEMORE PRESENTS - VVW WRESTLING",
+      "starts_at": "2026-11-15T17:00:00-08:00",
+      "venue": "Lutz City of Templemore  [https://flic.kr/g/GetRW Flickr]",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505450",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "THE MOST CAPTIVATING LOVE SONGS WITH DJ MANDI AND NATALIE AT ROMANCE IN THE CLOUDS 5-7 PM SLT",
       "starts_at": "2026-11-15T17:00:00-08:00",
       "venue": "Romance in the Clouds  @ Anaconda Estates Date Night Resort",
@@ -9865,6 +9915,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9500374",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe Presents DJ Amfie Live!!!!",
+      "starts_at": "2026-11-16T06:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505449",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -13522,6 +13583,17 @@
       "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
+      "title": "Muddy's Music Cafe Presents DJ Legendary & Teresa for some Great Music and Lots Of Fun!!!!",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505451",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "RUSSELL EPONYM, Live at The Glen",
       "starts_at": "2026-11-17T12:00:00-08:00",
       "venue": "Seanchai Library - www.seanchailibrary.com",
@@ -14181,6 +14253,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🪭Lantern Heat @ O K I Y A🪭",
+      "starts_at": "2026-11-17T15:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505432",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "STORE ANIMATION new cool new dance gift giftcard",
       "starts_at": "2026-11-17T15:30:00-08:00",
       "venue": ".::***** DANCE * ANIMATIONs * STORE * HUD Animation *****::.",
@@ -14456,6 +14539,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🪭Silk After Midnight @ O K I Y A🪭",
+      "starts_at": "2026-11-17T16:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505433",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "5 PM - Its Tuesday and Anything Goes",
       "starts_at": "2026-11-17T17:00:00-08:00",
       "venue": "LEGENDS Classic Rock Club - Since 2007  - Home Of T1Radio",
@@ -14652,6 +14746,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🪭Under the Red Moon @ O K I Y A🪭",
+      "starts_at": "2026-11-17T17:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505434",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "⚡⚡ TUESDAY NIGHT THUNDER CALLS THE GODS TO THUNDER RUN RACEWAY ⚡⚡RACING!",
@@ -15048,6 +15153,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🪭Lucky in Lust @ O K I Y A🪭",
+      "starts_at": "2026-11-17T18:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505435",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "❤️FOXXIES TUES DJ FOXXEE❤️6:30PM ROMANCE DANCING HARMONY MUSIC FRANKS FRANK'S WAREHOUSE",
@@ -19277,6 +19393,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Muddy's Music Cafe Presents DJ Dazz Live!!!!",
+      "starts_at": "2026-11-19T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505453",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "ROGUE GALAXY & THE TINY REBEL BAND LIVE! AT HARD ROCK!",
       "starts_at": "2026-11-19T10:00:00-08:00",
       "venue": "Puddles Place",
@@ -20002,6 +20129,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "🪭Whispers in Red & Gold @ O K I Y A🪭",
+      "starts_at": "2026-11-19T15:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505441",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "4 PM Nigel Freeman Live In Dublin!",
       "starts_at": "2026-11-19T16:00:00-08:00",
       "venue": "The Blarney Stone - Irish Pub",
@@ -20277,6 +20415,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🪭The Year of Desire @ O K I Y A🪭",
+      "starts_at": "2026-11-19T16:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505442",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MUSICAL MAYhem with DJ MAY at Belle's Coffee Shop",
       "starts_at": "2026-11-19T16:30:00-08:00",
       "venue": "Belle's Coffee Shop",
@@ -20508,6 +20657,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "🪭Heated Nights @ O K I Y A🪭",
+      "starts_at": "2026-11-19T17:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505443",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "6PM SLT - DJ VANNI'S ANNIVERSARY FORMAL BALL @ THE CELLAR",
       "starts_at": "2026-11-19T18:00:00-08:00",
       "venue": "THE CELLAR JAZZ CLUB",
@@ -20706,6 +20866,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Muddy's Music Cafe Presents DJ Beary & Teresa for some Great Music and Crazy Fun!!!",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505454",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "NIGEL FREEMAN, Live at Stargazer Cafe",
       "starts_at": "2026-11-19T18:00:00-08:00",
       "venue": "Stargazer Cafe - Live Acoustic Music",
@@ -20866,6 +21037,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488127",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🪭Kisses Under Crimson Light @ O K I Y A🪭",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505444",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -21130,6 +21312,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504490",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🪭Silk, Skin & Spark @ O K I Y A🪭",
+      "starts_at": "2026-11-19T19:00:00-08:00",
+      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT / CAM / LOVENSE / VOICE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505445",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -21766,6 +21959,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501187",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe Presents DJ FOXDALE & Teresa for some Great Music and Crazy Fun!!!!",
+      "starts_at": "2026-11-20T06:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505455",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -23412,6 +23616,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MUDDY'S MUSIC CAFE presents the FANTASTIC DJ JOHN for some GREAT MUSIC and Lots Of FUN!!!!",
+      "starts_at": "2026-11-20T18:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505456",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "PAUL KINDHARTDMAN SINGING TINKERS PLACE",
       "starts_at": "2026-11-20T18:00:00-08:00",
       "venue": "Diamond Lil",
@@ -24163,6 +24378,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-11-21T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497236",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJS @ WATERMELON SUGAR CLUB",
@@ -37570,6 +37796,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-11-28T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497237",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
       "starts_at": "2026-11-28T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -47422,6 +47659,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-12-05T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497238",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🌟 48H CHARITY MARATHON – LET'S MAKE DREAMS COME TRUE! ❤️",
       "starts_at": "2026-12-05T01:00:00-08:00",
       "venue": "The Tropical Dance & Shopping Center - HTTPS://TROPICALDANCE.FR",
@@ -54941,6 +55189,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-12-12T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497239",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
       "starts_at": "2026-12-12T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -60668,6 +60927,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-12-19T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497240",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
       "starts_at": "2026-12-19T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -65425,6 +65695,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2026-12-26T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497241",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
       "starts_at": "2026-12-26T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -68940,6 +69221,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2027-01-02T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497242",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "3am. JPeabody live @ Alley Catz Club",
       "starts_at": "2027-01-02T03:00:00-08:00",
       "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
@@ -71949,6 +72241,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2027-01-09T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497243",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "3am. JPeabody live @ Alley Catz Club",
       "starts_at": "2027-01-09T03:00:00-08:00",
       "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
@@ -74475,6 +74778,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2027-01-16T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497244",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "3am. JPeabody live @ Alley Catz Club",
       "starts_at": "2027-01-16T03:00:00-08:00",
       "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
@@ -76433,6 +76747,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2027-01-23T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497245",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "3am. JPeabody live @ Alley Catz Club",
       "starts_at": "2027-01-23T03:00:00-08:00",
       "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
@@ -77913,6 +78238,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2027-01-30T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497246",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "3am. JPeabody live @ Alley Catz Club",
       "starts_at": "2027-01-30T03:00:00-08:00",
       "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
@@ -78845,6 +79181,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "...1am slt. JPeabody live @ Alley Catz Club",
+      "starts_at": "2027-02-06T01:00:00-08:00",
+      "venue": "ACC/AML Alley Catz Club https://jpeabody.org/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9497247",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "3am. JPeabody live @ Alley Catz Club",
