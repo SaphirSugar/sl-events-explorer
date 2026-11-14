@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T15:46:39.646415+00:00",
+  "updated_at": "2026-11-14T16:47:36.244687+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -355,19 +355,6 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
-      "title": "💲 Gachas for ONLY $5L on our land! Yes, $5L! Grab them before they're gone! 💲",
-      "starts_at": "2026-11-14T03:00:00-08:00",
-      "venue": "** TK VENTURES **",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00"
-    },
-    {
       "title": "🟢⭐🟢▶ 3am EDDIE SANTILLO  ROCKIN' LIVE @ ~*SPIRIT OF THE OUTBACK*~",
       "starts_at": "2026-11-14T03:00:00-08:00",
       "venue": "~*SPIRIT OF THE OUTBACK*~AUSTRALIAN LIVE MUSIC VENUE",
@@ -464,6 +451,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505244",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/b216a915-f4de-2a40-2d0b-420b6fa104d8/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
@@ -509,17 +498,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
-    },
-    {
-      "title": "🍆💦 PERVERTS INC. Where boundaries blur and naughty antics come to life. Are you in? 💦👅",
-      "starts_at": "2026-11-14T05:00:00-08:00",
-      "venue": "! PERVERTS !",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00"
     },
     {
       "title": "🎩 THE NOBLE HOTEL EXPERIENCE @ ROUGE🎩",
@@ -929,17 +907,6 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
-      "title": "SUNDANCE ISLE LIVE DJ MUSIC - DJ VIVIAN",
-      "starts_at": "2026-11-14T08:00:00-08:00",
-      "venue": "Sundance @ [The Sands]",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9505194",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
       "title": "Thanksgiving Full Perm Mesh by Llola Lane",
       "starts_at": "2026-11-14T08:00:00-08:00",
       "venue": "*FULL PERM MESH by Llola Lane* https://tinyurl.com/5w4thdrn",
@@ -947,7 +914,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9493091",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
@@ -1204,6 +1170,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "HEY ROCKSTARS! TOTALLY 80s™ WANTS YOU! NEW DJs & HOSTS NEEDED! 🎤🎧",
+      "starts_at": "2026-11-14T10:00:00-08:00",
+      "venue": "<3 Totally 80s is your HOME of the 80s wth a FRESH 90s twist!",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505498",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
       "title": "Katia sings LIVE at Scarlet Room @ Aura Live",
@@ -1690,6 +1667,17 @@
       "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
+      "title": "🎉 SATURDAY SHENANIGANS!",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "~*~ Rootwoven Studios ~*~",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505541",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T02:59:31.174545+00:00"
+    },
+    {
       "title": "🎧 THE VELVET HOUSE PRESENTS: DJ MARIA - CONTEMPORARY COUNTRY 🎧",
       "starts_at": "2026-11-14T11:00:00-08:00",
       "venue": "The Velvet House",
@@ -1710,6 +1698,19 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "👉 Gachas for ONLY 5L$ on our land! Yes, 5L$! Grab them before they're gone! 👍",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00"
     },
     {
       "title": "⭐🎵⭐ 11:30 AM: DJ JOHN @ The Golden Hour Club ⭐🎵⭐",
@@ -2163,6 +2164,17 @@
       "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505528",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "The Velvet Purple Party Yacht sets sail.",
       "starts_at": "2026-11-14T12:00:00-08:00",
       "venue": "Barry Hay,s The Purple Velvet Yacht",
@@ -2240,6 +2252,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "🌳🎉 SATURDAY IN THE PARK AT TOTALLY 80s™! LET'S MAKE MEMORIES! 🎶",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "<3 Totally 80s is your HOME of the 80s wth a FRESH 90s twist!",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505499",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
+    },
+    {
       "title": "🌴 LIVE THE SIMPLE LIFE AT LINDEN ACRES TRAILER PARK! 🌴",
       "starts_at": "2026-11-14T12:00:00-08:00",
       "venue": "Aurora Town Park - Trailer Home Rentals",
@@ -2293,6 +2316,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "💦👅 PERVERTS INC. Where boundaries blur and naughty antics come to life. Are you in? 😈🍆",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00"
     },
     {
       "title": "Dolly Parton Show",
@@ -4426,6 +4460,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "VIC LIVE 5PM@SEA BORNE SOUNDS",
+      "starts_at": "2026-11-14T17:00:00-08:00",
+      "venue": "~ Sea Borne Sounds ~",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505065",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T01:10:08.894331+00:00"
     },
     {
       "title": "👠 DISTINGUISHED LADIES INVITED 👠",
@@ -8630,13 +8675,13 @@
     {
       "title": "HARLEQUIN MASKED BALL - CALL FOR EXTRAS - FILM SHOOT",
       "starts_at": "2026-11-15T16:30:00-08:00",
-      "venue": "MULTI MEDIA ARTS CENTER   TheMMAC",
+      "venue": "TheMMAC: THE JAZZ LINK / THE COMEDY LINK",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504123",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T09:04:52.704510+00:00"
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "5PM SLT - DJ VANNI'S MARTINI JAZZ STIRRED NOT SHAKEN @ THE CELLAR",
@@ -16693,6 +16738,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "🐊 NEED LINDEN? GRAB FREE LINDEN AT WET WILLIES!",
+      "starts_at": "2026-11-18T10:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505540",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Wednesday at Canvas Collective – Vote for Art",
@@ -25501,6 +25557,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505529",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Trucking For Our Troops",
       "starts_at": "2026-11-21T12:00:00-08:00",
       "venue": "Alpha Labs Designs [Main Store]",
@@ -25763,6 +25830,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🎉 SATURDAY SHENANIGANS!",
+      "starts_at": "2026-11-21T13:30:00-08:00",
+      "venue": "~*~ Rootwoven Studios ~*~",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505543",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-12T02:59:31.174545+00:00"
     },
     {
       "title": "Cozy Thanksgiving event at Wonderland Beach",
@@ -26950,6 +27028,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T16:47:35.599678+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-21T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505517",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "❤️FOXXIES SAT DJ FOXXEE🌹6:30PM ROMANCE DANCING BALLROOM FRANKS FRANK'S HARMONY HOTWIFE",
@@ -38687,6 +38776,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-28T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505530",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [rock, pop, techno, house, progressive, trance]",
       "starts_at": "2026-11-28T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -39861,6 +39961,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-28T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505518",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "❤️FOXXIES SAT DJ FOXXEE🌹6:30PM ROMANCE DANCING BALLROOM FRANKS FRANK'S HARMONY HOTWIFE",
@@ -44827,6 +44938,17 @@
       "venue_photo_checked_at": "2026-11-12T02:59:31.174545+00:00"
     },
     {
+      "title": "DJ KISSA THIS LATE AFTERNOON AT EYE CANDY MUSIC CLUB 4PM-6PM",
+      "starts_at": "2026-12-02T16:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505500",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Lang is Rockin' the Blues @ The Music Factory",
       "starts_at": "2026-12-02T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -45001,6 +45123,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ED OXYGEN HERE AT EYE CANDY MUSIC CLUB THSI EVENING 6PM-8PM",
+      "starts_at": "2026-12-02T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505504",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ ELLIE & CORVY SHARE WONDERFUL WEDNEDAY NIGHTS @ MUDDY’S MUSIC CAFE 6-8PM SLT",
@@ -48429,6 +48562,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-05T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505531",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [rock, pop, techno, house, progressive, trance]",
       "starts_at": "2026-12-05T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -49362,6 +49506,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-05T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505519",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "❤️FOXXIES SAT DJ FOXXEE🌹6:30PM ROMANCE DANCING BALLROOM FRANKS FRANK'S HARMONY HOTWIFE",
@@ -53029,6 +53184,17 @@
       "venue_photo_checked_at": "2026-11-12T02:59:31.174545+00:00"
     },
     {
+      "title": "DJ KISSA THIS LATE AFTERNOON AT EYE CANDY MUSIC CLUB 4PM-6PM",
+      "starts_at": "2026-12-09T16:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505501",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Lang is Rockin' the Blues @ The Music Factory",
       "starts_at": "2026-12-09T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -53159,6 +53325,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ED OXYGEN HERE AT EYE CANDY MUSIC CLUB THSI EVENING 6PM-8PM",
+      "starts_at": "2026-12-09T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505505",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ ELLIE & CORVY SHARE WONDERFUL WEDNEDAY NIGHTS @ MUDDY’S MUSIC CAFE 6-8PM SLT",
@@ -55845,6 +56022,17 @@
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-12T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505532",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [rock, pop, techno, house, progressive, trance]",
       "starts_at": "2026-12-12T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -56651,6 +56839,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-12T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505520",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "❤️FOXXIES SAT DJ FOXXEE🌹6:30PM ROMANCE DANCING BALLROOM FRANKS FRANK'S HARMONY HOTWIFE",
@@ -58937,6 +59136,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ ENNIE HERE AT EYE CANDY MUSIC CLUB 2AM-4AM EARLY MORNING FUN",
+      "starts_at": "2026-12-16T02:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505508",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ ROBBIE & RANE BRIT INVASION @ MUDDY'S MUSIC CAFE - WED 2-4AM SLT - 70S to TODAY TUNES!",
       "starts_at": "2026-12-16T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -58957,6 +59167,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9488237",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ SUGA EARLY WEDNESDAY MORNING HERE AT EYE CANDY MUSIC CLUB",
+      "starts_at": "2026-12-16T04:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505512",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -59339,6 +59560,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ KISSA THIS LATE AFTERNOON AT EYE CANDY MUSIC CLUB 4PM-6PM",
+      "starts_at": "2026-12-16T16:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505502",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Lang is Rockin' the Blues @ The Music Factory",
       "starts_at": "2026-12-16T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -59469,6 +59701,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ED OXYGEN HERE AT EYE CANDY MUSIC CLUB THSI EVENING 6PM-8PM",
+      "starts_at": "2026-12-16T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505506",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ ELLIE & CORVY SHARE WONDERFUL WEDNEDAY NIGHTS @ MUDDY’S MUSIC CAFE 6-8PM SLT",
@@ -61584,6 +61827,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-19T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505533",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [rock, pop, techno, house, progressive, trance]",
       "starts_at": "2026-12-19T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -62202,6 +62456,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-19T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505521",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "❤️FOXXIES SAT DJ FOXXEE🌹6:30PM ROMANCE DANCING BALLROOM FRANKS FRANK'S HARMONY HOTWIFE",
@@ -64310,6 +64575,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ ENNIE HERE AT EYE CANDY MUSIC CLUB 2AM-4AM EARLY MORNING FUN",
+      "starts_at": "2026-12-23T02:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505509",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ ROBBIE & RANE BRIT INVASION @ MUDDY'S MUSIC CAFE - WED 2-4AM SLT - 70S to TODAY TUNES!",
       "starts_at": "2026-12-23T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -64330,6 +64606,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9488238",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ SUGA EARLY WEDNESDAY MORNING HERE AT EYE CANDY MUSIC CLUB",
+      "starts_at": "2026-12-23T04:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505513",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -64635,6 +64922,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ KISSA THIS LATE AFTERNOON AT EYE CANDY MUSIC CLUB 4PM-6PM",
+      "starts_at": "2026-12-23T16:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505503",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Lang is Rockin' the Blues @ The Music Factory",
       "starts_at": "2026-12-23T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -64745,6 +65043,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ ED OXYGEN HERE AT EYE CANDY MUSIC CLUB THSI EVENING 6PM-8PM",
+      "starts_at": "2026-12-23T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505507",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ ELLIE & CORVY SHARE WONDERFUL WEDNEDAY NIGHTS @ MUDDY’S MUSIC CAFE 6-8PM SLT",
@@ -66270,6 +66579,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-26T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505534",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "DJ Blu@fogbound 1p-3p slt",
       "starts_at": "2026-12-26T13:00:00-08:00",
       "venue": "FogBound Blues",
@@ -66675,6 +66995,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-26T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505522",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "DJ ZIN LANE @ MOONLIGHT SONATA WITH HOSTESS DARLA WITH ROMANCE!",
@@ -68156,6 +68487,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ ENNIE HERE AT EYE CANDY MUSIC CLUB 2AM-4AM EARLY MORNING FUN",
+      "starts_at": "2026-12-30T02:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505510",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ ROBBIE & RANE BRIT INVASION @ MUDDY'S MUSIC CAFE - WED 2-4AM SLT - 70S to TODAY TUNES!",
       "starts_at": "2026-12-30T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -68176,6 +68518,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9488239",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ SUGA EARLY WEDNESDAY MORNING HERE AT EYE CANDY MUSIC CLUB",
+      "starts_at": "2026-12-30T04:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505514",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -69820,6 +70173,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-02T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505535",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "First Light at Anchorbury Harbor · Today 1 to 3pm SLT",
       "starts_at": "2027-01-02T13:00:00-08:00",
       "venue": "Anchorbury Harbor",
@@ -70224,6 +70588,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-02T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505523",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "DJ ZIN LANE @ MOONLIGHT SONATA WITH HOSTESS DARLA WITH ROMANCE!",
@@ -71528,6 +71903,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ ENNIE HERE AT EYE CANDY MUSIC CLUB 2AM-4AM EARLY MORNING FUN",
+      "starts_at": "2027-01-06T02:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505511",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ ROBBIE & RANE BRIT INVASION @ MUDDY'S MUSIC CAFE - WED 2-4AM SLT - 70S to TODAY TUNES!",
       "starts_at": "2027-01-06T02:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -71536,6 +71922,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9500656",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ SUGA EARLY WEDNESDAY MORNING HERE AT EYE CANDY MUSIC CLUB",
+      "starts_at": "2027-01-06T04:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505515",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -72792,6 +73189,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-09T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505536",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "BUBBLES LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-09T13:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -73123,6 +73531,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-09T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505524",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "DJ ZIN LANE @ MOONLIGHT SONATA WITH HOSTESS DARLA WITH ROMANCE!",
@@ -75329,6 +75748,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-16T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505537",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Harti-Party on ZADAday @ Watersoul - DJ Party for you!",
       "starts_at": "2027-01-16T13:00:00-08:00",
       "venue": ">>>  WaterSoul Brothel - Neko Furry Escort Directory - Yiff Sex",
@@ -75616,6 +76046,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-16T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505525",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "TwoStep SpiritWeaver & Beth Odets LiVE! ! Yvies Heaven Beachclub!",
@@ -77286,6 +77727,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-23T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505538",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "BUBBLES LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-23T13:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -77514,6 +77966,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-23T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505526",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "DJ Delo Ocean LIVE - Saturday Dance at Phat Cats",
@@ -78766,6 +79229,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-30T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505539",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "PUTRI SOLO LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2027-01-30T13:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -78949,6 +79423,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-30T18:30:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505527",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "DJ Delo Ocean LIVE - Saturday Dance at Phat Cats",
