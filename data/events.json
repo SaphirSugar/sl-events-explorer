@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T18:50:20.050088+00:00",
+  "updated_at": "2026-11-14T19:48:06.013853+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1467,17 +1467,6 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
-      "title": "David Shea live at Sanctuary  at 11 AM",
-      "starts_at": "2026-11-14T11:00:00-08:00",
-      "venue": "Sanctuary, EST. 2008",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9500760",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
       "title": "Dirty Sin Hookah Lounge",
       "starts_at": "2026-11-14T11:00:00-08:00",
       "venue": "Dirty Sin Hookah Lounge (Distillery Entertainment)",
@@ -2919,6 +2908,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ FLOOZY @LOULOU",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505612",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "DJ Hans' Vintage Tunes  @WBH",
@@ -4647,6 +4647,17 @@
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
     },
     {
+      "title": "6pm DJ Arwen @The Monarch Gentlemen’s Club 3 Year Anniversary Party",
+      "starts_at": "2026-11-14T18:00:00-08:00",
+      "venue": "The Monarch Gentlemen's Club @ Rooftops",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505607",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "6pm NOMA FALTA @ VIVE AmA RIE",
       "starts_at": "2026-11-14T18:00:00-08:00",
       "venue": "VIVE Ama RIE, AfterGlow, Feels Like Home",
@@ -4689,6 +4700,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-14T01:10:08.894331+00:00"
+    },
+    {
+      "title": "DJ AURORA COMINGGG @LOULOU",
+      "starts_at": "2026-11-14T18:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505613",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "DJ Bela and Baddog at the Hammerhead Beach Club.",
@@ -11344,6 +11366,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Jo Big LIVE @ HOP - Agora Stage 1pm SLT Angels and Demons Contest",
+      "starts_at": "2026-11-16T13:00:00-08:00",
+      "venue": "Home of The Prodigies",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505608",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T19:50:41.274209+00:00"
+    },
+    {
       "title": "RICKY HAYSTACK LIVE AT KITTENZ",
       "starts_at": "2026-11-16T13:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -11562,6 +11595,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe with DJ Robbie and Host Heather",
+      "starts_at": "2026-11-16T14:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505609",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "NIGEL FREEMAN, live singer  @ THE NIGHT OWL",
@@ -14542,6 +14586,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe with DJ D-Luv and Host Heather",
+      "starts_at": "2026-11-17T14:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505611",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "SAVAGE RHYTHM~DJ HOPPER IS TAKING OVER AND DOMINATING YOUR TUESAY WITH HIS HOT MIX OF TUNES! 2-4PSLT",
@@ -30990,6 +31045,17 @@
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9403572",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ LUSCIOUS @ WATERMELON SUGAR CLUB",
+      "starts_at": "2026-11-23T16:00:00-08:00",
+      "venue": "Watermelon Sugar Country Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505614",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
