@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T14:49:55.966863+00:00",
+  "updated_at": "2026-11-14T15:46:39.646415+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -738,7 +738,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476718",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T18:00:44.847685+00:00"
     },
@@ -750,7 +749,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494292",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
     },
@@ -1736,6 +1734,17 @@
       "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
+      "title": "12PM - \" POOLSIDE PLEASURES\"  Saturday w/ DJ ALMA & MISS MAY",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505489",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
+    },
+    {
       "title": "ANNETTE SERANADE LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-14T12:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -1943,6 +1952,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-14T12:59:47.035176+00:00"
+    },
+    {
+      "title": "LISA BRUNE live @ PEARL GREEK ISLAND",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "{{Pearl Greek Island}}www.pearlgreekisland.com/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505494",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
     },
     {
       "title": "Live Opera Singer MerryJest Starchild at Varro Theater",
@@ -2847,6 +2867,17 @@
       "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
     },
     {
+      "title": "DJ Boldo's Saturday Night Themed Dance Beaumont 2PM",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "Beaumont Castle Estate",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505493",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
+    },
+    {
       "title": "DJ Bramble - SamS, Zed, Womble Mix at the Midnight Cabaret",
       "starts_at": "2026-11-14T14:00:00-08:00",
       "venue": "The Midnight Cabaret",
@@ -2900,6 +2931,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ Marcus & Host Cat @ The delfina Club",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "THE DELFINA CLUB. MUSIC & DANCE. Est.2020.    Partly PBR.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505487",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
     },
     {
       "title": "DJ ROBBE & RANE @ MUDDY'S MUSIC CAFE - SATURDAY 2PM-4PM SLT!",
@@ -3320,6 +3362,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "3PM Coffee Break with Sir Rick - Discussion @ 24 Greenwich St",
+      "starts_at": "2026-11-14T15:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505490",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
+    },
+    {
       "title": "DEVON REGGAINE @ UNDER THE SOUTHERN CROSS",
       "starts_at": "2026-11-14T15:00:00-08:00",
       "venue": "UNDER THE SOUTHERN CROSS-AUSTRALIA",
@@ -3351,6 +3404,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ JANX @ LOULOU - EXPECT THE UNEXPECTED!!!",
+      "starts_at": "2026-11-14T15:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505488",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "DJ Raine and Host Rayne @ Cabo Swingers' Resort",
@@ -4441,6 +4505,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "6PM The Sensual Sunset w/ \"DJ SHELL & BROOK\" @ 24 Greenwich St",
+      "starts_at": "2026-11-14T18:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505491",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
+    },
+    {
       "title": "6PM::RANI SATURDAYS::Siren's Call Club::6-8pm",
       "starts_at": "2026-11-14T18:00:00-08:00",
       "venue": "Siren's Call Club",
@@ -5483,6 +5558,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "8PM \"THE QUIET STORM\" with AMAZING DJ DIME & SHELL at 24",
+      "starts_at": "2026-11-14T20:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505492",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
     },
     {
       "title": "Blues With a Whole Lotta Soul @Crossroads",
@@ -7484,6 +7570,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Worlds of Michael Delmar",
+      "starts_at": "2026-11-15T12:00:00-08:00",
+      "venue": "Akimori",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505486",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T15:49:09.842852+00:00"
     },
     {
       "title": "Warehouse 21 ★ [industrial, dark wave, techno, edm, house, progressive, trance]",
