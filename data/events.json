@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-14T13:56:52.075236+00:00",
+  "updated_at": "2026-11-14T14:49:55.966863+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -595,7 +595,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491085",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -622,17 +621,6 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
-      "title": "SUNDANCE ISLE LIVE DJ MUSIC - DJ GILLIAN",
-      "starts_at": "2026-11-14T06:00:00-08:00",
-      "venue": "Sundance @ [The Sands]",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9505192",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
       "title": "Saturday Late Night / Early Morning – DJ Morri",
       "starts_at": "2026-11-14T06:00:00-08:00",
       "venue": "The Purple Leopard Gentleman's Club NOW HIRING Ad Boards",
@@ -651,7 +639,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9471277",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -674,7 +661,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9468030",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
@@ -712,17 +698,6 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
-      "title": "🟢⭐🟢▶ 6am UGLY BILL n WIZ PERFORMING  @ ~*SPIRIT OF THE OUTBACK*~ Down Under",
-      "starts_at": "2026-11-14T06:00:00-08:00",
-      "venue": "~*SPIRIT OF THE OUTBACK*~AUSTRALIAN LIVE MUSIC VENUE",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8035589",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
       "title": "SLCS Harvest Fest - Games, Music, Fun!",
       "starts_at": "2026-11-14T06:30:00-08:00",
       "venue": "SL Cheerleading Squad / Srooc Skytower Memorial Stadium",
@@ -746,17 +721,6 @@
     },
     {
       "title": "🔴▶▶  UGLY BILL  6:30 AM  30 mins remaining @ ~*SPIRIT OF THE OUTBACK*~",
-      "starts_at": "2026-11-14T06:30:00-08:00",
-      "venue": "~*SPIRIT OF THE OUTBACK*~AUSTRALIAN LIVE MUSIC VENUE",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8036068",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
-      "title": "🔴▶▶ UGLY BILL n WIZ 6:30 AM  30 mins remaining @ ~*SPIRIT OF THE OUTBACK*~",
       "starts_at": "2026-11-14T06:30:00-08:00",
       "venue": "~*SPIRIT OF THE OUTBACK*~AUSTRALIAN LIVE MUSIC VENUE",
       "category": "Live Music",
@@ -1310,6 +1274,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Saturday 14th November line up @ Serimner",
+      "starts_at": "2026-11-14T10:00:00-08:00",
+      "venue": ".:Serimner:. - New location",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505483",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
+    },
+    {
       "title": "Science Circle Presentation: Solar Panels",
       "starts_at": "2026-11-14T10:00:00-08:00",
       "venue": "The Paleocene Science Circle",
@@ -1706,6 +1681,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "🎆    SATURDAY at  K A I M A R    🎆",
+      "starts_at": "2026-11-14T11:00:00-08:00",
+      "venue": "KaiMar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505466",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
+    },
+    {
       "title": "🎧 THE VELVET HOUSE PRESENTS: DJ MARIA - CONTEMPORARY COUNTRY 🎧",
       "starts_at": "2026-11-14T11:00:00-08:00",
       "venue": "The Velvet House",
@@ -1737,6 +1723,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🌺 SUNSHINE, SAND & SUZI! ☀️ DJ SUZI LIVE @ PHOENIX!",
+      "starts_at": "2026-11-14T11:30:00-08:00",
+      "venue": ".: THE PHOENIX:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505467",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
       "title": "ANNETTE SERANADE LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -1803,6 +1800,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Shorty at Totally 80s 12 pm till 2 PM",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "<3 Totally 80s is your HOME of the 80s wth a FRESH 90s twist!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505484",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
       "title": "DJ Sunrise @ Celtic Storm Worldwide MC # Aurora -Sanctuary Of Music",
@@ -1880,6 +1888,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
+      "title": "HURRY UP DJ AUDA ON THE STAGE COME AND JOIN US AT LOULOU",
+      "starts_at": "2026-11-14T12:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505465",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T13:59:19.382991+00:00"
     },
     {
       "title": "Intimate Currents:  A Cabo Conversation Series @ Cabo Swingers' Resort",
@@ -2608,6 +2627,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Secret Harbor Coven",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": "Anchorbury Harbor",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9492586",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "THE AFTERMATHl @ ALKALINE w/ DJ Ana, DJ Lexi",
       "starts_at": "2026-11-14T13:00:00-08:00",
       "venue": "Chemistry Spookeasy + Alkaline Ballroom",
@@ -2727,6 +2757,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🔥 BACK TO THE GOLDEN ERA! 🎶 DJ SOUNDSLAMMER - CLASSIC TRANCE!",
+      "starts_at": "2026-11-14T13:00:00-08:00",
+      "venue": ".: THE PHOENIX:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505469",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
       "title": "Cine Alada sings LIVE at Scarlet Room @ Aura Live",
@@ -3059,6 +3100,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "RFC 12 (Bareknuckle Boxing",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "Chaos Catfight Carnival Expansion",
+      "category": "Sports",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505479",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
+    },
+    {
       "title": "RONA SINGER LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-14T14:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -3233,6 +3285,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🪩✨Come Back 2 Back!✨🪩 Your 80s and 90s Destination",
+      "starts_at": "2026-11-14T14:00:00-08:00",
+      "venue": "Back 2 Back - Your 80s and 90s Destination @ Rewind Plaza",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505477",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "🍹 GOOD VIBES & GOLDEN SANDS! 🌴 DJ GABBY LIVE @ PHOENIX!",
+      "starts_at": "2026-11-14T14:30:00-08:00",
+      "venue": ".: THE PHOENIX:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505471",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
       "title": "👠 ELEGANT LADIES WANTED 👠",
@@ -3972,6 +4046,17 @@
     },
     {
       "title": "🪩✨80s and 90s Party!✨🪩",
+      "starts_at": "2026-11-14T16:00:00-08:00",
+      "venue": "Back 2 Back - Your 80s and 90s Destination @ Rewind Plaza",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502226",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "🪩✨Y2K PARTY @ REWIND PLAZA✨🪩",
       "starts_at": "2026-11-14T16:00:00-08:00",
       "venue": "Back 2 Back - Your 80s and 90s Destination @ Rewind Plaza",
       "category": "Live DJ",
@@ -15840,6 +15925,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "WEDNESDAY MORNING, MIDNIGHT-NOON SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-18T00:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505468",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [trance, techno, edm, progressive, house]",
       "starts_at": "2026-11-18T00:00:00-08:00",
       "venue": "Warehouse 21",
@@ -16896,6 +16992,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "WEDNESDAY AFTERNOON, NOON-6 PM SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505470",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Warehouse 21 ★ [trance, techno, house, progressive, funk]",
@@ -18141,6 +18248,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "WEDNESDAY EVENING, 6-MIDNIGHT SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-18T18:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505472",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "WYLD BLUES!!",
       "starts_at": "2026-11-18T18:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -18802,6 +18920,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "THURSDAY MORNING, MIDNIGHT-NOON SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-19T00:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505473",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Warehouse 21 ★ [techno, house, alternative, rock, indie]",
@@ -20998,6 +21127,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "SAVANNAH CORONET LIVE @ ROCKIN' ROBIN -  50'S, 60'S, 70'S, 80'S, TO CURRENT ON THURSDAY, 6-7 PM SLT",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505475",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Singer PAUL @ A LITTLE HONKY TONK BAR 6-7 PM",
       "starts_at": "2026-11-19T18:00:00-08:00",
       "venue": "A LITTLE HONKY TONK BAR",
@@ -21007,6 +21147,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "THURSDAY AFTERNOON, NOON-6 PM SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505474",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "THU⛵DJ Phaed's⛵Dance Party on The Savoy's Yacht with Questa",
@@ -22351,6 +22502,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "STEP INTO THE WORLD OF STEAMPUNK! 🕰️⚙️",
+      "starts_at": "2026-11-20T10:00:00-08:00",
+      "venue": "Adro's Home",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505478",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
+    },
+    {
       "title": "⚡🎵 DJ DAVID - Rocking your Friday @ Juici Lu's 10am to Noon 🎵⚡",
       "starts_at": "2026-11-20T10:00:00-08:00",
       "venue": "JUICI Lu's music Club @ D'Legs",
@@ -22360,6 +22522,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "️ STEP INTO THE WORLD OF STEAMPUNK! 🕰️⚙",
+      "starts_at": "2026-11-20T10:00:00-08:00",
+      "venue": "Tikidoon",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505485",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T14:51:57.234860+00:00"
     },
     {
       "title": "FASHION is YOUR VOCABULARY. MAKE YOUR LOOK ELOQUENT!",
@@ -23746,6 +23919,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "WOLFIE MOONSHADOW LIVE @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT ON FRIDAY, 6-7 PM SLT",
+      "starts_at": "2026-11-20T18:00:00-08:00",
+      "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505476",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "~ 6-8 PM DJ MAVERICK AND HOST ACER ~ DISCO ~ SPONSORED BY BOB&RUFIE ~",
@@ -55585,6 +55769,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-13T20:02:13.612699+00:00"
+    },
+    {
+      "title": "::: MYSTELLE and Band LIVE AT END OF TIME",
+      "starts_at": "2026-12-12T13:00:00-08:00",
+      "venue": "Main Stage",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7701929",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "BUBBLES LIVE AT ROMANTICA PARK, ROMANTICA",
