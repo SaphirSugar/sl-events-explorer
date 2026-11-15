@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-15T18:52:10.410320+00:00",
+  "updated_at": "2026-11-15T19:49:12.314682+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1305,17 +1305,6 @@
     },
     {
       "title": "DJ LUMINE | Alternative Rock & More",
-      "starts_at": "2026-11-15T11:00:00-08:00",
-      "venue": "CLUB CUPIDUS - Danceclub & Hangout",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504226",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
-    },
-    {
-      "title": "DJ LUMINE | Dark Tunes",
       "starts_at": "2026-11-15T11:00:00-08:00",
       "venue": "CLUB CUPIDUS - Danceclub & Hangout",
       "category": "Live DJ",
@@ -10004,6 +9993,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌅🎶💕 TUESDAY AFTERNOON AT LOVE & HARMONY JAZZ WITH DJ ALEXANDERTG 2PM💕🎶",
+      "starts_at": "2026-11-17T14:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506107",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🎧 DJ Joe Max is 🚀 Taking Rad Ride 🕹️ Back To The 80s! 🕶️",
       "starts_at": "2026-11-17T14:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -10387,6 +10387,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🌅🎶💕 TUESDAY AFTERNOON AT LOVE & HARMONY JAZZ DJ JOHNNY CRASH 4PM💕🎶",
+      "starts_at": "2026-11-17T16:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506108",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🎉 Join DJ Xavia as she goes 🕹️ Back To The 80s 🕶️ for an 🌴 Afternoon In The 80s 🌵",
@@ -11816,6 +11827,17 @@
       "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
     },
     {
+      "title": "✨🎶NEVERENDING MUSIC AT THE AWARD-WINNING LOVE & HARMONY JAZZ ROMANTIC🎶✨",
+      "starts_at": "2026-11-18T01:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506114",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🗝️ HOUSE OF WHISPERS @ [ROUGE] 🗝️",
       "starts_at": "2026-11-18T01:30:00-08:00",
       "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -12240,6 +12262,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🍂🎶 WEDNESDAY MORNING AUTUMN VIBES AT LOVE & HARMONY JAZZ WITH DJ LADY LAURA, 8AM 🎶🍂",
+      "starts_at": "2026-11-18T08:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506116",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🐊 WET WILLIES CLASSIC ROCK CLUB IS YOUR #1 ROCK DESTINATION!",
       "starts_at": "2026-11-18T08:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -12493,6 +12526,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "☕🎶 LOVE & HARMONY JAZZ WITH DJ MIKE DEVALLEYFIELD WEDNESDAY MORNING AT 10AM🎶☕",
+      "starts_at": "2026-11-18T10:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506117",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🐊 NEED LINDEN? GRAB FREE LINDEN AT WET WILLIES!",
@@ -13131,6 +13175,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "DJ Laser 420 - Rock @ Club Mumtaz  * Silk's ~ Saree's  *",
+      "starts_at": "2026-11-18T13:00:00-08:00",
+      "venue": "~Mumtaz Taj Mahal~ & Voo's Palace Ballroom",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506094",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T17:46:21.356077+00:00"
     },
     {
       "title": "DJ Mordecai's ✨ I Love❤️ The 80s ✨ Takes you 🕹️ Back To The 80s! 🕶️",
@@ -19840,6 +19895,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Muddy's Music Cafe with DJ Robbie and Host Heather",
+      "starts_at": "2026-11-20T14:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506109",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "PRETO, live singer debuts @ THE NIGHT OWL",
       "starts_at": "2026-11-20T14:00:00-08:00",
       "venue": "M.T. - THE NIGHT OWL",
@@ -20146,6 +20212,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe with DJ Vixen and Host Heather",
+      "starts_at": "2026-11-20T16:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506110",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "SUJEITO performs  *live* at The Octagon",
@@ -35985,6 +36062,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2026-11-27T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506096",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "ROCK THROUGH THE YEA RS W/ DJ KILLER AT  SAVAGES!",
       "starts_at": "2026-11-27T20:00:00-08:00",
       "venue": "Savages- We are Hiring DJs and Hosts",
@@ -46431,6 +46519,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2026-12-04T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506097",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "ROCK THROUGH THE YEA RS W/ DJ KILLER AT  SAVAGES!",
       "starts_at": "2026-12-04T20:00:00-08:00",
       "venue": "Savages- We are Hiring DJs and Hosts",
@@ -54380,6 +54479,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2026-12-11T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506098",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "ROCK THROUGH THE YEA RS W/ DJ KILLER AT  SAVAGES!",
       "starts_at": "2026-12-11T20:00:00-08:00",
       "venue": "Savages- We are Hiring DJs and Hosts",
@@ -60503,6 +60613,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2026-12-18T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506099",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2026-12-18T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -65482,6 +65603,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2026-12-25T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506100",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2026-12-25T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -69185,6 +69317,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2027-01-01T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506101",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2027-01-01T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -72359,6 +72502,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2027-01-08T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506102",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2027-01-08T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -75016,6 +75170,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2027-01-15T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506103",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2027-01-15T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -77106,6 +77271,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2027-01-22T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506104",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2027-01-22T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -78718,6 +78894,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2027-01-29T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506105",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
+    },
+    {
       "title": "The Vampire’s Ball beckons",
       "starts_at": "2027-01-29T20:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -79805,6 +79992,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Official Friday Night Pornstars Party!",
+      "starts_at": "2027-02-05T20:00:00-08:00",
+      "venue": "Portocorvo   https://www.flickr.com/groups/portocorvo/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506106",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T19:52:04.568694+00:00"
     },
     {
       "title": "The Vampire’s Ball beckons",
