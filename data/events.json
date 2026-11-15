@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-15T17:44:18.570777+00:00",
+  "updated_at": "2026-11-15T18:52:10.410320+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -400,6 +400,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9490804",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -411,6 +413,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505873",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -422,6 +426,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504133",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c1af9828-b4e2-d741-95cf-8bb240506dac/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
@@ -433,6 +439,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503768",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/01982198-24ad-1a49-d755-801d0faee979/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -444,6 +452,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502700",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6154ec5d-a0bd-5117-e9b5-524aa31101c2/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
@@ -1129,17 +1139,6 @@
       "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
-      "title": "PENSACOLA PETE at Belle's Coffee Shop (LIVE MUSIC!)",
-      "starts_at": "2026-11-15T10:00:00-08:00",
-      "venue": "Belle's Coffee Shop",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9473653",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "Reopening of the \"Like a Rolling Stone\" bar, Bayou theme",
       "starts_at": "2026-11-15T10:00:00-08:00",
       "venue": "Like a Rolling Stone : Bar Lounge Spa - Theme BAYOU",
@@ -1149,17 +1148,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
-    },
-    {
-      "title": "SUNDANCE ISLE LIVE DJ MUSIC - DJ SALLY",
-      "starts_at": "2026-11-15T10:00:00-08:00",
-      "venue": "Sundance @ [The Sands]",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9505208",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Sunday Flicks w/ Freddie Valentine @ Cabo Swingers' Resort",
@@ -7287,6 +7275,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Airedine at United Rhythms!",
+      "starts_at": "2026-11-16T17:00:00-08:00",
+      "venue": "Acoustic Blooms",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506061",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T18:55:08.208972+00:00"
     },
     {
       "title": "BLEU PRESENTS  RHYTHM & ROSE 2 HOUR SPECIAL! (SASSY & ALICIA DUO)  LIVE BOGART'S at FRANK'S JAZZ",
@@ -13794,6 +13793,17 @@
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
     },
     {
+      "title": "Samuel James at United Rhythms!",
+      "starts_at": "2026-11-18T16:00:00-08:00",
+      "venue": "Acoustic Blooms",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506087",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T18:55:08.208972+00:00"
+    },
+    {
       "title": "Singer Wayne Rhodell  @ A LITTLE HONKY TONK BAR 4-5 PM",
       "starts_at": "2026-11-18T16:00:00-08:00",
       "venue": "A LITTLE HONKY TONK BAR",
@@ -13814,6 +13824,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Wednesday Night @ Harlow's! DJ Barbra Debuts 4-6 PM SLT",
+      "starts_at": "2026-11-18T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9477901",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
     },
     {
       "title": "Wednesday Night with DJ Sandi Voom 4-6 PM SLT",
@@ -16880,6 +16901,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Music Therapy with Blue and Friar Fox",
+      "starts_at": "2026-11-19T16:00:00-08:00",
+      "venue": "Music Therapy",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506093",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T18:55:08.208972+00:00"
     },
     {
       "title": "REED HARRIS LIVE AT KITTENZ",
@@ -20215,6 +20247,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "AMFORTE at United Rhythms!",
+      "starts_at": "2026-11-20T17:00:00-08:00",
+      "venue": "Acoustic Blooms",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506090",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T18:55:08.208972+00:00"
+    },
+    {
       "title": "BEE BLOSSOM — LIVE @ SIREN'S CALL::5PM",
       "starts_at": "2026-11-20T17:00:00-08:00",
       "venue": "Siren's Call Club",
@@ -20501,6 +20544,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Mimi Carpenter at United Rhythms!",
+      "starts_at": "2026-11-20T18:00:00-08:00",
+      "venue": "Acoustic Blooms",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506091",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T18:55:08.208972+00:00"
+    },
+    {
       "title": "PAUL KINDHARTDMAN SINGING TINKERS PLACE",
       "starts_at": "2026-11-20T18:00:00-08:00",
       "venue": "Diamond Lil",
@@ -20774,6 +20828,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Oblee at United Rhythms!",
+      "starts_at": "2026-11-20T19:00:00-08:00",
+      "venue": "Acoustic Blooms",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506092",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T18:55:08.208972+00:00"
     },
     {
       "title": "Phoenix Adult Night Club",
@@ -21623,6 +21688,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2026-11-21T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506074",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "🎉 Mordecai's 📺 Saturday Morning Cartoon Party 📺 Takes You 🕹️ Back To The 80s! 🕶️",
@@ -25224,6 +25300,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-14T07:09:08.133978+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-22T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506062",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Warehouse 21 ★ [industrial, dark wave, techno, edm, house, progressive, trance]",
@@ -31481,6 +31568,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Wednesday Night @ Harlow's With DJ Barbra 4-6 PM SLT",
+      "starts_at": "2026-11-25T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9477902",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "Wednesday Night with DJ Sandi Voom 4-6 PM SLT",
       "starts_at": "2026-11-25T16:00:00-08:00",
       "venue": "Harlow's Dance & Party Club",
@@ -36238,6 +36336,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2026-11-28T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506075",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "🎉 Mordecai's 📺 Saturday Morning Cartoon Party 📺 Takes You 🕹️ Back To The 80s! 🕶️",
       "starts_at": "2026-11-28T08:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -39048,6 +39157,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-11-29T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506063",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Warehouse 21 ★ [industrial, dark wave, techno, edm, house, progressive, trance]",
@@ -43268,6 +43388,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Wednesday Night @ Harlow's With DJ Barbra 4-6 PM SLT",
+      "starts_at": "2026-12-02T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9477903",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "Wednesday Night with DJ Sandi Voom 4-6 PM SLT",
       "starts_at": "2026-12-02T16:00:00-08:00",
       "venue": "Harlow's Dance & Party Club",
@@ -46584,6 +46715,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2026-12-05T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506076",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ MADISON!!!",
       "starts_at": "2026-12-05T10:00:00-08:00",
       "venue": "everything bimbo",
@@ -48713,6 +48855,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-06T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506064",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Warehouse 21 ★ [industrial, dark wave, techno, edm, house, progressive, trance]",
@@ -54454,6 +54607,17 @@
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2026-12-12T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506077",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ MADISON!!!",
       "starts_at": "2026-12-12T10:00:00-08:00",
       "venue": "everything bimbo",
@@ -56132,6 +56296,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-13T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506065",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Warehouse 21 ★ [industrial, dark wave, techno, edm, house, progressive, trance]",
@@ -60511,6 +60686,17 @@
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2026-12-19T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506078",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ MADISON!!!",
       "starts_at": "2026-12-19T10:00:00-08:00",
       "venue": "everything bimbo",
@@ -61926,6 +62112,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-20T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506066",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Weddings Performed Absolutely Free",
@@ -65456,6 +65653,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2026-12-26T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506079",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ MADISON!!!",
       "starts_at": "2026-12-26T10:00:00-08:00",
       "venue": "everything bimbo",
@@ -66339,6 +66547,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2026-12-27T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506067",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Weddings Performed Absolutely Free",
@@ -69090,6 +69309,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2027-01-02T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506080",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ MADISON!!!",
       "starts_at": "2027-01-02T10:00:00-08:00",
       "venue": "everything bimbo",
@@ -69996,6 +70226,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-03T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506068",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Weddings Performed Absolutely Free",
@@ -72230,6 +72471,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2027-01-09T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506081",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ MADISON!!!",
       "starts_at": "2027-01-09T10:00:00-08:00",
       "venue": "everything bimbo",
@@ -72981,6 +73233,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-10T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506069",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Weddings Performed Absolutely Free",
@@ -74855,6 +75118,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2027-01-16T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506082",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Auction Ends TODAY at 11am SLT @ Sensual Delights Slave Auction!",
       "starts_at": "2027-01-16T10:00:00-08:00",
       "venue": "Slave Auction & BDSM Community - Sensual Delights Slave Auction",
@@ -75515,6 +75789,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-17T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506070",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Weddings Performed Absolutely Free",
@@ -76923,6 +77208,17 @@
       "venue_photo_checked_at": "2026-11-12T15:03:15.684721+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2027-01-23T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506083",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "BEST BLUES BEING STREAMED AT THE BLAKE SEA ENCHANTED CUDDLE PARK",
       "starts_at": "2027-01-23T10:00:00-08:00",
       "venue": "Enchanted Cuddle Park",
@@ -77447,6 +77743,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-24T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506071",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Weddings Performed Absolutely Free",
@@ -78525,6 +78832,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2027-01-30T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506084",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "Auction Ends TODAY at 11am SLT @ Sensual Delights Slave Auction!",
       "starts_at": "2027-01-30T10:00:00-08:00",
       "venue": "Slave Auction & BDSM Community - Sensual Delights Slave Auction",
@@ -78888,6 +79206,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T03:59:53.651808+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-01-31T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506072",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "Sunday Dance Party! DJ Mishey & Zaya",
@@ -79511,6 +79840,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "The Twinkling Market - Weekend Breedables Market",
+      "starts_at": "2027-02-06T08:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Commercial",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506085",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
+    },
+    {
       "title": "!!!DJ SPIRIT!!!",
       "starts_at": "2027-02-06T12:00:00-08:00",
       "venue": "everything bimbo",
@@ -79729,6 +80069,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
+    },
+    {
+      "title": "The Twinkling Market - Live DJ Krazy Kata",
+      "starts_at": "2027-02-07T12:00:00-08:00",
+      "venue": "*Twilight Twinkles Auction & Market*",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506073",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
       "title": "STEVE WHO  - OPEN AIR THEATRE  @TheMMAC",
