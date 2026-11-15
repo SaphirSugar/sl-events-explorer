@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-15T11:48:21.696993+00:00",
+  "updated_at": "2026-11-15T12:58:59.516914+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -426,9 +426,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502372",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "DJ OTTER AT 4AMSLT ON SUNDAYS AT MUDDY'S MUSIC CAFE",
@@ -438,11 +438,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490804",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ XAN AND HOST CARINA",
@@ -453,9 +452,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505873",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "English Class. Voice. Excursion",
@@ -2171,6 +2170,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "AT JAKES - The Time-Travelling Tavern!",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505942",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
+    },
+    {
       "title": "DINKIEWEAR hosts a new Exclusive Cheeky Monkey themed hunt every month!",
       "starts_at": "2026-11-15T13:00:00-08:00",
       "venue": "DINKIEWEAR for Dinkies... http://tinyurl.com/3nnxp6ys",
@@ -2257,6 +2267,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "Live Singer Lily Z @ the Midnight Cabaret",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505949",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Mimi Carpenter Live Acoustic @ SONANCE",
@@ -2721,6 +2742,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "live singer Jess Rabbit sings @ the Midnigh Cabaret",
+      "starts_at": "2026-11-15T14:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505950",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🎸 REBEL YELL PRESENTS CINDERELLA ON THE WET WILLIES ROOF 2PM SLT",
       "starts_at": "2026-11-15T14:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -2754,6 +2786,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "🔥*ROCK EXPLOSION 🔥DJ DragonPoet* Host Lenee Mission",
+      "starts_at": "2026-11-15T14:30:00-08:00",
+      "venue": "PartyUP Crossing Culture",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505953",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T13:01:33.666373+00:00"
+    },
+    {
       "title": "\"No Need to Re-Toggle\" Open Mic!",
       "starts_at": "2026-11-15T15:00:00-08:00",
       "venue": "Town of Silver Spur at RobinTune Karaoke",
@@ -2763,6 +2806,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T02:15:32.441971+00:00"
+    },
+    {
+      "title": "DJ Trap Seductive and sexy..Hawt Tunes At The Midnight Cabaret",
+      "starts_at": "2026-11-15T15:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505952",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Forced FM \"Toy Boy/Girl\" DJ Feather @ The Twisted Orchid Fetish & BDSM Club",
@@ -2840,6 +2894,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-13T03:00:40.844135+00:00"
+    },
+    {
+      "title": "Sunday evening party!",
+      "starts_at": "2026-11-15T15:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505951",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T13:01:33.666373+00:00"
     },
     {
       "title": "Veto Rubas performs *live* at The Octagon",
@@ -3159,6 +3224,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ Fang is taking over Loulou!",
+      "starts_at": "2026-11-15T16:30:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505948",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T13:01:33.666373+00:00"
     },
     {
       "title": "HARLEQUIN MASKED BALL - CALL FOR EXTRAS - FILM SHOOT",
@@ -12931,6 +13007,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
+    },
+    {
+      "title": "Muddy's Music Cafe with DJ Robbie and Host Heather",
+      "starts_at": "2026-11-18T14:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505947",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "SARITA TWISTED LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -24007,6 +24094,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DarkHeat - Emoting 202 - Lesson 1",
+      "starts_at": "2026-11-22T10:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505943",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "IT'S GOT TO BE THE BLUZS BEING STREAMED AT OUR ENCHANTED CUDDLE PARK",
       "starts_at": "2026-11-22T10:00:00-08:00",
       "venue": "Enchanted Cuddle Park",
@@ -24332,6 +24430,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DarkHeat - DJ Maverick",
+      "starts_at": "2026-11-22T12:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505944",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Enchantment - Enchanted Fruit FREE GIFTS",
       "starts_at": "2026-11-22T12:00:00-08:00",
       "venue": "Enchantment Event - The Whispers of Elvenwood",
@@ -24651,6 +24760,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DarkHeat - Journal Club - Journaling Discussion",
+      "starts_at": "2026-11-22T14:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505945",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Grace & Surrender — High Protocol Social",
       "starts_at": "2026-11-22T14:00:00-08:00",
       "venue": "Eden's Hearth at The Cathedral",
@@ -24770,6 +24890,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "DarkHeat - Emoting 202 - Lesson 1",
+      "starts_at": "2026-11-22T15:30:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505946",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "❤️ SECRETS OF SEDUCTION @ ROUGE ❤️",
@@ -56567,6 +56698,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "7:00pm JPeabody Live @ FlyGearZ Flyte Ice Stage",
+      "starts_at": "2026-12-15T19:00:00-08:00",
+      "venue": "Winter's Watlz - Flyte -  FlyGearZ Entertainment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9498026",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T02:57:15.656335+00:00"
     },
     {
       "title": "7:00pm JPeabody Live @ FlyGearZ The Aviary",
