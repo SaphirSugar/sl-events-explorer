@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-15T10:51:03.267807+00:00",
+  "updated_at": "2026-11-15T11:48:21.696993+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -257,6 +257,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
@@ -268,6 +270,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505826",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5c40864c-e1d3-41ab-1022-de88eb6fd86e/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
@@ -279,6 +283,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489812",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -290,6 +296,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502369",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
@@ -301,6 +309,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505867",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -312,6 +322,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489866",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -323,6 +335,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505853",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/69616c37-bfe4-2bc1-c891-2a934afb0cde/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -333,8 +347,9 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=8704216",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
@@ -346,6 +361,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502218",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -357,6 +374,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-15T06:00:43.740617+00:00"
     },
     {
@@ -368,6 +387,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8035585",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -379,6 +400,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505856",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/69616c37-bfe4-2bc1-c891-2a934afb0cde/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -390,6 +413,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8689711",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -401,7 +426,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9502372",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "DJ OTTER AT 4AMSLT ON SUNDAYS AT MUDDY'S MUSIC CAFE",
@@ -413,7 +440,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "DJ XAN AND HOST CARINA",
@@ -424,7 +453,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505873",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "English Class. Voice. Excursion",
@@ -1159,6 +1190,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T08:17:30.729912+00:00"
+    },
+    {
+      "title": "Eric Steffensen @ Club Samedi 10 am",
+      "starts_at": "2026-11-15T10:00:00-08:00",
+      "venue": "Roissy En New Orleans",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505941",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T11:50:44.182951+00:00"
     },
     {
       "title": "IT'S GOT TO BE THE BLUZS BEING STREAMED AT OUR ENCHANTED CUDDLE PARK",
@@ -2283,6 +2325,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "THE BLOCK - LISA BRUNE LIVE - SUNDAY NOVEMBER 15 - 1:00 PM SLT",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "#THE BLOCK# Life Sentence",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505939",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T11:50:44.182951+00:00"
+    },
+    {
       "title": "VETO RUBAS LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
       "starts_at": "2026-11-15T13:00:00-08:00",
       "venue": "OPPOSITE TO PARADISE CLUB",
@@ -2633,6 +2686,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
+    },
+    {
+      "title": "THE BLOCK - KATIA PORTUGAL LIVE - SUNDAY NOVEMBER 15 - 2:00 PM SLT",
+      "starts_at": "2026-11-15T14:00:00-08:00",
+      "venue": "#THE BLOCK# Life Sentence",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505940",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T11:50:44.182951+00:00"
     },
     {
       "title": "The ''AROUND THE WORLD'' COLLECTION! FASHION TAKES YOU on a JOURNEY!",
