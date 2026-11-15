@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-15T12:58:59.516914+00:00",
+  "updated_at": "2026-11-15T13:58:37.390365+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -596,7 +596,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489729",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -678,28 +677,6 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
-      "title": "SUNDANCE ISLE LIVE DJ MUSIC - DJ D-V*PER",
-      "starts_at": "2026-11-15T06:00:00-08:00",
-      "venue": "Sundance @ [The Sands]",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9505205",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
-      "title": "SUNDAYS WITH DJ AMFIE LIVE AT MUDDYS MUSIC CAFE",
-      "starts_at": "2026-11-15T06:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502327",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "WBH Games Park",
       "starts_at": "2026-11-15T06:00:00-08:00",
       "venue": "WBH Games Park & 3-D Maze",
@@ -707,7 +684,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499720",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -1961,6 +1937,17 @@
       "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
+      "title": "✧ 𝒸𝓁𝓊𝒷 ＬＯＵＬＯＵ  ✧ party at the Beach with DJ NIKO",
+      "starts_at": "2026-11-15T12:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505969",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T13:01:33.666373+00:00"
+    },
+    {
       "title": "✨ Welcome 🕹️ BACK TO THE 80s! 🕶️ Second Life's Home Of The 80s 🎧 ✨",
       "starts_at": "2026-11-15T12:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -2146,6 +2133,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "** STEVE WHO @ PARIS CHAMPS ELYSEES **",
+      "starts_at": "2026-11-15T13:00:00-08:00",
+      "venue": "Paris 1900 *** Les Champs Elysees",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505970",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T14:01:12.335758+00:00"
     },
     {
       "title": "1:00pm Gabriel da Silva Live @ Hard Rock Garage - HRG",
@@ -2445,6 +2443,17 @@
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
+      "title": "DJ FIRSTBREATH @ LOULOU - LETS PARTYYYY!!!",
+      "starts_at": "2026-11-15T13:30:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505965",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T13:01:33.666373+00:00"
+    },
+    {
       "title": "Halloween Party",
       "starts_at": "2026-11-15T13:30:00-08:00",
       "venue": "Darlene",
@@ -2487,6 +2496,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "!!!   Urban Vibes :  RAP n HOP n R&B      !!!  w  DJ Franky@Delfina",
+      "starts_at": "2026-11-15T14:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505956",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "A Formal Affair -  elegant ballroom dancing with LIVE DJ",
@@ -4954,6 +4974,17 @@
       "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
     },
     {
+      "title": "English Class. Voice. Easy English Grammar",
+      "starts_at": "2026-11-16T03:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505954",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Live Singers Lady & Adam",
       "starts_at": "2026-11-16T03:00:00-08:00",
       "venue": "The Bricks at Phat Cats",
@@ -5806,6 +5837,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9503774",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "English Class. Voice. Comprehension/Listening",
+      "starts_at": "2026-11-16T11:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505957",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
@@ -8171,6 +8213,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "English Class. Voice. Pronunciation Practice",
+      "starts_at": "2026-11-17T02:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505959",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "TONGUE OUT TUESDAY w/ PUTRI SOLO  @ Club Misfit - 2AM",
       "starts_at": "2026-11-17T02:00:00-08:00",
       "venue": "Club Misfit/Riddick Riders",
@@ -9122,6 +9175,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "HOW THINGS WORK @WBH",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "WBH Music Cafe",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505963",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T14:01:12.335758+00:00"
+    },
+    {
       "title": "Inkaku Capalini Live at The Pavilion Tuesday, November 17th Noon slt",
       "starts_at": "2026-11-17T12:00:00-08:00",
       "venue": "The Pavilion at Yasgurs Farm",
@@ -9208,6 +9272,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Troubadour live@ The Shack",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "The Shack",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505966",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Warehouse 21 ★ [darkwave, new wave, alternative, soul, funk, electro, industrial]",
@@ -9416,6 +9491,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
+      "title": "SAMUEL JAMES IS LIVE @ THE SHACK",
+      "starts_at": "2026-11-17T13:00:00-08:00",
+      "venue": "The Shack",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505967",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "STORE ANIMATION HUD DANCE ANIMATION hud k-pop",
@@ -11746,6 +11832,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T16:10:37.476121+00:00"
+    },
+    {
+      "title": "English Class. Voice. Pronunciation Practice",
+      "starts_at": "2026-11-18T07:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505960",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "🥂 THE FINEST CLUB IN TOWN @ [ROUGE] 🥂",
@@ -14929,6 +15026,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "English Class. Voice. Easy English Grammar",
+      "starts_at": "2026-11-19T06:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505955",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "MUDDY'S MUSIC CAFE PRESENTS DJ FOXDALE & LIFE 6 AM SLT",
       "starts_at": "2026-11-19T06:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -15128,6 +15236,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "HOW THINGS WORK @WBH",
+      "starts_at": "2026-11-19T08:00:00-08:00",
+      "venue": "WBH Music Cafe",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505964",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T14:01:12.335758+00:00"
     },
     {
       "title": "THU Where Music Meets the Flame w/🔥DJ Dragon🔥& Mystique @ The Savoy",
@@ -15548,6 +15667,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "BRITT TRAFALGAR sings @ The Shack",
+      "starts_at": "2026-11-19T12:00:00-08:00",
+      "venue": "The Shack",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505968",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ RICK & HOST BELLA LIVE AT SOUTHERN SWING",
       "starts_at": "2026-11-19T12:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -15568,6 +15698,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "English Class. Voice. Pronunciation Practice",
+      "starts_at": "2026-11-19T12:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505961",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Home ride with the Cobras World MC",
@@ -17739,6 +17880,17 @@
       "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
+      "title": "😈 FETISH FRIDAY😈 [DEMONIA CLUB ELITE LOUNGE]",
+      "starts_at": "2026-11-20T00:00:00-08:00",
+      "venue": "+DEMONIA CLUB+ ELITE LOUNGE - NOW HIRING!",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502500",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
+    },
+    {
       "title": "🦌 BTBD Little Dasher bear",
       "starts_at": "2026-11-20T00:00:00-08:00",
       "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
@@ -17864,6 +18016,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "English Class. Voice. Comprehension/Listening",
+      "starts_at": "2026-11-20T03:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505958",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "🍒 NEW TO THE ADULT INDUSTRY? 🍒",
@@ -21209,6 +21372,17 @@
       "venue_photo_checked_at": "2026-11-10T07:20:06.186373+00:00"
     },
     {
+      "title": "Cold Shot Play Readers w/Harpo String @WBH",
+      "starts_at": "2026-11-21T11:00:00-08:00",
+      "venue": "WBH Center For Wellbeing & The Abyss",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8091158",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "Dirty Sin Hookah Lounge",
       "starts_at": "2026-11-21T11:00:00-08:00",
       "venue": "Dirty Sin Hookah Lounge (Distillery Entertainment)",
@@ -21758,6 +21932,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
+      "title": "DJ Hans' Vintage Tunes  @WBH",
+      "starts_at": "2026-11-21T14:00:00-08:00",
+      "venue": "WBH Curei's Floating Gallery",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8084291",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T14:01:12.335758+00:00"
     },
     {
       "title": "DJ JACK HAMMER @ SURRENDER DA BOOTY",
@@ -22395,6 +22580,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "Fantastic Fireworks @WBH Curei's Floating Gallery",
+      "starts_at": "2026-11-21T16:30:00-08:00",
+      "venue": "WBH Fireworks Deck",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8779838",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T14:01:12.335758+00:00"
     },
     {
       "title": "Vampire Madness",
@@ -23663,6 +23859,17 @@
       "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
+      "title": "😈SINFUL SUNDAY 😈 [DEMONIA CLUB ELITE LOUNGE]",
+      "starts_at": "2026-11-22T00:00:00-08:00",
+      "venue": "+DEMONIA CLUB+ ELITE LOUNGE - NOW HIRING!",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502502",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
+    },
+    {
       "title": "🚐 LOOKING FOR A MORE AFFORDABLE LIVING SPACE?",
       "starts_at": "2026-11-22T00:00:00-08:00",
       "venue": "Aurora Town Park - Trailer Home Rentals",
@@ -23684,6 +23891,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "English Class. Voice. Pronunciation Practice",
+      "starts_at": "2026-11-22T01:00:00-08:00",
+      "venue": "Drive-Through ESL (English Language School)",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9505962",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "~~KOGA FIREHAWK Live @ SOUNDWAVE at 1am~~",
