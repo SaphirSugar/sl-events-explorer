@@ -82,6 +82,12 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 }
 
 .event-button{border:1px solid #d8ac68;border-radius:11px;padding:12px 18px;background:#251831;color:#f3d6a0;font-size:13px;font-weight:800}.event-button:hover{background:#40244e}.venue-modal{border:1px solid #b78bd1;border-radius:20px;background:#181123;color:#faf7ff;width:min(760px,calc(100% - 28px));max-height:85vh;padding:0;box-shadow:0 20px 80px #000b}.venue-modal::backdrop{background:#080510d9}.modal-head{position:sticky;top:0;background:#21162e;padding:22px 25px;border-bottom:1px solid #69467d;display:flex;align-items:start;justify-content:space-between;gap:15px;z-index:1}.modal-head h2{font-family:'Outfit',sans-serif;color:#f3d6a0;margin:5px 0;font-size:26px}.modal-head p{margin:0;color:#c4b7d5;font-size:13px}.modal-close{background:#392447;color:white;border:1px solid #79568e;border-radius:10px;padding:8px 13px;font-size:20px}.modal-events{padding:22px 25px;display:grid;gap:14px}.modal-event{background:#271a35;border:1px solid #694b7a;border-radius:14px;padding:18px}.modal-event h3{margin:8px 0;font-size:19px}.modal-event p{color:#c4b7d5;line-height:1.5;font-size:13px}.modal-event time{color:#e7c381;font-weight:700;font-size:13px}.modal-event .actions{margin-top:12px}.modal-event .actions a{font-size:12px}.modal-empty{color:#c4b7d5;line-height:1.6}
+/* Same floating Go to top shortcut as the Events page. */
+#back-to-search{position:fixed;right:22px;bottom:86px;z-index:1000;display:flex;align-items:center;gap:8px;padding:12px 16px;border:1px solid rgba(209,145,255,.5);border-radius:999px;background:#7668de;color:#fff;font:inherit;font-size:14px;font-weight:800;box-shadow:0 8px 25px rgba(0,0,0,.4);cursor:pointer;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(12px);transition:opacity .2s,transform .2s,visibility .2s}
+#back-to-search.is-visible{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
+#back-to-search:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:560px){#back-to-search{right:12px;bottom:78px;padding:11px 13px;font-size:13px}}
+@media(prefers-reduced-motion:reduce){#back-to-search{transition:none}}
 </style>
 </head>
 <body>
@@ -95,6 +101,7 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 </section>
 </main>
 <dialog id="venue-events-modal" class="venue-modal" aria-labelledby="modal-venue-title"><div class="modal-head"><div><h2 id="modal-venue-title">Venue events</h2><p id="modal-event-count"></p></div><button type="button" class="modal-close" id="modal-close" aria-label="Close event list">×</button></div><div id="modal-events" class="modal-events"></div></dialog>
+<button type="button" id="back-to-search" aria-label="Go to top">↑ Go to top</button>
 <a class="add-venue-float" href="./dashboard.html" aria-label="Add your venue">+ Add Your Venue</a>
 <footer><div class="wrap">© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</div></footer>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -252,6 +259,12 @@ venueCategories.addEventListener('click',e=>{
  venueCategories.querySelectorAll('button').forEach(b=>{const active=b.dataset.letter===activeLetter;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});render();
 });
 search.addEventListener('input',render);
+const backToSearch=document.getElementById('back-to-search');
+function updateBackToSearch(){backToSearch.classList.toggle('is-visible',search.getBoundingClientRect().bottom<0)}
+backToSearch.addEventListener('click',()=>search.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'}));
+window.addEventListener('scroll',updateBackToSearch,{passive:true});
+window.addEventListener('resize',updateBackToSearch);
+updateBackToSearch();
 document.getElementById('year').textContent=new Date().getFullYear();
 let publishedVenues=[];
 function refreshLocations(){allVenues=combineLocations(publishedVenues);render()}
