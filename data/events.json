@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-17T11:12:24.020409+00:00",
+  "updated_at": "2026-11-17T11:57:29.751220+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -349,11 +349,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9478190",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/880568dd-b800-6b02-6bc2-3d6e11165f63/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ RAINA @ WATERMELON SUGAR CLUB",
@@ -2044,6 +2043,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T16:48:44.711665+00:00"
+    },
+    {
+      "title": "MONAY AMOR LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2026-11-17T13:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9464303",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Raven Zenoria Live The Pavilion Tuesday, November 17th 1pm slt",
