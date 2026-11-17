@@ -176,7 +176,19 @@ function drawVenue(target,c){
  body.append(kind,name,loc,desc);
  const tp=safeTeleport(c.teleport_url);if(tp){const a=document.createElement('a');a.className='teleport';a.href=tp;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Teleport to location';body.append(a)}
  const eventsButton=document.createElement('button');eventsButton.type='button';eventsButton.className='event-button';eventsButton.textContent='View events';eventsButton.addEventListener('click',()=>showVenueEvents(c));
- const actions=document.createElement('div');actions.className='actions';if(tp){const link=body.querySelector('a.teleport');if(link)actions.append(link)}actions.append(eventsButton);body.append(actions);
+ const actions=document.createElement('div');actions.className='actions';if(tp){const link=body.querySelector('a.teleport');if(link)actions.append(link)}actions.append(eventsButton);
+ // Pass the selected location to the account/dashboard flow. The dashboard must
+ // verify ownership before allowing edits to any existing published venue.
+ const editLink=document.createElement('a');editLink.className='teleport venue-edit-link';
+ const params=new URLSearchParams({venue_name:String(c.name||''),venue_key:eventVenueKey(c.name),intent:photos.length?'edit':'add_photos'});
+ if(c.fromEvents)params.set('source','events');
+ else if(c.localFallback)params.set('source','directory');
+ else if(c.id!=null){params.set('source','published');params.set('venue_id',String(c.id))}
+ if(c.teleport_url)params.set('venue_slurl',String(c.teleport_url));
+ editLink.href='./dashboard.html?'+params.toString();
+ editLink.textContent=photos.length?'Edit Images & Information':'Add Images & Information';
+ editLink.setAttribute('aria-label',editLink.textContent+' for '+String(c.name||'venue'));
+ actions.append(editLink);body.append(actions);
  card.append(body);target.append(card);
 }
 
