@@ -133,7 +133,7 @@ function eventLocationDirectory(events){
   const key=eventVenueKey(name);
   if(!key||key==='unknown'||key==='tba'||key==='online'||key==='second life')continue;
   const teleport=safeTeleport(event.teleport_url);
-  if(!locations.has(key))locations.set(key,{id:'event-'+key,name,category:'Event Location',location:name,description:'Location listed in the Second Life events calendar.',teleport_url:teleport,photos:[],fromEvents:true});
+  if(!locations.has(key))locations.set(key,{id:'event-'+key,name,category:'Event Location',location:name,description:'Location listed in events.',teleport_url:teleport,photos:[],fromEvents:true});
   else if(teleport&&!locations.get(key).teleport_url)locations.get(key).teleport_url=teleport;
  }
  return [...locations.values()].sort((a,b)=>a.name.localeCompare(b.name));
