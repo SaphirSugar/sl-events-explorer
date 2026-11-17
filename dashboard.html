@@ -151,10 +151,10 @@ function removeSelectedPhoto(index){
  photoNames=selectedPhotoFiles.map(f=>f.name);
  syncPhotoInput();renderSelectedPhotos();
 }
-$('clear').addEventListener('click',()=>{$('editor').reset();syncSecondVenueStyle(true);resetPhotos();$('photos').className='placeholder';$('photos').textContent='Your club photos will appear here';$('status').textContent='';editingId=null;existingPhotos=[];$('publish').textContent='Publish automatically';showPhotoList();render();});render();
+$('clear').addEventListener('click',()=>{if(currentOwnedVenue){openOwnedVenue(currentOwnedVenue);$('status').textContent='You can edit only your existing venue.';return;}$('editor').reset();syncSecondVenueStyle(true);resetPhotos();$('photos').className='placeholder';$('photos').textContent='Your club photos will appear here';$('status').textContent='';editingId=null;existingPhotos=[];$('publish').textContent='Publish automatically';showPhotoList();render();});render();
 const configured=!!(window.EVENTIDE_SUPABASE_URL&&window.EVENTIDE_SUPABASE_ANON_KEY&&!window.EVENTIDE_SUPABASE_URL.startsWith('YOUR_'));
 const db=configured&&window.supabase?window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY):null;
-let editingId=null,existingPhotos=[];
+let editingId=null,existingPhotos=[];let currentOwnedVenue=null,currentOwnerHasMultiple=false;
 // Remember the venue across email verification, sign-in and OAuth redirects.
 const LINKED_VENUE_STORAGE='eventide_linked_venue_v1';
 function venueKey(value){return String(value||'').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();}
@@ -175,7 +175,8 @@ const venueLinkRequiresLogin=Boolean(new URLSearchParams(location.search).get('v
 let linkedVenue=readLinkedVenue();
 let venueLoginResetPending=venueLinkRequiresLogin;
 function linkedNotice(message){const el=$('linked-venue-context');el.hidden=!message;el.textContent=message||'';}
-function clearLinkedVenue(){linkedVenue=null;try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}linkedNotice('');}
+function clearLinkedVenuePreserveNotice(){linkedVenue=null;try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}}
+function clearLinkedVenue(){clearLinkedVenuePreserveNotice();linkedNotice('');}
 if(linkedVenue)linkedNotice('Selected location: '+linkedVenue.name+'. Sign in or create an account to continue. Existing published venues can only be edited by their registered owner.');
 function openOwnedVenue(item){
   editingId=item.id;existingPhotos=Array.isArray(item.photos)?item.photos:[];
@@ -189,6 +190,15 @@ function openOwnedVenue(item){
 }
 async function openLinkedVenue(owned){
   if(!linkedVenue)return;
+  if(owned.length){
+    const own=owned.find(item=>linkedVenue.source==='published'&&linkedVenue.id&&String(item.id)===String(linkedVenue.id))||owned.find(item=>venueKey(item.name)===venueKey(linkedVenue.name))||owned[0];
+    if((linkedVenue.source==='published'&&linkedVenue.id&&String(linkedVenue.id)===String(own.id))||venueKey(linkedVenue.name)===venueKey(own.name)){
+      openOwnedVenue(own);linkedNotice('Your venue '+own.name+' is ready to edit.');
+    }else{
+      openOwnedVenue(own);linkedNotice('You can only edit venues already belonging to your account. Opened '+own.name+' instead.');
+    }
+    clearLinkedVenuePreserveNotice();return;
+  }
   const link=linkedVenue;
   const match=owned.find(item=>link.source==='published'&&link.id&&String(item.id)===String(link.id))||owned.find(item=>venueKey(item.name)===link.key);
   if(match){openOwnedVenue(match);linkedNotice('Your existing venue '+match.name+' is open for editing. No new listing is needed.');return;}
@@ -347,7 +357,7 @@ $('signout').onclick=async()=>{
   if(!db)return;
   const {error}=await db.auth.signOut();
   if(error){authMessage(error.message);return;}
-  ++venueListRequest;editingId=null;existingPhotos=[];returningVerifiedMember=false;
+  ++venueListRequest;editingId=null;existingPhotos=[];currentOwnedVenue=null;currentOwnerHasMultiple=false;returningVerifiedMember=false;
   try{sessionStorage.removeItem('eventide_email_verified');}catch(e){}
   setAuthView(null);$('my-clubs').replaceChildren();updateRegistrationVisibility();
   authMessage('Signed out. Create an account or sign in to continue.');
@@ -373,8 +383,15 @@ async function listMine(){
     if(error)throw error;
     holder.replaceChildren();
     const uniqueVenues=[...new Map((data||[]).map(item=>[item.id,item])).values()];
+    currentOwnerHasMultiple=uniqueVenues.length>1;currentOwnedVenue=uniqueVenues.length?uniqueVenues[0]:null;
     const title=document.createElement('h3');title.textContent='My Published Venues';holder.append(title);if(!uniqueVenues.length){const empty=document.createElement('p');empty.className='hint';empty.textContent='You have not published any venues yet.';holder.append(empty);}
+    if(currentOwnedVenue&&!linkedVenue)openOwnedVenue(currentOwnedVenue);
     await openLinkedVenue(uniqueVenues);
+    if(uniqueVenues.length&&!editingId&&!$('venue-workspace').hidden){
+      $('publish').disabled=true;
+      $('status').textContent='You can edit your existing venues but cannot create another venue.';
+    }else if(!$('venue-workspace').hidden){$('publish').disabled=false;}
+
     for(const item of uniqueVenues){
       const b=document.createElement('button');b.type='button';b.className='secondary';b.textContent='Edit';b.style.margin='5px';
        b.onclick=()=>{clearLinkedVenue();openOwnedVenue(item);};
@@ -424,6 +441,12 @@ $('publish').onclick=async()=>{
   let uploadedKeys=[];let saved=false;
   try{
     const me=await user();if(!me?.email_confirmed_at)throw Error('Verify your email and sign in before publishing.');
+    if(editingId){const {data:owned,error:ownershipError}=await db.from('clubs').select('id').eq('id',editingId).eq('owner_id',me.id).maybeSingle();if(ownershipError||!owned)throw Error('You can only edit your own existing venue.');}
+    if(!editingId){
+      const {count,error:limitError}=await db.from('clubs').select('id',{count:'exact',head:true}).eq('owner_id',me.id);
+      if(limitError)throw Error('Could not verify your venue limit: '+limitError.message);
+      if(count>0)throw Error('Each account can publish only one venue. Edit your existing venue instead.');
+    }
     const name=$('club-name').value.trim(),description=$('club-description').value.trim();if(!name||!description)throw Error('Enter a club name and description.');
     const primary=$('club-category-1').value,secondary=$('club-category-2').value;
     if(!VENUE_STYLES.includes(primary))throw Error('Choose a primary venue style.');
