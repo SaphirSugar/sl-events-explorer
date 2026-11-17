@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-17T10:15:15.152493+00:00",
+  "updated_at": "2026-11-17T11:12:24.020409+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -285,6 +285,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503132",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
@@ -296,6 +298,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-17T06:09:32.892046+00:00"
     },
     {
@@ -307,6 +311,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503250",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -318,6 +324,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506368",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/36ebbdad-b404-591a-844b-2437040b5997/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-13T21:56:23.509646+00:00"
     },
     {
@@ -329,6 +337,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506822",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/b9a9f722-d74b-adb2-d638-ac4d5b81d97c/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
@@ -341,7 +351,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/880568dd-b800-6b02-6bc2-3d6e11165f63/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "DJ RAINA @ WATERMELON SUGAR CLUB",
@@ -352,7 +364,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503359",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Danacat @ Phantoms Lounge 4-6SLT Dark Techno, Psy, Dark Vibes",
@@ -363,7 +377,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506689",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-17T01:20:10.682673+00:00"
+      "venue_photo_checked_at": "2026-11-17T01:20:10.682673+00:00",
+      "image_url": "https://picture-service.secondlife.com/84135667-4741-a5e1-d69c-9d1a190173e1/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Dj Sweet @ The Bricks",
@@ -374,7 +390,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505047",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00",
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Muddy's Music Cafe, Live DJ Otter with host Wills",
@@ -386,7 +404,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "TONGUE-OUT TUESDAY w/ SHEYZ @ Club Misfit - 4AM",
@@ -397,7 +417,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503134",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00",
+      "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Tuesday Mornings at  !~ Club Caramel ~!",
@@ -409,7 +431,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
+      "image_url": "https://picture-service.secondlife.com/af5c59f1-f2c7-daa8-e163-6a39893f4985/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Weekly Morning Devotion",
@@ -421,7 +445,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/86f31877-92d7-c7c5-25a4-df2dee5593bb/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "🪭 House of Silk @ O K I Y A🪭",
@@ -432,7 +458,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506823",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
+      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00",
+      "image_url": "https://picture-service.secondlife.com/b9a9f722-d74b-adb2-d638-ac4d5b81d97c/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Love Quickies?",
@@ -1886,6 +1914,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "AT JAKES - DH NEPHI - NEPHI-TUNES!",
+      "starts_at": "2026-11-17T13:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506889",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
+    },
+    {
       "title": "Anderson live at The Hidden Melody",
       "starts_at": "2026-11-17T13:00:00-08:00",
       "venue": "The Hidden Melody",
@@ -1917,6 +1956,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T15:14:26.880357+00:00"
+    },
+    {
+      "title": "GARDO SKY LIVE CONCERT @ STREGATTI PRESTIGE CLUB",
+      "starts_at": "2026-11-17T13:00:00-08:00",
+      "venue": "Stregatti Prestige Club",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506887",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T11:14:53.134221+00:00"
     },
     {
       "title": "GRAN HOTEL PRESENTS - LIVE SINGER JESS RABBIT",
@@ -15946,6 +15996,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Thorw back 80s & 90s @ Jake's Place on Poppy Street",
+      "starts_at": "2026-11-21T09:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506888",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
     },
     {
       "title": "💘 SECRET LIAISONS @ [ROUGE] 💘",
