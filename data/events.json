@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-17T11:57:29.751220+00:00",
+  "updated_at": "2026-11-17T13:15:29.931730+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -363,9 +363,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503359",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "Danacat @ Phantoms Lounge 4-6SLT Dark Techno, Psy, Dark Vibes",
@@ -376,9 +376,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506689",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-17T01:20:10.682673+00:00",
       "image_url": "https://picture-service.secondlife.com/84135667-4741-a5e1-d69c-9d1a190173e1/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-17T01:20:10.682673+00:00"
     },
     {
       "title": "Dj Sweet @ The Bricks",
@@ -389,9 +389,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505047",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00",
       "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
     },
     {
       "title": "Muddy's Music Cafe, Live DJ Otter with host Wills",
@@ -401,11 +401,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9462898",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "TONGUE-OUT TUESDAY w/ SHEYZ @ Club Misfit - 4AM",
@@ -416,9 +415,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503134",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00",
       "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
       "title": "Tuesday Mornings at  !~ Club Caramel ~!",
@@ -428,11 +427,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9480979",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00",
       "image_url": "https://picture-service.secondlife.com/af5c59f1-f2c7-daa8-e163-6a39893f4985/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Weekly Morning Devotion",
@@ -442,11 +440,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494742",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f31877-92d7-c7c5-25a4-df2dee5593bb/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🪭 House of Silk @ O K I Y A🪭",
@@ -457,9 +454,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506823",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00",
       "image_url": "https://picture-service.secondlife.com/b9a9f722-d74b-adb2-d638-ac4d5b81d97c/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
       "title": "Love Quickies?",
@@ -791,6 +788,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Tuesday 17th November line up @ Serimner",
+      "starts_at": "2026-11-17T08:00:00-08:00",
+      "venue": ".:Serimner:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506894",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T13:17:52.438759+00:00"
+    },
+    {
       "title": "☕🎶 TUESDAY MORNING AT LOVE & HARMONY JAZZ WITH DJ MIKE 8AM🎶☕",
       "starts_at": "2026-11-17T08:00:00-08:00",
       "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
@@ -999,6 +1007,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ JOHN  AND HOST IMMOGEN    10AMSLT",
+      "starts_at": "2026-11-17T10:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506925",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T13:17:52.438759+00:00"
     },
     {
       "title": "DJ LEYA AND HOST SOY  AT WET SPOT BEACH CLUB!",
@@ -1507,6 +1526,17 @@
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
+      "title": "DJ ELLE AND HOST ARI                  12PMSLT",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506926",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T13:17:52.438759+00:00"
+    },
+    {
       "title": "DJ Fu",
       "starts_at": "2026-11-17T12:00:00-08:00",
       "venue": "The Midnight Cabaret",
@@ -1946,6 +1976,17 @@
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
+      "title": "DJ JOE @ SUNRAYZ BEACH CLUB ~ BIG BAND & SWING",
+      "starts_at": "2026-11-17T13:00:00-08:00",
+      "venue": "SunRayz Coast Berach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506924",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T11:32:51.554574+00:00"
+    },
+    {
       "title": "Drifters Blues Band 111728 1-2PM SLT",
       "starts_at": "2026-11-17T13:00:00-08:00",
       "venue": "Drifters Blues",
@@ -2252,6 +2293,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-17T02:28:00.166953+00:00"
+    },
+    {
+      "title": "DJ CHLOE AND HOST THYRNA       2PMSLT",
+      "starts_at": "2026-11-17T14:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506927",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T13:17:52.438759+00:00"
     },
     {
       "title": "DJ Drael and Host Moka @ Cabo Swingers Resort",
@@ -3167,6 +3219,17 @@
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-11-17T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506899",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Amberle @ Purr-cade - 5PM-6PM SLT",
       "starts_at": "2026-11-17T17:00:00-08:00",
       "venue": "Michelle's Purrcade",
@@ -3693,6 +3756,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T01:25:16.478819+00:00"
+    },
+    {
+      "title": "SASSY NITELY LIVE AT AFTER DARK TUESDAY AT 6PM!",
+      "starts_at": "2026-11-17T18:00:00-08:00",
+      "venue": "After Dark",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9480865",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "SAVAGE RHYTHM~THE ONE... THE ONLY ..DJ CHILLI! THE BAD BOY OF ROCK IS TAKING OVER YOUR TUESDAY!",
@@ -4309,6 +4383,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T15:14:26.880357+00:00"
+    },
+    {
+      "title": "AMBERLE LIVE AT AFTER DARK TUESDAY AT 8PM!",
+      "starts_at": "2026-11-17T20:00:00-08:00",
+      "venue": "After Dark",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9447585",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "ARRA @ Purr-cade - 8PM-9PM SLT",
@@ -5869,13 +5954,13 @@
     {
       "title": "🍸 THE VELVET HOUSE: HAPPY HOUR 🍸",
       "starts_at": "2026-11-18T11:00:00-08:00",
-      "venue": "Sinners Truck Stop Zindra (A): GTFO Hub // Night Club VH Zindra",
+      "venue": "Sinners Truck Stop & Space Station - GTFO Hub // Velvet House",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500563",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+      "venue_photo_checked_at": "2026-11-17T13:17:52.438759+00:00"
     },
     {
       "title": "💭 11AM - MUNCH - DD/MD & BB/BG @ ALKALINE - Ana 💭",
@@ -10856,6 +10941,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-11-19T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506912",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "AMBERLE LIVE! @ Cobalt Island's The Azuralis",
@@ -25327,6 +25423,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-11-24T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506900",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2026-11-24T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -26714,13 +26821,13 @@
     {
       "title": "🍸 THE VELVET HOUSE: HAPPY HOUR 🍸",
       "starts_at": "2026-11-25T11:00:00-08:00",
-      "venue": "Sinners Truck Stop Zindra (A): GTFO Hub // Night Club VH Zindra",
+      "venue": "Sinners Truck Stop & Space Station - GTFO Hub // Velvet House",
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500564",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+      "venue_photo_checked_at": "2026-11-17T13:17:52.438759+00:00"
     },
     {
       "title": "A Space Between a Discussion on Metaphysics",
@@ -29523,6 +29630,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-11-26T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506913",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Cabo Swinger's Resort Orientation",
@@ -38974,6 +39092,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-12-01T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506901",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2026-12-01T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -41696,6 +41825,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-12-03T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506914",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "AMBERLE LIVE! @ Cobalt Island's The Azuralis",
@@ -48386,6 +48526,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-12-08T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506902",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2026-12-08T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -48681,6 +48832,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "RED HEAVEN LIVE AT AFTER DARK TUESDAY AT 7PM!",
+      "starts_at": "2026-12-08T19:00:00-08:00",
+      "venue": "After Dark",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9465092",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Sanctuary of the Butterfly:  Top Talk/Chrysalis Society",
@@ -50514,6 +50676,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-12-10T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506915",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Cabo Swinger's Resort Orientation",
@@ -55564,6 +55737,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-12-15T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506903",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2026-12-15T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -57319,6 +57503,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-12-17T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506916",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "AMBERLE LIVE! @ Cobalt Island's The Azuralis",
@@ -61510,6 +61705,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-12-22T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506904",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2026-12-22T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -62812,6 +63018,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495408",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-12-24T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506917",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
@@ -65921,6 +66138,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2026-12-29T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506905",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2026-12-29T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -66764,6 +66992,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495409",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2026-12-31T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506918",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -69654,6 +69893,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2027-01-05T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506906",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Gin's Tuesday Fun Night @ Canadian Club Lodge!",
       "starts_at": "2027-01-05T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -70350,6 +70600,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495410",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2027-01-07T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506919",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -72751,6 +73012,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2027-01-12T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506907",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DOUBLE Trouble Tuesday! DJ Beary & Zaya",
       "starts_at": "2027-01-12T18:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -73343,6 +73615,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495411",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2027-01-14T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506920",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -75310,6 +75593,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2027-01-19T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506908",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Friar Fox @ The Velvet Grope",
       "starts_at": "2027-01-19T17:00:00-08:00",
       "venue": "The Velvet Grope",
@@ -75773,6 +76067,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495412",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2027-01-21T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506921",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -77308,6 +77613,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2027-01-26T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506909",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "LIVE MUSIC",
       "starts_at": "2027-01-26T17:00:00-08:00",
       "venue": "PITCH SLAPPED",
@@ -77666,6 +77982,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2027-01-28T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506922",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "MATCH GAME (The TV game show____SL version)",
@@ -78808,6 +79135,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "A Space Between Movie Nights",
+      "starts_at": "2027-02-02T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506910",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Goth Event @ Club Carnage",
       "starts_at": "2027-02-02T18:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -79008,6 +79346,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "A Space Between Hangout Game Night",
+      "starts_at": "2027-02-04T17:00:00-08:00",
+      "venue": "A Space Between Hangout and RP",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506923",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "Cerulean Radio : Hex & Haze with Stacia 6pmSLT",
