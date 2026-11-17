@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-17T09:09:36.598223+00:00",
+  "updated_at": "2026-11-17T10:15:15.152493+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -194,9 +194,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503249",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "Cecelia Live at Bricks",
@@ -207,32 +207,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505025",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00",
       "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "David and Princy Show",
-      "starts_at": "2026-11-17T02:00:00-08:00",
-      "venue": "The Bricks at Phat Cats",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9505025",
-      "teleport_url": null,
-      "official_category": true,
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-12T04:02:36.924799+00:00"
-    },
-    {
-      "title": "Dj Amfie on the decks @Muddys with Host Slayer 2AM-4AM",
-      "starts_at": "2026-11-17T02:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9485350",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "English Class. Voice. Pronunciation Practice",
@@ -243,9 +220,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505959",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00",
       "image_url": "https://picture-service.secondlife.com/c1af9828-b4e2-d741-95cf-8bb240506dac/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "TONGUE OUT TUESDAY w/ PUTRI SOLO  @ Club Misfit - 2AM",
@@ -256,9 +233,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503130",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00",
       "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
     },
     {
       "title": "🤠🌙 TUESDAY COUNTRY PARTY at WATERMELON SUGAR! 🍉",
@@ -268,11 +245,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500433",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "🪭Under the Red Moon @ O K I Y A🪭",
@@ -283,9 +259,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506821",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00",
       "image_url": "https://picture-service.secondlife.com/b9a9f722-d74b-adb2-d638-ac4d5b81d97c/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
       "title": "And a other Great Party Prestige Lounge",
@@ -1361,6 +1337,17 @@
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
+      "title": "DJ ZOLA & KI 🎶🌍 THE FEMALE VOICES OF AFRICA 🌍🎶 for Feed a Smile",
+      "starts_at": "2026-11-17T11:30:00-08:00",
+      "venue": "Lavender Field - Feed A Smile",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506883",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T10:17:28.142924+00:00"
+    },
+    {
       "title": "~ Folk & Contra dancing with live calling by Hooten Haller ~",
       "starts_at": "2026-11-17T11:30:00-08:00",
       "venue": "Folkdance",
@@ -1494,6 +1481,17 @@
     },
     {
       "title": "DJ Fu",
+      "starts_at": "2026-11-17T12:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9496858",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Fu Relax Baby @ the Midnight Cabaret",
       "starts_at": "2026-11-17T12:00:00-08:00",
       "venue": "The Midnight Cabaret",
       "category": "Live DJ",
@@ -6115,6 +6113,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "MARIBOL INSHAN LIVE AT The Lavender Field for Feed a Smile",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "Lavender Field - Feed A Smile",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506886",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T10:17:28.142924+00:00"
     },
     {
       "title": "Midweek Mayhem w/ DJ Orion & Rose at Skinny Dip Inn Nude Beach ~SDI~",
@@ -22146,6 +22155,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Moaning Monday \"A Rear & Pleasant Danger\" DJ Cat @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-23T10:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506879",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "VAMPINK \"MEOW\" LIVE AT CAFE MUSIQUE",
       "starts_at": "2026-11-23T10:00:00-08:00",
       "venue": "Cafe Musique",
@@ -22443,6 +22463,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Lunch Munch Discussion \"Stealth BDSM\" Host Vanni @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-23T12:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Discussion",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506880",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "MON Where Music Meets the Flame w/🔥DJ Dragon🔥& Mystique @ The Savoy",
       "starts_at": "2026-11-23T12:00:00-08:00",
       "venue": "SAVOY BALLROOM - 596 Lenox Ave in Swing Town, Creations Park",
@@ -22639,6 +22670,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Subwoofer Submission \"Pleasure & Pain\" DJ Jennifer @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-23T13:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506881",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "⌇🕺💃⌇  𝓢𝓔𝓧𝓨 𝓐𝓟𝓟𝓔𝓐𝓛 @ [𝓡𝓞𝓤𝓖𝓔] ⌇🕺💃⌇",
@@ -22892,6 +22934,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Lingerie or Less \"Canes, Crops & Chaos\" DJ Sin @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-23T15:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506882",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "MON Smooth Variety by🎤Aint🎤& Joyce @ The Savoy",
@@ -23153,6 +23206,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491002",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Monday Mashup \"Stuff My Snood\" DJ Futara @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-23T17:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506884",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
@@ -24473,6 +24537,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Purely Twisted Tuesday \"Spicy & Tender\" DJ Jennifer @ The Twisted Orchid Fetish & BDSM Club",
+      "starts_at": "2026-11-24T11:00:00-08:00",
+      "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506885",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "TUE🎤👄Lisbitt💕The Andalusian & Marie @ The Savoy",
