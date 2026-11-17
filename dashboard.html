@@ -203,7 +203,7 @@ async function openLinkedVenue(owned){
   }
   $('clear').click();$('club-name').value=link.name;$('club-teleport').value=link.teleport;
   render();$('status').textContent='Complete the missing information and upload photos for '+link.name+'.';
-  linkedNotice('Location found in the public events directory: '+link.name+'. Its name and teleport have been filled in. This location is not yet a registered Dashboard listing. Publishing will create one listing associated with your account. Ownership verification is not currently available.');
+  linkedNotice('Location found in the public events directory: '+link.name+'. Its name and teleport have been filled in. This location is not yet a registered Dashboard listing. Publishing will create one listing associated with your account.');
   $('editor').scrollIntoView({behavior:'smooth',block:'start'});
 }
 
