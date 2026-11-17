@@ -121,7 +121,8 @@ for(const letter of ['All',...'ABCDEFGHIJKLMNOPQRSTUVWXYZ','#']){
  button.dataset.letter=letter;button.setAttribute('aria-pressed',String(letter===activeLetter));
  button.classList.toggle('active',letter===activeLetter);venueCategories.append(button);
 }
-const venueNameInitial=name=>String(name||'').trim().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').charAt(0).toUpperCase();
+const venueNameAlphabetic=name=>String(name||'').trim().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/^[^\p{L}\p{N}]+/gu,'');
+const venueNameInitial=name=>venueNameAlphabetic(name).charAt(0).toUpperCase();
 const venueNameSort=new Intl.Collator('en',{sensitivity:'base',numeric:true});
 function eventVenueKey(value){return String(value||'').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim()}
 function eventLocationDirectory(events){
@@ -239,7 +240,7 @@ function render(){
   const initial=venueNameInitial(c.name);
   const letterMatches=activeLetter==='All'||(activeLetter==='#'?!/^[A-Z]$/.test(initial):initial===activeLetter);
   return letterMatches&&[c.name,c.category,c.location,c.description].join(' ').toLowerCase().includes(query);
- }).sort((a,b)=>venueNameSort.compare(String(a.name||''),String(b.name||'')));
+ }).sort((a,b)=>venueNameSort.compare(venueNameAlphabetic(a.name),venueNameAlphabetic(b.name)));
  communityGrid.replaceChildren();
  matches.forEach(c=>drawVenue(communityGrid,c));
  communityStatus.textContent=matches.length+' location'+(matches.length===1?'':'s');
