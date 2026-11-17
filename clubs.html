@@ -124,6 +124,7 @@ for(const letter of ['All',...'ABCDEFGHIJKLMNOPQRSTUVWXYZ','#']){
 const venueNameAlphabetic=name=>String(name||'').trim().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/^[^\p{L}\p{N}]+/gu,'');
 const venueNameInitial=name=>venueNameAlphabetic(name).charAt(0).toUpperCase();
 const venueNameSort=new Intl.Collator('en',{sensitivity:'base',numeric:true});
+const compareVenueNames=(a,b)=>venueNameSort.compare(venueNameAlphabetic(a.name),venueNameAlphabetic(b.name))||venueNameSort.compare(a.name,b.name);
 function eventVenueKey(value){return String(value||'').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim()}
 function eventLocationDirectory(events){
  const locations=new Map();
@@ -142,7 +143,7 @@ function combineLocations(published){
  const originals=FALLBACK_LOCATIONS.filter(c=>!names.has(eventVenueKey(c.name)));
  for(const c of originals)names.add(eventVenueKey(c.name));
  const imported=eventLocations.filter(c=>!names.has(eventVenueKey(c.name)));
- return [...published,...originals,...imported];
+ return [...published,...originals,...imported].sort(compareVenueNames);
 }
 function allowedPhotos(value){
  let origin='';try{origin=new URL(window.EVENTIDE_SUPABASE_URL).origin}catch{}
@@ -171,7 +172,7 @@ function drawVenue(target,c){
  const body=document.createElement('div');body.className='body';
  const kind=document.createElement('div');kind.className='type';kind.textContent=c.category||'Venue';
  const name=document.createElement('h2');name.textContent=c.name||'Untitled venue';
- const loc=document.createElement('p');loc.className='location';loc.textContent=c.location||'';
+ const loc=document.createElement('p');loc.className='location';const locationText=String(c.location||'').trim();loc.textContent=eventVenueKey(locationText)===eventVenueKey(c.name)?'':locationText;
  const desc=document.createElement('p');desc.textContent=c.description||'';
  body.append(kind,name,loc,desc);
  const tp=safeTeleport(c.teleport_url);if(tp){const a=document.createElement('a');a.className='teleport';a.href=tp;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Teleport to location';body.append(a)}
@@ -239,7 +240,7 @@ function render(){
   const initial=venueNameInitial(c.name);
   const letterMatches=activeLetter==='All'||(activeLetter==='#'?!/^[A-Z]$/.test(initial):initial===activeLetter);
   return letterMatches&&[c.name,c.category,c.location,c.description].join(' ').toLowerCase().includes(query);
- }).sort((a,b)=>venueNameSort.compare(venueNameAlphabetic(a.name),venueNameAlphabetic(b.name)));
+ }).sort(compareVenueNames);
  communityGrid.replaceChildren();
  matches.forEach(c=>drawVenue(communityGrid,c));
  communityStatus.textContent=matches.length+' location'+(matches.length===1?'':'s');
