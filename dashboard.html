@@ -170,7 +170,10 @@ function readLinkedVenue(){
   }
   try{const link=JSON.parse(sessionStorage.getItem(LINKED_VENUE_STORAGE)||'null');return link&&link.name&&['events','directory','published'].includes(link.source)?link:null;}catch(e){return null;}
 }
+// A fresh link from a venue card requires a new sign-in, even if another account is active.
+const venueLinkRequiresLogin=Boolean(new URLSearchParams(location.search).get('venue_name'));
 let linkedVenue=readLinkedVenue();
+let venueLoginResetPending=venueLinkRequiresLogin;
 function linkedNotice(message){const el=$('linked-venue-context');el.hidden=!message;el.textContent=message||'';}
 function clearLinkedVenue(){linkedVenue=null;try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}linkedNotice('');}
 if(linkedVenue)linkedNotice('Selected location: '+linkedVenue.name+'. Sign in or create an account to continue. Existing published venues can only be edited by their registered owner.');
@@ -191,14 +194,16 @@ async function openLinkedVenue(owned){
   if(match){openOwnedVenue(match);linkedNotice('Your existing venue '+match.name+' is open for editing. No new listing is needed.');return;}
   // A public listing is not an authorization to edit another member's data.
   if(link.source==='published'){
+    $('venue-workspace').hidden=true;
     linkedNotice('The published venue '+link.name+' is not associated with this account. Editing is restricted to its registered owner. Contact Eventide SL support if you own this location.');
     return;
   }
   // An event-feed location is only a directory entry, not an existing Supabase club.
   // Check for a published match first so an unrelated account cannot overwrite it.
   const {data,error}=await db.from('clubs').select('id,name,owner_id').ilike('name',link.name).limit(20);
-  if(error){linkedNotice('Could not check whether this location already has a registered owner. Please try again.');return;}
+  if(error){$('venue-workspace').hidden=true;linkedNotice('Could not check whether this location already has a registered owner. Please try again.');return;}
   if((data||[]).some(item=>venueKey(item.name)===link.key)){
+    $('venue-workspace').hidden=true;
     linkedNotice('The venue '+link.name+' is already published under another account. You cannot edit or create a duplicate through this link. Contact Eventide SL support to request ownership verification.');return;
   }
   $('clear').click();$('club-name').value=link.name;$('club-teleport').value=link.teleport;
@@ -350,7 +355,7 @@ $('signout').onclick=async()=>{
 let venueListRequest=0;
 async function listMine(){
   const requestId=++venueListRequest;
-  if(!db)return;
+  if(!db||venueLoginResetPending)return;
   const holder=$('my-clubs');holder.replaceChildren();
   try{
     const me=await user();
@@ -452,8 +457,17 @@ $('publish').onclick=async()=>{
 if(db){
   db.auth.onAuthStateChange((event,session)=>{
     if(event==='SIGNED_OUT'){++venueListRequest;returningVerifiedMember=false;try{sessionStorage.removeItem('eventide_email_verified');}catch(e){}setAuthView(null);updateRegistrationVisibility();$('my-clubs').replaceChildren();}
-    if(event==='SIGNED_IN'&&session?.user){setTimeout(()=>listMine(),0);}
+    if(event==='SIGNED_IN'&&session?.user&&!venueLoginResetPending){setTimeout(()=>listMine(),0);}
   });
-  listMine();
+  if(venueLinkRequiresLogin){
+    $('venue-workspace').hidden=true;
+    $('auth-fields').hidden=false;
+    $('signed-in-bar').hidden=true;
+    db.auth.signOut({scope:'local'}).then(({error})=>{
+      venueLoginResetPending=false;
+      setAuthView(null);
+      authMessage(error?'Please sign out and sign in with the venue owner account.':'Sign in with the account that owns '+linkedVenue.name+' to continue.',error?'error':'');
+    }).catch(()=>{venueLoginResetPending=false;setAuthView(null);authMessage('Please sign in with the venue owner account.','error');});
+  }else listMine();
 }
 </script></body></html>
