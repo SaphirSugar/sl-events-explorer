@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-17T20:12:22.857529+00:00",
+  "updated_at": "2026-11-17T20:59:36.712961+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1438,28 +1438,6 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
-      "title": "Cyberia Karaoke",
-      "starts_at": "2026-11-17T12:00:00-08:00",
-      "venue": "Cyberia Karaoke",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
-    },
-    {
-      "title": "Cyberia Openstage",
-      "starts_at": "2026-11-17T12:00:00-08:00",
-      "venue": "Cyberia Openstage",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
-    },
-    {
       "title": "DJ ALAM @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-17T12:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -1996,17 +1974,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
-    },
-    {
-      "title": "MARIBOL INSHAN LIVE AT ROMANTICA PARK, ROMANTICA",
-      "starts_at": "2026-11-17T13:00:00-08:00",
-      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9464302",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "MAVENN LIVE 1 PM @ DILLIAN'S AMUSEMENT PARK VENUE",
@@ -3010,6 +2977,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "SOUTH (SOUTHCITY GENESIS) TODAY @ 4 SLT TIKI GROVE RESORT",
+      "starts_at": "2026-11-17T16:00:00-08:00",
+      "venue": "TIKI GROVE RESORT",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507070",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T21:02:05.938079+00:00"
+    },
+    {
       "title": "THE AMAZING DJ AKI IS ROCKING FORBIDDEN UNDERGROUND!!!!",
       "starts_at": "2026-11-17T16:00:00-08:00",
       "venue": "Forbidden Underground",
@@ -3382,6 +3360,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Wayne Rhodell (wvhillbilly44 Resident) 5pm SLT @ TIKI GROVE RESORT",
+      "starts_at": "2026-11-17T17:00:00-08:00",
+      "venue": "TIKI GROVE RESORT",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507071",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T21:02:05.938079+00:00"
     },
     {
       "title": "Wes West At Pirette's Music Cove (PMC)",
@@ -5996,6 +5985,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "Kinky Wednesday at Surrender Cove with DJ Cool",
+      "starts_at": "2026-11-18T11:00:00-08:00",
+      "venue": "Surrender Cove",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507068",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T21:02:05.938079+00:00"
+    },
+    {
       "title": "Lluis Indigo, 11AM @ Surfside Hideaway",
       "starts_at": "2026-11-18T11:00:00-08:00",
       "venue": "Surfside Hideaway",
@@ -6170,6 +6170,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "Cyberia Karaoke",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "Cyberia Karaoke",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
+    },
+    {
+      "title": "Cyberia Openstage",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "Cyberia Openstage",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
     },
     {
       "title": "DJ ADAM HERE AT EYE CANDY WEDNESDAY 12PM-2PM",
@@ -6753,6 +6775,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "Kinky Wednesday at Surrender Cove with DJ Shirley",
+      "starts_at": "2026-11-18T13:00:00-08:00",
+      "venue": "Surrender Cove",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507069",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T21:02:05.938079+00:00"
     },
     {
       "title": "LIVE Singer: TAY at (Starlust) Sinners",
@@ -10282,6 +10315,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
+    },
+    {
+      "title": "RUSSELL EPONYM SINGS LIVE",
+      "starts_at": "2026-11-19T13:00:00-08:00",
+      "venue": "RAINBOW WARRIORS>>",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507073",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T21:02:05.938079+00:00"
     },
     {
       "title": "TAY Performs LIVE 1PM  @ Nevermore! - Live Music! Live Singer!",
