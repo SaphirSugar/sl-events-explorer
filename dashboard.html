@@ -326,7 +326,7 @@ async function account(action){
       setAuthView(null);
       $('step-register').classList.remove('active');
       $('step-verify').classList.add('active');
-      authMessage('Check your email and click the validation link to confirm your account. After verification, return to Eventide SL and sign in using your email and password. Then you can add your location.','success');
+      authMessage('If this email is new, check your inbox for a confirmation link. If you already have an Eventide SL account, select Sign in or use Forgot password? to recover access. For security, we cannot confirm whether an email is already registered here.');
     }else{
       awaitingEmailConfirmation=false;
       returningVerifiedMember=true;
