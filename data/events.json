@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-18T23:03:55.353546+00:00",
+  "updated_at": "2026-11-18T23:57:13.246403+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1361,17 +1361,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "Wednesday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
-      "starts_at": "2026-11-18T11:00:00-08:00",
-      "venue": "Virtual Hotel Chelsea NYC - Coffee House",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9128218",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
-    },
-    {
       "title": "🍸 THE VELVET HOUSE: HAPPY HOUR 🍸",
       "starts_at": "2026-11-18T11:00:00-08:00",
       "venue": "Sinners Truck Stop & Space Station - GTFO Hub // Velvet House",
@@ -1546,17 +1535,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "DJ Ginnie's 70's & 80's Set @ Hotel Chelsea Plaza Galleries",
-      "starts_at": "2026-11-18T12:00:00-08:00",
-      "venue": "Virtual Hotel Chelsea NYC - Plaza Galleries",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9151297",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DJ LEO &  kIMI 12PMSLT",
@@ -2582,6 +2560,17 @@
       "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
+      "title": "Dj Snakey & Host Gloria 2PM SLT",
+      "starts_at": "2026-11-18T14:00:00-08:00",
+      "venue": "Diamonds & Desires Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507183",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-17T23:58:24.089566+00:00"
+    },
+    {
       "title": "GAZ DEMURE SINGS \"LIVE\" AT THE OCTAGON",
       "starts_at": "2026-11-18T14:00:00-08:00",
       "venue": "The Octagon at SPB",
@@ -2657,6 +2646,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-17T23:02:04.538642+00:00"
+    },
+    {
+      "title": "PARTY YOUR AFTERNOON AWAY AT WET SPOT!",
+      "starts_at": "2026-11-18T14:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507211",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "THE WIDEST RANGE OF FASHION STYLES IN SECOND LIFE!",
@@ -3724,6 +3724,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "DJ KHAOS RezDay Party! at White Rabbit Dance Club tonight !",
+      "starts_at": "2026-11-18T18:00:00-08:00",
+      "venue": "Silver Hawk Army",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507642",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T23:59:50.289954+00:00"
     },
     {
       "title": "DJ Malone at Indulge Beach",
@@ -7606,6 +7617,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Caron: Jazzy Grooves @ Tessa's",
+      "starts_at": "2026-11-19T15:00:00-08:00",
+      "venue": "Tessa's",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507638",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T23:59:50.289954+00:00"
+    },
+    {
       "title": "Dublin, Airedine Poe Live 3pm!",
       "starts_at": "2026-11-19T15:00:00-08:00",
       "venue": "The Blarney Stone - Irish Pub",
@@ -10884,6 +10906,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Tessa: It's all about the Bass @ Tessa's",
+      "starts_at": "2026-11-20T13:00:00-08:00",
+      "venue": "Tessa's",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507639",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T23:59:50.289954+00:00"
+    },
+    {
       "title": "Dark Desires \"Chastity Steel & Metal Workers\" DJ Mishy @ The Twisted Orchid Fetish & BDSM Club",
       "starts_at": "2026-11-20T13:00:00-08:00",
       "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
@@ -11014,6 +11047,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Sounds of the 70s with DJ Caliente",
+      "starts_at": "2026-11-20T13:00:00-08:00",
+      "venue": "Lighthouse Cove",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507641",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "The Quantum Mechanics Live @ Mystery",
@@ -11401,6 +11445,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Strider: Swingin' Stuff! @ Tessa's",
+      "starts_at": "2026-11-20T15:00:00-08:00",
+      "venue": "Tessa's",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507640",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T23:59:50.289954+00:00"
+    },
+    {
       "title": "Dublin, Gandalf!   Live at 3 pm!",
       "starts_at": "2026-11-20T15:00:00-08:00",
       "venue": "The Blarney Stone - Irish Pub",
@@ -11619,6 +11674,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Eric Steffensen Live @ Hotel Chelsea",
+      "starts_at": "2026-11-20T16:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - El Quijote",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9404440",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "FRI🕺Music that Pleases the Ears💃by DJ Tonikas ️& ????? @ The Savoy",
@@ -13904,6 +13970,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "AmbYonS ProDÅ½ecT UnderGrounD | HARD TECHNO NIGHT",
+      "starts_at": "2026-11-21T11:00:00-08:00",
+      "venue": "AmbYonS ProDZecT  Hangout",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507645",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T23:59:50.289954+00:00"
     },
     {
       "title": "Cheeky Monkey Hunt at DINKIEWEAR... New theme each month!",
@@ -18534,6 +18611,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "WWII Dance at the Trocadero Club in 1940s London",
+      "starts_at": "2026-11-22T15:00:00-08:00",
+      "venue": "The Trocadero Club in 1940s London",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507644",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T23:59:50.289954+00:00"
     },
     {
       "title": "🎸 Live at {Inspiration}: Helena Navarita! 🎶",
@@ -25339,6 +25427,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Wednesday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
+      "starts_at": "2026-11-25T11:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - Coffee House",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9128218",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "🍸 THE VELVET HOUSE: HAPPY HOUR 🍸",
@@ -34284,6 +34383,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "THE DIVAS presents a Concert Tribute to \"Tina Turner\" at Spurt Arena",
+      "starts_at": "2026-11-28T20:00:00-08:00",
+      "venue": "Spurt LGBTQIA, Gay Beach. Gay Club,Residential, Shopping",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8558748",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T13:13:46.492749+00:00"
+    },
+    {
+      "title": "THE DIVAS presents a Tribute Concert to \"Tina Turner\" at Spurt Arena",
+      "starts_at": "2026-11-28T20:00:00-08:00",
+      "venue": "Spurt LGBTQIA, Gay Beach. Gay Club,Residential, Shopping",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8558758",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-06T13:13:46.492749+00:00"
     },
     {
       "title": "WAP Saturday Night Karaoke and Trivia!",
@@ -57176,6 +57297,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Ginnie's 70's & 80's Set @ Hotel Chelsea Plaza Galleries",
+      "starts_at": "2026-12-16T12:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - Plaza Galleries",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9151297",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "ELEVATE YOUR SENSES at THE CAGE CLUB",
