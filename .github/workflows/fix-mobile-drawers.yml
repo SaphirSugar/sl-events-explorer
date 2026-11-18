@@ -1,0 +1,42 @@
+name: Fix mobile sponsor drawer position
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fix-mobile-drawers.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Position drawers below mobile navigation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("index.html")
+          s=p.read_text(encoding="utf-8")
+          replacements=[
+            (".sponsor-rail{position:fixed!important;top:92px!important;bottom:14px!important;", ".sponsor-rail{position:fixed!important;top:var(--eventide-drawer-top,180px)!important;bottom:14px!important;"),
+            (".sponsor-rail{top:65px!important;bottom:8px!important;", ".sponsor-rail{top:var(--eventide-drawer-top,180px)!important;bottom:8px!important;"),
+            ("overscroll-behavior:contain;z-index:110!important;", "overscroll-behavior:contain;z-index:2200!important;"),
+            (".ad-drawer-backdrop.is-visible{display:block;position:fixed;inset:0;background:#0008;z-index:105}", ".ad-drawer-backdrop.is-visible{display:block;position:fixed;inset:0;background:#0008;z-index:2100}"),
+            ("function open(side,button){if(window.innerWidth>=1700)return;close();previousFocus=button;", "function open(side,button){if(window.innerWidth>=1700)return;close();updateDrawerTop();previousFocus=button;"),
+            (" let previousFocus=null;\n function close()", " let previousFocus=null;\n function updateDrawerTop(){const header=document.querySelector('body > header.wrap');const bottom=header?header.getBoundingClientRect().bottom:0;document.documentElement.style.setProperty('--eventide-drawer-top',Math.max(12,Math.ceil(bottom)+12)+'px');}\n updateDrawerTop();\n window.addEventListener('resize',updateDrawerTop,{passive:true});\n function close()")
+          ]
+          for old,new in replacements:
+            if old in s: s=s.replace(old,new,1)
+            elif new not in s: raise SystemExit("Missing target: "+old[:90])
+          p.write_text(s,encoding="utf-8")
+          PY
+      - name: Commit correction
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Position showcase and sponsor drawers below mobile navigation"
+            git push
+          fi
