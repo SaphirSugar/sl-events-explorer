@@ -349,23 +349,37 @@ $('forgot-password').onclick=()=>{
 };
 let recoveryCaptchaWidgetId=null,recoveryCaptchaToken='',recoverySending=false,recoveryLastRequest=0;
 const recoveryCooldownMs=45000;
+function clearRecoveryCaptcha(){
+  recoveryCaptchaToken='';
+  if(recoveryCaptchaWidgetId!==null&&window.turnstile){
+    try{window.turnstile.remove(recoveryCaptchaWidgetId);}catch(e){}
+  }
+  recoveryCaptchaWidgetId=null;
+  $('recovery-captcha').hidden=true;
+  $('recovery-captcha').replaceChildren();
+}
 $('send-reset').onclick=async()=>{
   const status=$('recovery-status'),button=$('send-reset'),field=$('recovery-email');
   if(!db){status.textContent='Password recovery is not configured yet.';return;}
   if(!field.value.trim()||!field.checkValidity()){field.reportValidity();field.focus();return;}
   if(recoverySending)return;
   const wait=Math.ceil((recoveryCooldownMs-(Date.now()-recoveryLastRequest))/1000);
-  if(wait>0){status.textContent='Please wait about '+wait+' seconds before requesting another email.';return;}
+  if(wait>0){status.textContent='Please wait before requesting another email.';return;}
   try{
     await loadTurnstile();
     if(recoveryCaptchaWidgetId===null){
+      $('recovery-captcha').hidden=false;
       recoveryCaptchaWidgetId=window.turnstile.render('#recovery-captcha',{
         sitekey:TURNSTILE_SITE_KEY,
-        callback:token=>{recoveryCaptchaToken=token;status.textContent='Security check complete. Click Send reset link to continue.';},
-        'expired-callback':()=>{recoveryCaptchaToken='';status.textContent='Security check expired. Please complete it again.';},
-        'error-callback':()=>{recoveryCaptchaToken='';status.textContent='Security check failed. Please try again.';}
+        callback:token=>{
+          recoveryCaptchaToken=token;
+          $('recovery-captcha').hidden=true;
+          status.textContent='Security check complete. Click Send reset link to continue.';
+        },
+        'expired-callback':()=>{recoveryCaptchaToken='';$('recovery-captcha').hidden=false;},
+        'error-callback':()=>{recoveryCaptchaToken='';$('recovery-captcha').hidden=false;status.textContent='Security check failed. Please try again.';}
       });
-      status.textContent='Complete the security check, then click Send reset link again.';
+      status.textContent='Complete the security check once, then click Send reset link.';
       return;
     }
     if(!recoveryCaptchaToken){status.textContent='Complete the security check before sending the link.';return;}
@@ -382,8 +396,7 @@ $('send-reset').onclick=async()=>{
       status.textContent='Please wait at least 45 seconds before trying again.';
     }else status.textContent='Could not send the reset link: '+message;
   }finally{
-    recoverySending=false;button.disabled=false;recoveryCaptchaToken='';
-    if(recoveryCaptchaWidgetId!==null&&window.turnstile)window.turnstile.reset(recoveryCaptchaWidgetId);
+    if(recoverySending){recoverySending=false;button.disabled=false;clearRecoveryCaptcha();}
   }
 };
 $('google-signin').onclick=async()=>{
