@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-18T10:12:20.477351+00:00",
+  "updated_at": "2026-11-18T11:11:37.271817+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -363,9 +363,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8907099",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00",
       "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
       "title": "️🥀A NIGHT OF SIN & SEDUCTION!@okiya ️🥀",
@@ -376,9 +376,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507320",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00",
       "image_url": "https://picture-service.secondlife.com/8aaee0ea-f8ec-d372-4c9e-477e47da3e9b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
       "title": "👑 HIGH-CLASS PERFORMERS INVITED 👑",
@@ -389,9 +389,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503790",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "🩷{Insomnia} New Opportunities",
@@ -402,9 +402,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506369",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T21:56:23.509646+00:00",
       "image_url": "https://picture-service.secondlife.com/36ebbdad-b404-591a-844b-2437040b5997/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-13T21:56:23.509646+00:00"
     },
     {
       "title": "---Morning Devotion---",
@@ -19520,6 +19520,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2026-11-23T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507403",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Morning Pit Crew w/ Grizzy DaBear @Cabo Swingers' Resort",
       "starts_at": "2026-11-23T06:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -22021,6 +22032,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2026-11-24T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507415",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -35539,6 +35561,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2026-11-30T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507404",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Morning Pit Crew With Grizzy!!",
       "starts_at": "2026-11-30T06:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -37154,6 +37187,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2026-12-01T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507416",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -45962,6 +46006,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2026-12-07T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507405",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Morning Pit Crew With Grizzy!!",
       "starts_at": "2026-12-07T06:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -47113,6 +47168,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2026-12-08T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507417",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -53856,6 +53922,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2026-12-14T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507406",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Morning Pit Crew With Grizzy!!",
       "starts_at": "2026-12-14T06:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -54697,6 +54774,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2026-12-15T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507418",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -60308,6 +60396,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2026-12-21T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507407",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Morning Pit Crew With Grizzy!!",
       "starts_at": "2026-12-21T06:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -61070,6 +61169,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2026-12-22T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507419",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -65220,6 +65330,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2026-12-28T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507408",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "MONDAY OUR FAVOURITE DAY AT ELVES IN PARADISE. All are welcome here.",
       "starts_at": "2026-12-28T07:00:00-08:00",
       "venue": "Elves in Paradise",
@@ -65782,6 +65903,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497222",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2026-12-29T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507420",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -69361,6 +69493,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2027-01-04T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507409",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "MONDAY OUR FAVOURITE DAY AT ELVES IN PARADISE. All are welcome here.",
       "starts_at": "2027-01-04T07:00:00-08:00",
       "venue": "Elves in Paradise",
@@ -69848,6 +69991,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497223",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2027-01-05T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507421",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -72644,6 +72798,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2027-01-11T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507410",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "MONDAY OUR FAVOURITE DAY AT ELVES IN PARADISE. All are welcome here.",
       "starts_at": "2027-01-11T07:00:00-08:00",
       "venue": "Elves in Paradise",
@@ -73111,6 +73276,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497224",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2027-01-12T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507422",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -75416,6 +75592,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2027-01-18T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507411",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "DJ RICK LIVE @ SOUTHERN SWING!",
       "starts_at": "2027-01-18T08:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -75770,6 +75957,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497225",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2027-01-19T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507423",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -77641,6 +77839,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2027-01-25T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507412",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "DJ RICK LIVE @ SOUTHERN SWING!",
       "starts_at": "2027-01-25T08:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -77866,6 +78075,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2027-01-26T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507424",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -79357,6 +79577,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2027-02-01T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507413",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "DJ @ Club End of Days every Monday 12-2pm - Gothic/Industrial/Futurepop/Synthpop /EBM and Requests",
       "starts_at": "2027-02-01T12:00:00-08:00",
       "venue": "Club End of Days - Gothic Club",
@@ -79504,6 +79735,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2027-02-02T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507425",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
@@ -80392,6 +80634,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "MONDAY at The Delfina Club: Surviving Monday Together",
+      "starts_at": "2027-02-08T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507414",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "█〙FINE VIBES MUSIC LOUNGE: PARTY with DJ ARULIN",
       "starts_at": "2027-02-08T12:00:00-08:00",
       "venue": "Fine Vibes @ Coedwig SARULIN",
@@ -80478,6 +80731,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "TUESDAY at The Delfina Club: Tuesday Pretending It’s Friday",
+      "starts_at": "2027-02-09T06:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507426",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WBH Hero Quest",
