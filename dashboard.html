@@ -24,7 +24,8 @@ button.secondary{color:#f1d6a6;border-color:#a28b69}
 #linked-venue-context::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(#f8e2ae,#b77ad9);border-radius:20px 0 0 20px}
 .linked-venue-eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 11px;font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:850;color:#e7c381}
 .linked-venue-eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:#e7c381;box-shadow:0 0 14px #e7c381aa}
-.linked-venue-name{margin:0 0 12px;font-family:'Outfit','Segoe UI',sans-serif;font-size:clamp(21px,3vw,29px);font-weight:800;line-height:1.25;color:#fff3da;overflow-wrap:anywhere}
+.linked-venue-name{display:block;margin:0 0 18px;padding:20px 22px;border:1px solid #f3d397a8;border-radius:16px;background:linear-gradient(135deg,#49304f,#29203e 64%,#5b3e43);font-family:'Outfit','Segoe UI',sans-serif;font-size:clamp(26px,4.1vw,40px);font-weight:850;letter-spacing:.005em;line-height:1.2;color:#fff0c5;text-shadow:0 2px 18px #e9bf7d35;box-shadow:0 10px 28px #0004,inset 0 0 0 1px #ffdca525;overflow-wrap:anywhere}
+@media(max-width:540px){.linked-venue-name{padding:17px 15px;font-size:clamp(23px,6vw,30px)}}
 .linked-venue-guidance{margin:0 0 12px;font-size:15px;color:#eee1f5}
 .linked-venue-security{margin:0;padding:12px 14px;border:1px solid #a681b255;border-radius:11px;background:#130d206b;color:#d3c0dd;font-size:13px}
 @media(max-width:540px){#linked-venue-context{padding:19px 18px}}
@@ -191,7 +192,7 @@ function clearLinkedVenuePreserveNotice(){linkedVenue=null;try{sessionStorage.re
 function clearLinkedVenue(){clearLinkedVenuePreserveNotice();linkedNotice('');}
 if(linkedVenue){
  const notice=$('linked-venue-context');notice.hidden=false;notice.replaceChildren();
- const eyebrow=document.createElement('p');eyebrow.className='linked-venue-eyebrow';eyebrow.textContent='Your selected location';
+ const eyebrow=document.createElement('p');eyebrow.className='linked-venue-eyebrow';eyebrow.textContent='Venue owner card · Selected location';
  const name=document.createElement('h3');name.className='linked-venue-name';name.textContent=linkedVenue.name;
  const guidance=document.createElement('p');guidance.className='linked-venue-guidance';guidance.textContent='Welcome to Eventide SL Venue Studio. Sign in or create an account to continue.';
  const security=document.createElement('p');security.className='linked-venue-security';security.textContent='Published venues can only be edited by their registered owner.';
