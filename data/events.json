@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-18T13:21:34.088612+00:00",
+  "updated_at": "2026-11-18T16:08:10.125201+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -565,7 +565,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488839",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -577,7 +576,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488512",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
@@ -589,7 +587,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490189",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -601,7 +598,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=7508097",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -635,7 +631,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497823",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -728,18 +723,6 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
-      "title": "DJ Supercute at Club Trax!",
-      "starts_at": "2026-11-18T07:30:00-08:00",
-      "venue": "Club Trax  b y the Amorous Sociiety",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9500499",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
       "title": "*** HOLIDAYS?? SNOW??? FUN???? come explore WINTER WOODS ****",
       "starts_at": "2026-11-18T08:00:00-08:00",
       "venue": "Our Moon ~ Winter Woods",
@@ -813,7 +796,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500010",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -825,7 +807,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497003",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -838,7 +819,6 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9501276",
       "teleport_url": null,
       "official_category": true,
-      "maturity": "Unspecified",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -860,9 +840,19 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491430",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Wednesday 18th November line up @ Serimner",
+      "starts_at": "2026-11-18T08:00:00-08:00",
+      "venue": ".:Serimner:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507458",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "🍂🎶 WEDNESDAY MORNING AUTUMN VIBES AT LOVE & HARMONY JAZZ WITH DJ LADY LAURA, 8AM 🎶🍂",
@@ -1153,6 +1143,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FUGAZI NIGHTCLUB - DJ DARKSOUL LIVE",
+      "starts_at": "2026-11-18T10:00:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507476",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
+    },
+    {
       "title": "JAZZ SOIREE TODAY STARTING @10AM @DREAM'S JAZZ & LOUNGE",
       "starts_at": "2026-11-18T10:00:00-08:00",
       "venue": "DREAM'S JAZZ & LOUNGE",
@@ -1329,6 +1330,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ JEROMINE BAXTER @ LOULOU CLUB  - DO YOU DARE TO BE CRAZY!",
+      "starts_at": "2026-11-18T11:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507475",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T06:20:17.742932+00:00"
+    },
+    {
       "title": "DJ Madison live at The Dawn Star",
       "starts_at": "2026-11-18T11:00:00-08:00",
       "venue": "The Dawn Star",
@@ -1503,6 +1515,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "FUGAZI NIGHTCLUB - DJ MERCY LOVE LIVE",
+      "starts_at": "2026-11-18T11:30:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507477",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "### DJ Spirit & Host Jester at KastleRoc",
@@ -2033,6 +2056,17 @@
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
+      "title": "✧ 𝒸𝓁𝓊𝒷 ＬＯＵＬＯＵ  ✧ party with DJ Anya at ARABESQUE",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507464",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T06:20:17.742932+00:00"
+    },
+    {
       "title": "✨ I Love❤️ The 80s ✨ Takes you 🕹️ Back To The 80s! 🕶️ With DJ Mordecai! ✨",
       "starts_at": "2026-11-18T12:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -2053,6 +2087,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "❤️ DJ FRANKLIN AND SOCIALITE CISSA ❤️ ETOSHA ❤ DANCE TUNES ❤",
+      "starts_at": "2026-11-18T12:00:00-08:00",
+      "venue": "Etosha, 11 years of Love!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507492",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "⭐🎵⭐ 12 PM: AMFORTE live @ The Golden Hour Club ⭐🎵⭐",
@@ -2176,6 +2221,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌴 DJ NONO LIVE @ TROPICAL DANCE CLUB – TONIGHT! 🎧🔥",
+      "starts_at": "2026-11-18T12:30:00-08:00",
+      "venue": "The Tropical Dance & Shopping Center - HTTPS://TROPICALDANCE.FR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507495",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T10:09:15.369360+00:00"
+    },
+    {
       "title": "1PM ANNI MARTIN SINGS AT THE SHEWORTHY TODAY",
       "starts_at": "2026-11-18T13:00:00-08:00",
       "venue": "The Sheworthy",
@@ -2218,6 +2274,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "DANCE FLOOR HITS WITH DJ RACHELA AT SIDE by SIDE!!! 1-3 PM",
+      "starts_at": "2026-11-18T13:00:00-08:00",
+      "venue": "SIDE BY SIDE",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507479",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "DJ LOU @ SUNRAYZ BEACH CLUB ~ ELECTRO STEAMPUNK EVENT",
@@ -2418,6 +2485,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "Yacht Rock with Hall of Famers DJ Bea and Host ZennyRose",
+      "starts_at": "2026-11-18T13:00:00-08:00",
+      "venue": "Lighthouse Cove",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9500750",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "ZOREE JUPITER & THE CHICKS LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-18T13:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -2523,6 +2601,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505809",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
+    },
+    {
+      "title": "AT JAKES - MAPOO SINGS - LIVE!",
+      "starts_at": "2026-11-18T14:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507438",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
@@ -2924,6 +3013,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "DJ Recki is taking over Loulou!",
+      "starts_at": "2026-11-18T15:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507457",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T06:20:17.742932+00:00"
+    },
+    {
       "title": "DJ Temptation and Host Lillith @ Cabo Swingers' Resort",
       "starts_at": "2026-11-18T15:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -3054,6 +3154,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "4PM \"CASUAL WED\" at 24 GREENWICH ST w/ DJ SHELL & BROOK",
+      "starts_at": "2026-11-18T16:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507460",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "Alchemelic w/ d-oo-b and Kalcya @WBH",
@@ -3254,6 +3365,17 @@
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
     },
     {
+      "title": "HOTLANTA BLUES CLUB PRESENTS DJ GIB 4-6 PM! COME LIVE THE BLUES!",
+      "starts_at": "2026-11-18T16:00:00-08:00",
+      "venue": "Hotlanta Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507493",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "IVY FADEL SINGING LIVE 4PM AT THE REFUGE!",
       "starts_at": "2026-11-18T16:00:00-08:00",
       "venue": "The Refuge Live Music Venue",
@@ -3428,6 +3550,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T01:22:03.604018+00:00"
+    },
+    {
+      "title": "COME TO JOIN DJ DEOSIL PARTY AT LOULOU",
+      "starts_at": "2026-11-18T16:30:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507459",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T06:20:17.742932+00:00"
     },
     {
       "title": "Mmmmmmm",
@@ -3793,6 +3926,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "6PM \"CASUAL WED\" w/ DJ CELESTINE & JUICY @ 24 GREENWICH ST",
+      "starts_at": "2026-11-18T18:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507461",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
+    },
+    {
       "title": "6PM SLT - USO NIGHT @ THE CELLAR JAZZ CLUB",
       "starts_at": "2026-11-18T18:00:00-08:00",
       "venue": "THE CELLAR JAZZ CLUB",
@@ -3890,6 +4034,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ GIB DOUBLES DOWN WITH THE BLUES @HOTLANTA BLUES CLUB",
+      "starts_at": "2026-11-18T18:00:00-08:00",
+      "venue": "Hotlanta Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507496",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "DJ Malone at Indulge Beach",
@@ -4464,6 +4619,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "*7PM* Nigel Freeman @ The Merry Prankster",
+      "starts_at": "2026-11-18T19:00:00-08:00",
+      "venue": "The Merry Prankster!! Where Music Lives!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507467",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
       "title": "7 SEAS FISHING:80s NEON FISHING! HOST SKYE/DJ VERONIK",
       "starts_at": "2026-11-18T19:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -4473,6 +4639,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "ANJ At the Valinor Seaside Deck",
+      "starts_at": "2026-11-18T19:00:00-08:00",
+      "venue": "ANJ At the Valinor Seaside Deck",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507465",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "Bourbon & Sin w/DJ Rocker at RoseWould Plantation Sex Club, Swingers & Nude Beach",
@@ -4594,6 +4771,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "KARAOKE EN GAMA EVOLUTION CLUB DE 7PM-9PM SLT",
+      "starts_at": "2026-11-18T19:00:00-08:00",
+      "venue": "GAMA EVOLUTION CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507478",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "MOONMANCC, Live at Stargazer Cafe",
@@ -4783,6 +4971,28 @@
       "venue_photo_checked_at": "2026-11-18T10:15:06.796490+00:00"
     },
     {
+      "title": "8 PM Kris & The Bloody Pirates LIVE at The Merry Prankster",
+      "starts_at": "2026-11-18T20:00:00-08:00",
+      "venue": "The Merry Prankster!! Where Music Lives!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507468",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
+      "title": "8PM \"CASUAL WED\" w/ DJ ARIS & MISS MADONNA @ 24 GREENWICH",
+      "starts_at": "2026-11-18T20:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507462",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
+    },
+    {
       "title": "DJ CECELIA LEVEE AT FRANK'S ELITE",
       "starts_at": "2026-11-18T20:00:00-08:00",
       "venue": "Franks Elite Jazz Club - Elegant Romance",
@@ -4869,6 +5079,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ Vincent Artist Spotlight",
+      "starts_at": "2026-11-18T20:00:00-08:00",
+      "venue": "ANJ At the Valinor Seaside Deck",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507466",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "Embrace the 80s @ Club Carnage",
@@ -5078,6 +5299,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "9 PM LX Tomorrow @ The Merry Prankster",
+      "starts_at": "2026-11-18T21:00:00-08:00",
+      "venue": "The Merry Prankster!! Where Music Lives!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507469",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
       "title": "Science Fiction Storytime",
@@ -11349,13 +11581,13 @@
     {
       "title": "LIVE DJ COME JOIN THE PARTY AND TAKE A BIKE RIDE!!",
       "starts_at": "2026-11-20T16:00:00-08:00",
-      "venue": "Sturgis Island - Iron Stage Syndicate Cafe - Born  Bad Motors",
+      "venue": "Sturgis Island - Iron Stage Syndicate Cafe",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9506609",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T22:57:16.260505+00:00"
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "Miss Trish Performs Live @ 4pm  at Nevermore, Live Music, Live Singer !",
@@ -14889,13 +15121,13 @@
     {
       "title": "PARTY WITH US TODAY at THE IRON STAGE!!",
       "starts_at": "2026-11-21T16:00:00-08:00",
-      "venue": "Sturgis Island - Iron Stage Syndicate Cafe - Born  Bad Motors",
+      "venue": "Sturgis Island - Iron Stage Syndicate Cafe",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9506610",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T22:57:16.260505+00:00"
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "Reed Harris live at The Dawn Star",
@@ -25595,6 +25827,17 @@
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
     },
     {
+      "title": "HOTLANTA BLUES CLUB PRESENTS DJ GIB 4-6 PM! COME LIVE THE BLUES!",
+      "starts_at": "2026-11-25T16:00:00-08:00",
+      "venue": "Hotlanta Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507494",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "ITS PARTY TIME WITH DJ MISHEY",
       "starts_at": "2026-11-25T16:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -25890,6 +26133,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ GIB DOUBLES DOWN WITH THE BLUES @HOTLANTA BLUES CLUB",
+      "starts_at": "2026-11-25T18:00:00-08:00",
+      "venue": "Hotlanta Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507497",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "DJ PROWLER",
@@ -27296,6 +27550,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "** CIRCLE MENTAL HEALTH - THANKSGIVING PARTY! **",
+      "starts_at": "2026-11-26T10:00:00-08:00",
+      "venue": "Circle Mental Health - Thanksgiving",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507463",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
     },
     {
       "title": "Corvus Blessed live at The Dawn Star",
@@ -36339,6 +36604,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2026-11-30T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507480",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
@@ -46578,6 +46854,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2026-12-07T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507481",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2026-12-07T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -54384,6 +54671,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2026-12-14T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507482",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2026-12-14T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -60833,6 +61131,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2026-12-21T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507483",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2026-12-21T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -65710,6 +66019,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2026-12-28T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507484",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2026-12-28T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -69835,6 +70155,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-01-04T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507485",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2027-01-04T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -73176,6 +73507,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-01-11T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507486",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ CORBYN'S MONDAY MAYHEM AT HELLBOUND HOME OF ROCK & METAL.",
       "starts_at": "2027-01-11T14:00:00-08:00",
       "venue": "Hellbound Metal and Hard rock club",
@@ -75932,6 +76274,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-01-18T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507487",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ AVALON and her ANGELS MONDAYS at 3pm  FOGBOUND",
       "starts_at": "2027-01-18T15:00:00-08:00",
       "venue": "FogBound Blues",
@@ -78167,6 +78520,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-01-25T14:00:00-08:00",
+      "venue": "Tobys Bayou Waters",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507488",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T16:10:35.630478+00:00"
+    },
+    {
       "title": "LIVE MUSIC",
       "starts_at": "2027-01-25T14:30:00-08:00",
       "venue": "PITCH SLAPPED",
@@ -79883,6 +80247,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-02-01T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507489",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ AVALON and her ANGELS MONDAYS at 3pm  FOGBOUND",
       "starts_at": "2027-02-01T15:00:00-08:00",
       "venue": "FogBound Blues",
@@ -80940,6 +81315,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-02-08T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507490",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ Kelly Cross @ Belle's Coffee Shop",
       "starts_at": "2027-02-08T15:00:00-08:00",
       "venue": "Belle's Coffee Shop",
@@ -81576,6 +81962,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "DJ Billy Quingley @ TOBY'S JUKE JOINT 2-4 PM MONDAYS!",
+      "starts_at": "2027-02-15T14:00:00-08:00",
+      "venue": "Toby's Juke Joint Blues Club - the original Blues Juke",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507491",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ Kelly Cross @ Belle's Coffee Shop",
