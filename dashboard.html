@@ -176,8 +176,8 @@ function readLinkedVenue(){
   return null;
 }
 // A fresh link from a venue card requires a new sign-in, even if another account is active.
-const venueLinkRequiresLogin=Boolean(new URLSearchParams(location.search).get('venue_name')&&new URLSearchParams(location.search).get('intent')&&new URLSearchParams(location.search).get('source'));
 let linkedVenue=readLinkedVenue();
+const venueLinkRequiresLogin=Boolean(linkedVenue);
 let venueLoginResetPending=venueLinkRequiresLogin;
 function linkedNotice(message){const el=$('linked-venue-context');el.hidden=!message;el.textContent=message||'';}
 function clearLinkedVenuePreserveNotice(){linkedVenue=null;try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}}
