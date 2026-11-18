@@ -268,7 +268,7 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 /* Floating advertising drawers for laptops, tablets and phones. */
 .ad-edge-toggle,.ad-drawer-backdrop,.ad-drawer-close{display:none}
 @media(max-width:1699px){
- .sponsor-rail{position:fixed!important;top:92px!important;bottom:14px!important;margin:0!important;width:min(330px,calc(100vw - 58px))!important;max-width:none!important;max-height:none!important;display:flex!important;flex-direction:column!important;overflow-y:auto!important;overflow-x:hidden!important;overscroll-behavior:contain;z-index:110!important;padding:42px 12px 14px!important;gap:14px!important;background:linear-gradient(160deg,#251b35,#120f20);border:1px solid #84659b;box-shadow:0 16px 45px #000b;transition:transform .25s ease!important;scrollbar-width:thin}
+ .sponsor-rail{position:fixed!important;top:var(--eventide-drawer-top,180px)!important;bottom:14px!important;margin:0!important;width:min(330px,calc(100vw - 58px))!important;max-width:none!important;max-height:none!important;display:flex!important;flex-direction:column!important;overflow-y:auto!important;overflow-x:hidden!important;overscroll-behavior:contain;z-index:2200!important;padding:42px 12px 14px!important;gap:14px!important;background:linear-gradient(160deg,#251b35,#120f20);border:1px solid #84659b;box-shadow:0 16px 45px #000b;transition:transform .25s ease!important;scrollbar-width:thin}
  .sponsor-rail-left{left:0!important;right:auto!important;border-radius:0 15px 15px 0;transform:translateX(-105%)}
  .sponsor-rail-right{right:0!important;left:auto!important;border-radius:15px 0 0 15px;transform:translateX(105%);grid-template-columns:none!important;align-items:stretch!important}
  .sponsor-rail.is-open{transform:translateX(0)}
@@ -278,11 +278,11 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
  .ad-edge-toggle-left{left:0;border-radius:0}
  .ad-edge-toggle-right{right:0;border-radius:0;transform:rotate(180deg)}
  .ad-drawer-close{display:block;position:absolute;right:10px;top:8px;width:30px;height:30px;border:1px solid #9879a9;border-radius:8px;background:#3b2850;color:white;font-size:21px;cursor:pointer}
- .ad-drawer-backdrop.is-visible{display:block;position:fixed;inset:0;background:#0008;z-index:105}
+ .ad-drawer-backdrop.is-visible{display:block;position:fixed;inset:0;background:#0008;z-index:2100}
  body.ad-drawer-open{overflow:hidden}
 }
 @media(max-width:700px){
- .sponsor-rail{top:65px!important;bottom:8px!important;width:min(310px,calc(100vw - 48px))!important;padding:42px 10px 12px!important}
+ .sponsor-rail{top:var(--eventide-drawer-top,180px)!important;bottom:8px!important;width:min(310px,calc(100vw - 48px))!important;padding:42px 10px 12px!important}
  .ad-edge-toggle{top:48%;font-size:11px;padding:11px 6px}
  .sponsor-rail-right .sponsor-card:not(.sponsor-available) .sponsor-media{height:150px!important}
 }
@@ -670,8 +670,11 @@ fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)
  const rails={left:document.getElementById('ad-left'),right:document.getElementById('ad-right')};
  const toggles=[...document.querySelectorAll('[data-ad-open]')];
  let previousFocus=null;
+ function updateDrawerTop(){const header=document.querySelector('body > header.wrap');const bottom=header?header.getBoundingClientRect().bottom:0;document.documentElement.style.setProperty('--eventide-drawer-top',Math.max(12,Math.ceil(bottom)+12)+'px');}
+ updateDrawerTop();
+ window.addEventListener('resize',updateDrawerTop,{passive:true});
  function close(){Object.values(rails).forEach(r=>r.classList.remove('is-open'));toggles.forEach(b=>b.setAttribute('aria-expanded','false'));backdrop.classList.remove('is-visible');document.body.classList.remove('ad-drawer-open');if(previousFocus){previousFocus.focus();previousFocus=null;}}
- function open(side,button){if(window.innerWidth>=1700)return;close();previousFocus=button;rails[side].classList.add('is-open');button.setAttribute('aria-expanded','true');backdrop.classList.add('is-visible');document.body.classList.add('ad-drawer-open');rails[side].querySelector('.ad-drawer-close').focus();}
+ function open(side,button){if(window.innerWidth>=1700)return;close();updateDrawerTop();previousFocus=button;rails[side].classList.add('is-open');button.setAttribute('aria-expanded','true');backdrop.classList.add('is-visible');document.body.classList.add('ad-drawer-open');rails[side].querySelector('.ad-drawer-close').focus();}
  toggles.forEach(b=>b.addEventListener('click',()=>{const side=b.dataset.adOpen;if(rails[side].classList.contains('is-open'))close();else open(side,b);}));
  document.querySelectorAll('.ad-drawer-close').forEach(b=>b.addEventListener('click',close));
  backdrop.addEventListener('click',close);
