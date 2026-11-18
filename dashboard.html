@@ -155,24 +155,29 @@ $('clear').addEventListener('click',()=>{if(currentOwnedVenue){openOwnedVenue(cu
 const configured=!!(window.EVENTIDE_SUPABASE_URL&&window.EVENTIDE_SUPABASE_ANON_KEY&&!window.EVENTIDE_SUPABASE_URL.startsWith('YOUR_'));
 const db=configured&&window.supabase?window.supabase.createClient(window.EVENTIDE_SUPABASE_URL,window.EVENTIDE_SUPABASE_ANON_KEY):null;
 let editingId=null,existingPhotos=[];let currentOwnedVenue=null,currentOwnerHasMultiple=false;
-// Remember the venue across email verification, sign-in and OAuth redirects.
+// A venue selection is valid only for the explicit link that opened this page.
+// Never restore a previous claim when someone opens Add Your Venue normally.
 const LINKED_VENUE_STORAGE='eventide_linked_venue_v1';
 function venueKey(value){return String(value||'').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();}
 function readLinkedVenue(){
+  // Remove any venue selection left behind by older dashboard versions.
+  try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}
   const params=new URLSearchParams(location.search);
   const name=(params.get('venue_name')||'').trim().slice(0,100);
   const source=params.get('source');
-  if(name&&['events','directory','published'].includes(source)){
+  const intent=params.get('intent');
+  if(name&&['events','directory','published'].includes(source)&&['edit','add_photos'].includes(intent)){
     const link={name,key:venueKey(name),source,id:params.get('venue_id')||'',teleport:teleportUrl(params.get('venue_slurl')||'')||''};
-    try{sessionStorage.setItem(LINKED_VENUE_STORAGE,JSON.stringify(link));}catch(e){}
+    // Consume the venue link immediately so refreshes and normal dashboard visits
+    // cannot reopen a claim or show an old selected-location notice.
     history.replaceState(null,'',location.pathname+location.hash);
     return link;
   }
-  try{const link=JSON.parse(sessionStorage.getItem(LINKED_VENUE_STORAGE)||'null');return link&&link.name&&['events','directory','published'].includes(link.source)?link:null;}catch(e){return null;}
+  return null;
 }
 // A fresh link from a venue card requires a new sign-in, even if another account is active.
-const venueLinkRequiresLogin=Boolean(new URLSearchParams(location.search).get('venue_name'));
 let linkedVenue=readLinkedVenue();
+const venueLinkRequiresLogin=Boolean(linkedVenue);
 let venueLoginResetPending=venueLinkRequiresLogin;
 function linkedNotice(message){const el=$('linked-venue-context');el.hidden=!message;el.textContent=message||'';}
 function clearLinkedVenuePreserveNotice(){linkedVenue=null;try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}}
