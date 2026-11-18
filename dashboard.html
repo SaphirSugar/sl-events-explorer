@@ -20,15 +20,15 @@ button.secondary{color:#f1d6a6;border-color:#a28b69}
 .notice{background:#2a2930;border-color:#9a805d;color:#f4deb8}
 
 /* Linked venue editing from Clubs & Locations. */
-#linked-venue-context{position:relative;margin:22px 0 28px;padding:30px 34px;border:1px solid #c69b6b;border-radius:20px;background:radial-gradient(circle at 100% 0%,#6f388344,transparent 54%),linear-gradient(135deg,#30203f,#1b1429 72%);color:#eee0f3;line-height:1.65;box-shadow:0 16px 36px #0005,inset 0 0 0 1px #e7c38120;overflow-wrap:anywhere}
-#linked-venue-context::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(#f8e2ae,#b77ad9);border-radius:20px 0 0 20px}
+#linked-venue-context{position:relative;margin:14px 0 20px;padding:17px 20px;border:1px solid #c69b6b;border-radius:20px;background:radial-gradient(circle at 100% 0%,#6f388344,transparent 54%),linear-gradient(135deg,#30203f,#1b1429 72%);color:#eee0f3;line-height:1.65;box-shadow:0 16px 36px #0005,inset 0 0 0 1px #e7c38120;overflow-wrap:anywhere}
+
 .linked-venue-eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 11px;font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:850;color:#e7c381}
 .linked-venue-eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:#e7c381;box-shadow:0 0 14px #e7c381aa}
-.linked-venue-name{display:block;margin:0 0 18px;padding:20px 22px;border:1px solid #f3d397a8;border-radius:16px;background:linear-gradient(135deg,#49304f,#29203e 64%,#5b3e43);font-family:'Outfit','Segoe UI',sans-serif;font-size:clamp(29px,4.5vw,46px);font-weight:850;letter-spacing:.005em;line-height:1.2;color:#fff0c5;text-shadow:0 2px 18px #e9bf7d35;box-shadow:0 10px 28px #0004,inset 0 0 0 1px #ffdca525;overflow-wrap:anywhere}
-@media(max-width:540px){.linked-venue-name{padding:17px 15px;font-size:clamp(23px,6vw,30px)}}
-.linked-venue-guidance{margin:0 0 12px;font-size:15px;color:#eee1f5}
-.linked-venue-security{margin:0;padding:12px 14px;border:1px solid #a681b255;border-radius:11px;background:#130d206b;color:#d3c0dd;font-size:13px}
-@media(max-width:540px){#linked-venue-context{padding:19px 18px}}
+.linked-venue-name{display:block;margin:0 0 12px;padding:12px 16px;border:1px solid #f3d397a8;border-radius:12px;background:linear-gradient(135deg,#49304f,#29203e 64%,#5b3e43);font-family:'Outfit','Segoe UI',sans-serif;font-size:clamp(21px,2.8vw,30px);font-weight:800;letter-spacing:.005em;line-height:1.2;color:#fff0c5;text-shadow:0 2px 18px #e9bf7d35;box-shadow:0 10px 28px #0004,inset 0 0 0 1px #ffdca525;overflow-wrap:anywhere}
+@media(max-width:540px){.linked-venue-name{padding:11px 12px;font-size:clamp(20px,5vw,25px)}}
+.linked-venue-guidance{margin:0 0 9px;font-size:14px;color:#eee1f5}
+.linked-venue-security{margin:0;padding:9px 12px;border:1px solid #a681b255;border-radius:11px;background:#130d206b;color:#d3c0dd;font-size:13px}
+@media(max-width:540px){#linked-venue-context{padding:15px 14px}}
 #linked-venue-context[hidden]{display:none!important}
 /* Authentication-first workflow: hide venue editor until a verified session exists. */
 #venue-workspace[hidden]{display:none!important}
