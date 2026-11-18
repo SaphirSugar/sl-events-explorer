@@ -20,7 +20,14 @@ button.secondary{color:#f1d6a6;border-color:#a28b69}
 .notice{background:#2a2930;border-color:#9a805d;color:#f4deb8}
 
 /* Linked venue editing from Clubs & Locations. */
-#linked-venue-context{margin:0 0 20px;padding:16px 18px;border:1px solid #9a805d;border-radius:10px;background:#292a33;color:#f4deb8;line-height:1.6}
+#linked-venue-context{position:relative;margin:8px 0 24px;padding:24px 26px;border:1px solid #c69b6b;border-radius:20px;background:radial-gradient(circle at 100% 0%,#6f388344,transparent 54%),linear-gradient(135deg,#30203f,#1b1429 72%);color:#eee0f3;line-height:1.65;box-shadow:0 16px 36px #0005,inset 0 0 0 1px #e7c38120;overflow-wrap:anywhere}
+#linked-venue-context::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(#f8e2ae,#b77ad9);border-radius:20px 0 0 20px}
+.linked-venue-eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 11px;font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:850;color:#e7c381}
+.linked-venue-eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:#e7c381;box-shadow:0 0 14px #e7c381aa}
+.linked-venue-name{margin:0 0 12px;font-family:'Outfit','Segoe UI',sans-serif;font-size:clamp(21px,3vw,29px);font-weight:800;line-height:1.25;color:#fff3da;overflow-wrap:anywhere}
+.linked-venue-guidance{margin:0 0 12px;font-size:15px;color:#eee1f5}
+.linked-venue-security{margin:0;padding:12px 14px;border:1px solid #a681b255;border-radius:11px;background:#130d206b;color:#d3c0dd;font-size:13px}
+@media(max-width:540px){#linked-venue-context{padding:19px 18px}}
 #linked-venue-context[hidden]{display:none!important}
 /* Authentication-first workflow: hide venue editor until a verified session exists. */
 #venue-workspace[hidden]{display:none!important}
@@ -182,7 +189,14 @@ let venueLoginResetPending=venueLinkRequiresLogin;
 function linkedNotice(message){const el=$('linked-venue-context');el.hidden=!message;el.textContent=message||'';}
 function clearLinkedVenuePreserveNotice(){linkedVenue=null;try{sessionStorage.removeItem(LINKED_VENUE_STORAGE);}catch(e){}}
 function clearLinkedVenue(){clearLinkedVenuePreserveNotice();linkedNotice('');}
-if(linkedVenue)linkedNotice('Selected location: '+linkedVenue.name+'. Sign in or create an account to continue. Existing published venues can only be edited by their registered owner.');
+if(linkedVenue){
+ const notice=$('linked-venue-context');notice.hidden=false;notice.replaceChildren();
+ const eyebrow=document.createElement('p');eyebrow.className='linked-venue-eyebrow';eyebrow.textContent='Your selected location';
+ const name=document.createElement('h3');name.className='linked-venue-name';name.textContent=linkedVenue.name;
+ const guidance=document.createElement('p');guidance.className='linked-venue-guidance';guidance.textContent='Welcome to Eventide SL Venue Studio. Sign in or create an account to continue.';
+ const security=document.createElement('p');security.className='linked-venue-security';security.textContent='Published venues can only be edited by their registered owner.';
+ notice.append(eyebrow,name,guidance,security);
+}
 function openOwnedVenue(item){
   editingId=item.id;existingPhotos=Array.isArray(item.photos)?item.photos:[];
   $('club-name').value=item.name;$('club-description').value=item.description||'';$('club-teleport').value=item.teleport_url||'';
