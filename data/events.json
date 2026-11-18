@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-18T11:11:37.271817+00:00",
+  "updated_at": "2026-11-18T12:09:35.942567+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -414,11 +414,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497817",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f31877-92d7-c7c5-25a4-df2dee5593bb/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "::: 4AM JAIK MARIO LIVE @ THE WOOLSHED",
@@ -429,9 +428,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8885288",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00",
       "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
       "title": "DJ AMY HERE THIS EARLY WEDNESDAY MORNING AT EYE CANDY MUSIC CLUB",
@@ -441,11 +440,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488845",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ DANGER @ WATERMELON SUGAR CLUB",
@@ -456,9 +454,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503376",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "KOGA FIREHAWK LIVE @ LORRIE'S CLUB AUSTRALIA",
@@ -481,17 +479,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
-    },
-    {
-      "title": "💦👅 Are you a pervert? Then we want you! Anything goes here! Set your desires free! 😈🌈",
-      "starts_at": "2026-11-18T04:00:00-08:00",
-      "venue": "! PERVERTS !",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-18T06:20:17.742932+00:00"
     },
     {
       "title": "🔥✔️ Come join the PERVERTS family! Get your tag and enjoy a whole new experience. 🔥✔️",
@@ -764,6 +751,17 @@
       "venue_photo_checked_at": "2026-11-18T10:15:06.796490+00:00"
     },
     {
+      "title": "Bunker BINGO - FREE to play!",
+      "starts_at": "2026-11-18T08:00:00-08:00",
+      "venue": "Welcome to Pripyat : Yoof's 7Seas Fishing, Bingo and Games Area",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507435",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T12:11:19.461237+00:00"
+    },
+    {
       "title": "DJ CHARLEY @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-18T08:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -784,6 +782,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
+    },
+    {
+      "title": "DJ Paul Papillon  @ Junkyard  Blues  8am to 10am",
+      "starts_at": "2026-11-18T08:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507427",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ RICK LIVE @ SOUTHERN SWING!",
@@ -1219,6 +1228,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-17T02:28:00.166953+00:00"
+    },
+    {
+      "title": "☂ Upbeat Tunes with DJ TAI and Host rAin - from 10am @ Rainbow Rhapsody ☂",
+      "starts_at": "2026-11-18T10:00:00-08:00",
+      "venue": "Rainbow Rhapsody - SLGBTQAI+ Friendly Hub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507430",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-18T12:11:19.461237+00:00"
     },
     {
       "title": "☕🎶 LOVE & HARMONY JAZZ WITH DJ MIKE DEVALLEYFIELD WEDNESDAY MORNING AT 10AM🎶☕",
@@ -2200,6 +2220,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "DJ LOU @ SUNRAYZ BEACH CLUB ~ ELECTRO STEAMPUNK EVENT",
+      "starts_at": "2026-11-18T13:00:00-08:00",
+      "venue": "SunRayz Coast Berach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507431",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T11:32:51.554574+00:00"
+    },
+    {
       "title": "DJ Laser 420 - Rock @ Club Mumtaz  * Silk's ~ Saree's  *",
       "starts_at": "2026-11-18T13:00:00-08:00",
       "venue": "~Mumtaz Taj Mahal~ & Voo's Palace Ballroom",
@@ -2319,6 +2350,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Marqs DeSade Live at Helle's Angels  1pm",
+      "starts_at": "2026-11-18T13:00:00-08:00",
+      "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507432",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "PEAK LOUNGE PRESENTS : WHERE TECHNO COMES ALIVE  !!!",
@@ -2662,6 +2704,17 @@
       "venue_photo_checked_at": "2026-11-17T20:15:38.759048+00:00"
     },
     {
+      "title": "Mike00 Carnell Live at Helle's Angels 2pm",
+      "starts_at": "2026-11-18T14:00:00-08:00",
+      "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507433",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "Muddy's Music Cafe with DJ Robbie and Host Heather",
       "starts_at": "2026-11-18T14:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -2836,6 +2889,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T06:20:17.742932+00:00"
+    },
+    {
+      "title": "Clairede Dirval live at Helle's Angels 3pm",
+      "starts_at": "2026-11-18T15:00:00-08:00",
+      "venue": "Helles Angels [https://www.fb.me/Helles.Angels at Facebook]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507434",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "DJ     : Classical set       @ 3 pm at The Silver Dragon Club, CDS",
@@ -6367,6 +6431,17 @@
       "venue_photo_checked_at": "2026-11-16T04:23:52.006905+00:00"
     },
     {
+      "title": "DJ Paul Papillon  @ Junkyard  Blues  Noon to 2pm",
+      "starts_at": "2026-11-19T12:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507428",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ RICK & HOST BELLA LIVE AT SOUTHERN SWING",
       "starts_at": "2026-11-19T12:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -6578,7 +6653,7 @@
     {
       "title": "🎧🔥 It's Party Time @ the ELEVEN 🔥🎧",
       "starts_at": "2026-11-19T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9481927",
@@ -9556,6 +9631,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "JUNKYARD  8AM – 10AM  SLT DJ PAUL PAPILLON",
+      "starts_at": "2026-11-20T08:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507429",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "☕🎶 FRIDAY MORNING AT LOVE & HARMONY JAZZ WITH DJ CRAYVENN 8AM🎶☕",
       "starts_at": "2026-11-20T08:00:00-08:00",
       "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
@@ -10119,7 +10205,7 @@
     {
       "title": "DJ Angelicious 12PM live @ the ELEVEN",
       "starts_at": "2026-11-20T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9482366",
@@ -20222,7 +20308,7 @@
     {
       "title": "💙 ✨ K-POP MONDAY @ THE BLUE MOON ✨ 💙",
       "starts_at": "2026-11-23T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9480526",
@@ -27456,7 +27542,7 @@
     {
       "title": "🎧🔥 It's Party Time @ the ELEVEN 🔥🎧",
       "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9481928",
@@ -29323,7 +29409,7 @@
     {
       "title": "DJ Angelicious 12PM live @ the ELEVEN",
       "starts_at": "2026-11-27T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9482367",
@@ -36059,7 +36145,7 @@
     {
       "title": "💙 ✨ K-POP MONDAY @ THE BLUE MOON ✨ 💙",
       "starts_at": "2026-11-30T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9480527",
@@ -40508,7 +40594,7 @@
     {
       "title": "🎧🔥 It's Party Time @ the ELEVEN 🔥🎧",
       "starts_at": "2026-12-03T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9481929",
@@ -41826,7 +41912,7 @@
     {
       "title": "DJ Angelicious 12PM live @ the ELEVEN",
       "starts_at": "2026-12-04T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9482368",
@@ -46306,7 +46392,7 @@
     {
       "title": "💙 ✨ K-POP MONDAY @ THE BLUE MOON ✨ 💙",
       "starts_at": "2026-12-07T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9480528",
@@ -49721,7 +49807,7 @@
     {
       "title": "🎧🔥 It's Party Time @ the ELEVEN 🔥🎧",
       "starts_at": "2026-12-10T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9481930",
@@ -50699,7 +50785,7 @@
     {
       "title": "DJ Angelicious 12PM live @ the ELEVEN",
       "starts_at": "2026-12-11T12:00:00-08:00",
-      "venue": "ONP  Event Distict - Diamond Ent.",
+      "venue": "ONP  Event Distict - DIAMOND Ent.",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9482369",
