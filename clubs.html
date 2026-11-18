@@ -88,6 +88,11 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 #back-to-search:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media(max-width:560px){#back-to-search{right:12px;bottom:78px;padding:11px 13px;font-size:13px}}
 @media(prefers-reduced-motion:reduce){#back-to-search{transition:none}}
+
+/* Owner invitation */
+.owner-trigger{display:inline-flex;align-items:center;margin:14px 0 0;padding:6px 0;border:0;background:transparent;color:#e7c381;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:4px}.owner-trigger:hover{color:#fff0c9}
+.owner-invite{position:relative;width:min(520px,calc(100% - 28px));max-height:90vh;overflow:auto;padding:0;border:1px solid #b98cdc;border-radius:22px;background:#1b1428;color:#f9f1ff;box-shadow:0 30px 95px #000b}.owner-invite::backdrop{background:#080512d9;backdrop-filter:blur(5px)}
+.owner-invite-image{display:block;width:100%;height:195px;object-fit:cover;object-position:center}.owner-invite-content{padding:24px 28px 28px}.owner-invite-eyebrow{margin:0 0 9px;color:#e7c381;font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:800}.owner-invite h2{margin:0 0 12px;font-family:'Outfit',sans-serif;font-size:clamp(25px,5vw,34px);line-height:1.16}.owner-invite p{line-height:1.6;color:#e5d9ed}.owner-invite-venue{font-weight:800;color:#ffdfad;overflow-wrap:anywhere}.owner-invite-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:22px}.owner-invite-cta{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:999px;background:linear-gradient(135deg,#efd5a2,#c69a56);color:#251727;text-decoration:none;font-weight:800;text-align:center}.owner-invite-cta:hover{background:#ffe6b9}.owner-invite-dismiss{padding:11px 15px;border:1px solid #7c598e;border-radius:999px;background:transparent;color:#f6eaff}.owner-invite-close{position:absolute;right:12px;top:12px;width:38px;height:38px;border-radius:50%;border:1px solid #f4deb5;background:#1a1228e8;color:#fff;font-size:24px}@media(max-width:540px){.owner-invite-content{padding:20px}.owner-invite-image{height:150px}}
 </style>
 </head>
 <body>
@@ -101,6 +106,7 @@ body>header.wrap nav a{min-height:40px;display:inline-flex;align-items:center;ju
 </section>
 </main>
 <dialog id="venue-events-modal" class="venue-modal" aria-labelledby="modal-venue-title"><div class="modal-head"><div><h2 id="modal-venue-title">Venue events</h2><p id="modal-event-count"></p></div><button type="button" class="modal-close" id="modal-close" aria-label="Close event list">×</button></div><div id="modal-events" class="modal-events"></div></dialog>
+<dialog id="owner-invite" class="owner-invite" aria-labelledby="owner-invite-title" aria-describedby="owner-invite-description"><button type="button" id="owner-invite-close" class="owner-invite-close" aria-label="Close invitation">×</button><img class="owner-invite-image" src="./showcase-your-club.png" alt="Showcase your Second Life venue on Eventide SL" loading="lazy"><div class="owner-invite-content"><p class="owner-invite-eyebrow">For venue owners</p><h2 id="owner-invite-title">Make your venue shine on Eventide SL</h2><p id="owner-invite-description">Bring your location to life! Add beautiful photos and helpful information so visitors can discover your venue and see what makes it special.</p><p class="owner-invite-venue" id="owner-invite-venue"></p><p style="font-size:12px">Published venues can only be edited by their registered owner. Sign-in is required.</p><div class="owner-invite-actions"><a id="owner-invite-link" class="owner-invite-cta" href="./dashboard.html">Add Images &amp; Information</a><button type="button" class="owner-invite-dismiss" id="owner-invite-dismiss">Maybe later</button></div></div></dialog>
 <button type="button" id="back-to-search" aria-label="Go to top">↑ Go to top</button>
 <a class="add-venue-float" href="./dashboard.html" aria-label="Add your venue">+ Add Your Venue</a>
 <footer><div class="wrap">© <span id="year"></span> Eventide SL. Independent project. Not affiliated with Linden Lab or Second Life.</div></footer>
@@ -196,10 +202,20 @@ function drawVenue(target,c){
  editLink.href='./dashboard.html?'+params.toString();
  editLink.textContent=photos.length?'Edit Images & Information':'Add Images & Information';
  editLink.setAttribute('aria-label',editLink.textContent+' for '+String(c.name||'venue'));
- actions.append(editLink);body.append(actions);
+ const ownerButton=document.createElement('button');ownerButton.type='button';ownerButton.className='owner-trigger';ownerButton.textContent="I'm the owner of this venue";ownerButton.setAttribute('aria-label',"I'm the owner of "+String(c.name||'this venue'));ownerButton.addEventListener('click',()=>openOwnerInvitation(c.name,editLink.href,editLink.textContent));
+ body.append(actions,ownerButton);
  card.append(body);target.append(card);
 }
 
+const ownerInvite=document.getElementById('owner-invite');
+function openOwnerInvitation(name,href,label){
+ document.getElementById('owner-invite-venue').textContent=String(name||'Your venue');
+ const link=document.getElementById('owner-invite-link');link.href=href;link.textContent=label;
+ ownerInvite.showModal();
+}
+document.getElementById('owner-invite-close').addEventListener('click',()=>ownerInvite.close());
+document.getElementById('owner-invite-dismiss').addEventListener('click',()=>ownerInvite.close());
+ownerInvite.addEventListener('click',event=>{if(event.target===ownerInvite)ownerInvite.close();});
 const eventsModal=document.getElementById('venue-events-modal');
 const modalEvents=document.getElementById('modal-events');
 const eventDateFormatter=new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'});
