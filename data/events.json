@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T09:13:16.488166+00:00",
+  "updated_at": "2026-11-19T10:16:27.913718+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -206,11 +206,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491614",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/98dcbcf0-6b31-2a61-7c66-122086c62f46/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🍷 LUXURIOUS MEETING @ [ ROUGE ] 🍷",
@@ -221,20 +220,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504231",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "2:00AM HEDY LIVE @ THE RAFT",
-      "starts_at": "2026-11-19T02:00:00-08:00",
-      "venue": "the RAFT Live Music & More",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9259510",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "CAROLA COVINUS",
@@ -245,9 +233,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507251",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00",
       "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DJ AMY @ WATERMELON SUGAR CLUB",
@@ -258,9 +246,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503874",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "DJ ENNIE EARLY THURSDAY MORNING AT EYE CANDY MUSIC CLUB",
@@ -270,11 +258,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495079",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "~~JOHNNY BELLOWS Live @ The Music Hive at 2am~~",
@@ -284,7 +271,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495390",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -1915,6 +1901,17 @@
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
     },
     {
+      "title": "Mystelle dazzles today at 1 pm!",
+      "starts_at": "2026-11-19T13:00:00-08:00",
+      "venue": "Beau  Monde",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507777",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T10:18:36.013187+00:00"
+    },
+    {
       "title": "PEAK LOUNGE PRESENTS : AUTUMN THURSDAY  PARTY !!!",
       "starts_at": "2026-11-19T13:00:00-08:00",
       "venue": "PEAK Lounge [Since 2014] - [Peace : Love : Music]",
@@ -2221,6 +2218,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Mizzi! Be at Beau Monde for this powerhouse singer 2 pm slt",
+      "starts_at": "2026-11-19T14:00:00-08:00",
+      "venue": "Beau  Monde",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507778",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T10:18:36.013187+00:00"
     },
     {
       "title": "Muddy's Music Cafe with DJ Robbie and Host Heather",
@@ -3166,6 +3174,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T01:25:16.478819+00:00"
+    },
+    {
+      "title": "Harvest of Hits at 6|7 Venue",
+      "starts_at": "2026-11-19T17:00:00-08:00",
+      "venue": "BRM ENT - BRM RADIO - 67 VENUE",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507780",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T10:18:36.013187+00:00"
     },
     {
       "title": "IT'S A \"BLUE-EYE SOUL ARTISTS\" WEEK JAM",
@@ -8906,6 +8925,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Saturday Salle: Birthday Party",
+      "starts_at": "2026-11-21T06:00:00-08:00",
+      "venue": "The Saturday Sale - It is your birthday.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507779",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T10:18:36.013187+00:00"
     },
     {
       "title": "WBH 3D Maze by Almost There",
