@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T10:16:27.913718+00:00",
+  "updated_at": "2026-11-19T11:18:36.090899+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -272,6 +272,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9495390",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -283,6 +285,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507589",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
@@ -294,6 +298,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507657",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/05462998-29f8-98c2-a343-237631dce4ff/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
@@ -305,6 +311,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8648430",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
@@ -316,6 +324,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507253",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
@@ -326,8 +336,9 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489878",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -339,6 +350,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-19T06:13:59.737418+00:00"
     },
     {
@@ -350,6 +363,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9504232",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -361,6 +376,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507591",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
@@ -372,7 +389,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8775097",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
+      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00",
+      "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "CHRISTINE LIVE in LORRIES CLUB AUSTRALIA @ 4 AM SLT",
@@ -383,7 +402,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497284",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00",
+      "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "DJ AIRBETH AND HOST WONDER @ MUDDY'S MUSIC CAFE",
@@ -394,7 +415,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503725",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "DJ AMY HERE AT EYE CANDY MUSIC CLUB 4AM-6AM",
@@ -406,7 +429,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
+      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "DJ DANGER @ WATERMELON SUGAR CLUB",
@@ -417,7 +442,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9503875",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Palace Pirandello - Work & Social",
@@ -429,7 +456,9 @@
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00",
+      "image_url": "https://picture-service.secondlife.com/6d0c446c-26b6-dedb-8ec7-36d732e94abc/256x192.jpg",
+      "image_source": "official_event_photo"
     },
     {
       "title": "Thursday Morning Devotion",
@@ -854,6 +883,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Thursday 19th November line up @ Serimner",
+      "starts_at": "2026-11-19T08:00:00-08:00",
+      "venue": ".:Serimner:.",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507796",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T11:21:00.194424+00:00"
     },
     {
       "title": "WAKE UP PARTY AT WET SPOTBEACH CLUB!",
@@ -1846,6 +1886,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "AT JAKES - DJ DILLEE - THURSDAY!",
+      "starts_at": "2026-11-19T13:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507782",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
+    },
+    {
       "title": "CLAIREDE DIRVAL LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
       "starts_at": "2026-11-19T13:00:00-08:00",
       "venue": "OPPOSITE TO PARADISE CLUB",
@@ -2459,6 +2510,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "AT JAKES - JPX WINKLER - LIVE!",
+      "starts_at": "2026-11-19T15:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507784",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
     },
     {
       "title": "AUFWIE Performs Live  @ Nevermore  3PM , Live Music ! Live Peformance !",
@@ -16544,6 +16606,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJEMBE LIVE @ RAINBOW PAINTERS 1PM SLT",
+      "starts_at": "2026-11-23T12:30:00-08:00",
+      "venue": "RAINBOW PAINTERS ART GALLERY",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507788",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T11:21:00.194424+00:00"
     },
     {
       "title": "1PM ORNY FORCELLA SINGS TODAY AT THE SHEWORTHY",
@@ -51966,6 +52039,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "⭐🎵⭐ 1 PM: JEFFAH live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-14T13:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507781",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "💜 Mental Health Support Group 💜",
       "starts_at": "2026-12-14T13:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -52027,6 +52111,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9493128",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 2 PM: MAX KLEENE live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-14T14:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507783",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -52716,6 +52811,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "⭐🎵⭐ 12 PM: TILLEN AVERS live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-15T12:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507785",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🎉 DJ Mordecai Brings 🌮 The Taco Tunesday Party 🌮 To INdustry! 🎉",
       "starts_at": "2026-12-15T12:00:00-08:00",
       "venue": "[IN]dustry Nightclub <> www.INdustryClubSL.com",
@@ -52735,6 +52841,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9476997",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 1 PM: LISA BRUNE live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-15T13:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507786",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -53742,6 +53859,17 @@
       "venue_photo_checked_at": "2026-11-13T11:09:10.478049+00:00"
     },
     {
+      "title": "⭐🎵⭐ 12 PM: AMFORTE live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-16T12:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507787",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "1PM ANNI MARTIN SINGS TODAY AT THE SHEWORTHY",
       "starts_at": "2026-12-16T13:00:00-08:00",
       "venue": "The Sheworthy",
@@ -53784,6 +53912,17 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9478729",
       "teleport_url": null,
       "maturity": "Unspecified",
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 1 PM: NONAH REEVES live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-16T13:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507789",
+      "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -54820,6 +54959,17 @@
       "venue_photo_checked_at": "2026-11-11T21:44:11.311782+00:00"
     },
     {
+      "title": "⭐🎵⭐ 1 PM: DJEMBE LIVE ON VIDEO @ The Golden Hour Club  ⭐🎵⭐",
+      "starts_at": "2026-12-17T13:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507790",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Bri  @ Cabo Swingers'",
       "starts_at": "2026-12-17T14:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -54873,6 +55023,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 2 PM: JO BIG LIVE ON VIDEO @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-17T14:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507791",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "COME PARTY w/ ANTIQUITIN",
@@ -55643,6 +55804,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "⭐🎵⭐ 12 PM: JESIKA WIREFLY live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-18T12:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507792",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Eric at Roissy VdO - Friday at 1 pm",
       "starts_at": "2026-12-18T13:00:00-08:00",
       "venue": "Roissy Val d'Oise",
@@ -55685,6 +55857,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 1 PM: LILY ZANE live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-18T13:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507793",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": ".wav Friday Residency - December 18th",
@@ -56664,6 +56847,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "⭐🎵⭐ 1 PM: TAY live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-19T13:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507794",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Aleykat sings at Sapphire at 2 PM",
       "starts_at": "2026-12-19T14:00:00-08:00",
       "venue": "Sapphire Beach Club - LM",
@@ -56761,6 +56955,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "⭐🎵⭐ 2 PM: CORALIE live @ The Golden Hour Club ⭐🎵⭐",
+      "starts_at": "2026-12-19T14:00:00-08:00",
+      "venue": "[The Golden Hour Club] * Live Music & Dance *",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507795",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Gailybean @ GEN XYZ!!!",
