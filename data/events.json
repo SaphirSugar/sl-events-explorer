@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T22:55:57.689585+00:00",
+  "updated_at": "2026-11-19T23:54:58.940857+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1812,17 +1812,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "LAZARUS DOGHOUSE IS BRINGING THE BLUES TO CAFE MUSIQUE!",
-      "starts_at": "2026-11-19T13:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8841831",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "Masha live at The Hidden Melody",
       "starts_at": "2026-11-19T13:00:00-08:00",
       "venue": "The Hidden Melody",
@@ -2208,17 +2197,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "PENSACOLA PETE LIVE AT CAFE MUSIQUE",
-      "starts_at": "2026-11-19T14:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8991656",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "POOL PARTY with DJ Titine!!",
       "starts_at": "2026-11-19T14:00:00-08:00",
       "venue": "IGLOO VILLAGE & SILVER PEARL BEACH",
@@ -2436,17 +2414,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
-    },
-    {
-      "title": "ACOUSTIC JOURNEYS WITH TROUBADOUR AT CAFE MUSIQUE",
-      "starts_at": "2026-11-19T15:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8982829",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "AT JAKES - JPX WINKLER - LIVE!",
@@ -3749,6 +3716,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "FEEL THE JUKEBOX DIFFERENCE w/ DJ FIEGER @ STARFALL 6pm SLT",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "Starfall 5.1 The Refuge of Awesome!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507999",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T23:57:56.555240+00:00"
+    },
+    {
       "title": "GANDALF MORNINGTON LIVE AT KITTENZ",
       "starts_at": "2026-11-19T18:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -4157,6 +4135,17 @@
     },
     {
       "title": "🎶🔥 DJ LOROSSA -- RETRO NIGT @ AURA 🔥🎶",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "MAIN STAGE - AURA ENTERTAINMENT",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9506332",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T04:23:52.006905+00:00"
+    },
+    {
+      "title": "🎶🔥 DJ RENEGADO -- RETRO NIGT @ AURA 🔥🎶",
       "starts_at": "2026-11-19T18:00:00-08:00",
       "venue": "MAIN STAGE - AURA ENTERTAINMENT",
       "category": "Live DJ",
@@ -5124,6 +5113,17 @@
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
     },
     {
+      "title": "DJ CHRISTINE GRACE HOST HOBAB @ LORRIE'S CLUB AUSTRALIA",
+      "starts_at": "2026-11-20T00:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507989",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "DJ JADE @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-20T00:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -5247,6 +5247,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "🎸🔥 Classic Rock Hits 🎸🔥",
+      "starts_at": "2026-11-20T01:00:00-08:00",
+      "venue": "Chequers Nightclub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507997",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T23:57:56.555240+00:00"
     },
     {
       "title": "🍑 SIN & SILK @ ROUGE 🍑",
@@ -6565,6 +6576,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "SAVAGE RHYTHM~DJ JACK TURNING GOOD MUSIC INTO A GREAT FRIDAY NIGHT! 12-2P",
+      "starts_at": "2026-11-20T12:00:00-08:00",
+      "venue": "~*~ Savage Rhythm ~*~",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507991",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "The Friday Frolic with DJ Bailey",
       "starts_at": "2026-11-20T12:00:00-08:00",
       "venue": "LONDON CITY - Madame Lala's Revue Bar",
@@ -7258,6 +7280,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "SAVAGE RHYTHM~DJ LOU...BRING YOUR BOOTY. LEAVE YOUR BORING BEHIND!! 2-4P slt",
+      "starts_at": "2026-11-20T14:00:00-08:00",
+      "venue": "~*~ Savage Rhythm ~*~",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507996",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "SOME T JUP @ MSKATT 2 PM SLT",
       "starts_at": "2026-11-20T14:00:00-08:00",
       "venue": "Eastern Spell - MsKatt Saloon",
@@ -7421,6 +7454,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "FREAKIN' FRIDAY BLUES at HOTLANTA BLUES CLUB!!! - Easy, Dan, Falk - NOW HIRING!",
+      "starts_at": "2026-11-20T15:00:00-08:00",
+      "venue": "Hotlanta Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8906365",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "FULL PERM MESH by Llola Lane.. ALL holidays",
@@ -9287,6 +9331,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "Bright Oh 4AM @ The Garden",
+      "starts_at": "2026-11-21T04:00:00-08:00",
+      "venue": "The Waterfront",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507993",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T23:57:56.555240+00:00"
     },
     {
       "title": "DJ Y4N @ WATERMELON SUGAR CLUB",
@@ -16425,6 +16480,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Bright Oh 3AM @ The Warehouse",
+      "starts_at": "2026-11-23T03:00:00-08:00",
+      "venue": "The Waterfront",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507995",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T23:57:56.555240+00:00"
+    },
+    {
       "title": "🍓𝙳𝙸𝚁𝚃𝚈 𝙳𝙴𝙴𝙳𝚂 @ { 𝚁𝙾𝚄𝙶𝙴 }🍓",
       "starts_at": "2026-11-23T03:00:00-08:00",
       "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -21700,6 +21766,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ YAN & HOST BETTY @ LORRIES CLUB AUSTRALIA",
+      "starts_at": "2026-11-25T02:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507244",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "RONA SINGER BRINGS A VOICE FOR EVERY SONG TO CAFE MUSIQUE",
       "starts_at": "2026-11-25T02:00:00-08:00",
       "venue": "Cafe Musique",
@@ -24536,6 +24613,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "LADY FORTRESS & THEO LIVE @ LORRIE'S CLUB AUSTRALIA",
+      "starts_at": "2026-11-26T01:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507988",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "~~VIKTOR KRAVEN Live @ The Music Hive at 1AM~~",
       "starts_at": "2026-11-26T01:00:00-08:00",
       "venue": "The Music Hive",
@@ -24595,6 +24683,17 @@
     },
     {
       "title": "CAROLA COVINUS",
+      "starts_at": "2026-11-26T02:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507252",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "CAROLA COVINUS LIVE @ LORRIE'S CLUB AUSTRALIA",
       "starts_at": "2026-11-26T02:00:00-08:00",
       "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
       "category": "Live Music",
@@ -25472,6 +25571,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505146",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "LAZARUS DOGHOUSE IS BRINGING THE BLUES TO CAFE MUSIQUE!",
+      "starts_at": "2026-11-26T13:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8841831",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -26917,6 +27027,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "DJ CHRISTINE GRACE HOST HOBAB @ LORRIE'S CLUB AUSTRALIA",
+      "starts_at": "2026-11-27T00:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507990",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "DJ JADE @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-27T00:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -27617,6 +27738,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "SAVAGE RHYTHM~DJ JACK TURNING GOOD MUSIC INTO A GREAT FRIDAY NIGHT! 12-2P",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "~*~ Savage Rhythm ~*~",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507992",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Tillen sings at Sanctuary at 12 PM",
@@ -29256,6 +29388,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "HUICHI LIVE @ LORRIE'S CLUB AUSTRALIA",
+      "starts_at": "2026-11-27T21:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507987",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "❤️FOXXIES FRI DJ FOXXEE🌹9PM ROMANCE DANCING CLOUDS FRANKS FRANK'S HARMONY HOTWIFE WEARHOUSE",
@@ -31815,6 +31958,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "NOHJ LIVE @ LORRIE'S CLUB AUSTRALIA",
+      "starts_at": "2026-11-28T20:00:00-08:00",
+      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507985",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "Raid to Valhalla with DJ Hawk @ SAVAGES!",
@@ -39794,6 +39948,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "PENSACOLA PETE LIVE AT CAFE MUSIQUE",
+      "starts_at": "2026-12-03T14:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8991656",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "THURSDAY COUNTRY! LET'S TURN THE WHOLE TOWN UP!",
       "starts_at": "2026-12-03T14:00:00-08:00",
       "venue": "WILDCAT COUNTRY",
@@ -39822,6 +39987,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507953",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "ACOUSTIC JOURNEYS WITH TROUBADOUR AT CAFE MUSIQUE",
+      "starts_at": "2026-12-03T15:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8982829",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -39877,6 +40053,17 @@
       "category": "Games & Contests",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9502070",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "REED HARRIS LIVE AT KITTENZ",
+      "starts_at": "2026-12-03T16:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501083",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -40322,6 +40509,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "♫ LO❤️E of Music 🎧 DJ Addi & DJ Patrick @ ❤️La Bella❤️~Love of Music Entertainment~",
+      "starts_at": "2026-12-03T18:00:00-08:00",
+      "venue": "~Love Of Music Entertainment~ La Bella Ballroom",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507998",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
       "title": "❤️FOXXIES THURS DJ FOXXEE❤️6PM DANCING BALLROOM HARMONY ROMANTIC FRANKS FRANK'S LOVE 511",
       "starts_at": "2026-12-03T18:00:00-08:00",
       "venue": "*FOXXIES ROMANTIC BALLROOM ELEGANT JAZZ CLUB DANCING & GARDENS",
@@ -40427,6 +40625,17 @@
       "category": "Nightlife & Entertainment",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9481203",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "JUSTINE JOHNDORY LIVE AT KITTENZ",
+      "starts_at": "2026-12-03T19:00:00-08:00",
+      "venue": "Kittenz Kreation - https://kittenzkreations.club/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9499382",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
