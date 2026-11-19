@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T19:06:21.910289+00:00",
+  "updated_at": "2026-11-19T20:11:42.368541+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1669,17 +1669,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "WorldJive with Sunny @WBH",
-      "starts_at": "2026-11-19T12:00:00-08:00",
-      "venue": "WBH Sunvibes Chill / World Music",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9414034",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
-    },
-    {
       "title": "⭐SANDY CREEK BEACH PARTY STARTING WITH SAINTESS LARNIA ⭐",
       "starts_at": "2026-11-19T12:00:00-08:00",
       "venue": "Sandy Creek // Music & Games",
@@ -1689,17 +1678,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-17T20:15:38.759048+00:00"
-    },
-    {
-      "title": "🌟Gran Finale Presents: DJ Ella 🌟",
-      "starts_at": "2026-11-19T12:00:00-08:00",
-      "venue": "Gran Finale",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9491755",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "🍒 STAIRWAY TO HEAVEN @ [ROUGE] 🍒",
@@ -2221,6 +2199,17 @@
       "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
+      "title": "EVAN WILLIAMS, Live singer  @ THE NIGHT OWL",
+      "starts_at": "2026-11-19T14:00:00-08:00",
+      "venue": "M.T. - THE NIGHT OWL",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7156714",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
+    },
+    {
       "title": "GROOVE WITH THE TUNES- DJ ROBBIE HAS THE BEATS",
       "starts_at": "2026-11-19T14:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -2384,6 +2373,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "ULTRA VIBE SESSIONS @ LIV ULTRAVIOLET 2-10pm - PROGRESSIVE & TECH HOUSE (4 DJS)",
+      "starts_at": "2026-11-19T14:00:00-08:00",
+      "venue": "LIV ULTRAVIOLET NIGHT CLUB & BEACH COMMUNITY - DJs thurs-sat",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507920",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T20:14:07.606258+00:00"
     },
     {
       "title": "Ugly Bill live in Dublin",
@@ -3326,6 +3326,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9447885",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "JustinElias Performs at Voodoo Bayou Blues",
+      "starts_at": "2026-11-19T17:00:00-08:00",
+      "venue": "VOODOO BAYOU BLUES~ A FAMILY FRIENDLY BLUES JOINT AND MORE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507922",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
@@ -5652,6 +5663,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ MELO AND HOST LUCIO AT WET SPOT WAKING YOU UP WITH TUNES AND FUN!",
+      "starts_at": "2026-11-20T08:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507921",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
+    },
+    {
       "title": "DJ SOY @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-20T08:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -5859,6 +5881,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ ENI  AND HOST KULUS AT WET SPOT BEACH CLUB!",
+      "starts_at": "2026-11-20T10:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507923",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "DJ Radio LaLa Classic Rock 80s Disco 70s@ The Midnight Cabaret",
@@ -6279,6 +6312,17 @@
       "venue_photo_checked_at": "2026-11-17T23:58:24.089566+00:00"
     },
     {
+      "title": "DJ ARNOLD  SPINNING AT WET SPOT BEACH CLUB!",
+      "starts_at": "2026-11-20T12:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507924",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
+    },
+    {
       "title": "DJ Angelicious 12PM live @ the ELEVEN",
       "starts_at": "2026-11-20T12:00:00-08:00",
       "venue": "ONP  Event Distict - DIAMOND Ent.",
@@ -6431,6 +6475,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "PARADORN ANSAR live singer @THE NIGHT OWL",
+      "starts_at": "2026-11-20T12:00:00-08:00",
+      "venue": "M.T. - THE NIGHT OWL",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8094416",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
       "title": "Ronnie Mayes LIVE @ The Shack",
@@ -6706,6 +6761,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "JALAYO, Live singer, debuts @ THE NIGHT OWL",
+      "starts_at": "2026-11-20T13:00:00-08:00",
+      "venue": "M.T. - THE NIGHT OWL",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9363388",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
       "title": "JO BIG LIVE ON VIDEO @ CHANTY STYLE",
@@ -7080,6 +7146,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "PARTY TIME AGAIN AT WET SPOT BEACH CLUB < BRING YOUR FRIENDS AND COME MAKE NEW FRIENDS!",
+      "starts_at": "2026-11-20T14:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507925",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "PRETO, live singer debuts @ THE NIGHT OWL",
@@ -10224,6 +10301,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "SATURDAY21STAT WYLDE CLUB  WITH  GAZ DEMURE  and DJ ADAM",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "WYLDE",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507919",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T20:14:07.606258+00:00"
     },
     {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
