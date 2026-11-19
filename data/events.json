@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T20:11:42.368541+00:00",
+  "updated_at": "2026-11-19T20:59:32.724570+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1240,17 +1240,6 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
-      "title": "Thursday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
-      "starts_at": "2026-11-19T11:00:00-08:00",
-      "venue": "Virtual Hotel Chelsea NYC - Coffee House",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9128219",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
-    },
-    {
       "title": "We're 🎸 Rockin Thursdays 🕹️ Back To The 80s! 🕶️ With DJ Butterfly",
       "starts_at": "2026-11-19T11:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -1645,17 +1634,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-17T02:28:00.166953+00:00"
-    },
-    {
-      "title": "WILL LEBLANC LIVE AT CAFE MUSIQUE!",
-      "starts_at": "2026-11-19T12:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9033847",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Warehouse 21 ★ [trance, techno, house, afro, progressive, organic]",
@@ -3989,6 +3967,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-19T03:05:07.066443+00:00"
+    },
+    {
+      "title": "Subsonic Underground Grand Opening",
+      "starts_at": "2026-11-19T18:00:00-08:00",
+      "venue": "SUBSONIC - Feel the Frequency Live Mix DJs  Music Hangout",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507932",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T21:02:18.030154+00:00"
     },
     {
       "title": "THURSDAY AFTERNOON, NOON-6 PM SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
@@ -10226,6 +10215,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Katiaportugal @Mato's Marina",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "Mato's Marina",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507929",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T21:02:18.030154+00:00"
+    },
+    {
       "title": "LEO BRIND @ GUTHRIES  12 PM SL!",
       "starts_at": "2026-11-21T12:00:00-08:00",
       "venue": "GUTHRIES FOLK CLUB",
@@ -10609,6 +10609,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "Mavenn @Mato's Marina",
+      "starts_at": "2026-11-21T13:00:00-08:00",
+      "venue": "Mato's Marina",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507931",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T21:02:18.030154+00:00"
     },
     {
       "title": "PUTRI SOLO LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -11346,6 +11357,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
+    },
+    {
+      "title": "Artificial Intelligence \"Concert\"",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "Club Valhalla Reborn",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507933",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T21:02:18.030154+00:00"
     },
     {
       "title": "CAMME CARVER LIVE 4PM@SEA BORNE SOUNDS",
@@ -19626,6 +19648,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ Madison live at The Dawn Star",
+      "starts_at": "2026-11-24T12:00:00-08:00",
+      "venue": "The Dawn Star",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504286",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ REIGN BRINGS BLUES to FOGBOUND",
       "starts_at": "2026-11-24T12:00:00-08:00",
       "venue": "FogBound Blues",
@@ -25002,6 +25035,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Thursday Word Inspired Poetry @ Hotel Chelsea's Coffee House",
+      "starts_at": "2026-11-26T11:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - Coffee House",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9128219",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
       "title": "VELVET ROSE PERFORMING LIVE AT CAFE MUSIQUE!",
@@ -39231,6 +39275,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "WILL LEBLANC LIVE AT CAFE MUSIQUE!",
+      "starts_at": "2026-12-03T12:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9033847",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Warehouse 21 ★ [trance, techno, house, afro, progressive, organic]",
