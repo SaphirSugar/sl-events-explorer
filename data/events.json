@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T21:57:26.701197+00:00",
+  "updated_at": "2026-11-19T22:55:57.689585+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1416,28 +1416,6 @@
       "venue_photo_checked_at": "2026-11-16T04:23:52.006905+00:00"
     },
     {
-      "title": "Cyberia Karaoke",
-      "starts_at": "2026-11-19T12:00:00-08:00",
-      "venue": "Cyberia Karaoke",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
-    },
-    {
-      "title": "Cyberia Openstage",
-      "starts_at": "2026-11-19T12:00:00-08:00",
-      "venue": "Cyberia Openstage",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
-    },
-    {
       "title": "DJ Chalista Cinematic Journeys at The Midnight Cabaret",
       "starts_at": "2026-11-19T12:00:00-08:00",
       "venue": "The Midnight Cabaret",
@@ -2175,17 +2153,6 @@
       "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
-      "title": "GROOVE WITH THE TUNES- DJ ROBBIE HAS THE BEATS",
-      "starts_at": "2026-11-19T14:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9488216",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "JOE PARAVANE LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
       "starts_at": "2026-11-19T14:00:00-08:00",
       "venue": "OPPOSITE TO PARADISE CLUB",
@@ -2217,17 +2184,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T10:15:06.796490+00:00"
-    },
-    {
-      "title": "MUDDY'S presents  DJ AMFIE & host Kate Thursday from 8-10 AM",
-      "starts_at": "2026-11-19T14:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502774",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Mizzi! Be at Beau Monde for this powerhouse singer 2 pm slt",
@@ -4827,6 +4783,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "SAVAGE RHYTHM~DJ JAISYN AND JUN.. TROUBLE TIMES 2!!  HOT BEATS and HUGE FUN!  8-10PSLT",
+      "starts_at": "2026-11-19T20:00:00-08:00",
+      "venue": "~*~ Savage Rhythm ~*~",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9501166",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Short Science Fiction Stories",
       "starts_at": "2026-11-19T20:00:00-08:00",
       "venue": "The Cat's Tale Cafe",
@@ -6354,6 +6321,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "Cyberia Karaoke",
+      "starts_at": "2026-11-20T12:00:00-08:00",
+      "venue": "Cyberia Karaoke",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
+    },
+    {
+      "title": "Cyberia Openstage",
+      "starts_at": "2026-11-20T12:00:00-08:00",
+      "venue": "Cyberia Openstage",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-16T20:59:02.459827+00:00"
     },
     {
       "title": "DANDY PIANOMAN WILL BLOW YOU AWAY AT CAFE MUSIQUE!",
