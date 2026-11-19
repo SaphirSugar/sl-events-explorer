@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-19T17:16:47.098894+00:00",
+  "updated_at": "2026-11-19T18:01:07.407208+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -578,17 +578,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "RONA SINGER BRINGS A VOICE FOR EVERY SONG TO CAFE MUSIQUE",
-      "starts_at": "2026-11-19T06:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8355948",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "ROWDY THURSDAY WITH DJ KRAY 6-8 AM SLT",
       "starts_at": "2026-11-19T06:00:00-08:00",
       "venue": "WILDCAT COUNTRY",
@@ -782,17 +771,6 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495900",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "FARJAMETA AT CAFE MUSIQUE BRINGS SOULFUL SOUNDS FROM INDONESIA",
-      "starts_at": "2026-11-19T08:00:00-08:00",
-      "venue": "Cafe Musique",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8201330",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -5903,6 +5881,17 @@
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
+      "title": "MUDDY'S MUSIC CAFE PRESENTS DJ LEGENDARY AND LIFE AT 10 AM!!!",
+      "starts_at": "2026-11-20T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507889",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "SL'S BIGGEST ROCK SHOW DJ ANGELOS AT THE PURRL'S CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-11-20T10:00:00-08:00",
       "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
@@ -7386,6 +7375,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Cannabis Librarian on Duty",
+      "starts_at": "2026-11-20T16:00:00-08:00",
+      "venue": "_\\l/_  Cannabis Creation & Library  _\\l/_ Public Library",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507882",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "DJ Charlotte plays at The Midnight Cabaret",
@@ -9893,6 +9893,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "JAIK MARIO @ GUTHRIES  11 AM SL!",
+      "starts_at": "2026-11-21T11:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507876",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
       "title": "Latex Saturday \"Let's get physical\" DJ Stevie @ The Twisted Orchid Fetish & BDSM Club",
       "starts_at": "2026-11-21T11:00:00-08:00",
       "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
@@ -10090,6 +10101,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "LEO BRIND @ GUTHRIES  12 PM SL!",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507877",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
       "title": "Live Opera Singer MerryJest Starchild at Varro Theater",
@@ -10321,6 +10343,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "DENNYMAC @ GUTHRIES  1 PM SL!",
+      "starts_at": "2026-11-21T13:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507878",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
       "title": "DJ Blu@fogbound 1p-3p slt",
@@ -10763,6 +10796,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "MRMULTI AND FRIENDS @ GUTHRIES  2 PM SL!",
+      "starts_at": "2026-11-21T14:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507879",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
       "title": "Magnus at Rock Ness!",
       "starts_at": "2026-11-21T14:00:00-08:00",
       "venue": "Rock Ness on Loch Ness, Brody Estate, Highlands of Scotland",
@@ -10994,6 +11038,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FRIAR FOX @ GUTHRIES  3 PM SL!",
+      "starts_at": "2026-11-21T15:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507880",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
+    },
+    {
       "title": "Fil Rowans At Pirette's Music Cove (PMC)",
       "starts_at": "2026-11-21T15:00:00-08:00",
       "venue": "Pirette's Music Cove",
@@ -11159,6 +11214,17 @@
       "venue_photo_checked_at": "2026-11-05T23:52:27.836986+00:00"
     },
     {
+      "title": "CAMME CARVER LIVE 4PM@SEA BORNE SOUNDS",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "~ Sea Borne Sounds ~",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507886",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-19T18:03:20.415416+00:00"
+    },
+    {
       "title": "DJ BLUES BRINGS ROCK W/O APOLOGIES TO SAVAGES!",
       "starts_at": "2026-11-21T16:00:00-08:00",
       "venue": "Savages- We are Hiring DJs and Hosts",
@@ -11223,6 +11289,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "ERIC STEFFENSEN @ GUTHRIES  4 PM SL!",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507881",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
       "title": "Humane Society Anniversary Day",
@@ -15280,6 +15357,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🐊 ROCK GODDESS DJ SHERRY IS ROCKIN THE CLASSICS AT WET WILLIES!!",
+      "starts_at": "2026-11-22T18:00:00-08:00",
+      "venue": "WET WILLIES CLASSIC ROCK CLUB",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507890",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "💎 𝐃𝐈𝐀𝐌𝐎𝐍𝐃 𝐃𝐎𝐋𝐋𝐒 𝐒𝐇𝐎𝐖 @ 𝐑𝐎𝐔𝐆𝐄💎",
@@ -24353,6 +24441,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FARJAMETA AT CAFE MUSIQUE BRINGS SOULFUL SOUNDS FROM INDONESIA",
+      "starts_at": "2026-11-26T08:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8201330",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "MUDDY'S presents  DJ AMFIE & host Kate Thursday from 8-10 AM",
       "starts_at": "2026-11-26T08:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -27549,6 +27648,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Cannabis Librarian on Duty",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "_\\l/_  Cannabis Creation & Library  _\\l/_ Public Library",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507883",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "DJ Charlotte plays at The Midnight Cabaret",
@@ -38483,6 +38593,17 @@
       "category": "Discussion",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505648",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "RONA SINGER BRINGS A VOICE FOR EVERY SONG TO CAFE MUSIQUE",
+      "starts_at": "2026-12-03T06:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8355948",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
