@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-20T18:02:42.876355+00:00",
+  "updated_at": "2026-11-20T19:13:19.461199+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1383,17 +1383,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
-      "title": "Sassy Nitely sings live at Sanctuary at",
-      "starts_at": "2026-11-20T11:00:00-08:00",
-      "venue": "Sanctuary, EST. 2008",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9490979",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Sassy Nitely sings live at Sanctuary at 11 AM",
@@ -6848,6 +6837,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Magical Saturdays @ Roadhouse Bayou~ 12:00 to 2:00 PM SLT",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "Roadhouse Bayou",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508288",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-20T19:15:43.980145+00:00"
     },
     {
       "title": "Muddy's Music Cafe with DJ Legendary and Host Heather",
