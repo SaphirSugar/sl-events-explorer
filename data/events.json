@@ -1,373 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-20T10:12:36.231054+00:00",
+  "updated_at": "2026-11-20T11:11:01.767978+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
-    {
-      "title": "DJ CHRISTINE GRACE HOST HOBAB @ LORRIE'S CLUB AUSTRALIA",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9507989",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
-    },
-    {
-      "title": "DJ JADE @ WATERMELON SUGAR CLUB",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "WATERMELON SUGAR COUNTRY",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504324",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
-    },
-    {
-      "title": "HAPPINESS CAN HAPPEN FOR YOU AT FRANK'S ELITE",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "Franks Elite Jazz Club - Elegant Romance",
-      "category": "Miscellaneous",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7997260",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
-      "title": "MUDDY'S MUSIC CAFE PRESENTS DJ TWSTD & JP. 12 TO 2 A.M.",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9498070",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "Warehouse 21 ★ [progressive, house, techno, trance]",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "Warehouse 21",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9498915",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/40c64ae4-5348-339e-7e6d-dc1f6cf1d2ee/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "🎧 BIG DADDY'S FRI DJ TUNES 70'S 80'S 90'S CLUB DANCE ROCK MUSIC 70S 80S 90S BIG DADDYS COUNTRY",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "BIG DADDY'S MUSIC CLUB (PG) 16 YRS OF MUSIC & FUN IN SL",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9487159",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/479843dd-33c7-4626-3521-d98b24d53292/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "😈 FETISH FRIDAY😈 [DEMONIA CLUB ELITE LOUNGE]",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "+DEMONIA CLUB+ ELITE LOUNGE - NOW HIRING!",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502500",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/6799ca0b-e552-bfec-87da-73a7ce02a714/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-08T01:13:22.949493+00:00"
-    },
-    {
-      "title": "🦌 BTBD Little Dasher bear",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
-      "category": "Commercial",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504810",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/6154ec5d-a0bd-5117-e9b5-524aa31101c2/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "🪭Lantern Heat @ O K I Y A🪭",
-      "starts_at": "2026-11-20T00:00:00-08:00",
-      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT - CAM - VOICE - LOVENSE",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508008",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
-    },
-    {
-      "title": "Akikazu Afro House",
-      "starts_at": "2026-11-20T00:30:00-08:00",
-      "venue": "\"Le Chapiclub\" - Le Club du Cafe Sympa",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9506611",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/6ec8a8c9-6163-2756-dd2f-ef9918da21d5/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-16T22:57:16.260505+00:00"
-    },
-    {
-      "title": "PEAK LOUNGE PRESENTS : FRIDAY  AUTUMN  PARTY !!!",
-      "starts_at": "2026-11-20T00:30:00-08:00",
-      "venue": "PEAK Lounge [Since 2014] - [Peace : Love : Music]",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508001",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/334fe947-e1e0-f164-f624-ec287cf3a0f1/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-19T03:05:07.066443+00:00"
-    },
-    {
-      "title": "👑 𝐇𝐈𝐑𝐈𝐍𝐆 𝐂𝐎𝐔𝐑𝐓𝐄𝐒𝐀𝐍𝐒 @ 𝐑𝐎𝐔𝐆𝐄 👑",
-      "starts_at": "2026-11-20T00:30:00-08:00",
-      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504718",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
-    },
-    {
-      "title": "DJ NIBZ at The Cage Club",
-      "starts_at": "2026-11-20T01:00:00-08:00",
-      "venue": "Cage Club BDSM and D/s - Play, toys, sandbox - HIRING -",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9497368",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/50d47052-181f-d57b-b611-6627dca1d6db/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "FAB FRIDAY w/ ARVORIE - CLUB MISFIT -  1AM",
-      "starts_at": "2026-11-20T01:00:00-08:00",
-      "venue": "Club Misfit/Riddick Riders",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508007",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-20T02:27:58.839482+00:00"
-    },
-    {
-      "title": "🎸🔥 Classic Rock Hits 🎸🔥",
-      "starts_at": "2026-11-20T01:00:00-08:00",
-      "venue": "Chequers Nightclub",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9507997",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/9a026373-7079-147a-7767-93d486501500/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-19T23:57:56.555240+00:00"
-    },
-    {
-      "title": "🪭Under the Red Moon @ O K I Y A🪭",
-      "starts_at": "2026-11-20T01:00:00-08:00",
-      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT - CAM - VOICE - LOVENSE",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508009",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
-    },
-    {
-      "title": "🍑 SIN & SILK @ ROUGE 🍑",
-      "starts_at": "2026-11-20T01:30:00-08:00",
-      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504719",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
-    },
-    {
-      "title": "ALDERON LIVE @ LORRIE'S CLUB AUSTRALIA",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9507256",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
-    },
-    {
-      "title": "DJ XAN @ WATERMELON SUGAR CLUB",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "WATERMELON SUGAR COUNTRY",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504325",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
-    },
-    {
-      "title": "FAB FRIDAY W/ DOWNUNDER @ CLUB MISFIT",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "Club Misfit/Riddick Riders",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508010",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/d5dc6bac-771e-a601-98c0-cc53eea28c38/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-20T02:27:58.839482+00:00"
-    },
-    {
-      "title": "THE BOYS ARE BACK IN TOWN. DJ ROBBIE AND JP 2 AM TO 4 A.M.",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9474531",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "~~JOHNNY BELLOWS @ Endless Summer Club at 2AM~~",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "~~ESC~~Home Away From Home",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9494953",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/4f383844-3bf8-df88-9805-9a16ebedefca/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
-      "title": "🎉✨ FRIDAY NIGHT (OR REALLY EARLY MORNING!) at EYE CANDY! 💋",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "Eye Candy Music Club",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9500459",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "🎙️✨ ELLIE SKYLARK *LIVE* AT LOVE & HARMONY Fridays • 2 AM TO 3 AM SLT✨🎙️",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9506966",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/4fe00c63-da24-604d-49fb-19b2adb9e913/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
-    },
-    {
-      "title": "🎵Putri Live at Pitch Perfect! 2AM🎵",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "Pitch Perfect",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9500120",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/c9b93823-7468-3ccc-f3a2-6dc599c31b96/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "💗 GENDER REVEAL DECORATIONS",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "Baby Twinkle boutique & Deco (animesh and prim baby's )",
-      "category": "Commercial",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504808",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/6154ec5d-a0bd-5117-e9b5-524aa31101c2/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "🪭Lucky in Lust @ O K I Y A🪭",
-      "starts_at": "2026-11-20T02:00:00-08:00",
-      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT - CAM - VOICE - LOVENSE",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508011",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
-    },
-    {
-      "title": "DJ Talya @ The Music Factory 6 pm SLT!",
-      "starts_at": "2026-11-20T02:30:00-08:00",
-      "venue": ".::The Music Factory::.",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9485600",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
-      "image_url": "https://picture-service.secondlife.com/54ed7a3b-cf8d-4a62-43be-95421e7d6023/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
     {
       "title": "English Class. Voice. Comprehension/Listening",
       "starts_at": "2026-11-20T03:00:00-08:00",
@@ -377,62 +12,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505958",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00",
       "image_url": "https://picture-service.secondlife.com/c1af9828-b4e2-d741-95cf-8bb240506dac/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "🍒 NEW TO THE ADULT INDUSTRY? 🍒",
-      "starts_at": "2026-11-20T03:00:00-08:00",
-      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504720",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
-      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "🎵Rona Live at Pitch Perfect! 3AM🎵",
-      "starts_at": "2026-11-20T03:00:00-08:00",
-      "venue": "Pitch Perfect",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9500132",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
-      "image_url": "https://picture-service.secondlife.com/c9b93823-7468-3ccc-f3a2-6dc599c31b96/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "💦👅 Are you a pervert? Then join us! In our land, anything goes! Set yourself free! 🍆🍑",
-      "starts_at": "2026-11-20T03:00:00-08:00",
-      "venue": "! PERVERTS !",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-20T07:29:02.605864+00:00",
-      "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "🪭 House of Silk @ O K I Y A🪭",
-      "starts_at": "2026-11-20T03:00:00-08:00",
-      "venue": "; O K I Y A ;  ADULT ENTERTAINMENT - CAM - VOICE - LOVENSE",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508012",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00",
-      "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "**Friday Morning Devotion**",
@@ -698,6 +280,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-20T07:29:02.605864+00:00"
+    },
+    {
+      "title": "**Friday Morning Prayer**",
+      "starts_at": "2026-11-20T07:00:00-08:00",
+      "venue": "God's House of Prayer Church - Main campus",
+      "category": "Spirituality",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9499337",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Cozy Thanksgiving event at Wonderland Beach",
@@ -24090,13 +23683,13 @@
     {
       "title": "🎄  Strum Diesel -  12:00 PM (NOON) - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T12:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504152",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎧 THE VELVET HOUSE PRESENTS: DJ SUPERPIMP ULF 🎧",
@@ -24299,13 +23892,13 @@
     {
       "title": "🎄 Shannon Oherlihy - 1:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T13:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504158",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎶 Time To Go 🕹️ Back To The 80s 🕶️ For Mordecai's TGI Friday Party! 🎶",
@@ -24475,13 +24068,13 @@
     {
       "title": "🎄 Casaenia Baxton - 2:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T14:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504171",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎤🌟 Djembe Live @ Shepherd’s Club 🌟🎤",
@@ -24585,13 +24178,13 @@
     {
       "title": "🎄 Tay - 3:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T15:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504172",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎄 Tay - 3:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
@@ -24816,13 +24409,13 @@
     {
       "title": "🎄 Talon - 4:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T16:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504173",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🐸 DJ Nej & Lily, 4-6PM 🐸",
@@ -24992,13 +24585,13 @@
     {
       "title": "🎄 Vampink - 5:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T17:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504174",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "😍 FALLING INTO TEMPTATION @ [ ROUGE ] 😍",
@@ -25245,13 +24838,13 @@
     {
       "title": "🎄 Mike McAlpine - 6:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T18:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504175",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎉🎲 BINGO PARTY AT THE BLIND PIG! 🎲🎉",
@@ -25476,13 +25069,13 @@
     {
       "title": "🎄 SaraMarie Philly - 7:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T19:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504176",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "DJ Molokai at Club Indecent at Cabo",
@@ -25674,13 +25267,13 @@
     {
       "title": "🎄 NeoMaximus Brandenburg - 8:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-27T20:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504177",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎸 DJ Ronin 🎸 Goes 🕹️ Back To The 80s 🕶️ Rockin' Out At The Headbangers Ball!",
@@ -26248,13 +25841,13 @@
     {
       "title": "🎄 Russell Eponym - 10:00 AM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T10:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504182",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎶💜 DJ FAE LIVE AT ELVES IN PARADISE! 💜🎶",
@@ -26363,13 +25956,13 @@
     {
       "title": "🎄 Donn DeVore - 11:00 am - LIVE at the Holly Jolly Café 🎄",
       "starts_at": "2026-11-28T11:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504183",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎧 THE VELVET HOUSE PRESENTS: DJ MARIA - CONTEMPORARY COUNTRY 🎧",
@@ -26596,13 +26189,13 @@
     {
       "title": "🎄 Bart Hoorenbeek -12:00 PM (NOON) - LIVE @ the Holly Jolly Café 🎄",
       "starts_at": "2026-11-28T12:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504184",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "::: Mystelle and Band live AT END OF TIME",
@@ -26761,13 +26354,13 @@
     {
       "title": "🎄  Jackie Lefko - 1:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T13:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504185",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 Heather Steampunk - ELECTRIC REINDEER DJ CLUB EVENT  – SL Christmas Expo 🔥",
@@ -27003,13 +26596,13 @@
     {
       "title": "🎄 Wes West - 2:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T14:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504186",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎸 DJ Tim Is Gonna Rock The Block! 🎸 Take A Trip 🕹️ Back To The 80s! 🎧",
@@ -27134,13 +26727,13 @@
     {
       "title": "🎄  Eric Steffensen - 3:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T15:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504187",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 Fuzzball Ortega - ELECTRIC REINDEER DJ CLUB EVENT – SL Christmas Expo 🔥",
@@ -27321,13 +26914,13 @@
     {
       "title": "🎄  Icecremn Merlin - 4:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T16:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504956",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🐸 DJ Puntito & Kitten, 4-6PM 🐸",
@@ -27497,13 +27090,13 @@
     {
       "title": "🎄 Marina Sharpshire - 5:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T17:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504958",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 Cᴀᴇsᴇʏ - ELECTRIC REINDEER DJ CLUB EVENT – SL Christmas Expo 🔥",
@@ -27893,13 +27486,13 @@
     {
       "title": "🎄 DownUnder - 6:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T18:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504959",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎵LadyFortress Live at Pitch Perfect! 6PM🎵",
@@ -28178,13 +27771,13 @@
     {
       "title": "🎄 Maribol Inshan - 7:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T19:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504960",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎵Diego Adrians Live at Pitch Perfect! 7PM🎵",
@@ -28420,13 +28013,13 @@
     {
       "title": "🎄 Lady Fortress - 8:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-28T20:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504961",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎵S-H-E-Y-Z Live at Pitch Perfect! 8PM🎵",
@@ -29052,13 +28645,13 @@
     {
       "title": "🎄 Ellie Skylar - 10:00 AM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T10:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504963",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "11:00 DJ Zan rocking your Sunday at Hard Rock Garage - HRG",
@@ -29178,13 +28771,13 @@
     {
       "title": "🎄 Dandy Pianoman  -  11:00 AM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T11:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504964",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔧 THE VELVET HOUSE: THE CLEANING OF THE PIPES 🔧",
@@ -29354,13 +28947,13 @@
     {
       "title": "🎄 Sassy Nitely - 12:00 PM (NOON) - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T12:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504965",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎤 Sunday Noon Tunes: Open Mic & Karaoke! 🎶",
@@ -29497,13 +29090,13 @@
     {
       "title": "🎄 Ericana - 1:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T13:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504966",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 The River - Mark Ravenhurst - ELECTRIC REINDEER DJ CLUB EVENT – SL Christmas Expo 🔥",
@@ -29651,13 +29244,13 @@
     {
       "title": "🎄 Satin Galli & Erin68 Frog - 2:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T14:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Miscellaneous",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504968",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "LIVE SINGER SPOTS STARTING SEPTEMBER",
@@ -29684,13 +29277,13 @@
     {
       "title": "🎄 Twostep  - 3:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T15:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504972",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 The Syndicats - Pentatonix - ELECTRIC REINDEER DJ CLUB EVENT – SL Christmas Expo 🔥",
@@ -29816,13 +29409,13 @@
     {
       "title": "🎄 Prim Shady - 4:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T16:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504973",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "5PM SLT - DJ VANNI'S MARTINI JAZZ STIRRED NOT SHAKEN @ THE CELLAR",
@@ -29893,13 +29486,13 @@
     {
       "title": "🎄 Time Machine - Ugly Sweaters Day with Trader Whiplash  @ the Holly Jolly Café 🎄",
       "starts_at": "2026-11-29T17:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494431",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎶Join DJ Aria & Host Coral for an unforgettable party 5PM 🎉AriaWynn",
@@ -30245,13 +29838,13 @@
     {
       "title": "🎄 ChelseaMarie Noel - 7:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-29T19:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9504976",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔔🎵 DJ DANGER'S SUNDAY NIGHT PARTY ~ GREAT MIX @ TANGO'S! PARTY @ 7 PM SLT!!!",
@@ -30947,13 +30540,13 @@
     {
       "title": "🎄 Jeff - 11:00 AM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T11:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505406",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "12PM JESS RABBIT SINGING AT THE SHEWORTHY",
@@ -31145,13 +30738,13 @@
     {
       "title": "🎄 Kurt Calamity - 12:00 (NOON) - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T12:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505409",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "💙 ✨ K-POP MONDAY @ THE BLUE MOON ✨ 💙",
@@ -31244,13 +30837,13 @@
     {
       "title": "🎄 Some T Jup -  1:00  - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T13:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505412",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "💜 Mental Health Support Group 💜",
@@ -31376,13 +30969,13 @@
     {
       "title": "🎄 OuieNanda - 2:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T14:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505414",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "DJ AVALON and her ANGELS MONDAYS at 3pm  FOGBOUND",
@@ -31475,13 +31068,13 @@
     {
       "title": "🎄 Corvus Blessed - 3:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T15:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505415",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 DJ Ali  - ELECTRIC REINDEER DJ CLUB EVENT– SL Christmas Expo 🔥",
@@ -31574,13 +31167,13 @@
     {
       "title": "🎄 Abby Jaidov - 4:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T16:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505416",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎶 DJ Teri - Manic MOAN-day / Requests",
@@ -31717,13 +31310,13 @@
     {
       "title": "🎄 Eva Fae - 5:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T17:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505417",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 Irish Breen - ELECTRIC REINDEER DJ CLUB EVENT – SL Christmas Expo 🔥",
@@ -31838,13 +31431,13 @@
     {
       "title": "🎄 Fusion of Two - Austin Moores & Eva Fae -  6:00 PM - LIVE @ the Holly Jolly Café 🎄",
       "starts_at": "2026-11-30T18:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505418",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Starfall at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
@@ -32025,13 +31618,13 @@
     {
       "title": "🎄 Grace Loudon - 7:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T19:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9505419",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎄 SaraMarie Philly - 7:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
@@ -32570,13 +32163,13 @@
     {
       "title": "🎄 Cryptic Harmony - 10:00 AM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T10:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507690",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "📼 Side A: Back To The 80s! 📼 Your Mixtape Of Memories 🕹️",
@@ -32614,13 +32207,13 @@
     {
       "title": "🎄 Gaz - 11:00 AM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T11:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507691",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "~ Folk & Contra dancing with live calling by Hooten Haller ~",
@@ -32738,13 +32331,13 @@
     {
       "title": "🎄 Jesika Wirefly - 12:00 PM (NOON) - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T12:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507692",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎉 DJ Mordecai Brings 🌮 The Taco Tunesday Party 🌮 To INdustry! 🎉",
@@ -32826,13 +32419,13 @@
     {
       "title": "🎄 Devon Reggiane - 1:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T13:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507693",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎉 DJ Mordecai's 🌮 Taco Tunesday Party! 🌮 Is Rockin' The Industry 🎉",
@@ -32914,13 +32507,13 @@
     {
       "title": "🎄 Raven Zenoria - 2:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T14:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507694",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎧 DJ Joe Max is 🚀 Taking Rad Ride 🕹️ Back To The 80s! 🕶️",
@@ -32947,13 +32540,13 @@
     {
       "title": "🎄 Anderson Parkes - 3:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T15:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507695",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 DJ Lucifer's 🔥 Got The Hottest Beats On The Streets At 💥 INdustry! 💥",
@@ -33101,13 +32694,13 @@
     {
       "title": "🎄 Coralie - 4:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T16:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507696",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🎉 Join DJ Xavia as she goes 🕹️ Back To The 80s 🕶️ for an 🌴 Afternoon In The 80s 🌵",
@@ -33277,13 +32870,13 @@
     {
       "title": "🎄 Elves Christmas Party - 5:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T17:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507697",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "🔥 Sandie Loxingly - ELECTRIC REINDEER DJ CLUB EVENT  – SL Christmas Expo 🔥",
@@ -33662,13 +33255,13 @@
     {
       "title": "🎄 Austin Moores - 7:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-01T19:00:00-08:00",
-      "venue": "CHRISTMAS EXPO 2026 -  Region -Sponsor: MYSTICAL GATE DREAM",
+      "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507698",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-13T15:58:06.890288+00:00"
+      "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
       "title": "STORE ANIMATION new DANCE s ANIMATION SEXY",
