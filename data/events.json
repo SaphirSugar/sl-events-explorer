@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-21T14:56:50.436002+00:00",
+  "updated_at": "2026-11-21T15:52:49.049510+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -303,19 +303,6 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
-      "title": "@ Gachas for just 5L! Yes I said 5L! Grab yours! @",
-      "starts_at": "2026-11-21T04:00:00-08:00",
-      "venue": "** TK VENTURES **",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-21T14:08:52.995836+00:00"
-    },
-    {
       "title": "Bright Oh 4AM @ The Garden",
       "starts_at": "2026-11-21T04:00:00-08:00",
       "venue": "The Waterfront",
@@ -554,7 +541,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476719",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-17T01:20:10.682673+00:00"
     },
@@ -566,7 +552,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494293",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
     },
@@ -905,6 +890,19 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "@ Gachas for just 5L! Yes I said 5L! Grab yours! @",
+      "starts_at": "2026-11-21T10:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-21T14:08:52.995836+00:00"
+    },
+    {
       "title": "Auction Ends TODAY at 11am SLT @ Sensual Delights Slave Auction!",
       "starts_at": "2026-11-21T10:00:00-08:00",
       "venue": "Slave Auction & BDSM Community - Sensual Delights Slave Auction",
@@ -1218,6 +1216,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "@Scientia sim Ari's \"Classics at the Pavilion\" THANKSGIVING SPECIAL  11 am SLTime",
+      "starts_at": "2026-11-21T11:00:00-08:00",
+      "venue": "Scientia - Music pavillion",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508564",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T15:55:10.554093+00:00"
+    },
+    {
       "title": "AUBRYN MELODY LIVE IN DUBLIN!",
       "starts_at": "2026-11-21T11:00:00-08:00",
       "venue": "The Blarney Stone - Irish Pub",
@@ -1260,6 +1269,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "College Football Saturdays at Sanguine Lotus!",
+      "starts_at": "2026-11-21T11:00:00-08:00",
+      "venue": "Sanguine Lotus - LGBT Open Deck Adult Nightclub",
+      "category": "Sports",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508562",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T15:55:10.554093+00:00"
     },
     {
       "title": "DJ AKIV WIZARDLY AT FRANK'S ELITE",
@@ -1615,6 +1635,17 @@
       "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
     },
     {
+      "title": "HAKAN DEED @LOULOU BIRDCAGE!!! COME IN PINK!!!!",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508565",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T11:54:19.945995+00:00"
+    },
+    {
       "title": "HO HARVEST DANCE PARTY WITH JAY POCKETS AND DINO VIPER!!",
       "starts_at": "2026-11-21T12:00:00-08:00",
       "venue": "Kazzba Club~Dirty Old Town",
@@ -1712,6 +1743,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "NIGEL FREEMAN @ GUTHRIES  12 PM SL!",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "GUTHRIES FOLK CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9507877",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
     },
     {
       "title": "Prim and the Shadys LIVE at The Continental!",
@@ -2174,6 +2216,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-20T21:57:52.666678+00:00"
+    },
+    {
+      "title": "Masquerade by the Sea",
+      "starts_at": "2026-11-21T13:00:00-08:00",
+      "venue": "Anchorbury Harbor",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9492587",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Mavenn @Mato's Marina",
@@ -6148,6 +6201,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "FUGAZI NIGHTCLUB - LIVE DJ ANYA - TECHNO TRANCE EDM",
+      "starts_at": "2026-11-22T09:30:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508559",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T15:55:10.554093+00:00"
+    },
+    {
       "title": "🍒 NEW TO THE ADULT INDUSTRY? 🍒",
       "starts_at": "2026-11-22T09:30:00-08:00",
       "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
@@ -6350,6 +6414,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "FUGAZI NIGHTCLUB - LIVE DJ CHERRY - TECHNO",
+      "starts_at": "2026-11-22T10:30:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508560",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T15:55:10.554093+00:00"
     },
     {
       "title": "🖤 DARK INDULGENCE @ [ ROUGE ] 🖤",
@@ -6737,6 +6812,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
+    },
+    {
+      "title": "FUGAZI NIGHTCLUB - LIVE DJ LYRIELLE - TECHNO TRANCE EDM",
+      "starts_at": "2026-11-22T12:00:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508561",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T15:55:10.554093+00:00"
     },
     {
       "title": "GregEllis Toronto, 12PM @ Surfside Hideaway",
@@ -7168,6 +7254,17 @@
       "venue_photo_checked_at": "2026-11-14T02:12:34.395513+00:00"
     },
     {
+      "title": "PENSACOLA PETE LIVE @ CAFE MUSIQUE -  \"AUTUMN FEAST PARTY\"",
+      "starts_at": "2026-11-22T13:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8457253",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Retro BDSM \"Kinky Business\" DJ Vanni @ The Twisted Orchid Fetish & BDSM Club",
       "starts_at": "2026-11-22T13:00:00-08:00",
       "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
@@ -7177,6 +7274,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Sunday Sessions -Ã‚Â·Mapoo Little Live at Anchorbury Harbor (Mystery themed)",
+      "starts_at": "2026-11-22T13:00:00-08:00",
+      "venue": "Anchorbury Harbor",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502295",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Sunday Sessions · Mapoo Little Live at Anchorbury Harbor",
@@ -7243,6 +7351,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "FUGAZI NIGHTCLUB - LIVE DJ SELENE - TECHNO TRANCE EDM",
+      "starts_at": "2026-11-22T13:30:00-08:00",
+      "venue": "Club Fugazi",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508563",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T15:55:10.554093+00:00"
     },
     {
       "title": "Halloween Party",
@@ -10321,6 +10440,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-12T13:21:48.361357+00:00"
+    },
+    {
+      "title": "OBSCENIUM PRESENTS: TANGO NIGHT WITH DJ TIX",
+      "starts_at": "2026-11-23T13:00:00-08:00",
+      "venue": "-[OBSCENIUM]- Erotic Club & Nude Beach Resort",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508558",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
     },
     {
       "title": "RICKY HAYSTACK LIVE AT KITTENZ",
@@ -61859,6 +61989,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Dj Fantasia spinning a Monday Shake up @Ku'lani",
+      "starts_at": "2026-12-28T05:00:00-08:00",
+      "venue": "Ku'Lani Beach Resort & All-Inclusive Hangout Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8910238",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
       "title": "A Drive That Went Wrong (In the Best Way)",
       "starts_at": "2026-12-28T06:00:00-08:00",
       "venue": "Fractured Reality",
@@ -62523,6 +62664,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Dj Fantasia spinning a Tuesday Shake up @Ku'lani",
+      "starts_at": "2026-12-29T05:00:00-08:00",
+      "venue": "Ku'Lani Beach Resort & All-Inclusive Hangout Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8355762",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "Discover Your Character Strengths at WBH",
