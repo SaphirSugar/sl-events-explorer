@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-21T17:49:52.846414+00:00",
+  "updated_at": "2026-11-21T18:55:28.755664+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -831,7 +831,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494207",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -856,7 +855,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9442339",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
@@ -906,17 +904,6 @@
     },
     {
       "title": "DJ Teah plays Buddha Bar Danceable @ the Midnight Cabaret",
-      "starts_at": "2026-11-21T10:00:00-08:00",
-      "venue": "The Midnight Cabaret",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9505425",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "DJ Titan 70s 80s 90s hits @ the Midnight Cabaret",
       "starts_at": "2026-11-21T10:00:00-08:00",
       "venue": "The Midnight Cabaret",
       "category": "Live DJ",
@@ -1044,7 +1031,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9493654",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -1100,7 +1086,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476304",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -1123,7 +1108,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9493364",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -1157,7 +1141,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9471422",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -1491,6 +1474,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T23:06:34.217388+00:00"
+    },
+    {
+      "title": "CANCELLED ROGUE GALAXY LIVE AT ROMANTICA PARK, ROMANTICA",
+      "starts_at": "2026-11-21T12:00:00-08:00",
+      "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9470848",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "CLUB KOLOHE DJ PSYCHOBLAZE/HOST GORDINA BEST IN TOP GUN",
@@ -2019,6 +2013,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🤠💍 SADIE HAWKINS DANCE AT TOTALLY 80s™! LOVE IS IN THE AIR... SORT OF! 😂🎉",
+      "starts_at": "2026-11-21T12:30:00-08:00",
+      "venue": "<3 Totally 80s is your HOME of the 80s wth a FRESH 90s twist!",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508622",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T18:57:33.307774+00:00"
     },
     {
       "title": "=> Wolfie Moonshadow in Live Video Streaming @ The Dreamer's Cave - Live Magic",
@@ -6287,6 +6292,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "November Rez Day/ Birthday Celebration AT WET SPOT WITH DJ SQUEAKY AND HOST MIA!",
+      "starts_at": "2026-11-22T08:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508623",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
+    },
+    {
       "title": "Sunday Blues Brunch Served By DJ Stu @ The Junkyard Blues @ 8:00 AM",
       "starts_at": "2026-11-22T08:00:00-08:00",
       "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
@@ -6544,6 +6560,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "November Rez Day/ Birthday Celebration AT WET SPOT WITH DJ ENI AND HOST SPICEY!",
+      "starts_at": "2026-11-22T10:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508624",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "SOCK HOP with DJ MAY at Belle's Coffee Shop",
@@ -7132,6 +7159,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "November Rez Day/ Birthday Celebration AT WET SPOT WITH DJ QIRKY AND HOST SPICEY ? MIKERMANFS",
+      "starts_at": "2026-11-22T12:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508625",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "RUNWAY STYLE! VIRTUAL PRICES!",
@@ -7750,6 +7788,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "November Rez Day/ Birthday Celebration AT WET SPOT WITH DJ ENNIE AND HOST TAZZIE!",
+      "starts_at": "2026-11-22T14:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508626",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
+    },
+    {
       "title": "Pro Mod Drag Racing at Amber Nitro Alley",
       "starts_at": "2026-11-22T14:00:00-08:00",
       "venue": "!  Amber - Nitro Alley - SL's 1st & Finest 1000' Dragstrip  !",
@@ -8100,6 +8149,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "November Rez Day/ Birthday Celebration AT WET SPOT WITH DJ LILA AND HOST SKYLAR!",
+      "starts_at": "2026-11-22T16:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508628",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "REDJOLENE LIVE AT CAFE MUSIQUE - \"AUTUMN FEAST PARTY\"",
@@ -28583,6 +28643,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2026-11-29T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508610",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "6 PM Eric Steffensen @ The Merry Prankster",
       "starts_at": "2026-11-29T18:00:00-08:00",
       "venue": "The Merry Prankster!! Where Music Lives!",
@@ -40866,6 +40937,17 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2026-12-06T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508611",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ GREYWOLF BRINGS BLUES FOR YOUS @ CROSSROADS BLUES 6-8 PM",
       "starts_at": "2026-12-06T18:00:00-08:00",
       "venue": "CROSSROADS Blues Club",
@@ -49563,6 +49645,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2026-12-13T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508612",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ Molokai At Cabo Swingers Resort!!",
       "starts_at": "2026-12-13T18:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -54349,6 +54442,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Fil Rowans Live @ Hotel Chelsea",
+      "starts_at": "2026-12-18T16:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - El Quijote",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9301253",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Friday night Jams at The Den 4-10pm",
       "starts_at": "2026-12-18T16:00:00-08:00",
       "venue": "Noaptea Eterna ( Eternal night)",
@@ -54534,6 +54638,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "Gypsy Dhrua Live @ Hotel Chelsea",
+      "starts_at": "2026-12-18T18:00:00-08:00",
+      "venue": "Virtual Hotel Chelsea NYC - El Quijote",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8408547",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "THE OXYGEN SHOW AT EYE CANDY MUSIC CLUB WITH DJ ED OXYGEN AND HOST SAVVY 6PM-8PM",
@@ -56762,6 +56877,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2026-12-20T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508613",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "DJ Molokai At Cabo Swingers Resort!!",
@@ -62204,6 +62330,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2026-12-27T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508614",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ Molokai Sharkfin @ Cabo Swingers' Resort",
       "starts_at": "2026-12-27T18:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -66843,6 +66980,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2027-01-03T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508615",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ Molokai Sharkfin @ Cabo Swingers' Resort",
       "starts_at": "2027-01-03T18:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -70397,6 +70545,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2027-01-10T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508616",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ VIXEN & CORVY MAKE SUNDAY NIGHT MAGIC @ MUDDY’S MUSIC CAFÉ 6-8PM SLT",
       "starts_at": "2027-01-10T18:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -73457,6 +73616,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2027-01-17T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508617",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ VIXEN & CORVY MAKE SUNDAY NIGHT MAGIC @ MUDDY’S MUSIC CAFÉ 6-8PM SLT",
       "starts_at": "2027-01-17T18:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -75939,6 +76109,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2027-01-24T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508618",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "DJ VIXEN & CORVY MAKE SUNDAY NIGHT MAGIC @ MUDDY’S MUSIC CAFÉ 6-8PM SLT",
       "starts_at": "2027-01-24T18:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -77831,6 +78012,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2027-01-31T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508619",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "IT’S A VYBE Featuring the MR. & MRS. of Music",
       "starts_at": "2027-01-31T18:00:00-08:00",
       "venue": "Club Center Ground - Lake Front Hangout",
@@ -79117,6 +79309,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9506772",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "*Dassani's DJ's spin inspirational gospel music tonight 6 - 8 PM SLT*",
+      "starts_at": "2027-02-07T18:00:00-08:00",
+      "venue": "Dassani's at Gull's Wing Marina",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508620",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
