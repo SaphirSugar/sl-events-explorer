@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-21T20:49:50.447770+00:00",
+  "updated_at": "2026-11-21T21:48:35.038638+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1933,17 +1933,6 @@
       "venue_photo_checked_at": "2026-11-15T05:02:44.860774+00:00"
     },
     {
-      "title": "Amforte sings at Sanctuary at 1 PM",
-      "starts_at": "2026-11-21T13:00:00-08:00",
-      "venue": "Sanctuary, EST. 2008",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9506600",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
-    },
-    {
       "title": "DENNYMAC @ GUTHRIES  1 PM SL!",
       "starts_at": "2026-11-21T13:00:00-08:00",
       "venue": "GUTHRIES FOLK CLUB",
@@ -1953,17 +1942,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-11T05:09:09.024408+00:00"
-    },
-    {
-      "title": "DJ AllanGypsy Spinning tunes on Malolo Island Marina Thanks giving Bash",
-      "starts_at": "2026-11-21T13:00:00-08:00",
-      "venue": "Malolo Island Marina",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508603",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-17T18:10:26.335555+00:00"
     },
     {
       "title": "DJ BARON @ SUSNRAYZ BEACH CLUB 1 - 3 PM SLT ~ DISCO & ELCTRO SWING",
@@ -2052,17 +2030,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-07T01:06:41.925455+00:00"
-    },
-    {
-      "title": "First Light at Anchorbury Harbor · Today 1 to 3pm SLT",
-      "starts_at": "2026-11-21T13:00:00-08:00",
-      "venue": "Anchorbury Harbor",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9492587",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "Harti-Party on ZADAday @ Watersoul - DJ Party for you!",
@@ -2230,17 +2197,6 @@
       "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
-      "title": "~~ ANARAE~~ @  LOVE HEAVEN live music 1pm slt",
-      "starts_at": "2026-11-21T13:00:00-08:00",
-      "venue": "Love Heaven",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9432928",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
       "title": "~~🩷 JESS RABBIT 🩷~~ @ PHAT CATS live 1pm slt",
       "starts_at": "2026-11-21T13:00:00-08:00",
       "venue": "Phat Cats",
@@ -2283,17 +2239,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
-    },
-    {
-      "title": "🎶 LIVE DJ TOMORROW AT LE SHAK! 🎶",
-      "starts_at": "2026-11-21T13:00:00-08:00",
-      "venue": "Le Shak",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9508418",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-21T01:20:29.599509+00:00"
     },
     {
       "title": "🎶☀️ LOVE & HARMONY JAZZ ROMANTIC WELCOMES LIVE SINGER MASCIA This Saturday ~ 1pm 🌹",
@@ -3279,6 +3224,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "***SATURDAY SESSIONS AT ONE NYTE STAND***",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508693",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
+    },
+    {
       "title": "4pm RICKY @ VIVE AmA RIE",
       "starts_at": "2026-11-21T16:00:00-08:00",
       "venue": "VIVE Ama RIE, AfterGlow, Feels Like Home",
@@ -3332,6 +3288,28 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "DJ ANNETTE @ DUST AND DIAMONDS COME AS YOU ARE EVENT!",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "Dust And Diamonds Club -Southern Belle Designs Main Store",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508678",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T02:57:13.123507+00:00"
+    },
+    {
+      "title": "DJ ANODYNE SPINS THE BLUES @ CROSSROADS BLUES CLUB 4-6 PM",
+      "starts_at": "2026-11-21T16:00:00-08:00",
+      "venue": "CROSSROADS Blues Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508677",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "DJ BLUES BRINGS ROCK W/O APOLOGIES TO SAVAGES!",
@@ -4280,6 +4258,17 @@
       "venue_photo_checked_at": "2026-11-08T16:48:02.091975+00:00"
     },
     {
+      "title": "PARTY WITH DJ LICHI !!! LEXI BDAY!!",
+      "starts_at": "2026-11-21T18:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508702",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T11:54:19.945995+00:00"
+    },
+    {
       "title": "PICKER AND EMME @ GUTHRIES  6 PM SL!",
       "starts_at": "2026-11-21T18:00:00-08:00",
       "venue": "GUTHRIES FOLK CLUB",
@@ -4663,6 +4652,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00"
+    },
+    {
+      "title": "FOUR YEARS  OF MUSIC &MEMORIES  AT  BACK IN TIME",
+      "starts_at": "2026-11-21T18:30:00-08:00",
+      "venue": "back in time nught club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508679",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
     },
     {
       "title": "Surround yourself in Love, Beauty, and Music - Many secluded places throughout",
@@ -7666,6 +7666,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "🕐👉 On Sundays at J & R BALLROOM 1-3pm with 👑DJ Jon 🕺💃🥂",
+      "starts_at": "2026-11-22T13:00:00-08:00",
+      "venue": "TP area > J&R BALLROOM  & Rain's Bowling",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508697",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
+    },
+    {
       "title": "FUGAZI NIGHTCLUB - LIVE DJ SELENE - TECHNO TRANCE EDM",
       "starts_at": "2026-11-22T13:30:00-08:00",
       "venue": "Club Fugazi",
@@ -7697,6 +7708,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "***♥SEXY SUNDAYS @ ONE NYTE STAND♥***",
+      "starts_at": "2026-11-22T14:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508698",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
     },
     {
       "title": "2:00pm Mavenn Live at Hard Rock Garage - HRG",
@@ -25707,6 +25729,17 @@
       "venue_photo_checked_at": "2026-11-19T06:13:59.737418+00:00"
     },
     {
+      "title": "***SATURDAY SESSIONS AT ONE NYTE STAND***",
+      "starts_at": "2026-11-28T16:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508694",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
+    },
+    {
       "title": "Blood, Beats & Slow Jams with DJ Dracul @ J & J Crossroads!",
       "starts_at": "2026-11-28T16:00:00-08:00",
       "venue": "J&J Crossroads",
@@ -28387,6 +28420,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "***♥SEXY SUNDAYS @ ONE NYTE STAND♥***",
+      "starts_at": "2026-11-29T14:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508699",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
     },
     {
       "title": "A Formal Affair -  elegant ballroom dancing with LIVE DJ",
@@ -37784,6 +37828,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2026-12-04T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508680",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "🐸 DJ Nej & Lily, 4-6PM 🐸",
       "starts_at": "2026-12-04T16:00:00-08:00",
       "venue": "KeKuKi",
@@ -39476,6 +39531,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "***SATURDAY SESSIONS AT ONE NYTE STAND***",
+      "starts_at": "2026-12-05T16:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508695",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
+    },
+    {
       "title": "AUFWIE LIVE-Holiday Opener Party",
       "starts_at": "2026-12-05T16:00:00-08:00",
       "venue": "THE ARTSPOT GALLERY & COLONY",
@@ -41132,6 +41198,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "***♥SEXY SUNDAYS @ ONE NYTE STAND♥***",
+      "starts_at": "2026-12-06T14:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508700",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
     },
     {
       "title": "A Formal Affair -  elegant ballroom dancing with LIVE DJ",
@@ -47317,6 +47394,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2026-12-11T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508681",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "🐸 DJ Nej & Lily, 4-6PM 🐸",
       "starts_at": "2026-12-11T16:00:00-08:00",
       "venue": "KeKuKi",
@@ -48679,6 +48767,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "***SATURDAY SESSIONS AT ONE NYTE STAND***",
+      "starts_at": "2026-12-12T16:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508696",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
+    },
+    {
       "title": "DIng a Ling Event @ Club Carnage",
       "starts_at": "2026-12-12T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -49917,6 +50016,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "***♥SEXY SUNDAYS @ ONE NYTE STAND♥***",
+      "starts_at": "2026-12-13T14:00:00-08:00",
+      "venue": "One Nyte Stand",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508701",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T21:51:13.669735+00:00"
     },
     {
       "title": "DJ Donna At Cabo Swingers Resort!!!",
@@ -54890,6 +55000,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T03:04:27.368430+00:00"
+    },
+    {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2026-12-18T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508682",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
     },
     {
       "title": "UPLOAD FEES ARE SCARY!!◝(ᵔᗜᵔ)◜ N&D ALL TREATS , NO TRICKS",
@@ -61160,6 +61281,17 @@
       "venue_photo_checked_at": "2026-11-16T03:04:27.368430+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2026-12-25T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508683",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "UPLOAD FEES ARE SCARY!!◝(ᵔᗜᵔ)◜ N&D ALL TREATS , NO TRICKS",
       "starts_at": "2026-12-25T16:30:00-08:00",
       "venue": ":: NABI :: N&D :: INEFFABLE ::",
@@ -65035,6 +65167,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "~Mandy Dorfler's New Year's Freakin' Eve~",
+      "starts_at": "2026-12-31T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508692",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "🎶 BINGO AND BEATS WITH DJ MANDI! 🎶",
       "starts_at": "2026-12-31T16:00:00-08:00",
       "venue": "Blind Pig Music Company est. 2007",
@@ -65818,6 +65961,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T03:04:27.368430+00:00"
+    },
+    {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-01-01T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508684",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
     },
     {
       "title": "UPLOAD FEES ARE SCARY!!◝(ᵔᗜᵔ)◜ N&D ALL TREATS , NO TRICKS",
@@ -69739,6 +69893,17 @@
       "venue_photo_checked_at": "2026-11-16T03:04:27.368430+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-01-08T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508685",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "UPLOAD FEES ARE SCARY!!◝(ᵔᗜᵔ)◜ N&D ALL TREATS , NO TRICKS",
       "starts_at": "2027-01-08T16:30:00-08:00",
       "venue": ":: NABI :: N&D :: INEFFABLE ::",
@@ -73012,6 +73177,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-01-15T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508686",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "DJ Gin's Canadian Faves @ The Canadian Club Lodge!",
       "starts_at": "2027-01-15T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -75665,6 +75841,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-01-22T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508687",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "❤️ Mental Health Support Group ❤️",
       "starts_at": "2027-01-22T17:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -77782,6 +77969,17 @@
       "venue_photo_checked_at": "2026-11-16T03:04:27.368430+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-01-29T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508688",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "❤️ Mental Health Support Group ❤️",
       "starts_at": "2027-01-29T17:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -79346,6 +79544,17 @@
       "venue_photo_checked_at": "2026-11-16T03:04:27.368430+00:00"
     },
     {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-02-05T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508689",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
       "title": "❤️ Mental Health Support Group ❤️",
       "starts_at": "2027-02-05T17:00:00-08:00",
       "venue": "The Lighthouse: Mental Health Support",
@@ -80356,6 +80565,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "~Friday Night Pub Crawl @Harlow's 4-6 pm slt~",
+      "starts_at": "2027-02-12T16:00:00-08:00",
+      "venue": "Harlow's Dance & Party Club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508690",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
     },
     {
       "title": "Carnage is Likin' Latex @ Club Carnage",
