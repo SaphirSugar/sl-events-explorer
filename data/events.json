@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-22T08:22:37.516569+00:00",
+  "updated_at": "2026-11-22T09:54:46.878764+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -166,9 +166,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505103",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "PEAK LOUNGE PRESENTS : SUNDAY  AUTUMNPARTY !!!",
@@ -179,9 +179,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508731",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-22T02:21:05.969062+00:00",
       "image_url": "https://picture-service.secondlife.com/334fe947-e1e0-f164-f624-ec287cf3a0f1/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-22T02:21:05.969062+00:00"
     },
     {
       "title": "English Class. Voice. Pronunciation Practice",
@@ -192,9 +192,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505962",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00",
       "image_url": "https://picture-service.secondlife.com/c1af9828-b4e2-d741-95cf-8bb240506dac/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "PARTY AT STRAYA'S LOCAL PUB",
@@ -205,9 +205,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508868",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-22T05:06:54.527645+00:00",
       "image_url": "https://picture-service.secondlife.com/5c40864c-e1d3-41ab-1022-de88eb6fd86e/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-22T05:06:54.527645+00:00"
     },
     {
       "title": "~~KOGA FIREHAWK Live @ SOUNDWAVE at 1am~~",
@@ -217,11 +217,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494941",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🌸 A Prosperous Night @ O K I Y A 🌸",
@@ -232,9 +231,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508851",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00"
     },
     {
       "title": "DJ AMY 2 WATERMELON SUGAR CLUB",
@@ -773,6 +772,17 @@
       "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00"
     },
     {
+      "title": "🎧 Go Back To The 80s 💖 Where The Music Matters Most 🎶",
+      "starts_at": "2026-11-22T08:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508922",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🐊 TURN UP THE ROCK AT WET WILLIES! OUR DJS BRING THE CLASSIC ROCK!!",
       "starts_at": "2026-11-22T08:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -804,6 +814,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "THE BLOCK - VEIL - New Room - GRAND OPENING",
+      "starts_at": "2026-11-22T08:30:00-08:00",
+      "venue": "#THE BLOCK# Life Sentence",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508928",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T09:56:50.809723+00:00"
     },
     {
       "title": "Arvorie live at Plis d'amis",
@@ -1121,6 +1142,17 @@
       "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00"
     },
     {
+      "title": "🎉 Minty's Got The Minty Fresh Morning Mixtape At 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-11-22T10:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508915",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🐊 DJ SAMMI IS ROCKING THE CLASSICS AND MAKING WET WILLIES GO WILD!!",
       "starts_at": "2026-11-22T10:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -1341,6 +1373,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T03:01:12.678115+00:00"
+    },
+    {
+      "title": "🎉 Minty's Flipping The Minty Fresh Morning Mixtape 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-11-22T11:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508919",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "💮 The Midnight Blossom Dynasty @ O K I Y A 💮",
@@ -1825,6 +1868,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-19T06:13:59.737418+00:00"
+    },
+    {
+      "title": "✨ Welcome 🕹️ Back To The 80s! 🕶️ Second Life's Home Of The 80s 🎧 ✨",
+      "starts_at": "2026-11-22T12:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508923",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🌸 A Toast Beneath the Blossoms @ O K I Y A 🌸",
@@ -2628,6 +2682,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Rock Your Way 🕹️ Back To The 80s 🕶️ with Iron Butterfly's Tubular Tunes! 🤘",
+      "starts_at": "2026-11-22T15:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508924",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "WWII Dance at the Trocadero Club in 1940s London",
@@ -8224,6 +8289,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "CHAD SCHNEUTA, live singer @ THE NIGHT OWL",
+      "starts_at": "2026-11-24T12:00:00-08:00",
+      "venue": "M.T. - THE NIGHT OWL",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9496463",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
       "title": "Crystal Craze x5 - One Hour at Cash Cove!",
@@ -23315,6 +23391,17 @@
       "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
+      "title": "🎉 Minty's Got The Minty Fresh Morning Mixtape At 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-11-29T10:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508916",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "11:00 DJ Zan rocking your Sunday at Hard Rock Garage - HRG",
       "starts_at": "2026-11-29T11:00:00-08:00",
       "venue": "HRG - Hard Rock Garage - Home of Hard Rock",
@@ -23450,6 +23537,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
+    },
+    {
+      "title": "🎉 Minty's Flipping The Minty Fresh Morning Mixtape 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-11-29T11:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508920",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🔧 THE VELVET HOUSE: THE CLEANING OF THE PIPES 🔧",
@@ -24030,6 +24128,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=7865003",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Rock Your Way 🕹️ Back To The 80s 🕶️ with Iron Butterfly's Tubular Tunes! 🤘",
+      "starts_at": "2026-11-29T15:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508925",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -36531,6 +36640,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🎉 Minty's Got The Minty Fresh Morning Mixtape At 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-12-06T10:00:00-08:00",
+      "venue": "[IN]dustry Nightclub <> www.INdustryClubSL.com",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508917",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "CAMPFIRE-CHRISTMAS LIVE with NIVOR & TOM LOST",
       "starts_at": "2026-12-06T11:00:00-08:00",
       "venue": "Soluna Bay",
@@ -36654,6 +36774,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T09:48:58.541264+00:00"
+    },
+    {
+      "title": "🎉 Minty's Flipping The Minty Fresh Morning Mixtape 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-12-06T11:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508921",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Club Numinastic Sunday's DJ lineup starts from Noon to 4PM",
@@ -36929,6 +37060,17 @@
       "category": "Arts & Culture",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9480172",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Rock Your Way 🕹️ Back To The 80s 🕶️ with Iron Butterfly's Tubular Tunes! 🤘",
+      "starts_at": "2026-12-06T15:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508926",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -45578,6 +45720,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "🎉 Minty's Got The Minty Fresh Morning Mixtape At 🕹️ Back To The 80s 🕶️",
+      "starts_at": "2026-12-13T10:00:00-08:00",
+      "venue": "[IN]dustry Nightclub <> www.INdustryClubSL.com",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508918",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ  BB BALDERDASH at FOGBOUND BLUES",
       "starts_at": "2026-12-13T11:00:00-08:00",
       "venue": "FogBound Blues",
@@ -45838,6 +45991,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-13T21:00:37.823226+00:00"
+    },
+    {
+      "title": "Rock Your Way 🕹️ Back To The 80s 🕶️ with Iron Butterfly's Tubular Tunes! 🤘",
+      "starts_at": "2026-12-13T15:00:00-08:00",
+      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508927",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "VAMPINK @ CAFE MUSIQUE - \"XMAS CANDY PARTY\"",
