@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-22T10:53:49.479418+00:00",
+  "updated_at": "2026-11-22T11:50:12.887417+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -309,9 +309,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508853",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00",
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00"
     },
     {
       "title": "🐝  𝗟𝗜𝗞𝗘 𝗛𝗢𝗡𝗘𝗬 𝗦𝗖𝗘𝗡𝗧 @ [ 𝗥𝗢𝗨𝗚𝗘 ]🐝",
@@ -322,9 +322,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9505104",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "👉💦👅 Hey, you perverts! We want you here! Come be free! No limits! 🍆💦🍑",
@@ -335,9 +335,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-22T06:04:54.987698+00:00",
       "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-22T06:04:54.987698+00:00"
     },
     {
       "title": "OPEN ACCESS WEEKEND at Teqi's Harem",
@@ -348,9 +348,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508488",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-21T11:54:19.945995+00:00",
       "image_url": "https://picture-service.secondlife.com/f274c51b-1645-ec4b-1503-9b1a58a7f552/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-21T11:54:19.945995+00:00"
     },
     {
       "title": "DISCOVERING ART | JETKA RAE LIVE | VAN GOGH",
@@ -3144,6 +3144,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Casaenia Baxton Performs Live at 5pm @ Pompeii - Live Music, Live Performance",
+      "starts_at": "2026-11-22T17:00:00-08:00",
+      "venue": "Acoustic Buzz - Where Music Comes to Life!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508945",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T11:52:15.073074+00:00"
     },
     {
       "title": "DJ VIRGO and HOSTESS LYNN @Runaround Sues",
@@ -6400,6 +6411,17 @@
       "venue_photo_checked_at": "2026-11-09T20:02:41.491728+00:00"
     },
     {
+      "title": "WOLFIE MOONSHADOW  Performs LIVE @  ( Acoustic Buzz, Pompei)i - 4pm - Live Singer, Live Music!",
+      "starts_at": "2026-11-23T16:00:00-08:00",
+      "venue": "Acoustic Buzz - Where Music Comes to Life!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508944",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T11:52:15.073074+00:00"
+    },
+    {
       "title": "~Moonday night With Flann & Mandy~",
       "starts_at": "2026-11-23T16:00:00-08:00",
       "venue": "Harlow's Dance & Party Club",
@@ -8632,6 +8654,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "SAVANNAH CORONET Performs LIVE @ Acoustic Buzz - 1pm - Live Singer, Live Performance!",
+      "starts_at": "2026-11-24T13:00:00-08:00",
+      "venue": "Acoustic Buzz - Where Music Comes to Life!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508947",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T11:52:15.073074+00:00"
+    },
+    {
       "title": "SOME T JUP LIVE AT ROMANTICA PARK, ROMANTICA",
       "starts_at": "2026-11-24T13:00:00-08:00",
       "venue": "Romance Park,Dancing,,Weddings,Proposal,Love,Romantic Gardens,",
@@ -8784,6 +8817,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "GRACE LOUDON Performs LIVE @ Acoustic Buzz - 2pm - Live Singer, Live Performance!",
+      "starts_at": "2026-11-24T14:00:00-08:00",
+      "venue": "Acoustic Buzz - Where Music Comes to Life!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508948",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T11:52:15.073074+00:00"
     },
     {
       "title": "Jess Rabbit live at The Dawn Star",
@@ -8971,6 +9015,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Justine Johndory Performs LIVE @ Acoustic Buzz - 3pm - Live Singer, Live Performance!",
+      "starts_at": "2026-11-24T15:00:00-08:00",
+      "venue": "Acoustic Buzz - Where Music Comes to Life!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508949",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T11:52:15.073074+00:00"
     },
     {
       "title": "Mischiefly Twisted Tuesday \"Shake your tail feathers\"DJ Kaze @The Twisted Orchid Fetish & BDSM Club",
@@ -9169,6 +9224,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "LIZ ADAY PERFORMS LIVE @ Acoutic Buzz 4pm - Live SInger, Live Performance",
+      "starts_at": "2026-11-24T16:00:00-08:00",
+      "venue": "Acoustic Buzz - Where Music Comes to Life!",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9508950",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T11:52:15.073074+00:00"
     },
     {
       "title": "MRMULTI WRITER AND FRIENDS LIVE  AT CAFE MUSIQUE",
