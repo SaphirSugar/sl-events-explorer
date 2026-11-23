@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-23T15:13:46.490511+00:00",
+  "updated_at": "2026-11-23T16:17:31.187822+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -741,7 +741,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489379",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -777,17 +776,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
-    },
-    {
-      "title": "DJ RICK LIVE @ SOUTHERN SWING!",
-      "starts_at": "2026-11-23T08:00:00-08:00",
-      "venue": "Southern Swing Country Club",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502982",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ STORM H AND SARAH",
@@ -841,7 +829,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9477886",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -886,7 +873,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9496400",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -3025,6 +3011,17 @@
       "venue_photo_checked_at": "2026-11-09T20:02:41.491728+00:00"
     },
     {
+      "title": "SINGING LIVE, PLENTY OF ROCK: SINGER THOR OSBOURNE AT CURITIBA SUNSET",
+      "starts_at": "2026-11-23T16:00:00-08:00",
+      "venue": "CURITIBA SUNSET CAFE MALL",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509407",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T16:19:48.534989+00:00"
+    },
+    {
       "title": "Strum Deisel @ Love Kats",
       "starts_at": "2026-11-23T16:00:00-08:00",
       "venue": "Love Kats II",
@@ -5148,6 +5145,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ ANITA AND HOST LUCIO AT WET SPOT BEACH CLUB ! GREAT TUNES AND FUN!",
+      "starts_at": "2026-11-24T08:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509425",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
       "title": "DJ LOVE LIVE @ ROCKIN ROBIN",
@@ -12692,6 +12700,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ Teah - Funky Jacking Groove (Remixed) @ The Midnight Cabaret",
+      "starts_at": "2026-11-26T12:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509406",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "Jaik Live at the TeKeLLYa's",
       "starts_at": "2026-11-26T12:00:00-08:00",
       "venue": "TeKeLLYa's",
@@ -12866,6 +12885,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ KETTY DAGOSTINO LIVE AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-26T13:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509408",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T16:19:48.534989+00:00"
     },
     {
       "title": "DJ Madison live at The Dawn Star",
@@ -13086,6 +13116,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "JOAQUIN GUSTAV CLASSICAL GUITAR CONCERT AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-26T14:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509409",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T16:19:48.534989+00:00"
     },
     {
       "title": "MUDDY'S presents  DJ AMFIE & host Kate Thursday from 8-10 AM",
@@ -15868,6 +15909,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "GABRIELL DUBRATT LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-27T13:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509410",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T16:19:48.534989+00:00"
+    },
+    {
       "title": "Icky LIVE @ The Shack",
       "starts_at": "2026-11-27T13:00:00-08:00",
       "venue": "The Shack",
@@ -16141,6 +16193,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "SHANTU SELENE LIVE SHOW AT OPPOSITE TO PARADISE CLUB",
+      "starts_at": "2026-11-27T14:00:00-08:00",
+      "venue": "OPPOSITE TO PARADISE CLUB",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509411",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T16:19:48.534989+00:00"
     },
     {
       "title": "SOME T JUP @ MSKATT 2 PM SLT",
@@ -26676,6 +26739,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎩 THE NOBLE HOTEL EXPERIENCE @ ROUGE🎩",
+      "starts_at": "2026-12-01T09:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509412",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "** CIRCLE MENTAL HEALTH **",
       "starts_at": "2026-12-01T10:00:00-08:00",
       "venue": "Circle Mental Health - Meetings",
@@ -26991,6 +27065,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👑 𝐇𝐈𝐑𝐈𝐍𝐆 𝐂𝐎𝐔𝐑𝐓𝐄𝐒𝐀𝐍𝐒 @ 𝐑𝐎𝐔𝐆𝐄 👑",
+      "starts_at": "2026-12-01T12:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509413",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "GRAN HOTEL PRESENTS - LIVE SINGER JESS RABBIT",
       "starts_at": "2026-12-01T13:00:00-08:00",
       "venue": "Gran Finale",
@@ -27077,6 +27162,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "👑 UPSCALE EXPERIENCE @ [ROUGE] 👑",
+      "starts_at": "2026-12-01T13:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509415",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "-HOP-Tuesday Afternoon Bible Study/Discipleship",
@@ -27189,6 +27285,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🍒 NEW TO THE ADULT INDUSTRY? 🍒",
+      "starts_at": "2026-12-01T14:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509416",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "3PM GRACE LOUDON SINGS TODAY AT THE SHEWORTHY",
       "starts_at": "2026-12-01T15:00:00-08:00",
       "venue": "The Sheworthy",
@@ -27231,6 +27338,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T15:14:26.880357+00:00"
+    },
+    {
+      "title": "🍓 DELICIOUS TEMPTRESSES @ [ ROUGE ] 🍓",
+      "starts_at": "2026-12-01T15:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509417",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "4PM EVA FAE SINGS TODAY AT THE SHEWORTHY",
@@ -27585,6 +27703,17 @@
       "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
     },
     {
+      "title": "👠 ELEGANT LADIES WANTED 👠",
+      "starts_at": "2026-12-01T17:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509418",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "🔥 Sandie Loxingly - ELECTRIC REINDEER DJ CLUB EVENT  – SL Christmas Expo 🔥",
       "starts_at": "2026-12-01T17:00:00-08:00",
       "venue": "Christmas Expo - Lights of Hope Sponsor: Giant Snail Races",
@@ -27849,6 +27978,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👑 𝐄𝐋𝐈𝐓𝐄 𝐄𝐍𝐂𝐇𝐀𝐍𝐓𝐑𝐄𝐒𝐒 @ 𝐑𝐎𝐔𝐆𝐄 👑",
+      "starts_at": "2026-12-01T18:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509419",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "TALES OF WINTER ~ DJ ROB SKYTOWER",
       "starts_at": "2026-12-01T18:30:00-08:00",
       "venue": "The Muses",
@@ -28025,6 +28165,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👠 DISTINGUISHED LADIES INVITED 👠",
+      "starts_at": "2026-12-01T19:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509420",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "🔥 PHOENIX – Feel the Heat. Live the Music. Experience the Magic! 🔥",
       "starts_at": "2026-12-01T19:30:00-08:00",
       "venue": "Phoenix D/s Adult Entertainment Complex",
@@ -28124,6 +28275,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👠 𝔽𝕆𝕆𝕋 𝔽𝔼𝕋𝕀𝕊ℍ @ [ℝ𝕆𝕌𝔾𝔼] 👠",
+      "starts_at": "2026-12-01T20:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509421",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "DISCO TUESDAY NIGHT w/ DJ JAdmiral @ ECLIPSE CLUB & RESORT",
       "starts_at": "2026-12-01T21:00:00-08:00",
       "venue": "eClipse Club & Resort https://www.fb.com/EclipseClubAndResort",
@@ -28190,6 +28352,28 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👑 HIGH-CLASS PERFORMERS INVITED 👑",
+      "starts_at": "2026-12-01T22:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509422",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🌜 SEX UP YOUR NIGHT @ [ ROUGE ] 🌛",
+      "starts_at": "2026-12-01T23:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509423",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "A Space Between Hangout",
       "starts_at": "2026-12-01T23:30:00-08:00",
       "venue": "A Space Between Hangout and RP",
@@ -28248,6 +28432,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🎀 THE ART OF COMPANIONSHIP @ ROUGE 🎀",
+      "starts_at": "2026-12-02T00:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509424",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "DJ ENNIE EARLY WEDNESDAY  MORNING AT EYE CANDY MUSIC CLUB 2AM-4AM",
       "starts_at": "2026-12-02T02:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -28292,6 +28487,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
+    },
+    {
+      "title": "📌 𝐄𝐗𝐎𝐓𝐈𝐂 𝐄𝐔𝐏𝐇𝐎𝐑𝐈𝐀 @ 𝐑𝐎𝐔𝐆𝐄 📌",
+      "starts_at": "2026-12-02T03:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509426",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "DJ AMY HERE THIS EARLY WEDNESDAY MORNING AT EYE CANDY MUSIC CLUB",
@@ -28451,6 +28657,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "♨️PURE TEMPTATION @ 𝐑𝐎𝐔𝐆𝐄 ♨️",
+      "starts_at": "2026-12-02T07:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509427",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "DJ Supercute at Club Trax!",
       "starts_at": "2026-12-02T07:30:00-08:00",
       "venue": "Club Trax  b y the Amorous Sociiety",
@@ -28552,6 +28769,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⚜️ 𝐂𝐀𝐕𝐈𝐀𝐑 & 𝐂𝐀𝐁𝐀𝐑𝐄𝐓 @ 𝐑𝐎𝐔𝐆𝐄 ⚜️",
+      "starts_at": "2026-12-02T09:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509429",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "** CIRCLE MENTAL HEALTH - SUPPORT MEETING **",
@@ -28879,6 +29107,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-20T11:11:26.769238+00:00"
+    },
+    {
+      "title": "💘 SECRET LIAISONS @ [ROUGE] 💘",
+      "starts_at": "2026-12-02T12:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509430",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "1PM ANNI MARTIN SINGS TODAY THE SHEWORTHY",
