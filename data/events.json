@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-23T20:10:45.369244+00:00",
+  "updated_at": "2026-11-23T20:59:45.932900+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -2107,17 +2107,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-21T11:54:19.945995+00:00"
-    },
-    {
-      "title": "RedHawk @ The Tin Shed Monday Nov 23rd @ 1pm slt",
-      "starts_at": "2026-11-23T13:00:00-08:00",
-      "venue": "The Tin Shed & Campfire Retreat @ Yasgurs Farm",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9459958",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-19T15:04:39.535008+00:00"
     },
     {
       "title": "Rock Party DJ DAVID at Juici Lu's Music Club 12-2PM",
@@ -5165,6 +5154,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2026-11-24T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509562",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
     },
     {
       "title": "CAFE MUSIQUE WELCOMES LAURA TO THE STAGE !",
@@ -25084,6 +25084,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "Fishing Tournament @ Dani's Dock: FREE to ALL",
+      "starts_at": "2026-11-30T11:00:00-08:00",
+      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509561",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+    },
+    {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
       "starts_at": "2026-11-30T11:00:00-08:00",
       "venue": "LITTLE MEXICO ON  SPICE ISLAND",
@@ -27120,6 +27131,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2026-12-01T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509563",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
     },
     {
       "title": "-HOP-Tuesday Morning Prayer",
@@ -38673,6 +38695,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Fishing Tournament at Dani's Dock: FREE for everyone!",
+      "starts_at": "2026-12-07T11:00:00-08:00",
+      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509574",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+    },
+    {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
       "starts_at": "2026-12-07T11:00:00-08:00",
       "venue": "LITTLE MEXICO ON  SPICE ISLAND",
@@ -39939,6 +39972,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2026-12-08T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509564",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
     },
     {
       "title": "-HOP-Tuesday Morning Prayer",
@@ -47776,6 +47820,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FREE Fishing Tournament at Dani's Dock: NO skill required!",
+      "starts_at": "2026-12-14T11:00:00-08:00",
+      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509575",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+    },
+    {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
       "starts_at": "2026-12-14T11:00:00-08:00",
       "venue": "LITTLE MEXICO ON  SPICE ISLAND",
@@ -48766,6 +48821,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2026-12-15T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509565",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
     },
     {
       "title": "-HOP-Tuesday Morning Prayer",
@@ -55460,6 +55526,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "FREE fishing tournament @ Dani's Dock: No skill required!",
+      "starts_at": "2026-12-21T11:00:00-08:00",
+      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509576",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+    },
+    {
       "title": "Orgy Monday at Spa Sensuelle Beach",
       "starts_at": "2026-12-21T11:00:00-08:00",
       "venue": "Spa Sensuelle",
@@ -56305,6 +56382,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2026-12-22T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509566",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
     },
     {
       "title": "-HOP-Tuesday Morning Prayer",
@@ -61848,6 +61936,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2026-12-29T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509567",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
+    },
+    {
       "title": "-HOP-Tuesday Morning Prayer",
       "starts_at": "2026-12-29T07:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
@@ -66606,6 +66705,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2027-01-05T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509568",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
+    },
+    {
       "title": "DJ LOVE LIVE @ ROCKIN ROBIN",
       "starts_at": "2027-01-05T08:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -70320,6 +70430,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2027-01-12T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509569",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
+    },
+    {
       "title": "DJ LOVE LIVE @ ROCKIN ROBIN",
       "starts_at": "2027-01-12T08:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -73397,6 +73518,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2027-01-19T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509570",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
+    },
+    {
       "title": "DJ LOVE LIVE @ ROCKIN ROBIN",
       "starts_at": "2027-01-19T08:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -75876,6 +76008,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2027-01-26T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509571",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
+    },
+    {
       "title": "DJ LOVE LIVE @ ROCKIN ROBIN",
       "starts_at": "2027-01-26T08:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -77899,6 +78042,17 @@
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
     },
     {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2027-02-02T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509572",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
+    },
+    {
       "title": "DJ LOVE LIVE @ ROCKIN ROBIN",
       "starts_at": "2027-02-02T08:00:00-08:00",
       "venue": "Rockin' Robin @ The PureLife Lodge - Open 24/7",
@@ -79212,6 +79366,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T20:54:56.429465+00:00"
+    },
+    {
+      "title": "----❤️❤️Cum and chat and relax and play❤️❤️ ----",
+      "starts_at": "2027-02-09T07:00:00-08:00",
+      "venue": "Pleasure Zone Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509573",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-21T19:55:22.665907+00:00"
     },
     {
       "title": "BRITT TRAFALGAR LIVE AT ROMANTICA PARK, ROMANTICA",
