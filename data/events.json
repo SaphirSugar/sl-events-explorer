@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-24T18:00:10.460559+00:00",
+  "updated_at": "2026-11-24T19:06:41.125069+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -329,19 +329,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "💦😛 Hey, you perverts! Come join us! A land made for unbridled naughtiness! Hehee 🍆💦🍑",
-      "starts_at": "2026-11-24T03:30:00-08:00",
-      "venue": "! PERVERTS !",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-24T13:26:49.137686+00:00"
-    },
-    {
       "title": "DJ REAPER @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-11-24T04:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -444,19 +431,6 @@
       "image_url": "https://picture-service.secondlife.com/86f8bc14-d887-87c5-0af4-421af07edc67/256x192.jpg",
       "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-21T17:52:30.925224+00:00"
-    },
-    {
-      "title": "💲✔️ 5L Gachas?! YES, YOU READ THAT RIGHT! Grab yours before they're gone! 💲✔️",
-      "starts_at": "2026-11-24T04:30:00-08:00",
-      "venue": "** TK VENTURES **",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
-      "teleport_url": null,
-      "official_category": true,
-      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
-      "image_source": "official_event_photo",
-      "venue_photo_checked_at": "2026-11-24T04:09:21.723230+00:00"
     },
     {
       "title": "⌇🕺💃⌇  INTIMATE AND COMFY @ [ ROUGE ] ⌇🕺💃⌇",
@@ -813,13 +787,13 @@
     {
       "title": "DJ KARLEEE LIVE AT THE PURRL'S NEW CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-11-24T09:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509497",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "FULL PERM MESH by Llola Lane for ALL creators!",
@@ -1022,13 +996,13 @@
     {
       "title": "EDDIE SANTILLO GUITARIST AND SINGER LIVE FROM ITALY AT THE PURRL'S NEW CHAMPAGNE BEACH",
       "starts_at": "2026-11-24T10:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509491",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Iseabal Boyle live at The Dawn Star",
@@ -1126,7 +1100,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500681",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
@@ -1155,13 +1128,13 @@
     {
       "title": "DJ COFFEE'S HOT BRITISH COFFEE AT THE PURRL'S NEW CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-11-24T11:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509492",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Infinite Puzzle Playground w/Pela @ WBH",
@@ -1171,7 +1144,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9405765",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
     },
@@ -1249,7 +1221,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9492498",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -1272,7 +1243,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500574",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
@@ -2025,6 +1995,19 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "💲✔️ 5 Lindens Gachas?! YES, YOU READ THAT RIGHT! Grab yours before they're gone! 💲✔️",
+      "starts_at": "2026-11-24T13:00:00-08:00",
+      "venue": "** TK VENTURES **",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9493703",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/38c5f4fe-b596-e56b-e3be-7078808c92d4/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-24T04:09:21.723230+00:00"
+    },
+    {
       "title": "🪭After Dark @ O K I Y A🪭",
       "starts_at": "2026-11-24T13:00:00-08:00",
       "venue": "; O K I Y A ;  ADULT ENTERTAINMENT - CAM - VOICE - LOVENSE",
@@ -2045,6 +2028,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
+    },
+    {
+      "title": "Baile Romántico-DJ Juliano",
+      "starts_at": "2026-11-24T14:00:00-08:00",
+      "venue": "Just Friends Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510056",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "CLUB KOLOHE DJ BRAD/HOST QUEENIE BEST IN HATS OR TATS",
@@ -2353,6 +2347,19 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T02:23:31.069092+00:00"
+    },
+    {
+      "title": "💦👅 Hey, you perverts! Come join us! A land made for unbridled naughtiness! Hehee 💦🍑",
+      "starts_at": "2026-11-24T14:00:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9479596",
+      "teleport_url": null,
+      "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-24T13:26:49.137686+00:00"
     },
     {
       "title": "🔥 DJ Lucifer 🔥 Rules The Night! (A Live-Mix Party) At 💥 INdustry! 💥",
@@ -3094,13 +3101,13 @@
     {
       "title": "AMAZING JESIKA WIREFLY LIVE AT THE PURRL'S WINTER WONDERLAND BALLROOM",
       "starts_at": "2026-11-24T17:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509496",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "CAFE MUSIQUE PRESENTS CUDZOO1967! HE'S AMAZING!",
@@ -3167,6 +3174,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T18:02:17.415795+00:00"
+    },
+    {
+      "title": "DarkHeat - DJ Jae",
+      "starts_at": "2026-11-24T17:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510057",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Dublin, Mystelle Live at 5 pm",
@@ -3611,13 +3629,13 @@
     {
       "title": "KANA'S ROMANCE AT THE  PURRL BALLROOM",
       "starts_at": "2026-11-24T18:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500003",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Mike McAlpine Live at {Inspiration}",
@@ -4170,6 +4188,17 @@
       "venue_photo_checked_at": "2026-11-22T06:04:54.987698+00:00"
     },
     {
+      "title": "Loft Unchained - Featuring Boom Kitty - High Energy",
+      "starts_at": "2026-11-24T19:00:00-08:00",
+      "venue": "The Listening Loft",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510062",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
+    },
+    {
       "title": "MARQS DESADE IS AT BOOGEYMAN'S!",
       "starts_at": "2026-11-24T19:00:00-08:00",
       "venue": "Boogeyman's Live Music Venue-We're Creepy All Year!",
@@ -4337,13 +4366,13 @@
     {
       "title": "AMAZING DREW MCDUNNOUGH  THE SINGING DJ AT THE  PURRL WINTER WONDERLAND BALLROOM",
       "starts_at": "2026-11-24T20:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509487",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Classic Rock Event @ Club Carnage",
@@ -5362,14 +5391,14 @@
     {
       "title": "DJette FLORENCE OLD TIME ROCK N ROLL AT THE PURRL'S NEW CHAMPAGNE BEACH AND MERMAID COVE",
       "starts_at": "2026-11-25T08:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500011",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "LATIN PARTY AT CENTER GROUND DJ DELNACH IN THE BOOTH",
@@ -6169,6 +6198,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
+    },
+    {
+      "title": "FOOD THEMED EVENT!",
+      "starts_at": "2026-11-25T12:00:00-08:00",
+      "venue": "*Pammy's Ladies Club * (Female Only)",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510058",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
       "title": "FULL PERM MESH by Llola Lane... OPEN 24-7",
@@ -12957,13 +12997,13 @@
     {
       "title": "SL'S BIGGEST ROCK SHOW DJ ANGELOS AT THE PURRL'S CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-11-27T10:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507556",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "START THE WEEKEND DJ Dalia 🕙 10:00 AM SLT",
@@ -13217,6 +13257,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Bart Hoorenbeek @ Jazz Elysee  Nov17 12pm SLT",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Jazz Elysee",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510059",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "CONTROL & CHAOS UNLEASHED",
@@ -13734,6 +13785,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Tay @ Jazz Elysee Nov 27 1pm SLT",
+      "starts_at": "2026-11-27T13:00:00-08:00",
+      "venue": "Jazz Elysee",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510060",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "The Quantum Mechanics Live @ Mystery",
@@ -24874,13 +24936,13 @@
     {
       "title": "AMAZING DREW MCDUNNOUGH  THE SINGING DJ AT THE  PURRL WINTER WONDERLAND BALLROOM",
       "starts_at": "2026-11-30T20:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509488",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "BARBIE  @ WATERMELON SUGAR CLUB",
@@ -25837,13 +25899,13 @@
     {
       "title": "DJ COFFEE'S HOT BRITISH COFFEE AT THE PURRL'S NEW CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-12-01T11:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509493",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "DarkHeat - Leadership Beyond the Scene",
@@ -29490,13 +29552,13 @@
     {
       "title": "SHEDENKA DAVARTS LIVE EN LA VIDA EN EL SALÓN DE BAILE THE PURRL BALLROOM & CASINO",
       "starts_at": "2026-12-02T19:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9506992",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "WHIRLIGIG RUTABAGA LIVE @ MUCKERS-MUSIC!",
@@ -29710,13 +29772,13 @@
     {
       "title": "DJ MALLON'S HOUSE MUSIC AT THE PURRL BALLROOM & CASINO",
       "starts_at": "2026-12-02T20:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507004",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Embrace the 80s @ Club Carnage",
@@ -32632,13 +32694,13 @@
     {
       "title": "SL'S BIGGEST ROCK SHOW DJ ANGELOS AT THE PURRL'S CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-12-04T10:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507557",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "FASHION is YOUR VOCABULARY. MAKE YOUR LOOK ELOQUENT!",
@@ -33156,6 +33218,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "LE CHNINKELL @ LE FABRIK live music 12pm slt",
+      "starts_at": "2026-12-04T14:00:00-08:00",
+      "venue": "** ZONE 408 - Le Fabrik **",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9435928",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Mavenn Live 2PM @ The Glade",
@@ -39104,13 +39177,13 @@
     {
       "title": "AMAZING DREW MCDUNNOUGH  THE SINGING DJ AT THE  PURRL WINTER WONDERLAND BALLROOM",
       "starts_at": "2026-12-07T20:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509489",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Blitz 31 With Russ And Shelby",
@@ -39610,13 +39683,13 @@
     {
       "title": "DJ COFFEE'S HOT BRITISH COFFEE AT THE PURRL'S NEW CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-12-08T11:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509494",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "🔉  KaiMar  *   T U E S D A Y   Special *** SURPRISE Music***",
@@ -41762,13 +41835,13 @@
     {
       "title": "SHEDENKA DAVARTS LIVE EN LA VIDA EN EL SALÓN DE BAILE THE PURRL BALLROOM & CASINO",
       "starts_at": "2026-12-09T19:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9506993",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "❤️FOXXIES WED DJ FOXXEE❤️7PM ROMANTIC BALLROOM DANCING HARMONY WAREHOUSE FRANKS FRANK'S",
@@ -41894,13 +41967,13 @@
     {
       "title": "DJ MALLON'S HOUSE MUSIC AT THE PURRL BALLROOM & CASINO",
       "starts_at": "2026-12-09T20:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507005",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Embrace the 80s @ Club Carnage",
@@ -43550,13 +43623,13 @@
     {
       "title": "SL'S BIGGEST ROCK SHOW DJ ANGELOS AT THE PURRL'S CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-12-11T10:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507558",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "FASHION is YOUR VOCABULARY. MAKE YOUR LOOK ELOQUENT!",
@@ -48318,13 +48391,13 @@
     {
       "title": "AMAZING DREW MCDUNNOUGH  THE SINGING DJ AT THE  PURRL WINTER WONDERLAND BALLROOM",
       "starts_at": "2026-12-14T20:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509490",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "Country Event @ Club Carnage",
@@ -48712,13 +48785,13 @@
     {
       "title": "DJ COFFEE'S HOT BRITISH COFFEE AT THE PURRL'S NEW CHAMPAGNE BEACH & MERMAID COVE",
       "starts_at": "2026-12-15T11:00:00-08:00",
-      "venue": "The Purrl's Champagne Beach, Ballroom, Mermaid Cove and Gardens",
+      "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509495",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+      "venue_photo_checked_at": "2026-11-24T19:08:57.775288+00:00"
     },
     {
       "title": "🔉  KaiMar  *   T U E S D A Y   Special *** SURPRISE Music***",
