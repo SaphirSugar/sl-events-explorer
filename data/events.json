@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-25T12:11:02.856385+00:00",
+  "updated_at": "2026-11-25T13:30:00.570319+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -849,6 +849,17 @@
       "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
     },
     {
+      "title": "DJ Paul Papillon  @ Junkyard  Blues  8am to 10am",
+      "starts_at": "2026-11-25T08:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510355",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJette FLORENCE OLD TIME ROCK N ROLL AT THE PURRL'S NEW CHAMPAGNE BEACH AND MERMAID COVE",
       "starts_at": "2026-11-25T08:00:00-08:00",
       "venue": "The Purrl's Champagne Beach, Winter Wonderland Ballroom",
@@ -1095,6 +1106,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "CORVUS BLESSED BRINGS AMAZING MUSIC AND FUN TO CAFE MUSIQUE!",
+      "starts_at": "2026-11-25T10:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=7989807",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Chillax by the River",
@@ -1592,6 +1614,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-22T10:56:26.610107+00:00"
+    },
+    {
+      "title": "Atthention 7Seas Fisherpeoples!",
+      "starts_at": "2026-11-25T12:00:00-08:00",
+      "venue": "Poorboy's,Smittys Speedshop",
+      "category": "Games & Contests",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510354",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T13:32:45.736741+00:00"
     },
     {
       "title": "Aubryn, 12pm @ Surfside Hideaway",
@@ -2120,6 +2153,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "** EDDIE SANTILLO @ PARIS CHAMPS ELYSEES **",
+      "starts_at": "2026-11-25T13:00:00-08:00",
+      "venue": "Paris 1900 *** Les Champs Elysees",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510352",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T13:32:45.736741+00:00"
     },
     {
       "title": "1PM with Pianist Saphir: An original composition & improvisation",
@@ -2848,6 +2892,28 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "DJ Ekaterina with a Classical music  set @ 3 pm at The Silver Dragon Club, CDS",
+      "starts_at": "2026-11-25T15:00:00-08:00",
+      "venue": "The Silver Dragon Club & Gallery",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510333",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ Goatman is taking over Loulou!",
+      "starts_at": "2026-11-25T15:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510337",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T13:32:45.736741+00:00"
+    },
+    {
       "title": "DJ Temptation and Host Lillith @ Cabo Swingers' Resort",
       "starts_at": "2026-11-25T15:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -3099,6 +3165,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-22T18:58:45.720469+00:00"
+    },
+    {
+      "title": "DJ JANIS DROPLIN at Flower Girls for Double Doubles on Wednesdays",
+      "starts_at": "2026-11-25T16:00:00-08:00",
+      "venue": ".: FLOWER GIRLS :.  Cannabis . Coffee . Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510341",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "DJ KISSA THIS LATE AFTERNOON AT EYE CANDY MUSIC CLUB 4PM-6PM",
@@ -3495,6 +3572,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ NEDDY at Flower Girls Cafe for Double Doubles on Wednesday at Flower Girls",
+      "starts_at": "2026-11-25T17:00:00-08:00",
+      "venue": ".: FLOWER GIRLS :.  Cannabis . Coffee . Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510344",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
       "title": "DJ TKira @ Cabo Swingers Resort",
@@ -6511,6 +6599,17 @@
       "venue_photo_checked_at": "2026-11-11T17:04:25.464373+00:00"
     },
     {
+      "title": "DJ Paul Papillon  @ Junkyard  Blues  Noon to 2pm",
+      "starts_at": "2026-11-26T12:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510356",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "DJ RICK & HOST BELLA LIVE AT SOUTHERN SWING",
       "starts_at": "2026-11-26T12:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -9387,6 +9486,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "JUNKYARD  8AM – 10AM  SLT DJ PAUL PAPILLON",
+      "starts_at": "2026-11-27T08:00:00-08:00",
+      "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510357",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
       "title": "🐊 DJ MAIN IS WILD TEARING UP WET WILLIES WITH CLASSIC ROCK TUNES!!",
       "starts_at": "2026-11-27T08:00:00-08:00",
       "venue": "WET WILLIES CLASSIC ROCK CLUB",
@@ -10037,6 +10147,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Semina in the Winter Garden",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Akijima",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510353",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T13:32:45.736741+00:00"
     },
     {
       "title": "Tillen sings at Sanctuary at 12 PM",
@@ -22572,6 +22693,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "WorldJive with Sunny @WBH",
+      "starts_at": "2026-12-01T09:00:00-08:00",
+      "venue": "WBH Sunvibes Chill / World Music",
+      "category": "Arts & Culture",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9414034",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
     },
     {
       "title": "🎩 THE NOBLE HOTEL EXPERIENCE @ ROUGE🎩",
@@ -54816,6 +54948,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Infinite Puzzle Playground w/Pela @ WBH",
+      "starts_at": "2026-12-22T11:00:00-08:00",
+      "venue": "WBH Inspiration Bay",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9405765",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T13:32:45.736741+00:00"
     },
     {
       "title": "Christmas Prize Hunt",
