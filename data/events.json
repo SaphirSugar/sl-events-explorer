@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-25T11:05:06.436265+00:00",
+  "updated_at": "2026-11-25T12:11:02.856385+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -402,9 +402,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9510309",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-25T09:21:29.035375+00:00",
       "image_url": "https://picture-service.secondlife.com/7f9eddb1-9347-f700-2c7d-ef48e36a7bab/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-25T09:21:29.035375+00:00"
     },
     {
       "title": "---Morning Devotion---",
@@ -414,11 +414,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497818",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/86f31877-92d7-c7c5-25a4-df2dee5593bb/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "::: 4AM JAIK MARIO LIVE @ THE WOOLSHED",
@@ -429,9 +428,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8885288",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00",
       "image_url": "https://picture-service.secondlife.com/f448c412-f59d-8144-a297-b556b99f8934/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-15T10:53:24.235417+00:00"
     },
     {
       "title": "DJ AMY HERE THIS EARLY WEDNESDAY MORNING AT EYE CANDY MUSIC CLUB",
@@ -441,11 +440,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9488846",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ DANGER @ WATERMELON SUGRA CLUB",
@@ -456,9 +454,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506554",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "DJ RHYA AND HOST JUSTINE   AT WET SPOT BEACH CLUB!",
@@ -1585,6 +1583,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "AT JAKES - DJ CARL DOES IT ON THE BEACH!",
+      "starts_at": "2026-11-25T12:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510329",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T10:56:26.610107+00:00"
+    },
+    {
       "title": "Aubryn, 12pm @ Surfside Hideaway",
       "starts_at": "2026-11-25T12:00:00-08:00",
       "venue": "Surfside Hideaway",
@@ -2058,6 +2067,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "💝🎵 💝GAZ is singing today💝🎵 💝at Denver's Zwiers Ballroom💝🎵 💝",
+      "starts_at": "2026-11-25T12:00:00-08:00",
+      "venue": "Denver's Everlasting Moments Ballroom and Wedding Place",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510335",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T12:13:05.519750+00:00"
+    },
+    {
       "title": "🦩 PATIENT SOCIAL HOUR - GAME DAY! 🦩",
       "starts_at": "2026-11-25T12:00:00-08:00",
       "venue": "Alkaline + .:.Pariah.:.",
@@ -2155,6 +2175,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ LOU @ SUNRAYZ BEACH CLUB ~ MOTOWN MEMORIES",
+      "starts_at": "2026-11-25T13:00:00-08:00",
+      "venue": "SunRayz Coast Berach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510334",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T12:13:05.519750+00:00"
     },
     {
       "title": "DJ MERCY LIVE @ FUGAZI NIGHTCLUB",
@@ -2421,6 +2452,17 @@
       "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
+      "title": "AT JAKES - ALEYKAT - LIVE!",
+      "starts_at": "2026-11-25T14:00:00-08:00",
+      "venue": "Jake's Place - on Poppy Street",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510330",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T10:56:26.610107+00:00"
+    },
+    {
       "title": "COME HAVE FUN AND PARTY AT WET SPOTBEACH CLUB!",
       "starts_at": "2026-11-25T14:00:00-08:00",
       "venue": "Wet Spot Beach Club",
@@ -2507,6 +2549,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DJ Fuyuko with a Hard Rock set at 2 pm SLT at The Silver Dragon Club, CDS",
+      "starts_at": "2026-11-25T14:00:00-08:00",
+      "venue": "The Silver Dragon Club & Gallery",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510332",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DJ Merimaat & Host Aleangel 🕑 2:00 PM SLT",
@@ -12967,6 +13020,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": ".::.Soundsation Saturday .::. Dj choice .::.",
+      "starts_at": "2026-11-28T10:00:00-08:00",
+      "venue": "Soundsation House Music Club .:",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9504533",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
+    },
+    {
       "title": "BEST BLUES BEING STREAMED AT THE BLAKE SEA ENCHANTED CUDDLE PARK",
       "starts_at": "2026-11-28T10:00:00-08:00",
       "venue": "Enchanted Cuddle Park",
@@ -20187,6 +20251,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "St. Andrews Day Event",
+      "starts_at": "2026-11-30T12:00:00-08:00",
+      "venue": "AFTERGLOW",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510336",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T12:13:05.519750+00:00"
+    },
+    {
       "title": "TILLEN LIVE AT KITTENZ",
       "starts_at": "2026-11-30T12:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -25304,6 +25379,17 @@
       "venue_photo_checked_at": "2026-11-19T16:11:08.703974+00:00"
     },
     {
+      "title": "DarkHeat - Sub Foundations: Routines and Rituals",
+      "starts_at": "2026-12-02T12:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510338",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "ELEVATE YOUR SENSES at THE CAGE CLUB",
       "starts_at": "2026-12-02T12:00:00-08:00",
       "venue": "Cage Club BDSM and D/s - Play, toys, sandbox - HIRING -",
@@ -26123,6 +26209,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DarkHeat - Foundations: Leadership Beyond the Scene and Routines and Rituals",
+      "starts_at": "2026-12-02T17:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510339",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "Gypsy Dhrua at the Slippy Ship",
       "starts_at": "2026-12-02T17:00:00-08:00",
       "venue": "Aphrodite - The Slippy Ship - Tannhauser Gate",
@@ -26627,6 +26724,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "DarkHeat - DJ Miss Wynter - Feast of Fools",
+      "starts_at": "2026-12-02T18:30:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510340",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "❤️FOXXIES WED DJ FOXXEE❤️6:30PM BALLROOM DANCING CLOUDS FRANKS FRANK'S HARMONY WEARHOUSE 511",
