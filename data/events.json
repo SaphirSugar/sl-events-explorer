@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-26T19:07:01.227395+00:00",
+  "updated_at": "2026-11-26T20:12:40.843654+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -454,6 +454,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506581",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
@@ -1447,17 +1449,6 @@
       "venue_photo_checked_at": "2026-11-24T10:24:02.146627+00:00"
     },
     {
-      "title": "A Good Place to Talk Literature @ Hotel Chelsea (Jobriath Room)",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "Virtual Hotel Chelsea NYC - El Quijote",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9460487",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
       "title": "ASTRA 🌹 THORNY THURSDAYS: LET THE THORNS TEMPT YOU",
       "starts_at": "2026-11-26T12:00:00-08:00",
       "venue": "ASTRA Lovense Lounge ~ [Cam, Escort, Voice, Text, Strip]",
@@ -1590,17 +1581,6 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
-      "title": "DJ Teah - Funky Jacking Groove (Remixed) @ The Midnight Cabaret",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "The Midnight Cabaret",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9509406",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
       "title": "English Class. Voice. Pronunciation Practice",
       "starts_at": "2026-11-26T12:00:00-08:00",
       "venue": "Drive-Through ESL (English Language School)",
@@ -1643,17 +1623,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-15T21:48:05.135677+00:00"
-    },
-    {
-      "title": "HOW THINGS WORK @WBH",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "Drive-Through ESL (English Language School)",
-      "category": "Education",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9509650",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "Jaik Live at the TeKeLLYa's",
@@ -1709,17 +1678,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-26T12:11:22.678931+00:00"
-    },
-    {
-      "title": "THUNDER LOVENKRAFT, live singer @ THE NIGHT OWL",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "M.T. - THE NIGHT OWL",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9489087",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
       "title": "THURSDAY AFTERNOON, NOON-6 PM SLT @ ROCKIN ROBIN - 50'S, 60'S, 70'S, 80'S, TO CURRENT",
@@ -1788,17 +1746,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "WorldJive with Sunny @WBH",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "WBH Sunvibes Chill / World Music",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9414034",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T23:09:23.458068+00:00"
-    },
-    {
       "title": "Yves Welles sings at CharitySL.nl in Action for KiKa against Childhood cancer",
       "starts_at": "2026-11-26T12:00:00-08:00",
       "venue": "CharitySL.nl in Action for KiKa 2026",
@@ -1819,17 +1766,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
-      "title": "🌟Gran Finale Presents: DJ Ella 🌟",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "Gran Finale",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9491756",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "🎀 THE ART OF COMPANIONSHIP @ ROUGE 🎀",
@@ -18104,6 +18040,17 @@
       "venue_photo_checked_at": "2026-11-22T05:06:54.527645+00:00"
     },
     {
+      "title": "Airedine at United Rhythms!",
+      "starts_at": "2026-11-30T17:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510916",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
+    },
+    {
       "title": "DJ BLUELOU at FOGBOUND MONDAYS AT 5pm",
       "starts_at": "2026-11-30T17:00:00-08:00",
       "venue": "FogBound Blues",
@@ -18344,6 +18291,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T04:09:21.723230+00:00"
+    },
+    {
+      "title": "Justine Johndory at United Rhythms!",
+      "starts_at": "2026-11-30T18:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510917",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
     },
     {
       "title": "LADY Q PERFORMING - TINKERS PLACE",
@@ -18641,6 +18599,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Erika Ordinary at United Rhythms!",
+      "starts_at": "2026-11-30T19:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510918",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
     },
     {
       "title": "MARIBOL INSHAN  AT TINKERS PLACE",
@@ -23512,6 +23481,17 @@
       "venue_photo_checked_at": "2026-11-06T04:00:47.976295+00:00"
     },
     {
+      "title": "Samuel James at United Rhythms!",
+      "starts_at": "2026-12-02T16:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510919",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
+    },
+    {
       "title": "Singer Wayne Rhodell  @ A LITTLE HONKY TONK BAR 4-5 PM",
       "starts_at": "2026-12-02T16:00:00-08:00",
       "venue": "A LITTLE HONKY TONK BAR",
@@ -23708,6 +23688,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Strum Diesel at United Rhythms!",
+      "starts_at": "2026-12-02T17:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510920",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
     },
     {
       "title": "VELVET ROSE LIVE AT FRANK'S ELITE",
@@ -24018,6 +24009,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Twostep Spiritweaver at United Rhythms!",
+      "starts_at": "2026-12-02T18:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510921",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
+    },
+    {
       "title": "WYLD BLUES!!",
       "starts_at": "2026-12-02T18:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -24280,6 +24282,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-25T09:21:29.035375+00:00"
+    },
+    {
+      "title": "Raspbury Rearwin at United Rhythms!",
+      "starts_at": "2026-12-02T19:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510922",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
     },
     {
       "title": "SHEDENKA DAVARTS LIVE EN LA VIDA EN EL SALÓN DE BAILE THE PURRL BALLROOM & CASINO",
@@ -29052,6 +29065,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "AMFORTE at United Rhythms!",
+      "starts_at": "2026-12-04T17:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510923",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
+    },
+    {
       "title": "DJ Gin's Canadian Faves @ The Canadian Club Lodge!",
       "starts_at": "2026-12-04T17:00:00-08:00",
       "venue": "Canadian Club Lodge, Canada",
@@ -29283,6 +29307,17 @@
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
+      "title": "Mimi Carpenter at United Rhythms!",
+      "starts_at": "2026-12-04T18:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510924",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
+    },
+    {
       "title": "RoseDrop Rust Live @ Hotel Chelsea",
       "starts_at": "2026-12-04T18:00:00-08:00",
       "venue": "Virtual Hotel Chelsea NYC - El Quijote",
@@ -29501,6 +29536,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Oblee at United Rhythms!",
+      "starts_at": "2026-12-04T19:00:00-08:00",
+      "venue": ".United Rhythms - Enchantment",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510925",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T20:15:08.268901+00:00"
     },
     {
       "title": "Phoenix Adult Night Club",
