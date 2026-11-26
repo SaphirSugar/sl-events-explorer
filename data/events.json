@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-26T21:02:10.205975+00:00",
+  "updated_at": "2026-11-26T22:01:49.591815+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1482,28 +1482,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "Cyberia Karaoke",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "Cyberia Karaoke",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-25T23:04:22.639218+00:00"
-    },
-    {
-      "title": "Cyberia Openstage",
-      "starts_at": "2026-11-26T12:00:00-08:00",
-      "venue": "Cyberia Openstage",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-25T23:04:22.639218+00:00"
-    },
-    {
       "title": "DJ ALAM @WATERMELON SUGAR",
       "starts_at": "2026-11-26T12:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -2155,17 +2133,6 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
-      "title": "BEACH PARTY with DJ Titine!!",
-      "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "IGLOO VILLAGE & SILVER PEARL BEACH",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9510751",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-26T09:19:40.264771+00:00"
-    },
-    {
       "title": "DJ BELLE & HOST BARBIE LIVE @ SOUTHERN SWING!",
       "starts_at": "2026-11-26T14:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -2287,17 +2254,6 @@
       "venue_photo_checked_at": "2026-11-10T20:01:04.988523+00:00"
     },
     {
-      "title": "DarkHeat - Writing Sprints",
-      "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
-      "category": "Arts & Culture",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9507806",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
-    },
-    {
       "title": "Dj Rebecca @ Sappho's Purring Kitten 2pm to 4pm",
       "starts_at": "2026-11-26T14:00:00-08:00",
       "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
@@ -2318,17 +2274,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
-    },
-    {
-      "title": "GROOVE WITH THE TUNES- DJ ROBBIE HAS THE BEATS",
-      "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9488217",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "IVY LANE LIVE AT CAFE MUSIQUE!",
@@ -2364,17 +2309,6 @@
       "venue_photo_checked_at": "2026-11-24T04:09:21.723230+00:00"
     },
     {
-      "title": "MUDDY'S presents  DJ AMFIE & host Kate Thursday from 8-10 AM",
-      "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9502775",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
-    },
-    {
       "title": "SMOOTH JAZZ WITH DJ ALEXANDER AT FRANK'S ELITE JAZZ CLUB",
       "starts_at": "2026-11-26T14:00:00-08:00",
       "venue": "Franks Elite Jazz Club - Elegant Romance",
@@ -2398,17 +2332,6 @@
     },
     {
       "title": "Ugly Bill and Sum live in Dublin",
-      "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "The Blarney Stone - Irish Pub",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9040019",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
-    },
-    {
-      "title": "Ugly Bill live in Dublin",
       "starts_at": "2026-11-26T14:00:00-08:00",
       "venue": "The Blarney Stone - Irish Pub",
       "category": "Live Music",
@@ -2450,17 +2373,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
-    },
-    {
-      "title": "🎧 DJ Joe Max 🕶️ Taking Another Rad Ride 🕹️ Back To The 80s! 🎧",
-      "starts_at": "2026-11-26T14:00:00-08:00",
-      "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
-      "category": "Nightlife & Entertainment",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9504585",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🎶✨ THURSDAY AFTERNOON THIS AUTUMN AT LOVE & HARMONY JAZZ WITH DJ CHEMAK 2PM✨🎶",
@@ -5705,6 +5617,28 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "Cyberia Karaoke",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Cyberia Karaoke",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386978",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T23:04:22.639218+00:00"
+    },
+    {
+      "title": "Cyberia Openstage",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Cyberia Openstage",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9386996",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-25T23:04:22.639218+00:00"
+    },
+    {
       "title": "DANDY PIANOMAN WILL BLOW YOU AWAY AT CAFE MUSIQUE!",
       "starts_at": "2026-11-27T12:00:00-08:00",
       "venue": "Cafe Musique",
@@ -8881,6 +8815,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
+    },
+    {
+      "title": "🍋Ｔｈｅ Ｈａｉｒｙ ｌｅｍｏｎ🍋 — Pure Vibez",
+      "starts_at": "2026-11-28T07:00:00-08:00",
+      "venue": "~[The Hairy Lemon] ~",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510942",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T22:04:08.582342+00:00"
     },
     {
       "title": "🍷 𝗛𝗜𝗥𝗜𝗡𝗚 𝗖𝗟𝗔𝗦𝗦𝗬 𝗟𝗔𝗗𝗜𝗘𝗦 🍷",
@@ -14907,6 +14852,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "~ AUBRYN LIVE AT LUTZ CITY OF TEMPLEMORE ~",
+      "starts_at": "2026-11-29T16:00:00-08:00",
+      "venue": "Lutz City of Templemore  [https://flic.kr/g/GetRW Flickr]",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510943",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
       "title": "🎂 DJ Cupcake's 🎂 Got The Sweet Sunday Beats At 💥 INdustry! 💥",
       "starts_at": "2026-11-29T16:00:00-08:00",
       "venue": "[IN]dustry Nightclub <> www.INdustryClubSL.com",
@@ -16741,13 +16697,13 @@
     {
       "title": "Fishing Tournament @ Dani's Dock: FREE to ALL",
       "starts_at": "2026-11-30T11:00:00-08:00",
-      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "venue": "!  DANI'S DOCK with XS Fishing: Public Welcome!",
       "category": "Games & Contests",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509561",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+      "venue_photo_checked_at": "2026-11-26T22:04:08.582342+00:00"
     },
     {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
@@ -22854,6 +22810,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "DJ Niko mixed tunes in Dublin",
+      "starts_at": "2026-12-02T13:00:00-08:00",
+      "venue": "The Blarney Stone - Irish Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8744576",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "IVY LANE BRINGS TIMELESS MUSIC TO CAFE MUSIQUE",
       "starts_at": "2026-12-02T13:00:00-08:00",
       "venue": "Cafe Musique",
@@ -25886,6 +25853,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "BEACH PARTY with DJ Titine!!",
+      "starts_at": "2026-12-03T14:00:00-08:00",
+      "venue": "IGLOO VILLAGE & SILVER PEARL BEACH",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510751",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T09:19:40.264771+00:00"
     },
     {
       "title": "CANCELLATIN  @ THE NIGHT OWL",
@@ -34532,13 +34510,13 @@
     {
       "title": "Fishing Tournament at Dani's Dock: FREE for everyone!",
       "starts_at": "2026-12-07T11:00:00-08:00",
-      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "venue": "!  DANI'S DOCK with XS Fishing: Public Welcome!",
       "category": "Games & Contests",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509574",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+      "venue_photo_checked_at": "2026-11-26T22:04:08.582342+00:00"
     },
     {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
@@ -36500,6 +36478,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2026-12-08T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510930",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
     },
     {
       "title": "XXXXX1 @ THE NIGHT OWL",
@@ -45098,13 +45087,13 @@
     {
       "title": "FREE Fishing Tournament at Dani's Dock: NO skill required!",
       "starts_at": "2026-12-14T11:00:00-08:00",
-      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "venue": "!  DANI'S DOCK with XS Fishing: Public Welcome!",
       "category": "Games & Contests",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509575",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+      "venue_photo_checked_at": "2026-11-26T22:04:08.582342+00:00"
     },
     {
       "title": "HOLA! OPENS THE GATES TO JOAQUIN",
@@ -53552,13 +53541,13 @@
     {
       "title": "FREE fishing tournament @ Dani's Dock: No skill required!",
       "starts_at": "2026-12-21T11:00:00-08:00",
-      "venue": "!  DANI'S DOCK with XS Fishing and Sailable Water",
+      "venue": "!  DANI'S DOCK with XS Fishing: Public Welcome!",
       "category": "Games & Contests",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9509576",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-23T20:13:18.018675+00:00"
+      "venue_photo_checked_at": "2026-11-26T22:04:08.582342+00:00"
     },
     {
       "title": "Orgy Monday at Spa Sensuelle Beach",
@@ -54769,6 +54758,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2026-12-22T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510932",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
     },
     {
       "title": "GAZ DEMURE SINGS TODAY AT THE SHEWORTHY",
@@ -66043,6 +66043,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-01-05T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510934",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "DJ Khal and Host Alaska @ Cabo Swingers' Resort",
       "starts_at": "2027-01-05T16:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -70042,6 +70053,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-01-12T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510935",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "Kiss a Ginger Day @Club Carnage",
       "starts_at": "2027-01-12T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -73317,6 +73339,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-01-19T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510936",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "Gonja Land presents Tukso Okey",
       "starts_at": "2027-01-19T16:00:00-08:00",
       "venue": "Gonja Land",
@@ -75984,6 +76017,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-01-26T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510937",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "Barely There Night @ Club Carnage",
       "starts_at": "2027-01-26T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -78189,6 +78233,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-02-02T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510938",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "Groundhog Day Bash @ Club Carnage",
       "starts_at": "2027-02-02T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -79680,6 +79735,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-02-09T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510939",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "Mardi Gras Event @ Club Carnage",
       "starts_at": "2027-02-09T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -80560,6 +80626,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-02-16T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510940",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
+    },
+    {
       "title": "Gonja Land presents Tukso Okey",
       "starts_at": "2027-02-16T16:00:00-08:00",
       "venue": "Gonja Land",
@@ -81240,6 +81317,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Tukso Okey, 2:00 pm @ Trickster's Sounds",
+      "starts_at": "2027-02-23T14:00:00-08:00",
+      "venue": "Trickster's Sounds",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510941",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T00:02:58.331853+00:00"
     },
     {
       "title": "Bra, Panty, Briefs & Boxers Party @ Club Carnage",
