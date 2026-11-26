@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-26T09:16:37.849429+00:00",
+  "updated_at": "2026-11-26T10:25:42.666156+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -245,11 +245,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9491615",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/98dcbcf0-6b31-2a61-7c66-122086c62f46/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🍑 SIN & SILK @ ROUGE 🍑",
@@ -260,9 +259,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507373",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00",
       "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "2:00AM HEDY LIVE @ THE RAFT",
@@ -273,20 +272,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9259510",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00",
       "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "CAROLA COVINUS",
-      "starts_at": "2026-11-26T02:00:00-08:00",
-      "venue": "LORRIE'S CLUB AUSTRALIA - ENCHANTED DREAM ISLAND",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9507252",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "CAROLA COVINUS LIVE @ LORRIE'S CLUB AUSTRALIA",
@@ -297,9 +285,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507252",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00",
       "image_url": "https://picture-service.secondlife.com/842563f7-00fa-917a-9620-7fb821f10030/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
       "title": "DJ AMY @ WATERMELON SUGRA CLUB",
@@ -310,9 +298,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9506580",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
       "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
       "title": "DJ ENNIE EARLY THURSDAY MORNING AT EYE CANDY MUSIC CLUB",
@@ -322,11 +310,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495080",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/64f192dd-0f90-5ed3-2212-3ceee608b4db/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "the show of Stevanno and Cecelia",
@@ -337,9 +324,9 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9509639",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-22T22:54:13.665290+00:00",
       "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-22T22:54:13.665290+00:00"
     },
     {
       "title": "~~JOHNNY BELLOWS Live @ The Music Hive at 2am~~",
@@ -349,11 +336,10 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9495391",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
       "image_url": "https://picture-service.secondlife.com/5bb1fac5-e16a-4137-aa5f-1e3d8f8151a6/256x192.jpg",
-      "image_source": "official_event_photo"
+      "image_source": "official_event_photo",
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "🧸 Welcome Little One Bear Art Frames",
@@ -2320,6 +2306,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T01:20:56.676418+00:00"
+    },
+    {
+      "title": "DJ Sol Hot Mix of Sexy Tunes @ The Midnight Cabaret",
+      "starts_at": "2026-11-26T14:00:00-08:00",
+      "venue": "The Midnight Cabaret",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510797",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
       "title": "DJ Voom@Obscenium",
@@ -15902,6 +15899,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Monay Amour LIVE @ The Bricks",
+      "starts_at": "2026-11-30T02:00:00-08:00",
+      "venue": "The Bricks at Phat Cats",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510805",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-22T22:54:13.665290+00:00"
     },
     {
       "title": "THE BOYS ARE BACK IN TOWN , DJ ROBBIE AND JP 2 AM TO 4 A.M.",
@@ -33703,6 +33711,17 @@
       "venue_photo_checked_at": "2026-11-24T10:24:02.146627+00:00"
     },
     {
+      "title": "** CIRCLE MENTAL HEALTH - Depression / Anxiety Meeting - Mondays 9am SLT **",
+      "starts_at": "2026-12-07T09:00:00-08:00",
+      "venue": "Circle Mental Health - Meetings",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510802",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T18:53:07.506230+00:00"
+    },
+    {
       "title": "Time to 🌞 Rise And Retro! ☕ with DJ Perci and Head 🕹️ Back To The 80s! 🕶️",
       "starts_at": "2026-12-07T09:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -35249,6 +35268,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T10:15:06.796490+00:00"
+    },
+    {
+      "title": "** CIRCLE MENTAL HEALTH - Addictions Meeting - Tuesdays @ 10am SLT **",
+      "starts_at": "2026-12-08T10:00:00-08:00",
+      "venue": "Circle Mental Health - Circle Garden",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510799",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T10:27:39.946831+00:00"
     },
     {
       "title": "BEST BLUES FOR YOU BEING STREAMED AT THE BLAKE SEA ENCHANTED CUDDLE PARK",
@@ -44072,6 +44102,17 @@
       "venue_photo_checked_at": "2026-11-24T10:24:02.146627+00:00"
     },
     {
+      "title": "** CIRCLE MENTAL HEALTH - Depression / Anxiety Meeting - Mondays 9am SLT **",
+      "starts_at": "2026-12-14T09:00:00-08:00",
+      "venue": "Circle Mental Health - Meetings",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510803",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T18:53:07.506230+00:00"
+    },
+    {
       "title": "Time to 🌞 Rise And Retro! ☕ with DJ Perci and Head 🕹️ Back To The 80s! 🕶️",
       "starts_at": "2026-12-14T09:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -45242,6 +45283,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T10:15:06.796490+00:00"
+    },
+    {
+      "title": "** CIRCLE MENTAL HEALTH - Addictions Meeting - Tuesdays @ 10am SLT **",
+      "starts_at": "2026-12-15T10:00:00-08:00",
+      "venue": "Circle Mental Health - Circle Garden",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510800",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T10:27:39.946831+00:00"
     },
     {
       "title": "BEST BLUES FOR YOU BEING STREAMED AT THE BLAKE SEA ENCHANTED CUDDLE PARK",
@@ -52460,6 +52512,17 @@
       "venue_photo_checked_at": "2026-11-24T10:24:02.146627+00:00"
     },
     {
+      "title": "** CIRCLE MENTAL HEALTH - Depression / Anxiety Meeting - Mondays 9am SLT **",
+      "starts_at": "2026-12-21T09:00:00-08:00",
+      "venue": "Circle Mental Health - Meetings",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510804",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T18:53:07.506230+00:00"
+    },
+    {
       "title": "🔥🎧 HEAR THEM. TEASE THEM. PLAY WITH THEM. 🎧🔥",
       "starts_at": "2026-12-21T09:00:00-08:00",
       "venue": "<{VELVET MIRAGE}> Lovense - Cam - Escort - Hiring",
@@ -53485,6 +53548,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-18T10:15:06.796490+00:00"
+    },
+    {
+      "title": "** CIRCLE MENTAL HEALTH - Addictions Meeting - Tuesdays @ 10am SLT **",
+      "starts_at": "2026-12-22T10:00:00-08:00",
+      "venue": "Circle Mental Health - Circle Garden",
+      "category": "Charity & Support Groups",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510801",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T10:27:39.946831+00:00"
     },
     {
       "title": "BEST BLUES FOR YOU BEING STREAMED AT THE BLAKE SEA ENCHANTED CUDDLE PARK",
