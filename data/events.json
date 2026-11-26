@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-26T16:14:25.560585+00:00",
+  "updated_at": "2026-11-26T17:18:05.371252+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -1471,6 +1471,17 @@
       "venue_photo_checked_at": "2026-11-24T15:11:10.894881+00:00"
     },
     {
+      "title": "🎵 :::: Paradorn Ansar   11 AM @ Sky Music Park :::: 🎵",
+      "starts_at": "2026-11-26T11:00:00-08:00",
+      "venue": "SKY MUSIC PARK",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9399075",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-24T15:11:10.894881+00:00"
+    },
+    {
       "title": "🎷  KaiMar 2026  * Jazz  with Kai * 🎷",
       "starts_at": "2026-11-26T11:00:00-08:00",
       "venue": "KaiMar",
@@ -1480,6 +1491,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T13:26:49.137686+00:00"
+    },
+    {
+      "title": "🎸 FOGBOUND BLUES | 11AM | DJ JOE",
+      "starts_at": "2026-11-26T11:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510866",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "💼 THE VELVET HOUSE: LET’S GET DOWN TO BUSINESS 💼",
@@ -2719,6 +2741,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=8986635",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2026-11-26T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510869",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -3969,13 +4002,13 @@
     {
       "title": "DJ BEX BRINGS the BLUES TO FOGBOUND",
       "starts_at": "2026-11-26T19:00:00-08:00",
-      "venue": "Aliens Love Panta Claus -Region Sponsor - Vidarr's Legacies",
+      "venue": "FogBound Blues",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476176",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ PEACHES & HOST NEZ @ MOONLIGHT SONATA WITH ROMANCE!  7-9 PM!",
@@ -26018,6 +26051,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2026-12-03T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510870",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "🎄 Ivy Fadel - 3:00 PM - LIVE at the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-12-03T15:00:00-08:00",
       "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
@@ -26038,6 +26082,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-16T15:14:26.880357+00:00"
+    },
+    {
+      "title": "4PM-8PM HERE AT EYE CANDY MUSIC CLUB DJ BLUE THIS AFTERNOON",
+      "starts_at": "2026-12-03T16:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510865",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "COME PARTY w/ ANTIQUITIN",
@@ -26588,6 +26643,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-19T06:13:59.737418+00:00"
+    },
+    {
+      "title": "DJ LORI HERE AT EYE CANDY MUCIS CLUB 6PM-8PM",
+      "starts_at": "2026-12-03T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510867",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ TALON @ WATERMELON SUGAR CLUB",
@@ -27171,6 +27237,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ HAZEY HERE AT EYE CANDY THIS EVENING 8PM-10PM",
+      "starts_at": "2026-12-03T20:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510868",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ HOPE @ WATERMELON SUGAR CLUB",
@@ -37023,6 +37100,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ SUGA EARLYTHURSDAYY MORNING HERE AT EYE CANDY MUSIC LCLUB",
+      "starts_at": "2026-12-09T04:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510881",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Wednesday Morning Devotion at HOP",
       "starts_at": "2026-12-09T04:00:00-08:00",
       "venue": "God's House of Prayer Church - Main campus",
@@ -39368,6 +39456,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ KRAY THIS AFTERNOON HERE AT EYE CANDY MUSIC CLUB 2PM-4PM",
+      "starts_at": "2026-12-10T14:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510882",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Voom@Obscenium",
       "starts_at": "2026-12-10T14:00:00-08:00",
       "venue": "-[OBSCENIUM]- Erotic Club & Nude Beach Resort",
@@ -39434,6 +39533,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2026-12-10T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510871",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "~~♥ EDDIE SANTILLO ♥~~ @ Le Fabrik live music 3pm",
       "starts_at": "2026-12-10T15:00:00-08:00",
       "venue": "** ZONE 408 - Le Fabrik **",
@@ -39451,6 +39561,17 @@
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489225",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ BLUE HERE AT EYE CANDY MUSIC CLUB 4PM-8PM",
+      "starts_at": "2026-12-10T16:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510883",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -39729,6 +39850,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-19T06:13:59.737418+00:00"
+    },
+    {
+      "title": "DJ LORI THIS EVENING AT EYE CANDY MUSIC CLUB 6PM-8PM",
+      "starts_at": "2026-12-10T18:00:00-08:00",
+      "venue": "The Crackers Catch and Cove",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510884",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-26T16:17:31.128383+00:00"
     },
     {
       "title": "GANDALF MORNINGTON LIVE AT KITTENZ",
@@ -40081,6 +40213,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-13T06:09:20.889614+00:00"
+    },
+    {
+      "title": "DJ HAZEY HERE AT EYE CANDY MUSIC CLUB TONIGHT 8PM-10PM",
+      "starts_at": "2026-12-10T20:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510885",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "DJ Tara @ Cabo Swingers Resort",
@@ -48611,6 +48754,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ STORM H THIS AFTERNOON AT EYE CANDY MUSIC CLUB 12PM-2PM",
+      "starts_at": "2026-12-17T12:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510886",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "PARTY TIME WITH DJ THOR",
       "starts_at": "2026-12-17T12:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -48786,6 +48940,17 @@
       "category": "Live Music",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9507791",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2026-12-17T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510872",
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
@@ -56335,6 +56500,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2026-12-24T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510873",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "COME PARTY w/ ANTIQUITIN",
       "starts_at": "2026-12-24T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -61756,6 +61932,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2026-12-31T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510874",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "COME PARTY w/ ANTIQUITIN",
       "starts_at": "2026-12-31T16:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -66542,6 +66729,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2027-01-07T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510875",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Angels Event @ Club Carnage",
       "starts_at": "2027-01-07T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -70339,6 +70537,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2027-01-14T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510876",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Carnage Astronauts & Aliens Event @ Club Carnage",
       "starts_at": "2027-01-14T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -73440,6 +73649,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2027-01-21T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510877",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Sip, Share & Celebrate @ Club Carnage",
       "starts_at": "2027-01-21T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -75992,6 +76212,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2027-01-28T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510878",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Bikers & Babes Bash @ Club Carnage",
       "starts_at": "2027-01-28T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -77984,6 +78215,17 @@
       "venue_photo_checked_at": "2026-11-19T06:13:59.737418+00:00"
     },
     {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2027-02-04T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510879",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "Birthday Bash @ Club Carnage",
       "starts_at": "2027-02-04T16:00:00-08:00",
       "venue": "Club Carnage Est. 2005",
@@ -78213,6 +78455,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "THE OXYGEN SHOW AT EYE CANDY MUSIC CLUB WITH DJ ED OXYGEN AND HOST SAVVY 6PM-8PM",
+      "starts_at": "2027-02-05T18:00:00-08:00",
+      "venue": "Eye Candy Music Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9469517",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "NINA ROSE SETNER LIVE JAZZ VOCALS @ NAT'S 7 PM",
@@ -79357,6 +79610,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
+      "title": "DJ AVALON and her ANGELS THURSDAYS at 3pm  FOGBOUND",
+      "starts_at": "2027-02-11T15:00:00-08:00",
+      "venue": "FogBound Blues",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510880",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "Alchemelic @ Hotel Chelsea's Strawberry Fields",
