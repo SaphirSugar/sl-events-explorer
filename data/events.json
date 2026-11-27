@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-27T12:04:36.761704+00:00",
+  "updated_at": "2026-11-27T13:24:56.657085+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -488,7 +488,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9477287",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
@@ -684,6 +683,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
+    },
+    {
+      "title": "COME PARTY WITH DJ ELA AND HOST SADUKO AT DELFINA",
+      "starts_at": "2026-11-27T08:00:00-08:00",
+      "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511231",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "DJ DAS BRINGS THE SPIRIT OF SCOTLAND TO CAFE MUSIQUE",
@@ -5705,6 +5715,17 @@
       "venue_photo_checked_at": "2026-11-17T18:10:26.335555+00:00"
     },
     {
+      "title": "Muddy's Music Cafe with DJ Dazz and Host Heather",
+      "starts_at": "2026-11-28T10:00:00-08:00",
+      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511230",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "OBSCENIUM is hiring",
       "starts_at": "2026-11-28T10:00:00-08:00",
       "venue": "-[OBSCENIUM]- Erotic Club & Nude Beach Resort",
@@ -6210,13 +6231,13 @@
     {
       "title": "DJ Sunrise @ Celtic Storm Worldwide MC # Aurora -Sanctuary Of Music",
       "starts_at": "2026-11-28T12:00:00-08:00",
-      "venue": "Celtic Storm WorldWide MC & #Aurora - Sanctuary of Music",
+      "venue": "Celtic Storm WorldWide MC",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9484910",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-27T13:27:14.099966+00:00"
     },
     {
       "title": "DJ Tattoo Pop and Rock @ The Midnight Cabaret",
@@ -22535,13 +22556,13 @@
     {
       "title": "#Aurora Santuary Of Music  W/ DJ Midnight    Playing COUNTRY & ROCK",
       "starts_at": "2026-12-03T10:00:00-08:00",
-      "venue": "Celtic Storm WorldWide MC & #Aurora - Sanctuary of Music",
+      "venue": "Celtic Storm WorldWide MC",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9478088",
       "teleport_url": null,
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-27T13:27:14.099966+00:00"
     },
     {
       "title": "DJ ARIANNA @ WATERMELON SUGAR CLUB",
@@ -25710,6 +25731,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "DarkHeat - Discipline",
+      "starts_at": "2026-12-04T12:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Education",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511219",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
       "title": "FRIDAY FUNDAY WITH DJ OLIVER",
       "starts_at": "2026-12-04T12:00:00-08:00",
       "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
@@ -25884,6 +25916,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "DarkHeat - DJ Crimson",
+      "starts_at": "2026-12-04T13:00:00-08:00",
+      "venue": "DARKHEAT EST:2007 - BDSM Education sim and  D/s Community",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511220",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
       "title": "LISA BRUNE  @ Le Fabrik live music 1pm",
@@ -28103,14 +28146,14 @@
     {
       "title": "DJ Sunrise @ Celtic Storm Worldwide MC # Aurora -Sanctuary Of Music",
       "starts_at": "2026-12-05T12:00:00-08:00",
-      "venue": "Celtic Storm WorldWide MC & #Aurora - Sanctuary of Music",
+      "venue": "Celtic Storm WorldWide MC",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9484911",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-27T13:27:14.099966+00:00"
     },
     {
       "title": "DJ Tattoo Pop and Rock @ The Midnight Cabaret",
@@ -40263,14 +40306,14 @@
     {
       "title": "DJ Sunrise @ Celtic Storm Worldwide MC # Aurora -Sanctuary Of Music",
       "starts_at": "2026-12-12T12:00:00-08:00",
-      "venue": "Celtic Storm WorldWide MC & #Aurora - Sanctuary of Music",
+      "venue": "Celtic Storm WorldWide MC",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9484912",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-27T13:27:14.099966+00:00"
     },
     {
       "title": "DJ Tattoo Pop and Rock @ The Midnight Cabaret",
@@ -49377,14 +49420,14 @@
     {
       "title": "DJ Sunrise @ Celtic Storm Worldwide MC # Aurora -Sanctuary Of Music",
       "starts_at": "2026-12-19T12:00:00-08:00",
-      "venue": "Celtic Storm WorldWide MC & #Aurora - Sanctuary of Music",
+      "venue": "Celtic Storm WorldWide MC",
       "category": "Live DJ",
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9484913",
       "teleport_url": null,
       "maturity": "Unspecified",
       "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+      "venue_photo_checked_at": "2026-11-27T13:27:14.099966+00:00"
     },
     {
       "title": "DJ Val party with smooth soul and sassy pop @ Schmooze",
