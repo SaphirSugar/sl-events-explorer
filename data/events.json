@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-27T13:24:56.657085+00:00",
+  "updated_at": "2026-11-27T15:04:27.696671+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -510,7 +510,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9490298",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -544,7 +543,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9493259",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -556,7 +554,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9479739",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
@@ -579,7 +576,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497627",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
@@ -635,7 +631,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9489026",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -716,6 +711,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T05:18:59.636226+00:00"
+    },
+    {
+      "title": "Dj MELO AND HOST LUCIO AT WET SPOT FOR BLACK FRIDAYPARTY!",
+      "starts_at": "2026-11-27T08:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511247",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "Friday 27th November line up @ Serimner",
@@ -939,6 +945,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "GET YOUR BLACK ON FOR BALCK FRIDAY AT WET SPOT WITH DJ ENI AND HOST KULUS!",
+      "starts_at": "2026-11-27T10:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511248",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "Hedy sings at CharitySL.nl in Action for KiKa against Childhood cancer",
@@ -1194,6 +1211,17 @@
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
     },
     {
+      "title": "SUJEITO LIVE 11AM @ THE NNBC HARD ROCK CAFE",
+      "starts_at": "2026-11-27T11:00:00-08:00",
+      "venue": "Puddles Place",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511244",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
+    },
+    {
       "title": "Take a Spin on the Whoroscope Wheel!",
       "starts_at": "2026-11-27T11:00:00-08:00",
       "venue": "~ The Cosmos Lounge ~",
@@ -1324,6 +1352,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-26T15:13:51.696883+00:00"
+    },
+    {
+      "title": "BLACK FRIDAY PARTY AT WET SPOT WITH DJ BECCI AND HOST AMANI!",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511249",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "Bart & Tay @ Jazz Elysee 12-2pm SLT",
@@ -1599,6 +1638,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "SATCH FEDEN LIVE 12PM  @THE NNBC HARD ROCK CAFE",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "Puddles Place",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511245",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "SAVAGE RHYTHM~DJ JACK TURNING GOOD MUSIC INTO A GREAT FRIDAY NIGHT! 12-2P",
@@ -1986,6 +2036,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "LEO BRIND LIVE 1PM @ THE NNBC HARD ROCK CAFE",
+      "starts_at": "2026-11-27T13:00:00-08:00",
+      "venue": "Puddles Place",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511246",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
+    },
+    {
       "title": "Led Zeppelin Tribute performance by Rebel Yell @ Yasgurs Farm Fri 1pm slt",
       "starts_at": "2026-11-27T13:00:00-08:00",
       "venue": "Led Zep show Yasgurs Farm,",
@@ -2151,6 +2212,17 @@
       "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
     },
     {
+      "title": "DJ GUEDES @ LOULOU - Lets go Funkyyyyyy!!",
+      "starts_at": "2026-11-27T13:30:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511256",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
+    },
+    {
       "title": "🌴NEKER IS LIVE AT SINSET BEACH 🌴FRIENDSHIPS & DANCING🕺💃BRING A DATE",
       "starts_at": "2026-11-27T13:30:00-08:00",
       "venue": "SINSET BEACH-LIVE MUSIC-DANCING-7 DAYS A WEEK-NOON TO 4 PM SLT",
@@ -2182,6 +2254,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-22T10:56:26.610107+00:00"
+    },
+    {
+      "title": "BLACK FRIDAY PARTY AT WET SPOT WITH DJ Z AND HOST MELO!",
+      "starts_at": "2026-11-27T14:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511250",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "DISCOVERING ART | MAXIMILLION KLEENE LIVE | VAN GOGH",
@@ -2558,6 +2641,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "🔥❄️ FIRE & ICE PARTY ❄️🔥 🔥 The Ice is Cold, But the Party is HOT! 🔥",
+      "starts_at": "2026-11-27T14:30:00-08:00",
+      "venue": "PartyUP Crossing Culture",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511255",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
+    },
+    {
       "title": "DJ Manny and Host Bella @ Cabo Swingers' Resort",
       "starts_at": "2026-11-27T15:00:00-08:00",
       "venue": "Cabo Resort & Cabo Swingers Resort",
@@ -2589,6 +2683,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "ENJOY DJ JUANCA @LOULOU COVE - FRIDAY NIGHT!",
+      "starts_at": "2026-11-27T15:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511254",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
     },
     {
       "title": "Friday Open Mic & Karaoke at Echo Caverns",
@@ -2721,6 +2826,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "4PM \"FETISH FRIDAY\" with DJ ARIS & BROOK @ 24's SECRET SOCIETY",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511236",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "4PM SLT SINWAVE RAVE: GLOW PARTY @ VILLAINS UNDERGROUND",
@@ -2864,6 +2980,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T19:03:36.679412+00:00"
+    },
+    {
+      "title": "DJ TAZZIE AT WET SPOT FOR BLACK FRIDAY ! COME JOIN THE FUn.",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511251",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "Eddy Bexar live at The Dawn Star",
@@ -3438,6 +3565,17 @@
       "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
     },
     {
+      "title": "6PM \"FETISH FRIDAY\" with DJ SHELL & BROOK @ 24's SECRET SOCIETY",
+      "starts_at": "2026-11-27T18:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511237",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
+    },
+    {
       "title": "6PM SLT – DJ ROXEY'S ROCKING ROLLER COASTER @ THE CELLAR JAZZ CLUB",
       "starts_at": "2026-11-27T18:00:00-08:00",
       "venue": "THE CELLAR JAZZ CLUB",
@@ -3458,6 +3596,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T18:02:17.415795+00:00"
+    },
+    {
+      "title": "BLACK FRIDAY PARTY WITH DJ ROT AND HOST FRUTTI AT WET SPOT!",
+      "starts_at": "2026-11-27T18:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511252",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "CHAOS at Fire Country Saloon",
@@ -4285,6 +4434,17 @@
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
+      "title": "8PM \"FETISH FRIDAY\" with DJ TALYA and BROOK @ SECRET SOCIETY",
+      "starts_at": "2026-11-27T20:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511238",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
+    },
+    {
       "title": "C.U.T.S. WHITNEY HOUSTON TRIBUTE CONCERT",
       "starts_at": "2026-11-27T20:00:00-08:00",
       "venue": "Franks Elite Jazz Club - Elegant Romance",
@@ -4327,6 +4487,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "DJ LILA AND HOST DES AT WET SPOT FOR BLACK FRIDAY PARTY!    JOIN US FOR THE FUN AND TUNES.",
+      "starts_at": "2026-11-27T20:00:00-08:00",
+      "venue": "Wet Spot Beach Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511253",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "DJ LOREN BRINGS THE BLUES! CROSSROADS BLUES CLUB 8-10 PM",
@@ -4635,6 +4806,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "10PM \"FETISH FRIDAY\" with THE QUIET STORM - DJ DIME & SHELL",
+      "starts_at": "2026-11-27T22:00:00-08:00",
+      "venue": "24 Greenwich St - D/s BDSM Lifestyle Community & sub Safe Haven",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511239",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
     },
     {
       "title": "CLANDESTINA DJ & HOST AUDITIONS",
@@ -5138,6 +5320,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "Saturday Live at Club Caramel - DJ Focker",
+      "starts_at": "2026-11-28T05:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511232",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🟢⭐🟢▶ 5 am SILVERLIGHT GYPSYHEART  SINGING @~*SPIRIT OF THE OUTBACK*~ Land Down Under",
       "starts_at": "2026-11-28T05:00:00-08:00",
       "venue": "~*SPIRIT OF THE OUTBACK*~AUSTRALIAN LIVE MUSIC VENUE",
@@ -5237,6 +5430,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Saturday Live at Club Caramel - DJ Munaye",
+      "starts_at": "2026-11-28T06:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511240",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "WBH 3D Maze by Almost There",
@@ -23269,6 +23473,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Ugly Bill live in Dublin",
+      "starts_at": "2026-12-03T14:00:00-08:00",
+      "venue": "The Blarney Stone - Irish Pub",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9040019",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "⭐🎵⭐ 2 PM: JO BIG LIVE ON VIDEO @ The Golden Hour Club ⭐🎵⭐",
       "starts_at": "2026-12-03T14:00:00-08:00",
       "venue": "[The Golden Hour Club] * Live Music & Dance *",
@@ -27607,6 +27822,17 @@
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
+      "title": "Saturday Live at Club Caramel - DJ Focker",
+      "starts_at": "2026-12-05T05:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511233",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DJAY & LOOPERS COUNTRY AND COFFEE PARTY - COME GETCHA SOME!",
       "starts_at": "2026-12-05T05:30:00-08:00",
       "venue": "Boonies On The Lakefront",
@@ -27684,6 +27910,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Saturday Live at Club Caramel - DJ Munaye",
+      "starts_at": "2026-12-05T06:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511241",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "WBH 3D Maze by Almost There",
@@ -39988,6 +40225,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Saturday Live at Club Caramel - DJ Focker",
+      "starts_at": "2026-12-12T05:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511234",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DJ BETTS AND HOST TYPO MUDDY'S MUSIC CAFE 6-8AM SLT",
       "starts_at": "2026-12-12T06:00:00-08:00",
       "venue": ".:Cosmopolitan Events & Shopping:.",
@@ -40031,6 +40279,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Saturday Live at Club Caramel - DJ Munaye",
+      "starts_at": "2026-12-12T06:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511242",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "WBH 3D Maze by Almost There",
@@ -49158,6 +49417,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Saturday Live at Club Caramel - DJ Focker",
+      "starts_at": "2026-12-19T05:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511235",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DJ BETTS AND HOST TYPO MUDDY'S MUSIC CAFE 6-8AM SLT",
       "starts_at": "2026-12-19T06:00:00-08:00",
       "venue": ".:Cosmopolitan Events & Shopping:.",
@@ -49201,6 +49471,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "Saturday Live at Club Caramel - DJ Munaye",
+      "starts_at": "2026-12-19T06:00:00-08:00",
+      "venue": "!~ Club Caramel ~!",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511243",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "WBH 3D Maze by Almost There",
