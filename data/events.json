@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-27T16:12:09.008090+00:00",
+  "updated_at": "2026-11-27T17:17:04.133796+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -785,7 +785,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9498177",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-27T01:30:42.589712+00:00"
     },
@@ -808,7 +807,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9500176",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -820,7 +818,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9497571",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -1430,6 +1427,17 @@
       "venue_photo_checked_at": "2026-11-20T21:57:52.666678+00:00"
     },
     {
+      "title": "Cheer Clinic: Spot On Stage Manager & Launch Pad",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "SLIC - Second Life Intercheer Council",
+      "category": "Sports",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511311",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T17:19:39.265960+00:00"
+    },
+    {
       "title": "Custom Photo / texture editing, Profile, wedding, family, pets. Almost anything possible",
       "starts_at": "2026-11-27T12:00:00-08:00",
       "venue": "Home of Grey Fox Creations",
@@ -1694,6 +1702,17 @@
       "venue_photo_checked_at": "2026-11-25T13:32:45.736741+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2026-11-27T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511299",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Tillen sings at Sanctuary at 12 PM",
       "starts_at": "2026-11-27T12:00:00-08:00",
       "venue": "Sanctuary, EST. 2008",
@@ -1868,6 +1887,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
+    },
+    {
+      "title": "⚠️ ! PERVERTS ! Where your darkest fantasies come to life. TP now! ⚠️",
+      "starts_at": "2026-11-27T12:30:00-08:00",
+      "venue": "! PERVERTS !",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9510580",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T17:19:39.265960+00:00"
     },
     {
       "title": "⭐🎵⭐ 12:30 PM: DJ CRYPTTO BASZ @ The Golden Hour Club ⭐🎵⭐",
@@ -3828,6 +3858,17 @@
       "venue_photo_checked_at": "2026-11-23T22:02:38.778333+00:00"
     },
     {
+      "title": "FRIDAY NIGHT AT THE EMPIRE ROOM 6PM LIVE !!",
+      "starts_at": "2026-11-27T18:00:00-08:00",
+      "venue": "The Empire Room",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511280",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T17:19:39.265960+00:00"
+    },
+    {
       "title": "FRIDAY NIGHTS ROCK @ SAVAGES W/ DJ CRIMSON!",
       "starts_at": "2026-11-27T18:00:00-08:00",
       "venue": "Savages- We are Hiring DJs and Hosts",
@@ -4574,6 +4615,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Dj Dolly M in  @LouLou  Venue: the Cove !!  Come On !!!",
+      "starts_at": "2026-11-27T20:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511275",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T12:06:48.825626+00:00"
     },
     {
       "title": "FRIDAY W/ DJ D-LUV & WILD AT MUDDY'S CAFE",
@@ -14788,6 +14840,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "Hojo Warf   @ Streaming Falls 3 pm slt",
+      "starts_at": "2026-11-30T15:00:00-08:00",
+      "venue": "Streaming Falls",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9384771",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
+    },
+    {
       "title": "LINGERIE OR LESS \"Sinful system Shock\" DJ Sin @ The Twisted Orchid Fetish & BDSM Club",
       "starts_at": "2026-11-30T15:00:00-08:00",
       "venue": "Twisted Orchid Fetish & BDSM Club - Dungeons - Events - Hangout",
@@ -15030,6 +15093,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Twostep SpiritWeaver, Edward Lowell & Wizard  @ Streaming Falls  4 pm slt",
+      "starts_at": "2026-11-30T16:00:00-08:00",
+      "venue": "Streaming Falls",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8242004",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
+    },
+    {
       "title": "~Moonday night With Flann & Mandy~",
       "starts_at": "2026-11-30T16:00:00-08:00",
       "venue": "Harlow's Dance & Party Club",
@@ -15182,6 +15256,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
+    },
+    {
+      "title": "Effinjay, Edward Lowell, Wizard & Twostep  @ Streaming Falls 5 pm slt",
+      "starts_at": "2026-11-30T17:00:00-08:00",
+      "venue": "Streaming Falls",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8236743",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T17:44:56.164310+00:00"
     },
     {
       "title": "Gary Jonstone at The Red River Saloon",
@@ -20966,6 +21051,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "COME DISCOVER THE SONGS OF WES WEST AT CAFE MUSIQUE!",
+      "starts_at": "2026-12-02T17:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511279",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
       "title": "DJ Charlie LIVE @ Roll R Way Rink",
       "starts_at": "2026-12-02T17:00:00-08:00",
       "venue": "Roll R Way Entertainment",
@@ -26099,6 +26195,17 @@
       "venue_photo_checked_at": "2026-11-16T19:03:59.505309+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2026-12-04T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511300",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "Warehouse 21 ★ [blues, rock, trance, techno, house, nudisco, trance, funk]",
       "starts_at": "2026-12-04T12:00:00-08:00",
       "venue": "Warehouse 21",
@@ -28077,6 +28184,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👑 𝐇𝐈𝐑𝐈𝐍𝐆 𝐂𝐎𝐔𝐑𝐓𝐄𝐒𝐀𝐍𝐒 @ 𝐑𝐎𝐔𝐆𝐄 👑",
+      "starts_at": "2026-12-05T07:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511282",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "DJ CROSSFIRE @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-12-05T08:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -28132,6 +28250,17 @@
       "venue_photo_checked_at": "2026-11-14T16:50:17.689063+00:00"
     },
     {
+      "title": "👑 𝗕𝗘 𝗢𝗨𝗥 𝗩𝗜𝗣 𝗚𝗨𝗘𝗦𝗧 @ [ 𝗥𝗢𝗨𝗚𝗘 ] 👑",
+      "starts_at": "2026-12-05T08:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511283",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "GO 🕹️ Back To The 80s! 🕶️ For Mordecai's 📺 Saturday Morning Cartoon Party 📼",
       "starts_at": "2026-12-05T09:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -28163,6 +28292,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🍒 NEW TO THE ADULT INDUSTRY? 🍒",
+      "starts_at": "2026-12-05T09:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511284",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "!!!DJ MADISON!!!",
@@ -28320,6 +28460,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T21:03:43.378293+00:00"
+    },
+    {
+      "title": "💄 👠 CLASSINESS IS A DRUG @ [ROUGE] 👠 💄",
+      "starts_at": "2026-12-05T10:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511285",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "Cheeky Monkey Hunt at DINKIEWEAR... New theme each month!",
@@ -28671,6 +28822,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "👠 ELEGANT LADIES WANTED 👠",
+      "starts_at": "2026-12-05T12:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511286",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "::: Lokki LIVE AT END OF TIME",
       "starts_at": "2026-12-05T13:00:00-08:00",
       "venue": "Main Stage",
@@ -28834,6 +28996,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "⌇🕺💃⌇  INTIMATE AND COMFY @ [ ROUGE ] ⌇🕺💃⌇",
+      "starts_at": "2026-12-05T13:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511287",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "⭐🎵⭐ 1 PM: TAY live @ The Golden Hour Club ⭐🎵⭐",
@@ -29056,6 +29229,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "👠 DISTINGUISHED LADIES INVITED 👠",
+      "starts_at": "2026-12-05T14:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511288",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "Adagio Karaoke",
       "starts_at": "2026-12-05T15:00:00-08:00",
       "venue": "Adagio Gardens Undersea to Winterland - Worlds Within & Karaoke",
@@ -29175,6 +29359,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "⌇🍌⌇ HEAVENLY HEDONISM @ ROUGE ⌇🍌⌇",
+      "starts_at": "2026-12-05T15:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511289",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "***SATURDAY SESSIONS AT ONE NYTE STAND***",
@@ -29461,6 +29656,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
+      "title": "👑 HIGH-CLASS PERFORMERS INVITED 👑",
+      "starts_at": "2026-12-05T17:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511291",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "Live Mix House Music with DJ Meg - Club Tryst",
@@ -29815,6 +30021,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🗝️ HOUSE OF WHISPERS @ [ROUGE] 🗝️",
+      "starts_at": "2026-12-05T18:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511292",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "Surround yourself in Love, Beauty, and Music - Many secluded places throughout",
       "starts_at": "2026-12-05T18:30:00-08:00",
       "venue": "Hypnotic Romance: Couples dancing in a Romantic Garden setting",
@@ -30100,6 +30317,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "💄 THE SILENT TEMPTATION @ [ ROUGE ] 💄",
+      "starts_at": "2026-12-05T19:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511293",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "DJ DC @ WATERMELON SUGAR CLUB",
       "starts_at": "2026-12-05T20:00:00-08:00",
       "venue": "WATERMELON SUGAR COUNTRY",
@@ -30353,6 +30581,17 @@
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
+      "title": "🌜 NOCTURNAL SESSIONS @ [ ROUGE ] 🌛",
+      "starts_at": "2026-12-05T22:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511294",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "😎🎶 BEAUTIFUL CHAOS w/ DJ Jasmine & Dana 🎶😎",
       "starts_at": "2026-12-05T22:00:00-08:00",
       "venue": "Eye Candy Music Club",
@@ -30432,6 +30671,17 @@
       "venue_photo_checked_at": "2026-11-24T13:26:49.137686+00:00"
     },
     {
+      "title": "🥂 THE FINEST CLUB IN TOWN @ [ROUGE] 🥂",
+      "starts_at": "2026-12-06T00:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511295",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "~~KOGA FIREHAWK Live @ SOUNDWAVE at 1am~~",
       "starts_at": "2026-12-06T01:00:00-08:00",
       "venue": "The Music Hive",
@@ -30476,6 +30726,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🍷 LUXURIOUS MEETING @ [ ROUGE ] 🍷",
+      "starts_at": "2026-12-06T03:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511296",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "Erotic Story Hour w/ Oded Fahid @ Caco Swingers' Resort",
@@ -30635,6 +30896,17 @@
       "venue_photo_checked_at": "2026-11-15T06:00:43.740617+00:00"
     },
     {
+      "title": "🌹 FEELS LIKE HEAVEN @ [ ROUGE ] 🌹",
+      "starts_at": "2026-12-06T07:00:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511297",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
       "title": "🍹🍹🍹Relax and Play @ PZ🍹🍹🍹",
       "starts_at": "2026-12-06T07:00:00-08:00",
       "venue": "Pleasure Zone Retreat",
@@ -30712,6 +30984,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "🍓 STRAWBERRY SMELL @ { ROUGE } 🍓",
+      "starts_at": "2026-12-06T09:30:00-08:00",
+      "venue": "[ ROUGE ] - Hotel Club Bar & Lounge / Bath & Spa / Luxury Venue",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511298",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
       "title": "🔥 FULLY UNCENSORED CHAOS (F.U.C.) WRESTLING 🔥",
@@ -36362,6 +36645,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Singer  Lostsinger  @  A LITTLE HONKY TONK BAR  5-6  PM",
+      "starts_at": "2026-12-09T17:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511270",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "📺 Go 🕹️ Back To The 80s! 🕶️ DJ Sandra's Flipped the Mixtape: Side B 📼",
       "starts_at": "2026-12-09T17:00:00-08:00",
       "venue": "Back To The 80s Nightclub <> www.BackToThe80s.club",
@@ -36536,6 +36830,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Singer Juppar @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-09T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511271",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "WYLD BLUES!!",
@@ -38274,6 +38579,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Singer PAUL @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-10T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511272",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Subsonic Underground Live Mix DJ's",
       "starts_at": "2026-12-10T18:00:00-08:00",
       "venue": "SUBSONIC - Feel the Frequency Live Mix DJs  Music Hangout",
@@ -38481,6 +38797,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Singer Hogan Baily  @ A LITTLE HONKY TONK BAR 7-8 PM",
+      "starts_at": "2026-12-10T19:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511273",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "Velvet Q. LIVE @ VELVET CHAINS. 7 SLT",
@@ -39260,6 +39587,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-24T15:11:10.894881+00:00"
+    },
+    {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2026-12-11T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511301",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Warehouse 21 ★ [blues, rock, trance, techno, house, nudisco, trance, funk]",
@@ -44051,6 +44389,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "Singer Makayla @ A LITTLE HONKY TONK BAR 5-6 PM",
+      "starts_at": "2026-12-14T17:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511274",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Swingin' The Music Factory With DJ Bea 5 PM",
       "starts_at": "2026-12-14T17:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -44148,6 +44497,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Singer SOME T JUP @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-14T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511276",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "🏳️‍⚧️🏳️‍🌈Tonight: DJ Starfall at Heart of Gold 🏳️‍🌈🏳️‍⚧️",
@@ -45215,6 +45575,17 @@
       "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
     },
     {
+      "title": "Singer MrMikie  @ A LITTLE HONKY TONK BAR 5-6 PM Live video",
+      "starts_at": "2026-12-15T17:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511277",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "6PM SLT - DJ BC SUSSER’S BREAK FROM ALL THAT JAZZ @ THE CELLAR",
       "starts_at": "2026-12-15T18:00:00-08:00",
       "venue": "THE CELLAR JAZZ CLUB",
@@ -45279,6 +45650,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
+    },
+    {
+      "title": "Singer  Gemini Silverstone  @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-15T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511278",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "Swingin' CDS With DJ Bea @ The Rhenus Docks 6 PM",
@@ -46489,6 +46871,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Singer Wayne Rhodell  @ A LITTLE HONKY TONK BAR 4-5 PM",
+      "starts_at": "2026-12-16T16:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511290",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "🍑 Hump Day w/ DJ Teri @ Cyber Punk Club 🍑",
       "starts_at": "2026-12-16T16:00:00-08:00",
       "venue": "Cyber Punk Club",
@@ -46707,6 +47100,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Singer Juppar @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-16T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511281",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "❤️FOXXIES WED DJ FOXXEELADY🌹6PM ROMANTIC DANCING CLOUDS FRANKS FRANK'S HARMONY LOVE HOTWIFE",
@@ -48737,6 +49141,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
+    },
+    {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2026-12-18T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511302",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "Warehouse 21 ★ [blues, rock, trance, techno, house, nudisco, trance, funk]",
@@ -61907,6 +62322,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-01-01T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511304",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "~~ FLY KUGIN ~~ @  LOVE HEAVEN live music 12:00pm",
       "starts_at": "2027-01-01T12:00:00-08:00",
       "venue": "Love Heaven",
@@ -66618,6 +67044,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-01-08T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511305",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-01-08T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -70385,6 +70822,17 @@
       "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-01-15T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511306",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-01-15T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -73500,6 +73948,17 @@
       "venue_photo_checked_at": "2026-11-06T17:00:14.905288+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-01-22T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511307",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-01-22T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -76069,6 +76528,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-01-29T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511308",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-01-29T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -78111,6 +78581,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-02-05T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511309",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-02-05T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -79541,6 +80022,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-02-12T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511310",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
       "starts_at": "2027-02-12T12:00:00-08:00",
       "venue": "THE DELFINA CLUB. Est.2020. MUSIC & DANCE PARTLY PBR",
@@ -80375,6 +80867,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "The Friday Frolic with DJ Bailey",
+      "starts_at": "2027-02-19T12:00:00-08:00",
+      "venue": "LONDON CITY - Madame Lala's Revue Bar",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511303",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "♬═ In Aria's Head ═ 🎧 12PM SLT w/ AriaWynn and Neri",
