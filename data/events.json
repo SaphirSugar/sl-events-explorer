@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-27T15:04:27.696671+00:00",
+  "updated_at": "2026-11-27T16:12:09.008090+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -664,7 +664,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9499338",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
@@ -1090,6 +1089,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Lee and Dante with excellent tunes @ Little Mistake!!!",
+      "starts_at": "2026-11-27T10:30:00-08:00",
+      "venue": "Little Mistake",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511265",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T16:14:23.802589+00:00"
+    },
+    {
       "title": "11AM ARVORIE SINGS TODAY AT THE SHEWORTHY",
       "starts_at": "2026-11-27T11:00:00-08:00",
       "venue": "The Sheworthy",
@@ -1176,6 +1186,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Hot Winter Wonderland with DJ IVONE Viper",
+      "starts_at": "2026-11-27T11:00:00-08:00",
+      "venue": "Infinity Spa  - Modern Luxury & Adult Retreat",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511260",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T16:14:23.802589+00:00"
     },
     {
       "title": "LIVE: DJ TEAH at (Starlust) SINNERS",
@@ -2883,6 +2904,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Come Feel the BLUES with Dj Gib & Missy @Crossroads Blues Club",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "CROSSROADS Blues Club",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511259",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "DJ BO & HOST IVY LIVE @ SOUTHERN SWING!",
       "starts_at": "2026-11-27T16:00:00-08:00",
       "venue": "Southern Swing Country Club",
@@ -3068,6 +3100,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Mystelle & Band, 4pm @ Surfside Hideaway",
+      "starts_at": "2026-11-27T16:00:00-08:00",
+      "venue": "Surfside Hideaway",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509393",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "ROSSO NOTTE - Festa do mendigo",
@@ -3302,6 +3345,17 @@
     },
     {
       "title": "Ed Lowell, Mic Multiwriter and Wizard Sideshow, 5pm @ Surfside Hideaway",
+      "starts_at": "2026-11-27T17:00:00-08:00",
+      "venue": "Surfside Hideaway",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9509395",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Ed Lowell, MrMulti Writer and Wizard Sideshow, 5pm @ Surfside Hideaway",
       "starts_at": "2026-11-27T17:00:00-08:00",
       "venue": "Surfside Hideaway",
       "category": "Live Music",
@@ -14613,6 +14667,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "🌅🎶💕 YOUR BEST MONDAY AFTERNOON AT LOVE & HARMONY JAZZ WITH DJ ALEXANDERTG 2PM 💕🎶",
+      "starts_at": "2026-11-30T14:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511258",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "🎄 OuieNanda - 2:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
       "starts_at": "2026-11-30T14:00:00-08:00",
       "venue": "SL CHRISTMAS EXPO 2026 WELCOME REGION",
@@ -14974,6 +15039,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-10T01:10:28.453093+00:00"
+    },
+    {
+      "title": "🌅🎶💕 SPEND MONDAY AFTERNOON AT AWARD-WINNING LOVE & HARMONY JAZZ DJ JOHNNY CRASH 4PM💕🎶",
+      "starts_at": "2026-11-30T16:00:00-08:00",
+      "venue": "Love&Harmony Jazz Romantic Award Winning Venue",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511261",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "🎄 Abby Jaidov - 4:00 PM - LIVE @ the Holly Jolly Café – SL Christmas Expo 🎄",
@@ -17016,6 +17092,17 @@
       "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
+      "title": "ADRIANO NORMAN BRINGS ROCK ENERGY AND NOSTAGLIA TO CAFE MUSIQUE",
+      "starts_at": "2026-12-01T12:00:00-08:00",
+      "venue": "Cafe Musique",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8967345",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "BRITT TRAFALGAR LIVE AT ROMANTICA PARK, ROMANTICA",
@@ -33111,6 +33198,17 @@
       "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
     },
     {
+      "title": "Singer Makayla @ A LITTLE HONKY TONK BAR 5-6 PM",
+      "starts_at": "2026-12-07T17:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511264",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Swingin' The Music Factory With DJ Bea 5 PM",
       "starts_at": "2026-12-07T17:00:00-08:00",
       "venue": ".::The Music Factory::.",
@@ -33230,6 +33328,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Singer SOME T JUP @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-07T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511266",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "Wild Attention @ The Nature Collective",
@@ -34594,6 +34703,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "Singer MrMikie  @ A LITTLE HONKY TONK BAR 5-6 PM Live video",
+      "starts_at": "2026-12-08T17:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511267",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
+    },
+    {
       "title": "Tuesday Evenings at !~ Club Caramel ~!",
       "starts_at": "2026-12-08T17:00:00-08:00",
       "venue": "!~ Club Caramel ~!",
@@ -34724,6 +34844,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Singer  Gemini Silverstone  @ A LITTLE HONKY TONK BAR 6-7 PM",
+      "starts_at": "2026-12-08T18:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511268",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "Swingin' CDS With DJ Bea @ The Rhenus Docks 6 PM",
@@ -36119,6 +36250,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Singer Wayne Rhodell  @ A LITTLE HONKY TONK BAR 4-5 PM",
+      "starts_at": "2026-12-09T16:00:00-08:00",
+      "venue": "A LITTLE HONKY TONK BAR",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511269",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
       "title": "🍑 Hump Day w/ DJ Teri @ Cyber Punk Club 🍑",
@@ -38066,6 +38208,17 @@
       "venue_photo_checked_at": "2026-11-26T16:17:31.128383+00:00"
     },
     {
+      "title": "Drum Circle @WBH",
+      "starts_at": "2026-12-10T18:00:00-08:00",
+      "venue": "WBH Drum Circle",
+      "category": "Miscellaneous",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8136759",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T22:52:16.595307+00:00"
+    },
+    {
       "title": "GANDALF MORNINGTON LIVE AT KITTENZ",
       "starts_at": "2026-12-10T18:00:00-08:00",
       "venue": "Kittenz Kreation - https://kittenzkreations.club/",
@@ -38988,6 +39141,17 @@
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
+      "title": "::: Russell Eponym live at End of Time",
+      "starts_at": "2026-12-11T12:00:00-08:00",
+      "venue": "Burnt Norton",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=8987094",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T18:01:48.881123+00:00"
+    },
+    {
       "title": "Custom Photo / texture editing, Profile, wedding, family, pets. Almost anything possible",
       "starts_at": "2026-12-11T12:00:00-08:00",
       "venue": "Home of Grey Fox Creations",
@@ -39206,6 +39370,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Will N LeBlanc and IVY FADEL |  LIVE PERFORMANCES",
+      "starts_at": "2026-12-11T13:00:00-08:00",
+      "venue": "https://www.flickr.com/groups/pulaulintea/",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511257",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T16:14:23.802589+00:00"
     },
     {
       "title": "⭐🎵⭐ 1 PM: Grace Loudon live @ The Golden Hour Club ⭐🎵⭐",
@@ -42409,6 +42584,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "HAZE",
+      "starts_at": "2026-12-13T12:00:00-08:00",
+      "venue": "https://www.flickr.com/groups/pulaulintea/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511262",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-27T16:14:23.802589+00:00"
     },
     {
       "title": "JUNKYARD BLUES presents D-JANE & Host Kate Sunday 12-2 PM",
