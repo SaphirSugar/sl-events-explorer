@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-28T15:54:56.184543+00:00",
+  "updated_at": "2026-11-28T16:56:32.439430+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -25,6 +25,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507568",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
@@ -36,6 +38,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=7999696",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
@@ -47,6 +51,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9509654",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/874c121f-99ab-4caf-505c-dad3d37b9786/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -58,6 +64,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9479697",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -69,6 +77,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9500098",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/40c64ae4-5348-339e-7e6d-dc1f6cf1d2ee/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -80,6 +90,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9465369",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f46d6dfe-d1a3-80b3-1890-de58b54e7de7/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -91,6 +103,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511479",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/479843dd-33c7-4626-3521-d98b24d53292/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-24T13:26:49.137686+00:00"
     },
     {
@@ -102,6 +116,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9487414",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ed487acf-042f-3cfb-5758-f8f61b0f6203/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -113,6 +129,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511440",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/334fe947-e1e0-f164-f624-ec287cf3a0f1/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-27T23:07:51.338478+00:00"
     },
     {
@@ -124,6 +142,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508244",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -135,6 +155,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9497237",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/d4010c65-bcab-99a7-1070-27d7d1d726e2/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:10:19.385604+00:00"
     },
     {
@@ -146,6 +168,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511567",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/4e2f74ae-9ce1-2035-8829-d17d33f2f36c/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-28T14:14:22.176882+00:00"
     },
     {
@@ -157,6 +181,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508245",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -168,6 +194,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=7995156",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
@@ -179,6 +207,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9510728",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f263d8ad-72e6-1a7d-39b4-5851b4c0cae8/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-26T09:19:40.264771+00:00"
     },
     {
@@ -190,6 +220,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507569",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
@@ -201,6 +233,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9489319",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
@@ -212,6 +246,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9510144",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-22T22:54:13.665290+00:00"
     },
     {
@@ -223,6 +259,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8167412",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-26T03:04:56.098643+00:00"
     },
     {
@@ -234,6 +272,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9300310",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ffaba1a5-18ca-a89b-1704-f87fad200456/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
@@ -245,6 +285,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511524",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/246341aa-076a-ec38-77fd-f9c1052c448a/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-28T14:14:22.176882+00:00"
     },
     {
@@ -256,6 +298,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9510145",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-22T22:54:13.665290+00:00"
     },
     {
@@ -267,6 +311,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9508246",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/6f4e2d15-29bc-c4d5-f139-8999250cb18b/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
     },
     {
@@ -278,6 +324,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8738391",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-26T03:04:56.098643+00:00"
     },
     {
@@ -289,6 +337,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9078090",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-26T03:04:56.098643+00:00"
     },
     {
@@ -300,6 +350,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9509756",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/ca19431a-76f4-43ce-0c8f-0d84b14fc722/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-24T01:20:56.676418+00:00"
     },
     {
@@ -311,6 +363,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511021",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/5fecca31-d7a2-4565-3eab-ba0ef06bf31d/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-28T14:14:22.176882+00:00"
     },
     {
@@ -322,6 +376,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9507570",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00"
     },
     {
@@ -333,6 +389,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9510580",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f411fd74-60e2-46ed-1cb7-720b6e510bf7/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-28T14:14:22.176882+00:00"
     },
     {
@@ -344,6 +402,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=8694446",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-26T03:04:56.098643+00:00"
     },
     {
@@ -355,6 +415,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=7996373",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-26T03:04:56.098643+00:00"
     },
     {
@@ -379,6 +441,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511594",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/f274c51b-1645-ec4b-1503-9b1a58a7f552/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-28T11:58:15.131393+00:00"
     },
     {
@@ -390,6 +454,8 @@
       "url": "https://secondlife.com/my/community/events/event.php?id=9511232",
       "teleport_url": null,
       "official_category": true,
+      "image_url": "https://picture-service.secondlife.com/af5c59f1-f2c7-daa8-e163-6a39893f4985/256x192.jpg",
+      "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
@@ -743,17 +809,6 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-27T15:09:02.095291+00:00"
-    },
-    {
-      "title": "DJ RICK LIVE @ SOUTHERN SWING!",
-      "starts_at": "2026-11-28T08:00:00-08:00",
-      "venue": "Southern Swing Country Club",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9506355",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
       "title": "ELLIE BRINGS HER SMOOTH VOCALS TO  CAFE MUSIQUE",
@@ -1420,6 +1475,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-25T11:07:47.403686+00:00"
+    },
+    {
+      "title": "LOULOU presents DJ MIMI debute tonight 11am!",
+      "starts_at": "2026-11-28T11:00:00-08:00",
+      "venue": "LOULOU       https://www.loulou-sl.com/",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511694",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-28T14:14:22.176882+00:00"
     },
     {
       "title": "Latex Saturday \"Belters & Bangers\" DJ Stevie @ The Twisted Orchid Fetish & BDSM Club",
@@ -2438,6 +2504,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "ELYSIUM CABARET SATURDAY MATINEE 1PM !!! LIVE",
+      "starts_at": "2026-11-28T13:00:00-08:00",
+      "venue": "The Empire Room",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511695",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-28T16:59:30.892849+00:00"
+    },
+    {
       "title": "Enchantment - Grid-Wide Hunt! - Whispers of Elvenwood",
       "starts_at": "2026-11-28T13:00:00-08:00",
       "venue": "Enchantment Event - The Whispers of Elvenwood",
@@ -3140,6 +3217,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-08T08:11:00.007598+00:00"
+    },
+    {
+      "title": "🎄WELCOME CHRISTMAS SEASON🎄🎧DJ RAS Mills💖 Host Sarita Bohemia",
+      "starts_at": "2026-11-28T14:30:00-08:00",
+      "venue": "PartyUP Crossing Culture",
+      "category": "Nightlife & Entertainment",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511696",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-28T16:59:30.892849+00:00"
     },
     {
       "title": "😈 DJ SOUNDSLAMMER | LINGERIE IN THE RUINS | DAY 2 🔥",
