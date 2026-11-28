@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-28T09:58:08.630587+00:00",
+  "updated_at": "2026-11-28T10:56:58.307567+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -15,85 +15,6 @@
       "image_url": "https://picture-service.secondlife.com/eb8e31e5-f8b9-d4f0-b87c-13672d24b367/256x192.jpg",
       "image_source": "official_event_photo",
       "venue_photo_checked_at": "2026-11-20T21:57:52.666678+00:00"
-    },
-    {
-      "title": "BALLROOM DANCING AND THE BEST PLACE TO PROPOSE OR GET MARRIED - FRANK'S ELITE",
-      "starts_at": "2026-11-28T02:00:00-08:00",
-      "venue": "Franks Elite Jazz Club - Elegant Romance",
-      "category": "Commercial",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=7995156",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00",
-      "image_url": "https://picture-service.secondlife.com/c370e208-ac10-8218-7e12-2f5824979639/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "DJ LUV FIST YACHT PARTY",
-      "starts_at": "2026-11-28T02:00:00-08:00",
-      "venue": "The Purple Leopard Party Yacht Club",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9510728",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-26T09:19:40.264771+00:00",
-      "image_url": "https://picture-service.secondlife.com/f263d8ad-72e6-1a7d-39b4-5851b4c0cae8/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "DJS @ WATERMELON SUGAR CLUB",
-      "starts_at": "2026-11-28T02:00:00-08:00",
-      "venue": "WATERMELON SUGAR COUNTRY",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9507569",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-14T21:46:10.992131+00:00",
-      "image_url": "https://picture-service.secondlife.com/02f88a18-d57e-27d2-cc7a-527190d6f0ce/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "MUDDY'S  AUSTRALIAN DYNAMIC DUO   DJ TOOHEY & JP 2 TO 4 A.M.",
-      "starts_at": "2026-11-28T02:00:00-08:00",
-      "venue": "Muddy's Music Cafe & Radio (PG) Where Everyone Knows Your Name",
-      "category": "Live DJ",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9489319",
-      "teleport_url": null,
-      "maturity": "Unspecified",
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00",
-      "image_url": "https://picture-service.secondlife.com/c7da5208-ba1c-d88b-0bbb-1540e49fa017/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "Monay Amour LIVE !",
-      "starts_at": "2026-11-28T02:00:00-08:00",
-      "venue": "The Bricks at Phat Cats",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=9510144",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-22T22:54:13.665290+00:00",
-      "image_url": "https://picture-service.secondlife.com/f3c71ff4-fd05-35c2-843b-2ad32831a583/256x192.jpg",
-      "image_source": "official_event_photo"
-    },
-    {
-      "title": "🔴▶▶~*SPIRIT OF THE OUTBACK*~ STARTS > 3am -8am SLT YES 5 FULL HOURS OF ROCKIN PERFORMERS",
-      "starts_at": "2026-11-28T02:00:00-08:00",
-      "venue": "~*SPIRIT OF THE OUTBACK*~AUSTRALIAN LIVE MUSIC VENUE",
-      "category": "Live Music",
-      "description": "",
-      "url": "https://secondlife.com/my/community/events/event.php?id=8167412",
-      "teleport_url": null,
-      "official_category": true,
-      "venue_photo_checked_at": "2026-11-26T03:04:56.098643+00:00",
-      "image_url": "https://picture-service.secondlife.com/7ed7e017-b752-d26b-7bca-635fee4f3237/256x192.jpg",
-      "image_source": "official_event_photo"
     },
     {
       "title": "3am. JPeabody live @ Alley Catz Club",
