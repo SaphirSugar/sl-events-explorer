@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updated_at": "2026-11-28T14:57:27.521783+00:00",
+  "updated_at": "2026-11-28T15:54:56.184543+00:00",
   "source": "https://secondlife.com/events/index.php?lang=en-US",
   "events": [
     {
@@ -609,7 +609,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9476720",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-22T08:24:43.562517+00:00"
     },
@@ -621,7 +620,6 @@
       "description": "",
       "url": "https://secondlife.com/my/community/events/event.php?id=9494283",
       "teleport_url": null,
-      "maturity": "Unspecified",
       "official_category": true,
       "venue_photo_checked_at": "2026-11-09T21:56:26.919768+00:00"
     },
@@ -1757,6 +1755,17 @@
       "venue_photo_checked_at": "2026-11-05T18:07:48.894174+00:00"
     },
     {
+      "title": "DJ Kitten @ Sappho's Purring Kitten",
+      "starts_at": "2026-11-28T12:00:00-08:00",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511679",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
+    },
+    {
       "title": "DJ LEO spins the best blues at Junkyard Blues from 12-2 PM",
       "starts_at": "2026-11-28T12:00:00-08:00",
       "venue": "Junkyard Blues - 20 years of fine blues and friendly people",
@@ -2066,6 +2075,28 @@
       "venue_photo_checked_at": "2026-11-05T20:02:06.342977+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2026-11-28T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511682",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "Shameless Saturday @ Farley's Pub!! Rock on! Win L$ cash",
+      "starts_at": "2026-11-28T12:00:00-08:00",
+      "venue": "Farley's Pub",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9502113",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-07T10:51:37.355953+00:00"
+    },
+    {
       "title": "THE BATSHIT BALL - THE GRATITUDE BALL! @ ALKALINE - DJ Ana",
       "starts_at": "2026-11-28T12:00:00-08:00",
       "venue": "Chemistry Spookeasy + Alkaline Ballroom",
@@ -2262,6 +2293,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-25T18:00:47.562082+00:00"
+    },
+    {
+      "title": "** CAROLA CORVINUS @ PARIS EIFFEL **",
+      "starts_at": "2026-11-28T13:00:00-08:00",
+      "venue": "~~ Paris Eiffel ~~ Paris 1900",
+      "category": "Live Music",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511681",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-28T15:57:08.632962+00:00"
     },
     {
       "title": "::: Mystelle and Band live AT END OF TIME",
@@ -3460,6 +3502,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
+      "title": "DJ Justine @ Sappho's Puring Kitten",
+      "starts_at": "2026-11-28T16:00:00-08:00",
+      "venue": "Sappho's Purring Kitten Lesbian / BDSM / LGBTQ+ (Women only)",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511680",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-10T12:03:30.735038+00:00"
     },
     {
       "title": "DJ Lang has the Blues for you  @ The Music Factory",
@@ -26063,6 +26116,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2026-12-05T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511683",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "TRA$HER LUCKY 77 SALES EVENT",
       "starts_at": "2026-12-05T12:00:00-08:00",
       "venue": "TRA$HER - www.trashersl.com",
@@ -39354,6 +39418,17 @@
       "venue_photo_checked_at": "2026-11-23T03:05:03.990118+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2026-12-12T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511684",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2026-12-12T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -49042,6 +49117,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2026-12-19T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511685",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2026-12-19T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -56447,6 +56533,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2026-12-26T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511686",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2026-12-26T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -62174,6 +62271,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-01-02T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511687",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "TRA$HER LUCKY 77 SALES EVENT",
       "starts_at": "2027-01-02T12:00:00-08:00",
       "venue": "TRA$HER - www.trashersl.com",
@@ -66830,6 +66938,17 @@
       "venue_photo_checked_at": "2026-11-23T03:05:03.990118+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-01-09T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511688",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2027-01-09T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -70544,6 +70663,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-01-16T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511689",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2027-01-16T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -73711,6 +73841,17 @@
       "venue_photo_checked_at": "2026-11-05T17:44:29.688869+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-01-23T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511690",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2027-01-23T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -76291,6 +76432,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-01-30T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511691",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "The Twinkling Market - Live DJ Krazy Kata",
       "starts_at": "2027-01-30T12:00:00-08:00",
       "venue": "*Twilight Twinkles Auction & Market*",
@@ -78254,6 +78406,17 @@
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
     },
     {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-02-06T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511692",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
+    },
+    {
       "title": "TRA$HER LUCKY 77 SALES EVENT",
       "starts_at": "2027-02-06T12:00:00-08:00",
       "venue": "TRA$HER - www.trashersl.com",
@@ -79583,6 +79746,17 @@
       "teleport_url": null,
       "official_category": true,
       "venue_photo_checked_at": "2026-11-05T16:18:13.853808+00:00"
+    },
+    {
+      "title": "Saturday Event @Club Numinastic starts at 12 to 4:30PM",
+      "starts_at": "2027-02-13T12:00:00-08:00",
+      "venue": "Club Numinastic/Numiland",
+      "category": "Live DJ",
+      "description": "",
+      "url": "https://secondlife.com/my/community/events/event.php?id=9511693",
+      "teleport_url": null,
+      "official_category": true,
+      "venue_photo_checked_at": "2026-11-05T17:23:15.842349+00:00"
     },
     {
       "title": "PUTRI SOLO LIVE AT ROMANTICA PARK, ROMANTICA",
